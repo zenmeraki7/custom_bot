@@ -1,10 +1,5 @@
 # 🤖 Chottu Bot – Bilingual Customer Support API
 
-**Chottu** is an intelligent, bilingual (English + Manglish) customer support chatbot designed for **Zen Meraki Clothing Store**.
-
-It combines **semantic search**, **sentiment-aware responses**, and **LLM fallback (Ollama)** to deliver fast, context-aware, and locally natural conversations.
-
----
 
 ## ✨ Key Features
 
