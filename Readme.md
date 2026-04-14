@@ -1,7 +1,3 @@
-Here are the files in plain text, ready to copy and save as `README.md` and `requirements.txt`.
-
----
-
 ## `README.md` (copy the entire block)
 
 ```markdown
