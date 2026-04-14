@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "faq_pricing_001",
+    "category": "pricing",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["What is the price?", "What is the rate?", "How much does it cost?", "Do you have a price list?", "What is the cost?", "Can you tell me the price?", "What is the price of the shirt?", "What is the price of the dress?", "Can I check the price?", "What's the cost of this item?", "How much do I need to pay?", "Price please", "Tell me the rate", "What does this cost?"],
+        "negative": ["Why is the price so high?", "Why is the price so high here?", "Can you reduce the price?", "Waste of money.", "Is this really the price?", "I can get it cheaper at other shops.", "The price is not right.", "I can get it cheap elsewhere.", "This is overpriced", "Too expensive for this quality", "Price is ridiculous", "You're charging too much", "Not worth this much", "Price is a rip-off"],
+        "positive": ["The price is good.", "The rate is reasonable.", "It is affordable.", "The price was good.", "The price is okay.", "The price is fair.", "Very reasonable pricing", "Good value for money", "Fair price", "Budget friendly", "Worth every rupee"],
+        "sarcastic": ["Sure, with this pricing, right?", "Is this all the price is?", "What a great price!", "What a superb rate, huh?", "With such a high price, someone will come and buy.", "Oh wow, what a steal!", "Yeah, totally affordable (not)", "Price is just perfect for my empty wallet", "I love paying extra", "Great pricing strategy"],
+        "urgent": ["What is today's price?", "What is the price right now?", "What is the sale price right now?", "Need price urgently", "Price now please", "Current price fast", "Tell me immediately", "Today's best price?"]
+      },
+      "answers": {
+        "neutral": "Price depends on the item! Share the product name or photo and I'll give you the exact price right away. We also have seasonal offers running — ask me about current deals!",
+        "negative": "We totally understand — pricing matters a lot. We have ongoing offers and first-time customers get 10% off with code WELCOME10. Share the specific item and we'll find the best deal for you!",
+        "positive": "Thank you so much! We always try to keep prices fair for our customers. Let me know if you need anything else — happy to help!",
+        "sarcastic": "We hear you — and that's completely fair feedback. Let us see what we can do for you specifically. Share the item and we'll personally check if any offer or discount applies!",
+        "urgent": "Sure! Share the item name and I'll give you today's price immediately. We have some limited-time offers running too!"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["price enthu aanu?", "rate enthu?", "how much does it cost?", "vila enthu aanu?", "price list undo?", "cost enthu?", "price paranju tharamo?", "shirt inte price enthu?", "dress price enthu aanu?", "price check cheyyamo?", "ithinu entha vila?", "ethra roopa aakum?", "price onnu parayamo", "vila entha parayu", "cost ethra aavum?"],
+        "negative": ["price ithra kooduthal enthe?", "ivide price ithra kooduthal enthe?", "price kuraykamo?", "paisa waste", "ithra vila undo?", "vere shops il kuravu kittum", "price sheriyalla", "vila ithra aano?", "vere shops il cheap kittum", "ithra valiya vila aano?", "rate adipoli kooduthal", "paisa patha", "vila kurakkane", "overpriced alle?", "mosham price"],
+        "positive": ["price kollam", "rate reasonable aanu", "affordable aanu", "price nannayirunnu", "vila okay aanu", "price fair aanu", "vila kollamallo", "rate nalla aanu", "kuravu vilayil kittunnu", "vila set aanu", "paisa vandi illa"],
+        "sarcastic": ["ingane vila vachaal alle?", "price ithra kooduthale ullo?", "adipoli pricing aanu", "superb rate aanu alle?", "ithra vila vachaal aaro vannu vaangumo?", "entammo ithra vila", "vila kollam alle", "adipoli rate alle", "super pricing machane", "njan vare vila vekkum"],
+        "urgent": ["today price enthu aanu?", "ippo price enthu?", "sale price enthu aanu ippo?", "urgent price venda", "price ippo parayane", "innathe rate entha?", "fast price", "current price onnu parayu"]
+      },
+      "answers": {
+        "neutral": "Price depends on the item alle! Product name or photo share cheyyu — njan exact price onnum parayam. Seasonal offers okke undu. Current deals enthaanennu chodikkam!",
+        "negative": "Nammalkku manassilaayi — pricing oru valiya karyam alle? Offers undu, first-time customersinu 10% off undu code WELCOME10. Aa item paranju thaa — nammal ninakku best deal kandu pidikkam!",
+        "positive": "Valare nanni! Customersinu fair price kodukkan njan shremikkunnu. Vere enthelum venel chodikkane — happy to help!",
+        "sarcastic": "Keetti — fair feedback aanu. Nee specific item share cheyyu, njan personally oru offer or discount undonnokke check cheyyam!",
+        "urgent": "Sure! Item name share cheyyu — njan innatte price onnum parayam. Limited-time offers okke undu ippo!"
+      }
+    },
+    "escalate_if": { "keywords": [], "action": null },
+    "metadata": { "common_followup": "faq_payment_001" }
+  },
+  {
+    "id": "faq_offers_001",
+    "category": "pricing",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["Do you have any offers?", "Is there a discount?", "Is there any sale going on?", "What all offers are there?", "Is there a coupon?", "Is there a discount code?", "Is there a sale?", "Is there a special offer?", "Any ongoing deals?", "Current promotions?", "Discounts available?", "Coupon code for first order?", "Sale items?", "Offers on new collection?"],
+        "negative": ["There are no offers.", "You won't give a discount.", "Other shops have offers, but you don't.", "The offer was not applied.", "No discounts ever", "Your offers are fake", "Discount code is useless", "Sale prices are still high", "No real offers", "Just marketing gimmicks"],
+        "positive": ["The offer is good.", "The discount was good.", "I bought using the offer.", "Great deal!", "Loving the sale", "Discount saved me money", "Offer was easy to apply", "Best discount ever"],
+        "urgent": ["Is there an offer today?", "Is today the last day of the offer?", "Is the offer expiring?", "Urgent discount needed", "Last minute sale?", "Ending soon?", "Flash sale now?"]
+      },
+      "answers": {
+        "neutral": "Yes! Current offers: First-time customers get 10% off with code WELCOME10. We also run seasonal sales — follow our WhatsApp channel for exclusive deals before anyone else!",
+        "negative": "Sorry the offer didn't apply! Share your details and the offer code you tried — we'll manually check and apply the discount for you if it's valid.",
+        "positive": "Great! Glad the offer worked out. We regularly update deals so keep an eye on our WhatsApp updates for the next one!",
+        "urgent": "Current offers are valid this week! Use WELCOME10 for 10% off. Some flash deals are time-limited — want me to check what's active right now?"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["offer undo?", "discount undo?", "sale ondo?", "offer enthu okke undu?", "coupon undo?", "discount code undo?", "sale undo?", "special offer undo?", "ippo entha offers ullathu?", "sale item ethokke?", "discount kittumo?", "coupon code undo first order inu?"],
+        "negative": ["offer onnum illa", "discount tharilla", "vere shops il offer undu ningalkku illa", "offer apply aayilla", "discount kodukkilla", "offers ellam fake aanu", "discount code work illa", "sale price still kooduthal", "real offer onnum illa"],
+        "positive": ["offer kollam", "discount nannayirunnu", "offer use cheythu vaangi", "super deal", "sale ishtapettu", "discount paisa laabham", "offer easy aayi apply cheythu", "best offer ever"],
+        "urgent": ["today offer undo?", "offer last day aano?", "offer expire aavumo?", "urgent discount venda", "last minute sale undo?", "ippo theerumo?", "flash sale undo ippo?"]
+      },
+      "answers": {
+        "neutral": "Yes! Current offers: first-time customersinu 10% off — code WELCOME10. Seasonal sales okke undu. Nammude WhatsApp channel follow cheyy — exclusive deals avide first idum!",
+        "negative": "Sorry, offer apply aayille? Nee try cheytha offer code parayu — njan manually check cheythu valid aanenkil discount apply cheyyam.",
+        "positive": "Super! Offer work aayi alle? Regular aayittu deals update undu. Adutha offer inu nammude WhatsApp updates nokkikke.",
+        "urgent": "Current offers ee week valid aanu. WELCOME10 use cheythaal 10% off. Flash deals okke time-limited aanu. Ippo active offer enthaanennu check cheyyano?"
+      }
+    },
+    "metadata": { "common_followup": "faq_payment_001" }
+  },
+  {
+    "id": "faq_delivery_001",
+    "category": "delivery",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["Do you deliver?", "Do you do home delivery?", "Will you deliver?", "Where all do you deliver?", "Is delivery available?", "Is online order delivery available?", "What is the delivery charge?", "Delivery time?", "Shipping cost?", "Free delivery conditions?", "Pincode check?", "Delivery partner?"],
+        "negative": ["I didn't receive the delivery.", "The order is not coming.", "I haven't received the order in so many days.", "I haven't received the order in 5 days.", "The delivery is late.", "Where is my order?", "There is a delivery problem.", "I haven't received the parcel.", "Delivery never came", "Courier lost my package", "Delivery person didn't show up", "Order stuck in transit"],
+        "sarcastic": ["The delivery was super fast, right?", "Is this how you deliver?", "What a great delivery service!", "I received it after a week, right?", "Amazing delivery speed, wow!", "Great job delivering to wrong address", "Best courier ever", "Thanks for the delayed delivery"],
+        "urgent": ["I need urgent delivery.", "I need delivery right now.", "Is today delivery possible?", "Do you have same-day delivery?", "Do you have express delivery?", "Need it within hours", "Fastest delivery option", "Urgent order, please expedite"]
+      },
+      "answers": {
+        "neutral": "Yes! We deliver across all Kerala districts. Orders above ₹500 get free delivery. Standard delivery is 2-3 working days. Share your pincode and I'll confirm delivery availability!",
+        "negative": "We're really sorry for the delay — that's completely unacceptable and we understand your frustration. Please share your order number and we'll escalate this immediately and update you within 2 hours.",
+        "sarcastic": "We sincerely apologize — the delay is entirely our fault and we take full responsibility. Please share your order ID and we'll personally ensure it reaches you at the earliest.",
+        "urgent": "Understood! For urgent deliveries, we offer same-day delivery within Ernakulam district for orders placed before 12 PM. Share your location and we'll confirm if express delivery is possible for you!"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["delivery undo?", "home delivery cheyyumo?", "deliver cheyyumo?", "evide okke delivery kittum?", "delivery available aano?", "online order delivery undo?", "delivery charge enthu?", "delivery time entha?", "shipping cost ethra?", "free delivery undo?", "pincode check cheyyamo?", "delivery partner aaranu?"],
+        "negative": ["delivery kittiyilla", "order varunnilla", "ithra naal aayi order kittiyilla", "5 days aayi order kittiyilla", "delivery late aayi", "order evide aanu?", "delivery problem undu", "parcel kittiyilla", "delivery vannilla", "courier parcel kalanjallo", "delivery person vannilla", "order stuck aayi"],
+        "sarcastic": ["delivery super fast aayirunnu alle?", "ingane delivery aano?", "adipoli delivery service", "week kazhinju delivery kittiyille?", "entha adipoli delivery speed", "wrong address il delivery cheythathinu nanni", "best courier ever", "delay delivery inu thanks"],
+        "urgent": ["urgent delivery venda", "delivery ippo venda", "today delivery possible aano?", "same day delivery undo?", "express delivery undo?", "hours ullil venda", "fastest delivery option entha?", "urgent order expedite cheyyu"]
+      },
+      "answers": {
+        "neutral": "Yes! Kerala motham delivery undu. ₹500+ ordersinu free delivery. Standard delivery 2-3 working days. Ninte pincode share cheyyu — njan delivery possible anno check cheyyam!",
+        "negative": "Sorry for the delay — athu njangalude fault aanu. Order number share cheyyu — njan immediate escalate cheyyunnundu, 2 hours il update tharaam.",
+        "sarcastic": "We sincerely apologize — delay motham njangalude mistake aanu. Order ID share cheyyu — earliest delivery varuthan nokkam, alle?",
+        "urgent": "Urgent deliveriesinu same-day delivery undu Ernakulam district il — 12 PM inu munp order cheythaal. Location share cheyyu — express delivery possible anno confirm cheyyam!"
+      }
+    },
+    "escalate_if": { "keywords": ["10 days", "2 weeks", "month", "police", "complaint"], "action": "flag_for_human_agent" },
+    "metadata": { "avg_resolution_time": "2 hours", "common_followup": "faq_tracking_001" }
+  },
+  {
+    "id": "faq_tracking_001",
+    "category": "delivery",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["What is the order status?", "Where is my order?", "Can I track my order?", "Do you have a tracking link?", "Can I track the order?", "Where is the parcel?", "What is the shipment status?", "Tracking ID?", "Update on delivery?", "Order location now?"],
+        "negative": ["I haven't received the order.", "There is no tracking update.", "Tracking is not working.", "The order seems stuck.", "It hasn't been dispatched.", "No tracking info for days", "Tracking shows delivered but not received", "Link is broken", "Courier not updating"],
+        "urgent": ["Where is my order right now?", "Can I track it now?", "Will it be delivered today?", "Urgent status update", "Need real-time location", "When will it move?"]
+      },
+      "answers": {
+        "neutral": "You can track your order using the tracking link sent to your WhatsApp/SMS after dispatch. If you haven't received it, share your order number and I'll pull the status for you right now!",
+        "negative": "Sorry the tracking isn't updating — that can be really frustrating. Share your order number and I'll manually check the status with our delivery partner and give you a real update within 30 minutes.",
+        "urgent": "Share your order number right now and I'll check the exact location of your parcel immediately!"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["order status enthu?", "order evide aanu?", "track cheyyamo order?", "tracking link undo?", "order track cheyyam?", "parcel evide aanu?", "shipment status enthu?", "tracking ID entha?", "delivery update undo?", "order ippo evide?"],
+        "negative": ["order kittiyilla", "tracking update illa", "tracking work cheyyunilla", "order stuck aayirikkunnu", "dispatch aayilla", "tracking info days aayi illa", "tracking delivered ennu kanikkunnu but kittiyilla", "link work illa", "courier update illa"],
+        "urgent": ["order ippo evide aanu?", "track ippo cheyyamo?", "delivery today aavumo?", "urgent status update", "real-time location venda", "eppo move cheyyum?"]
+      },
+      "answers": {
+        "neutral": "Tracking link WhatsApp or SMS il dispatch kazhinju kittum. Kittiyillel order number share cheyyu — njan status onnum parayam!",
+        "negative": "Sorry tracking update varunnilla — athu frustating aanu. Order number share cheyyu — njan manually delivery partner il check cheythu real update 30 minutes il tharaam.",
+        "urgent": "Order number ippo share cheyyu — njan parcel exact location onnum check cheyyam!"
+      }
+    },
+    "metadata": { "common_followup": "faq_delivery_001" }
+  },
+  {
+    "id": "faq_returns_001",
+    "category": "returns",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["What is the return policy?", "Can I return it?", "I need to return the product.", "Is exchange possible?", "What is the return window?", "How many days for return?", "What is the return process?", "What should I do to return it?", "Return conditions?", "Who pays for return shipping?", "Return pickup available?"],
+        "negative": ["They didn't accept the return.", "The return was rejected.", "I need to return it but they won't allow it.", "I need to return the product.", "They won't exchange.", "I got a wrong product, I need to return it.", "Wrong size, I need to return it.", "The return policy is bad.", "Return took too long", "Return shipping charge is high", "No response to return request"],
+        "sarcastic": ["Is this your return policy?", "You won't let me return it, right?", "Your return policy is great, huh?", "7-day return policy is awesome, right?", "Great return experience (not)", "Thanks for making returns impossible", "Awesome policy", "Very customer friendly"],
+        "urgent": ["I need to return it urgently.", "I need an immediate return.", "I need to start the return process right now.", "Urgent pickup required", "Return within hours", "Need return label fast"]
+      },
+      "answers": {
+        "neutral": "We accept returns within 7 days of delivery. Item must be unused, unwashed, and in original packaging with tags intact. Refund is processed in 3-5 business days. Want me to start a return for you?",
+        "negative": "We're really sorry you're facing difficulty with the return — you absolutely have the right to return it. Share your order number and the reason, and we'll personally process it for you without any hassle.",
+        "sarcastic": "We understand your frustration — and you're right to push back. Our return policy is 7 days and it applies to you fully. Share your order details and we'll make sure the return goes through smoothly, no questions asked.",
+        "urgent": "Understood — share your order number right now and we'll initiate the return process immediately and send you a pickup confirmation within the hour!"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["return policy enthu?", "return cheyyamo?", "product return cheyyanam", "exchange possible aano?", "return window enthu?", "ethra days return?", "return process enthu aanu?", "return cheyyan enthu cheyyanam?", "return conditions entha?", "return shipping aarkku paisa?", "return pickup undo?"],
+        "negative": ["return cheyyan sammathichilla", "return reject aayirunnu", "return cheyyanam but allow cheyyunilla", "product return cheyyanam", "exchange tharilla", "wrong product kitti return cheyyanam", "size wrong aanu return cheyyanam", "return policy mosham aanu", "return valare samayam eduthu", "return shipping charge kooduthal", "return request inu reply illa"],
+        "sarcastic": ["ingane return policy aano?", "return cheyyan pattilla alle?", "return kollam aanu alle ningalude?", "7 days return policy adipoli aanu", "super return experience", "return impossible aakkiyathinu nanni", "adipoli policy", "valare customer friendly"],
+        "urgent": ["urgent return cheyyanam", "immediately return venda", "ippo return process start cheyyanam", "urgent pickup venda", "hours ullil return", "return label fast venda"]
+      },
+      "answers": {
+        "neutral": "Delivery kazhinju 7 days ullil return accept cheyyum. Item unused, unwashed, original packaging and tags undakanam. Refund 3-5 business days. Return start cheythu tharaano?",
+        "negative": "Return issue varunnathil valare kshamikkuka — ninakku return cheyyan absolute right undu. Order numberum reasonum share cheyyu — njan personally hassle illathe process cheyyam.",
+        "sarcastic": "Ninte frustration manassilaayi — njan correct aanu. Return policy 7 days aanu athu ninakku fully apply aakum. Order details share cheyyu — return smooth aayi nadakkum, oru question um illa.",
+        "urgent": "Order number ippo share cheyyu — njan return process immediate start cheyyunnundu, pickup confirmation one hour il tharaam!"
+      }
+    },
+    "escalate_if": { "keywords": ["consumer court", "case kodukum", "police", "legal notice"], "action": "immediate_human_escalation" },
+    "metadata": { "avg_resolution_time": "24 hours", "common_followup": "faq_refund_001" }
+  },
+  {
+    "id": "faq_refund_001",
+    "category": "returns",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["Will I get a refund?", "Will I get my money back?", "What is the refund process?", "Where will the refund go?", "How long does refund take?", "How many days for refund?", "Refund status?", "Partial refund possible?", "Refund to original source?"],
+        "negative": ["They won't give a refund.", "They won't give my money back.", "I didn't get the refund.", "I need my money back.", "Where is the refund?", "The refund is delayed.", "I will file a case if no refund.", "I still haven't received the refund.", "Refund amount is less", "Refund rejected", "No response from support"],
+        "urgent": ["I need the refund right now.", "Urgent refund.", "Give me the refund immediately.", "I need the refund today.", "Refund pending for weeks", "Money back urgently"]
+      },
+      "answers": {
+        "neutral": "Refunds are processed within 3-5 business days to your original payment method (UPI/card/bank). Cash on delivery refunds are sent directly to your bank account. Share your order number to check refund status!",
+        "negative": "We're extremely sorry for the delay — you deserve your refund and we're going to make this right. Share your order number and we'll personally ensure the refund is initiated within 24 hours and you receive a confirmation.",
+        "urgent": "This is urgent — we hear you. Share your order ID right now and we'll initiate the refund process immediately and send you a confirmation within the hour!"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["refund kittumo?", "money back kittumo?", "refund process enthu?", "refund evide kittum?", "refund time enthu?", "refund ethra days?", "refund status?", "partial refund undo?", "refund original source il aakumo?"],
+        "negative": ["refund tharilla", "money back tharilla", "refund kittiyilla", "paisa thirichu tharanam", "refund evide?", "refund delay aanu", "case kodukum refund illenkil", "refund still kittiyilla", "refund amount kuravaanu", "refund reject aayi", "support ninnu reply illa"],
+        "urgent": ["refund ippo venda", "urgent refund", "immediately refund tharanam", "refund today venda", "refund weeks aayi pending", "money back urgently"]
+      },
+      "answers": {
+        "neutral": "Refund 3-5 business days il original payment method il (UPI/card/bank) aakum. Cash on delivery refund bank account il direct aayittum. Order number share cheyyu — refund status check cheyyam!",
+        "negative": "Delay aayathil valare kshamikkuka — ninakku refund deserve cheyyunnundu. Order number share cheyyu — njan personally 24 hours il refund initiate cheyyichu confirmation tharaam.",
+        "urgent": "Urgent aano? Order ID ippo share cheyyu — njan refund immediate initiate cheyyunnundu, confirmation one hour il tharaam!"
+      }
+    },
+    "escalate_if": { "keywords": ["case kodukum", "consumer court", "police", "legal", "fraud"], "action": "immediate_human_escalation" }
+  },
+  {
+    "id": "faq_location_001",
+    "category": "location",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["Where is the shop?", "What is the address?", "Can you tell me the location?", "Where is the shop?", "Where is your shop?", "Where are your branches?", "What is the shop location?", "Where are you located?", "What is the store address?", "Can you share a maps link?", "Google Maps location?", "Landmark near shop?"]
+      },
+      "answers": {
+        "neutral": "Our shop is at MG Road, Ernakulam, near Lulu Mall 📍 Open Mon–Sat 9AM–8PM, Sunday 10AM–6PM. Google Maps: search 'Zen Meraki Clothing Store'. Need directions from a specific area?"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["shop evide aanu?", "address enthu?", "location paranju tharamo?", "evideya shop?", "where is your shop?", "branch evide undu?", "shop location enthu?", "ningalude shop evide?", "store address enthu aanu?", "maps link tharamo?", "Google Maps location entha?", "shop inu adutha landmark entha?"]
+      },
+      "answers": {
+        "neutral": "Shop MG Road, Ernakulam, Lulu Mall near aanu 📍 Open Mon–Sat 9AM–8PM, Sunday 10AM–6PM. Google Maps: 'Zen Meraki Clothing Store' search cheyyu. Evide ninnu directions veno?"
+      }
+    }
+  },
+  {
+    "id": "faq_timings_001",
+    "category": "location",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["What time does the shop open?", "What is the opening time?", "What is the closing time?", "Is the shop open now?", "What are the timings?", "What are the working hours?", "Is it open on Sunday?", "Is it open on holidays?", "What time does the shop close?", "Today's hours?", "Late night shopping?", "Early morning open?"],
+        "negative": ["The shop was closed.", "I came and saw the shop closed.", "It wasn't open at the time you said.", "The shop opened late.", "Went there but closed", "Timings not followed", "Closed during working hours"],
+        "urgent": ["Open now?", "Need to come now, is shop open?", "Emergency visit, timing?"]
+      },
+      "answers": {
+        "neutral": "Shop timings: Monday to Saturday 9 AM – 8 PM, Sunday 10 AM – 6 PM. We're closed on major public holidays. Want to confirm if we're open on a specific date?",
+        "negative": "We're really sorry you came and found us closed — that must have been frustrating. We're open Mon–Sat 9AM–8PM and Sunday 10AM–6PM. If you came during those hours and we were closed, please let us know and we'll look into it immediately!"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["shop enthu neram thurakkum?", "opening time enthu?", "closing time enthu?", "shop open aano ippo?", "timings enthu aanu?", "working hours enthu?", "Sunday open aano?", "holiday il open aano?", "shop close aavunne enthu neram?", "innathe hours entha?", "late night shopping undo?", "early morning open aano?"],
+        "negative": ["shop adachu aayirunnu", "njan vannu shop adachu kandu", "time paranjathu pole open aayirunnilla", "shop late aayi thurannu", "po nokki adachu", "timings follow cheyyilla", "working hours il closed"],
+        "urgent": ["ippo open aano?", "ippo varanam, shop open aano?", "emergency visit, timing entha?"]
+      },
+      "answers": {
+        "neutral": "Shop timings: Monday to Saturday 9 AM – 8 PM, Sunday 10 AM – 6 PM. Major public holidays il closed. Oru specific date open anno confirm cheyyano?",
+        "negative": "Nee vannu shop adachu kandathinu valare kshamikkuka — athu frustating aayirikkum. Mon–Sat 9AM–8PM, Sunday 10AM–6PM. Aa time il vannittu adachayirunnenkil parayyu — njan immediate check cheyyam!"
+      }
+    }
+  },
+  {
+    "id": "faq_quality_001",
+    "category": "quality",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["How is the product quality?", "Is the quality good?", "How is the fabric quality?", "Is it genuine?", "What is the material?", "Do you do quality checks?", "Is it an original product?", "Quality guarantee?", "Stitching quality?", "Color fastness?"],
+        "negative": ["The product was bad.", "The quality is not good.", "I received a damaged product.", "It was torn.", "The color was faded.", "The product is waste.", "The quality is this bad.", "Defective product.", "The stitching was loose.", "Size chart is wrong.", "Wrong size.", "Material feels cheap", "Not worth the price", "Poor finishing"],
+        "positive": ["The product is good.", "Quality is superb.", "The product was good.", "The fabric is good.", "Quality is awesome.", "I loved the product.", "Excellent quality", "Top notch material", "Very satisfied", "Better than expected"],
+        "sarcastic": ["What great quality, right?", "Is this the quality?", "The quality was superb, right?", "Great quality.", "Yeah, premium quality (not)", "Best quality ever", "So durable it broke", "Amazing craftsmanship"]
+      },
+      "answers": {
+        "neutral": "All our products go through quality checks before dispatch. We source from trusted manufacturers and stand behind every item. Still have doubts? Share the product and I'll give you more details!",
+        "negative": "We're so sorry you received a defective item — that's completely unacceptable and entirely our fault. Please send us a photo of the issue and your order number. We'll arrange an immediate replacement or full refund, whichever you prefer!",
+        "positive": "Thank you so much — that really means a lot to us! We put a lot of care into quality. Do share a review on Google if you have a moment — it helps us a lot!",
+        "sarcastic": "We hear the sarcasm and we deserve it if the quality wasn't up to the mark. Please share a photo of the issue and your order details — we'll make it right immediately, no arguments!"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["product quality enthu pole aanu?", "quality nannano?", "fabric quality enthu?", "genuine aano?", "material enthu?", "quality check cheyyarundo?", "original product aano?", "quality guarantee undo?", "stitching quality entha?", "color fastness undo?"],
+        "negative": ["product mosham aayirunnu", "quality sheriyalla", "damaged product kitti", "torn aayirunnu", "color fade aayirunnu", "product waste aanu", "quality ithra mosham", "defective product", "stitching loose aayirunnu", "size chart sheriyalla", "size wrong aanu", "material cheap feel", "price inu worth illa", "finishing mosham"],
+        "positive": ["product kollam", "quality superb", "nannayirunnu product", "fabric nalla aanu", "quality adipoli", "product loved it", "excellent quality", "top notch material", "valare satisfied", "expect cheythathilum better"],
+        "sarcastic": ["adipoli quality aanu alle?", "ingane quality aano?", "superb quality aayirunnu alle?", "kollam quality", "yeah premium quality (alla)", "best quality ever", "ithra durable aayi pottumo", "adipoli craftsmanship"]
+      },
+      "answers": {
+        "neutral": "Dispatch munne ella products um quality check aakum. Trusted manufacturers il ninnu sourcing. Innum doubt undel product share cheyyu — njan details tharaam!",
+        "negative": "Defective item vannathil valare kshamikkuka — athu njangalude fault aanu. Photo and order number share cheyyu. Immediate replacement or full refund — ninakku ishtam pole cheyyam!",
+        "positive": "Valare nanni — athu njangalkku valiya archananu! Quality njangal valare care cheyyum. Google il review share cheyyu — athu njangalkku valiya sahayam aakum!",
+        "sarcastic": "Sarcasm manassilaayi — quality mosham aayirunnenkil njangal deserve cheyyunnu. Photo and order details share cheyyu — njan immediate correct cheyyam, oru vadam illa!"
+      }
+    },
+    "escalate_if": { "keywords": ["allergic", "skin reaction", "injury", "hospital"], "action": "immediate_human_escalation" }
+  },
+  {
+    "id": "faq_payment_001",
+    "category": "payment",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["What are the payment options?", "Do you have UPI?", "Do you accept cards?", "Do you have cash on delivery?", "Can I use GPay?", "Do you have PhonePe?", "Is online payment available?", "Do you have net banking?", "Do you have EMI?", "What are the payment methods?", "Wallet accepted?", "International cards?", "Debit/Credit card fees?"],
+        "negative": ["Payment failed.", "Payment deducted but no order.", "Money gone but no order.", "Payment issue.", "I was double charged.", "Refund payment failed.", "Payment is stuck.", "Transaction error", "Bank declined", "Insufficient balance but charged"],
+        "urgent": ["Payment failed, what should I do now?", "Money deducted, urgent help.", "Need to pay quickly", "Transaction stuck, help now"]
+      },
+      "answers": {
+        "neutral": "We accept: UPI (GPay, PhonePe, Paytm), all debit/credit cards, net banking, and cash on delivery. EMI available on orders above ₹2000 via select cards. Which payment method do you prefer?",
+        "negative": "We're really sorry about the payment issue — that's very stressful. If money was deducted but order wasn't placed, it will auto-refund within 5-7 business days. Share your transaction ID and we'll track it immediately!",
+        "urgent": "Don't worry — if payment was deducted but order didn't go through, the money is safe and will be refunded automatically. Share your UPI/transaction reference number right now and we'll verify it immediately!"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["payment options enthu?", "UPI undo?", "card accept cheyyumo?", "cash on delivery undo?", "GPay cheyyamo?", "PhonePe undo?", "online payment undo?", "net banking undo?", "EMI undo?", "payment methods enthu okke?", "wallet accept cheyyumo?", "international cards undo?", "debit/credit card fees undo?"],
+        "negative": ["payment fail aayirunnu", "payment deducted but order illa", "money poyi order illa", "payment issue undu", "double charge aayirunnu", "refund payment fail aayirunnu", "payment stuck aayirunnu", "transaction error", "bank decline cheythu", "balance illa but charge aayi"],
+        "urgent": ["payment failed ippo enthu cheyyum?", "money deducted urgent help", "fast payment cheyyanam", "transaction stuck help now"]
+      },
+      "answers": {
+        "neutral": "We accept: UPI (GPay, PhonePe, Paytm), all debit/credit cards, net banking, and cash on delivery. EMI available on orders above ₹2000 via select cards. Which payment method do you prefer?",
+        "negative": "Payment issue aayathil valare kshamikkuka — athu valya stress aanu. Money deducted aayittu order illenkil auto-refund 5-7 business days il aakum. Transaction ID share cheyyu — njan immediate track cheyyam!",
+        "urgent": "Vishamikkanda — money deducted aayittu order poyillel money safe aanu, automatically refund aakum. UPI/transaction reference number ippo share cheyyu — njan immediate verify cheyyam!"
+      }
+    },
+    "escalate_if": { "keywords": ["double charge", "charged twice", "bank complaint"], "action": "flag_for_human_agent" }
+  },
+  {
+    "id": "faq_appointment_001",
+    "category": "appointment",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["Do I need an appointment?", "Can I visit?", "Can I come and see?", "Do you have a trial room?", "Is fitting available?", "Do you have personalized shopping?", "Do you have a stylist?", "Can I book an appointment?", "Is prior appointment needed?", "Is walk-in okay?", "How to book?", "Appointment for trial?"],
+        "negative": ["The appointment was cancelled.", "The appointment wasn't confirmed.", "I came and had to wait.", "I missed the appointment.", "No slots available", "Appointment system is bad", "Long wait even with appointment"],
+        "urgent": ["Is an appointment possible today?", "Is it okay if I come now?", "I need to visit urgently.", "Emergency appointment", "Same day booking?"]
+      },
+      "answers": {
+        "neutral": "Walk-ins are welcome anytime during working hours! For personalised styling assistance or bulk orders, booking in advance is better. Want me to schedule a visit for you at a convenient time?",
+        "negative": "We're really sorry the appointment didn't go as planned — that's our fault. Let's reschedule at the earliest time that works for you. When are you free? We'll make sure everything is ready when you arrive!",
+        "urgent": "Sure — if we have availability today we'll fit you in! Call us directly at +91 98765 43210 or share your preferred time and we'll confirm within 15 minutes!"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["appointment edukkamo?", "visit cheyyamo?", "shop il vannu kaanamo?", "trial room undo?", "fitting available aano?", "personalised shopping undo?", "stylist undo?", "appointment book cheyyamo?", "prior appointment venda?", "walk in okay aano?", "eppol book cheyyum?", "trial inu appointment veno?"],
+        "negative": ["appointment cancel aayirunnu", "appointment confirm aayirunnilla", "vannu wait cheyyanam aayirunnu", "appointment missed cheythu", "slots illa", "appointment system mosham", "appointment undengilum wait cheyyanam"],
+        "urgent": ["today appointment possible aano?", "ippo vannal okay aano?", "urgent visit cheyyanam", "emergency appointment", "same day booking undo?"]
+      },
+      "answers": {
+        "neutral": "Walk-ins working hours il anytime welcome! Personalised styling or bulk orders inu advance booking better. Ninu convenient time il visit schedule cheythu tharaano?",
+        "negative": "Appointment plan pole nadannillenkil valare kshamikkuka — athu njangalude fault aanu. Ninu work aavunna earliest time il reschedule cheyyam. Nee free eppol? Nee varumbol ellam ready aakki vekkam!",
+        "urgent": "Sure — today availability undenkil njangal fit cheyyam! Call us directly at +91 98765 43210 or ninte preferred time share cheyyu — 15 minutes il confirm cheyyam!"
+      }
+    }
+  },
+  {
+    "id": "faq_contact_001",
+    "category": "contact",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["What is the contact number?", "Can you give me the phone number?", "Can I call?", "What is the customer care number?", "Your number?", "What is the email id?", "What is the WhatsApp number?", "How to contact you?", "What is the support number?", "Can you give me contact details?", "Social media handles?", "Office address?"],
+        "negative": ["Nobody is picking the call.", "I called but no response.", "You are unreachable.", "I can't contact you.", "There was no reply.", "Email bounced", "WhatsApp not responding", "Phone always busy"],
+        "urgent": ["I need urgent contact.", "Can I call now?", "What is the emergency contact?", "Immediate response needed", "Urgent issue, call me"]
+      },
+      "answers": {
+        "neutral": "You can reach us at: 📞 +91 98765 43210 (WhatsApp available) 📧 support@yourshop.com. We're available Mon–Sat 9AM–8PM, Sunday 10AM–6PM. How can we help you today?",
+        "negative": "We're really sorry we missed your call or message — that's not okay. We're here now and ready to help! Share your question or concern and we'll resolve it right away, or call us at +91 98765 43210.",
+        "urgent": "For urgent help, call us directly at +91 98765 43210 right now or WhatsApp us — we respond to WhatsApp messages fastest. What's the issue? Tell me here and I'll try to help immediately!"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["contact number enthu?", "phone number tharamo?", "call cheyyamo?", "customer care number enthu?", "ningalude number enthu?", "email id enthu?", "whatsapp number enthu?", "how to contact you?", "support number enthu?", "contact details tharamo?", "social media handles entha?", "office address entha?"],
+        "negative": ["nobody picking call", "call cheythittu response illa", "unreachable aanu", "contact cheyyan pattunnilla", "reply illayirunnu", "email bounce aayi", "WhatsApp respond cheyyunilla", "phone busy aayirunnu"],
+        "urgent": ["urgent contact venda", "ippo call cheyyamo?", "emergency contact enthu?", "immediate response venda", "urgent issue call me"]
+      },
+      "answers": {
+        "neutral": "You can reach us at: 📞 +91 98765 43210 (WhatsApp available) 📧 support@yourshop.com. Mon–Sat 9AM–8PM, Sunday 10AM–6PM. How can we help you today?",
+        "negative": "Call or message miss aayathil valare kshamikkuka — athu sheriyalla. Njan ippo ready aanu help cheyyan! Ninte question or concern share cheyyu — njan immediate resolve cheyyam, or call +91 98765 43210.",
+        "urgent": "Urgent help inu call us directly at +91 98765 43210 right now or WhatsApp — WhatsApp message fastest response aakum. Issue entha? Ivide parayuu — njan immediate help cheyyan try cheyyam!"
+      }
+    }
+  },
+  {
+    "id": "faq_size_001",
+    "category": "size",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["What sizes do you have?", "Is size chart available?", "Do you have XS?", "Do you have XXL?", "Is this size inclusive?", "What is the fit like?", "Is it true to size?", "Can I get custom size?", "Size guide?", "How to measure?", "Plus size options?"],
+        "negative": ["The size is too small.", "The size is too large.", "Size doesn't fit.", "Size chart is wrong.", "I ordered M but got L.", "Fit is very tight.", "Fit is very loose.", "Inconsistent sizing", "Size not as described"],
+        "positive": ["The size is perfect.", "Fit is good.", "True to size.", "Exactly what I wanted", "Comfortable fit"],
+        "urgent": ["I need size change urgently.", "Need exchange today.", "Wrong size delivered, need immediate fix", "Size issue urgent"]
+      },
+      "answers": {
+        "neutral": "We have sizes from XS to XXL. Each product has a size chart on its page. If you're unsure, share your height, weight, and usual size — I'll recommend the best fit!",
+        "negative": "So sorry the size didn't work out! You can exchange it within 7 days. Share your order number and we'll arrange a pickup and send the right size immediately.",
+        "positive": "Glad the fit worked out! Size can be tricky online — happy it's perfect for you!",
+        "urgent": "For urgent size exchange, share your order number right now. We'll process a same-day exchange if you're in Ernakulam, else express shipping."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["ethokke sizes undu?", "size chart undo?", "XS undo?", "XXL undo?", "size inclusive aano?", "fit enthu pole?", "true to size aano?", "custom size kittumo?", "size guide undo?", "eppole measure cheyyum?", "plus size options undo?"],
+        "negative": ["size valare cheruthaanu", "size valare valuthaanu", "size fit aavunnilla", "size chart sheriyalla", "njan M order cheythu L kitti", "fit valare tight aanu", "fit valare loose aanu", "sizing inconsistent", "size description pole alla"],
+        "positive": ["size perfect aanu", "fit nallathaanu", "true to size", "exact aayirunnu", "comfortable fit"],
+        "urgent": ["size change urgent aayi venda", "exchange today venda", "wrong size delivered immediate fix venda", "size issue urgent"]
+      },
+      "answers": {
+        "neutral": "Sizes XS to XXL undu. Oro product inum size chart page il undu. Sure illenkil ninte height, weight, usual size share cheyyu — njan best fit recommend cheyyam!",
+        "negative": "Size work aayillenkil valare kshamikkuka! 7 days ullil exchange cheyyam. Order number share cheyyu — njan pickup arrange cheythu right size immediate ayachu tharaam.",
+        "positive": "Fit work aayi alle? Online il size tricky aanu — perfect aayathil santhosham!",
+        "urgent": "Urgent size exchange inu order number ippo share cheyyu. Ernakulam il aanenkil same-day exchange, allel express shipping."
+      }
+    },
+    "escalate_if": { "keywords": [], "action": null },
+    "metadata": { "common_followup": "faq_exchange_001" }
+  },
+  {
+    "id": "faq_exchange_001",
+    "category": "returns",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["Can I exchange?", "What is exchange policy?", "Exchange process?", "How many days for exchange?", "Do I have to pay for exchange shipping?", "Exchange for different size?", "Exchange for different color?"],
+        "negative": ["Exchange not allowed.", "They refused exchange.", "Exchange is too much hassle.", "Exchange took too long", "Exchange shipping charge high"],
+        "positive": ["Exchange was smooth.", "Quick exchange.", "Got the right size easily"],
+        "urgent": ["Need exchange today.", "Immediate exchange required.", "Wrong size, need exchange urgently"]
+      },
+      "answers": {
+        "neutral": "Yes, exchanges are free within 7 days of delivery. We'll arrange a pickup and send the new size/color. Just share your order number and what you need instead!",
+        "negative": "We're sorry exchange was refused — that shouldn't happen. Share your order details and we'll personally approve the exchange right now.",
+        "positive": "So glad the exchange went smoothly! Let us know if you need anything else.",
+        "urgent": "Urgent exchange? Share order number and new size — we'll process it within 2 hours."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["exchange cheyyamo?", "exchange policy enthu?", "exchange process?", "exchange inu ethra days?", "exchange shipping pay cheyyanamo?", "exchange for different size?", "exchange for different color?"],
+        "negative": ["exchange allow cheythilla", "exchange refuse cheythu", "exchange valiya hassle aanu", "exchange valare samayam eduthu", "exchange shipping charge kooduthal"],
+        "positive": ["exchange smooth aayirunnu", "exchange quick", "right size easy aayi kittiyi"],
+        "urgent": ["exchange today venda", "immediate exchange required", "wrong size urgent exchange venda"]
+      },
+      "answers": {
+        "neutral": "Yes, exchanges free aanu delivery kazhinju 7 days ullil. Pickup arrange cheythu new size/color ayachu tharaam. Order numberum venam size um share cheyyu!",
+        "negative": "Exchange refuse aayathil kshamikkuka — athu nadakkan pattilla. Order details share cheyyu — njan personally exchange approve cheyyunnundu ippo thanne.",
+        "positive": "Exchange smooth aayi alle? Santhosham! Vere enthelum venel parayane.",
+        "urgent": "Urgent exchange ano? Order numberum new size um share cheyyu — njan 2 hours il process cheyyam."
+      }
+    },
+    "metadata": { "common_followup": "faq_refund_001" }
+  },
+  {
+    "id": "faq_complaint_001",
+    "category": "complaint",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["How to file a complaint?", "I have a complaint.", "Who can I complain to?", "Complaint process?", "Complaint form?", "Where to register complaint?"],
+        "negative": ["Worst service ever.", "Very bad experience.", "I am very angry.", "You guys are cheating.", "Never buying again.", "Totally disappointed", "Fraud company", "Scam"],
+        "urgent": ["Urgent complaint.", "Immediate action needed.", "Complaint escalation required"]
+      },
+      "answers": {
+        "neutral": "We're sorry you had a bad experience. Please share your order number and the issue. We'll investigate and get back to you within 24 hours with a solution.",
+        "negative": "We take complaints very seriously. This is not the experience we want for you. Share your details — our senior team will personally call you within 2 hours and resolve it.",
+        "urgent": "Understood — this is urgent. Share your order number and phone number. Our manager will call you in 30 minutes."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["complaint cheyyane?", "oru complaint undu", "aarku complaint cheyyum?", "complaint process?", "complaint form undo?", "evide complaint register cheyyum?"],
+        "negative": ["worst service ever", "valare mosham experience", "njan valare angry aanu", "ningal cheating aanu", "veendum vaangilla", "totally disappointed", "fraud company", "scam"],
+        "urgent": ["urgent complaint", "immediate action venda", "complaint escalation required"]
+      },
+      "answers": {
+        "neutral": "Bad experience aayathil kshamikkuka. Order numberum issue um share cheyyu. Njan investigate cheythu 24 hours il solution kond varam.",
+        "negative": "Complaints njangal valare seriously edukkum. Ningalkku vendiya experience alla ithu. Details share cheyyu — senior team personally 2 hours il call cheythu resolve cheyyum.",
+        "urgent": "Urgent aano manassilaayi. Order numberum phone number um share cheyyu. Manager 30 minutes il ninakku call cheyyum."
+      }
+    },
+    "escalate_if": { "keywords": ["cheating", "fraud", "police", "lawyer"], "action": "immediate_human_escalation" },
+    "metadata": { "avg_resolution_time": "2 hours" }
+  },
+  {
+    "id": "faq_feedback_001",
+    "category": "feedback",
+    "priority": 3,
+    "en": {
+      "questions": {
+        "neutral": ["I want to give feedback.", "Where can I leave a review?", "Feedback please.", "How to rate you?", "Suggestion box?", "Tell me how to review"],
+        "positive": ["Love your products!", "Great service!", "Will recommend to friends.", "You guys are awesome.", "Keep up the good work", "Best shopping experience"],
+        "negative": ["Improve your quality.", "Delivery is slow.", "Customer service is poor.", "Not satisfied", "Many issues"]
+      },
+      "answers": {
+        "neutral": "Thank you for your feedback! You can leave a review on Google or WhatsApp us directly. We read every single feedback — it helps us improve.",
+        "positive": "Thank you so much! This means the world to us. Share a Google review if possible — it helps other customers too!",
+        "negative": "Thank you for being honest. We'll work on this. If you share more details, we can fix it personally for you."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["feedback tharaanundu", "evide review idanam?", "feedback please", "engane rate cheyyum?", "suggestion box undo?", "eppole review idanam ennu parayu"],
+        "positive": ["products ishtapettu!", "service nallathaanu", "friends inu recommend cheyyum", "ningal adipoli aanu", "keep up the good work", "best shopping experience"],
+        "negative": ["quality improve cheyyu", "delivery slow aanu", "customer service poor aanu", "satisfied alla", "kure issues undu"]
+      },
+      "answers": {
+        "neutral": "Feedback inu nanni! Google il review idam or WhatsApp il direct aayittu parayam. Ella feedback um njangal vaayikkum — athu njangale improve cheyyan sahayikkum.",
+        "positive": "Valare nanni! Google review share cheythaal kollaam — athu other customers inum helpful aakum!",
+        "negative": "Honest feedback inu nanni. Njangal ithil work cheyyum. Kooduthal details share cheythaal personally fix cheyyam."
+      }
+    }
+  },
+  {
+    "id": "faq_bulk_order_001",
+    "category": "bulk",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["Do you take bulk orders?", "I need wholesale price.", "Bulk discount undo?", "Minimum quantity for bulk?", "Can I get custom design for bulk?", "Wholesale enquiry", "Bulk order process", "Corporate orders?"],
+        "positive": ["Good bulk pricing.", "Wholesale was easy.", "Great bulk discount"],
+        "urgent": ["Need bulk order urgently.", "Large quantity fast.", "Urgent wholesale requirement"]
+      },
+      "answers": {
+        "neutral": "Yes, we do bulk orders for 20+ pieces. Please share the product, quantity, and delivery location. Our wholesale team will call you within 24 hours with a custom quote.",
+        "positive": "Thank you for your bulk order! We appreciate it. Reach out anytime for repeat orders — we'll give priority pricing.",
+        "urgent": "Urgent bulk order? Call our wholesale hotline at +91 98765 43211 or share your requirement here. We'll respond within 1 hour."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["bulk orders edukkumo?", "wholesale price venda", "bulk discount undo?", "bulk inu minimum quantity?", "custom design kittumo bulk inu?", "wholesale enquiry", "bulk order process", "corporate orders undo?"],
+        "positive": ["bulk pricing kollam", "wholesale easy aayirunnu", "great bulk discount"],
+        "urgent": ["bulk order urgently venda", "large quantity fast", "urgent wholesale requirement"]
+      },
+      "answers": {
+        "neutral": "Yes, 20+ pieces inu bulk orders edukkum. Product, quantity, delivery location share cheyyu. Wholesale team 24 hours il custom quote kond call cheyyum.",
+        "positive": "Bulk order inu nanni! Repeat orders inu priority pricing tharaam. Eppozhum contact cheyyane!",
+        "urgent": "Urgent bulk order ano? Wholesale hotline +91 98765 43211 il call cheyyu or requirement ivide share cheyyu. 1 hour il response tharaam."
+      }
+    }
+  },
+  {
+    "id": "faq_cancel_order_001",
+    "category": "cancellation",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["Can I cancel my order?", "How to cancel order?", "Cancel order process?", "Order cancel cheyyamo?", "Cancellation policy?", "Cancel before dispatch", "Cancel after payment?"],
+        "negative": ["Cancellation not allowed.", "Order cannot be cancelled.", "They refused cancellation.", "Too late to cancel?", "Cancellation fee charged"],
+        "urgent": ["Need to cancel immediately.", "Cancel my order right now.", "Urgent cancellation."]
+      },
+      "answers": {
+        "neutral": "Orders can be cancelled within 1 hour of placing if not yet processed. Share your order number and we'll check if cancellation is possible. After dispatch, return instead.",
+        "negative": "We understand you want to cancel — if it's already processed, we can't stop it. But you can return it for free within 7 days. Want help with that?",
+        "urgent": "Urgent cancellation? Share order number immediately. If not yet shipped, we'll cancel right now and confirm within 10 minutes."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["order cancel cheyyamo?", "order cancel cheyyane?", "cancel process enthu?", "order cancel cheyyamo?", "cancellation policy enthu?", "dispatch munne cancel", "payment kazhinjal cancel?"],
+        "negative": ["cancellation allow cheyyilla", "order cancel cheyyan pattilla", "cancellation refuse cheythu", "cancel cheyyan valare late aayo?", "cancellation fee undu"],
+        "urgent": ["immediate cancel venda", "order ippo cancel cheyyu", "urgent cancellation"]
+      },
+      "answers": {
+        "neutral": "Order place cheythu 1 hour ullil cancel cheyyam, process aayillel. Order number share cheyyu — cancellation possible anno check cheyyam. Dispatch aayittenkil return cheyyane.",
+        "negative": "Cancel cheyyanam enn manassilaayi — process aayittundenkil stop cheyyan pattilla. Pakshe 7 days ullil free return cheyyam. Athinu help veno?",
+        "urgent": "Urgent cancellation? Order number ippo share cheyyu. Ship aayillel ippo cancel cheyyam, 10 minutes il confirmation tharaam."
+      }
+    },
+    "metadata": { "common_followup": "faq_returns_001" }
+  },
+  {
+    "id": "faq_wrong_product_001",
+    "category": "returns",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["I received the wrong product.", "Wrong item sent.", "This is not what I ordered.", "Product mismatch.", "Wrong color received", "Wrong size received"],
+        "negative": ["You sent the wrong product!", "Completely wrong item.", "This is unacceptable.", "I ordered blue, got red.", "Worst mistake", "How can you send wrong item?"],
+        "urgent": ["Wrong product received urgently need replacement.", "Send correct item immediately."]
+      },
+      "answers": {
+        "neutral": "We're really sorry for the mix-up. Please share a photo of the product you received and your order number. We'll arrange a pickup and send the correct item within 2 days.",
+        "negative": "That's completely our mistake — we apologize sincerely. Share your order number and photo of the wrong product. We'll prioritize your correct order and ship it today itself.",
+        "urgent": "Urgent wrong product issue — share order number and photo right now. We'll dispatch the correct item today via express delivery at no extra cost."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["wrong product kitti", "wrong item ayachu", "njan order cheythathu alla ithu", "product mismatch", "wrong color kitti", "wrong size kitti"],
+        "negative": ["wrong product ayachu!", "complete wrong item", "ithu unacceptable aanu", "njan blue order cheythu red kitti", "worst mistake", "engane wrong item ayachu kodukkum?"],
+        "urgent": ["wrong product kitti urgent replacement venda", "correct item immediate ayachu thaa"]
+      },
+      "answers": {
+        "neutral": "Mix up aayathil valare kshamikkuka. Product photo and order number share cheyyu. Pickup arrange cheythu correct item 2 days il ayachu tharaam.",
+        "negative": "Athu njangalude mistake aanu — sincere apology. Order numberum wrong product photo um share cheyyu. Correct order priority kodukkum, today thanne ship cheyyum.",
+        "urgent": "Urgent wrong product — order numberum photo um ippo share cheyyu. Correct item today express delivery il extra cost illathe ayachu tharaam."
+      }
+    },
+    "escalate_if": { "keywords": [], "action": null },
+    "metadata": { "common_followup": "faq_exchange_001" }
+  },
+  {
+    "id": "faq_missing_item_001",
+    "category": "delivery",
+    "priority": 1,
+    "en": {
+      "questions": {
+        "neutral": ["Item missing from package.", "Order is incomplete.", "I didn't receive all items.", "Some products are missing.", "Box came short", "Partial delivery"],
+        "negative": ["Half the order is missing.", "You forgot to send one item.", "Missing item, very disappointed.", "Cheating — item not delivered.", "Incomplete order again"],
+        "urgent": ["Urgent — missing item needed immediately.", "Missing product, need it today."]
+      },
+      "answers": {
+        "neutral": "We're sorry your order was incomplete. Please share your order number and which item is missing. We'll verify and ship the missing item within 2 days at no cost.",
+        "negative": "That's completely our fault — we apologize. Share order number and missing item details. We'll send the missing item today with express delivery. No charges.",
+        "urgent": "Urgent missing item — share order number and missing product name right now. We'll dispatch it today and share tracking within 2 hours."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["package il item missing", "order incomplete aanu", "ella items um kittiyilla", "some products missing", "box kuravu", "partial delivery"],
+        "negative": ["order half missing", "one item ayachilla", "missing item valare disappointed", "cheating — item deliver cheythilla", "incomplete order veendum"],
+        "urgent": ["urgent — missing item immediate venda", "missing product today venda"]
+      },
+      "answers": {
+        "neutral": "Order incomplete aayathil kshamikkuka. Order numberum missing item um share cheyyu. Njan verify cheythu missing item 2 days il free aayi ship cheyyum.",
+        "negative": "Athu njangalude fault aanu — kshamikkuka. Order numberum missing item details um share cheyyu. Missing item today express delivery il ayachu tharaam. Charge illa.",
+        "urgent": "Urgent missing item — order numberum missing product name um ippo share cheyyu. Today dispatch cheyyum, 2 hours il tracking share cheyyam."
+      }
+    },
+    "metadata": { "common_followup": "faq_tracking_001" }
+  },
+  {
+    "id": "faq_coupon_not_working_001",
+    "category": "pricing",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["Coupon code not working.", "Discount code invalid.", "Promo code not applying.", "Code says expired but it shouldn't.", "Code not recognized", "Can't apply coupon"],
+        "negative": ["Your coupon is useless.", "Code doesn't work. Waste of time.", "Fake discount code.", "Never works", "Misleading offer"],
+        "urgent": ["Code not working, need discount urgently.", "Help me apply code before checkout expires."]
+      },
+      "answers": {
+        "neutral": "Sorry for the trouble. Share the code you tried and your order details. I'll check if it's valid and apply it manually for you.",
+        "negative": "We apologize the code didn't work — that's frustrating. Share the code and your cart value. If it's valid, we'll give you an equivalent discount manually or a new code.",
+        "urgent": "Urgent — share the code right now. I'll verify and if valid, I'll generate a fresh working code for you immediately."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["coupon code work cheyyunilla", "discount code invalid", "promo code apply aavunnilla", "code expired ennu kanikkunnu pakshe expire aayilla", "code recognize cheyyunilla", "coupon apply cheyyan pattunnilla"],
+        "negative": ["ningalude coupon useless", "code work illa time waste", "fake discount code", "work aavilla", "misleading offer"],
+        "urgent": ["code work illa urgent discount venda", "checkout expire aakunna munpe code apply cheyyan help cheyyu"]
+      },
+      "answers": {
+        "neutral": "Trouble inu kshamikkuka. Nee try cheytha code um order details um share cheyyu. Njan valid anno check cheythu manually apply cheyyam.",
+        "negative": "Code work aayillallo — athu frustrating aanu. Code um cart value um share cheyyu. Valid aanenkil manually equivalent discount or new code tharaam.",
+        "urgent": "Urgent — code ippo share cheyyu. Njan verify cheythu valid aanenkil fresh working code immediate generate cheythu tharaam."
+      }
+    },
+    "metadata": { "common_followup": "faq_payment_001" }
+  },
+  {
+    "id": "faq_cod_not_available_001",
+    "category": "payment",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["Cash on delivery not available?", "COD option not showing.", "Why no COD?", "Can I pay cash on delivery?", "COD disabled for my pincode", "COD limit?"],
+        "negative": ["No COD? Then I'm not ordering.", "You don't have COD, other shops do.", "COD unavailable — very inconvenient.", "COD should be available everywhere"],
+        "urgent": ["Need COD urgently. No other payment method."]
+      },
+      "answers": {
+        "neutral": "COD is available for orders up to ₹5000 in most areas. For higher value or certain pincodes, we require prepayment. Share your pincode and order value — I'll check if COD is possible.",
+        "negative": "We understand COD is important. If it's not showing, it could be due to your pincode or order value. We offer safe prepayment with instant refunds. Want me to check COD availability for you?",
+        "urgent": "Let me check COD urgently for you. Share your pincode and total amount — I'll confirm within 2 minutes."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["cash on delivery illa?", "COD option kanunnilla", "why no COD?", "cash on delivery kodukkam?", "COD entha limit?", "COD enikku kanunnilla"],
+        "negative": ["COD illenkil njan order cheyyilla", "COD illa vere shops il undu", "COD unavailable — valare inconvenient", "COD everywhere available aakanam"],
+        "urgent": ["COD urgently venda. Vere payment method illa."]
+      },
+      "answers": {
+        "neutral": "COD ₹5000 vare ulla orders inu most areas il undu. Higher value or certain pincodes inu prepayment venam. Ninte pincodeum order value um share cheyyu — COD possible anno check cheyyam.",
+        "negative": "COD important aanu manassilaayi. Kanunnillel pincode or order value issue aakam. Safe prepayment undu with instant refund. COD availability check cheythu tharaano?",
+        "urgent": "COD urgent aayi check cheyyam. Ninte pincodeum total amount um share cheyyu — 2 minutes il confirm cheyyam."
+      }
+    }
+  },
+  {
+    "id": "faq_out_of_stock_001",
+    "category": "availability",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["Item is out of stock.", "When will it be back?", "Restock date?", "Will you restock this?", "Notify me when back", "Can I pre-order?"],
+        "negative": ["Always out of stock.", "Never available.", "You never restock.", "Very bad inventory management.", "Lost interest waiting"],
+        "positive": ["Please restock soon, I love this product!", "Eagerly waiting for restock"],
+        "urgent": ["Need this urgently. When will it come?", "Any stock in store for pickup?"]
+      },
+      "answers": {
+        "neutral": "Sorry that item is currently out of stock. We expect restock in 2-3 weeks. Would you like me to notify you via WhatsApp when it's back?",
+        "negative": "We hear your frustration — stock issues are annoying. We're working on faster restocks. Share the product link and I'll add you to priority notify list. You'll hear from us first.",
+        "positive": "Thank you for loving the product! Restock expected in 2-3 weeks. I'll personally message you when it arrives. Just share your number or enable notifications.",
+        "urgent": "Urgent need? Share product name. I can check if any stock is available in our physical store for pickup today, or suggest similar items in stock."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["item out of stock aanu", "eppo back varum?", "restock date?", "ithu restock cheyyumo?", "back aayal notify cheyyu", "pre-order cheyyan pattumo?"],
+        "negative": ["always out of stock", "available aavilla", "restock cheyyilla", "valare mosham inventory management", "wait cheythu interest poyi"],
+        "positive": ["please restock soon, njan product ishtapettu!", "restock inu eagerly waiting"],
+        "urgent": ["ithu urgently venda. eppo varum?", "store il stock undo pickup inu?"]
+      },
+      "answers": {
+        "neutral": "Sorry item out of stock aanu. Restock 2-3 weeks il pratheekshikkunnu. WhatsApp il notify cheythu tharaano?",
+        "negative": "Frustration manassilaayi — stock issues annoying aanu. Faster restocks inu work cheyyunnundu. Product link share cheyyu — njan priority notify list il add cheyyam. First message njangal idum.",
+        "positive": "Product ishtapettathil nanni! Restock 2-3 weeks. Njan personally message cheyyum item vannappol. Number share cheyyu or notifications on aakku.",
+        "urgent": "Urgent need ano? Product name share cheyyu. Physical store il stock undo pickup inu check cheyyam, or similar items suggest cheyyam."
+      }
+    },
+    "metadata": { "common_followup": null }
+  },
+  {
+    "id": "faq_gift_card_001",
+    "category": "gift",
+    "priority": 3,
+    "en": {
+      "questions": {
+        "neutral": ["Do you have gift cards?", "Gift card balance check.", "How to use gift card?", "Can I buy a gift card?", "Gift card denominations?", "Gift card expiry?"],
+        "negative": ["Gift card not working.", "Balance not showing.", "Gift card code invalid.", "Can't redeem", "Lost my gift card"],
+        "positive": ["Gift card is great!", "Loved the gift card option."]
+      },
+      "answers": {
+        "neutral": "Yes, we offer digital gift cards from ₹500 to ₹5000. Share your email and amount — we'll send it within 5 minutes. To check balance, share your gift card code.",
+        "negative": "Sorry your gift card isn't working. Share the code and I'll verify the balance and fix it manually for you.",
+        "positive": "Thank you! Gift cards make perfect gifts, right? Let me know if you need to buy one or check balance."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["gift card undo?", "gift card balance check cheyyum", "gift card eppo use cheyyum?", "gift card vaangamo?", "gift card denominations entha?", "gift card expire aakumo?"],
+        "negative": ["gift card work cheyyunilla", "balance kanunnilla", "gift card code invalid", "redeem cheyyan pattunnilla", "gift card poyi"],
+        "positive": ["gift card super aanu!", "gift card option ishtapettu"]
+      },
+      "answers": {
+        "neutral": "Yes, digital gift cards ₹500 to ₹5000 undu. Email um amount um share cheyyu — 5 minutes il ayachu tharaam. Balance check inu gift card code share cheyyu.",
+        "negative": "Gift card work aayillallo kshamikkuka. Code share cheyyu — njan balance verify cheythu manually fix cheyyam.",
+        "positive": "Nanni! Gift cards perfect gift aanu alle? Vaangan or balance check venel parayane."
+      }
+    }
+  },
+  {
+    "id": "faq_loyalty_points_001",
+    "category": "loyalty",
+    "priority": 3,
+    "en": {
+      "questions": {
+        "neutral": ["Do you have loyalty program?", "How to earn points?", "Points balance?", "Redeem points?", "Points expiry?", "Points per rupee?"],
+        "negative": ["Points not credited.", "My points are missing.", "Loyalty program is useless.", "Never got points.", "Points deducted wrongly"],
+        "positive": ["Love the points system!", "Redeemed points easily."]
+      },
+      "answers": {
+        "neutral": "Yes! Earn 5 points for every ₹100 spent. 100 points = ₹10 off. Share your registered mobile number and I'll tell your points balance.",
+        "negative": "We're sorry points didn't credit. Share your order number or mobile number — we'll manually add your missing points within 2 hours.",
+        "positive": "So glad you love our loyalty program! Keep shopping to earn more. Want to know your current points balance?"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["loyalty program undo?", "points eppo earn cheyyum?", "points balance?", "points redeem cheyyumo?", "points expire aakumo?", "points per rupee entha?"],
+        "negative": ["points credit aayilla", "points missing", "loyalty program useless", "points kittiyilla", "points thettayi deduct aayi"],
+        "positive": ["points system ishtapettu!", "points easy aayi redeem cheythu"]
+      },
+      "answers": {
+        "neutral": "Yes! ₹100 inu 5 points. 100 points = ₹10 off. Registered mobile number share cheyyu — njan points balance parayam.",
+        "negative": "Points credit aayillallo kshamikkuka. Order number or mobile number share cheyyu — missing points 2 hours il manually add cheyyum.",
+        "positive": "Loyalty program ishtapettathil santhosham! Shopping continue cheyyu kooduthal points inu. Current points balance ariyano?"
+      }
+    }
+  },
+
+  {
+    "id": "faq_warranty_001",
+    "category": "warranty",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["Does the product come with a warranty?", "What is the warranty period?", "What does warranty cover?", "How to claim warranty?", "Warranty registration?", "Extended warranty available?"],
+        "negative": ["Warranty not honored.", "Warranty claim rejected.", "No response for warranty.", "Warranty is a scam.", "Product failed but warranty expired"],
+        "positive": ["Warranty process was smooth.", "Quick replacement under warranty."],
+        "urgent": ["Urgent warranty claim needed.", "Product failed, need immediate replacement."]
+      },
+      "answers": {
+        "neutral": "Most products come with a manufacturer warranty ranging from 6 months to 2 years. Share the product name and I'll tell you the exact warranty period and coverage.",
+        "negative": "We're sorry you're facing issues with warranty claim. Share your order number and warranty details — we'll escalate to the brand team and get back to you within 48 hours.",
+        "positive": "Glad the warranty process worked for you! Let us know if you need help with any other product.",
+        "urgent": "Urgent warranty issue? Share order number and product photos/video of the issue. We'll prioritize and connect you with the brand support within 4 hours."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["product inu warranty undo?", "warranty period entha?", "warranty enthu cover cheyyum?", "warranty claim eppole cheyyum?", "warranty register cheyyanundo?", "extended warranty undo?"],
+        "negative": ["warranty honor cheythilla", "warranty claim reject aayi", "warranty inu reply illa", "warranty scam aanu", "product fail aayi but warranty expire aayi"],
+        "positive": ["warranty process smooth aayirunnu", "warranty il quick replacement"],
+        "urgent": ["urgent warranty claim venda", "product fail aayi immediate replacement venda"]
+      },
+      "answers": {
+        "neutral": "Most products inu manufacturer warranty undu 6 months to 2 years. Product name share cheyyu — exact warranty periodum coverage um parayam.",
+        "negative": "Warranty claim issue aayathil kshamikkuka. Order numberum warranty details um share cheyyu — brand team il escalate cheythu 48 hours il reply tharaam.",
+        "positive": "Warranty process work aayathil santhosham! Vere product inu help venel parayane.",
+        "urgent": "Urgent warranty issue ano? Order numberum product photos/video um share cheyyu. Priority kodukkum, brand support ne 4 hours il connect cheyyum."
+      }
+    },
+    "escalate_if": { "keywords": ["warranty rejected", "brand not responding"], "action": "flag_for_human_agent" },
+    "metadata": { "common_followup": null }
+  },
+  {
+    "id": "faq_product_care_001",
+    "category": "care",
+    "priority": 3,
+    "en": {
+      "questions": {
+        "neutral": ["How to care for the product?", "Washing instructions?", "Can I machine wash?", "How to remove stains?", "Ironing temperature?", "Dry cleaning needed?", "Storage tips?"],
+        "negative": ["Product got damaged after first wash.", "Color faded after washing.", "Shrunk after following instructions.", "Care label is wrong."],
+        "positive": ["Care instructions were easy to follow.", "Product still looks new after many washes."]
+      },
+      "answers": {
+        "neutral": "Each product has a care label inside. For most cotton items: machine wash cold, tumble dry low, iron medium. For delicate fabrics, dry clean recommended. Share the product and I'll give specific instructions!",
+        "negative": "We're sorry the product didn't hold up as expected. Share photos of the damage and order number — we'll check if it's a manufacturing defect and help with replacement.",
+        "positive": "Glad the product lasted well! Following care instructions really helps. Let me know if you need tips for any other item."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["product eppole care cheyyum?", "washing instructions entha?", "machine wash cheyyan pattumo?", "stain eppole remove cheyyum?", "ironing temperature entha?", "dry cleaning veno?", "storage tips entha?"],
+        "negative": ["first wash il thanne product damaged aayi", "wash kazhinju color fade aayi", "instructions follow cheythittum shrink aayi", "care label thettaanu"],
+        "positive": ["care instructions easy aayirunnu", "many washes kazhinjalum product still new pole"]
+      },
+      "answers": {
+        "neutral": "Oro product inum care label undakum. Cotton items inu: machine wash cold, tumble dry low, iron medium. Delicate fabrics inu dry clean recommended. Product share cheyyu — specific instructions tharaam!",
+        "negative": "Product expect cheytha pole last aayillallo kshamikkuka. Damage photos and order number share cheyyu — manufacturing defect anno check cheythu replacement help cheyyam.",
+        "positive": "Product nannayi last aayi alle? Care instructions follow cheythathu kondanu. Vere item inu tips venel parayane."
+      }
+    },
+    "metadata": { "common_followup": null }
+  },
+  {
+    "id": "faq_price_adjustment_001",
+    "category": "pricing",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["Price dropped after I bought. Can I get refund for difference?", "Price adjustment policy?", "Bought yesterday, today on sale. What to do?", "Can I get credit for price difference?"],
+        "negative": ["No price adjustment? That's unfair.", "Other stores give refund for difference.", "Price drop within 7 days should be refunded."],
+        "positive": ["Thank you for refunding the difference!", "Great price adjustment policy."]
+      },
+      "answers": {
+        "neutral": "We offer price adjustment within 7 days of purchase if the same item goes on sale. Share your order number and we'll refund the difference to your original payment method.",
+        "negative": "We understand it's frustrating to see a price drop after buying. While our policy is 7 days, share your order details and we'll see what we can do as a one-time gesture.",
+        "positive": "Happy to help with price adjustment! It's our way of ensuring you always get the best deal."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["vaangi kazhinju price drop aayi. difference refund kittumo?", "price adjustment policy entha?", "innale vaangi, innu sale. enthu cheyyum?", "price difference credit kittumo?"],
+        "negative": ["price adjustment illa? unfair aanu", "other stores difference refund tharum", "7 days ullil price drop aayal refund cheyyanam"],
+        "positive": ["difference refund cheythathinu nanni!", "price adjustment policy kollam"]
+      },
+      "answers": {
+        "neutral": "7 days ullil same item sale il poyal price adjustment tharaam. Order number share cheyyu — difference original payment method il refund cheyyum.",
+        "positive": "Happy to help with price adjustment! Ningalkku best deal kittunnathu njangalude policy aanu."
+      }
+    },
+    "metadata": { "common_followup": "faq_refund_001" }
+  },
+  {
+    "id": "faq_order_history_001",
+    "category": "account",
+    "priority": 3,
+    "en": {
+      "questions": {
+        "neutral": ["How can I see my order history?", "Can I get past orders list?", "Need invoice for old order.", "How to reorder from history?", "Order history not showing."],
+        "negative": ["My order history is empty.", "Past orders missing.", "Can't find my order from last month."],
+        "urgent": ["Need old invoice urgently.", "Urgent proof of purchase required."]
+      },
+      "answers": {
+        "neutral": "Log in to your account and go to 'My Orders'. All your past orders will be listed there. Need a specific invoice? Share your order number and I'll email it to you.",
+        "negative": "Sorry your order history isn't showing. Share your registered email or mobile number and I'll fetch your past orders manually.",
+        "urgent": "Urgent invoice? Share your order number and email ID — I'll send it within 10 minutes."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["order history eppole kanum?", "past orders list kittumo?", "old order inu invoice venda", "history il ninnu reorder eppole?", "order history kanunnilla"],
+        "negative": ["order history empty aanu", "past orders missing", "last month order kanan pattunnilla"],
+        "urgent": ["old invoice urgently venda", "urgent purchase proof venda"]
+      },
+      "answers": {
+        "neutral": "Account il login cheythu 'My Orders' section il poo. Ella past orders um list aakum. Specific invoice veno? Order number share cheyyu — email cheythu tharaam.",
+        "negative": "Order history kanan illallo. Registered email or mobile number share cheyyu — njan manually past orders fetch cheyyam.",
+        "urgent": "Urgent invoice? Order numberum email ID um share cheyyu — 10 minutes il ayachu tharaam."
+      }
+    },
+    "metadata": { "common_followup": null }
+  },
+  {
+    "id": "faq_account_deletion_001",
+    "category": "account",
+    "priority": 3,
+    "en": {
+      "questions": {
+        "neutral": ["How to delete my account?", "Can I close my account?", "Account deletion request.", "Remove my personal data.", "GDPR deletion request."],
+        "negative": ["Account deletion is too complicated.", "They won't delete my data.", "Still getting emails after deletion."],
+        "positive": ["Account deletion was easy.", "Data removed as requested."]
+      },
+      "answers": {
+        "neutral": "We're sorry to see you go! To delete your account, go to Account Settings > Delete Account, or email support@yourshop.com with subject 'Delete Account'. We'll process within 7 days.",
+        "negative": "Sorry you're facing trouble deleting your account. Share your registered email and we'll manually delete your account and confirm within 24 hours.",
+        "positive": "Thank you for being with us. Your account deletion request has been processed. You're always welcome back!"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["account eppole delete cheyyum?", "account close cheyyan pattumo?", "account deletion request", "personal data remove cheyyu", "GDPR deletion request"],
+        "negative": ["account deletion valare complicated aanu", "data delete cheyyilla", "deletion kazhinjalum emails varunnu"],
+        "positive": ["account deletion easy aayirunnu", "data remove cheythu"]
+      },
+      "answers": {
+        "neutral": "Povukayano? Account delete cheyyan Account Settings > Delete Account, or email support@yourshop.com with subject 'Delete Account'. 7 days il process cheyyum.",
+        "negative": "Account delete cheyyan trouble undo? Registered email share cheyyu — manually delete cheythu 24 hours il confirm cheyyam.",
+        "positive": "Thank you for being with us. Account deletion request process cheythu. Always welcome back!"
+      }
+    },
+    "escalate_if": { "keywords": ["data not deleted", "privacy complaint"], "action": "flag_for_human_agent" },
+    "metadata": { "common_followup": null }
+  },
+  {
+    "id": "faq_newsletter_001",
+    "category": "marketing",
+    "priority": 3,
+    "en": {
+      "questions": {
+        "neutral": ["How to subscribe to newsletter?", "Unsubscribe from emails.", "Not getting emails.", "Change email preferences.", "Weekly deals email?"],
+        "negative": ["Too many emails.", "Spam from you.", "Unsubscribe not working.", "Still getting emails after unsubscribing."],
+        "positive": ["Love the newsletter!", "Great deals in email."]
+      },
+      "answers": {
+        "neutral": "You can subscribe/unsubscribe at the bottom of any email or in account settings. Share your email and I'll update preferences for you.",
+        "negative": "Sorry for the email overload. Share your email and I'll immediately unsubscribe you. You should stop receiving emails within 24 hours.",
+        "positive": "Glad you enjoy our newsletter! We send weekly deals and exclusive offers. Stay tuned!"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["newsletter eppole subscribe cheyyum?", "unsubscribe from emails", "emails varunnilla", "email preferences maattanam", "weekly deals email undo?"],
+        "negative": ["emails valare kooduthal varunnu", "spam aayi thonni", "unsubscribe work cheyyunilla", "unsubscribe cheythittum emails varunnu"],
+        "positive": ["newsletter ishtapettu!", "email il great deals"]
+      },
+      "answers": {
+        "neutral": "Oro email inum bottom il allenkil account settings il subscribe/unsubscribe cheyyam. Email share cheyyu — preferences update cheythu tharaam.",
+        "negative": "Email overload inu kshamikkuka. Email share cheyyu — immediate unsubscribe cheyyam. 24 hours ullil emails stop aakum.",
+        "positive": "Newsletter ishtapettathil santhosham! Weekly deals and exclusive offers ayakkunnundu. Stay tuned!"
+      }
+    },
+    "metadata": { "common_followup": null }
+  },
+  {
+    "id": "faq_referral_program_001",
+    "category": "marketing",
+    "priority": 3,
+    "en": {
+      "questions": {
+        "neutral": ["Do you have a referral program?", "How to refer a friend?", "Referral code?", "Referral rewards?", "How to get referral link?"],
+        "negative": ["Referral code not working.", "Never got referral reward.", "Friend didn't get discount.", "Referral program is confusing."],
+        "positive": ["Got my referral reward!", "Easy to refer friends."]
+      },
+      "answers": {
+        "neutral": "Yes! Share your unique referral link from the 'Refer & Earn' section in your account. Your friend gets 10% off, you get ₹100 credit when they order. Want me to send your link?",
+        "negative": "Sorry the referral didn't work. Share your email and friend's email — we'll manually check and credit your reward if valid.",
+        "positive": "Awesome! Glad you got your referral reward. Keep sharing and earning!"
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["referral program undo?", "friend inu eppole refer cheyyum?", "referral code entha?", "referral rewards entha?", "referral link eppole kittum?"],
+        "negative": ["referral code work cheyyunilla", "referral reward kittiyilla", "friend inu discount kittiyilla", "referral program confusing aanu"],
+        "positive": ["referral reward kittiyi!", "friends inu refer easy aanu"]
+      },
+      "answers": {
+        "neutral": "Yes! Account il 'Refer & Earn' section il ninte unique referral link share cheyyu. Friend inu 10% off, avar order cheythaal ninakku ₹100 credit. Link ayachu tharaano?",
+        "negative": "Referral work aayillallo. Ninte emailum friend inu email um share cheyyu — manually check cheythu reward credit cheyyam.",
+        "positive": "Super! Referral reward kittiyathil santhosham. Share cheythu earn cheyyu!"
+      }
+    },
+    "metadata": { "common_followup": null }
+  },
+  {
+    "id": "faq_fitting_trial_001",
+    "category": "appointment",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["Can I try products before buying?", "Do you have a trial room?", "Fitting room available?", "Can I check size in store?", "Trial before purchase?"],
+        "negative": ["Trial room was dirty.", "No trial room available.", "Had to wait long for trial room.", "Trial room not maintained."],
+        "positive": ["Trial room was clean and spacious.", "Easy to try products."],
+        "urgent": ["Need trial urgently.", "Can I come now for trial?"]
+      },
+      "answers": {
+        "neutral": "Yes, our physical store has spacious trial rooms. Walk in anytime during working hours. Want me to check current occupancy?",
+        "negative": "We're sorry about the trial room condition. Please share which store and time — we'll address this immediately and ensure better experience next time.",
+        "positive": "Glad you had a good trial experience! Happy to help you find the perfect fit.",
+        "urgent": "Trial room available right now. Come over — we'll prioritize you."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["vaangunna munpe product try cheyyan pattumo?", "trial room undo?", "fitting room available aano?", "store il size check cheyyan pattumo?", "trial munpe purchase?"],
+        "negative": ["trial room dirty aayirunnu", "trial room illa", "trial room inu wait cheyyanam", "trial room maintain cheythilla"],
+        "positive": ["trial room clean and spacious aayirunnu", "products try cheyyan easy"],
+        "urgent": ["urgent trial venda", "ippo trial inu varano?"]
+      },
+      "answers": {
+        "neutral": "Yes, physical store il spacious trial rooms undu. Working hours il anytime walk in. Current occupancy check cheythu tharaano?",
+        "negative": "Trial room condition inu kshamikkuka. Ee store and time share cheyyu — immediate address cheythu next time better experience ensure cheyyam.",
+        "positive": "Good trial experience aayathil santhosham! Perfect fit kanan help cheyyam.",
+        "urgent": "Trial room ippo available. Vaavo — priority tharaam."
+      }
+    },
+    "metadata": { "common_followup": "faq_location_001" }
+  },
+  {
+    "id": "faq_packaging_001",
+    "category": "delivery",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["How is the product packaged?", "Eco-friendly packaging?", "Can I get gift wrapping?", "Packaging quality?", "Discreet packaging?"],
+        "negative": ["Packaging was damaged.", "Product arrived in torn box.", "Plastic packaging too much.", "No cushioning inside."],
+        "positive": ["Packaging was excellent.", "Loved the gift wrap option."],
+        "urgent": ["Need gift wrapping urgently."]
+      },
+      "answers": {
+        "neutral": "We use recyclable cardboard boxes and paper cushioning. Gift wrapping is available for ₹50 — select at checkout. Want me to add gift wrap to your order?",
+        "negative": "Sorry your packaging was damaged. Share photos and order number — we'll investigate with courier and ensure better packing next time.",
+        "positive": "Glad you liked the packaging! We're always improving to be more eco-friendly.",
+        "urgent": "Urgent gift wrapping? Share your order number and we'll arrange it before dispatch."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["product eppole package cheyyum?", "eco-friendly packaging undo?", "gift wrapping kittumo?", "packaging quality entha?", "discreet packaging undo?"],
+        "negative": ["packaging damaged aayirunnu", "torn box il product vannu", "plastic packaging kooduthal", "inside cushioning illa"],
+        "positive": ["packaging excellent aayirunnu", "gift wrap option ishtapettu"],
+        "urgent": ["gift wrapping urgently venda"]
+      },
+      "answers": {
+        "neutral": "Recyclable cardboard boxes and paper cushioning use cheyyunnu. Gift wrapping ₹50 inu available — checkout il select cheyyu. Gift wrap add cheythu tharaano?",
+        "negative": "Packaging damaged aayathil kshamikkuka. Photos and order number share cheyyu — courier il investigate cheythu next time better packing ensure cheyyam.",
+        "positive": "Packaging ishtapettathil santhosham! Eco-friendly aakkan improve cheyyunnundu.",
+        "urgent": "Urgent gift wrapping? Order number share cheyyu — dispatch munne arrange cheyyam."
+      }
+    },
+    "metadata": { "common_followup": null }
+  },
+  {
+    "id": "faq_bulk_discount_001",
+    "category": "pricing",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["Bulk discount for 10+ items?", "Volume pricing?", "Discount for bulk purchase?", "How much off for bulk?", "Corporate bulk pricing?"],
+        "negative": ["Bulk discount is too low.", "Other wholesalers give better rates.", "Minimum quantity too high."],
+        "positive": ["Great bulk discount!", "Wholesale pricing is competitive."],
+        "urgent": ["Need bulk pricing urgently for event."]
+      },
+      "answers": {
+        "neutral": "We offer sliding discounts: 5% off for 10-49 items, 10% off for 50-99 items, 15% off for 100+ items. Share the product and quantity for a custom quote!",
+        "negative": "We understand you want better rates. Share the competitor's quote if you have one — we'll try to match or beat it for bulk orders.",
+        "positive": "Glad you liked our bulk pricing! For repeat bulk orders, we offer loyalty discounts. Let me know your regular needs.",
+        "urgent": "Urgent bulk order? Share product, quantity, and delivery deadline. We'll expedite and give best pricing."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["10+ items inu bulk discount undo?", "volume pricing entha?", "bulk purchase inu discount?", "bulk inu ethra off?", "corporate bulk pricing entha?"],
+        "negative": ["bulk discount valare kuravaanu", "other wholesalers better rate tharum", "minimum quantity kooduthal"],
+        "positive": ["bulk discount kollam!", "wholesale pricing competitive aanu"],
+        "urgent": ["urgent bulk pricing venda event inu"]
+      },
+      "answers": {
+        "neutral": "Sliding discounts: 10-49 items inu 5% off, 50-99 items inu 10% off, 100+ items inu 15% off. Product and quantity share cheyyu — custom quote tharaam!",
+        "negative": "Better rates veno manassilaayi. Competitor quote undenkil share cheyyu — match or beat cheyyan try cheyyam.",
+        "positive": "Bulk pricing ishtapettathil santhosham! Repeat bulk orders inu loyalty discounts undu. Regular needs entha ennu parayane.",
+        "urgent": "Urgent bulk order? Product, quantity, delivery deadline share cheyyu. Expedite cheythu best pricing tharaam."
+      }
+    },
+    "metadata": { "common_followup": "faq_bulk_order_001" }
+  },
+  {
+    "id": "faq_express_delivery_001",
+    "category": "delivery",
+    "priority": 2,
+    "en": {
+      "questions": {
+        "neutral": ["Do you have express delivery?", "How fast can I get it?", "Next day delivery available?", "Express shipping cost?", "Same day delivery areas?"],
+        "negative": ["Express delivery took 3 days.", "Paid extra but got normal delivery.", "Express not available in my area."],
+        "positive": ["Express delivery was super fast!", "Worth the extra cost."],
+        "urgent": ["Need it tomorrow morning.", "Urgent express delivery required."]
+      },
+      "answers": {
+        "neutral": "Express delivery (1-2 days) is available for select pincodes at ₹150 extra. Same-day delivery only in Ernakulam for orders before 12 PM. Share your pincode to check options!",
+        "negative": "Sorry express delivery didn't meet expectations. Share your order number — we'll refund the express fee and investigate the delay.",
+        "positive": "Glad express delivery worked for you! We partner with top couriers for fast shipping.",
+        "urgent": "Urgent express? Share your pincode and order details. We'll check if we can push for next-day delivery and confirm within 30 minutes."
+      }
+    },
+    "manglish": {
+      "questions": {
+        "neutral": ["express delivery undo?", "ethra fast kittum?", "next day delivery undo?", "express shipping cost entha?", "same day delivery areas ethokke?"],
+        "negative": ["express delivery 3 days eduthu", "extra pay cheythu but normal delivery kittiyi", "express enikku available alla"],
+        "positive": ["express delivery super fast aayirunnu!", "extra cost worth it"],
+        "urgent": ["tomorrow morning thanne venda", "urgent express delivery required"]
+      },
+      "answers": {
+        "neutral": "Express delivery (1-2 days) select pincodes inu ₹150 extra. Same-day delivery Ernakulam il mathram, 12 PM munpe order cheythaal. Pincode share cheyyu — options check cheyyam!",
+        "negative": "Express delivery expectation meet aayillallo. Order number share cheyyu — express fee refund cheythu delay investigate cheyyam.",
+        "positive": "Express delivery work aayathil santhosham! Fast shipping inu top couriers aane partner.",
+        "urgent": "Urgent express? Pincode and order details share cheyyu. Next-day delivery pattumo ennu check cheythu 30 minutes il confirm cheyyam."
+      }
+    },
+    "metadata": { "common_followup": "faq_delivery_001" }
+  }
+]

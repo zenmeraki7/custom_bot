@@ -1,0 +1,1461 @@
+[
+  {
+    "id": "ordering_001",
+    "category": "ordering",
+    "question_variants": [
+      "Njan engane product order cheyyam?",
+      "Order cheyyane enthu cheyyanam?",
+      "Product order cheyyan method entha?",
+      "Enikku order cheyyan pattumo?",
+      "Order cheyyunna step entha?",
+      "Order enthu cheyyam?",
+      "Engane order idanam?",
+      "Order process enthu?",
+      "Order cheyyaan steps enthu?",
+      "Product vangaan engane?",
+      "Buy cheyyaan engane?"
+    ],
+    "answer": "Website allenkil app open cheythu product select cheyyuka, size um colour um choose cheythu 'Add to Cart' tappu cheyyuka, pinne checkout complete cheyyuka — valare easy aanu!"
+  },
+  {
+    "id": "ordering_002",
+    "category": "ordering",
+    "question_variants": [
+      "Order cheyyaan account venamano?",
+      "Account illa enkil order cheyyamo?",
+      "Guest ayi order cheyyam?",
+      "Register cheyyathe buy cheyyam?"
+    ],
+    "answer": "Guest ayi checkout cheyyan pattumo, pakshe oru free account undenkil orders track cheyyanam, addresses save cheyyanam, order history kanaam — valare convenient aanu!"
+  },
+  {
+    "id": "ordering_004",
+    "category": "ordering",
+    "question_variants": [
+      "Order confirm aayi ennu engane ariyam?",
+      "Order confirmation message kittumano?",
+      "Order confirm aayi kittiyennu ariyaan?",
+      "Confirmation eppo kittum?"
+    ],
+    "answer": "Order place cheythu kazhinjaal SMS um email um varum — order ID um expected delivery date um undo athil. Sherikkum confirm aayi ennu athil ninnu ariyam."
+  },
+  {
+    "id": "ordering_005",
+    "category": "ordering",
+    "question_variants": [
+      "Order cancel cheyyamo?",
+      "Enikku order cancel cheyyanam",
+      "Order cancel cheyyan pattumo?",
+      "Cancel cheyyaan time und?",
+      "Order cancel cheyyano?",
+      "Cancel cheyyaan pattumo?",
+      "Order cancel engne cheyyam?",
+      "Cancel possible aano?",
+      "Order cancel cheyyaan ethu cheyyam?"
+    ],
+    "answer": "Athe! Dispatch aakunnathinu mundhe 'My Orders' il pokuka, 'Cancel' tappu cheyyuka. Dispatch kazhinjaal return process vazhiye cheyyanam — athum padam tharaam!"
+  },
+  {
+    "id": "ordering_006",
+    "category": "ordering",
+    "question_variants": [
+      "Order modify cheyyamo?",
+      "Order place cheytha pinne maaattam cheyyamo?",
+      "Order il product maaatam cheyyano?",
+      "Order il items add cheyyano?"
+    ],
+    "answer": "Order place cheytha pinne edit cheyyaan pattuilla, pakshe dispatch aakunnathinu mundhe cancel cheythu correct items ayi fresh order idaam. Support il paranjaal vegam help cheyyam."
+  },
+  {
+    "id": "ordering_007",
+    "category": "ordering",
+    "question_variants": [
+      "Oru order il multiple products idamo?",
+      "Oru saari pathikku item vangamo?",
+      "Multiple products cart il idamo?",
+      "Onnil kooduthal items order cheyyam?"
+    ],
+    "answer": "Athe, cart il ethravenam items add cheyyam, oru order ayi checkout cheyyam — delivery charge total il ninnu calculate cheyyum!"
+  },
+  {
+    "id": "ordering_008",
+    "category": "ordering",
+    "question_variants": [
+      "Thettaya address kodutha enthu cheyyam?",
+      "Delivery address thett ayi koduthe",
+      "Address fix cheyyano?",
+      "Order pinne address update cheyyamo?"
+    ],
+    "answer": "Vegam support il WhatsApp cheyyuka (+91 98765 43210) allenkil email cheyyuka — dispatch aakunnathinu mundhe address update cheyyaan pattumo. Dispatch kazhinjaal address maaatam possible illa."
+  },
+  {
+    "id": "ordering_009",
+    "category": "ordering",
+    "question_variants": [
+      "Stock illa product order cheyyamo?",
+      "Out of stock item vangano?",
+      "Stock varunnathu ariyaan?",
+      "Pre-order saukaryam undo?"
+    ],
+    "answer": "Stock illa item ippol order cheyyaan pattuilla, pakshe product page il 'Notify Me' tappu cheyyuka — stock varunnathu message varum!"
+  },
+  {
+    "id": "payment_001",
+    "category": "payment",
+    "question_variants": [
+      "EMI option undo?",
+      "Instalments il pay cheyyamo?",
+      "No-cost EMI undo?",
+      "Monthly payment plan undo?"
+    ],
+    "answer": "Athe! ₹2,000 il kooduthal orders il major credit/debit cards um select wallets um vazhiye EMI available aanu. Checkout il available plans kaanaam."
+  },
+  {
+    "id": "payment_002",
+    "category": "payment",
+    "question_variants": [
+      "Enthellaamu payment methods undo?",
+      "Engane pay cheyyaam?",
+      "UPI accept cheyyumo?",
+      "Payment options enthellaamu?",
+      "Payment engne aanu?",
+      "Payment method engne aanu?",
+      "Athalla payment method engne aanu?",
+      "Payment enthu aanu?",
+      "Enthu payment undo?",
+      "Payment options enthu?",
+      "Engane pay cheyyam?",
+      "Enthu vazhiyil pay cheyyam?",
+      "Payment cheyyaan enthu option undo?",
+      "GPay accept cheyyumo?",
+      "GPay cheyyamo?",
+      "PhonePe cheyyamo?",
+      "Paytm cheyyamo?",
+      "UPI undo?",
+      "Card cheyyamo?",
+      "Online pay cheyyamo?",
+      "Netbanking undo?"
+    ],
+    "answer": "UPI (GPay, PhonePe, Paytm), credit/debit cards, net banking, digital wallets, Cash on Delivery, um EMI — ningalude convenience pole checkout il choose cheyyaam."
+  },
+  {
+    "id": "payment_003",
+    "category": "payment",
+    "question_variants": [
+      "Cash on Delivery (COD) undo?",
+      "Parcel kittumbol cash pay cheyyamo?",
+      "COD option enikku undo?",
+      "COD conditions enthaanu?",
+      "Ellaa orders ilum COD undo?",
+      "COD saukaryam undo?",
+      "COD undo?",
+      "Cash on delivery undo?",
+      "Parcel kittumbol pay cheyyamo?",
+      "Cash payment undo?",
+      "Doorstep payment undo?",
+      "Cash il pay cheyyano?"
+    ],
+    "answer": "Kerala muzhuvan ₹5,000 vare orders il COD available aanu. Checkout il 'Cash on Delivery' select cheyyuka — ningalude pin code il available enkilae option kaanum."
+  },
+  {
+    "id": "payment_004",
+    "category": "payment",
+    "question_variants": [
+      "Online payment safe aano?",
+      "Card details safe aano?",
+      "Payment secure aano?",
+      "Enikku payment cheyyan paedikkendatundo?"
+    ],
+    "answer": "Athe, ella transactions um SSL encryption um RBI-certified payment gateways um vazhiye aanu — ningalude card details njangal eppozum store cheyyilla, fully safe aanu!"
+  },
+  {
+    "id": "payment_005",
+    "category": "payment",
+    "question_variants": [
+      "EMI il pay cheyyaan pattumo?",
+      "Payment split cheyyamo?",
+      "Zero-cost EMI undo?",
+      "Ethra banks il EMI undo?"
+    ],
+    "answer": "₹2,000 il kooduthal orders il most credit cards um select debit cards um vazhiye EMI available aanu. Zero-cost EMI select products il undaakam — product page il check cheyyuka."
+  },
+  {
+    "id": "payment_006",
+    "category": "payment",
+    "question_variants": [
+      "Payment fail aayi enkil?",
+      "Payment fail aayi pakshe paisa poyi",
+      "Order confirm aayilla payment poyi",
+      "Double payment aayirunnu",
+      "Payment poya enkilae?",
+      "Paisa poya order illa?",
+      "Payment cheythu order varilla?",
+      "Transaction fail enkilae?",
+      "Amount deduct aayi order illa?"
+    ],
+    "answer": "Payment fail aayi pakshe paisa poyi enkilae 5–7 business days il automatic ayi reverse varum. Urgent enkilae +91 98765 43210 WhatsApp cheyyuka — vegam resolve cheyyaam."
+  },
+  {
+    "id": "delivery_001",
+    "category": "delivery",
+    "question_variants": [
+      "Delivery ethra days il kittum?",
+      "Enthu naal il item varum?",
+      "Order eppo kittum?",
+      "Delivery time ethraaanu?",
+      "Expected delivery time?",
+      "Delivery engne aanu?",
+      "Delivery enthu aanu?",
+      "Delivery eppo kittum?",
+      "Parcel eppo varum?",
+      "Delivery time enthu?",
+      "Delivery ethra naal edukum?",
+      "Delivery days ethra?",
+      "Delivery ethra naal?",
+      "Enikku parcel eppo kittum?"
+    ],
+    "answer": "Kerala muzhuvan standard delivery 2–3 working days. Express delivery (1–2 days) ₹150 extra il available aanu. Ernakulam il 12 PM mundhe order cheyythal same-day delivery kittum!"
+  },
+  {
+    "id": "delivery_002",
+    "category": "delivery",
+    "question_variants": [
+      "Delivery charge undo?",
+      "Shipping charge ethraaanu?",
+      "Free delivery kittumano?",
+      "Delivery charge ethra?",
+      "Delivery free aano?",
+      "Shipping charge undo?",
+      "Delivery charge ethraya?",
+      "Free delivery undo?",
+      "Charge undaakumo delivery il?"
+    ],
+    "answer": "₹500 il kooduthal orders il delivery free aanu! Thazheyulla orders il location anusaricchu oru small delivery fee undo — checkout il clearly kaanum."
+  },
+  {
+    "id": "delivery_003",
+    "category": "delivery",
+    "question_variants": [
+      "Order delay aayi enkilae?",
+      "Order ippozum kittiyilla",
+      "Expected date kazhinju order varunilla",
+      "Delivery late aaya karanam enthaanu?"
+    ],
+    "answer": "Delay aayathin sorry! +91 98765 43210 WhatsApp cheyyuka allenkil support@zenmeraki.com email cheyyuka — order ID kodukkuka, live status parayaam um resolve cheyyaam!"
+  },
+  {
+    "id": "delivery_004",
+    "category": "delivery",
+    "question_variants": [
+      "Order lost aayenkilae?",
+      "Tracking update varunilla parcel kittiyilla",
+      "Order transit il lost aayi",
+      "Package deliver aayilla"
+    ],
+    "answer": "48 manikooral kooduthal tracking update illa enkilae immediately contact cheyyuka. Courier il claim raise cheyyaam, replacement ayakkunnathu allenkil 5–7 working days il full refund cheyyaam."
+  },
+  {
+    "id": "delivery_005",
+    "category": "delivery",
+    "question_variants": [
+      "Ethra locations il deliver cheyyum?",
+      "Enikku ulla area il deliver cheyyumo?",
+      "Ethra pincodes il deliver cheyyum?",
+      "Kerala muzhuvan deliver cheyyumo?"
+    ],
+    "answer": "Kerala muzhuvanathum um India il major cities ilum deliver cheyyunno. Checkout il ningalude pin code enter cheyyuka — availability confirm aakum."
+  },
+  {
+    "id": "delivery_006",
+    "category": "delivery",
+    "question_variants": [
+      "Same-day delivery undo?",
+      "Ippo thane kittumano?",
+      "Urgent delivery today?",
+      "Same-day option undo?",
+      "Today delivery possible aano?",
+      "Ippo order cheythal innu kittumano?",
+      "Express delivery undo?",
+      "Fast delivery undo?",
+      "Urgent delivery undo?"
+    ],
+    "answer": "Ernakulam il 12 PM mundhe order cheyythal same-day delivery kittum — stock subject. Mattu cities il Express delivery (1–2 days) ₹150 extra il available aanu."
+  },
+  {
+    "id": "delivery_007",
+    "category": "delivery",
+    "question_variants": [
+      "Delivery time slot choose cheyyamo?",
+      "Delivery time pick cheyyano?",
+      "Delivery slot engane select cheyyam?",
+      "Morning allenkil evening delivery undo?"
+    ],
+    "answer": "Athe! Checkout il morning (9 AM–1 PM) allenkil evening (2 PM–7 PM) slot choose cheyyaam — area anusaricchu availability kaanum."
+  },
+  {
+    "id": "delivery_008",
+    "category": "delivery",
+    "question_variants": [
+      "Weekend il delivery undo?",
+      "Sunday il deliver cheyyumo?",
+      "Saturday delivery undo?",
+      "Holidays il delivery undo?"
+    ],
+    "answer": "Athe, Saturday deliver cheyyunno. Sunday delivery select areas il available aanu — checkout il check cheyyuka. Public holidays il 1-day delay undaakam."
+  },
+  {
+    "id": "delivery_009",
+    "category": "delivery",
+    "question_variants": [
+      "Order place cheytha pinne delivery date eppo ariyam?",
+      "Order eppo varumennu ariyaan?",
+      "Delivery date engane check cheyyam?"
+    ],
+    "answer": "Order confirmation page ilum email ilum estimated delivery date kaanum. Order pack aakumbol um dispatch aakumbol um SMS update varum."
+  },
+  {
+    "id": "delivery_010",
+    "category": "delivery",
+    "question_variants": [
+      "Delivery address change cheyyano?",
+      "Address update cheyyaan pattumo?",
+      "Address edit cheyyan?",
+      "Order idatha pinne address maaatam cheyyamo?"
+    ],
+    "answer": "Vegam WhatsApp cheyyuka allenkil email cheyyuka — dispatch aakunnathinu mundhe address update cheyyaam. Dispatch kazhinjaal address change possible alla."
+  },
+  {
+    "id": "delivery_011",
+    "category": "delivery",
+    "question_variants": [
+      "Oru order il multiple delivery addresses idamo?",
+      "Different items different address il ayakkan pattumo?",
+      "Split delivery possible?"
+    ],
+    "answer": "Oru order oru address ile ayakkan pattullo. Different addresses il vendum enkilae separate orders iduka — convenient aanum thane!"
+  },
+  {
+    "id": "delivery_012",
+    "category": "delivery",
+    "question_variants": [
+      "Delivery late aayenkilae?",
+      "Delivery overdue aayi",
+      "Expected date kazhinju order vanilla"
+    ],
+    "answer": "Delay aayathin valare sorry! +91 98765 43210 WhatsApp cheyyuka — order ID kodukkuka, real-time status um same day resolution um tharaam. 🙏"
+  },
+  {
+    "id": "tracking_001",
+    "category": "tracking",
+    "question_variants": [
+      "Order track cheyyaan pattumo?",
+      "Order ethinggana track cheyyam?",
+      "Parcel track cheyyano?",
+      "Enikku order evide?",
+      "Delivery track cheyyaan?",
+      "Order tracking engane?",
+      "Track cheyyano?",
+      "Tracking engne cheyyam?",
+      "Order status enthu?",
+      "Parcel evide aanu?",
+      "Order evide aanu ippo?",
+      "Shipment status enthu?",
+      "Order track cheyyaan link undo?"
+    ],
+    "answer": "Order ship aayi kazhinjaal tracking link SMS um email um varum. Account undo enkilae 'My Orders' il pokuka — live tracking kaanum."
+  },
+  {
+    "id": "tracking_002",
+    "category": "tracking",
+    "question_variants": [
+      "Account illa enkilum track cheyyamo?",
+      "Login cheyyathe track cheyyam?",
+      "Guest tracking possible?",
+      "Account illaathe order track cheyyano?"
+    ],
+    "answer": "Account vendarilla — phone allenkil email il vannu tracking link use cheyyuka. Account undo enkilae 'My Orders' il full shipment timeline kaanum."
+  },
+  {
+    "id": "returns_001",
+    "category": "returns",
+    "question_variants": [
+      "Thettaya product vannenkilae?",
+      "Wrong item deliver cheyythu",
+      "Thettaya order kittiyenkilae?",
+      "Incorrect product kittienkilae?",
+      "Wrong product vannu?",
+      "Thettaya item kitti?",
+      "Orupozhum product sheriyalla vannathu?",
+      "Different product kitti?"
+    ],
+    "answer": "Sorry! 48 manikooral ullil received item photo eduthu contact cheyyuka — free pickup arrange cheyyaam um correct product charge onnும illaathe ayakkaam."
+  },
+  {
+    "id": "returns_002",
+    "category": "returns",
+    "question_variants": [
+      "Product return cheyyamo?",
+      "Return policy enthaanu?",
+      "Ethra naal il return cheyyam?",
+      "Return allowed aano?",
+      "Return engne aanu?",
+      "Return enthu aanu?",
+      "Return cheyyano?",
+      "Return possible aano?",
+      "Product return cheyyaan pattumano?",
+      "Return policy enthu?",
+      "Return cheyyaan ethu cheyyam?",
+      "Return process enthu?",
+      "Return cheyyaan pattumo?"
+    ],
+    "answer": "Athe! Delivery kazhinju 7 days ullil unused items original tags um packaging um ayi return accept cheyyunno. Eattu items, kazhuka items, alter cheytha items return cheyyaan pattuilla."
+  },
+  {
+    "id": "returns_003",
+    "category": "returns",
+    "question_variants": [
+      "Return request engane submit cheyyam?",
+      "Return initiate cheyyaan?",
+      "Return cheyyan steps enthellaamu?",
+      "Return process enthaanu?"
+    ],
+    "answer": "Login cheythu 'My Orders' il pokuka, item select cheythu 'Return/Exchange' tappu cheyyuka. Reason parayuka, njangal 2 business days ul doorstep il ninnu free pickup arrange cheyyaam."
+  },
+  {
+    "id": "returns_004",
+    "category": "returns",
+    "question_variants": [
+      "Return shipping free aano?",
+      "Return courier charge enikku undaakumo?",
+      "Return ayakkan charge undaakumo?",
+      "Return shipping charges enthaanu?"
+    ],
+    "answer": "Wrong, defective, allenkil damaged items il return shipping completely free. Size preference madde returns il oru small courier fee undaakam — request raise cheyyumbol kaanum."
+  },
+  {
+    "id": "returns_005",
+    "category": "returns",
+    "question_variants": [
+      "Exchange saukaryam undo?",
+      "Different size il exchange cheyyamo?",
+      "Product swap cheyyano?",
+      "Exchange policy?",
+      "Order cheytha size maaatam cheyyano?"
+    ],
+    "answer": "Athe! Delivery kazhinju 7 days ullil unused items original tags ayi different size allenkil colour il exchange cheyyam. Return request il 'Exchange' option choose cheyyuka."
+  },
+  {
+    "id": "returns_006",
+    "category": "returns",
+    "question_variants": [
+      "Damaged product return cheyyamo?",
+      "Damage aaya item kittienkilae",
+      "Product delivery il break aayi",
+      "Item damage aayittu vannu",
+      "Damaged item return cheyyano?",
+      "Parcel damage aayi vannu?",
+      "Broken product kitti?",
+      "Torn product kitti?",
+      "Damage aayi vannathu return cheyyamo?"
+    ],
+    "answer": "Photos sahitham 48 manikooral ullil contact cheyyuka — free pickup arrange cheyyaam, full replacement allenkil refund tharaam. Ethu venam ennu ningal decide cheyythal mathi!"
+  },
+  {
+    "id": "refund_001",
+    "category": "refund",
+    "question_variants": [
+      "Return cheytha pinne refund ethra naal il kittum?",
+      "Refund ethra time edum?",
+      "Enikku refund eppo kittum?",
+      "Refund timeline enthaanu?",
+      "Refund processing time?",
+      "Refund enthu aanu?",
+      "Refund engne aanu?",
+      "Refund eppo kittum?",
+      "Paisa thurikkumo?",
+      "Money back kittumano?",
+      "Refund ethra naal?",
+      "Refund days ethra?",
+      "Refund time ethraya?",
+      "Refund process enthu?"
+    ],
+    "answer": "Return item inspect cheythu kazhinjaal 3–5 business days ul original payment method il refund process cheyyunno. UPI refunds mostly instant; card refunds 7 days vare edum."
+  },
+  {
+    "id": "refund_002",
+    "category": "refund",
+    "question_variants": [
+      "Exchange alla, refund venam enkilae?",
+      "Replacement venda, paisa tharanam",
+      "Cash refund venam",
+      "Exchange venda, money back venam"
+    ],
+    "answer": "Athe, return request submit cheyyumbol exchange alla refund choose cheyyam. Original payment method il 3–5 business days il money kittum."
+  },
+  {
+    "id": "refund_003",
+    "category": "refund",
+    "question_variants": [
+      "Full refund kittumano?",
+      "Refund amount full aano?",
+      "Delivery charges um refund kittumano?",
+      "Ethu refund kittum?",
+      "Muzhuvan paisa thurikku kittumano?",
+      "Complete refund possible aano?"
+    ],
+    "answer": "Item price full refund kittum. Wrong allenkil defective product aayenkilae delivery charge um refund cheyyunno — ningalude loss onnuum undaakilla."
+  },
+  {
+    "id": "pricing_001",
+    "category": "pricing",
+    "question_variants": [
+      "Ee product ethraya?",
+      "Vila ethraaanu?",
+      "Rate entha?",
+      "Item ethraya?",
+      "Price enthu aanu?",
+      "Price engne aanu?",
+      "Ethraya price?",
+      "Vila ethraya?",
+      "Enthu vila aanu?",
+      "Rate enthu?",
+      "Cost ethraya?",
+      "Product price ethraya?",
+      "Rate paranju tharamo?"
+    ],
+    "answer": "Product, size, um current offers anusaricchu vila maaraam. Product page il exact price kaanum — active discounts automatic ayi update aakum."
+  },
+  {
+    "id": "pricing_002",
+    "category": "pricing",
+    "question_variants": [
+      "Price il tax included aano?",
+      "GST included aano?",
+      "Tax extra aano?",
+      "Ethu tax charge cheyyum?"
+    ],
+    "answer": "Kaanakunna price il GST included aanu. Delivery charge matter aayenkilae checkout il separate ayi kaanum — product page il kaana vila thane pay cheyyendatullu."
+  },
+  {
+    "id": "pricing_003",
+    "category": "pricing",
+    "question_variants": [
+      "Bulk purchase il special discount undo?",
+      "Wholesale price undo?",
+      "Bulk order rate?",
+      "Corporate bulk price undo?"
+    ],
+    "answer": "Athe! 10–49 pieces 5% off, 50–99 pieces 10% off, 100+ pieces 15% off. Custom quote vendum enkilae +91 98765 43210 WhatsApp cheyyuka!"
+  },
+  {
+    "id": "pricing_004",
+    "category": "pricing",
+    "question_variants": [
+      "Promo code engane apply cheyyam?",
+      "Coupon code ethu enter cheyyam?",
+      "Discount code engane use cheyyam?",
+      "Promo code work cheyyunilla"
+    ],
+    "answer": "Checkout il 'Apply Coupon' box il code enter cheyyuka. Work cheyyunilla enkilae expiry um minimum order value um check cheyyuka. New customers WELCOME10 use cheyyuka — 10% off kittum!"
+  },
+  {
+    "id": "pricing_005",
+    "category": "pricing",
+    "question_variants": [
+      "Hidden charges undo?",
+      "Extra fee undaakumo?",
+      "Additional charges undaakumo?",
+      "Ethu extra cost undo?"
+    ],
+    "answer": "Hidden charges onnuum illa — ever. Delivery fee um tax um checkout il confirm cheyyunnathinu mundhe clearly kaanum. Kaanakunnathu thane pay cheyyendatullu!"
+  },
+  {
+    "id": "pricing_006",
+    "category": "pricing",
+    "question_variants": [
+      "Price often change aakumo?",
+      "Price fixed aano?",
+      "Vanga kazhinju price down aakumo?",
+      "Price change policy?"
+    ],
+    "answer": "Sales um seasonal promotions um stock update aakumbol price maaraam. Order place cheytha time price thane pay cheyyendatullu — surprise charge undaakilla."
+  },
+  {
+    "id": "pricing_007",
+    "category": "pricing",
+    "question_variants": [
+      "Thettaya price charge aayi enkilae refund kittumano?",
+      "Kooduthal charge aayi",
+      "Billing error refund",
+      "Wrong amount charge aayi"
+    ],
+    "answer": "Pricing error enkilae immediately difference refund cheyyaam — order ID ayi support il contact cheyyuka, same day solve cheyyaam!"
+  },
+  {
+    "id": "pricing_008",
+    "category": "pricing",
+    "question_variants": [
+      "Price match cheyyumo?",
+      "Competitor price match undo?",
+      "Mattedathil cheap aayi kandu",
+      "Price match policy?"
+    ],
+    "answer": "Formal price match njangal cheyyunilla, pakshe frequent offers undu um first order il WELCOME10 code ayi 10% off kittum. WhatsApp cheyyuka — best possible help cheyyaam!"
+  },
+  {
+    "id": "offers_001",
+    "category": "offers",
+    "question_variants": [
+      "Ippol offer undo?",
+      "Ippo enthu discount undo?",
+      "Promotions undo?",
+      "Offer undo ippo?",
+      "Discount kittumano?",
+      "Offer enthu undo?",
+      "Offer engne aanu?",
+      "Discount undo?",
+      "Sale undo?",
+      "Offer ippo undo?",
+      "Enthanu offer?",
+      "Offer paranju tharamo?",
+      "Ippol discount undo?",
+      "Coupon undo?"
+    ],
+    "answer": "Athe! Seasonal sales um exclusive app offers um regular ayi varunno. New customers WELCOME10 code ayi 10% off kittum. Offers page check cheyyuka allenkil WhatsApp broadcast subscribe cheyyuka!"
+  },
+  {
+    "id": "offers_002",
+    "category": "offers",
+    "question_variants": [
+      "Offer notifications engane kittum?",
+      "Price drop ariyaan?",
+      "Offer updates subscribe cheyyaan?",
+      "WhatsApp offer updates kittumano?"
+    ],
+    "answer": "+91 98765 43210 save cheythu 'Hi' message cheyyuka — offer alerts subscribe aakum. Website footer il newsletter subscribe cheyyukayum cheyyam!"
+  },
+  {
+    "id": "offers_003",
+    "category": "offers",
+    "question_variants": [
+      "First time customer discount undo?",
+      "New customer offer undo?",
+      "Welcome discount undo?",
+      "First order coupon undo?",
+      "First time offer undo?",
+      "New customer discount undo?",
+      "WELCOME10 code work cheyyumo?",
+      "Puthiya customer offer undo?"
+    ],
+    "answer": "Athe! First time customers checkout il WELCOME10 code use cheyyuka — 10% off kittum! Minimum order value onnuum venda, all products il valid aanu."
+  },
+  {
+    "id": "quality_001",
+    "category": "quality",
+    "question_variants": [
+      "Products quality ensure cheyyunnathu engane?",
+      "Enthu quality check cheyyunno?",
+      "Clothes quality check cheyyumo?",
+      "Quality assurance process?"
+    ],
+    "answer": "Stitching, colour fastness, size accuracy ellaam dispatch cheyyunnathinu mundhe inspect cheyyunno. Trusted fabric suppliers ayi matram work cheyyunno — quality first!"
+  },
+  {
+    "id": "quality_002",
+    "category": "quality",
+    "question_variants": [
+      "Delivery munpe products test cheyyumo?",
+      "Oru item dispatch cheyyunnathinu mundhe check cheyyumo?",
+      "Quality check dispatch il munpe?",
+      "Products inspect cheyyumo?"
+    ],
+    "answer": "Athe, oru item individually inspect cheyyunno — product photos ayi match aano, quality standards meet cheyyunno ennellaamu confirm cheyythu baad dispatch cheyyum."
+  },
+  {
+    "id": "quality_003",
+    "category": "quality",
+    "question_variants": [
+      "Defective product kittienkilae?",
+      "Product il defect undo",
+      "Manufacturing defect product",
+      "Faulty product kittienkilae?"
+    ],
+    "answer": "48 manikooral ullil photos sahitham contact cheyyuka — free replacement allenkil full refund tharaam — questions onnuum chodikkilla. Ningalude satisfaction aanu priority!"
+  },
+  {
+    "id": "quality_004",
+    "category": "quality",
+    "question_variants": [
+      "Materials high quality aano?",
+      "Ethu fabric use cheyyunno?",
+      "Clothes durable aano?",
+      "Material quality?"
+    ],
+    "answer": "Premium cotton, linen, um blended fabrics — certified suppliers il ninnu matram. Product page il fabric composition um care instructions um undaakum."
+  },
+  {
+    "id": "size_001",
+    "category": "size",
+    "question_variants": [
+      "Enikku ethu size aanu right?",
+      "Size guide undo?",
+      "Enthu size order cheyyam?",
+      "Correct size engane ariyam?",
+      "Ethu size fit aakum?",
+      "Size enthu vanganam?",
+      "Enikku ethu size?",
+      "Right size engane ariyam?",
+      "Size chart undo?",
+      "Fit aakum size engane nokkam?",
+      "Size select cheyyaan engane?"
+    ],
+    "answer": "Product page il size chart undo — chest, waist, um hip measure cheyythu compare cheyyuka. Sizes il in-between aayenkilae larger size order cheyyuka. Doubt enkilae WhatsApp cheyyuka — guide cheyyaam!"
+  },
+  {
+    "id": "size_002",
+    "category": "size",
+    "question_variants": [
+      "Size fit aayilla enkilae?",
+      "Thettaya size order cheyythu",
+      "Size too small allenkil large",
+      "Size exchange cheyyano?",
+      "Thettaya size order cheyythu",
+      "Size fit aayilla?",
+      "Wrong size vannu?",
+      "Size exchange cheyyamo?",
+      "Size problem undenkil?",
+      "Size thetti vannathu exchange cheyyamo?"
+    ],
+    "answer": "Paedikkenda! Delivery kazhinju 7 days ullil unworn item original tags ayi exchange cheyyam. 'My Orders' il pokua, 'Exchange' select cheyyuka — free pickup cheyyaam!"
+  },
+  {
+    "id": "size_003",
+    "category": "size",
+    "question_variants": [
+      "Sizes small aano large aano?",
+      "Clothes true to size aano?",
+      "Fit guide undo?",
+      "Size up cheyyendatundo?"
+    ],
+    "answer": "Ningalude sizes standard Indian sizing pole aanu. Product page reviews il fit paranjittu undaakum — check cheyyuka. Still doubt enkilae measurements sahitham WhatsApp cheyyuka!"
+  },
+  {
+    "id": "shipping_001",
+    "category": "shipping",
+    "question_variants": [
+      "International shipping undo?",
+      "India-kku purathekku deliver cheyyumo?",
+      "Foreign countries il order cheyyamo?",
+      "International delivery undo?"
+    ],
+    "answer": "Ippol India il matram deliver cheyyunno. International shipping ippol available alla, pakshe utharam ithu implement cheyyum — WhatsApp broadcast subscribe cheyyuka updates ariyaan!"
+  },
+  {
+    "id": "shipping_002",
+    "category": "shipping",
+    "question_variants": [
+      "Ethu courier use cheyyunno?",
+      "Delivery partner ethaanu?",
+      "Ethu courier service deliver cheyyum?",
+      "Courier service name?"
+    ],
+    "answer": "Location anusaricchu DTDC, Delhivery, um Bluedart pole trusted couriers use cheyyunno. Courier details tracking notification il undaakum."
+  },
+  {
+    "id": "support_001",
+    "category": "support",
+    "question_variants": [
+      "Support engane contact cheyyam?",
+      "Support reach cheyyaan?",
+      "Support contact details?",
+      "Oru manushane samsaarikkan pattumo?",
+      "Contact enthu?",
+      "Contact engne cheyyam?",
+      "Phone number enthu?",
+      "WhatsApp number enthu?",
+      "Number paranju tharamo?",
+      "Ningalodu engane connect cheyyam?",
+      "Customer care number enthu?",
+      "Support contact enthu?",
+      "Call cheyyaan number enthu?",
+      "Email id enthu?"
+    ],
+    "answer": "WhatsApp cheyyuka +91 98765 43210 il (fastest!), allenkil email cheyyuka support@zenmeraki.com il, allenkil website live chat use cheyyuka. Mon–Sat 9 AM–8 PM available aanu!"
+  },
+  {
+    "id": "support_002",
+    "category": "support",
+    "question_variants": [
+      "Support ethra neram available?",
+      "Support eppo available?",
+      "Weekend il support undo?",
+      "Support ethu neram thodangunno?"
+    ],
+    "answer": "Support team Mon–Sat 9 AM–8 PM, Sunday 10 AM–6 PM available aanu. Hours kku pirathu urgent aayenkilae WhatsApp cheyyuka — njangal tirichu varunnathu pole reply cheyyaam."
+  },
+  {
+    "id": "support_003",
+    "category": "support",
+    "question_variants": [
+      "Live chat support undo?",
+      "Support ayi chat cheyyamo?",
+      "Instant chat undo?",
+      "WhatsApp support undo?"
+    ],
+    "answer": "Athe! WhatsApp aanu fastest channel — +91 98765 43210 message cheyyuka, support hours il near-instant reply kittum. Website il live chat um undo!"
+  },
+  {
+    "id": "support_004",
+    "category": "support",
+    "question_variants": [
+      "Support ethra vegam reply cheyyum?",
+      "Response time ethraaanu?",
+      "Reply eppo kittum?",
+      "Support eppo respond cheyyum?"
+    ],
+    "answer": "WhatsApp messages support hours il 15–30 minutes ullil answer kittum. Email responses working days il 4 hours ullil varum."
+  },
+  {
+    "id": "support_005",
+    "category": "support",
+    "question_variants": [
+      "Technical support undo?",
+      "App allenkil website issue ayi",
+      "Website work cheyyunilla?",
+      "App technical issue"
+    ],
+    "answer": "Athe, support@zenmeraki.com il screenshot ayi email cheyyuka, resolve cheyyaam. Urgent order issues il WhatsApp faster aanu!"
+  },
+  {
+    "id": "support_006",
+    "category": "support",
+    "question_variants": [
+      "Help documentation evide?",
+      "FAQ page evide?",
+      "Help center undo?",
+      "User guide undo?"
+    ],
+    "answer": "Website Help Center il ordering, returns, sizing pole topics il guides undo. Answer illa enkilae WhatsApp team directly help cheyyaam!"
+  },
+  {
+    "id": "support_007",
+    "category": "support",
+    "question_variants": [
+      "Support request track cheyyamo?",
+      "Support ticket status?",
+      "Complaint reference number?",
+      "Issue follow up engane cheyyam?"
+    ],
+    "answer": "Athe! Support contact cheyyumbol ticket reference number kittum — WhatsApp allenkil email il use cheyythu follow up cheyyam, instant update tharaam."
+  },
+  {
+    "id": "support_008",
+    "category": "support",
+    "question_variants": [
+      "Business customers il dedicated support manager undo?",
+      "Corporate support?",
+      "B2B customer service?",
+      "Wholesale support?"
+    ],
+    "answer": "Athe, business um bulk customers il dedicated account manager kittum. Company details ayi support@zenmeraki.com email cheyyuka — setup cheyyaam."
+  },
+  {
+    "id": "support_009",
+    "category": "support",
+    "question_variants": [
+      "Bug allenkil issue report cheyyaan?",
+      "Website bug kandum",
+      "App properly work cheyyunilla",
+      "Technical problem report cheyyaan?"
+    ],
+    "answer": "WhatsApp cheyyuka +91 98765 43210 allenkil support@zenmeraki.com email cheyyuka — description um screenshot um kodukkuka. Feedback appreciate cheyyunno, vegam fix cheyyaam!"
+  },
+  {
+    "id": "complaint_001",
+    "category": "complaint",
+    "question_variants": [
+      "Delivery kazhinjaal product damage aayi?",
+      "Damage aaya product kittienkilae",
+      "Transit il damage aayi",
+      "Delivery il item break aayi",
+      "Product damage aayi vannu?",
+      "Delivery il damage aayi?",
+      "Damaged product kitti?",
+      "Item damaged aayi?",
+      "Parcel damage aayi vannathu?"
+    ],
+    "answer": "Valare sorry! 48 manikooral ullil damage photos sahitham contact cheyyuka — free pickup arrange cheyyaam, replacement allenkil full refund tharaam. Ningal decide cheyyuka!"
+  },
+  {
+    "id": "complaint_002",
+    "category": "complaint",
+    "question_variants": [
+      "Damaged product complaint engane register cheyyam?",
+      "Complaint engane file cheyyam?",
+      "Complaint process?",
+      "Complaint register cheyyaan?"
+    ],
+    "answer": "Login cheythu 'My Orders' select cheythu 'Report Issue' tappu cheyyuka. Allenkil +91 98765 43210 WhatsApp cheyyuka — order ID um photos um kodukkuka, athu fastest route aanu!"
+  },
+  {
+    "id": "complaint_003",
+    "category": "complaint",
+    "question_variants": [
+      "Complaint register cheyyaan ethu details venam?",
+      "Support il ethu info kodukkanam?",
+      "Complaint details enthellaamu?",
+      "Complaint cheyyumbol ethu parayam?"
+    ],
+    "answer": "Order ID, issue description, um clear photos allenkil short video — details kooduthal undaakumbol vegam resolve cheyyaam!"
+  },
+  {
+    "id": "complaint_004",
+    "category": "complaint",
+    "question_variants": [
+      "Complaint register cheytha pinne reference number kittumano?",
+      "Complaint ticket number?",
+      "Reference ID kittumano?"
+    ],
+    "answer": "Athe, every complaint il unique ticket ID WhatsApp/email il varum — ath use cheyythu progress track cheyyam allenkil follow up cheyyam."
+  },
+  {
+    "id": "complaint_005",
+    "category": "complaint",
+    "question_variants": [
+      "Complaint resolve cheyyaan ethra naal edum?",
+      "Complaint resolution time?",
+      "Issue fix cheyyaan ethra naal?",
+      "Complaint eppo resolve aakum?"
+    ],
+    "answer": "Muppathu complaints 2–3 working days ul resolve aakum. Quality defects allenkil lost parcels pole complex cases 5–7 days edum — throughout update cheyyunno."
+  },
+  {
+    "id": "complaint_006",
+    "category": "complaint",
+    "question_variants": [
+      "Complaint escalate cheyyamo?",
+      "Resolution il satisfaction illa",
+      "Escalate cheyyaan?",
+      "Manager ayi samsaarikkano?"
+    ],
+    "answer": "Athe — ningalude satisfaction important aanu! Existing ticket il escalation request reply cheyyuka allenkil +91 98765 43210 WhatsApp cheyyuka — senior team member 24 hours ullil personally follow up cheyyum."
+  },
+  {
+    "id": "complaint_007",
+    "category": "complaint",
+    "question_variants": [
+      "Product completely damage aayi?",
+      "Product totally unusable",
+      "Severely damaged item",
+      "Product destroyed on delivery"
+    ],
+    "answer": "Photos WhatsApp cheyyuka — same day action cheyyaam. Free replacement allenkil full refund — ethu venam ennu ningal parayuka, ath tharaam. 🙏"
+  },
+  {
+    "id": "complaint_008",
+    "category": "complaint",
+    "question_variants": [
+      "Order il items missing enkilae complaint cheyyamo?",
+      "Missing items complaint?",
+      "Order incomplete kittienkilae",
+      "Order part miss aayi"
+    ],
+    "answer": "Athe, 48 manikooral ullil order ID um received items photo um ayi contact cheyyuka — missing item immediately dispatch cheyyunnathu allenkil partial refund cheyyunno."
+  },
+  {
+    "id": "complaint_009",
+    "category": "complaint",
+    "question_variants": [
+      "Complaint status updates engane ariyam?",
+      "Complaint status update?",
+      "Complaint follow up?"
+    ],
+    "answer": "Complaint registered, investigation started, resolution — every stage il WhatsApp um email um update varum. Ticket ID ayi status check cheyyukayum cheyyam."
+  },
+  {
+    "id": "complaint_010",
+    "category": "complaint",
+    "question_variants": [
+      "Complaint register cheytha pinne cancel cheyyamo?",
+      "Complaint withdraw cheyyano?",
+      "Complaint close cheyyaan?"
+    ],
+    "answer": "Athe, eppozum complaint close cheyyam. WhatsApp cheyyuka allenkil ticket ID ayi email cheyyuka — immediately close cheyyaam."
+  },
+  {
+    "id": "warranty_001",
+    "category": "warranty",
+    "question_variants": [
+      "Product il warranty undo?",
+      "Warranty undo?",
+      "Warranty period ethraaanu?",
+      "Clothes il warranty undo?",
+      "Guarantee undo?",
+      "Product warranty ethraya?",
+      "Warranty period enthu?"
+    ],
+    "answer": "Clothing items il 30-day manufacturing defect warranty undo — stitching defects um fabric tears um cover aakum. Normal wear and tear allenkil improper washing cover cheyyilla."
+  },
+  {
+    "id": "warranty_002",
+    "category": "warranty",
+    "question_variants": [
+      "Warranty claim engane cheyyam?",
+      "Warranty claim process?",
+      "Warranty period il defect?",
+      "Warranty engane use cheyyam?"
+    ],
+    "answer": "Warranty period ullil defect photos um order ID um ayi contact cheyyuka — cover aakumbol free replacement — shipping cost ningalku undaakilla."
+  },
+  {
+    "id": "review_001",
+    "category": "review",
+    "question_variants": [
+      "Product review engane submit cheyyam?",
+      "Review engane ezhuthaam?",
+      "Evide review idaam?",
+      "Product feedback kodukkaano?"
+    ],
+    "answer": "Login cheythu 'My Orders' il product kandu 'Write a Review' tappu cheyyuka. Honest feedback mattu customers il help cheyyunno!"
+  },
+  {
+    "id": "review_002",
+    "category": "review",
+    "question_variants": [
+      "Review il photos allenkil videos idamo?",
+      "Photo review option undo?",
+      "Review ayi picture upload cheyyamo?",
+      "Product photo share cheyyano?"
+    ],
+    "answer": "Athe! 5 photos vare um 1 short video um review ayi upload cheyyam. Visual reviews shoppers il valare helpful aanu!"
+  },
+  {
+    "id": "review_003",
+    "category": "review",
+    "question_variants": [
+      "Review immediately visible aakumo?",
+      "Review eppo appear cheyyum?",
+      "Review approval time?",
+      "Review moderation ethra naal edum?"
+    ],
+    "answer": "Community guidelines follow cheyyunno ennu quick check kazhinjaal 24 hours ullil review approve aakum. Live aakumbol notification varum."
+  },
+  {
+    "id": "review_004",
+    "category": "review",
+    "question_variants": [
+      "Submit cheytha review edit cheyyano?",
+      "Review update cheyyaan?",
+      "Post cheytha pinne review change cheyyano?",
+      "Review edit cheyyam?"
+    ],
+    "answer": "Athe! 'My Reviews' il pokua, review kandu 'Edit' tappu cheyyuka. Updated review quick re-moderation kazhinju pinne live aakum."
+  },
+  {
+    "id": "review_005",
+    "category": "review",
+    "question_variants": [
+      "Review delete cheyyano?",
+      "Review remove cheyyano?",
+      "Review eduthu maaattano?",
+      "Posted review delete cheyyam?"
+    ],
+    "answer": "Athe, 'My Reviews' il ninnu eppozum delete cheyyam. Allenkil support il contact cheyyuka — njangal cheyyaam."
+  },
+  {
+    "id": "review_006",
+    "category": "review",
+    "question_variants": [
+      "Reviews product rating il affect cheyyumo?",
+      "Product rating engane calculate cheyyunno?",
+      "Star rating reviews il ninno?",
+      "Reviews il rating impact undo?"
+    ],
+    "answer": "Athe! Every verified purchase review product star rating il contribute cheyyunno. Njangal honest ratings display cheyyunno — guidelines violate cheyyunnathe alla negative reviews delete cheyyilla."
+  },
+  {
+    "id": "review_007",
+    "category": "review",
+    "question_variants": [
+      "Product vangicha illa enkilum review idamo?",
+      "Buy cheyyathe review idano?",
+      "Non-purchase review?",
+      "Aarkum review ezhuthamo?"
+    ],
+    "answer": "Only verified purchasers review idaam — ath authenticity ensure cheyyum. Ith ella customers ilum ratings honest um trustworthy um aakunnathinu help cheyyunno."
+  },
+  {
+    "id": "review_008",
+    "category": "review",
+    "question_variants": [
+      "Review il someone respond cheyythal notification kittumano?",
+      "Review response notification?",
+      "Review il reply aayenkilae alert varumo?"
+    ],
+    "answer": "Athe, team member allenkil customer reply cheyythal in-app notification um email alert um varum."
+  },
+  {
+    "id": "appointment_001",
+    "category": "appointment",
+    "question_variants": [
+      "Appointment engane book cheyyam?",
+      "Store visit schedule cheyyaan?",
+      "Store appointment book cheyyano?",
+      "Store il pookaan appointment venamano?",
+      "Appointment engane cheyyam?",
+      "Visit book cheyyamo?",
+      "Appointment book cheyyaan engane?",
+      "Store visit schedule cheyyamo?"
+    ],
+    "answer": "Website, app, allenkil +91 98765 43210 WhatsApp cheyyuka. Njangalude MG Road, Ernakulam store Mon–Sat 9 AM–8 PM, Sunday 10 AM–6 PM open aanu. Vannu kaanuka!"
+  },
+  {
+    "id": "appointment_002",
+    "category": "appointment",
+    "question_variants": [
+      "Appointment book cheyyaan account venamano?",
+      "Account illaathe appointment book cheyyamo?",
+      "Guest appointment book cheyyam?"
+    ],
+    "answer": "Account manage cheyyaan easy aanum, pakshe sign up cheyyathe WhatsApp vazhiyum book cheyyam."
+  },
+  {
+    "id": "appointment_003",
+    "category": "appointment",
+    "question_variants": [
+      "Appointment reschedule cheyyamo?",
+      "Appointment date maaatamo?",
+      "Booking move cheyyaan?",
+      "Store visit reschedule cheyyam?"
+    ],
+    "answer": "Athe! Account il 'My Appointments' vazhiye allenkil slot-inu 2 hours munpe WhatsApp cheyyuka — suitable time il move cheyyaam."
+  },
+  {
+    "id": "appointment_004",
+    "category": "appointment",
+    "question_variants": [
+      "Appointment cancel cheyyamo?",
+      "Store booking cancel cheyyano?",
+      "Varaan pattumo ennu ariyilla",
+      "Booking cancel cheyyaan?",
+      "Appointment cancel cheyyano?",
+      "Booking cancel cheyyano?",
+      "Visit cancel cheyyaan pattumo?"
+    ],
+    "answer": "Athe, 'My Appointments' vazhiye allenkil WhatsApp cheyyuka. Slot-inu 1 hour munpe cancel cheyyuka — mattu customers il slot kittanaa."
+  },
+  {
+    "id": "appointment_005",
+    "category": "appointment",
+    "question_variants": [
+      "Cancel cheyyaal charge undo?",
+      "Cancellation fee undaakumo?",
+      "Cancel cheyyal pay cheyyendatundo?",
+      "No-show fee undo?"
+    ],
+    "answer": "1 hour munpe cancel enkilae fee onnuum illa. Repeated no-shows without notice future bookings affect cheyyam."
+  },
+  {
+    "id": "appointment_006",
+    "category": "appointment",
+    "question_variants": [
+      "Appointment confirm aayi ennu ariyaan?",
+      "Appointment confirmation?",
+      "Confirmation message kittumano?",
+      "Booking confirmed notification?"
+    ],
+    "answer": "Date, time, um store address ayi WhatsApp um SMS um varum — booking cheytha urriyil!"
+  },
+  {
+    "id": "appointment_007",
+    "category": "appointment",
+    "question_variants": [
+      "Appointment il ethu neram ethannam?",
+      "Appointment arrival time?",
+      "Ethu neram reach cheyyanam?"
+    ],
+    "answer": "5–10 minutes munpe ethinnam — njangal prepare aayirikkum. Late aayenkilae back-to-back appointments pole slot short aakam."
+  },
+  {
+    "id": "appointment_008",
+    "category": "appointment",
+    "question_variants": [
+      "Mattoruthar vendi appointment book cheyyamo?",
+      "Friend vendi book cheyyano?",
+      "Family member vendi appointment?"
+    ],
+    "answer": "Athe! Booking time avente/avarude name um contact number um kodukkuka — njangal peru cheythu greet cheyyaam!"
+  },
+  {
+    "id": "appointment_009",
+    "category": "appointment",
+    "question_variants": [
+      "Appointment miss aayi enkilae?",
+      "Store visit miss aayi",
+      "No-show policy?",
+      "Miss cheytha appointment rebook cheyyam?"
+    ],
+    "answer": "Paedikkenda — WhatsApp cheyyuka, next available slot il rebook cheyyaam. Repeated no-shows future bookings limit cheyyam."
+  },
+  {
+    "id": "appointment_010",
+    "category": "appointment",
+    "question_variants": [
+      "Same-day appointment undo?",
+      "Ippo store il varaano?",
+      "Walk-in allenkil same-day booking?",
+      "Immediate appointment kittumano?"
+    ],
+    "answer": "Slot availability anusaricchu same-day appointments undo. WhatsApp cheyyuka — njangal immediately check cheyyaam. Store busy allenkil walk-ins um welcome!"
+  },
+  {
+    "id": "appointment_011",
+    "category": "appointment",
+    "question_variants": [
+      "Specific time slot choose cheyyamo?",
+      "Appointment time pick cheyyano?",
+      "Available slots?",
+      "Visit time select cheyyam?"
+    ],
+    "answer": "Athe, book cheyyumbol available morning um afternoon slots kaanum. Preferred time kaanunilla enkilae WhatsApp cheyyuka — accommodate cheyyaan try cheyyaam."
+  },
+  {
+    "id": "appointment_012",
+    "category": "appointment",
+    "question_variants": [
+      "Upcoming appointments engane check cheyyam?",
+      "Bookings view cheyyano?",
+      "Scheduled appointments kaanan?",
+      "Appointment history?"
+    ],
+    "answer": "Login cheythu 'My Appointments' il pokuka — upcoming um past bookings um kanaam, reschedule allenkil cancel cheyyam."
+  },
+  {
+    "id": "reschedule_001",
+    "category": "reschedule",
+    "question_variants": [
+      "Order delivery reschedule cheyyamo?",
+      "Delivery date maaatano?",
+      "Shipment reschedule cheyyano?",
+      "Delivery postpone cheyyamo?"
+    ],
+    "answer": "Athe! Order ship aayilla enkilae 'My Orders' il 'Reschedule' select cheyyuka. Ship aayenkilae WhatsApp cheyyuka — courier ayi contact cheyyaam."
+  },
+  {
+    "id": "reschedule_002",
+    "category": "reschedule",
+    "question_variants": [
+      "Reschedule request engane submit cheyyam?",
+      "Delivery reschedule process?",
+      "Delivery date change cheyyunna steps?",
+      "Reschedule request form?"
+    ],
+    "answer": "'My Orders' il order select cheythu 'Reschedule Delivery' tappu cheyyuka, available slots il ninnu new date choose cheyyuka — new delivery confirmation vegam varum."
+  },
+  {
+    "id": "reschedule_003",
+    "category": "reschedule",
+    "question_variants": [
+      "Delivery date change cheyyano?",
+      "Delivery date flexible aano?",
+      "New delivery date undo?",
+      "Delivery date maaatam cheyyamo?"
+    ],
+    "answer": "Athe, dispatch aakunnathinu mundhe 'My Orders' vazhiye change cheyyam. Dispatch kazhinjaal courier availability anusaricchu — WhatsApp cheyyuka, try cheyyaam."
+  },
+  {
+    "id": "reschedule_004",
+    "category": "reschedule",
+    "question_variants": [
+      "Delivery time slot change cheyyano?",
+      "Delivery time maaatamo?",
+      "Different delivery time choose cheyyano?",
+      "Delivery slot change cheyyam?"
+    ],
+    "answer": "Athe! Order ship aakunnathinu mundhe 'My Orders' il time slot change cheyyam. Reschedule cheyyumbol available time options kaanum."
+  },
+  {
+    "id": "reschedule_005",
+    "category": "reschedule",
+    "question_variants": [
+      "Rescheduling il extra charge undo?",
+      "Reschedule fee undaakumo?",
+      "Delivery date change cheyyaal cost?",
+      "Delivery postpone cheyyaal fee?"
+    ],
+    "answer": "Rescheduling free aanu! Delivery date allenkil time slot change cheyyaal charges onnuum illa — express deliveries il um free thane!"
+  },
+  {
+    "id": "reschedule_006",
+    "category": "reschedule",
+    "question_variants": [
+      "Order ship aayenkilum reschedule cheyyamo?",
+      "Dispatch kazhinjaal reschedule?",
+      "Shipping kazhinjaal delivery date change?"
+    ],
+    "answer": "Ship aayenkilae courier policies anusaricchu undaakum. Tracking ID ayi WhatsApp cheyyuka — njangal courier il ninnu date change request cheyyaam."
+  },
+  {
+    "id": "reschedule_007",
+    "category": "reschedule",
+    "question_variants": [
+      "Multiple times reschedule cheyyamo?",
+      "Ethra thavanai delivery date maaatam cheyyam?",
+      "Reschedule limit undo?"
+    ],
+    "answer": "Dispatch aakunnathinu mundhe 2 thavanai reschedule cheyyam. Additional flexibility venam enkilae support il contact cheyyuka."
+  },
+  {
+    "id": "reschedule_008",
+    "category": "reschedule",
+    "question_variants": [
+      "Reschedule confirm aayi ennu ariyaan?",
+      "Reschedule confirmation?",
+      "New delivery date notification?",
+      "Rescheduling success message?"
+    ],
+    "answer": "Reschedule submit cheythu kaazhcha minutukal ullil updated delivery date ayi WhatsApp/SMS confirmation varum."
+  },
+  {
+    "id": "reschedule_009",
+    "category": "reschedule",
+    "question_variants": [
+      "Missed delivery kazhinjaal reschedule cheyyano?",
+      "Delivery attempt fail aayi?",
+      "Missed delivery rebook cheyyaan?",
+      "Delivery fail aayenkilae?"
+    ],
+    "answer": "Worry venda! Delivery attempt fail aayenkilae SMS varum. Tracking link il ninnu reschedule cheyyam allenkil +91 98765 43210 WhatsApp cheyyuka — new delivery date arrange cheyyaam."
+  },
+  {
+    "id": "reschedule_010",
+    "category": "reschedule",
+    "question_variants": [
+      "Address change cheyyaal delivery date auto reschedule aakumo?",
+      "Address maaatam delivery date affect cheyyumo?",
+      "New address um delivery date?"
+    ],
+    "answer": "New area different delivery zone il aayenkilae delivery date affect cheyyam. Change process aakumbol updated estimated date notify cheyyaam."
+  },
+  {
+    "id": "post_delivery_001",
+    "category": "post_delivery",
+    "question_variants": [
+      "Product kittiya pinne enthu cheyyam?",
+      "Delivery kazhinju steps?",
+      "Order kittumbol enthu cheyyam?",
+      "Product receive aayenkilae?"
+    ],
+    "answer": "Package carefully open cheythu ellam correct aano ennu check cheyyuka. Issue enkilae — missing item, damage, allenkil wrong product — 48 manikooral ullil photos sahitham contact cheyyuka."
+  },
+  {
+    "id": "post_delivery_002",
+    "category": "post_delivery",
+    "question_variants": [
+      "Delivery kazhinjaal immediately product use cheyyamo?",
+      "Clothes straight away wear cheyyamo?",
+      "Delivery pinne wash cheyyendatundo?",
+      "Kittiya pole wear cheyyano?"
+    ],
+    "answer": "First wear cheyyunnathinu mundhe care label pole oru gentle wash recommendation aanu — packaging dust pokunum fabric fresh um comfortable um aakum!"
+  },
+  {
+    "id": "account_001",
+    "category": "account",
+    "question_variants": [
+      "Account engane create cheyyam?",
+      "Sign up process?",
+      "Register engane cheyyam?",
+      "New account create cheyyano?",
+      "Account create cheyyaan?",
+      "New account engane?",
+      "Signup engane cheyyam?"
+    ],
+    "answer": "Website allenkil app il 'Sign Up' click cheyyuka, mobile number allenkil email enter cheyyuka, password set cheyyuka. Number verify cheyyuka — 2 minutes il done!"
+  },
+  {
+    "id": "account_002",
+    "category": "account",
+    "question_variants": [
+      "Password marannu poyi",
+      "Password reset cheyyaan?",
+      "Login cheyyaan pattuilla — password marannu",
+      "Password recovery",
+      "Password maranthu?",
+      "Login cheyyaan pattunilla?",
+      "Password forgot?"
+    ],
+    "answer": "Login page il 'Forgot Password' click cheyyuka, registered mobile allenkil email enter cheyyuka. OTP varum — new password set cheyyam. Vegam aakum!"
+  },
+  {
+    "id": "account_003",
+    "category": "account",
+    "question_variants": [
+      "Profile update cheyyaan?",
+      "Account details change cheyyano?",
+      "Phone number allenkil email update cheyyam?",
+      "Account information edit cheyyam?"
+    ],
+    "answer": "Login cheythu 'My Profile' il 'Edit' tappu cheyyuka. Name, address, phone, email update cheyyam. ചില changes OTP verification require cheyyum — security aanu!"
+  },
+  {
+    "id": "account_004",
+    "category": "account",
+    "question_variants": [
+      "Account delete cheyyaan?",
+      "Account close cheyyamo?",
+      "Account remove cheyyano?",
+      "Account delete request?"
+    ],
+    "answer": "support@zenmeraki.com il email cheyyuka — 7 working days ul process cheyyaam. Ith ningalude order history um saved data um remove cheyyum ennu note cheyyuka."
+  },
+  {
+    "id": "store_001",
+    "category": "store",
+    "question_variants": [
+      "Ningalude store evide?",
+      "Store location?",
+      "Shop address?",
+      "Evide aanu ningalude shop?",
+      "Shop evide?",
+      "Store evide?",
+      "Shop location enthu?",
+      "Shop address enthu?",
+      "Ningalude shop evide aanu?",
+      "Store address paranju tharamo?",
+      "Shop place enthu?"
+    ],
+    "answer": "Njangalude store MG Road, Ernakulam, Lulu Mall-inu ariyil aanu. Mon–Sat 9 AM–8 PM, Sunday 10 AM–6 PM open aanu. Vannu kaanuka — kuttanmal!"
+  },
+  {
+    "id": "store_002",
+    "category": "store",
+    "question_variants": [
+      "Store ethu neram open aanu?",
+      "Shop ethu neram thodangunno?",
+      "Store opening time?",
+      "Shop timings?",
+      "Shop enthu neram thurakkunnu?",
+      "Store timing enthu?",
+      "Shop open aano?",
+      "Working hours enthu?",
+      "Shop ethu neram close aakum?",
+      "Sunday open aano?"
+    ],
+    "answer": "Monday to Saturday 9 AM – 8 PM, Sunday 10 AM – 6 PM. Public holidays il adjusted timings undaakam — WhatsApp status check cheyyuka updates ariyaan."
+  },
+  {
+    "id": "store_003",
+    "category": "store",
+    "question_variants": [
+      "Store il clothes try cheyyamo?",
+      "Trial room undo?",
+      "Fitting room undo?",
+      "Store il try cheyythu vangano?",
+      "Clothes try cheyyamo?",
+      "Store il try idamo?",
+      "Wear nokki kaanamo?"
+    ],
+    "answer": "Athe! Spacious fitting rooms undo. Busy days il appointment book cheyyuka — dedicated personal shopping assistance kittum. Vannu kaanuka!"
+  }
+]

@@ -1,0 +1,21 @@
+echo "# Virtual environment
+manglish_env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and data
+chat_logs.csv
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Model cache (if any)
+models/
+" > .gitignore
