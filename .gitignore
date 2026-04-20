@@ -1,21 +1,41 @@
-echo "# Virtual environment
+# Virtual environment
 manglish_env/
+.venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
 
 # Logs and data
 chat_logs.csv
 *.log
+*.csv
 
 # IDE
 .vscode/
 .idea/
+*.suo
+*.user
 
 # OS
 Thumbs.db
 .DS_Store
 
-# Model cache (if any)
+# Model cache
 models/
-" > .gitignore
+*.pkl
+faq_embeddings.pkl
+
+# Environment variables
+.env
+.env.local
+
+# Hugging Face cache
+.cache/

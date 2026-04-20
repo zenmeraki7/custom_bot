@@ -1,20 +1,19 @@
-
-# Core API
+# ── Core API ──────────────────────────────────────────────────────────────────
 fastapi==0.115.11
 uvicorn[standard]==0.34.0
 pydantic==2.10.6
 
-# Machine Learning / NLP
+# ── Machine Learning / NLP ────────────────────────────────────────────────────
 torch==2.6.0
 sentence-transformers==3.4.1
 transformers==4.49.0
 
-# HTTP & Utilities
+# ── HTTP & Utilities ──────────────────────────────────────────────────────────
 requests==2.32.3
 python-multipart==0.0.20
 
-# Logging & Analytics
+# ── Logging & Analytics ───────────────────────────────────────────────────────
 pandas==2.2.3
 
-# (Optional) For better performance on Windows with asyncio
+# ── Windows asyncio fix (optional) ───────────────────────────────────────────
 colorama==0.4.6
