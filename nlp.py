@@ -9,6 +9,7 @@ Exported symbols used by faq_engine.py and chat.py:
   - normalize(text) → str
   - tokenize(text) → list[str]
   - expand_synonyms(tokens) → list[str]
+  - fuzzy_match(a, b) → float
   - f1_score(query_tokens, faq_question) → float
   - embedder          — SentenceTransformer instance or None
   - sentiment_clf     — HuggingFace pipeline or None
@@ -17,6 +18,17 @@ Exported symbols used by faq_engine.py and chat.py:
   - device_name       — human-readable string
   - STOPWORDS, LEXICON, MANGLISH_SIGNALS, LANGUAGE_SWITCH_RE
   - SENTIMENT_LABELS, LABEL_MAP, SENTIMENT_THRESHOLD
+
+v5.3 fixes:
+  - MANGLISH_SIGNALS: added nthanu, paripadi, niyamam, sugamano variants
+  - _MANGLISH_NORM: paripadi → "return policy" (not just "policy")
+                    nthanu → "enthu" (already there, now also in SIGNALS)
+  - SYNONYM_MAP: deduplicated (was full of triple-duplicate entries in v5.2)
+                 added policy/paripadi/niyamam cross-links
+                 added number → contact/phone/whatsapp
+  - _PARTICLE_NO_EXPAND: removed "enthu"/"engane"/"evide" — these have
+    real synonym expansions now and should expand
+  - normalize(): applies _MANGLISH_NORM word-by-word BEFORE returning
 """
 
 import re
@@ -38,7 +50,7 @@ if torch.cuda.is_available():
     _vram_mb    = torch.cuda.get_device_properties(0).total_memory // 1024 ** 2
     ST_DEVICE   = "cuda"
     SENT_DEVICE = -1 if (_vram_mb < 7000 or VRAM_SAFE_MODE) else 0
-    device_name = f"GPU ({_gpu_name}, {_vram_mb} MB)"
+    device_name = f"GPU ({_gpu_name}, {_vram_mb} MiB)"
 else:
     ST_DEVICE   = "cpu"
     SENT_DEVICE = -1
@@ -114,6 +126,7 @@ LANGUAGE_SWITCH_RE = re.compile(
 )
 
 MANGLISH_SIGNALS = [
+    # Core particles
     "aanu", "alle", "aano", "ano", "undo", "undu",
     "cheyyam", "cheyyano", "cheythu", "cheyyunno", "cheyyuka",
     "cheyynam", "nokam", "nokkanam", "kittum", "kittiyilla",
@@ -125,6 +138,25 @@ MANGLISH_SIGNALS = [
     "aayirunnu", "kazhinju",
     "pattumo", "tharaamo",
     "kodukkum", "kodukkan", "njn", "undaakum",
+    # give/provide variants — very common in customer messages
+    "tharu", "tharilla", "tharaam", "tharamo", "tharanam", "tharaan",
+    "kodukku", "kodukkilla", "koduthilla",
+    # Phonetic variants
+    "entha", "ntha", "enthinu", "ndhinu", "ethinu",
+    "nthanu", "nthe", "enthe",
+    "evideya", "evideyanu", "evideyaanu",
+    "enganeya", "ngane", "nganeya", "ingane", "inganeya",
+    "eppo", "eppozha", "eppozhanu",
+    "ethranu", "ethrayanu", "etranu",
+    "ellam", "nellam", "ithu", "athu",
+    "ente", "pinne", "sherikkum",
+    "vangi", "vangam", "vangiyilla",
+    "thettaya", "thettayit", "vilayil", "vilaykku",
+    "divasam", "naal", "manikkoorkul",
+    # Social / wellbeing
+    "sugamano", "sugamaano", "sugamundo",
+    # Policy / rule — critical: "paripadi" is how customers ask about return policy
+    "paripadi", "niyamam", "niyamangal",
 ]
 
 STOPWORDS = {
@@ -137,9 +169,92 @@ STOPWORDS = {
 }
 
 # ══════════════════════════════════════════════════════════════════════════════
-#  SYNONYM MAP  ← NEW
-#  Expands query tokens so "package" matches "order", "money" matches "refund"
-#  Both directions: user slang → FAQ vocabulary
+#  MANGLISH PHONETIC NORMALIZATION
+#  Applied word-by-word in normalize() BEFORE matching.
+#  KEY FIX: "paripadi" → "return policy" so F1/fuzzy hits the return FAQ.
+#            "nthanu"   → "enthu" (what is) so intent detection fires correctly.
+# ══════════════════════════════════════════════════════════════════════════════
+
+_MANGLISH_NORM: dict[str, str] = {
+    # enthu / "what" variants
+    "entha":        "enthu",
+    "ntha":         "enthu",
+    "enthanu":      "enthu",
+    "nthanu":       "enthu",
+    "ethanu":       "enthu",
+    "ethu":         "enthu",
+    "nthe":         "enthu",
+    "enthe":        "enthu",
+    # Policy words — map to English so they hit english FAQ tokens too
+    "paripadi":     "return policy",
+    "niyamam":      "policy",
+    "niyamangal":   "policy rules",
+    # sugam / how-are-you → keeps them as social bypass tokens
+    "sugamano":     "sugam aano",
+    "sugamaano":    "sugam aano",
+    "sugamundo":    "sugam undo",
+    # enthinu / why variants
+    "enthinu":      "enthinanu",
+    "ndhinu":       "enthinanu",
+    "ethinu":       "enthinanu",
+    "enthikku":     "enthinanu",
+    "nthinu":       "enthinanu",
+    # engane / how variants
+    "ngane":        "engane",
+    "nganeya":      "engane",
+    "enganeya":     "engane",
+    "ingane":       "engane",
+    "inganeya":     "engane",
+    # evide / where variants
+    "evideya":      "evide",
+    "evideyanu":    "evide",
+    "evideyaanu":   "evide",
+    "evideyond":    "evide",
+    # eppo / when variants
+    "eppozha":      "eppo",
+    "eppozhanu":    "eppo",
+    "eppozhaaanu":  "eppo",
+    "eppozhum":     "eppo",
+    # ethra / how much variants
+    "ethranu":      "ethra",
+    "ethrayanu":    "ethra",
+    "etranu":       "ethra",
+    "ethraanu":     "ethra",
+    # alle variants
+    "alleda":       "alle",
+    "alleeda":      "alle",
+    "allelo":       "alle",
+    # aano variants
+    "aanoo":        "aano",
+    "anoo":         "aano",
+    "aanoa":        "aano",
+    # undo variants
+    "undoo":        "undo",
+    "unduu":        "undo",
+    "undu":         "undo",
+    # njan variants
+    "njn":          "njan",
+    # ellam variants
+    "nellam":       "ellam",
+    # ningal variants
+    "ningalku":     "ningalkku",
+    # common SMS shortenings
+    "pls":          "please",
+    "plz":          "please",
+    "msg":          "message",
+    "ordr":         "order",
+    "dlvry":        "delivery",
+    "delivry":      "delivery",
+    "refnd":        "refund",
+    "thnx":         "thanks",
+    "thx":          "thanks",
+    "hw":           "how",
+    "whn":          "when",
+    "whr":          "where",
+}
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  SYNONYM MAP  (deduplicated — v5.2 had triple duplicates throughout)
 # ══════════════════════════════════════════════════════════════════════════════
 
 SYNONYM_MAP: dict[str, list[str]] = {
@@ -166,7 +281,11 @@ SYNONYM_MAP: dict[str, list[str]] = {
     "exchange":     ["return", "replace", "swap"],
     "replace":      ["exchange", "return", "refund"],
     "swap":         ["exchange", "return"],
-    "send back":    ["return", "exchange"],
+    # Policy — CRITICAL: "paripadi" / "niyamam" → "policy" / "return"
+    "policy":       ["paripadi", "niyamam", "rule", "terms", "return"],
+    "paripadi":     ["policy", "rule", "niyamam", "return"],
+    "niyamam":      ["policy", "rule", "paripadi", "return"],
+    "rule":         ["policy", "paripadi", "niyamam"],
     # Quality / damage
     "torn":         ["damaged", "defective", "broken"],
     "broken":       ["damaged", "defective", "torn"],
@@ -177,80 +296,73 @@ SYNONYM_MAP: dict[str, list[str]] = {
     "tearing":      ["torn", "damaged", "defective", "quality"],
     "peeling":      ["damaged", "quality", "complaint"],
     "fading":       ["faded", "color", "quality"],
+    "faded":        ["color", "quality", "washing"],
+    "shrunk":       ["size", "washing", "quality"],
+    "smell":        ["quality", "complaint", "product"],
+    "colour":       ["color", "fading", "quality"],
+    "color":        ["colour", "fading", "quality"],
     "missing":      ["not received", "order", "delivery"],
     "empty":        ["missing", "not received", "wrong"],
     "cancel":       ["cancellation", "order cancel"],
-    # ── Common typos / misspellings ──────────────────────────────────────
+    "cancellation": ["cancel", "order cancel"],
+    # Complaint typos (deduplicated)
     "complient":    ["complaint", "issue", "problem"],
     "compliant":    ["complaint", "issue", "problem"],
     "complain":     ["complaint", "issue", "problem"],
     "complint":     ["complaint", "issue", "problem"],
     "compalint":    ["complaint", "issue", "problem"],
+    "complent":     ["complaint", "issue", "problem"],
+    "complaint":    ["issue", "quality", "problem"],
+    "problem":      ["complaint", "issue", "defective"],
+    "issue":        ["complaint", "problem", "defective"],
+    "prblm":        ["problem", "complaint", "issue"],
+    "prob":         ["problem", "complaint", "issue"],
+    # Delivery / shipping typos
     "refnd":        ["refund", "money back"],
     "refudn":       ["refund", "money back"],
-    "ordr":         ["order"],
     "dlvry":        ["delivery"],
     "delivry":      ["delivery"],
     "dlvy":         ["delivery"],
+    "shiping":      ["shipping", "delivery"],
+    "shpping":      ["shipping", "delivery"],
+    "ordr":         ["order"],
+    "oder":         ["order"],
     "paymet":       ["payment"],
     "paymnt":       ["payment"],
+    "paymnet":      ["payment", "pay"],
+    "pyament":      ["payment", "pay"],
     "cancl":        ["cancel", "cancellation"],
     "cancell":      ["cancel", "cancellation"],
     "exchnge":      ["exchange", "return"],
     "returnn":      ["return"],
     "trackng":      ["tracking"],
     "trakcing":     ["tracking"],
-    # ── Manglish action words ─────────────────────────────────────────────
-    "kodukkum":     ["complaint", "give", "file", "submit"],
-    "kodukkam":     ["complaint", "give", "file", "submit"],
-    "tharaam":      ["give", "provide", "refund"],
-    "parayuka":     ["tell", "inform", "complaint"],
-    "paranju":      ["told", "informed", "complained"],
-    "njn":          ["njan", "i", "my"],
-    # Typo / Manglish complaint variants
-    "complient":    ["complaint", "complain", "issue", "problem"],
-    "complient":    ["complaint", "complain", "issue", "problem"],
-    "compliant":    ["complaint", "complain", "issue"],
-    "complain":     ["complaint", "issue", "problem"],
-    "kodukkum":     ["submit", "file", "give", "raise"],
-    "kodukkan":     ["submit", "file", "give", "raise"],
-    "njn":          ["njan", "i", "me"],
-    "problem":      ["complaint", "issue", "complaint"],
-    "issue":        ["complaint", "problem", "defective"],
-    "prblm":        ["problem", "complaint", "issue"],
-    "prob":         ["problem", "complaint", "issue"],
-    "cancellation": ["cancel", "order cancel"],
-    # Complaint typos — common misspellings people actually type
-    "complient":    ["complaint", "issue", "problem"],
-    "compliant":    ["complaint", "issue", "problem"],
-    "complain":     ["complaint", "issue", "problem"],
-    "compalint":    ["complaint", "issue", "problem"],
-    "complent":     ["complaint", "issue", "problem"],
-    "complinets":   ["complaint", "issue", "problem"],
-    "complints":    ["complaint", "issue", "problem"],
-    "complaint":    ["complaint", "issue", "quality"],
-    # Manglish complaint / feedback signals
-    "kodukkum":     ["submit", "give", "register", "file"],
-    "kodukkanam":   ["submit", "give", "register"],
-    "parayam":      ["tell", "inform", "report", "complaint"],
-    "parayanam":    ["tell", "report", "complaint"],
-    "cheyyam":      ["do", "file", "submit", "process"],
-    "tharanam":     ["give", "submit", "provide"],
-    # Other common typos in this domain
     "recieve":      ["receive", "received", "delivery"],
     "recieved":     ["received", "delivery", "order"],
-    "shiping":      ["shipping", "delivery"],
-    "shpping":      ["shipping", "delivery"],
-    "paymnet":      ["payment", "pay"],
-    "pyament":      ["payment", "pay"],
-    "refnd":        ["refund", "money back"],
-    "ordr":         ["order"],
-    "oder":         ["order"],
-    "colour":       ["color", "fading", "quality"],
-    "color":        ["colour", "fading", "quality"],
-    "faded":        ["color", "quality", "washing"],
-    "shrunk":       ["size", "washing", "quality"],
-    "smell":        ["quality", "complaint", "product"],
+    # Manglish action words (deduplicated)
+    "kodukkum":     ["submit", "give", "register", "file"],
+    "kodukkam":     ["submit", "give", "file"],
+    "kodukkan":     ["submit", "file", "give", "raise"],
+    "kodukkanam":   ["submit", "give", "register"],
+    "tharaam":      ["give", "provide", "refund"],
+    "tharanam":     ["give", "submit", "provide"],
+    "parayuka":     ["tell", "inform", "complaint"],
+    "paranju":      ["told", "informed", "complained"],
+    "parayam":      ["tell", "inform", "report", "complaint"],
+    "parayanam":    ["tell", "report", "complaint"],
+    "parayamo":     ["tell", "inform", "let me know"],
+    "cheyyam":      ["do", "file", "submit", "process"],
+    "cheyyuka":     ["do", "process", "handle"],
+    "nokam":        ["check", "look", "verify"],
+    # Contact / number
+    "number":       ["contact", "phone", "whatsapp"],
+    "call":         ["contact", "support", "phone"],
+    "phone":        ["contact", "number", "support"],
+    "whatsapp":     ["contact", "support", "phone"],
+    "email":        ["contact", "support", "mail"],
+    "talk":         ["contact", "support", "speak"],
+    "speak":        ["contact", "support", "call"],
+    "reach":        ["contact", "support"],
     # Payments
     "gpay":         ["upi", "payment", "phonepay"],
     "phonepay":     ["upi", "payment", "gpay"],
@@ -271,15 +383,7 @@ SYNONYM_MAP: dict[str, list[str]] = {
     "loose":        ["size", "fit", "sizing"],
     "big":          ["size", "large", "fit"],
     "fit":          ["size", "sizing", "measurements"],
-    # Contact / support
-    "call":         ["contact", "support", "phone"],
-    "phone":        ["contact", "number", "support"],
-    "whatsapp":     ["contact", "support", "phone"],
-    "email":        ["contact", "support", "mail"],
-    "talk":         ["contact", "support", "speak"],
-    "speak":        ["contact", "support", "call"],
-    "reach":        ["contact", "support"],
-    # Manglish synonyms
+    # Manglish semantics
     "kittiyilla":   ["received", "delivered", "arrived"],
     "kittiilla":    ["received", "delivered", "arrived"],
     "kittum":       ["delivery", "received", "will get"],
@@ -295,47 +399,105 @@ SYNONYM_MAP: dict[str, list[str]] = {
     "pattumo":      ["possible", "can", "is it available"],
     "undo":         ["available", "do you have", "is there"],
     "undenkil":     ["if available", "if possible"],
-    "evide":        ["where", "location"],
+    "evide":        ["where", "location", "address"],
     "ethra":        ["how many", "how much", "how long"],
+    "enthu":        ["what", "which"],
+    "engane":       ["how", "process"],
+    "eppo":         ["when", "time", "date"],
+    "enthinanu":    ["why", "reason", "purpose"],
     "divasam":      ["days", "date", "time"],
     "naal":         ["days", "date"],
     "manikkoorkul": ["within an hour", "soon"],
-    "cheyyuka":     ["do", "process", "handle"],
-    "nokam":        ["check", "look", "verify"],
-    "parayamo":     ["tell", "inform", "let me know"],
+    "njn":          ["njan", "i", "me"],
 }
 
-
-# Manglish grammatical particles — expanding these creates false positives
-# because "kittum" (will get) maps to "delivery" but "evide kittum" ≠ delivery question
+# Manglish grammatical particles — NOT expanded (too ambiguous in isolation)
+# NOTE: "enthu", "engane", "evide", "eppo" REMOVED from this set so their
+# synonym expansions fire correctly (they have real mappings above).
 _PARTICLE_NO_EXPAND = {
     "kittum", "kittiyilla", "cheyyam", "cheyyano", "cheyyuka", "cheythu",
-    "aanu", "alle", "aano", "undo", "undu", "okke", "ippo", "ethra",
-    "evide", "enthu", "engane", "njan", "njangal", "ningal", "avarkku",
+    "aanu", "alle", "aano", "undo", "undu", "okke", "ippo",
+    "njan", "njangal", "ningal", "avarkku",
     "polum", "venam", "venda", "pattumo", "tharaamo", "undenkil",
     "allenkil", "nokam", "nokkanam", "sheri", "kollam", "adipoli",
-    "mosham", "ano", "ithu", "athu", "ente", "eppo", "pinne",
+    "mosham", "ano", "ithu", "athu", "ente", "pinne",
 }
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  FUZZY MATCHING — rapidfuzz
+# ══════════════════════════════════════════════════════════════════════════════
+
+try:
+    from rapidfuzz import fuzz as _rfuzz
+    def fuzzy_match(a: str, b: str) -> float:
+        """Token-set ratio (0.0–1.0). Handles typos, reordering, partial overlaps."""
+        return _rfuzz.token_set_ratio(a, b) / 100.0
+    print("[nlp] ✅  rapidfuzz loaded — fuzzy matching enabled")
+except ImportError:
+    def fuzzy_match(a: str, b: str) -> float:  # type: ignore[misc]
+        return 0.0
+    print("[nlp] ⚠   rapidfuzz not installed — run: pip install rapidfuzz")
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  TEXT UTILITIES
+# ══════════════════════════════════════════════════════════════════════════════
+
+def normalize(text: str) -> str:
+    """
+    Lowercase + collapse whitespace + Manglish phonetic normalization.
+    Applied word-by-word so "nthanu paripadi" → "enthu return policy"
+    which then hits the return FAQ via F1/fuzzy.
+    """
+    text  = re.sub(r"\s+", " ", text.lower().strip())
+    words = text.split()
+    # Word-level replacement. Multi-word replacements (e.g. "return policy")
+    # are inserted as-is; the space is fine because normalize output is
+    # used as a full string in fuzzy_match and as tokens in tokenize().
+    normalized: list[str] = []
+    for w in words:
+        replacement = _MANGLISH_NORM.get(w)
+        if replacement:
+            normalized.extend(replacement.split())
+        else:
+            normalized.append(w)
+    return " ".join(normalized)
+
+
+def tokenize(text: str) -> list[str]:
+    tokens = re.sub(r"[^\w\s]", " ", text.lower()).split()
+    return [t for t in tokens if len(t) > 1 and t not in STOPWORDS]
 
 
 def expand_synonyms(tokens: list[str]) -> list[str]:
     """
-    Given a token list, return the original tokens PLUS synonym expansions.
-    Duplicates are removed; order is original-first.
-    Manglish grammatical particles are NOT expanded to avoid false positives.
+    Returns original tokens PLUS synonym expansions.
+    Manglish grammatical particles in _PARTICLE_NO_EXPAND are NOT expanded.
     """
     expanded = list(tokens)
     seen = set(tokens)
     for tok in tokens:
         if tok in _PARTICLE_NO_EXPAND:
-            continue  # don't expand generic particles — too ambiguous
+            continue
         for syn in SYNONYM_MAP.get(tok, []):
-            # Synonyms may be multi-word — add each word individually
             for word in syn.split():
                 if word not in seen:
                     seen.add(word)
                     expanded.append(word)
     return expanded
+
+
+def f1_score(query_tokens: list[str], faq_question: str) -> float:
+    """F1 token overlap. query_tokens should be pre-expanded via expand_synonyms()."""
+    faq_tokens = set(tokenize(faq_question))
+    q_set      = set(query_tokens)
+    if not faq_tokens or not q_set:
+        return 0.0
+    inter = len(q_set & faq_tokens)
+    if inter == 0:
+        return 0.0
+    precision = inter / len(q_set)
+    recall    = inter / len(faq_tokens)
+    return 2 * precision * recall / (precision + recall)
 
 
 def is_manglish(text: str) -> bool:
@@ -379,36 +541,6 @@ try:
     print(f"[nlp] ✅  XLM-R ready ({_label})")
 except ImportError:
     print("[nlp] ⚠   transformers not installed — lexicon-only sentiment")
-
-# ══════════════════════════════════════════════════════════════════════════════
-#  TEXT UTILITIES
-# ══════════════════════════════════════════════════════════════════════════════
-
-def normalize(text: str) -> str:
-    """Lowercase + collapse whitespace only. No suffix stripping."""
-    return re.sub(r"\s+", " ", text.lower().strip())
-
-
-def tokenize(text: str) -> list[str]:
-    tokens = re.sub(r"[^\w\s]", " ", text.lower()).split()
-    return [t for t in tokens if len(t) > 1 and t not in STOPWORDS]
-
-
-def f1_score(query_tokens: list[str], faq_question: str) -> float:
-    """
-    F1 with synonym expansion on query side.
-    query_tokens should already be expanded via expand_synonyms().
-    """
-    faq_tokens = set(tokenize(faq_question))
-    q_set      = set(query_tokens)
-    if not faq_tokens or not q_set:
-        return 0.0
-    inter = len(q_set & faq_tokens)
-    if inter == 0:
-        return 0.0
-    precision = inter / len(q_set)
-    recall    = inter / len(faq_tokens)
-    return 2 * precision * recall / (precision + recall)
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  SENTIMENT DETECTION

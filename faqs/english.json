@@ -51,7 +51,15 @@
       "How to cancel?",
       "Can I cancel?",
       "Order cancellation?",
-      "Cancel my order?"
+      "Cancel my order?",
+      "how to cancel order",
+      "can order be cancelled",
+      "cancel my order please",
+      "order cancellation process",
+      "i want to cancel",
+      "cancel before dispatch",
+      "how do i cancel",
+      "cancel order steps"
     ],
     "answer": "Yes! You can cancel your order any time before it is dispatched. Log in, go to 'My Orders', and tap 'Cancel'. Once dispatched, you'll need to use the returns process instead."
   },
@@ -125,7 +133,18 @@
       "Can I pay with card?",
       "What are the ways to pay?",
       "Accepted payment types?",
-      "Payment options available?"
+      "Payment options available?",
+      "what payment options",
+      "accepted payment methods",
+      "can i pay with gpay",
+      "is upi accepted",
+      "phonepe available",
+      "can i pay cash on delivery",
+      "cod available",
+      "card payment accepted",
+      "paytm accepted",
+      "net banking available",
+      "how can i pay"
     ],
     "answer": "We accept UPI (GPay, PhonePe, Paytm), credit/debit cards, net banking, digital wallets, Cash on Delivery, and EMI — choose whatever is easiest for you at checkout."
   },
@@ -180,7 +199,15 @@
       "Money deducted but no order?",
       "Transaction failed?",
       "Payment issue?",
-      "Charged but order not placed?"
+      "Charged but order not placed?",
+      "payment failed but money deducted",
+      "paid but order not placed",
+      "transaction failed",
+      "money cut but order not confirmed",
+      "payment declined",
+      "upi payment failed",
+      "payment error occurred",
+      "order not placed after payment"
     ],
     "answer": "If your payment failed but money was deducted, it will automatically reverse within 5–7 business days. For urgent help, WhatsApp us at +91 98765 43210 with your order details."
   },
@@ -198,7 +225,17 @@
       "How many days for delivery?",
       "When will my parcel arrive?",
       "Delivery time?",
-      "How soon will it arrive?"
+      "How soon will it arrive?",
+      "how long does delivery take",
+      "when will i get my order",
+      "delivery in how many days",
+      "how many days for delivery",
+      "estimated delivery time",
+      "when will order arrive",
+      "delivery days how many",
+      "parcel arrival time",
+      "how soon will i receive",
+      "order arrival date"
     ],
     "answer": "Standard delivery across Kerala takes 2–3 working days. Express delivery (1–2 days) is available at ₹150 extra, and same-day delivery is available in Ernakulam for orders placed before 12 PM."
   },
@@ -213,7 +250,17 @@
       "What is the delivery charge?",
       "Shipping fee?",
       "Any delivery charges?",
-      "Free shipping available?"
+      "Free shipping available?",
+      "is delivery free",
+      "what is delivery charge",
+      "how much is shipping",
+      "free delivery available",
+      "delivery fee how much",
+      "shipping cost",
+      "free shipping above how much",
+      "delivery cost",
+      "any shipping charges",
+      "is there a delivery fee"
     ],
     "answer": "Delivery is free on orders above ₹500. For orders below ₹500, a small delivery fee applies based on your location — shown clearly at checkout before you pay."
   },
@@ -338,7 +385,18 @@
       "Track my order?",
       "Order status?",
       "Tracking link?",
-      "Order location?"
+      "Order location?",
+      "how to track order",
+      "order tracking link",
+      "where is my parcel",
+      "track my delivery",
+      "order tracking status",
+      "check order status",
+      "parcel location",
+      "where is my order now",
+      "shipment tracking",
+      "delivery status check",
+      "is my order dispatched"
     ],
     "answer": "Once your order is shipped, you'll receive a tracking link via SMS and email. You can also log in to your account and go to 'My Orders' for live tracking updates."
   },
@@ -378,7 +436,19 @@
       "Is return possible?",
       "Return process?",
       "Can I send it back?",
-      "How do returns work?"
+      "How do returns work?",
+      "what is the return policy",
+      "can i return this",
+      "what is your return rule",
+      "how many days to return",
+      "is return allowed",
+      "return within how many days",
+      "7 day return",
+      "return policy please",
+      "how does return work",
+      "what items can be returned",
+      "can i send it back",
+      "return process explain"
     ],
     "answer": "Yes! Returns are accepted within 7 days of delivery for unused items with original tags and packaging. Worn, washed, or altered items are not eligible for return."
   },
@@ -440,7 +510,16 @@
       "How long for refund?",
       "Refund process?",
       "When does refund come?",
-      "How many days for refund?"
+      "How many days for refund?",
+      "how long for refund",
+      "when will i get my money back",
+      "refund time please",
+      "days for refund",
+      "money back how many days",
+      "upi refund time",
+      "card refund days",
+      "when does refund come",
+      "refund status"
     ],
     "answer": "Once we receive and inspect the returned item, refunds are processed within 3–5 business days to your original payment method. UPI refunds are usually instant; card refunds may take up to 7 days."
   },
@@ -573,7 +652,19 @@
       "Current offers?",
       "Any sale going on?",
       "Promo available?",
-      "Any deals?"
+      "Any deals?",
+      "any offers available",
+      "current discount",
+      "any sale going on",
+      "promo code available",
+      "any coupon",
+      "discount available now",
+      "ongoing offers",
+      "what offers do you have",
+      "any deals",
+      "sale running now",
+      "best offer now",
+      "current promotions"
     ],
     "answer": "Yes! We run seasonal sales and exclusive app offers regularly. New customers get 10% off with code WELCOME10. Check the Offers page or subscribe to our WhatsApp broadcasts for the latest deals."
   },
@@ -597,7 +688,17 @@
       "Welcome discount?",
       "First order coupon?",
       "First time discount?",
-      "Any offer for new customers?"
+      "Any offer for new customers?",
+      "first order discount",
+      "new customer offer",
+      "welcome discount",
+      "first time buyer offer",
+      "WELCOME10 code",
+      "is there a welcome code",
+      "discount for new customers",
+      "10 percent off first order",
+      "new user discount",
+      "first purchase offer"
     ],
     "answer": "Yes! First-time customers get 10% off on their first order using code WELCOME10 at checkout. Valid on all products with no minimum order value."
   },
@@ -655,7 +756,17 @@
       "How to choose the right size?",
       "Which size fits me?",
       "Size chart?",
-      "How to choose size?"
+      "How to choose size?",
+      "size chart please",
+      "how to find my size",
+      "size guide",
+      "which size should i order",
+      "size measurement guide",
+      "how do i know my size",
+      "size help",
+      "size selection guide",
+      "correct size for me",
+      "size doubt"
     ],
     "answer": "Our size chart is on every product page — measure your chest, waist, and hip and compare to the chart. If you're between sizes, we recommend sizing up. Still unsure? WhatsApp us and we'll guide you!"
   },
@@ -718,7 +829,19 @@
       "WhatsApp number?",
       "Email address?",
       "Customer care number?",
-      "How to reach you?"
+      "How to reach you?",
+      "what is your contact number",
+      "customer support number",
+      "whatsapp number please",
+      "how to reach you",
+      "phone number please",
+      "helpline number",
+      "contact details please",
+      "give me your number",
+      "how can i call you",
+      "support phone number",
+      "email address please",
+      "contact info"
     ],
     "answer": "You can reach us via WhatsApp at +91 98765 43210 (fastest), email at support@zenmeraki.com, or live chat on our website. We're here Mon–Sat 9 AM–8 PM."
   },
@@ -1033,7 +1156,16 @@
       "How can I book an appointment?",
       "How to schedule a visit?",
       "Book a store appointment?",
-      "Can I visit the store by appointment?"
+      "Can I visit the store by appointment?",
+      "How to book a session?",
+      "How to book for my session?",
+      "Book a session",
+      "Can I book a slot?",
+      "How to book an appointment?",
+      "How to visit the store?",
+      "Trial room booking",
+      "Store visit booking",
+      "Schedule a visit"
     ],
     "answer": "Book a store visit via our website, app, or WhatsApp at +91 98765 43210. Our store at MG Road, Ernakulam is open Mon–Sat 9 AM–8 PM, Sunday 10 AM–6 PM."
   },
@@ -1342,7 +1474,19 @@
       "Shop address?",
       "Where are you located?",
       "Where is the shop?",
-      "Store address?"
+      "Store address?",
+      "where is your shop",
+      "shop address please",
+      "store location please",
+      "where are you located",
+      "which area is your shop",
+      "MG road shop",
+      "Ernakulam shop address",
+      "physical store address",
+      "where can i visit",
+      "nearest store location",
+      "store address please",
+      "shop near lulu mall"
     ],
     "answer": "Our store is at MG Road, Ernakulam, near Lulu Mall. We're open Mon–Sat 9 AM–8 PM and Sunday 10 AM–6 PM. Come visit us!"
   },
@@ -1358,7 +1502,17 @@
       "When do you open?",
       "Opening hours?",
       "Is the shop open?",
-      "What time does the shop close?"
+      "What time does the shop close?",
+      "what time does shop open",
+      "store opening time",
+      "when does shop close",
+      "are you open on sunday",
+      "shop hours please",
+      "weekend timings",
+      "saturday open",
+      "store working hours",
+      "what time do you open",
+      "shop open now"
     ],
     "answer": "We're open Monday to Saturday 9 AM to 8 PM, and Sundays 10 AM to 6 PM. Public holidays may have adjusted hours — check our WhatsApp status for updates."
   },

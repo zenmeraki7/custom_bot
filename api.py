@@ -1,5 +1,5 @@
 """
-api.py — Chottu Bot FastAPI Layer  v5.1
+api.py — Chottu Bot FastAPI Layer  v5.5
 ========================================
 Thin HTTP wrapper around chat.py.  All business logic lives in chat.py.
 
@@ -17,15 +17,17 @@ Routes
   GET  /logs/escalations → conversations flagged for human follow-up
   GET  /logs/bypass      → messages that bypassed FAQ (praise, social, offtopic)
 
-Changes v5.0 → v5.1
+Changes v5.4 → v5.5
 ──────────────────────
-  • Version bumped to 5.1 everywhere (health endpoint, app version, docstring)
-  • /faqs endpoint: flat FAQ entries now expose 'id' field (was always empty string
-    in v5.0 because load_english_faqs/load_manglish_faqs didn't carry it)
-  • /health faq_counts: added per-category breakdown for english + manglish pools
-  • /health: device label now shows MiB consistently (chat.py v5.1 fix)
-  • /stats: faq_by_id breakdown added — shows which FAQ IDs are hit most
-  • Startup log: confirms FAQ count matches english + manglish files
+  • Ollama warm-up on startup — eliminates 8–11s cold start on first request
+  • Ollama keep-alive ping every 10 min — model stays loaded in VRAM
+  • Imports FAQS_ENGLISH_SENTIMENT + FAQS_MANGLISH_SENTIMENT — /health now
+    shows accurate total FAQ count (was missing sentiment pool counts)
+  • /health: added sentiment_english + sentiment_manglish to faq_counts
+  • /logs/bypass: updated bypass values to match chat.py v5.5:
+    social_chat, compliment, confirmation, lang_switch,
+    location_guard, human_escalation
+  • Version bumped to 5.5 everywhere
 """
 
 from __future__ import annotations
@@ -38,6 +40,10 @@ from collections import Counter
 from pathlib import Path
 from typing import Optional
 
+import threading
+import time
+
+import requests as _http
 import torch
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
@@ -60,10 +66,45 @@ from chat import (
     FAQS_SENTIMENT,
     FAQS_ENGLISH,
     FAQS_MANGLISH,
+    FAQS_ENGLISH_SENTIMENT,
+    FAQS_MANGLISH_SENTIMENT,
     FAQS_SHOP,
+    OLLAMA_URL,
 )
 
 log = logging.getLogger("chottu.api")
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  OLLAMA WARM-UP & KEEP-ALIVE
+# ══════════════════════════════════════════════════════════════════════════════
+
+def _warm_ollama() -> None:
+    """Ping Ollama once at startup to load the model into VRAM."""
+    try:
+        _http.post(
+            OLLAMA_URL,
+            json={"model": OLLAMA_MODEL, "prompt": "hi", "stream": False},
+            timeout=60,
+        )
+        log.info("✅  Ollama warm-up done — model loaded into VRAM")
+    except Exception as e:
+        log.warning("⚠   Ollama warm-up failed (is Ollama running?): %s", e)
+
+
+def _ollama_keepalive() -> None:
+    """Ping Ollama every 10 minutes to keep model loaded in VRAM."""
+    while True:
+        time.sleep(600)
+        try:
+            _http.post(
+                OLLAMA_URL,
+                json={"model": OLLAMA_MODEL, "prompt": "hi", "stream": False},
+                timeout=30,
+            )
+            log.debug("🔄  Ollama keep-alive ping sent")
+        except Exception:
+            pass  # silent — Ollama may be restarting
+
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  APP SETUP
@@ -72,20 +113,26 @@ log = logging.getLogger("chottu.api")
 @asynccontextmanager
 async def lifespan(app):
     log.info(
-        "✅  %s API v5.1 ready — %d FAQ entries in embedding index "
-        "(english: %d, manglish: %d)",
+        "✅  %s API v5.5 ready — %d FAQ entries in embedding index "
+        "(english: %d, manglish: %d, en_sent: %d, ml_sent: %d)",
         BOT_NAME,
         len(FAQ_EMB_TEXTS),
         len(FAQS_ENGLISH),
         len(FAQS_MANGLISH),
+        len(FAQS_ENGLISH_SENTIMENT),
+        len(FAQS_MANGLISH_SENTIMENT),
     )
+    # Warm up Ollama — loads model into VRAM, eliminates cold-start latency
+    _warm_ollama()
+    # Keep-alive thread — pings Ollama every 10 min so model stays in VRAM
+    threading.Thread(target=_ollama_keepalive, daemon=True).start()
     yield
 
 
 app = FastAPI(
     title=f"{BOT_NAME} — Shop Chat API",
     description=f"Bilingual (English + Manglish) customer support bot for {SHOP_NAME}.",
-    version="5.1",
+    version="5.5",
     lifespan=lifespan,
 )
 
@@ -188,7 +235,7 @@ def health() -> dict:
         "status":               "ok",
         "bot_name":             BOT_NAME,
         "shop_name":            SHOP_NAME,
-        "version":              "5.1",
+        "version":              "5.5",
         "device":               device_name,
         "ollama_model":         OLLAMA_MODEL,
         "thresholds": {
@@ -198,12 +245,15 @@ def health() -> dict:
             "manglish_boost":   MANGLISH_BOOST,
         },
         "faq_counts": {
-            "embedding_index":  len(FAQ_EMB_TEXTS),
-            "sentiment_aware":  len(FAQS_SENTIMENT),
-            "english":          len(FAQS_ENGLISH),
-            "manglish":         len(FAQS_MANGLISH),
-            "shop":             len(FAQS_SHOP),
-            "total_flat":       len(FAQS_ENGLISH) + len(FAQS_MANGLISH),
+            "embedding_index":    len(FAQ_EMB_TEXTS),
+            "sentiment_aware":    len(FAQS_SENTIMENT),
+            "english":            len(FAQS_ENGLISH),
+            "english_sentiment":  len(FAQS_ENGLISH_SENTIMENT),
+            "manglish":           len(FAQS_MANGLISH),
+            "manglish_sentiment": len(FAQS_MANGLISH_SENTIMENT),
+            "shop":               len(FAQS_SHOP),
+            "total_flat":         len(FAQS_ENGLISH) + len(FAQS_MANGLISH)
+                                  + len(FAQS_ENGLISH_SENTIMENT) + len(FAQS_MANGLISH_SENTIMENT),
         },
         "faq_categories": {
             "english":  en_by_cat,
@@ -386,11 +436,12 @@ def escalation_queue() -> dict:
 def bypass_queue() -> dict:
     """
     Returns messages routed directly to Ollama via a bypass guard:
-      • offtopic     — personal questions about the bot
-      • social_chat  — check-ins / wellbeing questions
-      • pure_praise  — compliments with no shop request
-      • empty_tokens — all words were stopwords
-      • vague_query  — all tokens are generic with no domain signal (v5.1)
+      • social_chat       — check-ins / wellbeing (sugamano, how are you)
+      • compliment        — praise / thank you with no shop request
+      • confirmation      — yes/ok/sheri/pinne varam continuations
+      • lang_switch       — "in english" / "manglish il paranju"
+      • location_guard    — "eevide aanu kanan illalo" location queries
+      • human_escalation  — fraud/bulk/festival offers → WhatsApp
     Useful for tuning the guards and identifying misrouted messages.
     """
     try:

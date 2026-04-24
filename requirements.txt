@@ -8,6 +8,9 @@ torch==2.6.0
 sentence-transformers==3.4.1
 transformers==4.49.0
 
+# ── Fuzzy Matching (handles typos and Manglish phonetic variants) ─────────────
+rapidfuzz==3.9.7
+
 # ── HTTP & Utilities ──────────────────────────────────────────────────────────
 requests==2.32.3
 python-multipart==0.0.20

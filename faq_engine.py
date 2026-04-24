@@ -1,3 +1,4 @@
+
 """
 faq_engine.py — FAQ loading, embedding index, and matching
 ===========================================================
@@ -11,13 +12,18 @@ Exported symbols used by chat.py:
 
 Depends on: nlp.py
 
-Changes vs previous version:
-  1. SEMANTIC_THRESHOLD: 0.60 → 0.52  (catches valid matches in 0.52–0.59 range)
-  2. CONFIDENCE_GAP: 0.08 → 0.05     (less aggressive gap check)
-  3. semantic_match() now accepts intent-filtered index slices (intent-aware search)
-  4. Manglish queries prefer manglish.json source over english.json (no Ollama rephrase)
-  5. F1 pass now uses expand_synonyms() from nlp.py
-  6. CONFIDENCE_GAP disabled for manglish queries (Manglish embeddings cluster tightly)
+v5.2 → v5.3 fixes:
+  1. _INTENT_KEYWORDS["return"]: added Manglish paripadi/niyamam variants
+     so "nthanu paripadi" → intent="return" → filters to return FAQ pool
+  2. fuzzy_pass(): answer_lang detection hardened — explicitly checks
+     item["source"].startswith("manglish") rather than trusting the lang var
+  3. match_faq(): when fuzzy returns English for a Manglish query, it now
+     falls ALL the way through to F1 before returning the English fuzzy result.
+     Previously it returned the English fuzzy result immediately, forcing a
+     slow Ollama rephrase. F1 may find a native Manglish answer instead.
+  4. match_faq() final fallback priority:
+       native Manglish F1 > semantic English > fuzzy English > Ollama
+     ensures cheapest path that still produces natural Manglish output.
 """
 
 import json
@@ -29,6 +35,7 @@ from nlp import (
     embedder,
     expand_synonyms,
     f1_score,
+    fuzzy_match,
     is_manglish,
     normalize,
     tokenize,
@@ -46,10 +53,11 @@ SHOP_FAQ_DIR            = "faqs/shop_faq.json"
 ENGLISH_SENTIMENT_PATH  = "faqs/english_sentiment.json"
 MANGLISH_SENTIMENT_PATH = "faqs/manglish_sentiment.json"
 
-FAQ_THRESHOLD      = 0.30
-# Generic Manglish grammatical particles that should NOT be the sole
-# matching signal in F1 scoring. If a Manglish FAQ match is driven
-# entirely by particles (no content-word overlap), it's a false positive.
+FAQ_THRESHOLD      = 0.30   # F1 fallback threshold
+SEMANTIC_THRESHOLD = 0.52   # cosine similarity threshold
+MANGLISH_BOOST     = 1.15   # F1 score multiplier for manglish queries on manglish FAQs
+FUZZY_THRESHOLD    = 0.72   # rapidfuzz token_set_ratio threshold (0–1)
+
 _MANGLISH_PARTICLES = {
     "kittum", "kittiyilla", "cheyyam", "cheyyano", "cheyyuka", "cheythu",
     "aanu", "alle", "aano", "undo", "undu", "okke", "ippo", "ethra",
@@ -58,11 +66,6 @@ _MANGLISH_PARTICLES = {
     "allenkil", "nokam", "nokkanam", "sheri", "kollam", "adipoli",
     "mosham", "ano", "ithu", "athu", "ente", "eppo", "pinne",
 }
-
-   # F1 fallback threshold (lowered from 0.35 — synonym expansion
-                              # means we get more signal, so we can afford to accept lower raw F1)
-SEMANTIC_THRESHOLD = 0.52   # cosine similarity threshold (tuned down from 0.60)
-MANGLISH_BOOST     = 1.15   # F1 score multiplier for manglish queries on manglish FAQs
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  INTENT CLASSIFICATION
@@ -89,15 +92,28 @@ _INTENT_KEYWORDS: dict[str, list[str]] = {
     "tracking":    ["track", "tracking", "order status", "order location",
                     "parcel status", "parcel evide", "shipment",
                     "evide aanu ippo", "order evide"],
-    "return":      ["return", "refund", "exchange", "money back",
-                    "paisa thurik", "wrong product", "thettaya product",
-                    "cheyyano return", "return cheyy"],
-    "quality":     ["quality", "defective", "damaged", "damage", "complaint", "complient", "complain", "complient",
+    "return":      [
+        # English
+        "return", "refund", "exchange", "money back",
+        "return policy", "return rule", "return niyamam",
+        # Manglish — FIX v5.3: added paripadi/niyamam variants
+        "paripadi", "niyamam", "return paripadi", "nthanu paripadi",
+        "enthu paripadi", "return niyamam", "enthu niyamam",
+        "paisa thurik", "wrong product", "thettaya product",
+        "cheyyano return", "return cheyy",
+        "ethra naal", "7 days", "7 naal",
+    ],
+    "quality":     ["quality", "defective", "damaged", "damage",
+                    "complaint", "complient", "complain",
                     "warranty", "guarantee", "fabric", "material",
                     "stitching", "broken", "torn", "ripped", "faded",
                     "shrunk", "smell", "colour", "color"],
     "appointment": ["appointment", "book a slot", "schedule visit",
-                    "trial room", "fitting room", "store visit"],
+                    "trial room", "fitting room", "store visit",
+                    # FIX: "session", "book" were not matched
+                    "session", "book", "booking", "book appointment",
+                    "book session", "slot", "visit", "schedule",
+                    "book for", "how to book"],
     "account":     ["account", "login", "password", "profile", "register",
                     "signup", "otp", "forgot password", "delete account"],
     "review":      ["review", "rating", "write review", "post review",
@@ -121,14 +137,43 @@ _INTENT_KEYWORDS: dict[str, list[str]] = {
     "size":        ["size", "fit", "fitting", "measure", "size chart",
                     "size guide", "small aano", "large aano",
                     "tight", "loose", "shrunk"],
-    "store":       ["shop evide", "store evide", "store location",
-                    "shop address", "shop timing", "store hours",
-                    "shop open", "store open", "ningalude shop",
-                    "where is your store", "where is the shop",
-                    "your store", "your shop"],
-    "support":     ["complaint", "complient", "complain", "complaint kodukkum", "complaint cheyyam", "issue parayam", "problem parayam", "contact", "phone number", "whatsapp number", "complaint kodukkum", "complient kodukkum",
-                    "customer care", "email id", "support team",
-                    "call cheyyam", "help line"],
+    "store":       [
+        # English
+        "shop location", "store location", "store address",
+        "shop address", "shop timing", "store hours",
+        "shop open", "store open", "where is your store",
+        "where is the shop", "your store", "your shop",
+        # Holiday / open status — FIX: was routing to delivery
+        "holiday", "open tomorrow", "open today", "open on",
+        "open sunday", "open saturday", "closed", "working hours",
+        "what time", "opening time", "closing time",
+        # Manglish variants
+        "shop evide", "store evide", "ningalude shop",
+        "evideya shop", "evideya store", "shopinte sthalam",
+        "store sthalam", "shop sthalam",
+        "evide aanu shop", "evide aanu store",
+        "shop address enthu", "store address enthu",
+        "shop evide aanu", "store evide aanu",
+        "ningalude store evide", "ningalude shop evide",
+        "location enthu", "ningal evide",
+        "shop ethu neram", "shop open aano", "shop close aano",
+        "holiday il open", "holiday il shop",
+    ],
+    "support":     [
+        "complaint", "complient", "complain",
+        "complaint kodukkum", "complaint cheyyam",
+        "issue parayam", "problem parayam", "contact",
+        "phone number", "whatsapp number",
+        "customer care", "email id", "support team",
+        "call cheyyam", "help line",
+        # Manglish number variants
+        "number undo", "number enthu", "number aanu",
+        "number tharamo", "contact number",
+        "whatsapp number undo", "phone number undo",
+        "call cheyyaan number",
+        "ningalude number", "shop number",
+        "contact cheyyaan", "contact engane",
+    ],
 }
 
 
@@ -421,20 +466,16 @@ SHOP_SENT = [f for f in FAQS_SHOP if "questions" in f and "answers" in f]
 SHOP_FLAT = [f for f in FAQS_SHOP if "q" in f and "a" in f]
 
 # ══════════════════════════════════════════════════════════════════════════════
-#  EMBEDDING INDEX  — split into intent buckets for faster, intent-aware search
+#  EMBEDDING INDEX
 # ══════════════════════════════════════════════════════════════════════════════
 
 FAQ_EMB_VECTORS = None
 FAQ_EMB_TEXTS:  list[str]  = []
 FAQ_EMB_META:   list[dict] = []
-
-# Per-intent index slices: maps intent name → list of index positions
-# Used to restrict cosine search to relevant FAQ subset
 FAQ_EMB_INTENT_SLICES: dict[str, list[int]] = {}
 
 
 def _item_intent(item: dict) -> str | None:
-    """Map a flat FAQ item's section/category to an intent name."""
     section = item.get("section", item.get("category", "")).lower()
     for intent, sections in _INTENT_MAP.items():
         if section in [s.lower() for s in sections]:
@@ -443,11 +484,6 @@ def _item_intent(item: dict) -> str | None:
 
 
 def build_embeddings() -> None:
-    """
-    Precompute cosine-ready tensors for every FAQ question + variants.
-    Also builds per-intent index slices for intent-filtered semantic search.
-    Safe no-op if sentence-transformers is not installed.
-    """
     global FAQ_EMB_VECTORS, FAQ_EMB_TEXTS, FAQ_EMB_META, FAQ_EMB_INTENT_SLICES
 
     if embedder is None:
@@ -457,7 +493,6 @@ def build_embeddings() -> None:
     texts: list[str] = []
     meta:  list[dict] = []
 
-    # Sentiment-aware FAQs (faq.json + shop_faq with questions/answers keys)
     for faq in FAQS_SENTIMENT + SHOP_SENT:
         for questions in faq.get("questions", {}).values():
             for q in questions:
@@ -465,7 +500,6 @@ def build_embeddings() -> None:
                     texts.append(q.strip())
                     meta.append({"type": "sentiment", "faq": faq, "intent": None})
 
-    # Flat FAQs — manglish first (source priority for manglish queries)
     for item in (FAQS_MANGLISH + FAQS_MANGLISH_SENTIMENT
                  + FAQS_ENGLISH + FAQS_ENGLISH_SENTIMENT
                  + SHOP_FLAT):
@@ -477,7 +511,6 @@ def build_embeddings() -> None:
         texts.append(q)
         meta.append({"type": "flat", "item": item, "intent": intent})
 
-        # Register in intent slice
         if intent:
             FAQ_EMB_INTENT_SLICES.setdefault(intent, []).append(idx)
 
@@ -528,15 +561,6 @@ def semantic_match(
     intent: str | None = None,
     is_ml_query: bool = False,
 ) -> dict | None:
-    """
-    Cosine-similarity match against the embedding index.
-
-    If intent is provided and has a slice with ≥5 entries, searches only that
-    slice (faster + avoids cross-intent false positives).
-
-    CONFIDENCE_GAP check is disabled for manglish queries because Manglish
-    embeddings cluster more tightly and gap is naturally smaller.
-    """
     if FAQ_EMB_VECTORS is None or embedder is None:
         return None
 
@@ -545,7 +569,6 @@ def semantic_match(
 
     query_emb = embedder.encode(query, convert_to_tensor=True)
 
-    # Decide search scope: intent slice vs full index
     slice_indices = FAQ_EMB_INTENT_SLICES.get(intent, []) if intent else []
     USE_SLICE     = len(slice_indices) >= 5
 
@@ -564,11 +587,9 @@ def semantic_match(
         second_score = sorted_scores[1] if len(sorted_scores) > 1 else 0.0
         best_idx     = int(scores.argmax())
 
-    # Threshold check
     if best_score < SEMANTIC_THRESHOLD:
         return None
 
-    # Confidence gap check — skip for manglish (embeddings cluster tightly)
     CONFIDENCE_GAP = 0.05
     if not is_ml_query and (best_score - second_score) < CONFIDENCE_GAP:
         return None
@@ -595,7 +616,7 @@ def semantic_match(
         src  = item.get("source", "english")
         lang = "manglish" if src.startswith("manglish") else "english"
         return {
-            "faq_id":      "",
+            "faq_id":      item.get("id", ""),
             "category":    item.get("section", "general"),
             "faq_source":  src,
             "answer":      item["a"],
@@ -605,38 +626,106 @@ def semantic_match(
         }
 
 
+def fuzzy_pass(
+    norm_query: str,
+    pool: list[dict],
+    is_ml_query: bool = False,
+) -> dict | None:
+    """
+    Pass 1.5 — rapidfuzz token_set_ratio match.
+    Handles typos, phonetic variants, word reordering, partial overlaps.
+
+    FIX v5.3: answer_lang is now derived strictly from item["source"].startswith("manglish")
+    rather than from an outer `lang` variable. This prevents English FAQ answers
+    from being tagged as "manglish" answer_lang when the query happens to be Manglish.
+    """
+    best_score  = -1.0
+    best_result = None
+
+    for item in pool:
+        all_qs = [item.get("q", "")] + item.get("variants", [])
+        score  = max(fuzzy_match(norm_query, q) for q in all_qs if q)
+
+        src = item.get("source", "english")
+        if is_ml_query and src.startswith("manglish"):
+            score = min(score * MANGLISH_BOOST, 1.0)
+
+        if score >= FUZZY_THRESHOLD and score > best_score:
+            best_score  = score
+            # FIX: derive answer_lang strictly from source, not from query lang
+            answer_lang = "manglish" if src.startswith("manglish") else "english"
+            best_result = {
+                "faq_id":      item.get("id", ""),
+                "category":    item.get("section", "general"),
+                "faq_source":  src,
+                "answer":      item["a"],
+                "answer_lang": answer_lang,
+                "score":       round(score, 3),
+                "escalate":    False,
+            }
+
+    return best_result
+
+
 def match_faq(query: str, query_sentiment: str) -> dict | None:
     """
     FAQ matching pipeline:
-      Pass 0 — Intent detection (narrow both F1 pool and semantic search slice)
-      Pass 1 — Semantic cosine match (intent-filtered, threshold 0.52)
-      Pass 2 — F1 token overlap with synonym expansion (threshold 0.30)
+      Pass 0   — Intent detection (narrows F1 pool + semantic search slice)
+      Pass 1   — Semantic cosine match (threshold 0.52)
+      Pass 1.5 — Fuzzy match via rapidfuzz (threshold 0.72)
+      Pass 2   — F1 token overlap with synonym expansion (threshold 0.30)
 
-    Manglish source priority:
-      For manglish queries, manglish.json results are ranked above english.json.
-      This avoids the ~12s Ollama rephrase call for queries that already have
-      a direct Manglish answer.
+    Manglish priority (v5.3):
+      For Manglish queries we try to find a NATIVE Manglish answer at every pass
+      before falling back to English (which forces an Ollama rephrase).
+
+      Priority order for Manglish query:
+        1. Semantic → Manglish source answer            → return immediately
+        2. Fuzzy    → Manglish source answer            → return immediately
+        3. F1       → Manglish source answer ≥ threshold → return immediately
+        4. Semantic → English source answer (held)
+        5. Fuzzy    → English source answer (held)
+        6. F1       → English source answer ≥ threshold → return (rephrase in pipeline)
+        7. Best held (sem English > fuz English)        → return (rephrase in pipeline)
+        8. None → Ollama
     """
-    intent    = detect_intent(query)
+    # Normalize first — "nthanu paripadi" → "enthu return policy" via _MANGLISH_NORM
+    norm_query = normalize(query)
+
+    intent    = detect_intent(norm_query)
     sections  = _INTENT_MAP.get(intent, []) if intent else []
     manglish  = is_manglish(query)
 
     ml_filtered = _filter_by_intent(FAQS_MANGLISH + FAQS_MANGLISH_SENTIMENT, sections) if sections else []
     en_filtered = _filter_by_intent(FAQS_ENGLISH  + FAQS_ENGLISH_SENTIMENT,  sections) if sections else []
 
-    # ── Pass 1: intent-filtered semantic search ──
-    sem = semantic_match(query, query_sentiment, intent=intent, is_ml_query=manglish)
+    # ── Pass 1: semantic ──
+    sem = semantic_match(norm_query, query_sentiment, intent=intent, is_ml_query=manglish)
     if sem:
-        # Manglish source priority: if query is manglish but semantic returned
-        # an English answer, continue to Pass 2 to find a native Manglish match
-        if manglish and not sem["answer_lang"].startswith("manglish"):
-            pass  # fall through to F1 to check for direct manglish answer
-        else:
+        if not manglish:
             return sem
+        # Manglish query: prefer native Manglish answer
+        if sem["answer_lang"].startswith("manglish"):
+            return sem
+        # English semantic result held — continue searching for native Manglish
+
+    # ── Pass 1.5: fuzzy match ──
+    flat_pool = (
+        FAQS_MANGLISH + FAQS_MANGLISH_SENTIMENT
+        + FAQS_ENGLISH + FAQS_ENGLISH_SENTIMENT
+        + SHOP_FLAT
+    )
+    fuz = fuzzy_pass(norm_query, flat_pool, is_ml_query=manglish)
+    if fuz:
+        if not manglish:
+            return fuz
+        # Manglish query: prefer native Manglish fuzzy answer
+        if fuz["answer_lang"].startswith("manglish"):
+            return fuz
+        # English fuzzy result held — continue to F1 for native Manglish
 
     # ── Pass 2: F1 with synonym expansion ──
-    norm     = normalize(query)
-    q_tokens = expand_synonyms(tokenize(norm))   # ← synonym-expanded tokens
+    q_tokens = expand_synonyms(tokenize(norm_query))
 
     best_score      = -1.0
     best_n_variants = 0
@@ -649,7 +738,7 @@ def match_faq(query: str, query_sentiment: str) -> dict | None:
             best_n_variants = n_variants
             best_result     = candidate
 
-    # Sentiment-aware FAQs (faq.json + shop)
+    # Sentiment-aware FAQs
     for faq in FAQS_SENTIMENT + SHOP_SENT:
         _faq_n = sum(len(qs) for qs in faq.get("questions", {}).values())
         for sent_key, questions in faq.get("questions", {}).items():
@@ -658,7 +747,7 @@ def match_faq(query: str, query_sentiment: str) -> dict | None:
                 if score > 0:
                     answer, _ = pick_answer(faq["answers"], query_sentiment)
                     esc_kw    = faq.get("escalate_if", {}).get("keywords", [])
-                    escalate  = bool(esc_kw and any(kw.lower() in norm for kw in esc_kw))
+                    escalate  = bool(esc_kw and any(kw.lower() in norm_query for kw in esc_kw))
                     _update(score, {
                         "faq_id":      faq.get("id", ""),
                         "category":    faq.get("category", "general"),
@@ -669,7 +758,7 @@ def match_faq(query: str, query_sentiment: str) -> dict | None:
                         "escalate":    escalate,
                     }, n_variants=_faq_n)
 
-    # Manglish FAQs — searched first + boosted for manglish queries
+    # Manglish FAQs — searched first + boosted
     manglish_pool = ml_filtered + [
         f for f in FAQS_MANGLISH + FAQS_MANGLISH_SENTIMENT + SHOP_FLAT
         if f not in ml_filtered
@@ -682,15 +771,13 @@ def match_faq(query: str, query_sentiment: str) -> dict | None:
             continue
         all_qs = [item["q"]] + item.get("variants", [])
         raw    = max(f1_score(q_tokens, q) for q in all_qs)
-        # Manglish particle guard: reject if the only overlapping tokens are
-        # grammatical particles (no content-word overlap = false positive)
         if manglish and raw > 0:
             q_content    = set(q_tokens) - _MANGLISH_PARTICLES
             faq_all_text = " ".join(all_qs)
             faq_content  = set(tokenize(faq_all_text)) - _MANGLISH_PARTICLES
             if q_content and faq_content and not (q_content & faq_content):
-                raw = 0.0  # suppress particle-only match
-        score  = raw * MANGLISH_BOOST if manglish else raw
+                raw = 0.0
+        score = raw * MANGLISH_BOOST if manglish else raw
         _update(score, {
             "faq_id":      item.get("id", ""),
             "category":    item.get("section", "general"),
@@ -717,16 +804,39 @@ def match_faq(query: str, query_sentiment: str) -> dict | None:
             "escalate":    False,
         }, n_variants=len(all_qs))
 
-    # If semantic found an English result for a Manglish query but F1 found a
-    # native Manglish answer above threshold — prefer the Manglish one
-    if sem and best_score >= FAQ_THRESHOLD and best_result:
-        if manglish and best_result["answer_lang"].startswith("manglish"):
+    # ── Final priority resolution for Manglish queries ──
+    if manglish and best_score >= FAQ_THRESHOLD and best_result:
+        # F1 found a native Manglish answer → always prefer over held English results
+        if best_result["answer_lang"].startswith("manglish"):
             best_result["score"] = round(best_score, 3)
             return best_result
-        # Semantic was better — return it
-        return sem
+        # F1 found English — compare against held semantic/fuzzy English results
+        # Return whichever has the highest score; pipeline will rephrase all of them
+        candidates = [(best_score, best_result)]
+        if sem:
+            candidates.append((sem["score"], sem))
+        if fuz:
+            candidates.append((fuz["score"], fuz))
+        best_candidate = max(candidates, key=lambda x: x[0])
+        result = best_candidate[1]
+        result["score"] = round(best_candidate[0], 3)
+        return result
+
+    # Non-Manglish: standard priority
+    if sem and best_score >= FAQ_THRESHOLD and best_result:
+        return sem  # semantic beats F1 for English queries
+
+    if fuz and (best_result is None or best_score < FAQ_THRESHOLD):
+        return fuz
 
     if best_score < FAQ_THRESHOLD or best_result is None:
+        # Last resort: return held semantic/fuzzy English for Manglish query
+        # (pipeline will rephrase via Ollama)
+        if manglish:
+            if sem:
+                return sem
+            if fuz:
+                return fuz
         return None
 
     best_result["score"] = round(best_score, 3)
