@@ -51,7 +51,14 @@
       "Cancel cheyyaan pattumo?",
       "Order cancel engne cheyyam?",
       "Cancel possible aano?",
-      "Order cancel cheyyaan ethu cheyyam?"
+      "Order cancel cheyyaan ethu cheyyam?",
+      "order cancel cheyyaan pattumo",
+      "order cancel possible aano",
+      "order back cheyyamo",
+      "cancel cheyyan time undo",
+      "dispatch aakunnathinu mundhe cancel cheyyam",
+      "order cancel cheyyan ethu cheyyam",
+      "cancel cheyyaan late aayi undo"
     ],
     "answer": "Athe! Dispatch aakunnathinu mundhe 'My Orders' il pokuka, 'Cancel' tappu cheyyuka. Dispatch kazhinjaal return process vazhiye cheyyanam — athum padam tharaam!"
   },
@@ -134,7 +141,18 @@
       "UPI undo?",
       "Card cheyyamo?",
       "Online pay cheyyamo?",
-      "Netbanking undo?"
+      "Netbanking undo?",
+      "enthu payment undo",
+      "payment options enthu aanu",
+      "UPI accept cheyyumo",
+      "GPay cheyyamo",
+      "PhonePe cheyyamo",
+      "COD undo",
+      "card payment undo",
+      "cash pay cheyyamo",
+      "online pay cheyyamo",
+      "Paytm undo",
+      "net banking undo"
     ],
     "answer": "UPI (GPay, PhonePe, Paytm), credit/debit cards, net banking, digital wallets, Cash on Delivery, um EMI — ningalude convenience pole checkout il choose cheyyaam."
   },
@@ -191,7 +209,16 @@
       "Paisa poya order illa?",
       "Payment cheythu order varilla?",
       "Transaction fail enkilae?",
-      "Amount deduct aayi order illa?"
+      "Amount deduct aayi order illa?",
+      "payment fail aayi",
+      "payment failed aayi paisa poyi",
+      "money deducted order illa",
+      "pay aayi order come illa",
+      "transaction fail aayi",
+      "payment decline aayi",
+      "paisa poyi order illa",
+      "UPI failed paisa poyi",
+      "payment error ayi"
     ],
     "answer": "Payment fail aayi pakshe paisa poyi enkilae 5–7 business days il automatic ayi reverse varum. Urgent enkilae +91 98765 43210 WhatsApp cheyyuka — vegam resolve cheyyaam."
   },
@@ -212,7 +239,18 @@
       "Delivery ethra naal edukum?",
       "Delivery days ethra?",
       "Delivery ethra naal?",
-      "Enikku parcel eppo kittum?"
+      "Enikku parcel eppo kittum?",
+      "delivery ethra naal il varum",
+      "parcel ethra naalil varum",
+      "order ethra naalil kittum",
+      "delivery time enthu aanu",
+      "ethra naalil varum",
+      "order eppo varum",
+      "parcel eppo varum",
+      "delivery eppo kittum bro",
+      "order kittaan ethra naal",
+      "2 days il kittumano",
+      "3 days il kittumano"
     ],
     "answer": "Kerala muzhuvan standard delivery 2–3 working days. Express delivery (1–2 days) ₹150 extra il available aanu. Ernakulam il 12 PM mundhe order cheyythal same-day delivery kittum!"
   },
@@ -228,7 +266,17 @@
       "Shipping charge undo?",
       "Delivery charge ethraya?",
       "Free delivery undo?",
-      "Charge undaakumo delivery il?"
+      "Charge undaakumo delivery il?",
+      "delivery charge ethra aanu",
+      "free delivery kittumano",
+      "delivery charge undo bro",
+      "shipping free aano",
+      "delivery free aakum ethra il",
+      "500 il free aano",
+      "free shipping undo",
+      "delivery charge illa undo",
+      "charge undaakumo delivery ku",
+      "delivery charge zero aano"
     ],
     "answer": "₹500 il kooduthal orders il delivery free aanu! Thazheyulla orders il location anusaricchu oru small delivery fee undo — checkout il clearly kaanum."
   },
@@ -360,7 +408,18 @@
       "Parcel evide aanu?",
       "Order evide aanu ippo?",
       "Shipment status enthu?",
-      "Order track cheyyaan link undo?"
+      "Order track cheyyaan link undo?",
+      "order evide aanu ippo",
+      "parcel evide aanu",
+      "tracking number enthu",
+      "order track engane",
+      "delivery track cheyyaan",
+      "order status check cheyyaan",
+      "parcel status enthu",
+      "shipment evide aanu",
+      "order reach aayi undo",
+      "order dispatch aayi undo",
+      "order out for delivery aayi undo"
     ],
     "answer": "Order ship aayi kazhinjaal tracking link SMS um email um varum. Account undo enkilae 'My Orders' il pokuka — live tracking kaanum."
   },
@@ -406,7 +465,20 @@
       "Return policy enthu?",
       "Return cheyyaan ethu cheyyam?",
       "Return process enthu?",
-      "Return cheyyaan pattumo?"
+      "Return cheyyaan pattumo?",
+      "nthanu paripadi",
+      "entha paripadi",
+      "paripadi enthu",
+      "return paripadi enthu",
+      "return niyamam enthu",
+      "return cheyyaan paripadi",
+      "return niyamam paranju tharamo",
+      "items return cheyyaan paripadi",
+      "return policy paranjal",
+      "ethra naal return cheyyam",
+      "7 days return undo",
+      "return cheyyaan time ethra",
+      "return time ethra aanu"
     ],
     "answer": "Athe! Delivery kazhinju 7 days ullil unused items original tags um packaging um ayi return accept cheyyunno. Eattu items, kazhuka items, alter cheytha items return cheyyaan pattuilla."
   },
@@ -477,7 +549,17 @@
       "Refund ethra naal?",
       "Refund days ethra?",
       "Refund time ethraya?",
-      "Refund process enthu?"
+      "Refund process enthu?",
+      "refund ethra naal il kittum",
+      "paisa eppo kittum",
+      "refund eppo varum",
+      "money back ethra naal",
+      "refund time ethra aanu",
+      "paisa thirike kittumano",
+      "UPI refund eppo kittum",
+      "card refund time",
+      "refund process time ethra",
+      "paisa return cheyyumano"
     ],
     "answer": "Return item inspect cheythu kazhinjaal 3–5 business days ul original payment method il refund process cheyyunno. UPI refunds mostly instant; card refunds 7 days vare edum."
   },
@@ -619,7 +701,20 @@
       "Enthanu offer?",
       "Offer paranju tharamo?",
       "Ippol discount undo?",
-      "Coupon undo?"
+      "Coupon undo?",
+      "offer undo",
+      "discount undo",
+      "offer enthu",
+      "ippo sale undo",
+      "coupon undo bro",
+      "promo code undo",
+      "enthu offer undo ippo",
+      "offer ippo enthu aanu",
+      "new offer undo",
+      "sale running undo",
+      "ippo enthanu offer",
+      "seasonal sale undo",
+      "offer code undo"
     ],
     "answer": "Athe! Seasonal sales um exclusive app offers um regular ayi varunno. New customers WELCOME10 code ayi 10% off kittum. Offers page check cheyyuka allenkil WhatsApp broadcast subscribe cheyyuka!"
   },
@@ -645,7 +740,16 @@
       "First time offer undo?",
       "New customer discount undo?",
       "WELCOME10 code work cheyyumo?",
-      "Puthiya customer offer undo?"
+      "Puthiya customer offer undo?",
+      "first order offer undo",
+      "new customer aanu offer kittumano",
+      "WELCOME10 undo",
+      "welcome code undo",
+      "first time discount",
+      "puthiya customer discount enthu",
+      "first order 10 percent off undo",
+      "new aanu enikku offer undo",
+      "first purchase offer enthu"
     ],
     "answer": "Athe! First time customers checkout il WELCOME10 code use cheyyuka — 10% off kittum! Minimum order value onnuum venda, all products il valid aanu."
   },
@@ -707,7 +811,17 @@
       "Right size engane ariyam?",
       "Size chart undo?",
       "Fit aakum size engane nokkam?",
-      "Size select cheyyaan engane?"
+      "Size select cheyyaan engane?",
+      "size chart undo",
+      "size guide paranju tharamo",
+      "enikku ethu size",
+      "M size fit aakumo",
+      "L size aano sheriyathu",
+      "size select cheyyaan",
+      "size measurements enthu",
+      "size paranjal",
+      "size correct aanu ennu ariyaan",
+      "size doubt undo"
     ],
     "answer": "Product page il size chart undo — chest, waist, um hip measure cheyythu compare cheyyuka. Sizes il in-between aayenkilae larger size order cheyyuka. Doubt enkilae WhatsApp cheyyuka — guide cheyyaam!"
   },
@@ -777,7 +891,29 @@
       "Customer care number enthu?",
       "Support contact enthu?",
       "Call cheyyaan number enthu?",
-      "Email id enthu?"
+      "Email id enthu?",
+      "Number undo?",
+      "Number enthu?",
+      "number undo",
+      "Contact number undo?",
+      "Shop number undo?",
+      "Ningalude number enthu?",
+      "WhatsApp number undo?",
+      "Number tharamo?",
+      "Contact cheyyaan number?",
+      "Number aanu enthu?",
+      "contact number enthu",
+      "ningalude number enthu aanu",
+      "shop number paranju tharamo",
+      "call cheyyaan number enthu",
+      "whatsapp number paranju",
+      "number undo ningalkku",
+      "contact cheyyaan number paranju",
+      "ningalude phone number",
+      "customer care number",
+      "helpline number enthu",
+      "enikku number tharamo",
+      "number ayachu tharamo"
     ],
     "answer": "WhatsApp cheyyuka +91 98765 43210 il (fastest!), allenkil email cheyyuka support@zenmeraki.com il, allenkil website live chat use cheyyuka. Mon–Sat 9 AM–8 PM available aanu!"
   },
@@ -1104,7 +1240,15 @@
       "Appointment engane cheyyam?",
       "Visit book cheyyamo?",
       "Appointment book cheyyaan engane?",
-      "Store visit schedule cheyyamo?"
+      "Store visit schedule cheyyamo?",
+      "Session book cheyyaan?",
+      "Session engane book cheyyam?",
+      "Book cheyyaan engane?",
+      "Store visit book cheyyam?",
+      "Appointment book cheyyaan pattumo?",
+      "Slot book cheyyano?",
+      "Visit schedule cheyyam?",
+      "Trial cheyyaan book cheyyam?"
     ],
     "answer": "Website, app, allenkil +91 98765 43210 WhatsApp cheyyuka. Njangalude MG Road, Ernakulam store Mon–Sat 9 AM–8 PM, Sunday 10 AM–6 PM open aanu. Vannu kaanuka!"
   },
@@ -1422,7 +1566,20 @@
       "Shop address enthu?",
       "Ningalude shop evide aanu?",
       "Store address paranju tharamo?",
-      "Shop place enthu?"
+      "Shop place enthu?",
+      "shop evide aanu",
+      "store evide aanu",
+      "ningalude shop evide",
+      "shop address paranju tharamo",
+      "evideya shop",
+      "shop MG road aano",
+      "shop sthalam evide",
+      "shop ethu place",
+      "store evideya aanu",
+      "Ernakulam aano shop",
+      "location paranju tharamo",
+      "shop evide paranjal",
+      "shop address enthu aanu"
     ],
     "answer": "Njangalude store MG Road, Ernakulam, Lulu Mall-inu ariyil aanu. Mon–Sat 9 AM–8 PM, Sunday 10 AM–6 PM open aanu. Vannu kaanuka — kuttanmal!"
   },
@@ -1439,7 +1596,18 @@
       "Shop open aano?",
       "Working hours enthu?",
       "Shop ethu neram close aakum?",
-      "Sunday open aano?"
+      "Sunday open aano?",
+      "shop ethu neram",
+      "store timing enthu aanu",
+      "shop open aano ippo",
+      "Sunday open undo",
+      "shop ethu mani thodangunno",
+      "shop ethu mani adakkunno",
+      "shop timing paranju tharamo",
+      "open time enthu",
+      "Sunday shop undo",
+      "shop 9 mani thodangunno",
+      "shop Saturday open undo"
     ],
     "answer": "Monday to Saturday 9 AM – 8 PM, Sunday 10 AM – 6 PM. Public holidays il adjusted timings undaakam — WhatsApp status check cheyyuka updates ariyaan."
   },
