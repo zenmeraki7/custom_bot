@@ -453,6 +453,7 @@ from __future__ import annotations
 
 from contextlib import asynccontextmanager
 
+import json
 import logging
 import os
 from collections import Counter
@@ -464,7 +465,7 @@ import time
 
 import requests as _http
 import torch
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
@@ -489,6 +490,8 @@ from chat import (
     FAQS_MANGLISH_SENTIMENT,
     FAQS_SHOP,
     OLLAMA_URL,
+    reload_config,
+    _CFG,
 )
 
 log = logging.getLogger("chottu.api")
@@ -657,6 +660,7 @@ def health() -> dict:
         "version":              "5.5",
         "device":               device_name,
         "ollama_model":         OLLAMA_MODEL,
+        "shop_config":          _CFG,          # ← full config for UI
         "thresholds": {
             "semantic":         SEMANTIC_THRESHOLD,
             "f1":               FAQ_THRESHOLD,
@@ -884,3 +888,78 @@ def bypass_queue() -> dict:
     except Exception as exc:
         log.exception("Error in /logs/bypass")
         return {"error": str(exc)}
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  ADMIN ENDPOINTS — upload shop config and FAQs
+# ══════════════════════════════════════════════════════════════════════════════
+
+@app.post("/admin/upload-config", summary="Upload shop_config.json to change bot identity")
+async def upload_config(file: UploadFile = File(...)) -> dict:
+    """
+    Upload a new shop_config.json.
+    Bot name, shop name, contact, location, hours, escalation number
+    all update immediately — no server restart needed.
+    """
+    try:
+        content = await file.read()
+        cfg     = json.loads(content)
+        # Validate required fields
+        required = ["bot_name", "shop_name", "contact", "hours", "escalate"]
+        missing  = [k for k in required if k not in cfg]
+        if missing:
+            raise HTTPException(status_code=400, detail=f"Missing required fields: {missing}")
+        # Save and reload
+        with open("shop_config.json", "w", encoding="utf-8") as f:
+            json.dump(cfg, f, ensure_ascii=False, indent=2)
+        reload_config()   # reloads chat.py config + FAQ placeholders
+        log.info("✅  shop_config.json updated — bot=%s shop=%s", cfg["bot_name"], cfg["shop_name"])
+        return {"status": "ok", "bot_name": cfg["bot_name"], "shop_name": cfg["shop_name"]}
+    except json.JSONDecodeError as e:
+        raise HTTPException(status_code=400, detail=f"Invalid JSON: {e}")
+    except Exception as e:
+        log.exception("Error in /admin/upload-config")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/admin/upload-faqs", summary="Upload shop_faq.json — shop-specific FAQs only")
+async def upload_faqs(file: UploadFile = File(...)) -> dict:
+    """
+    Upload shop_faq.json for the current shop.
+    The generic FAQs (english.json, manglish.json, sentiments) are NOT touched.
+    Only shop-specific info (price, services, location, contact, hours) goes here.
+    The embedding index rebuilds automatically after upload.
+    """
+    try:
+        content = await file.read()
+        faqs    = json.loads(content)
+        if not isinstance(faqs, list):
+            raise HTTPException(status_code=400, detail="FAQ file must be a JSON array")
+        # Validate at least first item
+        for i, item in enumerate(faqs[:3]):
+            has_variants = "question_variants" in item
+            has_simple   = ("question" in item or "q" in item) and ("answer" in item or "a" in item)
+            if not has_variants and not has_simple:
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"Item {i}: needs 'question_variants'+'answer' or 'question'+'answer'"
+                )
+        import os
+        os.makedirs("faqs", exist_ok=True)
+        with open("faqs/shop_faq.json", "w", encoding="utf-8") as f:
+            json.dump(faqs, f, ensure_ascii=False, indent=2)
+        # Rebuild embedding index
+        from faq_engine import build_embeddings
+        build_embeddings()
+        log.info("✅  shop_faq.json uploaded — %d FAQs", len(faqs))
+        return {"status": "ok", "faq_count": len(faqs), "path": "faqs/shop_faq.json"}
+    except json.JSONDecodeError as e:
+        raise HTTPException(status_code=400, detail=f"Invalid JSON: {e}")
+    except Exception as e:
+        log.exception("Error in /admin/upload-faqs")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/admin/config", summary="View current shop config")
+def get_config() -> dict:
+    """Returns the current shop_config.json contents."""
+    return _CFG

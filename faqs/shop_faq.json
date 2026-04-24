@@ -1,0 +1,239 @@
+[
+  {
+    "id": "dc_appt_001",
+    "category": "appointment",
+    "lang": "english",
+    "question_variants": [
+      "How to book an appointment?",
+      "Can I book online?",
+      "How to schedule a visit?",
+      "appointment booking?",
+      "how to register?"
+    ],
+    "answer": "Book via WhatsApp at {whatsapp}, call us, or visit the clinic. We're available {hours_weekdays} and {hours_sunday}."
+  },
+  {
+    "id": "dc_appt_ml_001",
+    "category": "appointment",
+    "lang": "manglish",
+    "question_variants": [
+      "Appointment book cheyyaan?",
+      "Engane appointment edukam?",
+      "Doctor-ne kaanan eppo varanam?",
+      "Time fix cheyyaan?",
+      "Appointment venam"
+    ],
+    "answer": "WhatsApp cheyyuka {whatsapp} il allenkil directly clinic-il varanam. {hours_weekdays}, {hours_sunday} available aanu!"
+  },
+  {
+    "id": "dc_hour_001",
+    "category": "store",
+    "lang": "english",
+    "question_variants": [
+      "What are your clinic hours?",
+      "When are you open?",
+      "Sunday open?",
+      "open hours?",
+      "timings?",
+      "opening time?"
+    ],
+    "answer": "We are open {hours_weekdays} and {hours_sunday}. {hours_holiday}."
+  },
+  {
+    "id": "dc_hour_ml_001",
+    "category": "store",
+    "lang": "manglish",
+    "question_variants": [
+      "Clinic ethu neram?",
+      "Ethu mani thodangunno?",
+      "Sunday open undo?",
+      "Open aano ippo?",
+      "Timings paranju tharamo?"
+    ],
+    "answer": "{hours_weekdays}, {hours_sunday} open aanu. {hours_holiday}."
+  },
+  {
+    "id": "dc_fee_001",
+    "category": "pricing",
+    "lang": "english",
+    "question_variants": [
+      "How much does consultation cost?",
+      "consultation fee?",
+      "what is the charge?",
+      "price for checkup?",
+      "fee structure?"
+    ],
+    "answer": "First consultation is free for new patients ({offer_code} — {offer_desc})! Treatment costs vary and we'll give a full estimate before starting. No hidden charges."
+  },
+  {
+    "id": "dc_fee_ml_001",
+    "category": "pricing",
+    "lang": "manglish",
+    "question_variants": [
+      "Consultation fee ethraa?",
+      "Check-up charge ethra?",
+      "Fee enthu aanu?",
+      "Charge paranju tharamo?",
+      "Price ethra?"
+    ],
+    "answer": "New patients-nu first consultation free aanu! ({offer_code} — {offer_desc}). Treatment cost estimate munpe tharaam — hidden charges illa."
+  },
+  {
+    "id": "dc_serv_001",
+    "category": "services",
+    "lang": "english",
+    "question_variants": [
+      "What treatments do you offer?",
+      "What services available?",
+      "Do you do root canal?",
+      "braces available?",
+      "teeth whitening?",
+      "dental services list?"
+    ],
+    "answer": "We offer Root Canal, Teeth Whitening, Braces & Aligners, Dental Implants, Scaling & Cleaning, Extractions, Cosmetic Dentistry, Paediatric Dentistry, and Emergency Care."
+  },
+  {
+    "id": "dc_serv_ml_001",
+    "category": "services",
+    "lang": "manglish",
+    "question_variants": [
+      "Enthu treatments undo?",
+      "Root canal cheyyumo?",
+      "Braces available aano?",
+      "Teeth whitening cheyyumo?",
+      "Enthu services undo?"
+    ],
+    "answer": "Root canal, teeth whitening, braces & aligners, implants, scaling, extraction, cosmetic dentistry, paediatric dentistry, emergency care okke cheyyunno!"
+  },
+  {
+    "id": "dc_pain_001",
+    "category": "services",
+    "lang": "english",
+    "question_variants": [
+      "Is the treatment painful?",
+      "Will it hurt?",
+      "painless treatment?",
+      "do you use anesthesia?",
+      "is it scary?"
+    ],
+    "answer": "We use modern pain-free techniques with local anesthesia for all procedures. Most patients are surprised how comfortable treatments are now! 😊"
+  },
+  {
+    "id": "dc_pain_ml_001",
+    "category": "services",
+    "lang": "manglish",
+    "question_variants": [
+      "Vedikkunno?",
+      "Pain undaakumo?",
+      "Anesthesia tharamo?",
+      "Painful aano?",
+      "Bhayam undaakumo?"
+    ],
+    "answer": "Modern pain-free techniques use cheyyunno! Local anesthesia kodukkum — most patients surprised aakum ethra comfortable aanu 😊"
+  },
+  {
+    "id": "dc_emer_001",
+    "category": "support",
+    "lang": "english",
+    "question_variants": [
+      "I have a dental emergency",
+      "emergency dental care?",
+      "tooth pain emergency?",
+      "urgent appointment?",
+      "broken tooth?",
+      "severe tooth pain?"
+    ],
+    "answer": "For dental emergencies, call {whatsapp} immediately! We accommodate emergency cases same day. Don't suffer — call us right away!"
+  },
+  {
+    "id": "dc_emer_ml_001",
+    "category": "support",
+    "lang": "manglish",
+    "question_variants": [
+      "Emergency aanu teeth pain",
+      "Severe pain aanu",
+      "Urgent doctor venam",
+      "Broken tooth aayirunnu",
+      "Ippo thanne venam"
+    ],
+    "answer": "Emergency cases-nu {whatsapp} ippo thanne call cheyyuka! Same day accommodate cheyyaam. Pain sahikkaruth — call cheyyuka!"
+  },
+  {
+    "id": "dc_loc_001",
+    "category": "store",
+    "lang": "english",
+    "question_variants": [
+      "Where is the clinic?",
+      "clinic address?",
+      "how to reach you?",
+      "location?",
+      "directions?"
+    ],
+    "answer": "We are at {location}. Easy parking available. WhatsApp {whatsapp} for directions!"
+  },
+  {
+    "id": "dc_loc_ml_001",
+    "category": "store",
+    "lang": "manglish",
+    "question_variants": [
+      "Clinic evide aanu?",
+      "Address paranju tharamo?",
+      "Evideya clinic?",
+      "Location enthu?",
+      "Ethu place?"
+    ],
+    "answer": "{location} aanu njangalude clinic! Parking easy. Directions venam enkil {whatsapp} WhatsApp cheyyuka!"
+  },
+  {
+    "id": "dc_pay_001",
+    "category": "payment",
+    "lang": "english",
+    "question_variants": [
+      "What payment methods do you accept?",
+      "UPI accepted?",
+      "insurance accepted?",
+      "cash only?",
+      "payment options?"
+    ],
+    "answer": "We accept UPI (GPay, PhonePe), Cards, Cash, Insurance, and EMI for treatments above ₹5000. Contact us to verify insurance coverage."
+  },
+  {
+    "id": "dc_pay_ml_001",
+    "category": "payment",
+    "lang": "manglish",
+    "question_variants": [
+      "Payment options enthu?",
+      "UPI cheyyamo?",
+      "Insurance valid aano?",
+      "GPay accept cheyyumo?",
+      "Cash only aano?"
+    ],
+    "answer": "UPI (GPay, PhonePe), cards, cash, insurance okke accept cheyyunno. ₹5000+ treatments-nu EMI available aanu. Insurance coverage verify cheyyaan contact cheyyuka."
+  },
+  {
+    "id": "dc_contact_001",
+    "category": "support",
+    "lang": "english",
+    "question_variants": [
+      "Contact number?",
+      "phone number?",
+      "WhatsApp number?",
+      "how to contact?",
+      "clinic number?"
+    ],
+    "answer": "Call or WhatsApp us at {whatsapp} — available {hours_weekdays}. Email: {email}"
+  },
+  {
+    "id": "dc_contact_ml_001",
+    "category": "support",
+    "lang": "manglish",
+    "question_variants": [
+      "Contact number enthu?",
+      "Number paranju tharamo?",
+      "WhatsApp number?",
+      "Engane contact cheyyam?",
+      "Clinic number enthu?"
+    ],
+    "answer": "{whatsapp} call cheyyuka allenkil WhatsApp cheyyuka — {hours_weekdays} available. Email: {email}"
+  }
+]

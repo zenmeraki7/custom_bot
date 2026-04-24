@@ -243,7 +243,7 @@ body.debug-on .meta{display:flex;}
       <div class="ob-slide">
         <div class="ob-icon">🛍️</div>
         <div class="ob-title">Meet Chottu</div>
-        <div class="ob-sub">Your smart assistant for <strong style="color:var(--acc)">Zen Meraki Clothing Store</strong> — 24/7 in English &amp; Manglish.</div>
+        <div class="ob-sub">Your smart assistant for <strong style="color:var(--acc)" id="ob-shop-name">our shop</strong> — 24/7 in English &amp; Manglish.</div>
         <div class="ob-feats">
           <div class="ob-feat"><div class="ob-feat-icon">⚡</div><div class="ob-feat-txt"><strong>Instant FAQ Answers</strong>Delivery, returns, payments — from a trained knowledge base.</div></div>
           <div class="ob-feat"><div class="ob-feat-icon">🧠</div><div class="ob-feat-txt"><strong>AI Fallback (Ollama)</strong>Anything outside FAQ goes to the local AI — always answered.</div></div>
@@ -264,7 +264,7 @@ body.debug-on .meta{display:flex;}
         </div>
         <div class="ob-exs">
           <div class="ob-ex"><span>Offer</span>"Ippo enthu discount undo?" → First-order 10% off</div>
-          <div class="ob-ex"><span>Return</span>"Return cheyyano?" → 7-day return policy</div>
+          <div class="ob-ex" id="ob-ex-return"><span>Query</span><span id="ob-ex-return-text">"Return cheyyano?" → Return policy</span></div>
           <div class="ob-ex"><span>Contact</span>"Contact number enthu?" → WhatsApp details</div>
         </div>
         <div class="ob-nav">
@@ -322,23 +322,23 @@ body.debug-on .meta{display:flex;}
       </div>
       <div class="ip-sec">
         <div class="ip-sh">📍 Location &amp; Hours</div>
-        <div class="ip-row"><div class="ip-ri">🏬</div><div class="ip-rt"><strong>Zen Meraki Clothing Store</strong>MG Road, Ernakulam, near Lulu Mall</div></div>
-        <div class="ip-row"><div class="ip-ri">🕐</div><div class="ip-rt"><strong>Timings</strong>Mon–Sat 9AM–8PM · Sun 10AM–6PM</div></div>
+        <div class="ip-row"><div class="ip-ri">🏬</div><div class="ip-rt" id="ip-shop-address"><strong id="ip-shop-name">—</strong><span id="ip-location">—</span></div></div>
+        <div class="ip-row"><div class="ip-ri">🕐</div><div class="ip-rt"><strong>Timings</strong><span id="ip-hours">—</span></div></div>
       </div>
       <div class="ip-sec">
         <div class="ip-sh">📞 Contact</div>
-        <div class="ip-row"><div class="ip-ri">💬</div><div class="ip-rt"><strong>WhatsApp</strong>+91 98765 43210</div></div>
-        <div class="ip-row"><div class="ip-ri">✉️</div><div class="ip-rt"><strong>Email</strong>support@zenmeraki.com</div></div>
+        <div class="ip-row"><div class="ip-ri">💬</div><div class="ip-rt"><strong>WhatsApp</strong><span id="ip-whatsapp">—</span></div></div>
+        <div class="ip-row"><div class="ip-ri">✉️</div><div class="ip-rt"><strong>Email</strong><span id="ip-email">—</span></div></div>
       </div>
       <div class="ip-sec">
-        <div class="ip-sh">🚚 Delivery &amp; Returns</div>
+        <div class="ip-sh" id="ip-delivery-section">🚚 Delivery &amp; Returns</div>
         <div class="ip-row"><div class="ip-ri">📦</div><div class="ip-rt"><strong>Standard</strong>2–3 working days, all Kerala</div></div>
-        <div class="ip-row"><div class="ip-ri">🎁</div><div class="ip-rt"><strong>Free Delivery</strong>Orders above ₹500</div></div>
-        <div class="ip-row"><div class="ip-ri">↩️</div><div class="ip-rt"><strong>Returns</strong>7 days, unused + original tags</div></div>
+        <div class="ip-row" id="ip-row-free-delivery"><div class="ip-ri">🎁</div><div class="ip-rt"><strong>Free Delivery</strong><span id="ip-free-delivery">—</span></div></div>
+        <div class="ip-row" id="ip-row-returns"><div class="ip-ri">↩️</div><div class="ip-rt"><strong>Returns</strong><span id="ip-returns">—</span></div></div>
       </div>
       <div class="ip-sec">
         <div class="ip-sh">🏷️ First Order Offer</div>
-        <div class="ip-row"><div class="ip-ri">✨</div><div class="ip-rt">Code <strong style="color:var(--acc)">WELCOME10</strong> → 10% off first order</div></div>
+        <div class="ip-row"><div class="ip-ri">✨</div><div class="ip-rt" id="ip-offer">—</div></div>
       </div>
     </div>
   </div>
@@ -352,7 +352,7 @@ body.debug-on .meta{display:flex;}
       </div>
       <div>
         <div class="hdr-name">Chottu — Shop Assistant</div>
-        <div class="hdr-sub">Kerala Clothing Store · English &amp; Manglish</div>
+        <div class="hdr-sub" id="hdr-sub">Loading… · English &amp; Manglish</div>
       </div>
     </div>
     <div class="hdr-r">
@@ -366,16 +366,9 @@ body.debug-on .meta{display:flex;}
 
   <!-- CHIPS -->
   <div class="chips">
-    <button class="chip" onclick="qs('Price enthu aanu?')">💰 Price</button>
-    <button class="chip" onclick="qs('Delivery ethra naalil varum?')">🚚 Delivery</button>
-    <button class="chip" onclick="qs('Return cheyyano?')">↩️ Return</button>
-    <button class="chip" onclick="qs('Offer undo?')">🏷️ Offers</button>
-    <button class="chip" onclick="qs('Payment options enthu?')">💳 Payment</button>
-    <button class="chip" onclick="qs('Order track engane?')">📦 Tracking</button>
-    <button class="chip" onclick="qs('Refund ethra naalil kittum?')">💸 Refund</button>
     <button class="chip" onclick="qs('Contact number enthu?')">📞 Contact</button>
     <button class="chip" onclick="qs('Shop evide aanu?')">📍 Location</button>
-    <button class="chip" onclick="qs('Size chart undo?')">📐 Size</button>
+    <button class="chip" onclick="qs('Payment options enthu?')">💳 Payment</button>
   </div>
 
   <!-- MESSAGES -->
@@ -383,7 +376,7 @@ body.debug-on .meta{display:flex;}
     <div class="welcome" id="welcome">
       <div class="wc-logo">🛍️</div>
       <div class="wc-title">Namaskaram! I'm Chottu 👋</div>
-      <div class="wc-sub">Your assistant for <em>Zen Meraki Clothing Store</em> — ask in <em>English</em> or <em>Manglish</em>. Njan help cheyyam!</div>
+      <div class="wc-sub">Your assistant for <em id="wc-shop-name">our shop</em> — ask in <em>English</em> or <em>Manglish</em>. Njan help cheyyam!</div>
       <div class="wc-grid">
         <div class="wc-card" onclick="qs('Refund tharilla! Fraud aanu ithu')"><div class="wc-icon">😤</div><div class="wc-txt"><strong>Refund Issue</strong>Report a problem</div></div>
         <div class="wc-card" onclick="qs('Adipoli service! Kollam aayirunnu')"><div class="wc-icon">😊</div><div class="wc-txt"><strong>Great Service!</strong>Share feedback</div></div>
@@ -412,6 +405,137 @@ body.debug-on .meta{display:flex;}
 const API_BASE   = '';
 const CHAT_URL   = `${API_BASE}/chat`;
 const HEALTH_URL = `${API_BASE}/health`;
+
+// ── SHOP CONFIG — loaded from /health on startup ──────
+async function loadShopConfig() {
+  try {
+    const r = await fetch(HEALTH_URL);
+    if (!r.ok) return;
+    const d = await r.json();
+
+    const botName  = d.bot_name  || 'Assistant';
+    const shopName = d.shop_name || 'our shop';
+    const cfg      = d.shop_config || {};
+    const contact  = cfg.contact  || {};
+    const hours    = cfg.hours    || {};
+    const offer    = cfg.first_offer || {};
+    const delivery = cfg.delivery || {};
+    const returns  = cfg.returns  || {};
+    const location = cfg.location  || '';
+    const tagline  = cfg.tagline   || 'English & Manglish';
+    const blocked  = cfg.blocked_topics || [];
+
+    // Header
+    document.querySelector('.hdr-name').textContent = `${botName} — Assistant`;
+    const hdrSub = document.getElementById('hdr-sub');
+    if (hdrSub) hdrSub.textContent = `${shopName} · ${tagline}`;
+    document.title = `${botName} — ${shopName}`;
+
+    // Onboarding
+    const obShop = document.getElementById('ob-shop-name');
+    if (obShop) obShop.textContent = shopName;
+    const wcShop = document.getElementById('wc-shop-name');
+    if (wcShop) wcShop.textContent = shopName;
+
+    // Info panel — contact
+    const ipName = document.getElementById('ip-shop-name');
+    if (ipName) ipName.textContent = shopName;
+    const ipLoc = document.getElementById('ip-location');
+    if (ipLoc) ipLoc.textContent = location;
+    const ipWp = document.getElementById('ip-whatsapp');
+    if (ipWp) ipWp.textContent = contact.whatsapp || '—';
+    const ipEm = document.getElementById('ip-email');
+    if (ipEm) ipEm.textContent = contact.email || '—';
+
+    // Info panel — hours
+    const ipHours = document.getElementById('ip-hours');
+    if (ipHours) {
+      const h = [hours.weekdays, hours.sunday].filter(Boolean).join(' · ');
+      ipHours.textContent = h || '—';
+    }
+
+    // Info panel — delivery & returns
+    // Hide entire section if both delivery and returns are blocked/N/A
+    const delivSection = document.getElementById('ip-delivery-section');
+    const rowFreeDelivery = document.getElementById('ip-row-free-delivery');
+    const rowReturns = document.getElementById('ip-row-returns');
+    const ipFreeDelivery = document.getElementById('ip-free-delivery');
+    const ipReturns = document.getElementById('ip-returns');
+
+    const hasDelivery = delivery.areas && delivery.areas !== 'N/A';
+    const hasReturns  = returns.days && returns.days > 0;
+
+    if (!hasDelivery && !hasReturns) {
+      // Hide whole Delivery & Returns section for shops like dental
+      if (delivSection) delivSection.closest('.ip-sec') ?
+        delivSection.closest('.ip-sec').style.display = 'none' :
+        delivSection.style.display = 'none';
+    } else {
+      if (ipFreeDelivery) {
+        if (hasDelivery) {
+          ipFreeDelivery.textContent = delivery.free_above !== 'N/A'
+            ? `Orders above ${delivery.free_above}` : delivery.areas;
+        } else {
+          rowFreeDelivery && (rowFreeDelivery.style.display = 'none');
+        }
+      }
+      if (ipReturns) {
+        if (hasReturns) {
+          ipReturns.textContent = `${returns.days} days, ${returns.condition}`;
+        } else {
+          rowReturns && (rowReturns.style.display = 'none');
+        }
+      }
+    }
+
+    // Info panel — offer
+    const ipOffer = document.getElementById('ip-offer');
+    if (ipOffer) {
+      if (offer.code) {
+        ipOffer.innerHTML = `Code <strong style="color:var(--acc)">${offer.code}</strong> — ${offer.description}`;
+      } else if (offer.description) {
+        ipOffer.textContent = offer.description;
+      } else {
+        ipOffer.closest('.ip-row') && (ipOffer.closest('.ip-sec').style.display = 'none');
+      }
+    }
+
+    // Quick chips — from config, filtered by blocked topics
+    const chipsEl = document.querySelector('.chips');
+    if (chipsEl && cfg.quick_chips && cfg.quick_chips.length > 0) {
+      // Filter out chips whose query touches a blocked topic
+      const filteredChips = cfg.quick_chips.filter(c => {
+        const qLow = c.query.toLowerCase();
+        return !blocked.some(topic => {
+          const topicKeywords = {
+            returns: ['return','exchange'], delivery: ['delivery','shipping'],
+            tracking: ['track'], size: ['size'], cod: ['cod'],
+            clothing: ['dress','shirt','kurta','saree','t-shirt'],
+          };
+          const kws = topicKeywords[topic] || [topic];
+          return kws.some(kw => qLow.includes(kw));
+        });
+      });
+      chipsEl.innerHTML = filteredChips.map(c =>
+        `<button class="chip" onclick="qs('${c.query.replace(/'/g,"\\'")}')">${c.label}</button>`
+      ).join('');
+    }
+
+    // Welcome cards — from config
+    const grid = document.querySelector('.wc-grid');
+    if (grid && cfg.welcome_cards && cfg.welcome_cards.length > 0) {
+      grid.innerHTML = cfg.welcome_cards.map(c =>
+        `<div class="wc-card" onclick="qs('${c.query.replace(/'/g,"\\'")}')">
+          <div class="wc-icon">${c.icon}</div>
+          <div class="wc-txt"><strong>${c.title}</strong></div>
+        </div>`
+      ).join('');
+    }
+
+  } catch(e) {
+    console.warn('[config] Could not load shop config:', e);
+  }
+}
 
 // ── THEME ───────────────────────────────
 let isDark = localStorage.getItem('chottu-theme')
@@ -602,7 +726,7 @@ async function send(){
 function qs(t){ciEl.value=t;send();}
 ciEl.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();send();}});
 ciEl.addEventListener('input',function(){this.style.height='auto';this.style.height=Math.min(this.scrollHeight,90)+'px';});
-window.addEventListener('load',()=>ciEl.focus());
+window.addEventListener('load',()=>{ciEl.focus();loadShopConfig();});
 </script>
 </body>
 </html>

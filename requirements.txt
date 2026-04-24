@@ -2,6 +2,7 @@
 fastapi==0.115.11
 uvicorn[standard]==0.34.0
 pydantic==2.10.6
+python-multipart==0.0.20
 
 # ── Machine Learning / NLP ────────────────────────────────────────────────────
 torch==2.6.0
@@ -11,12 +12,11 @@ transformers==4.49.0
 # ── Fuzzy Matching (handles typos and Manglish phonetic variants) ─────────────
 rapidfuzz==3.9.7
 
-# ── HTTP & Utilities ──────────────────────────────────────────────────────────
+# ── HTTP (Ollama warm-up + keep-alive calls) ──────────────────────────────────
 requests==2.32.3
-python-multipart==0.0.20
 
 # ── Logging & Analytics ───────────────────────────────────────────────────────
 pandas==2.2.3
 
-# ── Windows asyncio fix (optional) ───────────────────────────────────────────
+# ── Windows asyncio fix ───────────────────────────────────────────────────────
 colorama==0.4.6

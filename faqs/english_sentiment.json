@@ -249,7 +249,7 @@
       "Is your order delayed or missing?",
       "Did the order not go as expected?"
     ],
-    "answer": "I'm sorry about the issue with your order! Please WhatsApp us at +91 98765 43210 with your order ID and we'll fix it right away."
+    "answer": "I'm sorry about the issue with your order! Please WhatsApp us at {whatsapp} with your order ID and we'll fix it right away."
   },
   {
     "id": "",
@@ -321,7 +321,7 @@
       "How many days will delivery take?",
       "What is the usual delivery duration?"
     ],
-    "answer": "Standard delivery takes 2–3 working days across Kerala. Track via the link in your SMS/email or check 'My Orders'. 😊"
+    "answer": "Standard delivery takes {delivery_days} across Kerala. Track via the link in your SMS/email or check 'My Orders'. 😊"
   },
   {
     "id": "",
@@ -381,7 +381,7 @@
       "Did my shipment get lost?",
       "Where is my package?"
     ],
-    "answer": "Standard delivery takes 2–3 working days across Kerala. Track via the link in your SMS/email or check 'My Orders'. 😊"
+    "answer": "Standard delivery takes {delivery_days} across Kerala. Track via the link in your SMS/email or check 'My Orders'. 😊"
   },
   {
     "id": "",
@@ -405,7 +405,7 @@
       "Is it moving or just taking a vacation?",
       "Is shipping speed set to slow motion?"
     ],
-    "answer": "Standard delivery takes 2–3 working days across Kerala. Track via the link in your SMS/email or check 'My Orders'. 😊"
+    "answer": "Standard delivery takes {delivery_days} across Kerala. Track via the link in your SMS/email or check 'My Orders'. 😊"
   },
   {
     "id": "",
@@ -417,7 +417,7 @@
       "I need my shipment status immediately.",
       "Where is my parcel currently?"
     ],
-    "answer": "Please share your order ID via WhatsApp (+91 98765 43210) right away — I'll check with the courier immediately! ⚡"
+    "answer": "Please share your order ID via WhatsApp ({whatsapp}) right away — I'll check with the courier immediately! ⚡"
   },
   {
     "id": "",
@@ -489,7 +489,7 @@
       "It works like magic, doesn’t it?",
       "Best product ever, right?"
     ],
-    "answer": "I sincerely apologise for this experience. Send photos to WhatsApp +91 98765 43210 and we'll resolve it immediately. 🙏"
+    "answer": "I sincerely apologise for this experience. Send photos to WhatsApp {whatsapp} and we'll resolve it immediately. 🙏"
   },
   {
     "id": "",
@@ -585,7 +585,7 @@
       "Is there a problem with my return request?",
       "Why is replacement taking too much time?"
     ],
-    "answer": "I'm really sorry about that! Please WhatsApp photos to +91 98765 43210 within 48 hours — we'll arrange free pickup and replacement. 🙏"
+    "answer": "I'm really sorry about that! Please WhatsApp photos to {whatsapp} within 48 hours — we'll arrange free pickup and replacement. 🙏"
   },
   {
     "id": "",
@@ -609,7 +609,7 @@
       "Everything gets replaced immediately, right?",
       "Return process is lightning fast, I guess?"
     ],
-    "answer": "I sincerely apologise for this experience. Send photos to WhatsApp +91 98765 43210 and we'll resolve it immediately. 🙏"
+    "answer": "I sincerely apologise for this experience. Send photos to WhatsApp {whatsapp} and we'll resolve it immediately. 🙏"
   },
   {
     "id": "",
@@ -633,7 +633,7 @@
       "Is instant return possible?",
       "Do I get emergency replacement service?"
     ],
-    "answer": "Please send photos to WhatsApp +91 98765 43210 right now — we'll arrange an emergency pickup! ⚡"
+    "answer": "Please send photos to WhatsApp {whatsapp} right now — we'll arrange an emergency pickup! ⚡"
   },
   {
     "id": "",
@@ -657,7 +657,7 @@
       "Where do I sign in?",
       "How do I enter my account?"
     ],
-    "answer": "For account issues, use 'Forgot Password' on the login page. For anything else, email support@zenmeraki.com. 😊"
+    "answer": "For account issues, use 'Forgot Password' on the login page. For anything else, email {email}. 😊"
   },
   {
     "id": "",
@@ -669,7 +669,7 @@
       "What is the process to recover my password?",
       "Can I update my login password?"
     ],
-    "answer": "For account issues, use 'Forgot Password' on the login page. For anything else, email support@zenmeraki.com. 😊"
+    "answer": "For account issues, use 'Forgot Password' on the login page. For anything else, email {email}. 😊"
   },
   {
     "id": "",
@@ -717,7 +717,7 @@
       "Why is login failing repeatedly?",
       "What’s wrong with my login details?"
     ],
-    "answer": "For account issues, use 'Forgot Password' on the login page. For anything else, email support@zenmeraki.com. 😊"
+    "answer": "For account issues, use 'Forgot Password' on the login page. For anything else, email {email}. 😊"
   },
   {
     "id": "",
@@ -741,7 +741,7 @@
       "Password forgotten… again?",
       "Account issues again, of course?"
     ],
-    "answer": "For account issues, use 'Forgot Password' on the login page. For anything else, email support@zenmeraki.com. 😊"
+    "answer": "For account issues, use 'Forgot Password' on the login page. For anything else, email {email}. 😊"
   },
   {
     "id": "",
@@ -813,7 +813,7 @@
       "Are issues resolved quickly?",
       "Is customer service prompt?"
     ],
-    "answer": "Our support team is available Mon–Sat 9AM–8PM. WhatsApp us at +91 98765 43210 for the fastest response! 😊"
+    "answer": "Our support team is available {hours_weekdays}. WhatsApp us at {whatsapp} for the fastest response! 😊"
   },
   {
     "id": "",
@@ -849,7 +849,7 @@
       "Never any delays with service, right?",
       "Agents always available immediately?"
     ],
-    "answer": "I completely understand and I'm truly sorry. Share your details via WhatsApp +91 98765 43210 and I'll escalate immediately. 🙏"
+    "answer": "I completely understand and I'm truly sorry. Share your details via WhatsApp {whatsapp} and I'll escalate immediately. 🙏"
   },
   {
     "id": "",
@@ -861,7 +861,7 @@
       "Support is always magical, yes?",
       "Problems disappear instantly, I guess?"
     ],
-    "answer": "Our support team is available Mon–Sat 9AM–8PM. WhatsApp us at +91 98765 43210 for the fastest response! 😊"
+    "answer": "Our support team is available {hours_weekdays}. WhatsApp us at {whatsapp} for the fastest response! 😊"
   },
   {
     "id": "",
@@ -873,7 +873,7 @@
       "I need instant customer service help.",
       "Can support respond immediately?"
     ],
-    "answer": "I need immediate help from our team! Please WhatsApp +91 98765 43210 right now — mention it's urgent. ⚡"
+    "answer": "I need immediate help from our team! Please WhatsApp {whatsapp} right now — mention it's urgent. ⚡"
   },
   {
     "id": "",
@@ -957,7 +957,7 @@
       "Why is everything full price?",
       "Why am I not seeing any promotions?"
     ],
-    "answer": "Yes! New customers get 10% off with code WELCOME10. Seasonal sales run regularly — WhatsApp us to stay updated! 😊"
+    "answer": "Yes! New customers get 10% off with code {offer_code}. Seasonal sales run regularly — WhatsApp us to stay updated! 😊"
   },
   {
     "id": "",
@@ -969,7 +969,7 @@
       "Discounts are just unbelievable, right?",
       "So many offers, I can’t even count?"
     ],
-    "answer": "I apologise for the coupon issue! Share the code via WhatsApp +91 98765 43210 and we'll apply it manually. 🙏"
+    "answer": "I apologise for the coupon issue! Share the code via WhatsApp {whatsapp} and we'll apply it manually. 🙏"
   },
   {
     "id": "",
@@ -981,7 +981,7 @@
       "No expired codes ever, huh?",
       "Offers always go smoothly, I guess?"
     ],
-    "answer": "Yes! New customers get 10% off with code WELCOME10. Seasonal sales run regularly — WhatsApp us to stay updated! 😊"
+    "answer": "Yes! New customers get 10% off with code {offer_code}. Seasonal sales run regularly — WhatsApp us to stay updated! 😊"
   },
   {
     "id": "",
@@ -1041,7 +1041,7 @@
       "Are subscription features useful?",
       "Is membership a good choice?"
     ],
-    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp +91 98765 43210."
+    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp {whatsapp}."
   },
   {
     "id": "",
@@ -1089,7 +1089,7 @@
       "No hidden renewals ever, I assume?",
       "Everything is always crystal clear, yes?"
     ],
-    "answer": "I apologise for the unexpected charge. WhatsApp +91 98765 43210 right now with your account details. 🙏"
+    "answer": "I apologise for the unexpected charge. WhatsApp {whatsapp} right now with your account details. 🙏"
   },
   {
     "id": "",
@@ -1345,7 +1345,7 @@
       "Did my shipment get lost?",
       "Where is my package?"
     ],
-    "answer": "I'm sorry about the delay! Please WhatsApp us at +91 98765 43210 with your order ID and we'll check the status immediately."
+    "answer": "I'm sorry about the delay! Please WhatsApp us at {whatsapp} with your order ID and we'll check the status immediately."
   },
   {
     "id": "",
@@ -1393,7 +1393,7 @@
       "Is the product not useful?",
       "Do you regret buying it?"
     ],
-    "answer": "I'm really sorry about that! Please WhatsApp photos to +91 98765 43210 within 48 hours — we'll arrange free pickup and replacement. 🙏"
+    "answer": "I'm really sorry about that! Please WhatsApp photos to {whatsapp} within 48 hours — we'll arrange free pickup and replacement. 🙏"
   },
   {
     "id": "",
@@ -1405,7 +1405,7 @@
       "Product experience must be amazing, right?",
       "Everything working wonderfully, I guess?"
     ],
-    "answer": "I sincerely apologise for this experience. Send photos to WhatsApp +91 98765 43210 and we'll resolve it immediately. 🙏"
+    "answer": "I sincerely apologise for this experience. Send photos to WhatsApp {whatsapp} and we'll resolve it immediately. 🙏"
   },
   {
     "id": "",
@@ -1453,7 +1453,7 @@
       "No complications at all, I assume?",
       "Replacement process is always fun, yes?"
     ],
-    "answer": "I sincerely apologise for this experience. Send photos to WhatsApp +91 98765 43210 and we'll resolve it immediately. 🙏"
+    "answer": "I sincerely apologise for this experience. Send photos to WhatsApp {whatsapp} and we'll resolve it immediately. 🙏"
   },
   {
     "id": "",
@@ -1465,7 +1465,7 @@
       "Is immediate action possible for my case?",
       "I need urgent help with my return."
     ],
-    "answer": "Please send photos to WhatsApp +91 98765 43210 right now — we'll arrange an emergency pickup! ⚡"
+    "answer": "Please send photos to WhatsApp {whatsapp} right now — we'll arrange an emergency pickup! ⚡"
   },
   {
     "id": "",
@@ -1489,7 +1489,7 @@
       "Why is login failing repeatedly?",
       "What’s wrong with my login details?"
     ],
-    "answer": "I'm sorry you can't log in! Email support@zenmeraki.com with your registered number and we'll sort it out right away. 🙏"
+    "answer": "I'm sorry you can't log in! Email {email} with your registered number and we'll sort it out right away. 🙏"
   },
   {
     "id": "",
@@ -1501,7 +1501,7 @@
       "Password forgotten… again?",
       "Account issues again, of course?"
     ],
-    "answer": "I understand the frustration. Email support@zenmeraki.com with your number — we'll get you back in immediately. 🙏"
+    "answer": "I understand the frustration. Email {email} with your number — we'll get you back in immediately. 🙏"
   },
   {
     "id": "",
@@ -1525,7 +1525,7 @@
       "Are issues resolved quickly?",
       "Is customer service prompt?"
     ],
-    "answer": "We're always here for you! 😊 WhatsApp +91 98765 43210 or email support@zenmeraki.com — we reply within 15–30 minutes."
+    "answer": "We're always here for you! 😊 WhatsApp {whatsapp} or email {email} — we reply within 15–30 minutes."
   },
   {
     "id": "",
@@ -1549,7 +1549,7 @@
       "Support is always magical, yes?",
       "Problems disappear instantly, I guess?"
     ],
-    "answer": "I completely understand and I'm truly sorry. Share your details via WhatsApp +91 98765 43210 and I'll escalate immediately. 🙏"
+    "answer": "I completely understand and I'm truly sorry. Share your details via WhatsApp {whatsapp} and I'll escalate immediately. 🙏"
   },
   {
     "id": "",
@@ -1585,7 +1585,7 @@
       "Why is everything full price?",
       "Why am I not seeing any promotions?"
     ],
-    "answer": "I'm sorry the discount isn't working! Please WhatsApp +91 98765 43210 with the code and order details — we'll fix it. 🙏"
+    "answer": "I'm sorry the discount isn't working! Please WhatsApp {whatsapp} with the code and order details — we'll fix it. 🙏"
   },
   {
     "id": "",
@@ -1597,7 +1597,7 @@
       "No expired codes ever, huh?",
       "Offers always go smoothly, I guess?"
     ],
-    "answer": "I apologise for the coupon issue! Share the code via WhatsApp +91 98765 43210 and we'll apply it manually. 🙏"
+    "answer": "I apologise for the coupon issue! Share the code via WhatsApp {whatsapp} and we'll apply it manually. 🙏"
   },
   {
     "id": "",
@@ -1681,7 +1681,7 @@
       "Can I choose a plan that fits me well?",
       "Are the subscription options user-friendly?"
     ],
-    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp +91 98765 43210."
+    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp {whatsapp}."
   },
   {
     "id": "",
@@ -1741,7 +1741,7 @@
       "Will I get better benefits with upgrade?",
       "Does upgrade improve my experience?"
     ],
-    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp +91 98765 43210."
+    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp {whatsapp}."
   },
   {
     "id": "",
@@ -1753,7 +1753,7 @@
       "Why am I unable to change my plan?",
       "Is there an issue with upgrading?"
     ],
-    "answer": "I'm sorry about the billing issue! Please WhatsApp +91 98765 43210 with your details — we'll resolve it immediately. 🙏"
+    "answer": "I'm sorry about the billing issue! Please WhatsApp {whatsapp} with your details — we'll resolve it immediately. 🙏"
   },
   {
     "id": "",
@@ -1849,7 +1849,7 @@
       "Do I stay subscribed without interruption?",
       "Is auto-renew useful?"
     ],
-    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp +91 98765 43210."
+    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp {whatsapp}."
   },
   {
     "id": "",
@@ -1873,7 +1873,7 @@
       "Everything is always obvious, I assume?",
       "Charges never surprise anyone?"
     ],
-    "answer": "I apologise for the unexpected charge. WhatsApp +91 98765 43210 right now with your account details. 🙏"
+    "answer": "I apologise for the unexpected charge. WhatsApp {whatsapp} right now with your account details. 🙏"
   },
   {
     "id": "",
@@ -1897,7 +1897,7 @@
       "Do I need payment for trial?",
       "How can I start a free trial?"
     ],
-    "answer": "For billing or subscription queries, please WhatsApp us at +91 98765 43210 or email support@zenmeraki.com. 😊"
+    "answer": "For billing or subscription queries, please WhatsApp us at {whatsapp} or email {email}. 😊"
   },
   {
     "id": "",
@@ -1909,7 +1909,7 @@
       "Do I get full access in trial?",
       "Is trial period helpful?"
     ],
-    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp +91 98765 43210."
+    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp {whatsapp}."
   },
   {
     "id": "",
@@ -1984,7 +1984,7 @@
       "this is unacceptable",
       "I need to escalate this"
     ],
-    "answer": "We're really sorry to hear that! Please WhatsApp us at +91 98765 43210 (fastest) or email support@zenmeraki.com — our team will respond within 24 hours and make it right. 🙏"
+    "answer": "We're really sorry to hear that! Please WhatsApp us at {whatsapp} (fastest) or email {email} — our team will respond within 24 hours and make it right. 🙏"
   },
   {
     "category": "negative",
@@ -2001,7 +2001,7 @@
       "I am disappointed",
       "this is really disappointing"
     ],
-    "answer": "We're sorry your experience wasn't what you expected — your feedback genuinely helps us improve. Please reach out on WhatsApp +91 98765 43210 or email support@zenmeraki.com and we'll make it right. 🙏"
+    "answer": "We're sorry your experience wasn't what you expected — your feedback genuinely helps us improve. Please reach out on WhatsApp {whatsapp} or email {email} and we'll make it right. 🙏"
   },
   {
     "category": "urgent",
@@ -2017,7 +2017,7 @@
       "I need help right now",
       "asap please"
     ],
-    "answer": "On it! Please WhatsApp us immediately at +91 98765 43210 — that's our fastest channel. Share your order ID and we'll prioritise your case right away. ⚡"
+    "answer": "On it! Please WhatsApp us immediately at {whatsapp} — that's our fastest channel. Share your order ID and we'll prioritise your case right away. ⚡"
   },
   {
     "category": "negative",
@@ -2032,7 +2032,7 @@
       "they sent the wrong thing",
       "completely wrong order"
     ],
-    "answer": "We sincerely apologise for sending the wrong item! Please WhatsApp us at +91 98765 43210 with a photo of what you received — we'll arrange the correct item and a free return pickup right away. 🙏"
+    "answer": "We sincerely apologise for sending the wrong item! Please WhatsApp us at {whatsapp} with a photo of what you received — we'll arrange the correct item and a free return pickup right away. 🙏"
   },
   {
     "category": "negative",
@@ -2048,7 +2048,7 @@
       "stitching is coming apart",
       "fabric is tearing"
     ],
-    "answer": "So sorry about the damaged item! Please WhatsApp us at +91 98765 43210 with a photo — we'll arrange a replacement or full refund and a free return pickup immediately. 🙏"
+    "answer": "So sorry about the damaged item! Please WhatsApp us at {whatsapp} with a photo — we'll arrange a replacement or full refund and a free return pickup immediately. 🙏"
   },
   {
     "category": "negative",
@@ -2063,7 +2063,7 @@
       "been trying to contact you",
       "why is no one picking up"
     ],
-    "answer": "We're really sorry for the delay in responding! Please WhatsApp us directly at +91 98765 43210 — that's monitored continuously. We'll get back to you within the hour. 🙏"
+    "answer": "We're really sorry for the delay in responding! Please WhatsApp us directly at {whatsapp} — that's monitored continuously. We'll get back to you within the hour. 🙏"
   },
   {
     "category": "sarcastic",
@@ -2078,6 +2078,6 @@
       "loving this experience NOT",
       "this is just brilliant"
     ],
-    "answer": "We completely understand your frustration — and we deserve that. Please give us a chance to fix it: WhatsApp +91 98765 43210 with your order details and we'll personally sort it out. 🙏"
+    "answer": "We completely understand your frustration — and we deserve that. Please give us a chance to fix it: WhatsApp {whatsapp} with your order details and we'll personally sort it out. 🙏"
   }
 ]
