@@ -1,0 +1,564 @@
+[
+  {
+    "name": "GST No.",
+    "category": "Biryani",
+    "price_min": 32,
+    "price_max": 7654,
+    "gender": "all"
+  },
+  {
+    "name": "Kerala Fish Curry Meals",
+    "category": "Seafood",
+    "description": "Fish curry + rice + sambar + rasam + 2 sabzis + papad +\npickle + payasam",
+    "price": 180,
+    "gender": "all"
+  },
+  {
+    "name": "Veg Meals (Full)",
+    "category": "Biryani",
+    "description": "Rice + sambar + rasam + 3 veg curries + papad + pickle +\nbuttermilk",
+    "price": 120,
+    "gender": "all"
+  },
+  {
+    "name": "Special Meals (Non-Veg)",
+    "category": "Biryani",
+    "description": "Fish curry + chicken curry + rice + all sides + dessert",
+    "price": 220,
+    "gender": "all"
+  },
+  {
+    "name": "Karimeen Fry (Pearl Spot)",
+    "category": "Seafood",
+    "description": "Whole pearl spot - Kerala style spicy tawa fry (per piece,\n~250g)",
+    "price": 280,
+    "gender": "all"
+  },
+  {
+    "name": "Karimeen Pollichathu",
+    "category": "Seafood",
+    "description": "Pearl spot marinated and cooked in banana leaf -\ntraditional recipe",
+    "price": 350,
+    "gender": "all"
+  },
+  {
+    "name": "Prawn Fry (Medium)",
+    "category": "Seafood",
+    "description": "Tiger prawns - Kerala spices, dry fry (6 pieces)",
+    "price": 320,
+    "gender": "all"
+  },
+  {
+    "name": "Prawn Masala (Curry)",
+    "category": "Seafood",
+    "description": "Coconut-based spicy Kerala prawn curry (serves 2)",
+    "price": 280,
+    "gender": "all"
+  },
+  {
+    "name": "Crab Masala",
+    "category": "Seafood",
+    "price": 520,
+    "gender": "all"
+  },
+  {
+    "name": "Fish Moilee",
+    "category": "Seafood",
+    "price": 220,
+    "gender": "all"
+  },
+  {
+    "name": "Squid Fry (Kana Fry)",
+    "category": "Seafood",
+    "price": 260,
+    "gender": "all"
+  },
+  {
+    "name": "Mussels (Kallumakkaya Fry)",
+    "category": "Seafood",
+    "price": 180,
+    "gender": "all"
+  },
+  {
+    "name": "Clams (Kakka Fry)",
+    "category": "Seafood",
+    "price": 160,
+    "gender": "all"
+  },
+  {
+    "name": "Fish Head Curry",
+    "category": "Seafood",
+    "price": 220,
+    "gender": "all"
+  },
+  {
+    "name": "Chemeen Biryani",
+    "category": "Seafood",
+    "price": 320,
+    "gender": "all"
+  },
+  {
+    "name": "Chicken Biryani (Malabar)",
+    "category": "Chicken",
+    "price": 220,
+    "gender": "all"
+  },
+  {
+    "name": "Mutton Biryani (Thalassery)",
+    "category": "Biryani",
+    "price": 280,
+    "gender": "all"
+  },
+  {
+    "name": "Beef Biryani",
+    "category": "Beef",
+    "price": 240,
+    "gender": "all"
+  },
+  {
+    "name": "Prawn Biryani",
+    "category": "Biryani",
+    "price": 320,
+    "gender": "all"
+  },
+  {
+    "name": "Fish Biryani",
+    "category": "Biryani",
+    "price": 260,
+    "gender": "all"
+  },
+  {
+    "name": "Veg Biryani",
+    "category": "Biryani",
+    "price": 180,
+    "gender": "all"
+  },
+  {
+    "name": "Egg Biryani",
+    "category": "Biryani",
+    "price": 190,
+    "gender": "all"
+  },
+  {
+    "name": "Ghee Rice",
+    "category": "Seafood",
+    "price": 150,
+    "gender": "all"
+  },
+  {
+    "name": "Malabar Pathiri with Curry",
+    "category": "Seafood",
+    "price": 80,
+    "gender": "all"
+  },
+  {
+    "name": "Kappa (Tapioca) & Fish Curry",
+    "category": "Seafood",
+    "price": 120,
+    "gender": "all"
+  },
+  {
+    "name": "Puttu & Kadala Curry",
+    "category": "Biryani",
+    "price": 80,
+    "gender": "all"
+  },
+  {
+    "name": "Fried Rice (Chicken)",
+    "category": "Chicken",
+    "price": 220,
+    "gender": "all"
+  },
+  {
+    "name": "Egg Fried Rice",
+    "category": "Chicken",
+    "price": 200,
+    "gender": "all"
+  },
+  {
+    "name": "Parotta",
+    "category": "Biryani",
+    "price": 40,
+    "gender": "all"
+  },
+  {
+    "name": "Kerala Porotta (Wheat)",
+    "category": "Biryani",
+    "price": 45,
+    "gender": "all"
+  },
+  {
+    "name": "Appam",
+    "category": "Seafood",
+    "price": 50,
+    "gender": "all"
+  },
+  {
+    "name": "Idiyappam",
+    "category": "Seafood",
+    "price": 60,
+    "gender": "all"
+  },
+  {
+    "name": "Naan (Tandoor)",
+    "category": "Chicken",
+    "price": 40,
+    "gender": "all"
+  },
+  {
+    "name": "Butter Naan",
+    "category": "Chicken",
+    "price": 50,
+    "gender": "all"
+  },
+  {
+    "name": "Garlic Naan",
+    "category": "Chicken",
+    "price": 55,
+    "gender": "all"
+  },
+  {
+    "name": "Chapathi",
+    "category": "Biryani",
+    "price": 40,
+    "gender": "all"
+  },
+  {
+    "name": "Kerala Wheat Parotta",
+    "category": "Biryani",
+    "price": 45,
+    "gender": "all"
+  },
+  {
+    "name": "Chicken Curry (Kerala Style)",
+    "category": "Chicken",
+    "price": 280,
+    "gender": "all"
+  },
+  {
+    "name": "Chicken Masala (Dry)",
+    "category": "Chicken",
+    "price": 320,
+    "gender": "all"
+  },
+  {
+    "name": "Chicken Fry (Kerala)",
+    "category": "Chicken",
+    "price": 320,
+    "gender": "all"
+  },
+  {
+    "name": "Chicken 65",
+    "category": "Chicken",
+    "price": 160,
+    "gender": "all"
+  },
+  {
+    "name": "Chicken Tikka (Tandoor)",
+    "category": "Chicken",
+    "price": 220,
+    "gender": "all"
+  },
+  {
+    "name": "Butter Chicken",
+    "category": "Chicken",
+    "price": 360,
+    "gender": "all"
+  },
+  {
+    "name": "Chicken Korma",
+    "category": "Chicken",
+    "price": 340,
+    "gender": "all"
+  },
+  {
+    "name": "Mutton Curry (Kerala)",
+    "category": "Mutton",
+    "price": 380,
+    "gender": "all"
+  },
+  {
+    "name": "Mutton Fry",
+    "category": "Mutton",
+    "price": 420,
+    "gender": "all"
+  },
+  {
+    "name": "Mutton Masala",
+    "category": "Mutton",
+    "price": 400,
+    "gender": "all"
+  },
+  {
+    "name": "Beef Curry",
+    "category": "Beef",
+    "price": 300,
+    "gender": "all"
+  },
+  {
+    "name": "Beef Fry (Erachi Olathiyathu)",
+    "category": "Beef",
+    "price": 350,
+    "gender": "all"
+  },
+  {
+    "name": "Egg Roast",
+    "category": "Chicken",
+    "price": 120,
+    "gender": "all"
+  },
+  {
+    "name": "Egg Masala",
+    "category": "Chicken",
+    "price": 100,
+    "gender": "all"
+  },
+  {
+    "name": "Paneer Butter Masala",
+    "category": "Chicken",
+    "description": "Creamy tomato gravy with paneer",
+    "price": 180,
+    "gender": "all"
+  },
+  {
+    "name": "Palak Paneer",
+    "category": "Chicken",
+    "description": "Spinach & paneer - north Indian style",
+    "price": 170,
+    "gender": "all"
+  },
+  {
+    "name": "Paneer Tikka Masala",
+    "category": "Chicken",
+    "description": "Grilled paneer in spiced gravy",
+    "price": 190,
+    "gender": "all"
+  },
+  {
+    "name": "Dal Makhani",
+    "category": "Biryani",
+    "description": "Slow-cooked black lentils - 24 hr recipe",
+    "price": 150,
+    "gender": "all"
+  },
+  {
+    "name": "Dal Tadka",
+    "category": "Biryani",
+    "description": "Yellow dal with tempering",
+    "price": 120,
+    "gender": "all"
+  },
+  {
+    "name": "Mix Veg Curry",
+    "category": "Seafood",
+    "description": "Seasonal vegetables in Kerala masala",
+    "price": 130,
+    "gender": "all"
+  },
+  {
+    "name": "Avial",
+    "category": "Seafood",
+    "description": "Traditional Kerala mixed vegetable in coconut & curd",
+    "price": 120,
+    "gender": "all"
+  },
+  {
+    "name": "Sambar",
+    "category": "Biryani",
+    "description": "Toor dal sambar - full pot (serves 4)",
+    "price": 120,
+    "gender": "all"
+  },
+  {
+    "name": "Vegetable Korma",
+    "category": "Seafood",
+    "description": "Mild coconut-based vegetable korma",
+    "price": 140,
+    "gender": "all"
+  },
+  {
+    "name": "Mushroom Masala",
+    "category": "Seafood",
+    "description": "Button mushroom in spicy masala",
+    "price": 160,
+    "gender": "all"
+  },
+  {
+    "name": "Kadai Paneer",
+    "category": "Chicken",
+    "description": "Bell pepper & paneer in kadai gravy",
+    "price": 190,
+    "gender": "all"
+  },
+  {
+    "name": "Gobi Manchurian (Dry)",
+    "category": "Chicken",
+    "description": "Crispy cauliflower in Indo-Chinese sauce",
+    "price": 140,
+    "gender": "all"
+  },
+  {
+    "name": "Sweet Corn Soup (Veg / Chicken)",
+    "category": "Chicken",
+    "price_min": 90,
+    "price_max": 110,
+    "gender": "all"
+  },
+  {
+    "name": "Chicken Clear Soup",
+    "category": "Chicken",
+    "price": 100,
+    "gender": "all"
+  },
+  {
+    "name": "Prawn Cocktail Soup",
+    "category": "Seafood",
+    "price": 140,
+    "gender": "all"
+  },
+  {
+    "name": "Fresh Lime Juice (Sweet / Salt)",
+    "category": "Seafood",
+    "price": 60,
+    "gender": "all"
+  },
+  {
+    "name": "Lemon Soda",
+    "category": "Seafood",
+    "price": 50,
+    "gender": "all"
+  },
+  {
+    "name": "Masala Chai (Ginger)",
+    "category": "Biryani",
+    "price": 30,
+    "gender": "all"
+  },
+  {
+    "name": "Cold Coffee",
+    "category": "Seafood",
+    "price": 80,
+    "gender": "all"
+  },
+  {
+    "name": "Banana Milkshake",
+    "category": "Seafood",
+    "price": 90,
+    "gender": "all"
+  },
+  {
+    "name": "Mango Lassi",
+    "category": "Biryani",
+    "price": 90,
+    "gender": "all"
+  },
+  {
+    "name": "Buttermilk (Moru)",
+    "category": "Seafood",
+    "price": 40,
+    "gender": "all"
+  },
+  {
+    "name": "Fresh Coconut Water",
+    "category": "Seafood",
+    "price": 60,
+    "gender": "all"
+  },
+  {
+    "name": "Mojito (Virgin)",
+    "category": "Seafood",
+    "price": 100,
+    "gender": "all"
+  },
+  {
+    "name": "Mineral Water (500ml)",
+    "category": "Seafood",
+    "price": 20,
+    "gender": "all"
+  },
+  {
+    "name": "Soft Drinks (Pepsi / 7UP / Mirinda)",
+    "category": "Seafood",
+    "price": 40,
+    "gender": "all"
+  },
+  {
+    "name": "Gulab Jamun (2 pieces)",
+    "category": "Biryani",
+    "price": 60,
+    "gender": "all"
+  },
+  {
+    "name": "Payasam (Semiya / Palada)",
+    "category": "Seafood",
+    "price": 70,
+    "gender": "all"
+  },
+  {
+    "name": "Ice Cream (Vanilla / Butterscotch)",
+    "category": "Seafood",
+    "price": 80,
+    "gender": "all"
+  },
+  {
+    "name": "Halwa (Wheat / Carrot)",
+    "category": "Biryani",
+    "price": 60,
+    "gender": "all"
+  },
+  {
+    "name": "Delivery Charge Below Rs.300",
+    "category": "Biryani",
+    "price": 30,
+    "gender": "all"
+  },
+  {
+    "name": "pickle + payasam",
+    "price": 180,
+    "category": "Biryani",
+    "gender": "all"
+  },
+  {
+    "name": "~250g)",
+    "price": 280,
+    "category": "Chicken",
+    "gender": "all"
+  },
+  {
+    "name": "traditional recipe",
+    "price": 350,
+    "category": "Biryani",
+    "gender": "all"
+  },
+  {
+    "name": "pieces)",
+    "price": 480,
+    "category": "Biryani",
+    "gender": "all"
+  },
+  {
+    "name": "Puri",
+    "price": 45,
+    "category": "Seafood",
+    "gender": "all"
+  },
+  {
+    "name": "Tomato Soup",
+    "price": 80,
+    "category": "Seafood",
+    "gender": "all"
+  },
+  {
+    "name": "Free Delivery Above",
+    "price": 300,
+    "category": "Seafood",
+    "gender": "all"
+  },
+  {
+    "name": "Delivery Time",
+    "price_min": 30,
+    "price_max": 45,
+    "category": "Seafood",
+    "gender": "all"
+  }
+]

@@ -1,0 +1,210 @@
+{
+"faqs": [
+{
+"category": "shop_overview",
+"questions": [
+"Do you sell footwear?",
+"What products are available in your shop?",
+"Is this a footwear store?",
+"Do you have branded shoes?"
+],
+"answer": "Yes, we sell a wide range of footwear including shoes,
+sandals, slippers, sneakers, sports shoes, and formal footwear for men,
+women, and kids."
+},
+{
+"category": "mens_footwear",
+"questions": [
+"Do you have men's footwear?",
+"Men's shoes available?",
+"Formal shoes for men available?",
+"Men's sandals available?"
+],
+"answer": "Yes, we offer men's formal shoes, casual shoes, sandals,
+slippers, sneakers, and sports footwear."
+},
+{
+"category": "womens_footwear",
+"questions": [
+"Women's footwear available?",
+"Ladies sandals available?",
+"Heels available?",
+"Women's shoes available?"
+],
+"answer":
+"Yes, we have women's sandals, heels, flats, sneakers, casual shoes, and
+ethnic footwear."
+},
+{
+"category": "kids_footwear",
+"questions": [
+"Kids footwear available?",
+"School shoes available?",
+"Children's sandals available?",
+"Shoes for kids available?"
+1
+],
+"answer": "Yes, we offer school shoes, sandals, sneakers, and casual
+footwear for kids of all ages."
+},
+{
+"category": "sports_footwear",
+"questions": [
+"Sports shoes available?",
+"Running shoes available?",
+"Gym shoes available?",
+"Sneakers available?"
+],
+"answer":
+"Yes, we have sports shoes, running shoes, walking shoes, gym shoes, and
+sneakers from leading brands."
+},
+{
+"category": "brands_available",
+"questions": [
+"Which brands are available?",
+"Nike shoes available?",
+"Adidas footwear available?",
+"Puma shoes available?"
+],
+"answer": "We offer footwear from popular brands including Nike,
+Adidas, Puma, Bata, Skechers, Woodland, Crocs, and more."
+},
+{
+"category": "size_availability",
+"questions": [
+"What sizes are available?",
+"Do you have large sizes?",
+"Small size footwear available?",
+"Kids size available?"
+],
+"answer": "We provide footwear in multiple sizes for men, women, and
+children depending on product availability."
+},
+{
+"category": "custom_fit",
+"questions": [
+"Can I try footwear before buying?",
+"Trial available?",
+"Can I check fitting?",
+"Footwear fitting available?"
+],
+"answer": "Yes, customers can try footwear for size and comfort before
+purchase."
+},
+{
+"category": "offers_discount",
+2
+"questions": [
+"Any offers available?",
+"Discount available?",
+"Footwear sale going on?",
+"Festival offers available?"
+],
+"answer": "Yes, we regularly offer discounts, combo deals, seasonal
+sales, and festive promotions."
+},
+{
+"category": "online_orders",
+"questions": [
+"Can I order footwear online?",
+"WhatsApp order available?",
+"Online shopping available?",
+"Can I reserve footwear online?"
+],
+"answer": "Yes, selected products can be ordered or reserved online
+through phone, WhatsApp, or social media."
+},
+{
+"category": "delivery_service",
+"questions": [
+"Do you provide delivery?",
+"Home delivery available?",
+"Can you deliver footwear?",
+"Same day delivery available?"
+],
+"answer": "Yes, delivery services are available depending on location
+and product availability."
+},
+{
+"category": "payment_methods",
+"questions": [
+"What payment methods are accepted?",
+"UPI payment available?",
+"Card payment accepted?",
+"Google Pay accepted?"
+],
+"answer": "We accept cash, debit cards, credit cards, UPI, mobile
+wallets, and online payments."
+},
+{
+"category": "return_exchange",
+"questions": [
+"Can I exchange footwear?",
+"Return available?",
+"Size exchange available?",
+"Replacement available?"
+],
+"answer": "Yes, exchange and replacement are available for eligible
+3
+products according to store policy."
+},
+{
+"category": "warranty",
+"questions": [
+"Do footwear products have warranty?",
+"Warranty available?",
+"Product guarantee available?",
+"Branded shoe warranty available?"
+],
+"answer": "Selected branded footwear products may come with
+manufacturer warranty or quality assurance."
+},
+{
+"category": "bulk_orders",
+"questions": [
+"Do you accept bulk orders?",
+"School shoe bulk order available?",
+"Corporate footwear orders available?",
+"Wholesale footwear available?"
+],
+"answer": "Yes, we accept bulk and wholesale footwear orders for
+schools, offices, and organizations."
+},
+{
+"category": "new_arrivals",
+"questions": [
+"Do you have new arrivals?",
+"Latest footwear collection available?",
+"Trending shoes available?",
+"New stock available?"
+],
+"answer":
+"Yes, new footwear collections and latest designs are updated regularly."
+},
+{
+"category": "shop_timings",
+"questions": [
+"What are your shop timings?",
+"When do you open?",
+"Sunday open?",
+"Closing time?"
+],
+"answer": "Our footwear store operates during regular business hours
+every day."
+},
+{
+"category": "contact_support",
+"questions": [
+"How can I contact the shop?",
+"WhatsApp number available?",
+4
+"Location share?",
+"How do I reach the shop?"
+],
+"answer":
+"You can contact us through phone, WhatsApp, social media, or by visiting our
+store directly."
+}
+]
+}

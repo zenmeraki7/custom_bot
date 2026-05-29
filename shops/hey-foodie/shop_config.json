@@ -1,0 +1,75 @@
+{
+  "bot_name": "Spice",
+  "shop_name": "Spice Garden Restaurant",
+  "shop_type": "restaurant",
+  "tagline": "English & Manglish",
+  "description": "",
+  "location": "Address Ground Floor, Edappally Junction, Near Lulu Mall, Edappally, Kochi - 682024",
+  "city": "Kochi",
+  "state": "Kerala",
+  "hours": {
+    "weekdays": "Monday - Sunday 11:00 AM - 10:00 PM",
+    "sunday": "Sunday: 11:00 AM - 10:00 PM (No weekly off)",
+    "holiday": "Check WhatsApp for holiday hours"
+  },
+  "contact": {
+    "whatsapp": "+91 98765 44444",
+    "phone": "+91 98765 44444",
+    "email": "spice@garden.com"
+  },
+  "payment": [
+    "GPay",
+    "PhonePe",
+    "Cash",
+    "Cards",
+    "Paytm"
+  ],
+  "services": [],
+  "delivery": {
+    "areas": "Local area",
+    "free_above": "₹500",
+    "days": "2–3 working days"
+  },
+  "returns": {
+    "days": 7,
+    "condition": "unused with original packaging",
+    "refund_days": "5–7 business days"
+  },
+  "first_offer": {
+    "code": "WELCOME10",
+    "description": "10% off for new customers"
+  },
+  "escalate": {
+    "whatsapp": "+91 98765 44444",
+    "email": "spice@garden.com"
+  },
+  "language": "english_manglish",
+  "currency": "INR",
+  "shop_gender": "all",
+  "specialisation": "ollama_inferred",
+  "allowed_categories": [
+    "Seafood",
+    "Chicken",
+    "Mutton",
+    "Beef",
+    "Biryani"
+  ],
+  "item_label": "dishes",
+  "profile_source": "known",
+  "is_veg": false,
+  "dietary_mode": "veg_nonveg",
+  "escalate_topics": [
+    "fraud",
+    "refund",
+    "complaint"
+  ],
+  "blocked_topics": [],
+  "blocked_reply": {
+    "manglish": "Athu njangalude shop-il applicable alla 😊 Enthelum help cheyyamo?",
+    "english": "That's not applicable here. Can I help with something else?"
+  },
+  "quick_chips": [],
+  "welcome_cards": [],
+  "item_count": 90,
+  "signature_items": "Crab Masala, pieces), Mutton Fry"
+}

@@ -1,0 +1,604 @@
+{
+  "faqs": [
+    {
+      "category": "reservation_overview",
+      "question": "How do I make a table reservation at the restaurant?",
+      "answer": "You can make a reservation by calling the restaurant, using the website booking system, or through WhatsApp/online reservation platforms."
+    },
+    {
+      "category": "online_booking",
+      "question": "Can I book a table online?",
+      "answer": "Yes, online table booking is available through our website or supported reservation apps."
+    },
+    {
+      "category": "walk_in",
+      "question": "Do you accept walk-in customers without reservation?",
+      "answer": "Yes, walk-ins are accepted depending on table availability at the time."
+    },
+    {
+      "category": "reservation_confirmation",
+      "question": "How will I know my reservation is confirmed?",
+      "answer": "You will receive a confirmation via SMS, email, or phone call once your booking is confirmed."
+    },
+    {
+      "category": "booking_time",
+      "question": "How early should I book a table?",
+      "answer": "It is recommended to book at least a few hours in advance, and for weekends or peak hours, a day or more ahead."
+    },
+    {
+      "category": "group_booking",
+      "question": "Can I book a table for a large group?",
+      "answer": "Yes, group bookings are available and may require advance notice depending on the number of guests."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Can I cancel or modify my reservation?",
+      "answer": "Yes, reservations can be modified or cancelled by contacting the restaurant before the scheduled time."
+    },
+    {
+      "category": "late_arrival",
+      "question": "What happens if I arrive late for my reservation?",
+      "answer": "If you are late, your table may be held for a limited time depending on restaurant policy and availability."
+    },
+    {
+      "category": "time_limit",
+      "question": "Is there a time limit for table reservations?",
+      "answer": "Yes, during peak hours there may be a time limit per table to accommodate other guests."
+    },
+    {
+      "category": "special_requests",
+      "question": "Can I request a special table or seating preference?",
+      "answer": "Yes, special requests such as window seating or private tables can be made, but are subject to availability."
+    },
+    {
+      "category": "event_booking",
+      "question": "Can I reserve tables for birthdays or events?",
+      "answer": "Yes, special arrangements for birthdays, parties, and events are available with prior booking."
+    },
+    {
+      "category": "deposit_requirement",
+      "question": "Is a deposit required for table reservation?",
+      "answer": "For large groups or special events, a deposit may be required to confirm the booking."
+    },
+    {
+      "category": "peak_hours",
+      "question": "When is the restaurant usually busiest?",
+      "answer": "Peak hours are usually lunch and dinner times, especially on weekends and holidays."
+    },
+    {
+      "category": "wait_time",
+      "question": "What if no tables are available at my time?",
+      "answer": "You may be placed on a waiting list or offered the next available time slot."
+    },
+    {
+      "category": "contact_support",
+      "question": "How can I contact the restaurant for booking help?",
+      "answer": "You can contact the restaurant via phone, email, or messaging platforms for assistance with reservations."
+    },
+    {
+      "category": "takeaway_delivery_overview",
+      "question": "Do you offer takeaway and delivery services?",
+      "answer": "Yes, we offer both takeaway and home delivery services for selected menu items."
+    },
+    {
+      "category": "delivery_availability",
+      "question": "Is delivery available in my area?",
+      "answer": "Delivery availability depends on your location and our service coverage area."
+    },
+    {
+      "category": "delivery_time",
+      "question": "How long does delivery take?",
+      "answer": "Delivery usually takes 30 to 60 minutes depending on order size and location."
+    },
+    {
+      "category": "takeaway_option",
+      "question": "Can I pick up my order directly from the restaurant?",
+      "answer": "Yes, you can place a takeaway order and collect it directly from our restaurant."
+    },
+    {
+      "category": "order_methods",
+      "question": "How can I place a takeaway or delivery order?",
+      "answer": "You can place orders via phone call, WhatsApp, website, or food delivery apps if available."
+    },
+    {
+      "category": "minimum_order",
+      "question": "Is there a minimum order value for delivery?",
+      "answer": "Yes, a minimum order value may apply depending on the delivery location."
+    },
+    {
+      "category": "delivery_charges",
+      "question": "Are there any delivery charges?",
+      "answer": "Yes, delivery charges may apply based on distance and order amount."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted for delivery?",
+      "answer": "We accept cash on delivery, UPI, cards, and online payments."
+    },
+    {
+      "category": "order_tracking",
+      "question": "Can I track my delivery order?",
+      "answer": "Yes, order tracking may be available depending on the ordering platform used."
+    },
+    {
+      "category": "food_packaging",
+      "question": "How is takeaway food packed?",
+      "answer": "All food is hygienically packed in secure containers to maintain freshness and temperature."
+    },
+    {
+      "category": "late_delivery",
+      "question": "What if my delivery is late?",
+      "answer": "Delays may happen due to traffic or high demand. We will update you in such cases."
+    },
+    {
+      "category": "order_modification",
+      "question": "Can I modify my order after placing it?",
+      "answer": "Order modifications are possible only if the preparation has not started."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Can I cancel my takeaway or delivery order?",
+      "answer": "Yes, orders can be cancelled before preparation begins."
+    },
+    {
+      "category": "large_orders",
+      "question": "Do you accept bulk or party orders?",
+      "answer": "Yes, we accept bulk and party orders with prior notice."
+    },
+    {
+      "category": "food_quality",
+      "question": "Will food quality be same for delivery orders?",
+      "answer": "Yes, we ensure the same quality and taste for both dine-in and delivery orders."
+    },
+    {
+      "category": "opening_hours",
+      "question": "What are your restaurant opening hours?",
+      "answer": "Our restaurant usually opens in the morning and operates throughout the day depending on service timings and location."
+    },
+    {
+      "category": "closing_hours",
+      "question": "What time does the restaurant close?",
+      "answer": "Closing time varies, but typically the restaurant closes in the late evening or night depending on business hours."
+    },
+    {
+      "category": "lunch_timing",
+      "question": "What are your lunch service hours?",
+      "answer": "Lunch is usually served during midday hours, typically between late morning and afternoon."
+    },
+    {
+      "category": "dinner_timing",
+      "question": "What are your dinner timings?",
+      "answer": "Dinner service is generally available in the evening until closing time."
+    },
+    {
+      "category": "weekend_hours",
+      "question": "Are your opening hours different on weekends?",
+      "answer": "Yes, weekends may have extended hours depending on customer demand."
+    },
+    {
+      "category": "holiday_hours",
+      "question": "Are you open on public holidays?",
+      "answer": "Yes, we may remain open on public holidays with adjusted timings."
+    },
+    {
+      "category": "festival_hours",
+      "question": "Do your timings change during festivals?",
+      "answer": "Yes, restaurant hours may change during festivals or special occasions."
+    },
+    {
+      "category": "last_order_time",
+      "question": "What is the last order time?",
+      "answer": "Last order time is usually before closing, but it may vary depending on the restaurant schedule."
+    },
+    {
+      "category": "reservation_timing",
+      "question": "Can I book a table for specific timing?",
+      "answer": "Yes, table reservations can be made for preferred time slots based on availability."
+    },
+    {
+      "category": "peak_hours",
+      "question": "When is the restaurant most crowded?",
+      "answer": "Peak hours are usually during lunch and dinner times."
+    },
+    {
+      "category": "late_night_service",
+      "question": "Do you offer late-night dining?",
+      "answer": "Some locations may offer late-night service depending on demand."
+    },
+    {
+      "category": "timing_changes",
+      "question": "Do restaurant timings change sometimes?",
+      "answer": "Yes, timings may change due to holidays, maintenance, or special events."
+    },
+    {
+      "category": "delivery_hours",
+      "question": "Are delivery hours the same as restaurant hours?",
+      "answer": "Delivery hours may be shorter or different from dine-in hours."
+    },
+    {
+      "category": "takeaway_hours",
+      "question": "What are takeaway timings?",
+      "answer": "Takeaway is usually available during full operating hours of the restaurant."
+    },
+    {
+      "category": "contact_hours",
+      "question": "When is the best time to contact the restaurant?",
+      "answer": "It is best to contact during working hours for quick responses and reservations."
+    },
+    {
+      "category": "menu_options",
+      "question": "Do you serve both vegetarian and non-vegetarian food?",
+      "answer": "Yes, we offer a variety of both vegetarian and non-vegetarian dishes on our menu."
+    },
+    {
+      "category": "veg_only_option",
+      "question": "Do you have a separate vegetarian menu?",
+      "answer": "Yes, we have dedicated vegetarian options clearly marked on the menu for easy selection."
+    },
+    {
+      "category": "non_veg_options",
+      "question": "What types of non-vegetarian dishes are available?",
+      "answer": "We offer chicken, mutton, seafood, and other non-vegetarian specialties depending on the menu."
+    },
+    {
+      "category": "separate_cooking",
+      "question": "Do you cook vegetarian and non-vegetarian food separately?",
+      "answer": "Yes, we maintain separate preparation areas and utensils to avoid cross-contamination."
+    },
+    {
+      "category": "custom_order",
+      "question": "Can I request a customized vegetarian or non-vegetarian dish?",
+      "answer": "Yes, we accept custom requests based on ingredient availability and kitchen policy."
+    },
+    {
+      "category": "halal_options",
+      "question": "Do you offer halal non-vegetarian food?",
+      "answer": "Yes, halal options are available for selected non-vegetarian dishes. Please check with our staff."
+    },
+    {
+      "category": "vegan_options",
+      "question": "Do you have vegan food options?",
+      "answer": "Yes, we offer selected vegan dishes without dairy or animal-based ingredients."
+    },
+    {
+      "category": "menu_clarity",
+      "question": "How can I identify veg and non-veg items on the menu?",
+      "answer": "All vegetarian and non-vegetarian items are clearly labeled on our menu for easy identification."
+    },
+    {
+      "category": "special_diet",
+      "question": "Can you accommodate special dietary preferences?",
+      "answer": "Yes, we can accommodate dietary preferences like vegetarian, vegan, and allergy-specific requests where possible."
+    },
+    {
+      "category": "availability",
+      "question": "Are veg and non-veg options available all day?",
+      "answer": "Yes, both vegetarian and non-vegetarian options are available throughout our operating hours."
+    },
+    {
+      "category": "catering_overview",
+      "question": "Do you provide catering services?",
+      "answer": "Yes, we provide catering services for events, parties, weddings, corporate functions, and special occasions."
+    },
+    {
+      "category": "catering_types",
+      "question": "What types of catering services do you offer?",
+      "answer": "We offer buffet catering, plated meals, live counters, and customized menu catering based on event requirements."
+    },
+    {
+      "category": "menu_customization",
+      "question": "Can I customize the catering menu?",
+      "answer": "Yes, the menu can be fully customized based on your preferences, budget, and dietary requirements."
+    },
+    {
+      "category": "event_types",
+      "question": "For what events do you provide catering?",
+      "answer": "We provide catering for weddings, birthdays, corporate events, private parties, and large gatherings."
+    },
+    {
+      "category": "veg_nonveg",
+      "question": "Do you offer both vegetarian and non-vegetarian food options?",
+      "answer": "Yes, we offer both vegetarian and non-vegetarian catering options with multiple cuisine choices."
+    },
+    {
+      "category": "minimum_order",
+      "question": "Is there a minimum order requirement for catering?",
+      "answer": "Yes, minimum order requirements may apply depending on the event size and service type."
+    },
+    {
+      "category": "pricing",
+      "question": "How is catering pricing calculated?",
+      "answer": "Pricing is based on menu selection, number of guests, service type, and additional requirements."
+    },
+    {
+      "category": "booking",
+      "question": "How early should I book catering services?",
+      "answer": "It is recommended to book catering services in advance to ensure availability and proper planning."
+    },
+    {
+      "category": "delivery_setup",
+      "question": "Do you provide food delivery and setup?",
+      "answer": "Yes, we provide complete food delivery, setup, and service for events."
+    },
+    {
+      "category": "live_counters",
+      "question": "Do you provide live food counters?",
+      "answer": "Yes, live counters like chaat, grill, and dessert stations are available on request."
+    },
+    {
+      "category": "staff_service",
+      "question": "Do you provide serving staff with catering?",
+      "answer": "Yes, trained staff can be provided for serving and event management."
+    },
+    {
+      "category": "hygiene",
+      "question": "How do you ensure food hygiene and safety?",
+      "answer": "We follow strict hygiene standards, use fresh ingredients, and maintain proper food safety practices."
+    },
+    {
+      "category": "tasting_session",
+      "question": "Can I request a food tasting before booking?",
+      "answer": "Yes, tasting sessions may be available for selected catering packages."
+    },
+    {
+      "category": "payment_terms",
+      "question": "What are the payment terms for catering services?",
+      "answer": "Advance payment is usually required, with remaining balance due before or after the event as agreed."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "What is your cancellation policy for catering?",
+      "answer": "Cancellation policies vary depending on booking terms and timing of cancellation."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods do you accept at the restaurant?",
+      "answer": "We accept cash, debit cards, credit cards, and major digital payment options such as UPI and mobile wallets."
+    },
+    {
+      "category": "upi_payments",
+      "question": "Do you accept UPI payments?",
+      "answer": "Yes, we accept all major UPI payment apps such as Google Pay, PhonePe, and Paytm."
+    },
+    {
+      "category": "card_payments",
+      "question": "Can I pay using debit or credit cards?",
+      "answer": "Yes, we accept Visa, MasterCard, and other major debit and credit cards."
+    },
+    {
+      "category": "cash_payment",
+      "question": "Is cash payment accepted?",
+      "answer": "Yes, cash payments are accepted at all our outlets."
+    },
+    {
+      "category": "online_payment",
+      "question": "Can I pay online for dine-in or takeaway orders?",
+      "answer": "Yes, online payment is available for both dine-in and takeaway orders depending on the ordering platform."
+    },
+    {
+      "category": "split_bill",
+      "question": "Can we split the bill using different payment methods?",
+      "answer": "Yes, split payments are allowed using multiple cards or a combination of cash and digital payments."
+    },
+    {
+      "category": "contactless_payment",
+      "question": "Do you support contactless payments?",
+      "answer": "Yes, contactless card payments and mobile tap-to-pay options are supported."
+    },
+    {
+      "category": "international_cards",
+      "question": "Do you accept international cards?",
+      "answer": "Yes, we accept most international debit and credit cards depending on network support."
+    },
+    {
+      "category": "payment_receipt",
+      "question": "Will I get a payment receipt?",
+      "answer": "Yes, a printed or digital receipt will be provided after payment."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Is advance payment required for reservations?",
+      "answer": "For large bookings or special events, an advance payment may be required."
+    },
+    {
+      "category": "parking_availability",
+      "question": "Do you have parking available at the restaurant?",
+      "answer": "Yes, we have parking facilities available for customers, subject to space availability."
+    },
+    {
+      "category": "parking_type",
+      "question": "What type of parking is available?",
+      "answer": "We provide either dedicated parking space or nearby shared parking depending on the location."
+    },
+    {
+      "category": "free_parking",
+      "question": "Is parking free at the restaurant?",
+      "answer": "Parking may be free or paid depending on the location and parking provider."
+    },
+    {
+      "category": "valet_parking",
+      "question": "Do you offer valet parking service?",
+      "answer": "Valet parking is available at select locations only. Please check with the restaurant in advance."
+    },
+    {
+      "category": "parking_space_availability",
+      "question": "Will I always get a parking spot?",
+      "answer": "Parking is available on a first-come, first-served basis and may be limited during peak hours."
+    },
+    {
+      "category": "parking_for_large_vehicles",
+      "question": "Is parking available for large vehicles?",
+      "answer": "Limited space for larger vehicles may be available depending on the restaurant location."
+    },
+    {
+      "category": "nearby_parking",
+      "question": "What if the restaurant parking is full?",
+      "answer": "Nearby public parking options are usually available within walking distance."
+    },
+    {
+      "category": "parking_time_limit",
+      "question": "Is there a time limit for parking?",
+      "answer": "Some locations may have time-limited parking based on building or mall policies."
+    },
+    {
+      "category": "parking_safety",
+      "question": "Is the parking area safe?",
+      "answer": "Yes, parking areas are typically monitored or located in secure premises for customer safety."
+    },
+    {
+      "category": "two_wheeler_parking",
+      "question": "Is two-wheeler parking available?",
+      "answer": "Yes, most restaurant locations provide dedicated parking for two-wheelers."
+    },
+    {
+      "category": "wifi_availability",
+      "question": "Do you provide WiFi in the restaurant?",
+      "answer": "Yes, free WiFi is available for all customers inside the restaurant."
+    },
+    {
+      "category": "wifi_access",
+      "question": "How can I connect to the WiFi?",
+      "answer": "You can ask our staff for the WiFi username and password to connect."
+    },
+    {
+      "category": "wifi_speed",
+      "question": "Is the WiFi fast enough for browsing and work?",
+      "answer": "Yes, the WiFi is suitable for browsing, social media, and basic work usage."
+    },
+    {
+      "category": "wifi_charges",
+      "question": "Is there any charge for using WiFi?",
+      "answer": "No, WiFi is completely free for all dine-in customers."
+    },
+    {
+      "category": "wifi_availability_time",
+      "question": "Is WiFi available all the time?",
+      "answer": "Yes, WiFi is available during restaurant operating hours."
+    },
+    {
+      "category": "wifi_security",
+      "question": "Is the WiFi connection secure?",
+      "answer": "Yes, the WiFi is secured, but we recommend avoiding sensitive transactions on public networks."
+    },
+    {
+      "category": "wifi_usage_policy",
+      "question": "Are there any usage limits for WiFi?",
+      "answer": "Fair usage policy may apply to ensure smooth internet access for all customers."
+    },
+    {
+      "category": "wifi_support",
+      "question": "What should I do if I cannot connect to WiFi?",
+      "answer": "Please ask our staff for assistance if you face any connection issues."
+    },
+    {
+      "category": "wifi_devices",
+      "question": "Can I connect multiple devices to the WiFi?",
+      "answer": "Yes, multiple devices can be connected depending on network availability."
+    },
+    {
+      "category": "wifi_login",
+      "question": "Do I need to log in to use WiFi?",
+      "answer": "In most cases, a password is required which will be provided by our staff."
+    },
+    {
+      "category": "wifi_coverage",
+      "question": "Does WiFi work in all areas of the restaurant?",
+      "answer": "Yes, WiFi is available across most seating areas in the restaurant."
+    },
+    {
+      "category": "wifi_customer_only",
+      "question": "Is WiFi only for customers?",
+      "answer": "Yes, WiFi access is provided only for dine-in customers."
+    },
+    {
+      "category": "wifi_issue_resolution",
+      "question": "What if WiFi is slow or not working?",
+      "answer": "Our staff will assist you or restart the connection if there are any issues."
+    },
+    {
+      "category": "wifi_hotspot",
+      "question": "Can I use WiFi as a hotspot for others?",
+      "answer": "No, hotspot sharing is not allowed to ensure fair usage for all guests."
+    },
+    {
+      "category": "wifi_contact",
+      "question": "Who should I contact for WiFi help?",
+      "answer": "You can contact any restaurant staff member for WiFi assistance."
+    },
+    {
+      "category": "offers_overview",
+      "question": "Do you have any ongoing offers or discounts?",
+      "answer": "Yes, we regularly offer seasonal discounts, combo meals, and special promotional deals."
+    },
+    {
+      "category": "happy_hour",
+      "question": "Do you provide happy hour discounts?",
+      "answer": "Yes, selected beverages and snacks may have happy hour discounts during specific timings."
+    },
+    {
+      "category": "combo_offers",
+      "question": "Are combo meals available at discounted prices?",
+      "answer": "Yes, combo meals are offered at special prices compared to ordering items separately."
+    },
+    {
+      "category": "festival_offers",
+      "question": "Do you provide festival or special occasion offers?",
+      "answer": "Yes, we offer special discounts and limited-time menus during festivals and celebrations."
+    },
+    {
+      "category": "student_discount",
+      "question": "Is there any student discount available?",
+      "answer": "Some outlets may offer student discounts on selected items with valid student ID."
+    },
+    {
+      "category": "loyalty_program",
+      "question": "Do you have a loyalty or rewards program?",
+      "answer": "Yes, regular customers can earn rewards or points through our loyalty program."
+    },
+    {
+      "category": "coupon_usage",
+      "question": "Can I use coupons or promo codes?",
+      "answer": "Yes, valid coupons and promo codes can be applied during billing for eligible offers."
+    },
+    {
+      "category": "bulk_orders",
+      "question": "Do you offer discounts for bulk or party orders?",
+      "answer": "Yes, special pricing is available for bulk orders and catering services."
+    },
+    {
+      "category": "online_offers",
+      "question": "Are online ordering discounts available?",
+      "answer": "Yes, special discounts may be available for orders placed through online platforms."
+    },
+    {
+      "category": "happy_family_deals",
+      "question": "Do you have family meal deals?",
+      "answer": "Yes, family meal packages are available at discounted rates for groups."
+    },
+    {
+      "category": "new_customer_offer",
+      "question": "Do new customers get any special offers?",
+      "answer": "Yes, first-time customers may receive welcome discounts or promotional deals."
+    },
+    {
+      "category": "discount_terms",
+      "question": "Are discounts applicable on all items?",
+      "answer": "Not all items are eligible; offers apply only to selected menu items or time periods."
+    },
+    {
+      "category": "seasonal_offers",
+      "question": "Do offers change during seasons?",
+      "answer": "Yes, discounts and promotions may vary depending on seasons and restaurant campaigns."
+    },
+    {
+      "category": "payment_offers",
+      "question": "Are there bank or payment app offers available?",
+      "answer": "Yes, sometimes bank cards and digital wallets provide additional cashback or discounts."
+    },
+    {
+      "category": "offer_validity",
+      "question": "How long are the offers valid?",
+      "answer": "Offer validity depends on the promotion period and may change without prior notice."
+    }
+  ]
+}

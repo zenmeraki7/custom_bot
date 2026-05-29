@@ -1,0 +1,713 @@
+{
+  "faqs": [
+    {
+      "category": "booking_overview",
+      "question": "Studio photography booking engane cheyyam?",
+      "answer": "Nee phone call, WhatsApp, allenkil online form use cheythu studio photography session book cheyyam."
+    },
+    {
+      "category": "advance_booking",
+      "question": "Photography session advance booking venamo?",
+      "answer": "Yes, especially weekend and wedding season-il advance booking highly recommend aanu."
+    },
+    {
+      "category": "walk_in",
+      "question": "Walk-in photography booking accept cheyyumo?",
+      "answer": "Some cases-il accept cheyyum, pakshe availability depend cheyyum."
+    },
+    {
+      "category": "confirmation",
+      "question": "Booking confirm aayennu engane ariyam?",
+      "answer": "Booking kazhinjal SMS, WhatsApp message, allenkil call vazhi confirmation kittum."
+    },
+    {
+      "category": "reschedule",
+      "question": "Photography appointment reschedule cheyyan pattumo?",
+      "answer": "Yes, prior notice koduthal reschedule cheyyam subject to availability."
+    },
+    {
+      "category": "cancel_policy",
+      "question": "Booking cancel cheyyan pattumo?",
+      "answer": "Yes, cancellation possible aanu, pakshe cancellation policy depend cheyyum."
+    },
+    {
+      "category": "session_duration",
+      "question": "Photography session ethra neram edukum?",
+      "answer": "Session type depend cheyyum, 1 hour muthal full day shoots vare aavum."
+    },
+    {
+      "category": "late_arrival",
+      "question": "Session-il late aayal entha sambhavikkum?",
+      "answer": "Late aayal shooting time reduce aavum allenkil reschedule cheyyan parayum."
+    },
+    {
+      "category": "package_selection",
+      "question": "Photography packages engane choose cheyyam?",
+      "answer": "Nee requirement, budget, and event type anusarich packages select cheyyam."
+    },
+    {
+      "category": "custom_booking",
+      "question": "Custom photography package available aano?",
+      "answer": "Yes, wedding, pre-wedding, product shoot ellam customize cheyyam."
+    },
+    {
+      "category": "studio_availability",
+      "question": "Studio availability check cheyyan engane?",
+      "answer": "Call or WhatsApp cheythu available slots ariyam."
+    },
+    {
+      "category": "group_booking",
+      "question": "Group photography booking cheyyan pattumo?",
+      "answer": "Yes, family, wedding, corporate group shoots ellam book cheyyam."
+    },
+    {
+      "category": "home_shoot",
+      "question": "Home or outdoor shoot booking kittumo?",
+      "answer": "Yes, home and outdoor photography sessions available aanu."
+    },
+    {
+      "category": "payment",
+      "question": "Booking-inu payment venamo?",
+      "answer": "Yes, advance payment or token amount required aavum confirm cheyyan."
+    },
+    {
+      "category": "support",
+      "question": "Booking doubts undengil engane contact cheyyam?",
+      "answer": "Nee WhatsApp or call cheythu support team-ine contact cheyyam."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "pricing_overview",
+      "question": "Studio and photography packages pricing engane decide cheyyum?",
+      "answer": "Package type, duration, photoshoot style, editing requirements, and location depend cheythu pricing vary cheyyum."
+    },
+    {
+      "category": "basic_package",
+      "question": "Basic photography package-il enthellam include aavum?",
+      "answer": "Basic package-il limited photoshoot time, selected edited photos, and digital copies include aavum."
+    },
+    {
+      "category": "premium_package",
+      "question": "Premium photography package-il enthellam include aavum?",
+      "answer": "Premium package-il full event coverage, advanced editing, albums, and extra photos include aavum."
+    },
+    {
+      "category": "wedding_package",
+      "question": "Wedding photography package available aano?",
+      "answer": "Yes, wedding photography and videography packages full coverage options-il available aanu."
+    },
+    {
+      "category": "studio_shoot",
+      "question": "Studio photoshoot package kittumo?",
+      "answer": "Yes, studio photoshoot packages available aanu portraits, couple shoots, and family shoots-inu."
+    },
+    {
+      "category": "custom_package",
+      "question": "Package customize cheyyan pattumo?",
+      "answer": "Yes, customer requirement anusarich customized photography packages arrange cheyyam."
+    },
+    {
+      "category": "duration",
+      "question": "Photoshoot ethra neram edukum?",
+      "answer": "Package type depend cheyyum, 1 hour muthal full day coverage vare aavum."
+    },
+    {
+      "category": "extra_charges",
+      "question": "Extra charges undavumo?",
+      "answer": "Location travel, extra hours, and additional editing requirements undengil extra charges varam."
+    },
+    {
+      "category": "editing",
+      "question": "Photo editing package-il include aano?",
+      "answer": "Yes, basic editing ellam packages-il include aavum, advanced editing premium packages-il varum."
+    },
+    {
+      "category": "album",
+      "question": "Photo album package-il include aano?",
+      "answer": "Some packages-il printed albums include aavum, otherwise add-on ayi edukkam."
+    },
+    {
+      "category": "videography",
+      "question": "Videography services available aano?",
+      "answer": "Yes, photography-koppam videography services um available aanu."
+    },
+    {
+      "category": "booking",
+      "question": "Photography package eppozha book cheyyanam?",
+      "answer": "Event date secure cheyyan kurachu days or weeks munpu booking cheyyunnath nallath aanu."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Advance payment venamo booking-inu?",
+      "answer": "Yes, booking confirm cheyyan advance payment usually venam."
+    },
+    {
+      "category": "delivery_time",
+      "question": "Photos eppozha kittum?",
+      "answer": "Editing complete aayal usually kurachu days to weeks-inu ullil delivery kittum."
+    },
+    {
+      "category": "consultation",
+      "question": "Package select cheyyan consultation kittumo?",
+      "answer": "Yes, requirement discuss cheythu best package suggest cheyyum."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "photoshoot_overview",
+      "question": "Studio photoshoot and photography services enthellam available aanu?",
+      "answer": "Wedding photoshoot, pre-wedding shoot, baby shoot, birthday shoot, fashion shoot, and portfolio photography ellam available aanu."
+    },
+    {
+      "category": "studio_photoshoot",
+      "question": "Studio photoshoot enthaanu?",
+      "answer": "Studio photoshoot ennu parayunnathu indoor lighting, backdrop, and professional setup use cheythu photos capture cheyyunna service aanu."
+    },
+    {
+      "category": "outdoor_photoshoot",
+      "question": "Outdoor photoshoot available aano?",
+      "answer": "Yes, beach, park, resort, and natural locations-il outdoor photoshoot available aanu."
+    },
+    {
+      "category": "pre_wedding",
+      "question": "Pre-wedding photoshoot cheyyumo?",
+      "answer": "Yes, couple pre-wedding shoot creative themes and locations-il available aanu."
+    },
+    {
+      "category": "baby_photoshoot",
+      "question": "Baby photoshoot safe aano?",
+      "answer": "Yes, trained photographers safe props and baby-friendly setup use cheyyum."
+    },
+    {
+      "category": "fashion_shoot",
+      "question": "Fashion or portfolio photoshoot available aano?",
+      "answer": "Yes, models and personal portfolio shoots professional style-il available aanu."
+    },
+    {
+      "category": "duration",
+      "question": "Photoshoot ethra neram edukum?",
+      "answer": "Shoot type depend cheyyum, 1 hour muthal full day vare aavum."
+    },
+    {
+      "category": "editing",
+      "question": "Photos editing and retouching include aano?",
+      "answer": "Yes, selected photos editing, color correction, and retouching include aavum."
+    },
+    {
+      "category": "outfit_change",
+      "question": "Photoshoot-il dress change cheyyan pattumo?",
+      "answer": "Yes, package anusarich multiple outfit changes allowed aanu."
+    },
+    {
+      "category": "props",
+      "question": "Props and themes provide cheyyumo?",
+      "answer": "Yes, studio setup-il props and themed backgrounds available aanu."
+    },
+    {
+      "category": "booking",
+      "question": "Photoshoot eppozha book cheyyanam?",
+      "answer": "Advance booking cheyyunnath best aanu especially wedding and seasonal shoots-inu."
+    },
+    {
+      "category": "home_service",
+      "question": "Home or outdoor location-il shoot cheyyan pattumo?",
+      "answer": "Yes, client request anusarich location-based shoot arrange cheyyam."
+    },
+    {
+      "category": "delivery",
+      "question": "Photos delivery ethra neram edukkum?",
+      "answer": "Editing required anusarich 2 to 7 days vare edukkam."
+    },
+    {
+      "category": "pricing",
+      "question": "Photoshoot cost ethra aanu?",
+      "answer": "Cost shoot type, duration, location, and package depend cheyyum."
+    },
+    {
+      "category": "consultation",
+      "question": "Photoshoot plan cheyyan consultation kittumo?",
+      "answer": "Yes, theme, outfit, and location choose cheyyan consultation available aanu."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "editing_overview",
+      "question": "Photography editing services enthellam available aanu?",
+      "answer": "Photo retouching, color correction, background change, album design, wedding album editing, and video editing services ellam available aanu."
+    },
+    {
+      "category": "studio_services",
+      "question": "Studio photography services enthellam aanu?",
+      "answer": "Portrait photography, wedding photography, product shoots, event photography, and pre-wedding shoots ellam studio-il available aanu."
+    },
+    {
+      "category": "editing_time",
+      "question": "Photo editing ethra neram edukum?",
+      "answer": "Simple edits same day or 1-2 days-il kittum, complex album editing kurachu days edukam."
+    },
+    {
+      "category": "delivery_time",
+      "question": "Final photos delivery ethra time-il kittum?",
+      "answer": "Usually 2 to 7 days within delivery kittum, project size depend cheyyum."
+    },
+    {
+      "category": "digital_delivery",
+      "question": "Photos digital format-il kittumo?",
+      "answer": "Yes, WhatsApp, email, Google Drive, or USB drive vazhi digital delivery kittum."
+    },
+    {
+      "category": "album_design",
+      "question": "Wedding album design cheyyumo?",
+      "answer": "Yes, professional wedding album design and printing services available aanu."
+    },
+    {
+      "category": "video_editing",
+      "question": "Video editing services kittumo?",
+      "answer": "Yes, wedding videos, reels, highlight videos, and event videos edit cheyyum."
+    },
+    {
+      "category": "urgent_editing",
+      "question": "Urgent editing request accept cheyyumo?",
+      "answer": "Yes, urgent editing request availability anusarich accept cheyyum."
+    },
+    {
+      "category": "revision",
+      "question": "Edited photos-il changes request cheyyan pattumo?",
+      "answer": "Yes, limited revisions usually available aanu based on package."
+    },
+    {
+      "category": "photo_quality",
+      "question": "Edited photos high quality aano?",
+      "answer": "Yes, high resolution and professional quality output provide cheyyum."
+    },
+    {
+      "category": "raw_photos",
+      "question": "Raw photos edit cheyyumo?",
+      "answer": "Yes, RAW files and JPEG images ellam edit cheyyam."
+    },
+    {
+      "category": "printing_services",
+      "question": "Photo printing services available aano?",
+      "answer": "Yes, photo prints, canvas prints, and album printing services available aanu."
+    },
+    {
+      "category": "pricing",
+      "question": "Editing and photography cost ethra aanu?",
+      "answer": "Cost project type, number of photos, and editing level depend cheyyum."
+    },
+    {
+      "category": "booking",
+      "question": "Photography session book cheyyan engane?",
+      "answer": "Phone call, WhatsApp, or online booking vazhi easily session book cheyyam."
+    },
+    {
+      "category": "consultation",
+      "question": "Photography package select cheyyan consultation kittumo?",
+      "answer": "Yes, requirements anusarich best package recommend cheyyum."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "studio_overview",
+      "question": "Studio-il enthellam photography services available aanu?",
+      "answer": "Wedding photography, pre-wedding shoot, birthday shoot, maternity shoot, fashion shoot, and corporate photography ellam available aanu."
+    },
+    {
+      "category": "studio_location",
+      "question": "Studio location engane kandupidikkam?",
+      "answer": "Google Maps use cheythu studio location easy ayi kandupidikkam, allenkil contact cheythal directions provide cheyyum."
+    },
+    {
+      "category": "studio_booking",
+      "question": "Photography session book cheyyan engane pattum?",
+      "answer": "Phone call, WhatsApp, allenkil online booking vazhi photography session book cheyyam."
+    },
+    {
+      "category": "studio_packages",
+      "question": "Photography packages enthellam available aanu?",
+      "answer": "Basic shoot, premium shoot, wedding packages, event coverage, and customized packages ellam available aanu."
+    },
+    {
+      "category": "pre_wedding",
+      "question": "Pre-wedding shoot available aano?",
+      "answer": "Yes, outdoor and indoor pre-wedding shoot packages available aanu."
+    },
+    {
+      "category": "studio_timing",
+      "question": "Studio timings enthaanu?",
+      "answer": "Studio usually morning muthal evening vare open aayirikkum, exact timing studio anusarich vary cheyyum."
+    },
+    {
+      "category": "location_access",
+      "question": "Studio reach cheyyan easy aano?",
+      "answer": "Yes, studio usually central location-il aayirikkum and public transport accessible aanu."
+    },
+    {
+      "category": "home_shoot",
+      "question": "Home location-il photography cheyyan pattumo?",
+      "answer": "Yes, home and outdoor shoot services available aanu based on request."
+    },
+    {
+      "category": "equipment",
+      "question": "Photography-inu high quality equipment use cheyyumo?",
+      "answer": "Yes, professional cameras, lighting, and editing tools use cheyyum."
+    },
+    {
+      "category": "photo_delivery",
+      "question": "Photos eppozha kittum?",
+      "answer": "Editing complete aayathinu shesham photos delivery cheyyum, usually few days to weeks vare aavum."
+    },
+    {
+      "category": "editing",
+      "question": "Photo editing included aano?",
+      "answer": "Yes, basic editing ellam packages-il include aayirikkum."
+    },
+    {
+      "category": "pricing",
+      "question": "Photography cost ethra aanu?",
+      "answer": "Cost shoot type, duration, and package selection depend cheyyum."
+    },
+    {
+      "category": "event_coverage",
+      "question": "Event photography cover cheyyumo?",
+      "answer": "Yes, weddings, parties, and corporate events full coverage available aanu."
+    },
+    {
+      "category": "consultation",
+      "question": "Shoot munpu consultation kittumo?",
+      "answer": "Yes, concept, location, and package discuss cheyyan consultation available aanu."
+    },
+    {
+      "category": "cancellation",
+      "question": "Booking cancel cheyyan pattumo?",
+      "answer": "Yes, prior notice koduthal cancellation or reschedule cheyyam."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "videography_overview",
+      "question": "Videography and photography services enthellam available aanu?",
+      "answer": "Wedding videography, studio photoshoot, event photography, cinematic video, pre-wedding shoot, and family photoshoot ellam available aanu."
+    },
+    {
+      "category": "studio_photoshoot",
+      "question": "Studio photoshoot services undo?",
+      "answer": "Yes, professional studio setup-il photoshoot and video shoot services available aanu."
+    },
+    {
+      "category": "wedding_shoot",
+      "question": "Wedding videography and photography available aano?",
+      "answer": "Yes, full wedding coverage including photo and video editing services available aanu."
+    },
+    {
+      "category": "pre_wedding",
+      "question": "Pre-wedding shoot kittumo?",
+      "answer": "Yes, creative pre-wedding photoshoot and cinematic video packages available aanu."
+    },
+    {
+      "category": "event_coverage",
+      "question": "Events cover cheyyumo?",
+      "answer": "Yes, birthdays, corporate events, engagement, and family functions ellam cover cheyyum."
+    },
+    {
+      "category": "video_editing",
+      "question": "Video editing service included aano?",
+      "answer": "Yes, professional editing, color grading, and highlight videos include cheyyum."
+    },
+    {
+      "category": "drone_shoot",
+      "question": "Drone videography available aano?",
+      "answer": "Yes, request cheythal drone shoot services available aanu for special events."
+    },
+    {
+      "category": "album_design",
+      "question": "Photo album design cheyyumo?",
+      "answer": "Yes, custom album design and printing services available aanu."
+    },
+    {
+      "category": "delivery_time",
+      "question": "Photos and videos delivery ethra neram edukum?",
+      "answer": "Editing and delivery usually few days to weeks vare depend cheyyum project size-il."
+    },
+    {
+      "category": "booking",
+      "question": "Photography service eppozha book cheyyanam?",
+      "answer": "Event date confirm aayathinu shesham as early as possible booking cheyyunnath nallath aanu."
+    },
+    {
+      "category": "team",
+      "question": "Professional photographers and videographers undo?",
+      "answer": "Yes, experienced and trained team work cheyyum."
+    },
+    {
+      "category": "equipment",
+      "question": "Which equipment use cheyyum?",
+      "answer": "High-quality DSLR cameras, lighting setup, drones, and professional editing tools use cheyyum."
+    },
+    {
+      "category": "custom_packages",
+      "question": "Custom photography packages available aano?",
+      "answer": "Yes, customer requirement anusarich custom packages create cheyyam."
+    },
+    {
+      "category": "pricing",
+      "question": "Photography cost ethra aanu?",
+      "answer": "Cost event type, duration, and package selection depend cheyyum."
+    },
+    {
+      "category": "consultation",
+      "question": "Booking munpu consultation kittumo?",
+      "answer": "Yes, event details discuss cheythu best package recommend cheyyum."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "equipment_overview",
+      "question": "Studio photography-inu enthellam equipment use cheyyum?",
+      "answer": "Professional cameras, lighting systems, backdrops, reflectors, and high-quality lenses ellam use cheyyum."
+    },
+    {
+      "category": "camera_quality",
+      "question": "Which camera quality aanu use cheyyunnath?",
+      "answer": "High-resolution DSLR and mirrorless cameras use cheyyum clear and sharp images-inu vendi."
+    },
+    {
+      "category": "lighting_setup",
+      "question": "Lighting setup important aano photography-il?",
+      "answer": "Yes, proper studio lighting use cheythal photos clear and professional look kittum."
+    },
+    {
+      "category": "backdrop_options",
+      "question": "Backdrop options available aano?",
+      "answer": "Yes, different color and themed backdrops available aanu photoshoot requirements anusarich."
+    },
+    {
+      "category": "photo_editing",
+      "question": "Photos edit cheyyumo?",
+      "answer": "Yes, professional editing and retouching cheythu high-quality final images nalkum."
+    },
+    {
+      "category": "video_shoot",
+      "question": "Video shoot services available aano?",
+      "answer": "Yes, studio photography-inu side-by-side video shooting services available aanu."
+    },
+    {
+      "category": "equipment_quality",
+      "question": "Equipment quality good aano?",
+      "answer": "Yes, industry-standard and high-quality equipment only use cheyyum."
+    },
+    {
+      "category": "photographer_experience",
+      "question": "Photographers experienced aano?",
+      "answer": "Yes, trained and experienced photographers handle all shoots."
+    },
+    {
+      "category": "outdoor_shoot",
+      "question": "Outdoor photography available aano?",
+      "answer": "Yes, indoor studio shoot-inu purame outdoor shoots um available aanu."
+    },
+    {
+      "category": "props",
+      "question": "Photography props use cheyyumo?",
+      "answer": "Yes, creative props available aanu different themes-inu vendi."
+    },
+    {
+      "category": "file_quality",
+      "question": "Final photo quality enthaanu?",
+      "answer": "High-resolution edited images and digital copies provide cheyyum."
+    },
+    {
+      "category": "printing",
+      "question": "Photo printing services available aano?",
+      "answer": "Yes, album printing and photo prints available aanu."
+    },
+    {
+      "category": "booking",
+      "question": "Photography session book cheyyan engane?",
+      "answer": "Phone, WhatsApp, or online booking vazhi session book cheyyam."
+    },
+    {
+      "category": "timing",
+      "question": "Photoshoot ethra neram edukum?",
+      "answer": "Shoot type depend cheyyum, 1 hour muthal several hours vare aavum."
+    },
+    {
+      "category": "package",
+      "question": "Photography packages available aano?",
+      "answer": "Yes, different budget and event based packages available aanu."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "cancellation_overview",
+      "question": "Photography studio booking cancel cheyyan pattumo?",
+      "answer": "Yes, cancellation cheyyan pattum, pakshe advance notice kodukkanam."
+    },
+    {
+      "category": "cancellation_timing",
+      "question": "Eppozha cancellation request submit cheyyanam?",
+      "answer": "Minimum 24 to 48 hours munpu cancellation inform cheyyunnath nallath aanu."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Booking cancel cheythal refund kittumo?",
+      "answer": "Refund policy studio rules anusarich vary cheyyum; advance payment partial or full refund depend cheyyum."
+    },
+    {
+      "category": "last_minute_cancellation",
+      "question": "Last minute cancellation cheythal entha sambhavikkum?",
+      "answer": "Last minute cancellation-il refund miss aavum allenkil cancellation fee apply aavum."
+    },
+    {
+      "category": "rescheduling",
+      "question": "Booking cancel cheyyathe reschedule cheyyan pattumo?",
+      "answer": "Yes, availability undengil rescheduling option available aanu."
+    },
+    {
+      "category": "event_cancellation",
+      "question": "Wedding or event shoot cancel cheyyumbo entha cheyyum?",
+      "answer": "Event shoots-inu strict policy undavum; advance notice venam penalty avoid cheyyan."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Advance payment refund aavumo cancellation kazhinjal?",
+      "answer": "Advance payment refund studio terms and cancellation timing depend cheyyum."
+    },
+    {
+      "category": "weather_cancellation",
+      "question": "Outdoor shoot weather karanam cancel aayal entha cheyyum?",
+      "answer": "Studio usually reschedule option provide cheyyum without extra charges."
+    },
+    {
+      "category": "no_show",
+      "question": "No-show aayal entha policy aanu?",
+      "answer": "No-show cases-il refund eligible aavilla and full charge apply aavum."
+    },
+    {
+      "category": "partial_cancellation",
+      "question": "Package-il oru part cancel cheyyan pattumo?",
+      "answer": "Partial cancellation possible aanu pakshe package price adjust cheyyum."
+    },
+    {
+      "category": "date_change",
+      "question": "Date change cheyyan pattumo?",
+      "answer": "Yes, studio availability undengil date change cheyyam."
+    },
+    {
+      "category": "force_majeure",
+      "question": "Emergency situations-il cancellation policy entha?",
+      "answer": "Medical emergency or unavoidable cases-il studio flexibility provide cheyyum."
+    },
+    {
+      "category": "refund_timeline",
+      "question": "Refund ethra days-il kittum?",
+      "answer": "Refund processing usually 5 to 10 working days edukum."
+    },
+    {
+      "category": "contact_support",
+      "question": "Cancellation help engane kittum?",
+      "answer": "Studio contact number, WhatsApp, or email use cheythu support kittum."
+    },
+    {
+      "category": "policy_agreement",
+      "question": "Booking cheyyumbo cancellation policy accept cheyyano?",
+      "answer": "Yes, booking confirm cheyyumbo cancellation terms agree cheyyanam."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "albums_overview",
+      "question": "Photography studio-il albums and prints services enthellam available aanu?",
+      "answer": "Wedding albums, photo albums, premium photobooks, framed prints, canvas prints, and custom photo prints ellam available aanu."
+    },
+    {
+      "category": "album_types",
+      "question": "Which types of photo albums available aanu?",
+      "answer": "Traditional albums, digital albums, leather-bound albums, and premium designer photobooks available aanu."
+    },
+    {
+      "category": "custom_design",
+      "question": "Album design customize cheyyan pattumo?",
+      "answer": "Yes, photos selection, layout, cover design ellam customize cheyyan pattum."
+    },
+    {
+      "category": "printing_quality",
+      "question": "Photo prints quality engane aanu?",
+      "answer": "High resolution HD printing quality use cheyyum, long-lasting and fade-resistant prints kittum."
+    },
+    {
+      "category": "print_sizes",
+      "question": "Which print sizes available aanu?",
+      "answer": "Passport size, 4x6, 5x7, A4, A3 and custom sizes prints available aanu."
+    },
+    {
+      "category": "album_processing_time",
+      "question": "Album ready aavan ethra time edukum?",
+      "answer": "Usually 3 to 10 days vare edukum depending on design and customization."
+    },
+    {
+      "category": "urgent_prints",
+      "question": "Urgent photo prints kittumo?",
+      "answer": "Yes, same-day or express printing services available aanu based on request."
+    },
+    {
+      "category": "photo_editing",
+      "question": "Photo editing and retouching cheyyumo?",
+      "answer": "Yes, basic editing, color correction, and professional retouching services available aanu."
+    },
+    {
+      "category": "framing",
+      "question": "Framed photo prints available aano?",
+      "answer": "Yes, wooden, acrylic, and premium frames available aanu for prints."
+    },
+    {
+      "category": "digital_copy",
+      "question": "Album digital copy kittumo?",
+      "answer": "Yes, soft copy or digital album USB/online delivery available aanu."
+    },
+    {
+      "category": "event_photography",
+      "question": "Wedding or event photography-inu album include aavumo?",
+      "answer": "Yes, photography packages usually include album and print options."
+    },
+    {
+      "category": "pricing",
+      "question": "Album and print cost ethra aanu?",
+      "answer": "Cost album type, pages, design, and print quality depend cheyyum."
+    },
+    {
+      "category": "bulk_printing",
+      "question": "Bulk photo printing available aano?",
+      "answer": "Yes, bulk printing for events, functions, and business use available aanu."
+    },
+    {
+      "category": "paper_quality",
+      "question": "Which paper quality use cheyyum?",
+      "answer": "Glossy, matte, and premium photographic paper options available aanu."
+    },
+    {
+      "category": "consultation",
+      "question": "Album design select cheyyan consultation kittumo?",
+      "answer": "Yes, studio professionals best layout and design suggest cheyyum based on photos."
+    }
+  ]
+}
+  
+  

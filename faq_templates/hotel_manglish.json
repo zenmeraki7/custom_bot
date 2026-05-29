@@ -1,0 +1,304 @@
+{
+  "faqs": [
+    {
+      "category": "room_booking_overview",
+      "question": "Hotel room booking engane cheyyam?",
+      "answer": "Nee hotel website, phone call, WhatsApp, allenkil booking apps use cheythu room book cheyyam."
+    },
+    {
+      "category": "online_booking",
+      "question": "Online room booking safe aano?",
+      "answer": "Yes, trusted hotel websites and verified booking platforms use cheyyumbo safe aanu."
+    },
+    {
+      "category": "reservation_confirmation",
+      "question": "Room booking confirm aayennu engane ariyam?",
+      "answer": "Booking kazhinjal SMS, email, allenkil WhatsApp confirmation varum."
+    },
+    {
+      "category": "check_in_time",
+      "question": "Check-in time eppozha aanu?",
+      "answer": "Usually hotel check-in time afternoon 12 PM to 2 PM madhyathil aayirikkum."
+    },
+    {
+      "category": "check_out_time",
+      "question": "Check-out time eppozha aanu?",
+      "answer": "Check-out time usually morning 10 AM to 12 PM vare aayirikkum."
+    },
+    {
+      "category": "early_check_in",
+      "question": "Early check-in kittumo?",
+      "answer": "Availability undengil early check-in allow cheyyum, sometimes extra charge undavum."
+    },
+    {
+      "category": "late_check_out",
+      "question": "Late check-out kittumo?",
+      "answer": "Yes, availability undengil late check-out provide cheyyum with extra charges or request basis-il."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Booking cancel cheyyan pattumo?",
+      "answer": "Yes, cancellation policy hotel anusarich vary cheyyum. Some bookings refundable aayirikkum."
+    },
+    {
+      "category": "refund",
+      "question": "Refund kittumo cancellation cheythal?",
+      "answer": "Refund policy booking type depend cheyyum, free cancellation options available aayirikkam."
+    },
+    {
+      "category": "room_types",
+      "question": "Enthokke room types available aanu?",
+      "answer": "Single room, double room, deluxe room, suite rooms, family rooms ellam available aanu."
+    },
+    {
+      "category": "group_booking",
+      "question": "Group booking cheyyan pattumo?",
+      "answer": "Yes, family or group booking available aanu advance reservation venam."
+    },
+    {
+      "category": "payment",
+      "question": "Room booking-inu entha payment methods accept cheyyum?",
+      "answer": "Cash, card, UPI, and online payment methods ellam accept cheyyum."
+    },
+    {
+      "category": "identity_required",
+      "question": "Check-in time-il ID venamo?",
+      "answer": "Yes, valid government ID proof check-in time-il mandatory aanu."
+    },
+    {
+      "category": "amenities",
+      "question": "Room-il enthellam facilities kittum?",
+      "answer": "AC, WiFi, TV, room service, and basic amenities ellam hotel category depend cheyyum."
+    },
+    {
+      "category": "booking_support",
+      "question": "Booking problem varumbo entha cheyyam?",
+      "answer": "Hotel reception or customer support contact cheythal assistance kittum."
+    },
+    {
+      "category": "check_in_overview",
+      "question": "Hotel check-in enthaanu?",
+      "answer": "Check-in ennu parayunnath guest hotel room-il enter cheythu stay start cheyyunna process aanu."
+    },
+    {
+      "category": "check_in_time",
+      "question": "Check-in timing eppozha usually?",
+      "answer": "Most hotels-il check-in time afternoon 12 PM muthal 2 PM vare aayirikkum, hotel policy depend cheyyum."
+    },
+    {
+      "category": "early_check_in",
+      "question": "Early check-in kittumo?",
+      "answer": "Availability undengil early check-in kittum, pakshe extra charge apply aavum."
+    },
+    {
+      "category": "check_in_documents",
+      "question": "Check-in-inu entha documents venam?",
+      "answer": "Valid ID proof like passport, NRIC, Aadhaar, or driving license venam."
+    },
+    {
+      "category": "check_in_process",
+      "question": "Check-in process engane aanu?",
+      "answer": "Reception-il ID submit cheythu details fill cheythal room key kittum."
+    },
+    {
+      "category": "check_out_overview",
+      "question": "Hotel check-out enthaanu?",
+      "answer": "Check-out ennu parayunnath stay kazhinju room leave cheyyunna process aanu."
+    },
+    {
+      "category": "check_out_time",
+      "question": "Check-out timing eppozha?",
+      "answer": "Usually check-out time morning 11 AM allenkil 12 PM vare aayirikkum."
+    },
+    {
+      "category": "late_check_out",
+      "question": "Late check-out kittumo?",
+      "answer": "Yes, availability undengil late check-out kittum, extra charge apply aavum."
+    },
+    {
+      "category": "checkout_process",
+      "question": "Check-out process engane aanu?",
+      "answer": "Room key return cheyyuka, bill settle cheyyuka, pinne checkout complete aavum."
+    },
+    {
+      "category": "extra_charges",
+      "question": "Extra charges varumo check-in/check-out-il?",
+      "answer": "Early check-in, late check-out, or extra stay hours-inu charges varam."
+    },
+    {
+      "category": "booking_confirmation",
+      "question": "Check-in munpu booking confirm venamo?",
+      "answer": "Yes, confirmed booking undengil mathrame check-in allow cheyyu."
+    },
+    {
+      "category": "group_check_in",
+      "question": "Group check-in possible aano?",
+      "answer": "Yes, group booking undengil multiple rooms check-in cheyyam."
+    },
+    {
+      "category": "id_requirement",
+      "question": "All guests-inum ID venamo?",
+      "answer": "Yes, hotel policy anusarich all staying guests ID provide cheyyanam."
+    },
+    {
+      "category": "room_extension",
+      "question": "Stay extend cheyyan pattumo?",
+      "answer": "Yes, room availability undengil extend cheyyam."
+    },
+    {
+      "category": "assistance",
+      "question": "Check-in/check-out help kittumo?",
+      "answer": "Yes, reception staff full assistance provide cheyyum."
+    },
+    {
+      "category": "room_types_overview",
+      "question": "Hotel-il enthellam room types available aanu?",
+      "answer": "Standard room, deluxe room, suite room, family room, and luxury rooms ellam availability anusarich kittum."
+    },
+    {
+      "category": "room_availability",
+      "question": "Room availability engane check cheyyam?",
+      "answer": "Hotel website, booking apps, allenkil direct reception call cheythu availability check cheyyam."
+    },
+    {
+      "category": "booking_confirmation",
+      "question": "Room booking confirm aayennu engane ariyam?",
+      "answer": "Booking kazhinjal email, SMS, allenkil WhatsApp confirmation varum."
+    },
+    {
+      "category": "check_in_time",
+      "question": "Check-in time eppozha aanu?",
+      "answer": "Usually check-in afternoon time around 12 PM muthal 2 PM vare aavum."
+    },
+    {
+      "category": "check_out_time",
+      "question": "Check-out time eppozha aanu?",
+      "answer": "Check-out morning 10 AM muthal 12 PM vare aavum."
+    },
+    {
+      "category": "early_check_in",
+      "question": "Early check-in kittumo?",
+      "answer": "Availability undengil early check-in provide cheyyum, sometimes extra charge varam."
+    },
+    {
+      "category": "late_check_out",
+      "question": "Late check-out available aano?",
+      "answer": "Yes, request cheythal late check-out provide cheyyam depending on availability."
+    },
+    {
+      "category": "room_rates",
+      "question": "Room rate ethra aanu?",
+      "answer": "Room type, season, and availability anusarich rates vary cheyyum."
+    },
+    {
+      "category": "peak_season",
+      "question": "Peak season-il rooms kittumo?",
+      "answer": "Peak season-il advance booking venam, last minute availability kuravaayirikkum."
+    },
+    {
+      "category": "cancellation",
+      "question": "Booking cancel cheyyan pattumo?",
+      "answer": "Yes, cancellation policy hotel rules anusarich vary cheyyum."
+    },
+    {
+      "category": "amenities",
+      "question": "Room-il enthellam facilities kittum?",
+      "answer": "AC, WiFi, TV, hot water, room service, and other facilities room type depend cheyyum."
+    },
+    {
+      "category": "family_rooms",
+      "question": "Family room available aano?",
+      "answer": "Yes, family and group stay-inu suitable rooms available aanu."
+    },
+    {
+      "category": "online_booking",
+      "question": "Online ayi room book cheyyan pattumo?",
+      "answer": "Yes, hotel website and booking apps use cheythu online booking easy aanu."
+    },
+    {
+      "category": "walk_in",
+      "question": "Walk-in booking available aano?",
+      "answer": "Yes, availability undengil walk-in booking accept cheyyum."
+    },
+    {
+      "category": "assistance",
+      "question": "Room selection-inu help kittumo?",
+      "answer": "Yes, reception team nee-inu suitable room choose cheyyan help cheyyum."
+    },
+    {
+      "category": "pricing_overview",
+      "question": "Hotel room pricing engane decide cheyyunnu?",
+      "answer": "Room type, season, location, facilities, and availability depend cheythu hotel pricing decide cheyyum."
+    },
+    {
+      "category": "room_rates",
+      "question": "Room rates ethra aanu?",
+      "answer": "Room category (standard, deluxe, suite) anusarich rates vary cheyyum."
+    },
+    {
+      "category": "hidden_charges",
+      "question": "Hidden charges undo?",
+      "answer": "Most hotels-il taxes and service charges separate aayi add aavum, booking munpu confirm cheyyunnath nallath aanu."
+    },
+    {
+      "category": "discounts_offers",
+      "question": "Discounts and offers available aano?",
+      "answer": "Yes, seasonal offers, early booking discounts, and special packages available aayirikkum."
+    },
+    {
+      "category": "group_booking",
+      "question": "Group booking-inu discount kittumo?",
+      "answer": "Yes, group booking-inu special pricing and discounts available aayirikkum."
+    },
+    {
+      "category": "long_stay",
+      "question": "Long stay-inu price reduce aavumo?",
+      "answer": "Yes, weekly or monthly stay-inu special discounted rates kittum."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Advance payment venamo booking-inu?",
+      "answer": "Yes, most hotels booking confirm cheyyan advance payment or deposit venam."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Payment methods enthellam accept cheyyum?",
+      "answer": "Cash, credit card, debit card, UPI, and online payment methods ellam accept cheyyum."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Cancellation cheythal refund kittumo?",
+      "answer": "Refund policy hotel rules anusarich vary cheyyum, cancellation timing important aanu."
+    },
+    {
+      "category": "payment_at_checkin",
+      "question": "Check-in samayath payment cheyyan pattumo?",
+      "answer": "Yes, some hotels check-in time-il payment accept cheyyum."
+    },
+    {
+      "category": "security_deposit",
+      "question": "Security deposit venamo?",
+      "answer": "Yes, damage or extra charges cover cheyyan refundable deposit venam."
+    },
+    {
+      "category": "extra_charges",
+      "question": "Extra charges enthellam varam?",
+      "answer": "Mini bar, room service, laundry, and extra guest charges varan chance undu."
+    },
+    {
+      "category": "tax_inclusion",
+      "question": "Tax included aano room price-il?",
+      "answer": "Sometimes tax separate aayirikkum, booking time-il check cheyyuka."
+    },
+    {
+      "category": "late_checkout_fee",
+      "question": "Late checkout-inu extra charge undo?",
+      "answer": "Yes, late checkout cheyyumbo additional charge apply aavum."
+    },
+    {
+      "category": "billing_support",
+      "question": "Bill related doubts undengil entha cheyyam?",
+      "answer": "Reception or front desk-il contact cheythal billing clarification kittum."
+    }
+  ]
+}

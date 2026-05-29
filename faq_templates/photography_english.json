@@ -1,0 +1,708 @@
+{
+  "faqs": [
+    {
+      "category": "booking_overview",
+      "question": "How can I book a photography studio session?",
+      "answer": "You can book a studio session through phone call, WhatsApp, website booking form, or by visiting the studio directly."
+    },
+    {
+      "category": "appointment_confirmation",
+      "question": "How do I confirm my photography appointment?",
+      "answer": "Your booking is confirmed once you receive a confirmation message or email from the studio."
+    },
+    {
+      "category": "advance_booking",
+      "question": "How early should I book a studio session?",
+      "answer": "It is recommended to book in advance, especially for weekends, festivals, and wedding seasons."
+    },
+    {
+      "category": "walk_in",
+      "question": "Do you accept walk-in photography sessions?",
+      "answer": "Walk-ins may be accepted depending on studio availability, but prior booking is recommended."
+    },
+    {
+      "category": "reschedule",
+      "question": "Can I reschedule my photography appointment?",
+      "answer": "Yes, you can reschedule your session by contacting the studio in advance, subject to availability."
+    },
+    {
+      "category": "cancel_policy",
+      "question": "What is the cancellation policy for studio bookings?",
+      "answer": "Cancellations should be made in advance. Refund or reschedule policies depend on studio terms."
+    },
+    {
+      "category": "late_arrival",
+      "question": "What happens if I arrive late for my shoot?",
+      "answer": "Late arrival may reduce your shoot time or require rescheduling based on studio schedule."
+    },
+    {
+      "category": "session_duration",
+      "question": "How long does a photography session take?",
+      "answer": "Session duration depends on the package and can range from 30 minutes to several hours."
+    },
+    {
+      "category": "group_booking",
+      "question": "Can I book a photography session for a group?",
+      "answer": "Yes, group bookings are available for families, couples, events, and corporate shoots."
+    },
+    {
+      "category": "event_booking",
+      "question": "Do you take bookings for events and weddings?",
+      "answer": "Yes, we provide photography services for weddings, birthdays, corporate events, and special occasions."
+    },
+    {
+      "category": "preferred_photographer",
+      "question": "Can I request a specific photographer?",
+      "answer": "Yes, you can request a preferred photographer based on availability."
+    },
+    {
+      "category": "studio_availability",
+      "question": "How do I check studio availability?",
+      "answer": "You can check availability by calling, messaging, or checking the online booking calendar."
+    },
+    {
+      "category": "booking_fee",
+      "question": "Is an advance payment required for booking?",
+      "answer": "Yes, most studio bookings require an advance payment to confirm the slot."
+    },
+    {
+      "category": "package_selection",
+      "question": "Can I choose photography packages during booking?",
+      "answer": "Yes, you can select packages based on your requirements such as portraits, weddings, or events."
+    },
+    {
+      "category": "support_contact",
+      "question": "Who can I contact for booking support?",
+      "answer": "You can contact the studio support team via phone, WhatsApp, or email for any booking assistance."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "pricing_overview",
+      "question": "How are photography studio prices calculated?",
+      "answer": "Pricing depends on the type of shoot, duration, number of photos, editing requirements, and package selected."
+    },
+    {
+      "category": "package_types",
+      "question": "What types of photography packages do you offer?",
+      "answer": "We offer basic shoot packages, premium packages, wedding packages, pre-wedding packages, and customized photography packages."
+    },
+    {
+      "category": "studio_booking_cost",
+      "question": "How much does a studio photoshoot cost?",
+      "answer": "Studio photoshoot cost varies based on time duration, backdrop selection, props, and editing services included."
+    },
+    {
+      "category": "wedding_photography",
+      "question": "What is included in wedding photography packages?",
+      "answer": "Wedding packages may include full event coverage, candid photography, traditional photos, edited images, and albums."
+    },
+    {
+      "category": "pre_wedding_package",
+      "question": "Do you offer pre-wedding photography packages?",
+      "answer": "Yes, pre-wedding packages include outdoor or studio shoots with concept planning, outfits, and edited photos."
+    },
+    {
+      "category": "custom_packages",
+      "question": "Can I customize my photography package?",
+      "answer": "Yes, packages can be customized based on your budget, event type, and photography requirements."
+    },
+    {
+      "category": "hourly_charges",
+      "question": "Do you charge per hour for photography sessions?",
+      "answer": "Yes, some packages are hourly based while others are fixed-price depending on the service."
+    },
+    {
+      "category": "editing_included",
+      "question": "Is photo editing included in the package?",
+      "answer": "Yes, basic editing is included in most packages, while advanced editing may be charged separately."
+    },
+    {
+      "category": "album_cost",
+      "question": "Are photo albums included in photography packages?",
+      "answer": "Albums may be included in premium packages or added as an optional service."
+    },
+    {
+      "category": "extra_charges",
+      "question": "Are there any hidden or extra charges?",
+      "answer": "All charges are explained before booking, but extra services like additional hours or special editing may cost extra."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Is advance payment required for booking?",
+      "answer": "Yes, an advance payment is usually required to confirm photography bookings."
+    },
+    {
+      "category": "discounts_offers",
+      "question": "Do you provide discounts on photography packages?",
+      "answer": "Yes, seasonal offers, event-based discounts, and combo packages may be available."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "What is your cancellation policy?",
+      "answer": "Cancellation policies vary depending on the package and notice period provided before the event."
+    },
+    {
+      "category": "travel_charges",
+      "question": "Do you charge extra for outdoor shoots or travel?",
+      "answer": "Yes, travel and outdoor shoot locations may include additional charges."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I discuss pricing before booking a photography package?",
+      "answer": "Yes, consultation is available to help you choose the right package based on your needs and budget."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "photoshoot_overview",
+      "question": "What types of photoshoot services do you offer?",
+      "answer": "We offer studio photoshoots, outdoor photography, portrait shoots, couple shoots, bridal photoshoots, and event photography."
+    },
+    {
+      "category": "studio_photoshoot",
+      "question": "What is included in a studio photoshoot?",
+      "answer": "A studio photoshoot includes professional lighting, backdrop setups, posing guidance, and edited final images."
+    },
+    {
+      "category": "outdoor_photoshoot",
+      "question": "Do you provide outdoor photography sessions?",
+      "answer": "Yes, we offer outdoor photoshoots at selected locations based on client preference and availability."
+    },
+    {
+      "category": "booking",
+      "question": "How can I book a photoshoot session?",
+      "answer": "You can book a photoshoot via phone call, WhatsApp, or online booking by selecting your preferred package."
+    },
+    {
+      "category": "session_duration",
+      "question": "How long does a photoshoot session take?",
+      "answer": "A photoshoot session usually takes between 1 to 4 hours depending on the package and requirements."
+    },
+    {
+      "category": "photo_editing",
+      "question": "Do you provide photo editing services?",
+      "answer": "Yes, basic and advanced photo editing services are included in most packages."
+    },
+    {
+      "category": "number_of_photos",
+      "question": "How many photos will I receive after the shoot?",
+      "answer": "The number of photos depends on the package selected, including both raw and edited images."
+    },
+    {
+      "category": "outfit_changes",
+      "question": "Can I change outfits during the photoshoot?",
+      "answer": "Yes, outfit changes are allowed depending on the package and session time."
+    },
+    {
+      "category": "props_availability",
+      "question": "Do you provide props for photoshoots?",
+      "answer": "Yes, basic props are available in studio shoots, and custom props can be arranged on request."
+    },
+    {
+      "category": "makeup_included",
+      "question": "Is makeup included in photoshoot packages?",
+      "answer": "Some packages include makeup and hairstyling, or they can be added as extra services."
+    },
+    {
+      "category": "location_change",
+      "question": "Can I change the photoshoot location after booking?",
+      "answer": "Location changes are possible but depend on availability and package terms."
+    },
+    {
+      "category": "pricing",
+      "question": "How much does a photoshoot cost?",
+      "answer": "Pricing depends on the type of shoot, duration, location, and package selected."
+    },
+    {
+      "category": "delivery_time",
+      "question": "When will I receive my photos?",
+      "answer": "Edited photos are usually delivered within a few days to a couple of weeks depending on the package."
+    },
+    {
+      "category": "group_photoshoot",
+      "question": "Do you offer group or family photoshoots?",
+      "answer": "Yes, we offer family, group, and event photoshoot packages."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I discuss ideas before the photoshoot?",
+      "answer": "Yes, pre-shoot consultation is available to plan themes, outfits, and styling."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "editing_overview",
+      "question": "What photography editing services do you offer?",
+      "answer": "We offer photo retouching, color correction, background removal, skin smoothing, album design, and creative editing services."
+    },
+    {
+      "category": "studio_services",
+      "question": "Do you provide studio photography services?",
+      "answer": "Yes, we provide professional studio photography for portraits, events, products, weddings, and corporate shoots."
+    },
+    {
+      "category": "editing_time",
+      "question": "How long does photo editing take?",
+      "answer": "Editing time depends on the number of photos and complexity, usually ranging from 1 to 5 business days."
+    },
+    {
+      "category": "delivery_time",
+      "question": "How long does delivery of photos take?",
+      "answer": "Final delivery is usually completed within 2 to 7 days depending on the project size."
+    },
+    {
+      "category": "urgent_editing",
+      "question": "Do you provide urgent or same-day editing?",
+      "answer": "Yes, urgent editing services are available for an additional charge based on availability."
+    },
+    {
+      "category": "delivery_format",
+      "question": "In what format will I receive my photos?",
+      "answer": "You will receive photos in high-resolution JPEG or PNG formats, and albums in PDF or print-ready formats."
+    },
+    {
+      "category": "raw_images",
+      "question": "Do you provide raw images after shoot?",
+      "answer": "Raw images may be provided upon request, depending on the package selected."
+    },
+    {
+      "category": "revisions",
+      "question": "Can I request changes after editing?",
+      "answer": "Yes, minor revisions are allowed based on the package terms."
+    },
+    {
+      "category": "album_design",
+      "question": "Do you offer album design services?",
+      "answer": "Yes, we provide custom photo album design with creative layouts and themes."
+    },
+    {
+      "category": "digital_delivery",
+      "question": "How will my edited photos be delivered?",
+      "answer": "Photos are delivered via email, Google Drive, or WhatsApp depending on file size and preference."
+    },
+    {
+      "category": "printing_services",
+      "question": "Do you provide photo printing services?",
+      "answer": "Yes, we offer high-quality photo printing along with framing and album services."
+    },
+    {
+      "category": "file_quality",
+      "question": "Will the image quality be high after editing?",
+      "answer": "Yes, we ensure high-resolution, professionally enhanced image quality for all edits."
+    },
+    {
+      "category": "event_photography",
+      "question": "Do you cover event photography?",
+      "answer": "Yes, we cover weddings, birthdays, corporate events, and special occasions."
+    },
+    {
+      "category": "pricing",
+      "question": "How is photography and editing pricing calculated?",
+      "answer": "Pricing depends on shoot duration, number of photos, editing complexity, and package selected."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I discuss editing requirements before booking?",
+      "answer": "Yes, consultation is available to understand your editing style and project needs."
+    }
+  ]
+}
+"faqs": [
+    {
+      "category": "studio_overview",
+      "question": "What photography services do you offer at your studio?",
+      "answer": "We offer portrait photography, wedding photography, pre-wedding shoots, product photography, event coverage, and family photoshoots."
+    },
+    {
+      "category": "studio_location",
+      "question": "Where is your photography studio located?",
+      "answer": "Our studio is located in an easily accessible area. You can find the exact location on Google Maps or contact us for directions."
+    },
+    {
+      "category": "studio_booking",
+      "question": "How can I book a photoshoot session?",
+      "answer": "You can book a photoshoot by phone, WhatsApp, online booking form, or by visiting our studio directly."
+    },
+    {
+      "category": "pre_wedding_shoot",
+      "question": "Do you provide pre-wedding photoshoots?",
+      "answer": "Yes, we offer creative pre-wedding photoshoot packages at studio and outdoor locations."
+    },
+    {
+      "category": "wedding_photography",
+      "question": "Do you cover wedding photography events?",
+      "answer": "Yes, we provide full wedding photography and videography coverage with customized packages."
+    },
+    {
+      "category": "studio_timings",
+      "question": "What are your studio working hours?",
+      "answer": "Our studio usually operates from morning to evening, but timings may vary based on bookings."
+    },
+    {
+      "category": "location_directions",
+      "question": "Can I get directions to your studio?",
+      "answer": "Yes, we can share Google Maps location or guide you via phone or WhatsApp."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Is parking available at the studio?",
+      "answer": "Yes, parking facilities are available for clients visiting the studio."
+    },
+    {
+      "category": "studio_packages",
+      "question": "Do you offer photography packages?",
+      "answer": "Yes, we offer flexible packages for weddings, portraits, events, and commercial photography."
+    },
+    {
+      "category": "editing_services",
+      "question": "Do you provide photo editing and retouching?",
+      "answer": "Yes, professional editing, retouching, and album design services are included in packages."
+    },
+    {
+      "category": "home_location_shoot",
+      "question": "Can photoshoots be done outside the studio?",
+      "answer": "Yes, outdoor and home location shoots are available based on your preference."
+    },
+    {
+      "category": "studio_setup",
+      "question": "What facilities are available in the studio?",
+      "answer": "Our studio includes professional lighting, backgrounds, props, and advanced photography equipment."
+    },
+    {
+      "category": "advance_booking",
+      "question": "Should I book in advance for a photoshoot?",
+      "answer": "Yes, advance booking is recommended to secure your preferred date and time."
+    },
+    {
+      "category": "contact_support",
+      "question": "How can I contact your studio for inquiries?",
+      "answer": "You can contact us via phone, WhatsApp, email, or social media for any photography-related inquiries."
+    },
+    {
+      "category": "emergency_booking",
+      "question": "Can I book a last-minute photoshoot?",
+      "answer": "Last-minute bookings may be accepted depending on availability."
+    }
+    {
+  "faqs": [
+    {
+      "category": "videography_overview",
+      "question": "What videography and photography services do you offer?",
+      "answer": "We offer studio photography, outdoor photography, wedding videography, event coverage, pre-wedding shoots, and cinematic video production."
+    },
+    {
+      "category": "studio_photography",
+      "question": "Do you provide studio photography services?",
+      "answer": "Yes, we provide professional studio photography for portraits, family photos, product shoots, and creative sessions."
+    },
+    {
+      "category": "event_coverage",
+      "question": "Do you cover events like weddings and parties?",
+      "answer": "Yes, we provide complete event coverage including weddings, engagements, birthdays, and corporate events."
+    },
+    {
+      "category": "pre_wedding_shoot",
+      "question": "Do you offer pre-wedding photoshoots?",
+      "answer": "Yes, pre-wedding photography and cinematic video shoots are available at indoor and outdoor locations."
+    },
+    {
+      "category": "video_editing",
+      "question": "Is video editing included in your services?",
+      "answer": "Yes, professional editing including color correction, transitions, and background music is included in packages."
+    },
+    {
+      "category": "drone_photography",
+      "question": "Do you provide drone photography and videography?",
+      "answer": "Yes, drone services are available for weddings, events, and outdoor cinematic shoots depending on location permissions."
+    },
+    {
+      "category": "booking",
+      "question": "How can I book photography or videography services?",
+      "answer": "You can book through phone call, WhatsApp, or online booking by selecting your preferred package."
+    },
+    {
+      "category": "package_customization",
+      "question": "Can I customize photography and videography packages?",
+      "answer": "Yes, packages can be customized based on event type, duration, and specific requirements."
+    },
+    {
+      "category": "delivery_time",
+      "question": "How long does it take to deliver photos and videos?",
+      "answer": "Delivery time depends on the project, usually ranging from a few days to a few weeks."
+    },
+    {
+      "category": "raw_files",
+      "question": "Do you provide raw photos and videos?",
+      "answer": "Raw files may be provided upon request depending on the package selected."
+    },
+    {
+      "category": "equipment_quality",
+      "question": "What equipment do you use for photography and videography?",
+      "answer": "We use professional cameras, lighting equipment, drones, and high-quality editing software."
+    },
+    {
+      "category": "home_service",
+      "question": "Do you offer on-location photography services?",
+      "answer": "Yes, we provide outdoor and on-location shoots based on client requirements."
+    },
+    {
+      "category": "pricing",
+      "question": "How much do photography and videography services cost?",
+      "answer": "Pricing depends on event type, duration, package, and editing requirements."
+    },
+    {
+      "category": "team_experience",
+      "question": "Are your photographers and videographers experienced?",
+      "answer": "Yes, our team consists of experienced professionals in photography and cinematic videography."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get a consultation before booking a package?",
+      "answer": "Yes, we offer consultation to understand your requirements and suggest the best package."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "equipment_overview",
+      "question": "What photography equipment do you use in your studio?",
+      "answer": "We use high-resolution DSLR/mirrorless cameras, professional lighting setups, softboxes, reflectors, and backdrops for quality photography."
+    },
+    {
+      "category": "camera_quality",
+      "question": "What type of cameras are used for shoots?",
+      "answer": "We use professional DSLR and mirrorless cameras that deliver high-quality, sharp, and detailed images."
+    },
+    {
+      "category": "lighting_setup",
+      "question": "What lighting equipment is used in the studio?",
+      "answer": "We use studio-grade LED lights, softboxes, ring lights, and flash systems for perfect lighting control."
+    },
+    {
+      "category": "backdrop_options",
+      "question": "Do you have different backdrop options for photoshoots?",
+      "answer": "Yes, we offer multiple backdrop themes including plain, artistic, bridal, and customized setups."
+    },
+    {
+      "category": "photo_quality",
+      "question": "What quality can I expect from studio photos?",
+      "answer": "We provide high-resolution, professionally edited, and color-corrected images suitable for prints and digital use."
+    },
+    {
+      "category": "editing_process",
+      "question": "Do you edit the photos after the shoot?",
+      "answer": "Yes, we provide professional retouching, color correction, and enhancement for selected photos."
+    },
+    {
+      "category": "equipment_upkeep",
+      "question": "Is your equipment regularly maintained?",
+      "answer": "Yes, all equipment is regularly checked and maintained to ensure consistent high-quality output."
+    },
+    {
+      "category": "video_quality",
+      "question": "Do you also provide video recording services?",
+      "answer": "Yes, we offer HD and 4K video recording for events, shoots, and special occasions."
+    },
+    {
+      "category": "studio_environment",
+      "question": "Is the studio environment professional and controlled?",
+      "answer": "Yes, our studio is fully controlled for lighting, background, and sound to ensure professional results."
+    },
+    {
+      "category": "photographer_experience",
+      "question": "Are the photographers experienced?",
+      "answer": "Yes, our photographers are trained professionals with experience in studio, fashion, and event photography."
+    },
+    {
+      "category": "equipment_safety",
+      "question": "Is your equipment safe to use during shoots?",
+      "answer": "Yes, all equipment is safely installed and operated by trained professionals."
+    },
+    {
+      "category": "custom_setup",
+      "question": "Can I request custom studio setups?",
+      "answer": "Yes, we can create customized setups based on your theme, occasion, or preferences."
+    },
+    {
+      "category": "print_quality",
+      "question": "Do you provide printed photos?",
+      "answer": "Yes, we provide high-quality photo prints in various sizes upon request."
+    },
+    {
+      "category": "file_format",
+      "question": "In what format will I receive my photos?",
+      "answer": "Photos are usually delivered in high-resolution JPEG or PNG formats, and videos in MP4 format."
+    },
+    {
+      "category": "quality_assurance",
+      "question": "How do you ensure photography quality?",
+      "answer": "We use professional equipment, skilled photographers, and proper editing techniques to ensure top-quality results."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "cancellation_policy_overview",
+      "question": "What is your cancellation policy for studio and photography bookings?",
+      "answer": "Cancellation policies vary by package, but generally advance notice is required to avoid cancellation charges."
+    },
+    {
+      "category": "advance_cancellation",
+      "question": "How early should I cancel my photography booking?",
+      "answer": "It is recommended to cancel at least 24 to 72 hours in advance depending on the package."
+    },
+    {
+      "category": "cancellation_charges",
+      "question": "Are there any cancellation charges?",
+      "answer": "Yes, cancellation charges may apply if the booking is cancelled after the allowed time period or on the same day."
+    },
+    {
+      "category": "reschedule_option",
+      "question": "Can I reschedule my photography session instead of cancelling?",
+      "answer": "Yes, rescheduling is allowed based on availability and prior notice."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Will I get a refund if I cancel my booking?",
+      "answer": "Refund eligibility depends on the timing of cancellation and the terms of the selected package."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Is advance payment refundable?",
+      "answer": "Advance payment may be partially or fully non-refundable depending on the cancellation timing and studio policy."
+    },
+    {
+      "category": "emergency_cancellation",
+      "question": "What if I need to cancel due to an emergency?",
+      "answer": "In genuine emergencies, the studio may allow rescheduling or partial refund upon review."
+    },
+    {
+      "category": "no_show_policy",
+      "question": "What happens if I do not show up for my session?",
+      "answer": "No-shows are generally non-refundable and may result in full booking charges."
+    },
+    {
+      "category": "event_based_bookings",
+      "question": "Do cancellation rules differ for wedding or event shoots?",
+      "answer": "Yes, wedding and event shoots usually have stricter cancellation policies due to scheduling and resource allocation."
+    },
+    {
+      "category": "weather_delay",
+      "question": "What happens if outdoor shoots are affected by weather?",
+      "answer": "Outdoor shoots may be rescheduled without extra charges if weather conditions are unsuitable."
+    },
+    {
+      "category": "partial_cancellation",
+      "question": "Can I cancel only part of my photography package?",
+      "answer": "Partial cancellation may be allowed depending on the services included in the package."
+    },
+    {
+      "category": "studio_policy",
+      "question": "Do studio and outdoor shoots have different cancellation rules?",
+      "answer": "Yes, studio and outdoor sessions may have different cancellation and rescheduling policies."
+    },
+    {
+      "category": "contact_support",
+      "question": "Who should I contact for cancellation or rescheduling?",
+      "answer": "You should contact the studio or photography team via phone or WhatsApp for any changes."
+    },
+    {
+      "category": "last_minute_changes",
+      "question": "Can I make last-minute changes to my booking?",
+      "answer": "Last-minute changes are subject to availability and may incur additional charges."
+    },
+    {
+      "category": "policy_acceptance",
+      "question": "Do I need to agree to cancellation policies before booking?",
+      "answer": "Yes, all customers must agree to the cancellation and refund policy before confirming a booking."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "album_overview",
+      "question": "What types of photo albums do you offer?",
+      "answer": "We offer wedding albums, studio portrait albums, event albums, premium photo books, and custom-designed albums."
+    },
+    {
+      "category": "custom_album",
+      "question": "Can I customize my photo album design?",
+      "answer": "Yes, you can fully customize layout, cover design, photo selection, and theme based on your preference."
+    },
+    {
+      "category": "album_quality",
+      "question": "What is the quality of your photo albums?",
+      "answer": "We use high-quality printing materials with durable pages and premium finishing for long-lasting albums."
+    },
+    {
+      "category": "photo_prints",
+      "question": "Do you provide photo printing services?",
+      "answer": "Yes, we provide professional photo printing in various sizes, finishes, and formats."
+    },
+    {
+      "category": "print_sizes",
+      "question": "What sizes of photo prints are available?",
+      "answer": "We offer standard sizes like passport, 4x6, 5x7, 8x10, and custom large-format prints."
+    },
+    {
+      "category": "digital_to_print",
+      "question": "Can I print photos from digital files or mobile?",
+      "answer": "Yes, you can send digital images from your mobile, email, or USB for printing."
+    },
+    {
+      "category": "editing_services",
+      "question": "Do you provide photo editing before printing?",
+      "answer": "Yes, basic retouching, color correction, and enhancements are available before printing."
+    },
+    {
+      "category": "wedding_album",
+      "question": "Do you design wedding albums?",
+      "answer": "Yes, we specialize in creative wedding album designs with storytelling layouts."
+    },
+    {
+      "category": "turnaround_time",
+      "question": "How long does it take to complete an album or print order?",
+      "answer": "Delivery time depends on design complexity, usually ranging from a few days to a couple of weeks."
+    },
+    {
+      "category": "photo_quality",
+      "question": "Will printed photos match digital quality?",
+      "answer": "Yes, we use high-resolution printing to ensure sharp and vibrant photo quality."
+    },
+    {
+      "category": "bulk_printing",
+      "question": "Do you offer bulk photo printing for events?",
+      "answer": "Yes, we provide bulk printing services for weddings, functions, and corporate events."
+    },
+    {
+      "category": "frame_options",
+      "question": "Do you offer photo frames along with prints?",
+      "answer": "Yes, we provide a variety of photo frames including wooden, acrylic, and designer frames."
+    },
+    {
+      "category": "pricing",
+      "question": "How much do albums and prints cost?",
+      "answer": "Pricing depends on size, design, print type, and customization requirements."
+    },
+    {
+      "category": "digital_copy",
+      "question": "Will I receive a digital copy of my album?",
+      "answer": "Yes, digital copies of album designs can be provided upon request."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I consult before designing my album?",
+      "answer": "Yes, we offer consultation to help you choose the best design and print options."
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "faqs": [
+    {
+      "category": "company_overview",
+      "questions": [
+        "Do you provide event management services?",
+        "What events do you organize?",
+        "Is this an event management company?",
+        "What services do you offer?"
+      ],
+      "answer": "Yes, we provide complete event management services for weddings, birthdays, corporate events, parties, stage shows, and special occasions."
+    },
+    {
+      "category": "wedding_events",
+      "questions": [
+        "Do you manage weddings?",
+        "Wedding planning available?",
+        "Can you arrange wedding decoration?",
+        "Do you provide full wedding management?"
+      ],
+      "answer": "Yes, we provide complete wedding planning, decoration, stage setup, catering coordination, entertainment, and guest management services."
+    },
+    {
+      "category": "birthday_events",
+      "questions": [
+        "Do you organize birthday parties?",
+        "Birthday decoration available?",
+        "Kids birthday event management available?",
+        "Can you arrange birthday themes?"
+      ],
+      "answer": "Yes, we organize birthday parties with theme decoration, balloon setup, entertainment, photography, cake arrangements, and return gifts."
+    },
+    {
+      "category": "corporate_events",
+      "questions": [
+        "Do you manage corporate events?",
+        "Office event management available?",
+        "Conference setup available?",
+        "Corporate party arrangement available?"
+      ],
+      "answer": "Yes, we handle conferences, seminars, office celebrations, product launches, team events, and corporate parties."
+    },
+    {
+      "category": "stage_decoration",
+      "questions": [
+        "Do you provide stage decoration?",
+        "Event stage setup available?",
+        "Floral decoration available?",
+        "Theme decoration available?"
+      ],
+      "answer": "Yes, we provide customized stage decoration, floral arrangements, lighting, entrance setup, and theme-based event decoration."
+    },
+    {
+      "category": "sound_lighting",
+      "questions": [
+        "Do you provide sound systems?",
+        "DJ setup available?",
+        "Lighting arrangements available?",
+        "Music system available?"
+      ],
+      "answer": "Yes, we provide sound systems, DJ setups, stage lighting, LED walls, microphones, and special effects."
+    },
+    {
+      "category": "photography_videography",
+      "questions": [
+        "Photography service available?",
+        "Videography available?",
+        "Wedding photography available?",
+        "Drone shoot available?"
+      ],
+      "answer": "Yes, we provide professional photography, videography, candid shoots, drone coverage, and live streaming services."
+    },
+    {
+      "category": "catering_support",
+      "questions": [
+        "Do you arrange catering?",
+        "Food service available?",
+        "Buffet arrangement available?",
+        "Can you arrange catering service?"
+      ],
+      "answer": "Yes, catering services can be arranged with customized menus for all types of events."
+    },
+    {
+      "category": "venue_booking",
+      "questions": [
+        "Can you help with venue booking?",
+        "Event hall booking available?",
+        "Wedding hall arrangement available?",
+        "Party venue booking available?"
+      ],
+      "answer": "Yes, we assist with venue selection and booking based on event type, budget, and guest count."
+    },
+    {
+      "category": "theme_events",
+      "questions": [
+        "Do you organize theme events?",
+        "Customized theme party available?",
+        "Theme decoration available?",
+        "Can you arrange creative event themes?"
+      ],
+      "answer": "Yes, we provide customized theme events for birthdays, weddings, baby showers, anniversaries, and corporate functions."
+    },
+    {
+      "category": "entertainment_services",
+      "questions": [
+        "Entertainment arrangements available?",
+        "Can you arrange live music?",
+        "Dance performance available?",
+        "Anchor service available?"
+      ],
+      "answer": "Yes, we can arrange DJs, live bands, dancers, anchors, celebrity appearances, and entertainment programs."
+    },
+    {
+      "category": "budget_planning",
+      "questions": [
+        "Can events be planned within budget?",
+        "Budget-friendly event management available?",
+        "Affordable packages available?",
+        "Customized event packages available?"
+      ],
+      "answer": "Yes, we offer customizable event packages suitable for different budgets and requirements."
+    },
+    {
+      "category": "booking_process",
+      "questions": [
+        "How can I book an event?",
+        "How do I confirm booking?",
+        "Advance booking available?",
+        "How early should I book?"
+      ],
+      "answer": "You can contact us via phone, WhatsApp, or direct visit to discuss your event and confirm the booking."
+    },
+    {
+      "category": "advance_payment",
+      "questions": [
+        "Is advance payment required?",
+        "Booking advance needed?",
+        "Can I pay in installments?",
+        "What are the payment terms?"
+      ],
+      "answer": "Yes, advance payment is usually required to confirm bookings and event arrangements."
+    },
+    {
+      "category": "event_customization",
+      "questions": [
+        "Can I customize my event?",
+        "Customized decoration available?",
+        "Can I select my own theme?",
+        "Can arrangements be modified?"
+      ],
+      "answer": "Yes, all event arrangements can be customized according to your preferences and requirements."
+    },
+    {
+      "category": "guest_management",
+      "questions": [
+        "Do you manage guests?",
+        "Guest coordination available?",
+        "Invitation management available?",
+        "Reception support available?"
+      ],
+      "answer": "Yes, we provide guest coordination, reception support, seating arrangements, and hospitality services."
+    },
+    {
+      "category": "outdoor_events",
+      "questions": [
+        "Do you organize outdoor events?",
+        "Beach wedding available?",
+        "Outdoor stage setup available?",
+        "Destination events available?"
+      ],
+      "answer": "Yes, we organize outdoor events, destination weddings, beach events, and open-air celebrations."
+    },
+    {
+      "category": "offers_discount",
+      "questions": [
+        "Any offers available?",
+        "Discount packages available?",
+        "Seasonal offers available?",
+        "Festival event offers available?"
+      ],
+      "answer": "Yes, special offers and seasonal discounts may be available for selected event packages."
+    },
+    {
+      "category": "contact_support",
+      "questions": [
+        "How can I contact you?",
+        "WhatsApp number available?",
+        "Can I get your location?",
+        "How do I reach your office?"
+      ],
+      "answer": "You can contact us through phone, WhatsApp, social media, or by visiting our office directly."
+    }
+  ]
+}

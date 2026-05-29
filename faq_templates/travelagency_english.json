@@ -1,0 +1,174 @@
+{
+  "faqs": [
+    {
+      "category": "travel_agency_overview",
+      "question": "What services does your travel agency provide?",
+      "answer": "We provide tour packages, flight booking, hotel booking, visa assistance, holiday planning, transportation, and travel support services."
+    },
+    {
+      "category": "domestic_travel",
+      "question": "Do you provide domestic tour packages?",
+      "answer": "Yes, we provide domestic tour packages to various destinations."
+    },
+    {
+      "category": "international_travel",
+      "question": "Do you offer international tour packages?",
+      "answer": "Yes, international holiday and tour packages are available."
+    },
+    {
+      "category": "honeymoon_packages",
+      "question": "Do you provide honeymoon packages?",
+      "answer": "Yes, customized honeymoon packages are available for multiple destinations."
+    },
+    {
+      "category": "family_packages",
+      "question": "Do you provide family tour packages?",
+      "answer": "Yes, family-friendly travel packages are available."
+    },
+    {
+      "category": "group_tours",
+      "question": "Do you arrange group tours?",
+      "answer": "Yes, we organize group tours for families, friends, schools, and companies."
+    },
+    {
+      "category": "corporate_travel",
+      "question": "Do you provide corporate travel services?",
+      "answer": "Yes, we provide corporate travel planning and booking services."
+    },
+    {
+      "category": "flight_booking",
+      "question": "Can you help with flight ticket booking?",
+      "answer": "Yes, domestic and international flight tickets can be booked through us."
+    },
+    {
+      "category": "train_booking",
+      "question": "Do you provide train ticket booking?",
+      "answer": "Yes, train ticket booking assistance may be available."
+    },
+    {
+      "category": "bus_booking",
+      "question": "Can I book bus tickets through your agency?",
+      "answer": "Yes, bus ticket booking services are available."
+    },
+    {
+      "category": "hotel_booking",
+      "question": "Do you arrange hotel bookings?",
+      "answer": "Yes, hotel and resort bookings can be arranged based on your budget and preferences."
+    },
+    {
+      "category": "visa_assistance",
+      "question": "Do you provide visa assistance?",
+      "answer": "Yes, visa application and documentation assistance are available."
+    },
+    {
+      "category": "passport_services",
+      "question": "Do you help with passport services?",
+      "answer": "Yes, passport application and renewal guidance may be provided."
+    },
+    {
+      "category": "travel_insurance",
+      "question": "Do you provide travel insurance?",
+      "answer": "Yes, travel insurance options are available for domestic and international trips."
+    },
+    {
+      "category": "custom_packages",
+      "question": "Can travel packages be customized?",
+      "answer": "Yes, travel packages can be customized according to your budget and travel preferences."
+    },
+    {
+      "category": "package_inclusions",
+      "question": "What is included in tour packages?",
+      "answer": "Packages may include transportation, accommodation, sightseeing, meals, and travel assistance."
+    },
+    {
+      "category": "package_exclusions",
+      "question": "What is not included in tour packages?",
+      "answer": "Personal expenses, extra activities, and certain entry tickets may not be included."
+    },
+    {
+      "category": "booking_process",
+      "question": "How can I book a travel package?",
+      "answer": "Bookings can be made through phone, WhatsApp, website, or direct office visit."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Is advance payment required for booking?",
+      "answer": "Yes, advance payment may be required to confirm bookings."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "We accept cash, cards, UPI, bank transfer, and online payments."
+    },
+    {
+      "category": "emi_option",
+      "question": "Do you provide EMI payment options?",
+      "answer": "EMI options may be available for selected tour packages."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Can I cancel my booking?",
+      "answer": "Yes, cancellations are allowed according to the cancellation policy."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Will I get a refund after cancellation?",
+      "answer": "Refund eligibility depends on package terms and cancellation timing."
+    },
+    {
+      "category": "rescheduling",
+      "question": "Can I reschedule my trip?",
+      "answer": "Yes, rescheduling may be possible depending on availability and supplier policies."
+    },
+    {
+      "category": "travel_guides",
+      "question": "Do you provide tour guides?",
+      "answer": "Yes, tour guide services may be included for selected packages."
+    },
+    {
+      "category": "pickup_drop",
+      "question": "Do you provide pickup and drop services?",
+      "answer": "Yes, pickup and drop services may be available."
+    },
+    {
+      "category": "vehicle_services",
+      "question": "Do you arrange vehicles for sightseeing?",
+      "answer": "Yes, cars, vans, and buses can be arranged for travel and sightseeing."
+    },
+    {
+      "category": "international_support",
+      "question": "Will I get support during international travel?",
+      "answer": "Yes, customer support assistance is available during travel."
+    },
+    {
+      "category": "student_tours",
+      "question": "Do you arrange student tours?",
+      "answer": "Yes, educational and student tour packages are available."
+    },
+    {
+      "category": "adventure_trips",
+      "question": "Do you offer adventure trip packages?",
+      "answer": "Yes, trekking, camping, and adventure tour packages are available."
+    },
+    {
+      "category": "seasonal_offers",
+      "question": "Do you provide seasonal offers or discounts?",
+      "answer": "Yes, discounts and special offers may be available during selected seasons."
+    },
+    {
+      "category": "best_time_booking",
+      "question": "When should I book my trip?",
+      "answer": "It is recommended to book early for better pricing and availability."
+    },
+    {
+      "category": "travel_documents",
+      "question": "What documents are required for travel?",
+      "answer": "Required documents may include ID proof, passport, visa, tickets, and other travel documents."
+    },
+    {
+      "category": "customer_support",
+      "question": "How can I contact the travel agency?",
+      "answer": "You can contact us through phone, WhatsApp, email, or office visit."
+    }
+  ]
+}

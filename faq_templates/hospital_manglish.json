@@ -1,0 +1,904 @@
+{
+  "faqs": [
+    {
+      "category": "hospital_location",
+      "question": "Hospital evide aanu located?",
+      "answer": "Hospital easy access area-il aanu located, exact address Google Maps allenkil reception-il ninnu kittum."
+    },
+    {
+      "category": "google_maps",
+      "question": "Hospital Google Maps-il available aano?",
+      "answer": "Yes, hospital location Google Maps-il search cheythu easily kandupidikkam."
+    },
+    {
+      "category": "directions_help",
+      "question": "Hospital-il ethra easy aayi reach cheyyam?",
+      "answer": "Google Maps link, WhatsApp location, allenkil call cheythu directions ariyam."
+    },
+    {
+      "category": "nearest_landmark",
+      "question": "Hospital-ne nearest landmark enthaanu?",
+      "answer": "Nearby famous building, junction, allenkil bus stop reference aayi hospital kandupidikkam."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Hospital-il parking facility undo?",
+      "answer": "Yes, patients and visitors-inu parking facility available aanu."
+    },
+    {
+      "category": "public_transport",
+      "question": "Public transport use cheythu hospital-il varan pattumo?",
+      "answer": "Yes, bus, metro, taxi, and auto services use cheythu easily reach cheyyam."
+    },
+    {
+      "category": "emergency_route",
+      "question": "Emergency entrance evide aanu?",
+      "answer": "Emergency department separate entrance-il aayirikkum, hospital staff guide cheyyum."
+    },
+    {
+      "category": "nearest_bus_stop",
+      "question": "Nearest bus stop evide aanu?",
+      "answer": "Hospital-ne nearest bus stop details reception allenkil Google Maps-il check cheyyam."
+    },
+    {
+      "category": "nearest_metro",
+      "question": "Nearest metro station undo?",
+      "answer": "Yes, nearby metro station details location support-il ninnu ariyam."
+    },
+    {
+      "category": "wheelchair_access",
+      "question": "Wheelchair accessibility available aano?",
+      "answer": "Yes, wheelchair access and patient support facilities available aanu."
+    },
+    {
+      "category": "branch_locations",
+      "question": "Hospital-inu multiple branches undo?",
+      "answer": "Yes, some hospitals multiple branch locations maintain cheyyunnu."
+    },
+    {
+      "category": "location_support",
+      "question": "Location kandupidikkan support kittumo?",
+      "answer": "Yes, reception team call allenkil WhatsApp vazhi location support provide cheyyum."
+    },
+    {
+      "category": "distance_check",
+      "question": "Hospital ethra distance-il aanu ennu ariyam?",
+      "answer": "Google Maps use cheythu travel distance and time easily check cheyyam."
+    },
+    {
+      "category": "24x7_access",
+      "question": "Hospital 24/7 accessible aano?",
+      "answer": "Yes, emergency services usually 24/7 available aanu."
+    },
+    {
+      "category": "contact_for_direction",
+      "question": "Direction doubt undengil aarodu contact cheyyam?",
+      "answer": "Reception allenkil hospital helpline-il contact cheythu full directions ariyam."
+    },
+    {
+      "category": "visiting_hours",
+      "question": "Hospital visiting hours enthaanu?",
+      "answer": "Usually hospital visiting hours morning and evening fixed timing-il aayirikkum, hospital policy depend cheyyum."
+    },
+    {
+      "category": "visitor_limit",
+      "question": "Oru patient-ne ethra visitors allow cheyyum?",
+      "answer": "Normally 1 or 2 visitors mathram same time-il allow cheyyum."
+    },
+    {
+      "category": "icu_visiting",
+      "question": "ICU visiting hours different aano?",
+      "answer": "Yes, ICU visiting hours strict and limited timing-il aayirikkum."
+    },
+    {
+      "category": "children_visitors",
+      "question": "Kids-ne visitors aayi kondu varan pattumo?",
+      "answer": "Hospital policy anusarich children visitors restrict cheyyam."
+    },
+    {
+      "category": "visitor_pass",
+      "question": "Visitor pass venamo?",
+      "answer": "Yes, some hospitals visitor pass or ID verification require cheyyum."
+    },
+    {
+      "category": "covid_policy",
+      "question": "Mask and safety rules follow cheyyanamo?",
+      "answer": "Yes, hygiene and safety policies strictly follow cheyyanam."
+    },
+    {
+      "category": "food_policy",
+      "question": "Outside food patient-inu kondu varan pattumo?",
+      "answer": "Doctor permission and hospital policy anusarich mathram outside food allow cheyyum."
+    },
+    {
+      "category": "night_visits",
+      "question": "Night visiting allowed aano?",
+      "answer": "Usually night visiting restricted aanu except special cases."
+    },
+    {
+      "category": "attender_policy",
+      "question": "Patient-inu attender stay cheyyan pattumo?",
+      "answer": "Yes, some wards-il one attender stay cheyyan allow cheyyum."
+    },
+    {
+      "category": "emergency_visits",
+      "question": "Emergency case-il visiting rules different aano?",
+      "answer": "Yes, emergency situations-il special permission provide cheyyam."
+    },
+    {
+      "category": "mobile_policy",
+      "question": "Mobile phone use cheyyan pattumo hospital-il?",
+      "answer": "Some areas-il silent mode maintain cheyyanam and ICU-il restriction undavum."
+    },
+    {
+      "category": "visitor_behavior",
+      "question": "Visitors follow cheyyenda rules enthellam?",
+      "answer": "Silence maintain cheyyuka, hygiene follow cheyyuka, and staff instructions obey cheyyuka."
+    },
+    {
+      "category": "flowers_gifts",
+      "question": "Flowers or gifts kondu varan pattumo?",
+      "answer": "Some hospitals flowers restrict cheyyum, policy anusarich confirm cheyyanam."
+    },
+    {
+      "category": "waiting_area",
+      "question": "Visitors waiting area available aano?",
+      "answer": "Yes, most hospitals-il visitor waiting areas available aanu."
+    },
+    {
+      "category": "policy_changes",
+      "question": "Hospital visiting policy change aavumo?",
+      "answer": "Yes, emergencies, infection control, or management rules anusarich policy change aavum."
+    },
+    {
+      "category": "emergency_overview",
+      "question": "Hospital emergency service available aano?",
+      "answer": "Yes, most hospitals-il 24/7 emergency service available aanu."
+    },
+    {
+      "category": "emergency_timing",
+      "question": "Emergency department eppozha open aavunnath?",
+      "answer": "Emergency department 24 hours, 7 days a week open aayirikkum."
+    },
+    {
+      "category": "ambulance",
+      "question": "Ambulance service kittumo emergency case-il?",
+      "answer": "Yes, ambulance service available aanu emergency situations-inu."
+    },
+    {
+      "category": "walk_in_emergency",
+      "question": "Emergency case-il direct hospital-il varan pattumo?",
+      "answer": "Yes, walk-in emergency cases anytime hospital-il admit cheyyam."
+    },
+    {
+      "category": "contact_emergency",
+      "question": "Emergency number evide kittum?",
+      "answer": "Hospital official website, reception, or helpline number vazhi emergency contact kittum."
+    },
+    {
+      "category": "serious_cases",
+      "question": "Which cases are treated as emergency?",
+      "answer": "Accidents, chest pain, breathing difficulty, severe bleeding, unconscious situations ellam emergency aanu."
+    },
+    {
+      "category": "waiting_time",
+      "question": "Emergency department-il waiting time undavumo?",
+      "answer": "Yes, priority basis-il treatment kodukkum, pakshe severity depend cheythu waiting time vary cheyyam."
+    },
+    {
+      "category": "insurance_emergency",
+      "question": "Emergency treatment-inu insurance apply aavumo?",
+      "answer": "Yes, most hospital insurance policies emergency treatment cover cheyyum."
+    },
+    {
+      "category": "specialists",
+      "question": "Emergency-il specialist doctors available aano?",
+      "answer": "Yes, on-call specialists and emergency doctors available aanu."
+    },
+    {
+      "category": "icu_availability",
+      "question": "ICU emergency cases-inu available aano?",
+      "answer": "Yes, critical patients-inu ICU facility available aanu."
+    },
+    {
+      "category": "payment",
+      "question": "Emergency treatment-inu immediate payment venamo?",
+      "answer": "Some hospitals upfront deposit ask cheyyam, insurance cases-il later settlement possible aanu."
+    },
+    {
+      "category": "transfer",
+      "question": "Emergency case-il vere hospital-il transfer cheyyumo?",
+      "answer": "Yes, required aanenkil ambulance transfer arrange cheyyum."
+    },
+    {
+      "category": "child_emergency",
+      "question": "Kids emergency care available aano?",
+      "answer": "Yes, pediatric emergency care separate aayi available aanu."
+    },
+    {
+      "category": "support_staff",
+      "question": "Emergency time-il staff support kittumo?",
+      "answer": "Yes, trained nurses and emergency staff always available aanu."
+    },
+    {
+      "category": "followup",
+      "question": "Emergency treatment kazhinjal follow-up venamo?",
+      "answer": "Yes, doctor advice anusarich follow-up consultation venam."
+    },
+    {
+      "category": "opd_overview",
+      "question": "Hospital OPD timing enthaanu?",
+      "answer": "Hospital OPD usually morning 9 AM muthal afternoon 1 PM vareyum, evening 5 PM muthal 7 PM vareyum aayirikkum, hospital depend cheyyum."
+    },
+    {
+      "category": "doctor_schedule",
+      "question": "Doctor schedule engane ariyam?",
+      "answer": "Doctor availability schedule hospital reception, website, or WhatsApp updates vazhi ariyam."
+    },
+    {
+      "category": "specialist_timing",
+      "question": "Specialist doctors eppozha available aavum?",
+      "answer": "Specialist doctors fixed days-il mathram available aavum, advance booking venam."
+    },
+    {
+      "category": "appointment_booking",
+      "question": "OPD appointment book cheyyan pattumo?",
+      "answer": "Yes, phone call, online booking, or hospital counter vazhi OPD appointment book cheyyam."
+    },
+    {
+      "category": "walk_in_opd",
+      "question": "Walk-in OPD consultation available aano?",
+      "answer": "Yes, walk-in available aanu but waiting time undavum crowd depend cheyyum."
+    },
+    {
+      "category": "emergency_opd",
+      "question": "Emergency OPD service available aano?",
+      "answer": "Yes, 24/7 emergency department available aanu separate aayi OPD-il ninnu."
+    },
+    {
+      "category": "doctor_availability_changes",
+      "question": "Doctor schedule change aavumo?",
+      "answer": "Yes, emergency duty, leave, or hospital requirement anusarich schedule change aavum."
+    },
+    {
+      "category": "consultation_time",
+      "question": "Doctor consultation ethra neram edukum?",
+      "answer": "Usually 5 muthal 15 minutes vare consultation time aavum case depend cheyyum."
+    },
+    {
+      "category": "special_days",
+      "question": "Weekend-il OPD open aavumo?",
+      "answer": "Some hospitals-il weekend OPD open aavum, pakshe limited doctors mathram."
+    },
+    {
+      "category": "report_time",
+      "question": "Reports entha neram kittum?",
+      "answer": "Lab test reports 2 hours muthal next day vare time edukkam test depend cheyyum."
+    },
+    {
+      "category": "follow_up",
+      "question": "Follow-up consultation timing engane decide cheyyum?",
+      "answer": "Doctor advise anusarich follow-up appointment schedule cheyyum."
+    },
+    {
+      "category": "multiple_departments",
+      "question": "Same day multiple departments consult cheyyan pattumo?",
+      "answer": "Yes, availability undengil multiple departments same day consult cheyyam."
+    },
+    {
+      "category": "booking_confirmation",
+      "question": "Appointment confirm aayennu engane ariyam?",
+      "answer": "SMS, call, or hospital system confirmation vazhi ariyam."
+    },
+    {
+      "category": "waiting_time",
+      "question": "OPD-il waiting time ethra aavum?",
+      "answer": "Crowd anusarich waiting time vary cheyyum, usually 10 muthal 60 minutes vare."
+    },
+    {
+      "category": "consultation_fee",
+      "question": "OPD consultation fee ethra aanu?",
+      "answer": "Doctor category and hospital anusarich consultation fee vary cheyyum."
+    },
+    {
+      "category": "appointment_overview",
+      "question": "Hospital appointment book cheyyan engane start cheyyam?",
+      "answer": "Hospital appointment book cheyyan reception, phone call, website, allenkil hospital app use cheyyam."
+    },
+    {
+      "category": "online_booking",
+      "question": "Online hospital appointment book cheyyan pattumo?",
+      "answer": "Yes, hospital website or app vazhi online booking facility available aanu."
+    },
+    {
+      "category": "walk_in",
+      "question": "Walk-in consultation kittumo hospital-il?",
+      "answer": "Yes, walk-in patients accept cheyyum, pakshe waiting time kooduthal aayirikkam."
+    },
+    {
+      "category": "appointment_confirmation",
+      "question": "Appointment confirm aayennu engane ariyam?",
+      "answer": "SMS, email, or phone call vazhi appointment confirmation varum."
+    },
+    {
+      "category": "documents_required",
+      "question": "Appointment book cheyyan entha documents venam?",
+      "answer": "Basic details like name, age, phone number, and ID proof venam aayirikkam."
+    },
+    {
+      "category": "reschedule",
+      "question": "Appointment reschedule cheyyan pattumo?",
+      "answer": "Yes, hospital policies anusarich advance notice koduthal reschedule cheyyam."
+    },
+    {
+      "category": "cancellation",
+      "question": "Appointment cancel cheyyan engane?",
+      "answer": "Phone call, app, allenkil website vazhi appointment cancel cheyyam."
+    },
+    {
+      "category": "doctor_selection",
+      "question": "Doctor choose cheyyan pattumo?",
+      "answer": "Yes, specialist availability anusarich preferred doctor select cheyyam."
+    },
+    {
+      "category": "time_slots",
+      "question": "Appointment slots available time engane aanu?",
+      "answer": "Hospital working hours-il multiple time slots available aayirikkum."
+    },
+    {
+      "category": "waiting_time",
+      "question": "Appointment undengilum waiting varumo?",
+      "answer": "Yes, emergency cases or delays undengil waiting time varam."
+    },
+    {
+      "category": "emergency",
+      "question": "Emergency case-il appointment venamo?",
+      "answer": "Emergency cases direct ER-il consult cheyyam, prior appointment required alla."
+    },
+    {
+      "category": "fees",
+      "question": "Appointment booking fee undo?",
+      "answer": "Some hospitals consultation fee advance aayi collect cheyyum, others consultation time-il collect cheyyum."
+    },
+    {
+      "category": "insurance",
+      "question": "Insurance use cheythu appointment book cheyyan pattumo?",
+      "answer": "Yes, insurance details provide cheythal coverage applicable aavum."
+    },
+    {
+      "category": "reminder",
+      "question": "Appointment reminder varumo?",
+      "answer": "Yes, SMS or call reminder usually appointment munpu varum."
+    },
+    {
+      "category": "support",
+      "question": "Booking related doubts undengil engane contact cheyyam?",
+      "answer": "Hospital helpline number or front desk contact cheyyam for assistance."
+    },
+    {
+      "category": "parking_overview",
+      "question": "Hospital-il parking facility available aano?",
+      "answer": "Yes, majority hospitals-il patients and visitors-inu parking facility available aanu."
+    },
+    {
+      "category": "parking_charges",
+      "question": "Hospital parking-inu charge undo?",
+      "answer": "Some hospitals free parking provide cheyyum, pakshe others-il minimal charge undaayirikkam."
+    },
+    {
+      "category": "parking_space",
+      "question": "Parking space sufficient aano busy time-il?",
+      "answer": "Busy hours-il parking full aakum chance undu, so early varunnath better aanu."
+    },
+    {
+      "category": "emergency_parking",
+      "question": "Emergency patients-inu parking priority kittumo?",
+      "answer": "Yes, emergency cases-inu priority parking or quick drop-off facility available aayirikkum."
+    },
+    {
+      "category": "wheelchair_access",
+      "question": "Wheelchair accessible parking available aano?",
+      "answer": "Yes, disabled patients-inu reserved parking slots usually available aanu."
+    },
+    {
+      "category": "valet_parking",
+      "question": "Valet parking service undo?",
+      "answer": "Some private hospitals-il valet parking service available aayirikkum."
+    },
+    {
+      "category": "parking_safety",
+      "question": "Parking area safe aano?",
+      "answer": "Yes, CCTV surveillance and security staff parking area-il undaayirikkum."
+    },
+    {
+      "category": "two_wheeler_parking",
+      "question": "Two wheeler parking available aano?",
+      "answer": "Yes, bike and scooter parking separate slots-il available aanu."
+    },
+    {
+      "category": "four_wheeler_parking",
+      "question": "Car parking facility undo?",
+      "answer": "Yes, car parking available aanu but availability vary cheyyum hospital size anusarich."
+    },
+    {
+      "category": "parking_timing",
+      "question": "Parking 24/7 available aano?",
+      "answer": "Yes, most hospitals-il 24/7 parking access available aanu."
+    },
+    {
+      "category": "overflow_parking",
+      "question": "Parking full aayal entha cheyyum?",
+      "answer": "Nearby overflow parking area or alternative hospital parking guide cheyyum."
+    },
+    {
+      "category": "staff_parking",
+      "question": "Staff parking separate aano?",
+      "answer": "Yes, hospital staff-inu separate reserved parking area undaayirikkum."
+    },
+    {
+      "category": "visitor_parking_time_limit",
+      "question": "Visitor parking time limit undo?",
+      "answer": "Some hospitals-il time limit apply cheyyum peak hours-il."
+    },
+    {
+      "category": "parking_directions",
+      "question": "Parking area engane kandupidikkam?",
+      "answer": "Hospital sign boards, security staff, or Google Maps guidance use cheythu easily find cheyyam."
+    },
+    {
+      "category": "drop_off_zone",
+      "question": "Drop-off zone available aano?",
+      "answer": "Yes, patients-inu quick drop-off and pick-up zone usually available aanu entrance near."
+    },
+    {
+      "category": "ambulance_overview",
+      "question": "Hospital ambulance service enthaanu?",
+      "answer": "Hospital ambulance service emergency situations-il patient-ne safe aayi hospital-il kondu pokan use cheyyunna medical transport service aanu."
+    },
+    {
+      "category": "ambulance_availability",
+      "question": "Ambulance 24/7 available aano?",
+      "answer": "Yes, most hospitals-il ambulance service 24/7 available aanu emergency cases-inu."
+    },
+    {
+      "category": "ambulance_booking",
+      "question": "Ambulance book cheyyan engane contact cheyyam?",
+      "answer": "Hospital emergency number-il call cheythu immediate ambulance request cheyyam."
+    },
+    {
+      "category": "ambulance_response_time",
+      "question": "Ambulance ethra speed-il varum?",
+      "answer": "Location anusarich response time vary cheyyum, pakshe emergency cases prioritize cheyyum."
+    },
+    {
+      "category": "ambulance_types",
+      "question": "Hospital ambulance types enthellam aanu?",
+      "answer": "Basic ambulance, advanced life support (ALS), and ICU ambulance pole different types available aanu."
+    },
+    {
+      "category": "emergency_cases",
+      "question": "Eppozha ambulance call cheyyanam?",
+      "answer": "Severe accident, chest pain, breathing difficulty, unconsciousness, or serious emergency situations-il ambulance call cheyyanam."
+    },
+    {
+      "category": "ambulance_equipment",
+      "question": "Ambulance-il medical equipment unda?",
+      "answer": "Yes, oxygen support, stretcher, first aid, and life-saving equipment ambulance-il undavum."
+    },
+    {
+      "category": "attendant",
+      "question": "Patient-inu along someone varan pattumo ambulance-il?",
+      "answer": "Yes, one attendant or family member usually accompany cheyyan allow cheyyum."
+    },
+    {
+      "category": "ambulance_cost",
+      "question": "Ambulance service cost ethra aanu?",
+      "answer": "Cost distance, ambulance type, and emergency situation anusarich vary cheyyum."
+    },
+    {
+      "category": "insurance",
+      "question": "Ambulance insurance cover cheyyumo?",
+      "answer": "Some health insurance plans ambulance charges cover cheyyum, policy depend cheyyum."
+    },
+    {
+      "category": "inter_hospital_transfer",
+      "question": "Oru hospital-il ninnu maru hospital-il transfer cheyyan pattumo?",
+      "answer": "Yes, inter-hospital patient transfer ambulance service available aanu."
+    },
+    {
+      "category": "doctor_support",
+      "question": "Ambulance-il doctor or nurse undavumo?",
+      "answer": "Advanced ambulance-il trained paramedics or sometimes nurse support undavum."
+    },
+    {
+      "category": "gps_tracking",
+      "question": "Ambulance track cheyyan pattumo?",
+      "answer": "Some hospitals GPS tracking system use cheythu ambulance status update cheyyum."
+    },
+    {
+      "category": "delay_situation",
+      "question": "Ambulance delay aayal entha cheyyanam?",
+      "answer": "Hospital helpline-il contact cheythu update check cheyyuka or nearest alternative ambulance request cheyyuka."
+    },
+    {
+      "category": "safety",
+      "question": "Ambulance safe aano patient transport-inu?",
+      "answer": "Yes, trained staff and medical equipment use cheythu safe transport ensure cheyyum."
+    },
+    {
+      "category": "hospital_contact_overview",
+      "question": "Hospital contact number engane kittum?",
+      "answer": "Hospital official website, Google Maps listing, allenkil reception desk vazhi contact number kittum."
+    },
+    {
+      "category": "emergency_contact",
+      "question": "Emergency situation-il ethu number-il call cheyyanam?",
+      "answer": "Hospital emergency helpline number-il call cheyyuka, ath usually 24/7 available aayirikkum."
+    },
+    {
+      "category": "support_availability",
+      "question": "Hospital support eppozha available?",
+      "answer": "Most hospitals 24/7 emergency support provide cheyyum, normal support working hours-il available aayirikkum."
+    },
+    {
+      "category": "appointment_contact",
+      "question": "Appointment book cheyyan ethu number use cheyyam?",
+      "answer": "Hospital appointment desk allenkil OPD booking number use cheythu appointment book cheyyam."
+    },
+    {
+      "category": "whatsapp_support",
+      "question": "Hospital WhatsApp support undo?",
+      "answer": "Yes, many hospitals WhatsApp support provide cheyyum for appointment and enquiry."
+    },
+    {
+      "category": "location_contact",
+      "question": "Hospital location doubt undengil contact cheyyan pattumo?",
+      "answer": "Yes, reception call cheythal exact location and directions provide cheyyum."
+    },
+    {
+      "category": "ambulance_service",
+      "question": "Ambulance number hospital-il available aano?",
+      "answer": "Yes, emergency ambulance service number hospital-il available aayirikkum."
+    },
+    {
+      "category": "insurance_support",
+      "question": "Insurance related support kittumo contact cheythal?",
+      "answer": "Yes, insurance desk or billing department contact cheythal support kittum."
+    },
+    {
+      "category": "doctor_consultation",
+      "question": "Doctor consultation-inu contact cheyyan engane?",
+      "answer": "Hospital appointment number call cheythu doctor consultation book cheyyam."
+    },
+    {
+      "category": "helpline_response_time",
+      "question": "Hospital helpline response ethra speed aanu?",
+      "answer": "Emergency calls-inu immediate response kittum, normal enquiries-inu kurachu wait time undavum."
+    },
+    {
+      "category": "multiple_branches",
+      "question": "Hospital-inu multiple branches undengil contact separate aano?",
+      "answer": "Yes, each branch-inu separate contact number undavum."
+    },
+    {
+      "category": "international_patients",
+      "question": "International patients-inu support undo?",
+      "answer": "Yes, many hospitals international patient support desk provide cheyyum."
+    },
+    {
+      "category": "billing_support",
+      "question": "Billing doubts-inu contact cheyyan pattumo?",
+      "answer": "Yes, billing and accounts department contact cheythal help kittum."
+    },
+    {
+      "category": "followup_contact",
+      "question": "Follow-up consultation-inu contact cheyyan engane?",
+      "answer": "Same OPD number or hospital app use cheythu follow-up book cheyyam."
+    },
+    {
+      "category": "general_support",
+      "question": "General hospital enquiry engane cheyyam?",
+      "answer": "Reception desk number call cheythu general enquiries clear cheyyam."
+    },
+    {
+      "category": "appointment_booking_overview",
+      "question": "Hospital appointment engane book cheyyam?",
+      "answer": "Nee phone call cheythu, hospital website use cheythu, mobile app vazhi, allenkil direct hospital reception-il poyi appointment book cheyyam."
+    },
+    {
+      "category": "online_booking",
+      "question": "Online hospital appointment book cheyyan pattumo?",
+      "answer": "Yes, hospital website allenkil official app use cheythu online booking easy ayi cheyyam."
+    },
+    {
+      "category": "phone_booking",
+      "question": "Phone call cheythu appointment book cheyyan pattumo?",
+      "answer": "Yes, hospital reception number-il call cheythu appointment book cheyyam."
+    },
+    {
+      "category": "walk_in",
+      "question": "Walk-in appointment available aano?",
+      "answer": "Yes, walk-in available aanu, pakshe waiting time kooduthal aavum."
+    },
+    {
+      "category": "emergency_booking",
+      "question": "Emergency case-il appointment venam engane cheyyam?",
+      "answer": "Emergency case-il direct casualty department-il poyi immediate treatment kittum."
+    },
+    {
+      "category": "appointment_confirmation",
+      "question": "Appointment confirm aayennu engane ariyam?",
+      "answer": "SMS, WhatsApp, email, allenkil call vazhi confirmation varum."
+    },
+    {
+      "category": "reschedule",
+      "question": "Appointment reschedule cheyyan pattumo?",
+      "answer": "Yes, hospital helpline contact cheythu reschedule cheyyam."
+    },
+    {
+      "category": "cancellation",
+      "question": "Appointment cancel cheyyan engane?",
+      "answer": "Call cheythu allenkil online portal use cheythu cancel cheyyam."
+    },
+    {
+      "category": "documents_required",
+      "question": "Appointment-inu entha documents venam?",
+      "answer": "Usually ID proof and previous medical records (undengil) venam."
+    },
+    {
+      "category": "doctor_selection",
+      "question": "Doctor choose cheyyan pattumo?",
+      "answer": "Yes, available doctors list-il ninnu nee prefer cheyyan pattum."
+    },
+    {
+      "category": "waiting_time",
+      "question": "Appointment kazhinjal waiting time undo?",
+      "answer": "Yes, hospital schedule anusarich waiting time varam."
+    },
+    {
+      "category": "fees",
+      "question": "Appointment booking fee undo?",
+      "answer": "Some hospitals-inu registration fee allenkil consultation fee undavum."
+    },
+    {
+      "category": "followup_booking",
+      "question": "Follow-up appointment book cheyyan pattumo?",
+      "answer": "Yes, doctor recommend cheyyum follow-up date book cheyyam."
+    },
+    {
+      "category": "home_consultation",
+      "question": "Doctor home consultation available aano?",
+      "answer": "Some hospitals home visit consultation service provide cheyyum."
+    },
+    {
+      "category": "support",
+      "question": "Help venamengil engane contact cheyyam?",
+      "answer": "Hospital helpline number, WhatsApp support, or reception desk vazhi help kittum."
+    },
+    {
+      "category": "online_booking_overview",
+      "question": "Hospital appointment online booking engane cheyyam?",
+      "answer": "Hospital website, mobile app, allenkil WhatsApp link use cheythu online appointment easy aayi book cheyyam."
+    },
+    {
+      "category": "registration",
+      "question": "Online booking cheyyan registration venamo?",
+      "answer": "Yes, patient details like name, phone number, and basic information enter cheyyanam booking complete cheyyan."
+    },
+    {
+      "category": "doctor_selection",
+      "question": "Doctor choose cheythu appointment book cheyyan pattumo?",
+      "answer": "Yes, available doctors list-il ninnu nee preferred doctor select cheyyam."
+    },
+    {
+      "category": "time_slot",
+      "question": "Available time slots engane select cheyyam?",
+      "answer": "Online system-il available time slots display cheyyum, athil ninnum convenient time select cheyyam."
+    },
+    {
+      "category": "confirmation",
+      "question": "Booking confirm aayennu engane ariyam?",
+      "answer": "SMS, WhatsApp, allenkil email confirmation immediately varum."
+    },
+    {
+      "category": "cancellation",
+      "question": "Online booked appointment cancel cheyyan pattumo?",
+      "answer": "Yes, app or website vazhi appointment cancel or reschedule cheyyam."
+    },
+    {
+      "category": "reschedule",
+      "question": "Appointment reschedule cheyyan pattumo?",
+      "answer": "Yes, available slots anusarich reschedule option use cheyyam."
+    },
+    {
+      "category": "walk_in",
+      "question": "Online booking illathe walk-in cheyyan pattumo?",
+      "answer": "Yes, pakshe waiting time undavum depending on crowd."
+    },
+    {
+      "category": "emergency_booking",
+      "question": "Emergency case-il online booking venamo?",
+      "answer": "Emergency cases-inu direct hospital visit or emergency helpline call cheyyunnath better aanu."
+    },
+    {
+      "category": "payment",
+      "question": "Online booking-il payment venamo?",
+      "answer": "Some hospitals advance payment require cheyyum, others consultation time-il payment accept cheyyum."
+    },
+    {
+      "category": "reminder",
+      "question": "Appointment reminder varumo?",
+      "answer": "Yes, SMS or WhatsApp reminder usually appointment munpu varum."
+    },
+    {
+      "category": "multiple_doctors",
+      "question": "Same time-il multiple doctor appointment book cheyyan pattumo?",
+      "answer": "Yes, separate slots available undengil multiple bookings cheyyam."
+    },
+    {
+      "category": "report_upload",
+      "question": "Medical reports online upload cheyyan pattumo?",
+      "answer": "Yes, some hospital systems reports upload cheyyan allow cheyyum."
+    },
+    {
+      "category": "support",
+      "question": "Online booking problem varumbo entha cheyyam?",
+      "answer": "Hospital helpline or support team contact cheythu help edukkam."
+    },
+    {
+      "category": "availability",
+      "question": "Online booking 24/7 available aano?",
+      "answer": "Yes, online booking system usually 24/7 available aayirikkum, but doctor availability vary cheyyum."
+    },
+    {
+      "category": "treatment_overview",
+      "question": "Hospital-il enthellam treatment services kittum?",
+      "answer": "General medicine, emergency care, surgery, orthopedics, gynecology, pediatrics, and specialty treatments ellam available aanu."
+    },
+    {
+      "category": "doctor_consultation",
+      "question": "Doctor consultation engane book cheyyam?",
+      "answer": "Phone call, hospital website, app booking, allenkil direct hospital visit cheythu appointment book cheyyam."
+    },
+    {
+      "category": "emergency_care",
+      "question": "Emergency treatment available aano?",
+      "answer": "Yes, 24/7 emergency care and trauma services available aanu."
+    },
+    {
+      "category": "treatment_duration",
+      "question": "Treatment ethra neram edukum?",
+      "answer": "Treatment type depend cheyyum, some procedures minutes, others hours or days edukam."
+    },
+    {
+      "category": "hospital_admission",
+      "question": "Admission eppozha venam?",
+      "answer": "Doctor advice cheyyumbo admission required aavum for advanced treatment or surgery."
+    },
+    {
+      "category": "surgery_services",
+      "question": "Surgery services available aano?",
+      "answer": "Yes, minor and major surgeries experienced doctors-inte supervision-il available aanu."
+    },
+    {
+      "category": "diagnostic_tests",
+      "question": "Tests ellam hospital-il available aano?",
+      "answer": "Yes, blood test, X-ray, MRI, CT scan, and other diagnostic services available aanu."
+    },
+    {
+      "category": "insurance",
+      "question": "Insurance accept cheyyumo?",
+      "answer": "Yes, most hospitals insurance and cashless treatment facilities accept cheyyum."
+    },
+    {
+      "category": "treatment_cost",
+      "question": "Treatment cost ethra aanu?",
+      "answer": "Cost treatment type, room category, and procedures depend cheyyum."
+    },
+    {
+      "category": "followup",
+      "question": "Follow-up consultation venamo?",
+      "answer": "Yes, proper recovery-inu follow-up checkups important aanu."
+    },
+    {
+      "category": "specialists",
+      "question": "Specialist doctors available aano?",
+      "answer": "Yes, different departments-il specialist doctors available aanu."
+    },
+    {
+      "category": "icu_services",
+      "question": "ICU facility undo?",
+      "answer": "Yes, critical patients-inu ICU and intensive care units available aanu."
+    },
+    {
+      "category": "medication",
+      "question": "Hospital medicines provide cheyyumo?",
+      "answer": "Yes, prescription based medicines hospital pharmacy-il available aanu."
+    },
+    {
+      "category": "patient_care",
+      "question": "Patient care services undo?",
+      "answer": "Yes, nursing care, diet support, and recovery assistance available aanu."
+    },
+    {
+      "category": "appointment_wait_time",
+      "question": "Appointment-il waiting time undo?",
+      "answer": "Yes, doctor schedule anusarich waiting time vary cheyyam."
+    },
+    {
+      "category": "insurance_overview",
+      "question": "Hospital insurance enthaanu?",
+      "answer": "Hospital insurance ennu parayunnath medical expenses cover cheyyan insurance company provide cheyyunna plan aanu."
+    },
+    {
+      "category": "insurance_coverage",
+      "question": "Insurance enthellam cover cheyyum?",
+      "answer": "Hospital admission, surgery, room charges, tests, and medicines polulla expenses cover cheyyum, policy depend cheyyum."
+    },
+    {
+      "category": "cashless_treatment",
+      "question": "Cashless treatment available aano?",
+      "answer": "Yes, network hospitals-il cashless treatment available aanu insurance approval undengil."
+    },
+    {
+      "category": "insurance_cards",
+      "question": "Insurance card hospital-il use cheyyan pattumo?",
+      "answer": "Yes, insurance card submit cheythal claim process start cheyyan pattum."
+    },
+    {
+      "category": "pre_approval",
+      "question": "Treatment munpu approval venamo?",
+      "answer": "Yes, most cases-il insurance company pre-authorization venam."
+    },
+    {
+      "category": "emergency_insurance",
+      "question": "Emergency admission-il insurance apply cheyyan pattumo?",
+      "answer": "Yes, emergency cases-il admission kazhinju approval process start cheyyam."
+    },
+    {
+      "category": "waiting_period",
+      "question": "Insurance coverage immediately start aavumo?",
+      "answer": "Some policies-il waiting period undavum certain treatments-inu."
+    },
+    {
+      "category": "claim_process",
+      "question": "Insurance claim process engane aanu?",
+      "answer": "Hospital documents submit cheyyuka, insurance verification kazhinju claim approve cheyyum."
+    },
+    {
+      "category": "documents_required",
+      "question": "Insurance claim-inu enthellam documents venam?",
+      "answer": "ID proof, insurance card, doctor prescription, reports, and bills venam."
+    },
+    {
+      "category": "room_rent_limit",
+      "question": "Room rent insurance-il limit undo?",
+      "answer": "Yes, policy anusarich room rent limit undavum."
+    },
+    {
+      "category": "pre_existing_disease",
+      "question": "Pre-existing diseases cover cheyyumo?",
+      "answer": "Some policies-il waiting period kazhinju pre-existing diseases cover cheyyum."
+    },
+    {
+      "category": "network_hospitals",
+      "question": "All hospitals-il insurance use cheyyan pattumo?",
+      "answer": "No, only network hospitals-il cashless benefit available aanu."
+    },
+    {
+      "category": "denial_reason",
+      "question": "Insurance claim reject aavunnath entha kond?",
+      "answer": "Non-covered treatments, missing documents, or policy conditions violate cheyyunnath kond reject aavum."
+    },
+    {
+      "category": "outpatient_cover",
+      "question": "OP (outpatient) insurance-il cover undo?",
+      "answer": "Some special policies-il OP treatment cover cheyyum, all policies-il illa."
+    },
+    {
+      "category": "support",
+      "question": "Insurance help desk available aano hospital-il?",
+      "answer": "Yes, most hospitals-il insurance desk support available aanu claim assistance-inu."
+    }
+  ]
+}

@@ -1,0 +1,949 @@
+{
+  "faqs": [
+    {
+      "category": "admission_overview",
+      "question": "How can I enroll in a driving school?",
+      "answer": "You can enroll by visiting the driving school, filling out an application form, or registering online if available."
+    },
+    {
+      "category": "eligibility",
+      "question": "What are the eligibility requirements for admission?",
+      "answer": "Eligibility usually includes meeting the minimum age requirement and having valid identification documents."
+    },
+    {
+      "category": "documents_required",
+      "question": "What documents are required for enrollment?",
+      "answer": "Common documents include ID proof, address proof, passport-size photos, and age proof."
+    },
+    {
+      "category": "online_registration",
+      "question": "Can I register for driving classes online?",
+      "answer": "Yes, many driving schools offer online registration through their website or contact forms."
+    },
+    {
+      "category": "course_selection",
+      "question": "How do I choose the right driving course?",
+      "answer": "You can choose a course based on your experience level, whether beginner or advanced training is needed."
+    },
+    {
+      "category": "fees_payment",
+      "question": "What is the fee structure for enrollment?",
+      "answer": "Fees vary depending on the type of vehicle training, course duration, and additional services included."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "Most driving schools accept cash, card payments, UPI, and online bank transfers."
+    },
+    {
+      "category": "batch_timing",
+      "question": "Are there flexible class timings available?",
+      "answer": "Yes, driving schools usually offer flexible batches including morning, evening, and weekend classes."
+    },
+    {
+      "category": "trial_class",
+      "question": "Do you provide a trial driving class?",
+      "answer": "Some driving schools may offer a demo or trial class before full enrollment."
+    },
+    {
+      "category": "license_assistance",
+      "question": "Do you help with getting a driving license?",
+      "answer": "Yes, many driving schools assist with learner’s license and driving license application procedures."
+    },
+    {
+      "category": "vehicle_choice",
+      "question": "Can I choose between manual and automatic cars?",
+      "answer": "Yes, training is usually available for both manual and automatic transmission vehicles."
+    },
+    {
+      "category": "enrollment_duration",
+      "question": "How long does the enrollment process take?",
+      "answer": "Enrollment can usually be completed within a few minutes to a day depending on documentation readiness."
+    },
+    {
+      "category": "batch_allocation",
+      "question": "When will my training batch start after enrollment?",
+      "answer": "Batch start dates depend on availability and schedule, usually within a few days of enrollment."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Is the enrollment fee refundable?",
+      "answer": "Refund policies vary by driving school and are subject to their terms and conditions."
+    },
+    {
+      "category": "support",
+      "question": "Who can I contact for admission help?",
+      "answer": "You can contact the driving school office or support team for assistance with admission and enrollment."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "license_overview",
+      "question": "What types of driving licenses can I apply for?",
+      "answer": "We assist with learner's license, permanent driving license, and renewal of existing licenses based on eligibility."
+    },
+    {
+      "category": "eligibility",
+      "question": "What is the minimum age to apply for a driving license?",
+      "answer": "The minimum age is usually 18 years for a private vehicle license, and 16 years for gearless two-wheelers in some cases."
+    },
+    {
+      "category": "documents_required",
+      "question": "What documents are required for driving license application?",
+      "answer": "You need proof of identity, address proof, age proof, passport size photos, and learner's license if applicable."
+    },
+    {
+      "category": "learner_license",
+      "question": "What is a learner's license?",
+      "answer": "A learner's license is a temporary license that allows you to practice driving under supervision before getting a permanent license."
+    },
+    {
+      "category": "driving_test",
+      "question": "Is a driving test required for a permanent license?",
+      "answer": "Yes, you must pass a driving test conducted by the RTO to obtain a permanent driving license."
+    },
+    {
+      "category": "training_support",
+      "question": "Do you provide driving training before the test?",
+      "answer": "Yes, we provide practical driving training sessions to help you prepare for the license test."
+    },
+    {
+      "category": "test_preparation",
+      "question": "How can I prepare for the driving license test?",
+      "answer": "Practice driving regularly, understand road signs, and attend training sessions for better preparation."
+    },
+    {
+      "category": "license_validity",
+      "question": "How long is a driving license valid?",
+      "answer": "A driving license is usually valid for 20 years or until a certain age limit, depending on regulations."
+    },
+    {
+      "category": "renewal",
+      "question": "How can I renew my driving license?",
+      "answer": "You can renew your driving license by submitting required documents and applying through the RTO or authorized service center."
+    },
+    {
+      "category": "international_license",
+      "question": "Can I apply for an international driving license?",
+      "answer": "Yes, international driving permits can be issued if you already hold a valid permanent driving license."
+    },
+    {
+      "category": "fees",
+      "question": "What are the fees for driving license services?",
+      "answer": "Fees vary depending on license type, state regulations, and service assistance charges."
+    },
+    {
+      "category": "appointment",
+      "question": "Do I need an appointment for license application?",
+      "answer": "Yes, booking an appointment is recommended for smoother processing at the RTO."
+    },
+    {
+      "category": "test_failure",
+      "question": "What happens if I fail the driving test?",
+      "answer": "If you fail, you can reapply for the test after a waiting period and further practice."
+    },
+    {
+      "category": "online_application",
+      "question": "Can I apply for a driving license online?",
+      "answer": "Yes, most driving license applications and bookings can be done online through government portals."
+    },
+    {
+      "category": "support",
+      "question": "Do you help with the full driving license process?",
+      "answer": "Yes, we assist with documentation, training, application, and test preparation for a smooth process."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "fees_overview",
+      "question": "What are the fees for driving school courses?",
+      "answer": "Driving school fees vary based on the type of license, training package, and duration of the course."
+    },
+    {
+      "category": "fee_inclusion",
+      "question": "What is included in the driving school fee?",
+      "answer": "Fees usually include theory classes, practical driving lessons, vehicle usage, and basic training materials."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "We accept cash, bank transfer, UPI, debit cards, and credit cards depending on the institute."
+    },
+    {
+      "category": "installment_payment",
+      "question": "Can I pay the fees in installments?",
+      "answer": "Yes, installment payment options may be available depending on the driving school policy."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Is the driving school fee refundable?",
+      "answer": "Refund policies vary; partial refunds may be provided based on course progress and cancellation terms."
+    },
+    {
+      "category": "hidden_charges",
+      "question": "Are there any hidden charges?",
+      "answer": "No hidden charges are included; all fees are explained clearly during enrollment."
+    },
+    {
+      "category": "exam_fee",
+      "question": "Is the driving test fee included in the course fee?",
+      "answer": "In some packages, test fees are included, while in others they may be charged separately."
+    },
+    {
+      "category": "license_fee",
+      "question": "Is the driving license fee included?",
+      "answer": "License application fees are usually paid separately to the transport authority."
+    },
+    {
+      "category": "discounts",
+      "question": "Do you offer any discounts?",
+      "answer": "Yes, seasonal discounts or promotional offers may be available for selected courses."
+    },
+    {
+      "category": "course_fee_difference",
+      "question": "Why do different courses have different fees?",
+      "answer": "Fees vary based on vehicle type (car, bike, heavy vehicle), training hours, and additional services."
+    },
+    {
+      "category": "registration_fee",
+      "question": "Is there a registration fee?",
+      "answer": "Yes, a small registration fee may be required to confirm enrollment."
+    },
+    {
+      "category": "late_payment",
+      "question": "What happens if I delay payment?",
+      "answer": "Delayed payments may affect class scheduling or training continuation depending on policy."
+    },
+    {
+      "category": "receipt",
+      "question": "Will I get a payment receipt?",
+      "answer": "Yes, official receipts are provided for all payments made to the driving school."
+    },
+    {
+      "category": "fee_confirmation",
+      "question": "How can I confirm the total fee structure?",
+      "answer": "You can contact the driving school office or counselor for a complete fee breakdown."
+    },
+    {
+      "category": "online_payment",
+      "question": "Can I pay driving school fees online?",
+      "answer": "Yes, online payment options such as UPI, net banking, and digital wallets are available in most institutes."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "driving_lessons_overview",
+      "question": "What are the available driving lesson timings?",
+      "answer": "Driving lessons are usually available in morning, afternoon, and evening slots depending on instructor availability."
+    },
+    {
+      "category": "flexible_schedule",
+      "question": "Can I choose my driving lesson timing?",
+      "answer": "Yes, you can select preferred time slots based on instructor availability and driving school schedule."
+    },
+    {
+      "category": "lesson_duration",
+      "question": "How long is each driving lesson?",
+      "answer": "Each driving lesson typically lasts between 30 minutes to 1 hour depending on the package."
+    },
+    {
+      "category": "daily_schedule",
+      "question": "How many driving lessons can I take per day?",
+      "answer": "You can take one or multiple lessons per day depending on availability and your learning plan."
+    },
+    {
+      "category": "weekend_classes",
+      "question": "Are driving lessons available on weekends?",
+      "answer": "Yes, many driving schools offer weekend classes, but advance booking is recommended."
+    },
+    {
+      "category": "weekday_schedule",
+      "question": "What are weekday driving class timings?",
+      "answer": "Weekday classes usually run from early morning to evening with flexible time slots."
+    },
+    {
+      "category": "evening_classes",
+      "question": "Do you offer evening driving lessons?",
+      "answer": "Yes, evening driving lessons are available for students and working professionals."
+    },
+    {
+      "category": "morning_classes",
+      "question": "Are morning driving classes available?",
+      "answer": "Yes, morning sessions are available and often preferred for less traffic practice."
+    },
+    {
+      "category": "booking_schedule",
+      "question": "How do I book my driving lesson schedule?",
+      "answer": "You can book your schedule by contacting the driving school, WhatsApp, or online booking system."
+    },
+    {
+      "category": "rescheduling",
+      "question": "Can I reschedule my driving lesson?",
+      "answer": "Yes, you can reschedule lessons by informing the driving school in advance."
+    },
+    {
+      "category": "missed_class",
+      "question": "What happens if I miss a driving lesson?",
+      "answer": "Missed lessons can usually be rescheduled based on instructor availability."
+    },
+    {
+      "category": "intensive_course",
+      "question": "Do you offer intensive driving courses?",
+      "answer": "Yes, fast-track or intensive courses are available for quicker learning schedules."
+    },
+    {
+      "category": "instructor_availability",
+      "question": "Will the same instructor be available for all lessons?",
+      "answer": "In most cases, you will be assigned a regular instructor, but changes may occur based on availability."
+    },
+    {
+      "category": "lesson_flexibility",
+      "question": "Can I adjust my driving schedule weekly?",
+      "answer": "Yes, schedules can be adjusted weekly based on your convenience and instructor availability."
+    },
+    {
+      "category": "holiday_schedule",
+      "question": "Are driving lessons available on public holidays?",
+      "answer": "Driving lessons may be limited or unavailable on public holidays depending on the driving school."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "driving_school_overview",
+      "question": "What driving courses do you offer?",
+      "answer": "We offer beginner driving lessons, refresher courses, license test preparation, and advanced driving training."
+    },
+    {
+      "category": "vehicle_type",
+      "question": "What types of vehicles are used for training?",
+      "answer": "We provide training using manual and automatic cars, and in some cases two-wheelers depending on the course."
+    },
+    {
+      "category": "training_schedule",
+      "question": "What is the training schedule like?",
+      "answer": "Training schedules are flexible and can be arranged in morning, afternoon, or evening slots based on availability."
+    },
+    {
+      "category": "lesson_duration",
+      "question": "How long is each driving lesson?",
+      "answer": "Each driving lesson typically lasts between 45 minutes to 1 hour depending on the training plan."
+    },
+    {
+      "category": "total_training_days",
+      "question": "How many days does the full driving course take?",
+      "answer": "The duration depends on the course type, usually ranging from a few weeks to a couple of months."
+    },
+    {
+      "category": "pickup_service",
+      "question": "Do you provide pickup and drop for training?",
+      "answer": "Some driving schools offer pickup and drop services depending on location and package."
+    },
+    {
+      "category": "license_support",
+      "question": "Do you help with driving license application?",
+      "answer": "Yes, we provide guidance and assistance for learner’s license and driving test procedures."
+    },
+    {
+      "category": "test_preparation",
+      "question": "Do you prepare students for driving tests?",
+      "answer": "Yes, we provide complete training for theory and practical driving tests."
+    },
+    {
+      "category": "instructor",
+      "question": "Are instructors experienced?",
+      "answer": "Yes, all instructors are trained and experienced in professional driving instruction."
+    },
+    {
+      "category": "vehicle_practice",
+      "question": "Will I get enough practice time?",
+      "answer": "Yes, sufficient practice sessions are provided to build confidence in driving."
+    },
+    {
+      "category": "manual_vs_automatic",
+      "question": "Can I choose between manual and automatic cars?",
+      "answer": "Yes, you can select manual or automatic vehicle training based on your preference."
+    },
+    {
+      "category": "road_training",
+      "question": "Do you provide real road driving practice?",
+      "answer": "Yes, students are trained on real road conditions under instructor supervision."
+    },
+    {
+      "category": "fee_structure",
+      "question": "How much does driving training cost?",
+      "answer": "Fees vary based on course type, vehicle selection, and training duration."
+    },
+    {
+      "category": "batch_allocation",
+      "question": "Can I choose my training batch timing?",
+      "answer": "Yes, batch timings can be selected based on availability and student preference."
+    },
+    {
+      "category": "certificate",
+      "question": "Do I get a certificate after training?",
+      "answer": "Yes, completion certificates are provided after finishing the driving course."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "instructors_overview",
+      "question": "What qualifications do your driving instructors have?",
+      "answer": "Our driving instructors are professionally trained, certified, and experienced in teaching both beginners and advanced learners."
+    },
+    {
+      "category": "instructor_experience",
+      "question": "How experienced are your driving instructors?",
+      "answer": "Our instructors have several years of experience in training learners under different road and traffic conditions."
+    },
+    {
+      "category": "female_instructors",
+      "question": "Do you have female driving instructors?",
+      "answer": "Yes, we provide female instructors based on availability and student preference."
+    },
+    {
+      "category": "language_support",
+      "question": "Do instructors teach in different languages?",
+      "answer": "Yes, instructors can communicate in multiple languages depending on learner comfort and availability."
+    },
+    {
+      "category": "beginner_support",
+      "question": "Do instructors help beginners with no driving experience?",
+      "answer": "Yes, our instructors specialize in teaching beginners from basic controls to confident driving."
+    },
+    {
+      "category": "manual_automatic",
+      "question": "Do instructors teach both manual and automatic cars?",
+      "answer": "Yes, training is provided for both manual and automatic transmission vehicles."
+    },
+    {
+      "category": "road_training",
+      "question": "Will instructors teach real road driving?",
+      "answer": "Yes, learners are trained on real roads under instructor supervision for practical experience."
+    },
+    {
+      "category": "safety_training",
+      "question": "Do instructors focus on road safety rules?",
+      "answer": "Yes, traffic rules, road signs, and safe driving habits are an important part of training."
+    },
+    {
+      "category": "training_schedule",
+      "question": "Can I choose my training timings?",
+      "answer": "Yes, flexible training schedules are available based on instructor availability."
+    },
+    {
+      "category": "pickup_drop",
+      "question": "Do instructors provide pickup and drop for training?",
+      "answer": "Some driving schools offer pickup and drop services depending on location."
+    },
+    {
+      "category": "mock_tests",
+      "question": "Do instructors conduct mock driving tests?",
+      "answer": "Yes, mock tests are conducted to prepare students for official driving exams."
+    },
+    {
+      "category": "learning_speed",
+      "question": "Can instructors adjust training based on my learning speed?",
+      "answer": "Yes, training is customized based on each learner's progress and confidence level."
+    },
+    {
+      "category": "vehicle_provided",
+      "question": "Will instructors provide training vehicles?",
+      "answer": "Yes, training vehicles are provided by the driving school for practice sessions."
+    },
+    {
+      "category": "certification_help",
+      "question": "Do instructors help with driving license preparation?",
+      "answer": "Yes, instructors guide students through theory, practice, and license test preparation."
+    },
+    {
+      "category": "support_contact",
+      "question": "Can I contact instructors for doubts after class?",
+      "answer": "Yes, students can contact instructors or the school for clarification and support during training."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "learners_test_overview",
+      "question": "What is a learner’s test in driving school?",
+      "answer": "A learner’s test is a written or computer-based exam that checks your knowledge of road rules, traffic signs, and safe driving practices."
+    },
+    {
+      "category": "test_booking",
+      "question": "How can I book a learner’s test?",
+      "answer": "You can book a learner’s test through the driving school, online transport authority portal, or with assistance from your instructor."
+    },
+    {
+      "category": "eligibility",
+      "question": "Who is eligible for the learner’s test?",
+      "answer": "Anyone who meets the minimum age requirement and has completed the required application process can apply for the learner’s test."
+    },
+    {
+      "category": "test_format",
+      "question": "What is the format of the learner’s test?",
+      "answer": "The test usually includes multiple-choice questions based on traffic rules, road signs, and driving safety."
+    },
+    {
+      "category": "study_material",
+      "question": "Do you provide study materials for the learner’s test?",
+      "answer": "Yes, we provide study notes, question banks, and guidance to help you prepare for the test."
+    },
+    {
+      "category": "mock_test",
+      "question": "Can I take mock tests before the real exam?",
+      "answer": "Yes, mock tests are available to help you practice and improve your confidence before the actual exam."
+    },
+    {
+      "category": "test_support",
+      "question": "Do you provide support during the learner’s test process?",
+      "answer": "Yes, instructors guide you with application, preparation, and exam-related support."
+    },
+    {
+      "category": "passing_marks",
+      "question": "What is the passing score for the learner’s test?",
+      "answer": "The passing score varies by region, but you must answer a minimum percentage of questions correctly."
+    },
+    {
+      "category": "test_duration",
+      "question": "How long does the learner’s test take?",
+      "answer": "The test usually takes around 15 to 30 minutes depending on the system and number of questions."
+    },
+    {
+      "category": "retake_policy",
+      "question": "What happens if I fail the learner’s test?",
+      "answer": "If you fail, you can reapply and retake the test after a specified waiting period."
+    },
+    {
+      "category": "documents_required",
+      "question": "What documents are needed for the learner’s test?",
+      "answer": "You typically need identification proof, application form, and passport-size photos."
+    },
+    {
+      "category": "test_language",
+      "question": "In which languages is the learner’s test available?",
+      "answer": "The test is usually available in multiple languages depending on your region."
+    },
+    {
+      "category": "driving_school_help",
+      "question": "How does the driving school help with the learner’s test?",
+      "answer": "The driving school assists with application, training, mock tests, and exam preparation."
+    },
+    {
+      "category": "fees",
+      "question": "Is there a fee for the learner’s test?",
+      "answer": "Yes, there is a government or authority fee for the test, which may vary by location."
+    },
+    {
+      "category": "result",
+      "question": "How will I get my learner’s test result?",
+      "answer": "Results are usually shown immediately after the test or sent through official channels."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "safety_overview",
+      "question": "What safety rules are followed in the driving school?",
+      "answer": "We follow strict road safety guidelines, supervised training, and ensure all learners practice in a controlled and safe environment."
+    },
+    {
+      "category": "seatbelt_rule",
+      "question": "Is wearing a seatbelt mandatory during training?",
+      "answer": "Yes, wearing a seatbelt is mandatory for both learners and instructors during all driving sessions."
+    },
+    {
+      "category": "vehicle_safety",
+      "question": "Are training vehicles safe for learners?",
+      "answer": "Yes, all training vehicles are regularly serviced, insured, and fitted with dual controls for safety."
+    },
+    {
+      "category": "instructor_supervision",
+      "question": "Will an instructor always be present during driving practice?",
+      "answer": "Yes, a certified instructor will always supervise and guide learners during training sessions."
+    },
+    {
+      "category": "traffic_rules",
+      "question": "Do you teach traffic rules and road signs?",
+      "answer": "Yes, learners are trained on all traffic rules, road signs, and safe driving practices."
+    },
+    {
+      "category": "drunk_driving_policy",
+      "question": "Is alcohol or drug use allowed during training?",
+      "answer": "No, driving under the influence of alcohol or drugs is strictly prohibited and unsafe."
+    },
+    {
+      "category": "mobile_phone_use",
+      "question": "Can I use a mobile phone while driving in training?",
+      "answer": "No, mobile phone usage is strictly not allowed during driving lessons."
+    },
+    {
+      "category": "speed_limits",
+      "question": "Are speed limits followed during training?",
+      "answer": "Yes, learners are taught to always follow speed limits and drive responsibly."
+    },
+    {
+      "category": "license_requirement",
+      "question": "Do I need a learner’s license before training?",
+      "answer": "Yes, a valid learner’s license is required before starting practical driving lessons."
+    },
+    {
+      "category": "weather_safety",
+      "question": "Do you conduct driving lessons in bad weather?",
+      "answer": "Lessons may be rescheduled or adjusted depending on weather conditions for safety."
+    },
+    {
+      "category": "emergency_handling",
+      "question": "Will I learn how to handle emergencies on the road?",
+      "answer": "Yes, learners are trained in basic emergency handling and safe response techniques."
+    },
+    {
+      "category": "vehicle_control",
+      "question": "Do instructors take control in dangerous situations?",
+      "answer": "Yes, instructors can take control of the vehicle using dual controls if necessary."
+    },
+    {
+      "category": "training_area",
+      "question": "Where does driving practice take place?",
+      "answer": "Training is conducted in designated safe areas, roads, and traffic environments under supervision."
+    },
+    {
+      "category": "safety_gear",
+      "question": "Is any safety gear required during training?",
+      "answer": "Seatbelts are mandatory, and learners are encouraged to follow all safety instructions provided."
+    },
+    {
+      "category": "rules_violation",
+      "question": "What happens if a learner breaks safety rules?",
+      "answer": "Repeated violations may lead to warnings, suspension of training, or additional guidance sessions."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "location_overview",
+      "question": "Where is your driving school located?",
+      "answer": "Our driving school is located in a convenient area with easy access. You can find the exact location on Google Maps or contact us for directions."
+    },
+    {
+      "category": "contact_details",
+      "question": "How can I contact the driving school?",
+      "answer": "You can contact us via phone call, WhatsApp, email, or by visiting our office directly during working hours."
+    },
+    {
+      "category": "phone_contact",
+      "question": "What is the contact number for the driving school?",
+      "answer": "You can call our official contact number during working hours for inquiries, bookings, and support."
+    },
+    {
+      "category": "whatsapp_support",
+      "question": "Do you provide WhatsApp support?",
+      "answer": "Yes, we provide WhatsApp support for quick responses, inquiries, and booking assistance."
+    },
+    {
+      "category": "email_contact",
+      "question": "Can I contact you via email?",
+      "answer": "Yes, you can send us an email for detailed inquiries, course information, and registration support."
+    },
+    {
+      "category": "directions",
+      "question": "How can I get directions to your driving school?",
+      "answer": "We can share Google Maps location or guide you over the phone for easy navigation."
+    },
+    {
+      "category": "nearest_landmark",
+      "question": "Is your driving school near any landmark?",
+      "answer": "Yes, our driving school is located near well-known landmarks for easy identification and access."
+    },
+    {
+      "category": "public_transport",
+      "question": "Can I reach your driving school using public transport?",
+      "answer": "Yes, our location is easily accessible by bus, train, and other public transportation."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Is parking available at the driving school?",
+      "answer": "Yes, parking facilities are available for students and visitors."
+    },
+    {
+      "category": "office_visit",
+      "question": "Can I visit the driving school office directly?",
+      "answer": "Yes, you can visit our office during working hours for registration and inquiries."
+    },
+    {
+      "category": "emergency_contact",
+      "question": "What should I do if I cannot reach the driving school location?",
+      "answer": "You can call our support number, and our staff will guide you with step-by-step directions."
+    },
+    {
+      "category": "multiple_branches",
+      "question": "Do you have multiple driving school branches?",
+      "answer": "Yes, we may have multiple branches. Please contact us to find the nearest location."
+    },
+    {
+      "category": "navigation_help",
+      "question": "Will you help me with live navigation?",
+      "answer": "Yes, we can share live location and guide you until you reach the driving school."
+    },
+    {
+      "category": "location_update",
+      "question": "Has your driving school location changed recently?",
+      "answer": "If there are any changes, we will update our Google Maps and notify students in advance."
+    },
+    {
+      "category": "contact_hours",
+      "question": "When can I contact the driving school?",
+      "answer": "You can contact us during working hours, and WhatsApp support may be available for quick queries."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "pickup_drop_overview",
+      "question": "Do you provide pickup and drop facility for driving classes?",
+      "answer": "Yes, we provide pickup and drop facility for learners based on location and schedule availability."
+    },
+    {
+      "category": "service_area",
+      "question": "Which areas are covered for pickup and drop service?",
+      "answer": "Pickup and drop service is available in selected areas depending on the driving school coverage zone."
+    },
+    {
+      "category": "timing",
+      "question": "How do I know my pickup time?",
+      "answer": "Pickup time will be shared in advance based on your lesson schedule and assigned instructor."
+    },
+    {
+      "category": "booking",
+      "question": "Do I need to book pickup and drop separately?",
+      "answer": "No, pickup and drop is usually included with your driving lesson booking."
+    },
+    {
+      "category": "availability",
+      "question": "Is pickup and drop available for all driving sessions?",
+      "answer": "Yes, it is available for most sessions, but availability may vary based on instructor routes."
+    },
+    {
+      "category": "late_arrival",
+      "question": "What happens if I miss my pickup?",
+      "answer": "If you miss your pickup, you may need to reschedule or arrange an alternate pickup time."
+    },
+    {
+      "category": "home_pickup",
+      "question": "Can I get pickup from my home location?",
+      "answer": "Yes, home pickup is available if your location is within the service area."
+    },
+    {
+      "category": "drop_after_class",
+      "question": "Will I be dropped back after the driving class?",
+      "answer": "Yes, students are dropped back to their pickup location after each session."
+    },
+    {
+      "category": "extra_charges",
+      "question": "Is there any extra charge for pickup and drop?",
+      "answer": "In most cases it is included, but some locations may have additional charges."
+    },
+    {
+      "category": "instructor_pickup",
+      "question": "Will the instructor pick me up directly?",
+      "answer": "Yes, in most cases the instructor or school vehicle will handle pickup and drop."
+    },
+    {
+      "category": "schedule_changes",
+      "question": "Can pickup timing change?",
+      "answer": "Yes, pickup timings may change depending on traffic, schedule, or route adjustments."
+    },
+    {
+      "category": "safety",
+      "question": "Is the pickup and drop service safe?",
+      "answer": "Yes, all vehicles and instructors follow safety guidelines to ensure safe transport."
+    },
+    {
+      "category": "female_students",
+      "question": "Is pickup available for female learners?",
+      "answer": "Yes, pickup and drop service is available for all learners including female students."
+    },
+    {
+      "category": "missed_class",
+      "question": "What if I miss my driving class after pickup is arranged?",
+      "answer": "You may need to reschedule the class depending on driving school policies."
+    },
+    {
+      "category": "contact_support",
+      "question": "Whom should I contact for pickup issues?",
+      "answer": "You can contact the driving school office or instructor for any pickup and drop related support."
+    }
+  ]
+}
+
+{
+  "faqs": [
+    {
+      "category": "h_class_overview",
+      "question": "What is H Class driving license procedure?",
+      "answer": "H Class driving license is related to heavy vehicle training and licensing process that allows you to drive heavy-duty vehicles after proper training and testing."
+    },
+    {
+      "category": "eligibility",
+      "question": "Who is eligible for H Class driving training?",
+      "answer": "Candidates who already have a valid light motor vehicle license and meet the required age criteria are eligible for H Class training."
+    },
+    {
+      "category": "training_duration",
+      "question": "How long does H Class driving training take?",
+      "answer": "Training duration depends on the driving school and individual learning speed, usually ranging from a few weeks to a couple of months."
+    },
+    {
+      "category": "documents_required",
+      "question": "What documents are required for H Class admission?",
+      "answer": "You typically need a valid driving license, ID proof, address proof, passport-size photos, and application forms."
+    },
+    {
+      "category": "theory_classes",
+      "question": "Are theory classes included in H Class training?",
+      "answer": "Yes, theory classes are included to understand road rules, safety guidelines, and heavy vehicle operation."
+    },
+    {
+      "category": "practical_training",
+      "question": "Is practical driving included in H Class training?",
+      "answer": "Yes, hands-on practical training with heavy vehicles is an essential part of the course."
+    },
+    {
+      "category": "test_procedure",
+      "question": "How is the H Class driving test conducted?",
+      "answer": "The test includes both theoretical and practical driving assessments conducted by authorized examiners."
+    },
+    {
+      "category": "fees",
+      "question": "How much does H Class driving training cost?",
+      "answer": "Fees vary depending on the driving school, location, and training duration."
+    },
+    {
+      "category": "license_upgrade",
+      "question": "Can I upgrade from light vehicle to H Class license?",
+      "answer": "Yes, you can upgrade after completing required training and meeting eligibility criteria."
+    },
+    {
+      "category": "vehicle_type",
+      "question": "What types of vehicles are covered in H Class?",
+      "answer": "H Class typically covers heavy vehicles like trucks, buses, and other commercial heavy-duty vehicles."
+    },
+    {
+      "category": "safety_training",
+      "question": "Is safety training included in H Class course?",
+      "answer": "Yes, safety training and road discipline are important parts of the course."
+    },
+    {
+      "category": "instructors",
+      "question": "Are trained instructors available for H Class training?",
+      "answer": "Yes, experienced and certified instructors guide students throughout the training."
+    },
+    {
+      "category": "practice_hours",
+      "question": "How many practice hours are required?",
+      "answer": "Required practice hours vary based on driving school regulations and learner progress."
+    },
+    {
+      "category": "exam_preparation",
+      "question": "Do you provide exam preparation support?",
+      "answer": "Yes, driving schools usually provide guidance and mock tests for better exam preparation."
+    },
+    {
+      "category": "certificate",
+      "question": "Will I get a certificate after completing H Class training?",
+      "answer": "Yes, after successful completion of training and tests, you receive a completion certificate and can apply for license approval."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "h_class_overview",
+      "question": "What is H Class driving license procedure?",
+      "answer": "H Class driving license is related to heavy vehicle training and licensing process that allows you to drive heavy-duty vehicles after proper training and testing."
+    },
+    {
+      "category": "eligibility",
+      "question": "Who is eligible for H Class driving training?",
+      "answer": "Candidates who already have a valid light motor vehicle license and meet the required age criteria are eligible for H Class training."
+    },
+    {
+      "category": "training_duration",
+      "question": "How long does H Class driving training take?",
+      "answer": "Training duration depends on the driving school and individual learning speed, usually ranging from a few weeks to a couple of months."
+    },
+    {
+      "category": "documents_required",
+      "question": "What documents are required for H Class admission?",
+      "answer": "You typically need a valid driving license, ID proof, address proof, passport-size photos, and application forms."
+    },
+    {
+      "category": "theory_classes",
+      "question": "Are theory classes included in H Class training?",
+      "answer": "Yes, theory classes are included to understand road rules, safety guidelines, and heavy vehicle operation."
+    },
+    {
+      "category": "practical_training",
+      "question": "Is practical driving included in H Class training?",
+      "answer": "Yes, hands-on practical training with heavy vehicles is an essential part of the course."
+    },
+    {
+      "category": "test_procedure",
+      "question": "How is the H Class driving test conducted?",
+      "answer": "The test includes both theoretical and practical driving assessments conducted by authorized examiners."
+    },
+    {
+      "category": "fees",
+      "question": "How much does H Class driving training cost?",
+      "answer": "Fees vary depending on the driving school, location, and training duration."
+    },
+    {
+      "category": "license_upgrade",
+      "question": "Can I upgrade from light vehicle to H Class license?",
+      "answer": "Yes, you can upgrade after completing required training and meeting eligibility criteria."
+    },
+    {
+      "category": "vehicle_type",
+      "question": "What types of vehicles are covered in H Class?",
+      "answer": "H Class typically covers heavy vehicles like trucks, buses, and other commercial heavy-duty vehicles."
+    },
+    {
+      "category": "safety_training",
+      "question": "Is safety training included in H Class course?",
+      "answer": "Yes, safety training and road discipline are important parts of the course."
+    },
+    {
+      "category": "instructors",
+      "question": "Are trained instructors available for H Class training?",
+      "answer": "Yes, experienced and certified instructors guide students throughout the training."
+    },
+    {
+      "category": "practice_hours",
+      "question": "How many practice hours are required?",
+      "answer": "Required practice hours vary based on driving school regulations and learner progress."
+    },
+    {
+      "category": "exam_preparation",
+      "question": "Do you provide exam preparation support?",
+      "answer": "Yes, driving schools usually provide guidance and mock tests for better exam preparation."
+    },
+    {
+      "category": "certificate",
+      "question": "Will I get a certificate after completing H Class training?",
+      "answer": "Yes, after successful completion of training and tests, you receive a completion certificate and can apply for license approval."
+    }
+  ]
+}

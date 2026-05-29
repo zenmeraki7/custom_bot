@@ -1,0 +1,229 @@
+{
+  "faqs": [
+    {
+      "category": "medicine_availability",
+      "question": "Do you have this medicine available?",
+      "answer": "Please share the medicine name or prescription so we can check availability."
+    },
+    {
+      "category": "medicine_stock",
+      "question": "Is this medicine currently in stock?",
+      "answer": "Medicine stock availability changes regularly. Please contact us with the medicine name for confirmation."
+    },
+    {
+      "category": "medicine_alternative",
+      "question": "Do you have an alternative for this medicine?",
+      "answer": "Yes, alternative or generic medicines may be available depending on stock and prescription."
+    },
+    {
+      "category": "generic_medicine",
+      "question": "Do you sell generic medicines?",
+      "answer": "Yes, we provide generic medicines for selected brands where available."
+    },
+    {
+      "category": "prescription_requirement",
+      "question": "Do I need a prescription to buy medicines?",
+      "answer": "Certain medicines require a valid doctor prescription according to medical regulations."
+    },
+    {
+      "category": "upload_prescription",
+      "question": "Can I send my prescription online?",
+      "answer": "Yes, prescriptions can be shared through WhatsApp or online ordering platforms."
+    },
+    {
+      "category": "doctor_consultation",
+      "question": "Do you provide doctor consultation services?",
+      "answer": "Doctor consultation availability depends on the pharmacy branch and associated services."
+    },
+    {
+      "category": "home_delivery",
+      "question": "Do you provide home delivery for medicines?",
+      "answer": "Yes, home delivery services are available for selected locations."
+    },
+    {
+      "category": "delivery_availability",
+      "question": "Is medicine delivery available in my area?",
+      "answer": "Delivery availability depends on your location and delivery coverage area."
+    },
+    {
+      "category": "delivery_time",
+      "question": "How long does medicine delivery take?",
+      "answer": "Delivery usually takes between 30 and 60 minutes depending on location and order size."
+    },
+    {
+      "category": "delivery_charges",
+      "question": "Are there delivery charges?",
+      "answer": "Delivery charges may apply depending on distance and order value."
+    },
+    {
+      "category": "minimum_order",
+      "question": "Is there a minimum order amount for delivery?",
+      "answer": "Minimum order requirements may apply depending on the delivery location."
+    },
+    {
+      "category": "order_tracking",
+      "question": "Can I track my medicine order?",
+      "answer": "Yes, order tracking may be available depending on the ordering method used."
+    },
+    {
+      "category": "late_delivery",
+      "question": "What if my medicine delivery is delayed?",
+      "answer": "Delivery delays may occur due to traffic, weather, or high demand. Updates will be provided when possible."
+    },
+    {
+      "category": "takeaway_option",
+      "question": "Can I pick up medicines directly from the pharmacy?",
+      "answer": "Yes, medicines can be collected directly from the pharmacy after placing the order."
+    },
+    {
+      "category": "order_methods",
+      "question": "How can I place a medicine order?",
+      "answer": "Orders can be placed through phone call, WhatsApp, website, or supported online platforms."
+    },
+    {
+      "category": "order_modification",
+      "question": "Can I modify my medicine order after placing it?",
+      "answer": "Order modifications are possible only before the billing or packing process starts."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Can I cancel my medicine order?",
+      "answer": "Orders may be cancelled before dispatch or billing confirmation."
+    },
+    {
+      "category": "monthly_medicines",
+      "question": "Can I schedule monthly medicine orders?",
+      "answer": "Yes, recurring monthly medicine orders may be arranged for regular medications."
+    },
+    {
+      "category": "bulk_orders",
+      "question": "Do you accept bulk medicine orders?",
+      "answer": "Yes, bulk medicine orders can be arranged depending on stock availability."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, debit cards, credit cards, UPI, and online payment methods."
+    },
+    {
+      "category": "upi_payments",
+      "question": "Do you accept UPI payments?",
+      "answer": "Yes, all major UPI payment applications are accepted."
+    },
+    {
+      "category": "cash_on_delivery",
+      "question": "Is cash on delivery available?",
+      "answer": "Yes, cash on delivery may be available for eligible delivery locations."
+    },
+    {
+      "category": "online_payment",
+      "question": "Can I pay online for medicine orders?",
+      "answer": "Yes, online payment options are available for medicine purchases."
+    },
+    {
+      "category": "payment_receipt",
+      "question": "Will I receive a payment receipt?",
+      "answer": "Yes, printed or digital receipts are provided after successful payment."
+    },
+    {
+      "category": "discounts",
+      "question": "Do you offer discounts on medicines?",
+      "answer": "Discounts may be available on selected medicines and healthcare products."
+    },
+    {
+      "category": "membership_program",
+      "question": "Do you have a membership or loyalty program?",
+      "answer": "Some branches may provide membership benefits or loyalty reward programs."
+    },
+    {
+      "category": "healthcare_products",
+      "question": "Do you sell healthcare and wellness products?",
+      "answer": "Yes, we offer healthcare, wellness, and personal care products."
+    },
+    {
+      "category": "vitamins_supplements",
+      "question": "Do you sell vitamins and supplements?",
+      "answer": "Yes, vitamins, supplements, and nutrition products are available."
+    },
+    {
+      "category": "baby_products",
+      "question": "Do you have baby care products?",
+      "answer": "Yes, baby food, diapers, and baby care items are available."
+    },
+    {
+      "category": "diabetic_products",
+      "question": "Do you sell diabetic care products?",
+      "answer": "Yes, diabetic medicines, glucometers, and testing supplies are available."
+    },
+    {
+      "category": "medical_equipment",
+      "question": "Do you sell medical equipment?",
+      "answer": "Yes, selected medical equipment such as BP monitors and thermometers are available."
+    },
+    {
+      "category": "cosmetics_products",
+      "question": "Do you sell skincare or cosmetic products?",
+      "answer": "Yes, skincare, cosmetic, and personal care products are available."
+    },
+    {
+      "category": "cold_storage",
+      "question": "Do you store temperature-sensitive medicines properly?",
+      "answer": "Yes, temperature-sensitive medicines are stored under recommended conditions."
+    },
+    {
+      "category": "expiry_check",
+      "question": "Do you check medicine expiry dates?",
+      "answer": "Yes, all medicines are checked regularly to ensure valid expiry dates."
+    },
+    {
+      "category": "medicine_return",
+      "question": "Can I return medicines after purchase?",
+      "answer": "Medicine returns depend on product condition and pharmacy return policy."
+    },
+    {
+      "category": "damaged_products",
+      "question": "What if I receive damaged medicines?",
+      "answer": "Please contact the pharmacy immediately for replacement or support if products are damaged."
+    },
+    {
+      "category": "store_timings",
+      "question": "What are your pharmacy opening hours?",
+      "answer": "Pharmacy operating hours depend on branch location and daily schedule."
+    },
+    {
+      "category": "holiday_hours",
+      "question": "Are you open on public holidays?",
+      "answer": "Yes, many pharmacy branches remain open on public holidays with adjusted timings."
+    },
+    {
+      "category": "24_hours_service",
+      "question": "Do you operate 24 hours?",
+      "answer": "24-hour service availability depends on the pharmacy branch."
+    },
+    {
+      "category": "peak_hours",
+      "question": "When is the pharmacy usually busy?",
+      "answer": "Peak hours are usually mornings, evenings, weekends, and holiday periods."
+    },
+    {
+      "category": "parking_availability",
+      "question": "Do you have parking facilities?",
+      "answer": "Parking availability depends on the pharmacy location and available space."
+    },
+    {
+      "category": "wheelchair_access",
+      "question": "Is wheelchair access available?",
+      "answer": "Many pharmacy locations provide wheelchair-friendly access for customers."
+    },
+    {
+      "category": "customer_support",
+      "question": "How can I contact customer support?",
+      "answer": "You can contact the pharmacy through phone, WhatsApp, email, or direct store visit."
+    },
+    {
+      "category": "emergency_support",
+      "question": "Can I contact the pharmacy during emergencies?",
+      "answer": "Emergency medicine support depends on branch timings and service availability."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "bot_name": "HealthPlus",
+  "shop_name": "HealthPlus Pharmacy",
+  "shop_type": "pharmacy",
+  "tagline": "English & Manglish",
+  "description": "",
+  "location": "License No. KL-KZD-PH-2005-0482 Address Near Government Hospital, Hospital Road, Kozhikode, Kerala - 673001",
+  "city": "Kozhikode",
+  "state": "Kerala",
+  "hours": {
+    "weekdays": "Monday - Friday 8:00 AM - 9:00 PM",
+    "sunday": "Sunday: 9:00 AM - 6:00 PM",
+    "holiday": "Check WhatsApp for holiday hours"
+  },
+  "contact": {
+    "whatsapp": "+91 98765 55555",
+    "phone": "+91 98765 55555",
+    "email": "health@pluspharm.com"
+  },
+  "payment": [
+    "UPI",
+    "GPay",
+    "PhonePe",
+    "Cash",
+    "Cards",
+    "Paytm",
+    "NetBanking",
+    "Cheque"
+  ],
+  "services": [],
+  "delivery": {
+    "areas": "Local area",
+    "free_above": "₹500",
+    "days": "2–3 working days"
+  },
+  "returns": {
+    "days": 7,
+    "condition": "unused with original packaging",
+    "refund_days": "5–7 business days"
+  },
+  "first_offer": {
+    "code": "WELCOME10",
+    "description": "10% off for new customers"
+  },
+  "escalate": {
+    "whatsapp": "+91 98765 55555",
+    "email": "health@pluspharm.com"
+  },
+  "language": "english_manglish",
+  "currency": "INR",
+  "shop_gender": "all",
+  "specialisation": "ollama_inferred",
+  "allowed_categories": [
+    "Prescription Medicines",
+    "OTC Medicines",
+    "Vitamins",
+    "Surgical Supplies",
+    "Personal Care"
+  ],
+  "item_label": "medicines",
+  "profile_source": "known",
+  "is_veg": false,
+  "dietary_mode": null,
+  "escalate_topics": [
+    "fraud",
+    "refund",
+    "complaint"
+  ],
+  "blocked_topics": [],
+  "blocked_reply": {
+    "manglish": "Athu njangalude shop-il applicable alla 😊 Enthelum help cheyyamo?",
+    "english": "That's not applicable here. Can I help with something else?"
+  },
+  "quick_chips": [],
+  "welcome_cards": [],
+  "item_count": 44,
+  "signature_items": "Net Banking, Diabetes (Type 2), High Cholesterol"
+}

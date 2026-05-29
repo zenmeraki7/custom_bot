@@ -1,0 +1,159 @@
+{
+  "faqs": [
+    {
+      "category": "shop_overview",
+      "question": "Optical shopil enthokke products undu?",
+      "answer": "Eyeglasses, sunglasses, contact lenses, frames, eye care accessories, vision testing services ellam available aanu."
+    },
+    {
+      "category": "eye_testing",
+      "question": "Eye testing service undo?",
+      "answer": "Athe, professional eye testingum vision check-up servicesum available aanu."
+    },
+    {
+      "category": "eye_test_booking",
+      "question": "Eye test appointment engane book cheyyam?",
+      "answer": "Phone, website, WhatsApp, allenkil direct visit vazhi appointment book cheyyam."
+    },
+    {
+      "category": "walkin_eye_test",
+      "question": "Appointment illathe eye test cheyyan pattumo?",
+      "answer": "Athe, doctor availability anusari walk-in eye test cheyyam."
+    },
+    {
+      "category": "eye_test_duration",
+      "question": "Eye testinu ethra time edukum?",
+      "answer": "Usually eye testinu 15 muthal 30 minutes vare edukum."
+    },
+    {
+      "category": "prescription_glasses",
+      "question": "Prescription glasses undo?",
+      "answer": "Athe, eye power anusari prescription eyeglasses available aanu."
+    },
+    {
+      "category": "frame_options",
+      "question": "Ethu type frames available aanu?",
+      "answer": "Metal, plastic, rimless, full-frame, half-frame, branded frames ellam available aanu."
+    },
+    {
+      "category": "lens_types",
+      "question": "Ethu type lenses available aanu?",
+      "answer": "Single vision, bifocal, progressive, blue-cut, anti-glare, photochromic lenses available aanu."
+    },
+    {
+      "category": "contact_lenses",
+      "question": "Contact lenses undo?",
+      "answer": "Athe, daily, monthly, colored, prescription contact lenses available aanu."
+    },
+    {
+      "category": "contact_lens_guidance",
+      "question": "Contact lens select cheyyan help cheyyumo?",
+      "answer": "Athe, prescriptionum comfortum anusari suitable contact lens choose cheyyan help cheyyum."
+    },
+    {
+      "category": "sunglasses",
+      "question": "Sunglasses undo?",
+      "answer": "Athe, regular, polarized, UV-protected, branded sunglasses available aanu."
+    },
+    {
+      "category": "kids_glasses",
+      "question": "Kuttikalkku glasses undo?",
+      "answer": "Athe, kidsinu special framesum lensesum available aanu."
+    },
+    {
+      "category": "computer_glasses",
+      "question": "Computer allenkil blue-light glasses undo?",
+      "answer": "Athe, computerum mobile usageinum blue-light protection glasses available aanu."
+    },
+    {
+      "category": "custom_glasses",
+      "question": "Glasses customize cheyyan pattumo?",
+      "answer": "Athe, frameum lensum customize cheyyan options available aanu."
+    },
+    {
+      "category": "glasses_delivery_time",
+      "question": "Glasses ready aavan ethra time edukum?",
+      "answer": "Lensum frame selectionum anusari usually few days edukum."
+    },
+    {
+      "category": "urgent_delivery",
+      "question": "Same-day delivery undo?",
+      "answer": "Selected framesum lensesinum same-day delivery available ayirikkam."
+    },
+    {
+      "category": "frame_repair",
+      "question": "Eyeglasses repair cheyyumo?",
+      "answer": "Athe, frame adjustmentum minor repair servicesum available aanu."
+    },
+    {
+      "category": "lens_replacement",
+      "question": "Old frameil puthiya lens fit cheyyumo?",
+      "answer": "Athe, frame condition nallathanel lens replace cheyyam."
+    },
+    {
+      "category": "cleaning_service",
+      "question": "Glasses cleaning service undo?",
+      "answer": "Athe, cleaningum maintenance servicesum available aanu."
+    },
+    {
+      "category": "warranty",
+      "question": "Glassesinu warranty undo?",
+      "answer": "Warranty brandum product typeum anusari ayirikkum."
+    },
+    {
+      "category": "return_policy",
+      "question": "Glasses return allenkil exchange cheyyan pattumo?",
+      "answer": "Returnum exchangeum productum store policyum anusari ayirikkum."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Ethu payment methods accept cheyyum?",
+      "answer": "Cash, cards, UPI, online payments ellam accept cheyyum."
+    },
+    {
+      "category": "insurance_support",
+      "question": "Insurance claim accept cheyyumo?",
+      "answer": "Insurance provider policy anusari insurance support available ayirikkam."
+    },
+    {
+      "category": "offers_discounts",
+      "question": "Offers allenkil discounts undo?",
+      "answer": "Athe, seasonal discountsum promotional offersum available ayirikkam."
+    },
+    {
+      "category": "branded_products",
+      "question": "Branded eyewear undo?",
+      "answer": "Athe, branded framesum sunglassesum available aanu."
+    },
+    {
+      "category": "home_delivery",
+      "question": "Home delivery undo?",
+      "answer": "Athe, location anusari home delivery available ayirikkam."
+    },
+    {
+      "category": "online_orders",
+      "question": "Online ayi glasses order cheyyan pattumo?",
+      "answer": "Athe, selected products online allenkil WhatsApp vazhi order cheyyam."
+    },
+    {
+      "category": "store_timings",
+      "question": "Shop timing enthaanu?",
+      "answer": "Shop timings locationum business hoursum anusari vary cheyyum."
+    },
+    {
+      "category": "holiday_opening",
+      "question": "Holidaysil shop open aano?",
+      "answer": "Holiday availability store schedule anusari ayirikkum."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Parking undo?",
+      "answer": "Shop location anusari parking facilities available ayirikkam."
+    },
+    {
+      "category": "customer_support",
+      "question": "Optical shopine engane contact cheyyam?",
+      "answer": "Phone, WhatsApp, email, allenkil direct visit vazhi contact cheyyam."
+    }
+  ]
+}

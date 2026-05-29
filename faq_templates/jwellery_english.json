@@ -1,0 +1,628 @@
+{
+  "faqs": [
+    {
+      "question": "What types of jewellery do you offer?",
+      "answer": "We offer a wide range including gold, diamond, silver, platinum, and gemstone jewellery."
+    },
+    {
+      "question": "Do you have the latest jewellery designs?",
+      "answer": "Yes, we regularly update our collection with the latest trendy and traditional designs."
+    },
+    {
+      "question": "Can I customize my jewellery design?",
+      "answer": "Yes, we provide custom jewellery services where you can design according to your preference."
+    },
+    {
+      "question": "Are your diamonds and gemstones certified?",
+      "answer": "Yes, all our diamonds and gemstones come with proper certification for authenticity and quality assurance."
+    },
+    {
+      "question": "Do you make bridal and special occasion jewellery?",
+      "answer": "Yes, we specialize in bridal sets and jewellery for weddings, engagements, and special occasions."
+    },
+    {
+      "question": "Can I request engraving on jewellery?",
+      "answer": "Yes, we offer engraving services for names, initials, or special messages."
+    },
+    {
+      "category": "pricing_overview",
+      "question": "How is jewellery pricing calculated?",
+      "answer": "Jewellery pricing is calculated based on gold/silver weight, purity, making charges, design complexity, and current market rates."
+    },
+    {
+      "category": "gold_rate",
+      "question": "Does gold rate change daily?",
+      "answer": "Yes, gold rates change daily based on market conditions, and final price is calculated on the rate of purchase day."
+    },
+    {
+      "category": "making_charges",
+      "question": "What are making charges in jewellery?",
+      "answer": "Making charges are the labour cost for designing and crafting the jewellery piece, which varies by design complexity."
+    },
+    {
+      "category": "gst_tax",
+      "question": "Is GST included in jewellery pricing?",
+      "answer": "Yes, GST is applicable on jewellery purchases and is added to the final bill as per government regulations."
+    },
+    {
+      "category": "price_variation",
+      "question": "Why does the same jewellery design have different prices?",
+      "answer": "Prices may vary due to differences in weight, purity, craftsmanship, brand, and making charges."
+    },
+    {
+      "category": "advance_booking_price",
+      "question": "Do I need to pay advance for custom jewellery orders?",
+      "answer": "Yes, custom or special orders usually require an advance payment to confirm the design and production."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "We accept cash, credit cards, debit cards, UPI, bank transfers, and digital wallets."
+    },
+    {
+      "category": "emi_options",
+      "question": "Do you offer EMI options for jewellery purchase?",
+      "answer": "Yes, selected jewellery purchases may be eligible for EMI options depending on the bank and scheme."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Is jewellery refundable after purchase?",
+      "answer": "Refund policies vary; generally, refunds are not provided, but exchange options may be available under certain conditions."
+    },
+    {
+      "category": "exchange_policy",
+      "question": "Can I exchange old jewellery?",
+      "answer": "Yes, old jewellery can often be exchanged based on current gold rate and store policy."
+    },
+    {
+      "category": "billing_invoice",
+      "question": "Will I receive a bill for my purchase?",
+      "answer": "Yes, a detailed invoice including weight, purity, rate, and taxes is provided for every purchase."
+    },
+    {
+      "category": "discount_offers",
+      "question": "Do you provide discounts on jewellery?",
+      "answer": "Occasional discounts or festival offers may be available on making charges or selected collections."
+    },
+    {
+      "category": "price_transparency",
+      "question": "Is jewellery pricing transparent?",
+      "answer": "Yes, pricing is fully transparent with breakdown of gold rate, weight, making charges, and taxes."
+    },
+    {
+      "category": "booking_price_lock",
+      "question": "Can I lock gold rate while booking?",
+      "answer": "Some jewellers allow rate locking for a limited period during advance booking."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Can I cancel a jewellery order after payment?",
+      "answer": "Cancellation policies depend on order type; custom orders may have restrictions after production starts."
+    },
+    {
+      "category": "exchange_policy_overview",
+      "question": "Do you offer jewellery exchange services?",
+      "answer": "Yes, we offer jewellery exchange services where old jewellery can be exchanged for new designs based on current valuation."
+    },
+    {
+      "category": "buyback_policy",
+      "question": "Do you have a buyback option for jewellery?",
+      "answer": "Yes, selected jewellery items can be sold back under our buyback policy depending on purity, condition, and market value."
+    },
+    {
+      "category": "valuation_process",
+      "question": "How is jewellery value calculated for exchange or buyback?",
+      "answer": "Valuation is based on gold purity, weight, current market rate, and making charges deduction as per policy."
+    },
+    {
+      "category": "required_documents",
+      "question": "What documents are needed for jewellery exchange or buyback?",
+      "answer": "You may need a valid ID proof and original purchase invoice for smooth processing."
+    },
+    {
+      "category": "exchange_eligibility",
+      "question": "Is all jewellery eligible for exchange?",
+      "answer": "Most gold jewellery is eligible, but eligibility depends on condition, purity, and store policy."
+    },
+    {
+      "category": "buyback_conditions",
+      "question": "What are the conditions for jewellery buyback?",
+      "answer": "Buyback depends on product condition, purity verification, and applicable deductions based on market standards."
+    },
+    {
+      "category": "making_charges",
+      "question": "Will making charges be refunded during exchange?",
+      "answer": "Making charges are usually not fully refundable and may be partially deducted during exchange."
+    },
+    {
+      "category": "gold_rate_basis",
+      "question": "Which gold rate is used for exchange or buyback?",
+      "answer": "The current live market gold rate on the transaction day is used for valuation."
+    },
+    {
+      "category": "instant_exchange",
+      "question": "Can I exchange jewellery instantly?",
+      "answer": "Yes, instant exchange is possible after valuation and agreement on final price."
+    },
+    {
+      "category": "partial_exchange",
+      "question": "Can I partially exchange jewellery value for a new purchase?",
+      "answer": "Yes, partial exchange is allowed where remaining balance can be paid for new jewellery."
+    },
+    {
+      "category": "buyback_payment",
+      "question": "How will I receive payment for buyback?",
+      "answer": "Payment will be provided via bank transfer or other approved payment methods after verification."
+    },
+    {
+      "category": "damaged_jewellery",
+      "question": "Can damaged jewellery be exchanged or sold back?",
+      "answer": "Yes, but value may be reduced depending on damage level and repair requirements."
+    },
+    {
+      "category": "stone_deduction",
+      "question": "Are stone-studded jewellery items included fully in valuation?",
+      "answer": "Stones may be excluded or valued separately depending on type and quality."
+    },
+    {
+      "category": "policy_changes",
+      "question": "Can exchange or buyback policies change?",
+      "answer": "Yes, policies may change based on market conditions and store updates."
+    },
+    {
+      "category": "consultation_support",
+      "question": "Can I get assistance before exchanging jewellery?",
+      "answer": "Yes, our staff can explain valuation, options, and best exchange offers before proceeding."
+    },
+    {
+      "category": "ring_size",
+      "question": "How do I know my ring size?",
+      "answer": "You can measure your ring size using a ring sizer tool at home or visit our store for accurate measurement by our staff."
+    },
+    {
+      "category": "size_adjustment",
+      "question": "Can ring size be adjusted after purchase?",
+      "answer": "Yes, most rings can be resized depending on the design and metal type."
+    },
+    {
+      "category": "custom_jewellery",
+      "question": "Do you provide custom-made jewellery?",
+      "answer": "Yes, we offer fully custom jewellery designs based on your preferences and budget."
+    },
+    {
+      "category": "design_customization",
+      "question": "Can I customize jewellery designs?",
+      "answer": "Yes, you can customize designs, patterns, stones, and metal types as per your requirement."
+    },
+    {
+      "category": "necklace_length",
+      "question": "Can necklace length be customized?",
+      "answer": "Yes, necklace length can be customized according to your style and comfort."
+    },
+    {
+      "category": "bracelet_size",
+      "question": "Do you offer different bracelet sizes?",
+      "answer": "Yes, bracelets are available in multiple sizes and can also be customized."
+    },
+    {
+      "category": "earring_customization",
+      "question": "Can I customize earrings?",
+      "answer": "Yes, earrings can be customized in terms of design, size, stone type, and metal."
+    },
+    {
+      "category": "adjustment_charges",
+      "question": "Is there an extra charge for size adjustment?",
+      "answer": "Small adjustments are often free or minimal charged depending on the jewellery type."
+    },
+    {
+      "category": "custom_order_time",
+      "question": "How long does custom jewellery take to make?",
+      "answer": "Custom jewellery usually takes a few days to several weeks depending on design complexity."
+    },
+    {
+      "category": "design_preview",
+      "question": "Can I see a preview before final making?",
+      "answer": "Yes, design previews or sketches are shared before final production."
+    },
+    {
+      "category": "metal_options",
+      "question": "Can I choose different metals for customization?",
+      "answer": "Yes, you can choose from gold, silver, platinum, or other available metal options."
+    },
+    {
+      "category": "stone_selection",
+      "question": "Can I select stones for my jewellery?",
+      "answer": "Yes, you can choose gemstones, diamonds, or artificial stones based on your preference."
+    },
+    {
+      "category": "repair_and_resize",
+      "question": "Do you provide repair and resizing services?",
+      "answer": "Yes, we offer jewellery repair and resizing services for most items."
+    },
+    {
+      "category": "personalized_gifts",
+      "question": "Can I create personalized jewellery gifts?",
+      "answer": "Yes, we design personalized jewellery items for gifts, special occasions, and events."
+    },
+    {
+      "category": "consultation",
+      "question": "Do you provide consultation for jewellery customization?",
+      "answer": "Yes, our experts guide you in selecting the best design, size, and materials."
+    },
+    {
+      "category": "certification_overview",
+      "question": "Do you provide certification for jewellery?",
+      "answer": "Yes, we provide proper certification for all gold, diamond, and precious jewellery to ensure authenticity."
+    },
+    {
+      "category": "hallmark_gold",
+      "question": "What is Hallmark certification in gold jewellery?",
+      "answer": "Hallmark certification is an official mark that guarantees the purity of gold as per government standards."
+    },
+    {
+      "category": "diamond_certification",
+      "question": "Do diamonds come with certification?",
+      "answer": "Yes, all diamonds are provided with recognized certification from authorized gemological laboratories."
+    },
+    {
+      "category": "authenticity_guarantee",
+      "question": "How do you ensure jewellery authenticity?",
+      "answer": "We ensure authenticity through certified sourcing, quality testing, and verified hallmarking or grading systems."
+    },
+    {
+      "category": "fake_jewellery_concern",
+      "question": "How can I be sure the jewellery is not fake?",
+      "answer": "Every piece comes with proper certification, purity markings, and quality assurance checks."
+    },
+    {
+      "category": "return_policy_authenticity",
+      "question": "What if I doubt the authenticity of a jewellery piece?",
+      "answer": "You can contact us for verification, and we provide full transparency with certification details."
+    },
+    {
+      "category": "purity_standards",
+      "question": "What purity levels do you offer in gold jewellery?",
+      "answer": "We offer multiple purity levels such as 22K and 18K gold, all properly certified and marked."
+    },
+    {
+      "category": "certification_documents",
+      "question": "What documents are provided with jewellery purchase?",
+      "answer": "We provide invoices, hallmark certificates, and gemstone grading reports where applicable."
+    },
+    {
+      "category": "international_standards",
+      "question": "Do your certifications follow international standards?",
+      "answer": "Yes, gemstone certifications follow internationally recognized grading standards."
+    },
+    {
+      "category": "jewellery_testing",
+      "question": "Is jewellery tested before selling?",
+      "answer": "Yes, all jewellery is tested for purity and quality before being made available for sale."
+    },
+    {
+      "category": "hallmark_stamp",
+      "question": "Where can I find the hallmark on jewellery?",
+      "answer": "Hallmark stamps are usually engraved on the inner side of rings, chains, or bangles."
+    },
+    {
+      "category": "certified_gold_vs_non_certified",
+      "question": "Why should I buy certified jewellery?",
+      "answer": "Certified jewellery ensures purity, authenticity, resale value, and trust in quality."
+    },
+    {
+      "category": "verification_support",
+      "question": "Can I verify my jewellery certificate later?",
+      "answer": "Yes, you can verify certification details with the issuing authority or contact us for assistance."
+    },
+    {
+      "category": "custom_jewellery_authenticity",
+      "question": "Is custom-made jewellery also certified?",
+      "answer": "Yes, custom jewellery is also provided with proper certification based on materials used."
+    },
+    {
+      "category": "trust_assurance",
+      "question": "How do you build customer trust in jewellery authenticity?",
+      "answer": "We maintain transparency, provide certified products, and ensure strict quality control at every stage."
+    },
+    {
+      "category": "ordering_overview",
+      "question": "How can I place a jewellery order?",
+      "answer": "You can place an order through our store, website, WhatsApp, or by visiting our showroom directly."
+    },
+    {
+      "category": "online_ordering",
+      "question": "Can I order jewellery online?",
+      "answer": "Yes, we offer secure online ordering for selected jewellery collections."
+    },
+    {
+      "category": "order_confirmation",
+      "question": "How will I know my order is confirmed?",
+      "answer": "You will receive a confirmation message or email with your order details after successful payment or booking."
+    },
+    {
+      "category": "custom_orders",
+      "question": "Can I place custom jewellery orders?",
+      "answer": "Yes, custom-made jewellery designs are available based on your requirements and preferences."
+    },
+    {
+      "category": "order_processing_time",
+      "question": "How long does it take to process an order?",
+      "answer": "Processing time varies depending on the design, availability, and customization, usually a few days to a few weeks."
+    },
+    {
+      "category": "delivery_areas",
+      "question": "Do you deliver jewellery to all locations?",
+      "answer": "We provide delivery to most locations, depending on service coverage and courier availability."
+    },
+    {
+      "category": "delivery_time",
+      "question": "How long does delivery take?",
+      "answer": "Delivery time depends on your location and product availability, typically ranging from a few days to a week."
+    },
+    {
+      "category": "delivery_charges",
+      "question": "Are there any delivery charges?",
+      "answer": "Delivery charges may apply based on location, order value, and shipping method."
+    },
+    {
+      "category": "order_tracking",
+      "question": "Can I track my jewellery order?",
+      "answer": "Yes, tracking details will be provided once your order is shipped."
+    },
+    {
+      "category": "cash_on_delivery",
+      "question": "Is Cash on Delivery available?",
+      "answer": "Cash on Delivery may be available for selected products and locations."
+    },
+    {
+      "category": "secure_packaging",
+      "question": "Is jewellery safely packed for delivery?",
+      "answer": "Yes, all jewellery items are securely packaged to ensure safety during transit."
+    },
+    {
+      "category": "delivery_delay",
+      "question": "What if my delivery is delayed?",
+      "answer": "In case of delays, our support team will update you and assist in tracking your order."
+    },
+    {
+      "category": "returns_policy",
+      "question": "Can I return delivered jewellery?",
+      "answer": "Return policies depend on product type. Custom jewellery may not be eligible for returns."
+    },
+    {
+      "category": "exchange_policy",
+      "question": "Is jewellery exchange possible?",
+      "answer": "Exchange options are available for selected items under specific terms and conditions."
+    },
+    {
+      "category": "support_contact",
+      "question": "How can I contact support for my order?",
+      "answer": "You can contact our customer support via phone, email, or WhatsApp for order assistance."
+    },
+    {
+      "category": "repair_services_overview",
+      "question": "What jewellery repair services do you offer?",
+      "answer": "We offer ring resizing, stone setting, chain repair, clasp fixing, polishing, soldering, and restoration services."
+    },
+    {
+      "category": "repair_safety",
+      "question": "Is jewellery repair safe for delicate items?",
+      "answer": "Yes, all repairs are done by skilled professionals using safe techniques to ensure your jewellery is not damaged."
+    },
+    {
+      "category": "stone_safety",
+      "question": "Will my stones be safe during repair?",
+      "answer": "Yes, extra care is taken to protect stones during repair, and loose settings are checked before and after service."
+    },
+    {
+      "category": "metal_safety",
+      "question": "Can repair damage the metal of my jewellery?",
+      "answer": "No, proper tools and techniques are used to avoid any damage. In fact, repairs help restore strength and durability."
+    },
+    {
+      "category": "repair_time",
+      "question": "How long does jewellery repair take?",
+      "answer": "Repair time depends on the complexity, usually ranging from a few hours to a few days."
+    },
+    {
+      "category": "warranty_overview",
+      "question": "Do you provide warranty on jewellery repairs?",
+      "answer": "Yes, warranty is provided on selected repair services depending on the type of work done."
+    },
+    {
+      "category": "warranty_duration",
+      "question": "How long is the repair warranty valid?",
+      "answer": "Warranty duration varies based on the repair type, typically from a few weeks to several months."
+    },
+    {
+      "category": "warranty_coverage",
+      "question": "What does the repair warranty cover?",
+      "answer": "Warranty usually covers issues related to the repaired area, such as loosening or joint failure under normal use."
+    },
+    {
+      "category": "warranty_limitations",
+      "question": "What is not covered under warranty?",
+      "answer": "Damage caused by misuse, accidents, or external force is not covered under warranty."
+    },
+    {
+      "category": "inspection_before_repair",
+      "question": "Do you inspect jewellery before repair?",
+      "answer": "Yes, a full inspection is done before repair to identify issues and ensure proper service."
+    },
+    {
+      "category": "repair_tracking",
+      "question": "Can I track my jewellery repair status?",
+      "answer": "Yes, updates can be provided during the repair process upon request."
+    },
+    {
+      "category": "repair_safety_process",
+      "question": "What safety measures are followed during repair?",
+      "answer": "We follow strict handling procedures, use professional tools, and ensure secure storage of your jewellery."
+    },
+    {
+      "category": "polishing_safety",
+      "question": "Is polishing safe for gold and silver jewellery?",
+      "answer": "Yes, polishing is done carefully to restore shine without affecting the metal quality."
+    },
+    {
+      "category": "repair_cost",
+      "question": "How is jewellery repair cost calculated?",
+      "answer": "Cost depends on the type of repair, material used, and complexity of the work."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get advice before repairing my jewellery?",
+      "answer": "Yes, our experts will assess your jewellery and suggest the best repair options before proceeding."
+    },
+    {
+      "category": "store_overview",
+      "question": "What are your jewellery store opening hours?",
+      "answer": "Our jewellery store is usually open from 10:00 AM to 8:00 PM, Monday to Sunday."
+    },
+    {
+      "category": "closing_time",
+      "question": "What time do you close the jewellery store?",
+      "answer": "We typically close at 8:00 PM, but timings may vary on special days or holidays."
+    },
+    {
+      "category": "opening_time",
+      "question": "What time do you open the store?",
+      "answer": "We open daily at 10:00 AM for customers."
+    },
+    {
+      "category": "weekend_hours",
+      "question": "Are you open on weekends?",
+      "answer": "Yes, we are open on weekends with regular working hours."
+    },
+    {
+      "category": "holiday_hours",
+      "question": "Are you open on public holidays?",
+      "answer": "We may remain open or closed on public holidays depending on the occasion."
+    },
+    {
+      "category": "festival_hours",
+      "question": "Do store timings change during festivals?",
+      "answer": "Yes, during festivals we may extend or adjust our working hours."
+    },
+    {
+      "category": "late_evening",
+      "question": "Do you offer late evening shopping hours?",
+      "answer": "On special days or peak seasons, we may extend evening hours."
+    },
+    {
+      "category": "early_morning",
+      "question": "Is early morning shopping available?",
+      "answer": "Early morning visits are possible by prior appointment only."
+    },
+    {
+      "category": "appointment_visits",
+      "question": "Do I need an appointment to visit the store?",
+      "answer": "No appointment is required for general shopping, but private consultations may need booking."
+    },
+    {
+      "category": "busy_hours",
+      "question": "What are the busiest hours in the store?",
+      "answer": "Evening hours and weekends are usually the busiest times."
+    },
+    {
+      "category": "lunch_break",
+      "question": "Do you close for lunch break?",
+      "answer": "No, the store remains open continuously during working hours."
+    },
+    {
+      "category": "extended_hours",
+      "question": "Do you have extended working hours during sales?",
+      "answer": "Yes, during sales and festive seasons we may extend store timings."
+    },
+    {
+      "category": "timing_changes",
+      "question": "Can store timings change suddenly?",
+      "answer": "Yes, timings may change due to special events or operational reasons."
+    },
+    {
+      "category": "contact_hours",
+      "question": "When can I contact the jewellery store?",
+      "answer": "You can contact us during store working hours for inquiries and support."
+    },
+    {
+      "category": "special_booking_hours",
+      "question": "Can I visit the store outside normal hours?",
+      "answer": "Special visits may be arranged by prior request and confirmation."
+    },
+    {
+      "category": "store_location_overview",
+      "question": "Where is your jewellery store located?",
+      "answer": "Our jewellery store is located in a convenient and easily accessible area. You can find the exact address on Google Maps or contact us for directions."
+    },
+    {
+      "category": "store_directions",
+      "question": "How can I reach your jewellery shop easily?",
+      "answer": "You can reach us easily using Google Maps, public transport, or by following the nearest landmark directions provided by our team."
+    },
+    {
+      "category": "nearest_landmark",
+      "question": "What is the nearest landmark to your jewellery store?",
+      "answer": "We are located near well-known local landmarks. Please contact us to get the exact landmark-based directions."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Is parking available at your jewellery store?",
+      "answer": "Yes, parking facilities are available for customers, though availability may vary depending on the time of visit."
+    },
+    {
+      "category": "public_transport",
+      "question": "Can I reach your jewellery store by public transport?",
+      "answer": "Yes, our store is easily accessible by bus, train, metro, and other public transport options."
+    },
+    {
+      "category": "store_hours",
+      "question": "What are your jewellery store opening hours?",
+      "answer": "Our store is generally open during standard business hours, typically from morning to evening."
+    },
+    {
+      "category": "closing_time",
+      "question": "What time does your jewellery store close?",
+      "answer": "We usually close in the evening, but exact timings may vary depending on weekdays, weekends, and special occasions."
+    },
+    {
+      "category": "weekend_availability",
+      "question": "Are you open on weekends?",
+      "answer": "Yes, we are open on weekends with regular or extended hours depending on customer demand."
+    },
+    {
+      "category": "holiday_hours",
+      "question": "Are you open on public holidays?",
+      "answer": "We may operate with limited hours or remain closed on certain public holidays. Please check in advance."
+    },
+    {
+      "category": "festival_hours",
+      "question": "Are you open during festival seasons?",
+      "answer": "Yes, we are open during festival seasons with special timings and festive collections available."
+    },
+    {
+      "category": "appointment_visit",
+      "question": "Do I need an appointment to visit the jewellery store?",
+      "answer": "No appointment is required for regular visits, but appointments are recommended for personalized consultations."
+    },
+    {
+      "category": "best_time_to_visit",
+      "question": "What is the best time to visit your jewellery shop?",
+      "answer": "Weekday mornings or early afternoons are usually less crowded and ideal for a comfortable shopping experience."
+    },
+    {
+      "category": "location_update",
+      "question": "Do you change location or branch often?",
+      "answer": "No, our store location remains consistent. Any changes or new branches will be announced officially."
+    },
+    {
+      "category": "contact_location_help",
+      "question": "Can I contact you for directions?",
+      "answer": "Yes, you can contact us anytime and our team will guide you with accurate directions to the store."
+    },
+    {
+      "category": "delivery_location",
+      "question": "Do you provide delivery to different locations?",
+      "answer": "Yes, we offer delivery services to selected locations depending on product type and availability."
+    }
+  ]
+}

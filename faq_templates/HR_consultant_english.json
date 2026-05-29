@@ -1,0 +1,945 @@
+﻿{"faqs": [{
+      "category": "job_openings",
+      "question": "What job openings are currently available?",
+      "answer": "We have openings across various industries and roles. Please share your profile to receive the latest suitable opportunities."
+    },
+    {
+      "category": "vacancy_details",
+      "question": "How can I view available vacancies?",
+      "answer": "You can contact our recruitment team or submit your resume to receive information about current vacancies."
+    },
+    {
+      "category": "job_search",
+      "question": "Can you help me find a job that matches my skills?",
+      "answer": "Yes, we assess your qualifications, experience, and preferences to match you with suitable job opportunities."
+    },
+    {
+      "category": "resume_submission",
+      "question": "How can I submit my resume?",
+      "answer": "You can submit your resume through email, WhatsApp, online application forms, or our website."
+    },
+    {
+      "category": "fresher_jobs",
+      "question": "Do you have jobs for freshers?",
+      "answer": "Yes, we regularly recruit for entry-level and fresher positions across multiple industries."
+    },
+    {
+      "category": "experienced_jobs",
+      "question": "Do you have vacancies for experienced professionals?",
+      "answer": "Yes, we offer opportunities for both experienced candidates and senior professionals."
+    },
+    {
+      "category": "remote_jobs",
+      "question": "Do you provide remote or work-from-home jobs?",
+      "answer": "Yes, remote and hybrid opportunities may be available depending on employer requirements."
+    },
+    {
+      "category": "part_time_jobs",
+      "question": "Are part-time jobs available?",
+      "answer": "Yes, part-time, full-time, contract, and temporary positions may be available."
+    },
+    {
+      "category": "job_location",
+      "question": "Can I apply for jobs in a specific location?",
+      "answer": "Yes, we can help you find opportunities based on your preferred location."
+    },
+    {
+      "category": "salary_information",
+      "question": "Will salary details be provided before the interview?",
+      "answer": "Salary information is usually shared based on employer policies and job requirements."
+    },
+    {
+      "category": "application_status",
+      "question": "How can I check my job application status?",
+      "answer": "You can contact our recruitment team to receive updates regarding your application."
+    },
+    {
+      "category": "interview_arrangement",
+      "question": "Will you arrange interviews with employers?",
+      "answer": "Yes, shortlisted candidates will be scheduled for interviews with the hiring company."
+    },
+    {
+      "category": "multiple_applications",
+      "question": "Can I apply for multiple job vacancies?",
+      "answer": "Yes, you may apply for multiple positions that match your qualifications and experience."
+    },
+    {
+      "category": "recruitment_fee",
+      "question": "Do candidates need to pay a recruitment fee?",
+      "answer": "Fee requirements depend on the consultancy's policies and the specific recruitment program."
+    },
+    {
+      "category": "job_alerts",
+      "question": "Can I receive notifications about new job openings?",
+      "answer": "Yes, we can provide job alerts and updates when suitable vacancies become available."
+    }
+  
+{
+  "faqs": [
+    {
+      "category": "job_application_overview",
+      "question": "How can I apply for a job through your HR consultancy?",
+      "answer": "You can apply by submitting your resume through our website, email, WhatsApp, or by contacting one of our recruitment consultants."
+    },
+    {
+      "category": "resume_submission",
+      "question": "How do I submit my resume?",
+      "answer": "You can submit your resume online, send it via email, or share it through WhatsApp as instructed by our recruitment team."
+    },
+    {
+      "category": "application_fee",
+      "question": "Do I need to pay any fee to apply for a job?",
+      "answer": "Application fees depend on the consultancy's policies and the specific recruitment program. Please verify all charges before proceeding."
+    },
+    {
+      "category": "job_matching",
+      "question": "How do you match candidates with job openings?",
+      "answer": "We evaluate your qualifications, experience, skills, preferences, and career goals to identify suitable job opportunities."
+    },
+    {
+      "category": "application_status",
+      "question": "How can I check the status of my application?",
+      "answer": "You can contact your assigned recruiter or reach out to our support team for application status updates."
+    },
+    {
+      "category": "multiple_applications",
+      "question": "Can I apply for multiple jobs at the same time?",
+      "answer": "Yes, you may apply for multiple positions that match your qualifications and interests."
+    },
+    {
+      "category": "resume_update",
+      "question": "Can I update my resume after applying?",
+      "answer": "Yes, you can submit an updated resume to your recruiter for future consideration."
+    },
+    {
+      "category": "interview_process",
+      "question": "What happens after my application is shortlisted?",
+      "answer": "Shortlisted candidates are usually contacted for screening, interviews, assessments, or additional verification steps."
+    },
+    {
+      "category": "required_documents",
+      "question": "What documents are required for a job application?",
+      "answer": "Common documents include a resume, identification documents, educational certificates, and work experience records."
+    },
+    {
+      "category": "experience_requirement",
+      "question": "Can fresh graduates apply for jobs through your consultancy?",
+      "answer": "Yes, we work with employers offering opportunities for both experienced professionals and fresh graduates."
+    },
+    {
+      "category": "job_location",
+      "question": "Do you offer jobs in different locations?",
+      "answer": "Yes, job opportunities may be available in various cities, regions, and countries depending on employer requirements."
+    },
+    {
+      "category": "rejection_process",
+      "question": "What if my application is not selected?",
+      "answer": "Your profile may be retained for future opportunities that better match your qualifications and experience."
+    },
+    {
+      "category": "interview_preparation",
+      "question": "Do you provide interview preparation assistance?",
+      "answer": "Yes, we may provide interview guidance, resume review, and career advice to help candidates prepare."
+    },
+    {
+      "category": "offer_letter",
+      "question": "How will I receive a job offer if selected?",
+      "answer": "Selected candidates usually receive a formal offer letter from the employer or through the recruitment process."
+    },
+    {
+      "category": "support_contact",
+      "question": "Who can I contact if I have questions about my application?",
+      "answer": "You can contact your assigned recruiter or our support team for assistance throughout the application process."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "resume_service_overview",
+      "question": "What resume and CV support services do you offer?",
+      "answer": "We provide resume writing, CV preparation, resume review, profile optimization, and job application support services."
+    },
+    {
+      "category": "difference_resume_cv",
+      "question": "What is the difference between a resume and a CV?",
+      "answer": "A resume is a concise summary of skills and experience, while a CV is a more detailed document covering education, work history, certifications, and achievements."
+    },
+    {
+      "category": "resume_creation",
+      "question": "Can you create a resume from scratch?",
+      "answer": "Yes, we can prepare a professional resume based on your education, experience, skills, and career goals."
+    },
+    {
+      "category": "resume_review",
+      "question": "Do you review existing resumes?",
+      "answer": "Yes, we review resumes and provide recommendations to improve content, formatting, and job relevance."
+    },
+    {
+      "category": "industry_specific_resume",
+      "question": "Can you create resumes for specific industries?",
+      "answer": "Yes, we customize resumes for industries such as IT, healthcare, finance, engineering, sales, and more."
+    },
+    {
+      "category": "fresher_resume",
+      "question": "Do you help freshers create resumes?",
+      "answer": "Yes, we assist fresh graduates and entry-level candidates in creating professional resumes."
+    },
+    {
+      "category": "experienced_professional_resume",
+      "question": "Do you provide resume support for experienced professionals?",
+      "answer": "Yes, we help experienced candidates highlight their achievements, leadership skills, and career progression."
+    },
+    {
+      "category": "ats_resume",
+      "question": "Do you create ATS-friendly resumes?",
+      "answer": "Yes, our resumes are designed to be compatible with Applicant Tracking Systems (ATS)."
+    },
+    {
+      "category": "linkedin_profile",
+      "question": "Do you help optimize LinkedIn profiles?",
+      "answer": "Yes, we provide LinkedIn profile enhancement services to improve professional visibility."
+    },
+    {
+      "category": "cover_letter",
+      "question": "Do you provide cover letter writing services?",
+      "answer": "Yes, we create customized cover letters tailored to specific job applications."
+    },
+    {
+      "category": "resume_turnaround_time",
+      "question": "How long does it take to prepare a resume?",
+      "answer": "The turnaround time depends on the complexity of the profile and service package selected."
+    },
+    {
+      "category": "resume_updates",
+      "question": "Can you update my existing resume with new experience?",
+      "answer": "Yes, we can update your resume to include recent work experience, skills, certifications, and achievements."
+    },
+    {
+      "category": "job_application_support",
+      "question": "Do you provide job application support?",
+      "answer": "Yes, we assist with resume submission strategies, job applications, and profile presentation."
+    },
+    {
+      "category": "pricing",
+      "question": "How much do resume and CV services cost?",
+      "answer": "Pricing depends on the service type, experience level, and customization requirements."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get a consultation before choosing a resume service?",
+      "answer": "Yes, we offer consultations to understand your career goals and recommend suitable resume solutions."
+    }
+  ]
+}
+
+  "faqs": [
+    {
+      "category": "interview_preparation_overview",
+      "question": "What is interview preparation service in HR consultancy?",
+      "answer": "It is a service that helps candidates prepare for job interviews through training, mock interviews, and career guidance."
+    },
+    {
+      "category": "mock_interview",
+      "question": "Do you conduct mock interviews?",
+      "answer": "Yes, we conduct mock interviews to help candidates practice real interview scenarios and improve confidence."
+    },
+    {
+      "category": "resume_preparation",
+      "question": "Do you help with resume preparation?",
+      "answer": "Yes, we assist in creating and improving resumes to match job requirements and industry standards."
+    },
+    {
+      "category": "hr_round_questions",
+      "question": "What kind of HR questions are covered in training?",
+      "answer": "We cover common HR questions like self-introduction, strengths and weaknesses, career goals, and behavioral questions."
+    },
+    {
+      "category": "technical_interview",
+      "question": "Do you provide technical interview preparation?",
+      "answer": "Yes, we provide technical interview preparation based on the candidateâ€™s job role and industry."
+    },
+    {
+      "category": "communication_skills",
+      "question": "Do you help improve communication skills?",
+      "answer": "Yes, we focus on improving spoken English, confidence, and professional communication skills."
+    },
+    {
+      "category": "interview_tips",
+      "question": "What tips are given for interviews?",
+       "answer": "We provide tips on body language, dressing, answering techniques, and how to handle difficult questions."
+    },
+    {
+      "category": "career_guidance",
+      "question": "Do you provide career guidance?",
+      "answer": "Yes, we guide candidates in choosing the right career path and improving job opportunities."
+    },
+    {
+      "category": "salary_negotiation",
+      "question": "Do you help with salary negotiation skills?",
+      "answer": "Yes, we train candidates on how to discuss salary expectations professionally."
+    },
+    {
+      "category": "job_search_support",
+      "question": "Do you assist in job search?",
+      "answer": "Yes, we help candidates find suitable job opportunities through consultancy networks."
+    },
+    {
+      "category": "freshers_support",
+      "question": "Is this service useful for freshers?",
+      "answer": "Yes, freshers can greatly benefit from interview training and basic job preparation support."
+    },
+    {
+      "category": "experience_candidates",
+      "question": "Do you support experienced candidates?",
+      "answer": "Yes, we provide advanced interview preparation for experienced professionals as well."
+    },
+    {
+      "category": "training_mode",
+      "question": "Is training online or offline?",
+      "answer": "Training can be offered both online and offline depending on availability."
+    },
+    {
+      "category": "service_duration",
+      "question": "How long is the interview preparation program?",
+      "answer": "Duration varies depending on the candidateâ€™s needs and selected program."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get a consultation before joining?",
+      "answer": "Yes, initial consultation is available to understand your career goals and preparation needs."
+    }
+  ]
+  {
+  "faqs": [
+    {
+      "category": "salary_overview",
+      "question": "How is salary decided in HR consultancy roles?",
+      "answer": "Salary is decided based on experience, skills, job role, client requirements, and industry standards."
+    },
+    {
+      "category": "salary_range",
+      "question": "What is the typical salary range in HR consultancy?",
+      "answer": "Salary range varies widely depending on role and experience, from entry-level packages to senior consultant compensation."
+    },
+    {
+      "category": "salary_payment",
+      "question": "How is salary paid in HR consultancy jobs?",
+      "answer": "Salary is usually paid monthly through bank transfer or company payroll system."
+    },
+    {
+      "category": "probation_salary",
+      "question": "Is salary different during probation period?",
+      "answer": "Yes, some companies offer a fixed or slightly lower salary during probation, which is revised after confirmation."
+    },
+    {
+      "category": "performance_bonus",
+      "question": "Do HR consultants get performance bonuses?",
+      "answer": "Yes, performance-based bonuses may be provided based on targets, placements, or client satisfaction."
+    },
+    {
+      "category": "incentives",
+      "question": "Are incentives available in HR consultancy roles?",
+      "answer": "Yes, many HR consultancy roles offer incentives for successful recruitment and client handling."
+    },
+    {
+      "category": "benefits_overview",
+      "question": "What benefits are offered in HR consultancy jobs?",
+      "answer": "Benefits may include health insurance, paid leave, flexible working hours, and training opportunities."
+    },
+    {
+      "category": "work_from_home",
+      "question": "Is work from home available in HR consultancy?",
+      "answer": "Some HR consultancy roles offer remote or hybrid work options depending on company policy."
+    },
+    {
+      "category": "training",
+      "question": "Do HR consultancy companies provide training?",
+      "answer": "Yes, most companies provide training on recruitment tools, communication skills, and client handling."
+    },
+    {
+      "category": "career_growth",
+      "question": "What is the career growth in HR consultancy?",
+      "answer": "Career growth includes roles like HR Executive, Senior Consultant, Team Lead, and HR Manager."
+    },
+    {
+      "category": "leave_policy",
+      "question": "What is the leave policy in HR consultancy jobs?",
+      "answer": "Leave policies vary but generally include annual leave, sick leave, and public holidays."
+    },
+    {
+      "category": "working_hours",
+      "question": "What are the working hours in HR consultancy?",
+      "answer": "Working hours are typically standard office hours, but may vary based on client needs."
+    },
+    {
+      "category": "contract_type",
+      "question": "Are HR consultancy jobs permanent or contract-based?",
+      "answer": "HR consultancy roles can be permanent, contract-based, or freelance depending on the company."
+    },
+    {
+      "category": "salary_hike",
+      "question": "How often is salary revised?",
+      "answer": "Salary revisions are usually done annually based on performance and company policy."
+    },
+    {
+      "category": "additional_benefits",
+      "question": "Are there any additional perks in HR consultancy jobs?",
+      "answer": "Yes, perks may include travel allowance, mobile reimbursement, and skill development programs."
+    }
+  ]
+}
+}
+{
+  "faqs": [
+    {
+      "category": "hr_consultancy_overview",
+      "question": "What is an HR consultancy or recruitment service?",
+      "answer": "An HR consultancy helps companies find suitable candidates for job roles and assists job seekers in getting placed in the right companies."
+    },
+    {
+      "category": "services_offered",
+      "question": "What services do you provide as a recruitment agency?",
+      "answer": "We provide candidate sourcing, screening, interview scheduling, onboarding support, payroll assistance, and workforce management solutions."
+    },
+    {
+      "category": "employer_registration",
+      "question": "How can an employer register for recruitment services?",
+      "answer": "Employers can register by contacting us through phone, email, or website and sharing their job requirements."
+    },
+    {
+      "category": "job_posting",
+      "question": "Can companies post job vacancies through your consultancy?",
+      "answer": "Yes, companies can share job openings, and we will help them find suitable candidates quickly."
+    },
+    {
+      "category": "candidate_screening",
+      "question": "Do you screen candidates before recommending them?",
+      "answer": "Yes, we screen candidates based on skills, experience, and job requirements before shortlisting them."
+    },
+    {
+      "category": "industries_served",
+      "question": "Which industries do you provide recruitment services for?",
+      "answer": "We serve multiple industries including IT, healthcare, retail, hospitality, finance, construction, and more."
+    },
+    {
+      "category": "time_to_hire",
+      "question": "How long does it take to find suitable candidates?",
+      "answer": "Hiring time depends on the job role, but we usually provide shortlisted candidates within a short period."
+    },
+    {
+      "category": "fees_charges",
+      "question": "Do you charge employers for recruitment services?",
+      "answer": "Yes, service charges may apply depending on the hiring agreement and role requirements."
+    },
+    {
+      "category": "replacement_policy",
+      "question": "Do you offer replacement if a candidate leaves early?",
+      "answer": "Yes, replacement policies are available based on the agreed terms with the employer."
+    },
+    {
+      "category": "remote_hiring",
+      "question": "Do you support remote or international hiring?",
+      "answer": "Yes, we assist in both local and international recruitment depending on client needs."
+    },
+    {
+      "category": "interview_support",
+      "question": "Do you arrange interviews for candidates?",
+      "answer": "Yes, we coordinate and schedule interviews between employers and shortlisted candidates."
+    },
+    {
+      "category": "job_seeker_registration",
+      "question": "How can job seekers register with your consultancy?",
+      "answer": "Job seekers can register by submitting their resume through email, website, or direct visit."
+    },
+    {
+      "category": "resume_help",
+      "question": "Do you help candidates improve their resume?",
+      "answer": "Yes, we provide resume building and profile enhancement support for better job opportunities."
+    },
+    {
+      "category": "bulk_hiring",
+      "question": "Do you handle bulk hiring requirements?",
+      "answer": "Yes, we support bulk hiring for companies needing multiple employees at once."
+    },
+    {
+      "category": "support_contact",
+      "question": "How can I contact your HR consultancy?",
+      "answer": "You can contact us via phone, email, WhatsApp, or visit our office for assistance."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "recruitment_fees_overview",
+      "question": "What are recruitment fees in HR consultancy?",
+      "answer": "Recruitment fees are the charges taken by HR consultancy for providing hiring services and connecting employers with suitable candidates."
+    },
+    {
+      "category": "fee_structure",
+      "question": "How is the recruitment fee calculated?",
+      "answer": "Recruitment fees are usually calculated as a percentage of the candidateâ€™s annual salary or as a fixed service charge."
+    },
+    {
+      "category": "employer_charges",
+      "question": "Do employers need to pay recruitment fees?",
+      "answer": "Yes, in most cases employers pay the recruitment fees to the consultancy after successful hiring."
+    },
+    {
+      "category": "candidate_charges",
+      "question": "Do candidates need to pay recruitment fees?",
+      "answer": "Generally, candidates do not pay recruitment fees in most professional HR consultancy services."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Is advance payment required for recruitment services?",
+      "answer": "Some consultancies may require partial advance payment depending on the agreement and hiring requirement."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Are recruitment fees refundable?",
+      "answer": "Refund policies depend on the consultancy terms and service agreement signed with the client."
+    },
+    {
+      "category": "hidden_charges",
+      "question": "Are there any hidden charges in recruitment services?",
+      "answer": "No, all charges are discussed transparently before starting the recruitment process."
+    },
+    {
+      "category": "bulk_hiring",
+      "question": "Do recruitment fees change for bulk hiring?",
+      "answer": "Yes, special pricing or discounted fees may be available for bulk hiring requirements."
+    },
+    {
+      "category": "replacement_policy",
+      "question": "Do you offer free replacement if a candidate leaves?",
+      "answer": "Some HR consultancies offer replacement guarantees within a specific time period as per agreement."
+    },
+    {
+      "category": "service_types",
+      "question": "What services are included in recruitment fees?",
+      "answer": "Services may include candidate sourcing, screening, interviews, shortlisting, and onboarding support."
+    },
+    {
+      "category": "industry_based_fees",
+      "question": "Do recruitment fees vary by industry?",
+      "answer": "Yes, fees may vary depending on the industry, job role, and skill requirements."
+    },
+    {
+      "category": "contract_terms",
+      "question": "Do you provide written agreements for recruitment fees?",
+      "answer": "Yes, a formal agreement is usually provided before starting recruitment services."
+    },
+    {
+      "category": "payment_timing",
+      "question": "When should recruitment fees be paid?",
+      "answer": "Payment is usually made after candidate selection or as per agreed milestones."
+    },
+    {
+      "category": "international_recruitment",
+      "question": "Are fees different for international recruitment?",
+      "answer": "Yes, international recruitment services may have different fee structures and additional costs."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get a consultation before agreeing to recruitment fees?",
+      "answer": "Yes, most HR consultancies provide consultation to explain services and pricing before onboarding."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "screening_overview",
+      "question": "What is candidate screening in HR consultancy?",
+      "answer": "Candidate screening is the process of evaluating applicants to check if they meet job requirements before moving to the interview stage."
+    },
+    {
+      "category": "screening_process",
+      "question": "How does the candidate screening process work?",
+      "answer": "The process includes resume review, skill matching, experience verification, and shortlisting based on job criteria."
+    },
+    {
+      "category": "resume_screening",
+      "question": "What do you check in a resume screening?",
+      "answer": "We check education, skills, experience, job stability, and relevance to the job role."
+    },
+    {
+      "category": "shortlisting",
+      "question": "How are candidates shortlisted?",
+      "answer": "Candidates are shortlisted based on how well their profile matches the job requirements and client expectations."
+    },
+    {
+      "category": "interview_selection",
+      "question": "How do candidates move to the interview stage?",
+      "answer": "Candidates who pass screening are selected and scheduled for interviews with the employer or client."
+    },
+    {
+      "category": "skill_assessment",
+      "question": "Do you conduct skill assessments during screening?",
+      "answer": "Yes, skill tests or evaluations may be conducted depending on the job role."
+    },
+    {
+      "category": "background_verification",
+      "question": "Is background verification part of screening?",
+      "answer": "Yes, background verification may be done to confirm work experience and credentials."
+    },
+    {
+      "category": "screening_time",
+      "question": "How long does candidate screening take?",
+      "answer": "Screening time varies depending on the number of applicants and job complexity."
+    },
+    {
+      "category": "rejection_reason",
+      "question": "Why do candidates get rejected during screening?",
+      "answer": "Candidates may be rejected if their skills, experience, or qualifications do not match the job requirements."
+    },
+    {
+      "category": "multiple_applications",
+      "question": "Can I apply for multiple jobs at the same time?",
+      "answer": "Yes, candidates can apply for multiple roles based on their skills and eligibility."
+    },
+    {
+      "category": "recruiter_support",
+      "question": "Will recruiters guide me during the screening process?",
+      "answer": "Yes, recruiters provide guidance and feedback throughout the screening process."
+    },
+    {
+      "category": "remote_screening",
+      "question": "Is screening done online or offline?",
+      "answer": "Most screening processes are conducted online through calls, emails, or video interviews."
+    },
+    {
+      "category": "experience_level",
+      "question": "Do you screen freshers and experienced candidates differently?",
+      "answer": "Yes, screening criteria differ based on experience level and job requirements."
+    },
+    {
+      "category": "job_matching",
+      "question": "How do you match candidates with jobs?",
+      "answer": "We match candidates based on skills, experience, salary expectations, and job role requirements."
+    },
+    {
+      "category": "feedback",
+      "question": "Do candidates receive feedback after screening?",
+      "answer": "Yes, feedback may be provided depending on the recruitment process and client policy."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "training_overview",
+      "question": "What training and skill development programs do you offer?",
+      "answer": "We offer professional training programs in communication skills, interview preparation, job readiness, soft skills, and industry-specific technical training."
+    },
+    {
+      "category": "hr_consultancy_services",
+      "question": "What HR consultancy services do you provide?",
+      "answer": "We provide recruitment support, talent sourcing, employee training, resume building, and career guidance services."
+    },
+    {
+      "category": "job_readiness",
+      "question": "Do you offer job readiness training?",
+      "answer": "Yes, we provide job readiness programs including interview preparation, CV building, and workplace etiquette training."
+    },
+    {
+      "category": "interview_preparation",
+      "question": "Do you help with interview preparation?",
+      "answer": "Yes, we offer mock interviews, interview coaching, and guidance to improve confidence and communication skills."
+    },
+    {
+      "category": "skill_development",
+      "question": "What skills can I develop through your training programs?",
+      "answer": "You can develop communication, leadership, problem-solving, technical, and workplace skills depending on the program selected."
+    },
+    {
+      "category": "resume_building",
+      "question": "Do you help in resume or CV preparation?",
+      "answer": "Yes, we assist in creating professional resumes and CVs tailored to specific job roles."
+    },
+    {
+      "category": "freshers_training",
+      "question": "Do you provide training for freshers?",
+      "answer": "Yes, special training programs are available for freshers to help them start their careers confidently."
+    },
+    {
+      "category": "corporate_training",
+      "question": "Do you provide corporate training programs?",
+      "answer": "Yes, we offer corporate training sessions for employees to improve productivity and skills."
+    },
+    {
+      "category": "online_training",
+      "question": "Are online training programs available?",
+      "answer": "Yes, we provide both online and offline training options depending on your preference."
+    },
+    {
+      "category": "placement_support",
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes, we offer placement support and connect candidates with suitable job opportunities."
+    },
+    {
+      "category": "course_duration",
+      "question": "How long are the training programs?",
+      "answer": "Program duration varies from short-term workshops to long-term skill development courses."
+    },
+    {
+      "category": "certification",
+      "question": "Do you provide certificates after training?",
+      "answer": "Yes, certificates are provided upon successful completion of training programs."
+    },
+    {
+      "category": "eligibility",
+      "question": "Who can join your training programs?",
+      "answer": "Students, freshers, job seekers, and working professionals can join our training programs."
+    },
+    {
+      "category": "custom_training",
+      "question": "Can training programs be customized for companies?",
+      "answer": "Yes, we provide customized corporate training based on company requirements."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get guidance before choosing a training program?",
+      "answer": "Yes, we offer consultation to help you choose the right training based on your career goals."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "training_overview",
+      "question": "What training and skill development programs do you offer?",
+      "answer": "We offer professional training programs in communication skills, interview preparation, job readiness, soft skills, and industry-specific technical training."
+    },
+    {
+      "category": "hr_consultancy_services",
+      "question": "What HR consultancy services do you provide?",
+      "answer": "We provide recruitment support, talent sourcing, employee training, resume building, and career guidance services."
+    },
+    {
+      "category": "job_readiness",
+      "question": "Do you offer job readiness training?",
+      "answer": "Yes, we provide job readiness programs including interview preparation, CV building, and workplace etiquette training."
+    },
+    {
+      "category": "interview_preparation",
+      "question": "Do you help with interview preparation?",
+      "answer": "Yes, we offer mock interviews, interview coaching, and guidance to improve confidence and communication skills."
+    },
+    {
+      "category": "skill_development",
+      "question": "What skills can I develop through your training programs?",
+      "answer": "You can develop communication, leadership, problem-solving, technical, and workplace skills depending on the program selected."
+    },
+    {
+      "category": "resume_building",
+      "question": "Do you help in resume or CV preparation?",
+      "answer": "Yes, we assist in creating professional resumes and CVs tailored to specific job roles."
+    },
+    {
+      "category": "freshers_training",
+      "question": "Do you provide training for freshers?",
+      "answer": "Yes, special training programs are available for freshers to help them start their careers confidently."
+    },
+    {
+      "category": "corporate_training",
+      "question": "Do you provide corporate training programs?",
+      "answer": "Yes, we offer corporate training sessions for employees to improve productivity and skills."
+    },
+    {
+      "category": "online_training",
+      "question": "Are online training programs available?",
+      "answer": "Yes, we provide both online and offline training options depending on your preference."
+    },
+    {
+      "category": "placement_support",
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes, we offer placement support and connect candidates with suitable job opportunities."
+    },
+    {
+      "category": "course_duration",
+      "question": "How long are the training programs?",
+      "answer": "Program duration varies from short-term workshops to long-term skill development courses."
+    },
+    {
+      "category": "certification",
+      "question": "Do you provide certificates after training?",
+      "answer": "Yes, certificates are provided upon successful completion of training programs."
+    },
+    {
+      "category": "eligibility",
+      "question": "Who can join your training programs?",
+      "answer": "Students, freshers, job seekers, and working professionals can join our training programs."
+    },
+    {
+      "category": "custom_training",
+      "question": "Can training programs be customized for companies?",
+      "answer": "Yes, we provide customized corporate training based on company requirements."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get guidance before choosing a training program?",
+      "answer": "Yes, we offer consultation to help you choose the right training based on your career goals."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "offer_letter_overview",
+      "question": "What is an offer letter in HR consultancy?",
+      "answer": "An offer letter is an official document provided by the employer confirming your job role, salary, and terms of employment."
+    },
+    {
+      "category": "offer_letter_timeline",
+      "question": "How long does it take to receive an offer letter?",
+      "answer": "It usually takes a few days to a couple of weeks depending on company approval and documentation process."
+    },
+    {
+      "category": "offer_letter_acceptance",
+      "question": "How do I accept an offer letter?",
+      "answer": "You can accept the offer by signing and returning the offer letter or confirming acceptance via email as instructed."
+    },
+    {
+      "category": "offer_letter_changes",
+      "question": "Can offer letter terms be changed?",
+      "answer": "Any changes to the offer letter depend on company policy and mutual agreement before final acceptance."
+    },
+    {
+      "category": "joining_process_overview",
+      "question": "What is the joining process after receiving an offer letter?",
+      "answer": "The joining process includes document verification, onboarding formalities, and induction by the company."
+    },
+    {
+      "category": "joining_documents",
+      "question": "What documents are required for joining?",
+      "answer": "Typically, ID proof, educational certificates, experience letters, passport size photos, and bank details are required."
+    },
+    {
+      "category": "joining_date",
+      "question": "Can I change my joining date?",
+      "answer": "Joining date changes depend on employer approval and business requirements."
+    },
+    {
+      "category": "background_verification",
+      "question": "Is background verification required before joining?",
+      "answer": "Yes, most companies conduct background verification before or after joining."
+    },
+    {
+      "category": "probation_period",
+      "question": "What is a probation period?",
+      "answer": "A probation period is a trial employment phase where performance is evaluated before permanent confirmation."
+    },
+    {
+      "category": "joining_confirmation",
+      "question": "How will I know my joining is confirmed?",
+      "answer": "You will receive official confirmation via email or HR communication after completing formalities."
+    },
+    {
+      "category": "onboarding_process",
+      "question": "What happens during onboarding?",
+      "answer": "Onboarding includes introduction to company policies, team orientation, and role training."
+    },
+    {
+      "category": "salary_structure",
+      "question": "When will I receive salary details?",
+      "answer": "Salary details are shared in the offer letter or during HR discussion before joining."
+    },
+    {
+      "category": "joining_delay",
+      "question": "What if my joining is delayed?",
+      "answer": "Joining delays should be informed to HR, and approval depends on company policy."
+    },
+    {
+      "category": "hr_support",
+      "question": "Who can I contact for joining-related queries?",
+      "answer": "You can contact your assigned HR consultant or recruitment coordinator for any joining-related support."
+    },
+    {
+      "category": "rejection_case",
+      "question": "Can an offer letter be withdrawn?",
+      "answer": "Yes, in rare cases, an offer may be withdrawn due to company requirements or policy changes."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "job_overview",
+      "question": "What are remote and hybrid jobs in HR consultancy?",
+      "answer": "Remote and hybrid HR consultancy jobs allow professionals to work either fully from home or in a combination of office and remote settings."
+    },
+    {
+      "category": "job_roles",
+      "question": "What types of HR roles are available in consultancy?",
+      "answer": "Common roles include HR recruiter, talent acquisition specialist, HR coordinator, HR assistant, and HR consultant."
+    },
+    {
+      "category": "remote_work",
+      "question": "Can I work fully remote in HR consultancy jobs?",
+      "answer": "Yes, many HR consultancy firms offer fully remote positions depending on the role and company policy."
+    },
+    {
+      "category": "hybrid_work",
+      "question": "What is a hybrid HR job?",
+      "answer": "A hybrid HR job combines both in-office and remote work, where employees split their time between home and workplace."
+    },
+    {
+      "category": "skills_required",
+      "question": "What skills are required for HR consultancy jobs?",
+      "answer": "Communication, recruitment skills, interview handling, candidate sourcing, and basic HR software knowledge are important."
+    },
+    {
+      "category": "freshers_jobs",
+      "question": "Are there HR consultancy jobs for freshers?",
+      "answer": "Yes, many companies hire freshers for HR assistant and recruitment support roles."
+    },
+    {
+      "category": "work_flexibility",
+      "question": "Do HR consultancy jobs offer flexible working hours?",
+      "answer": "Some HR consultancy roles offer flexible schedules depending on project requirements and company policy."
+    },
+    {
+      "category": "salary_range",
+      "question": "What is the salary range for HR consultancy jobs?",
+      "answer": "Salary varies based on experience, role, and company, but entry-level HR roles typically start with basic industry standards."
+    },
+    {
+      "category": "tools_used",
+      "question": "What tools are used in HR consultancy jobs?",
+      "answer": "Common tools include HR management systems, LinkedIn, job portals, ATS (Applicant Tracking Systems), and communication tools."
+    },
+    {
+      "category": "recruitment_process",
+      "question": "How does the recruitment process work in HR consultancy?",
+      "answer": "It involves sourcing candidates, screening resumes, conducting interviews, and coordinating with clients for hiring."
+    },
+    {
+      "category": "work_from_home_setup",
+      "question": "Do I need special setup for remote HR jobs?",
+      "answer": "Yes, a laptop, stable internet connection, and communication tools are required for remote HR work."
+    },
+    {
+      "category": "training",
+      "question": "Do HR consultancy companies provide training?",
+      "answer": "Yes, many companies provide onboarding and training for recruitment processes and HR tools."
+    },
+    {
+      "category": "career_growth",
+      "question": "Is there career growth in HR consultancy jobs?",
+      "answer": "Yes, you can grow from HR assistant to senior recruiter, HR manager, or HR business partner roles."
+    },
+    {
+      "category": "job_application",
+      "question": "How can I apply for remote HR consultancy jobs?",
+      "answer": "You can apply through job portals, LinkedIn, company websites, or HR consultancy agencies."
+    },
+    {
+      "category": "interview_process",
+      "question": "What is the interview process for HR consultancy jobs?",
+      "answer": "It usually includes HR screening, technical interview, communication assessment, and final HR round."
+    }
+  ]
+}]}

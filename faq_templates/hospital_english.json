@@ -1,0 +1,229 @@
+{
+  "faqs": [
+    {
+      "category": "hospital_location",
+      "question": "Where is the hospital located?",
+      "answer": "The hospital is located in an easily accessible area. You can find the exact address through Google Maps or by contacting the hospital reception."
+    },
+    {
+      "category": "directions_help",
+      "question": "How can I get directions to the hospital?",
+      "answer": "You can use Google Maps, GPS navigation, or contact the hospital for detailed directions."
+    },
+    {
+      "category": "nearest_landmark",
+      "question": "What is the nearest landmark to the hospital?",
+      "answer": "The hospital is located near major landmarks for easy identification. Please contact reception for exact landmark details."
+    },
+    {
+      "category": "google_maps",
+      "question": "Is the hospital available on Google Maps?",
+      "answer": "Yes, the hospital location is available on Google Maps for easy navigation."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Does the hospital have parking facilities?",
+      "answer": "Yes, parking facilities are available for patients and visitors."
+    },
+    {
+      "category": "public_transport",
+      "question": "Can I reach the hospital using public transport?",
+      "answer": "Yes, the hospital is accessible by bus, metro, taxi, and other public transportation services."
+    },
+    {
+      "category": "emergency_route",
+      "question": "What is the fastest way to reach the hospital during an emergency?",
+      "answer": "Using GPS navigation or ambulance services is recommended for faster emergency access."
+    },
+    {
+      "category": "nearest_bus_stop",
+      "question": "Is there a bus stop near the hospital?",
+      "answer": "Yes, nearby bus stops are available within walking distance of the hospital."
+    },
+    {
+      "category": "nearest_metro_station",
+      "question": "Is there a metro or train station near the hospital?",
+      "answer": "Yes, nearby metro or railway stations may be available depending on the hospital location."
+    },
+    {
+      "category": "wheelchair_access",
+      "question": "Is the hospital wheelchair accessible?",
+      "answer": "Yes, wheelchair access and patient-friendly facilities are available."
+    },
+    {
+      "category": "multiple_branches",
+      "question": "Does the hospital have multiple branches?",
+      "answer": "Some hospitals may have multiple branches in different locations."
+    },
+    {
+      "category": "location_confirmation",
+      "question": "Can I call the hospital to confirm the location?",
+      "answer": "Yes, the reception team can help confirm the address and provide travel guidance."
+    },
+    {
+      "category": "airport_distance",
+      "question": "How far is the hospital from the airport?",
+      "answer": "Travel distance from the airport depends on the hospital location and traffic conditions."
+    },
+    {
+      "category": "outstation_patients",
+      "question": "Can outstation patients easily locate the hospital?",
+      "answer": "Yes, map links, landmarks, and navigation assistance are available for outstation patients."
+    },
+    {
+      "category": "ambulance_navigation",
+      "question": "Can ambulance drivers easily locate the hospital?",
+      "answer": "Yes, hospitals are generally registered with emergency navigation systems for ambulance access."
+    },
+    {
+      "category": "visiting_hours",
+      "question": "What are the hospital visiting hours?",
+      "answer": "Hospital visiting hours may vary by department, but visitors are usually allowed during scheduled daytime and evening hours."
+    },
+    {
+      "category": "icu_visiting",
+      "question": "Are visitors allowed in the ICU?",
+      "answer": "ICU visits are usually restricted and allowed only during specific hours with permission."
+    },
+    {
+      "category": "visitor_limit",
+      "question": "How many visitors are allowed per patient?",
+      "answer": "Visitor limits depend on hospital policy and patient condition, but usually only one or two visitors are allowed at a time."
+    },
+    {
+      "category": "children_visiting",
+      "question": "Can children visit patients in the hospital?",
+      "answer": "Children may be allowed in certain areas, but restrictions may apply in critical care units."
+    },
+    {
+      "category": "visitor_registration",
+      "question": "Do visitors need to register before entering?",
+      "answer": "Yes, many hospitals require visitors to register at the reception or security desk."
+    },
+    {
+      "category": "visiting_policy",
+      "question": "What are the general visiting policies?",
+      "answer": "Visitors are expected to follow hygiene rules, maintain silence, and respect hospital visiting hours and patient privacy."
+    },
+    {
+      "category": "mask_requirement",
+      "question": "Are masks required for hospital visitors?",
+      "answer": "Mask requirements depend on hospital safety guidelines and infection control policies."
+    },
+    {
+      "category": "food_policy",
+      "question": "Can visitors bring outside food for patients?",
+      "answer": "Outside food may be allowed depending on the patient’s medical condition and hospital rules."
+    },
+    {
+      "category": "overnight_visitors",
+      "question": "Are overnight visitors allowed?",
+      "answer": "Overnight stay may be permitted for caregivers or family members in special situations."
+    },
+    {
+      "category": "emergency_visits",
+      "question": "Can visitors enter during emergencies?",
+      "answer": "Visitor access during emergencies may be restricted for patient safety and hospital operations."
+    },
+    {
+      "category": "patient_privacy",
+      "question": "Why are visiting policies important?",
+      "answer": "Visiting policies help protect patient privacy, maintain safety, and support proper medical care."
+    },
+    {
+      "category": "infection_control",
+      "question": "What hygiene rules should visitors follow?",
+      "answer": "Visitors should sanitize hands, wear protective equipment if required, and avoid visiting when sick."
+    },
+    {
+      "category": "visiting_hours_change",
+      "question": "Can hospital visiting hours change?",
+      "answer": "Yes, visiting hours may change during emergencies, outbreaks, or hospital operational updates."
+    },
+    {
+      "category": "phone_inquiry",
+      "question": "Can I call the hospital to confirm visiting hours?",
+      "answer": "Yes, you can contact the hospital reception or help desk for updated visiting information."
+    },
+    {
+      "category": "special_permission",
+      "question": "Can I request special visiting permission?",
+      "answer": "Yes, special permission may be granted in critical or exceptional situations based on hospital approval."
+    },
+    {
+      "category": "emergency_service_overview",
+      "question": "Do you provide 24/7 emergency hospital services?",
+      "answer": "Yes, emergency services are available 24/7 for critical medical conditions."
+    },
+    {
+      "category": "emergency_availability",
+      "question": "Is emergency care available at all times?",
+      "answer": "Yes, emergency care is available at all times including nights, weekends, and holidays."
+    },
+    {
+      "category": "ambulance_service",
+      "question": "Do you provide ambulance service?",
+      "answer": "Yes, ambulance services are available for quick patient transportation in emergencies."
+    },
+    {
+      "category": "emergency_conditions",
+      "question": "What conditions are treated as emergencies?",
+      "answer": "Severe chest pain, breathing difficulty, accidents, stroke symptoms, heavy bleeding, and unconsciousness are treated as emergencies."
+    },
+    {
+      "category": "er_wait_time",
+      "question": "How long is the waiting time in emergency cases?",
+      "answer": "Emergency cases are prioritized and treated immediately based on severity."
+    },
+    {
+      "category": "emergency_contact",
+      "question": "How can I contact emergency services?",
+      "answer": "You can call the hospital emergency number or visit the emergency department directly."
+    },
+    {
+      "category": "specialist_availability",
+      "question": "Are specialists available during emergencies?",
+      "answer": "Yes, on-call specialists are available depending on the medical emergency."
+    },
+    {
+      "category": "emergency_payment",
+      "question": "What payment methods are accepted in emergencies?",
+      "answer": "Cash, card, insurance, and digital payments are accepted in emergency situations."
+    },
+    {
+      "category": "insurance_emergency",
+      "question": "Is emergency treatment covered by insurance?",
+      "answer": "Most insurance plans cover emergency treatments, but coverage depends on the policy."
+    },
+    {
+      "category": "trauma_care",
+      "question": "Do you have trauma and accident care facilities?",
+      "answer": "Yes, dedicated trauma care units are available for accident and injury cases."
+    },
+    {
+      "category": "icu_availability",
+      "question": "Is ICU available for critical patients?",
+      "answer": "Yes, ICU facilities are available for critically ill patients requiring intensive care."
+    },
+    {
+      "category": "pediatric_emergency",
+      "question": "Do you provide pediatric emergency care?",
+      "answer": "Yes, emergency care for infants and children is available with pediatric specialists."
+    },
+    {
+      "category": "overnight_care",
+      "question": "Is overnight emergency care available?",
+      "answer": "Yes, continuous overnight emergency monitoring and treatment are available."
+    },
+    {
+      "category": "referral",
+      "question": "Will I be referred to another hospital if needed?",
+      "answer": "Yes, if advanced care is required, patients may be referred to specialized hospitals."
+    },
+    {
+      "category": "emergency_preparation",
+      "question": "What should I bring during an emergency visit?",
+      "answer": "Bring any medical records, ID proof, insurance details, and current medications if possible."
+    }
+  ]
+}

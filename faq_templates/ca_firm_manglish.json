@@ -1,0 +1,149 @@
+{
+  "faqs": [
+    {
+      "category": "ca_firm_overview",
+      "question": "Ningalude CA firm enthokke services provide cheyyunnu?",
+      "answer": "Accounting, auditing, GST filing, income tax filing, company registration, payroll, financial consulting, matte accounting services ellam provide cheyyunnu."
+    },
+    {
+      "category": "appointment_booking",
+      "question": "CA firmil appointment engane book cheyyam?",
+      "answer": "Phone, WhatsApp, email, website, allenkil direct office visit vazhi appointment book cheyyam."
+    },
+    {
+      "category": "online_consultation",
+      "question": "Online consultation services undo?",
+      "answer": "Athe, phone callsum video meetingsum vazhi online consultation available aanu."
+    },
+    {
+      "category": "office_timings",
+      "question": "Office timings enthaanu?",
+      "answer": "Working daysum service schedulesum anusari office timings vary cheyyum."
+    },
+    {
+      "category": "gst_registration",
+      "question": "GST registrationinu help cheyyumo?",
+      "answer": "Athe, GST registrationum related compliance servicesum available aanu."
+    },
+    {
+      "category": "gst_filing",
+      "question": "GST return filing handle cheyyumo?",
+      "answer": "Athe, monthly, quarterly, annual GST return filing services provide cheyyunnu."
+    },
+    {
+      "category": "income_tax_filing",
+      "question": "Income tax filing services undo?",
+      "answer": "Athe, individualsinum businessesinum income tax return filing services available aanu."
+    },
+    {
+      "category": "tax_consultation",
+      "question": "Tax consultation kittumo?",
+      "answer": "Athe, tax planningum consultation servicesum available aanu."
+    },
+    {
+      "category": "company_registration",
+      "question": "Company registrationinu help undo?",
+      "answer": "Athe, company incorporationum registration servicesum available aanu."
+    },
+    {
+      "category": "startup_services",
+      "question": "Startup registration services undo?",
+      "answer": "Athe, startup registrationum business setup assistanceum available aanu."
+    },
+    {
+      "category": "accounting_services",
+      "question": "Accountingum bookkeeping servicesum undo?",
+      "answer": "Athe, accounting, bookkeeping, financial record maintenance services ellam available aanu."
+    },
+    {
+      "category": "audit_services",
+      "question": "Audit conduct cheyyumo?",
+      "answer": "Athe, internal audits, statutory audits, financial audits ellam conduct cheyyunnu."
+    },
+    {
+      "category": "payroll_services",
+      "question": "Payroll management services undo?",
+      "answer": "Athe, payroll processingum employee salary management servicesum available aanu."
+    },
+    {
+      "category": "financial_statements",
+      "question": "Financial statements prepare cheyyumo?",
+      "answer": "Athe, balance sheet, profit and loss statement, matte financial reports ellam prepare cheyyam."
+    },
+    {
+      "category": "business_consulting",
+      "question": "Business financial consulting undo?",
+      "answer": "Athe, business planningum financial consulting servicesum available aanu."
+    },
+    {
+      "category": "loan_documentation",
+      "question": "Loan documentationinu assistance undo?",
+      "answer": "Athe, loansinu venda financial documentsum reportsum prepare cheyyam."
+    },
+    {
+      "category": "digital_signature",
+      "question": "Digital signature registrationinu help undo?",
+      "answer": "Athe, digital signature certificate registration services available aanu."
+    },
+    {
+      "category": "pan_tan_services",
+      "question": "PAN, TAN applicationsinu help undo?",
+      "answer": "Athe, PAN, TAN, related registration services ellam provide cheyyunnu."
+    },
+    {
+      "category": "roc_compliance",
+      "question": "ROC compliance services handle cheyyumo?",
+      "answer": "Athe, companiesinu ROC filingum compliance servicesum available aanu."
+    },
+    {
+      "category": "msme_registration",
+      "question": "MSME registration services undo?",
+      "answer": "Athe, MSME, Udyam registration services available aanu."
+    },
+    {
+      "category": "itr_deadline",
+      "question": "Tax filing deadlines reminder kittumo?",
+      "answer": "Athe, important filing datesine kurich clientsinu reminders kittam."
+    },
+    {
+      "category": "document_requirements",
+      "question": "Tax filinginu enthokke documents venam?",
+      "answer": "Filing typeum financial detailsum anusari required documents vary cheyyum."
+    },
+    {
+      "category": "consultation_fee",
+      "question": "Consultation fee undo?",
+      "answer": "Athe, service anusari consultation charges apply cheyyam."
+    },
+    {
+      "category": "service_charges",
+      "question": "Service charges engane calculate cheyyum?",
+      "answer": "Work type, documentation, complexity eniva anusari service charges vary cheyyum."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Ethu payment methods accept cheyyum?",
+      "answer": "Cash, bank transfer, UPI, cheque, online payments ellam accept cheyyum."
+    },
+    {
+      "category": "data_confidentiality",
+      "question": "Ente financial information confidential ayirikkumo?",
+      "answer": "Athe, ella financialum personal informationum confidential ayi handle cheyyunnu."
+    },
+    {
+      "category": "business_support",
+      "question": "Small businessesinu support undo?",
+      "answer": "Athe, small businessesinum startupsinum accountingum compliance support servicesum available aanu."
+    },
+    {
+      "category": "urgent_services",
+      "question": "Urgent accounting allenkil tax services kittumo?",
+      "answer": "Athe, workloadum deadlinesum anusari urgent services available ayirikkam."
+    },
+    {
+      "category": "customer_support",
+      "question": "CA firmine engane contact cheyyam?",
+      "answer": "Phone, WhatsApp, email, allenkil office visit vazhi contact cheyyam."
+    }
+  ]
+}

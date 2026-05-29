@@ -1,0 +1,199 @@
+{
+  "faqs": [
+    {
+      "category": "store_overview",
+      "question": "What products are available in the supermarket?",
+      "answer": "We provide groceries, vegetables, fruits, dairy products, beverages, snacks, household items, personal care products, and more."
+    },
+    {
+      "category": "store_timings",
+      "question": "What are the supermarket opening hours?",
+      "answer": "Store timings vary depending on location and business hours."
+    },
+    {
+      "category": "holiday_opening",
+      "question": "Is the supermarket open on holidays?",
+      "answer": "Yes, the supermarket may remain open on holidays depending on the store schedule."
+    },
+    {
+      "category": "home_delivery",
+      "question": "Do you provide home delivery?",
+      "answer": "Yes, home delivery services are available for selected locations."
+    },
+    {
+      "category": "delivery_area",
+      "question": "Is delivery available in my area?",
+      "answer": "Delivery availability depends on your location and service coverage area."
+    },
+    {
+      "category": "delivery_time",
+      "question": "How long does delivery take?",
+      "answer": "Delivery time depends on order size, traffic, and location."
+    },
+    {
+      "category": "online_orders",
+      "question": "Can I place orders online?",
+      "answer": "Yes, orders can be placed through our website, app, WhatsApp, or phone."
+    },
+    {
+      "category": "minimum_order",
+      "question": "Is there a minimum order amount for delivery?",
+      "answer": "Yes, minimum order requirements may apply for delivery services."
+    },
+    {
+      "category": "delivery_charges",
+      "question": "Are there delivery charges?",
+      "answer": "Delivery charges may apply depending on order amount and distance."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "We accept cash, debit cards, credit cards, UPI, wallets, and online payments."
+    },
+    {
+      "category": "upi_payments",
+      "question": "Do you accept UPI payments?",
+      "answer": "Yes, all major UPI payment methods are accepted."
+    },
+    {
+      "category": "card_payments",
+      "question": "Can I pay using debit or credit cards?",
+      "answer": "Yes, debit and credit cards are accepted."
+    },
+    {
+      "category": "cash_payment",
+      "question": "Is cash payment accepted?",
+      "answer": "Yes, cash payments are accepted at the store."
+    },
+    {
+      "category": "offers_discounts",
+      "question": "Do you have offers or discounts?",
+      "answer": "Yes, we regularly provide discounts, combo offers, and seasonal promotions."
+    },
+    {
+      "category": "loyalty_program",
+      "question": "Do you have a loyalty or rewards program?",
+      "answer": "Yes, customers may earn reward points or discounts through loyalty programs."
+    },
+    {
+      "category": "membership_card",
+      "question": "Do you provide membership cards?",
+      "answer": "Yes, membership programs may be available with special benefits."
+    },
+    {
+      "category": "fresh_products",
+      "question": "Do you sell fresh vegetables and fruits?",
+      "answer": "Yes, fresh fruits and vegetables are available daily."
+    },
+    {
+      "category": "dairy_products",
+      "question": "Do you sell dairy products?",
+      "answer": "Yes, milk, curd, butter, cheese, and other dairy products are available."
+    },
+    {
+      "category": "bakery_items",
+      "question": "Do you have bakery products?",
+      "answer": "Yes, bread, cakes, biscuits, and bakery items are available."
+    },
+    {
+      "category": "frozen_food",
+      "question": "Do you sell frozen food items?",
+      "answer": "Yes, frozen food products are available in selected categories."
+    },
+    {
+      "category": "organic_products",
+      "question": "Do you sell organic products?",
+      "answer": "Yes, selected organic and healthy food products are available."
+    },
+    {
+      "category": "household_items",
+      "question": "Do you sell household products?",
+      "answer": "Yes, cleaning supplies, kitchen items, and household essentials are available."
+    },
+    {
+      "category": "personal_care",
+      "question": "Do you sell personal care products?",
+      "answer": "Yes, soaps, shampoos, skincare, and personal care items are available."
+    },
+    {
+      "category": "bulk_orders",
+      "question": "Do you accept bulk orders?",
+      "answer": "Yes, bulk and wholesale orders may be accepted depending on stock availability."
+    },
+    {
+      "category": "stock_availability",
+      "question": "How can I check product availability?",
+      "answer": "You can contact the store or check through our online platforms."
+    },
+    {
+      "category": "product_brands",
+      "question": "Do you sell branded products?",
+      "answer": "Yes, we provide products from multiple trusted brands."
+    },
+    {
+      "category": "return_policy",
+      "question": "Can I return or exchange products?",
+      "answer": "Yes, returns or exchanges are accepted according to store policy."
+    },
+    {
+      "category": "damaged_products",
+      "question": "What if I receive damaged products?",
+      "answer": "Damaged products can be reported for replacement or refund according to policy."
+    },
+    {
+      "category": "billing_support",
+      "question": "Will I get a bill or receipt?",
+      "answer": "Yes, printed or digital bills are provided after purchase."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Is parking available at the supermarket?",
+      "answer": "Parking facilities may be available depending on store location."
+    },
+    {
+      "category": "customer_support",
+      "question": "How can I contact the supermarket?",
+      "answer": "You can contact us through phone, WhatsApp, email, or direct visit."
+    },
+    {
+      "category": "wifi_facility",
+      "question": "Do you provide WiFi for customers?",
+      "answer": "WiFi availability depends on store facilities."
+    },
+    {
+      "category": "bag_availability",
+      "question": "Do you provide carry bags?",
+      "answer": "Yes, carry bags may be available depending on store policy."
+    },
+    {
+      "category": "self_checkout",
+      "question": "Do you have self-checkout counters?",
+      "answer": "Self-checkout facilities may be available at selected locations."
+    },
+    {
+      "category": "gift_cards",
+      "question": "Do you provide gift cards or vouchers?",
+      "answer": "Yes, gift cards or shopping vouchers may be available."
+    },
+    {
+      "category": "pet_products",
+      "question": "Do you sell pet food and pet care products?",
+      "answer": "Yes, selected pet food and pet care items are available."
+    },
+    {
+      "category": "baby_products",
+      "question": "Do you sell baby care products?",
+      "answer": "Yes, diapers, baby food, and baby care items are available."
+    },
+    {
+      "category": "queue_support",
+      "question": "What if billing counters are crowded?",
+      "answer": "Additional counters may be opened during peak hours to reduce waiting time."
+    },
+    {
+      "category": "festival_offers",
+      "question": "Do you provide festival offers?",
+      "answer": "Yes, special festival discounts and promotions are available during selected seasons."
+    }
+  ]
+}

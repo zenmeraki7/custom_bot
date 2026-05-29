@@ -1,0 +1,194 @@
+{
+  "faqs": [
+    {
+      "category": "service_overview",
+      "questions": [
+        "Courier service undo?",
+        "Ethokke courier services available aanu?",
+        "Parcel delivery undo?",
+        "Packages ayakkumo?"
+      ],
+      "answer": "Athe, documents, parcels, packages, business shipments vendi domestic um international um courier services provide cheyyunnu."
+    },
+    {
+      "category": "domestic_courier",
+      "questions": [
+        "Domestic courier service undo?",
+        "India ullil parcels ayakkan pattumo?",
+        "Local courier available ano?",
+        "Same state delivery undo?"
+      ],
+      "answer": "India-yile cities, districts, states ellathilekkum courier delivery services provide cheyyunnu."
+    },
+    {
+      "category": "international_courier",
+      "questions": [
+        "International courier service undo?",
+        "Parcels abroad ayakkan pattumo?",
+        "International shipping available ano?",
+        "India purathekk courier undo?"
+      ],
+      "answer": "Selected countriesilekk international courier um shipping services um available aanu."
+    },
+    {
+      "category": "pickup_service",
+      "questions": [
+        "Pickup service undo?",
+        "Home-il ninnu parcel collect cheyyumo?",
+        "Door pickup available ano?",
+        "Home pickup undo?"
+      ],
+      "answer": "Location um shipment type um anusarikku pickup services available aanu."
+    },
+    {
+      "category": "delivery_time",
+      "questions": [
+        "Delivery ethra time edukum?",
+        "Parcel eppo reach aakum?",
+        "Fast delivery undo?",
+        "Same day delivery available ano?"
+      ],
+      "answer": "Destination, shipment type, selected service anusarikku delivery time vary cheyyum. Express delivery optionsum available ayirikkum."
+    },
+    {
+      "category": "tracking_service",
+      "questions": [
+        "Parcel track cheyyan pattumo?",
+        "Tracking available ano?",
+        "Shipment engane track cheyyam?",
+        "Tracking number kittumo?"
+      ],
+      "answer": "Athe, tracking number use cheythu website allenkil support team vazhi parcel track cheyyan pattum."
+    },
+    {
+      "category": "shipping_charges",
+      "questions": [
+        "Courier charges entha?",
+        "Shipping cost details undo?",
+        "Parcel delivery charges ethra?",
+        "Pricing engane calculate cheyyum?"
+      ],
+      "answer": "Parcel weight, size, destination, delivery speed anusarikku courier charges vary cheyyum."
+    },
+    {
+      "category": "document_courier",
+      "questions": [
+        "Documents ayakkan pattumo?",
+        "Document courier undo?",
+        "Certificate courier available ano?",
+        "Passport courier undo?"
+      ],
+      "answer": "Documents, certificates, passports, important papers safe ayi deliver cheyyunnu."
+    },
+    {
+      "category": "parcel_size_weight",
+      "questions": [
+        "Weight limit undo?",
+        "Large parcel shipping available ano?",
+        "Heavy item courier undo?",
+        "Maximum parcel size entha?"
+      ],
+      "answer": "Parcel weight um size limit um courier service um destination um anusarikku vary cheyyum."
+    },
+    {
+      "category": "fragile_items",
+      "questions": [
+        "Fragile items ayakkan pattumo?",
+        "Glass items courier undo?",
+        "Safe packing available ano?",
+        "Handle with care service undo?"
+      ],
+      "answer": "Proper packaging um handling precautions um use cheythu fragile items ship cheyyan pattum."
+    },
+    {
+      "category": "packaging_service",
+      "questions": [
+        "Packaging service undo?",
+        "Parcel packing available ano?",
+        "Box packing undo?",
+        "Packing materials available ano?"
+      ],
+      "answer": "Secure shipmentinu packaging assistance um packing materials um provide cheyyunnu."
+    },
+    {
+      "category": "cash_on_delivery",
+      "questions": [
+        "Cash on delivery undo?",
+        "COD service available ano?",
+        "Delivery kazhinju payment cheyyan pattumo?",
+        "COD courier service undo?"
+      ],
+      "answer": "Selected locationsinum business customersinum COD services available ayirikkum."
+    },
+    {
+      "category": "business_shipments",
+      "questions": [
+        "Business courier service undo?",
+        "Bulk parcel shipping available ano?",
+        "E-commerce courier undo?",
+        "Corporate courier service available ano?"
+      ],
+      "answer": "Businesses, e-commerce sellers, offices, bulk shipments vendi courier solutions provide cheyyunnu."
+    },
+    {
+      "category": "delivery_confirmation",
+      "questions": [
+        "Delivery confirmation kittumo?",
+        "Parcel deliver aayennu ariyan pattumo?",
+        "Delivery status updates undo?",
+        "SMS updates available ano?"
+      ],
+      "answer": "SMS, email, tracking systems vazhi delivery updates um confirmations um provide cheyyunnu."
+    },
+    {
+      "category": "prohibited_items",
+      "questions": [
+        "Restricted items undo?",
+        "Eth items ship cheyyan pattilla?",
+        "Liquids ayakkan pattumo?",
+        "Dangerous goods ship cheyyan pattumo?"
+      ],
+      "answer": "Hazardous materials, illegal products, restricted goods polulla items ship cheyyan pattilla."
+    },
+    {
+      "category": "insurance_service",
+      "questions": [
+        "Parcel insurance undo?",
+        "Shipments insure cheyyan pattumo?",
+        "Damage aayal compensation undo?",
+        "Insurance coverage available ano?"
+      ],
+      "answer": "Valuable shipmentsinu courier policies anusarikku insurance options available ayirikkum."
+    },
+    {
+      "category": "payment_methods",
+      "questions": [
+        "Ethokke payment methods accept cheyyum?",
+        "UPI payment undo?",
+        "Card payment accept cheyyumo?",
+        "Google Pay edukumo?"
+      ],
+      "answer": "Cash, debit cards, credit cards, UPI, bank transfers, online payments okke accept cheyyunnu."
+    },
+    {
+      "category": "offers_discount",
+      "questions": [
+        "Courier offers undo?",
+        "Discount available ano?",
+        "Bulk shipping discount undo?",
+        "Business offers available ano?"
+      ],
+      "answer": "Bulk shipmentsinum regular customersinum discounts um special pricing um available ayirikkum."
+    },
+    {
+      "category": "customer_support",
+      "questions": [
+        "Support-ne engane contact cheyyam?",
+        "Customer care undo?",
+        "WhatsApp support available ano?",
+        "Office evide aanu?"
+      ],
+      "answer": "Phone, WhatsApp, email allenkil direct office visit vazhi contact cheyyam."
+    }
+  ]
+}

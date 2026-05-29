@@ -1,0 +1,154 @@
+{
+  "faqs": [
+    {
+      "category": "membership_overview",
+      "question": "Gym membership enthaanu?",
+      "answer": "Gym membership ennu parayunnath monthly, quarterly, allenkil yearly basis-il gym facilities use cheyyan kazhiyunna plan aanu."
+    },
+    {
+      "category": "joining_process",
+      "question": "Gym-il join cheyyan engane cheyyam?",
+      "answer": "Direct aayi gym-il poyi registration form fill cheythu, ID proof submit cheythu membership join cheyyam."
+    },
+    {
+      "category": "membership_types",
+      "question": "Which types of membership plans available aanu?",
+      "answer": "Monthly, 3-month, 6-month, and yearly membership plans available aanu."
+    },
+    {
+      "category": "trial_session",
+      "question": "Free trial session kittumo?",
+      "answer": "Yes, some gyms-il free trial session allenkil one-day pass available aayirikkam."
+    },
+    {
+      "category": "fees_payment",
+      "question": "Membership fees engane pay cheyyam?",
+      "answer": "Cash, UPI, card payment, and online payment options available aanu."
+    },
+    {
+      "category": "registration_fee",
+      "question": "Joining time registration fee venamo?",
+      "answer": "Yes, most gyms-inu one-time registration fee undavum."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Membership cancel cheythal refund kittumo?",
+      "answer": "Refund policy gym rules anusarich vary cheyyum, mostly non-refundable aanu."
+    },
+    {
+      "category": "timing_access",
+      "question": "Gym eppozha access cheyyan pattum?",
+      "answer": "Membership type anusarich morning, evening, all-day access available aavum."
+    },
+    {
+      "category": "personal_trainer",
+      "question": "Personal trainer include aano membership-il?",
+      "answer": "Basic membership-il include illa, pakshe extra charge-il trainer add cheyyam."
+    },
+    {
+      "category": "diet_plan",
+      "question": "Diet plan kittumo membership-inu?",
+      "answer": "Yes, some premium plans-il diet and workout guidance include aavum."
+    },
+    {
+      "category": "freeze_membership",
+      "question": "Membership pause cheyyan pattumo?",
+      "answer": "Yes, certain conditions-il membership freeze cheyyan pattum."
+    },
+    {
+      "category": "transfer_membership",
+      "question": "Membership transfer cheyyan pattumo?",
+      "answer": "Generally allowed alla, gym policy depend cheyyum."
+    },
+    {
+      "category": "age_limit",
+      "question": "Gym join cheyyan age limit undo?",
+      "answer": "Yes, usually 16+ or 18+ age requirement undavum."
+    },
+    {
+      "category": "documents_required",
+      "question": "Join cheyyan enthellam documents venam?",
+      "answer": "ID proof, address proof, and passport size photo venam."
+    },
+    {
+      "category": "membership_benefits",
+      "question": "Membership eduthal enthellam benefits kittum?",
+      "answer": "Gym access, equipment usage, group classes, and fitness guidance ellam kittum."
+    },
+    {
+      "category": "gym_timing_overview",
+      "question": "Gym opening time enthaanu?",
+      "answer": "Usually gym morning 5 AM allenkil 6 AM-il open aavum, location depend cheyyum."
+    },
+    {
+      "category": "gym_closing_time",
+      "question": "Gym closing time enthaanu?",
+      "answer": "Most gyms evening 9 PM muthal 10 PM vare close aavum."
+    },
+    {
+      "category": "peak_hours",
+      "question": "Gym-il most busy time eppozha?",
+      "answer": "Morning 6-9 AM and evening 5-8 PM aanu usually peak hours."
+    },
+    {
+      "category": "24_hours_gym",
+      "question": "24 hours gym available aano?",
+      "answer": "Some premium gyms 24/7 open aayirikkum, pakshe ellam gyms alla."
+    },
+    {
+      "category": "weekend_timing",
+      "question": "Weekend-il gym open aavumo?",
+      "answer": "Yes, weekends-il gym open aavum, timing usually same or slightly reduced aavum."
+    },
+    {
+      "category": "holiday_open",
+      "question": "Public holidays-il gym open aano?",
+      "answer": "Most gyms open aayirikkum, pakshe reduced timing aayirikkam."
+    },
+    {
+      "category": "access_membership",
+      "question": "Gym access cheyyan membership venamo?",
+      "answer": "Yes, most gyms-inu membership required aanu access cheyyan."
+    },
+    {
+      "category": "entry_process",
+      "question": "Gym-il entry engane cheyyum?",
+      "answer": "Membership card or digital check-in use cheythu entry cheyyam."
+    },
+    {
+      "category": "trial_access",
+      "question": "Trial access kittumo gym-il?",
+      "answer": "Yes, many gyms free or paid trial session provide cheyyum."
+    },
+    {
+      "category": "access_rules",
+      "question": "Gym access rules enthaanu?",
+      "answer": "Proper sportswear use cheyyuka, membership follow cheyyuka, and gym rules respect cheyyuka."
+    },
+    {
+      "category": "ladies_timing",
+      "question": "Ladies-only timing undo?",
+      "answer": "Some gyms ladies-only special timing or section provide cheyyum."
+    },
+    {
+      "category": "crowd_management",
+      "question": "Crowd avoid cheyyan best time ethanu?",
+      "answer": "Mid-morning or afternoon time usually less crowded aayirikkum."
+    },
+    {
+      "category": "access_for_guests",
+      "question": "Guest entry allowed aano?",
+      "answer": "Some gyms guest passes allow cheyyum with extra fee."
+    },
+    {
+      "category": "late_entry",
+      "question": "Late entry allowed aano?",
+      "answer": "Yes, but gym closing time munpu entry finish cheyyanam."
+    },
+    {
+      "category": "support_hours",
+      "question": "Gym support eppozha available?",
+      "answer": "Front desk or support staff working hours-il available aayirikkum."
+    }
+  ]
+}

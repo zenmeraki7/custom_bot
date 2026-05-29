@@ -1,0 +1,149 @@
+{
+  "faqs": [
+    {
+      "category": "law_firm_overview",
+      "question": "What legal services does your law firm provide?",
+      "answer": "We provide legal consultation, documentation, court representation, property legal services, family law services, corporate legal support, and other legal assistance."
+    },
+    {
+      "category": "legal_consultation",
+      "question": "Can I get legal consultation from your firm?",
+      "answer": "Yes, legal consultation services are available for individuals and businesses."
+    },
+    {
+      "category": "appointment_booking",
+      "question": "How can I book an appointment with a lawyer?",
+      "answer": "Appointments can be booked through phone, WhatsApp, email, website, or direct office visit."
+    },
+    {
+      "category": "online_consultation",
+      "question": "Do you provide online legal consultation?",
+      "answer": "Yes, online consultations are available through phone calls or video meetings."
+    },
+    {
+      "category": "office_timings",
+      "question": "What are your office timings?",
+      "answer": "Office timings vary depending on working days and lawyer availability."
+    },
+    {
+      "category": "family_cases",
+      "question": "Do you handle family law cases?",
+      "answer": "Yes, we handle divorce, child custody, maintenance, domestic disputes, and other family-related legal matters."
+    },
+    {
+      "category": "divorce_cases",
+      "question": "Do you provide divorce legal services?",
+      "answer": "Yes, divorce consultation and court representation services are available."
+    },
+    {
+      "category": "property_cases",
+      "question": "Do you handle property-related legal issues?",
+      "answer": "Yes, we provide legal assistance for property disputes, registration, verification, and documentation."
+    },
+    {
+      "category": "criminal_cases",
+      "question": "Do you handle criminal cases?",
+      "answer": "Yes, criminal defense and legal representation services are available."
+    },
+    {
+      "category": "civil_cases",
+      "question": "Do you deal with civil cases?",
+      "answer": "Yes, civil dispute handling and legal representation services are provided."
+    },
+    {
+      "category": "corporate_services",
+      "question": "Do you provide corporate legal services?",
+      "answer": "Yes, we provide legal support for companies, agreements, registrations, and compliance matters."
+    },
+    {
+      "category": "document_preparation",
+      "question": "Can you prepare legal documents?",
+      "answer": "Yes, agreements, affidavits, contracts, notices, and other legal documents can be prepared."
+    },
+    {
+      "category": "notary_services",
+      "question": "Do you provide notary services?",
+      "answer": "Yes, notary and attestation services may be available."
+    },
+    {
+      "category": "property_verification",
+      "question": "Can you verify property documents?",
+      "answer": "Yes, property document verification and legal checking services are available."
+    },
+    {
+      "category": "court_representation",
+      "question": "Do your lawyers represent clients in court?",
+      "answer": "Yes, court representation services are available for various legal matters."
+    },
+    {
+      "category": "legal_notice",
+      "question": "Can you send legal notices?",
+      "answer": "Yes, legal notices can be drafted and sent on behalf of clients."
+    },
+    {
+      "category": "consumer_cases",
+      "question": "Do you handle consumer complaint cases?",
+      "answer": "Yes, consumer court complaint and dispute services are available."
+    },
+    {
+      "category": "employment_cases",
+      "question": "Do you handle employment or labor law cases?",
+      "answer": "Yes, employment disputes, labor issues, and workplace legal matters are handled."
+    },
+    {
+      "category": "bail_services",
+      "question": "Do you assist with bail procedures?",
+      "answer": "Yes, legal assistance for bail applications and procedures is available."
+    },
+    {
+      "category": "legal_fees",
+      "question": "How are legal fees calculated?",
+      "answer": "Legal fees depend on case type, complexity, documentation, and court procedures."
+    },
+    {
+      "category": "consultation_fee",
+      "question": "Is there a consultation fee?",
+      "answer": "Yes, consultation charges may apply depending on the legal service."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "Cash, bank transfer, UPI, cheque, and online payments are accepted."
+    },
+    {
+      "category": "confidentiality",
+      "question": "Will my legal matters remain confidential?",
+      "answer": "Yes, all client information and legal matters are handled confidentially."
+    },
+    {
+      "category": "case_status",
+      "question": "Can I get updates about my case status?",
+      "answer": "Yes, regular updates regarding case progress can be provided."
+    },
+    {
+      "category": "documentation_required",
+      "question": "What documents are required for legal consultation?",
+      "answer": "Required documents depend on the case type and legal matter involved."
+    },
+    {
+      "category": "agreement_registration",
+      "question": "Do you assist with agreement registration?",
+      "answer": "Yes, agreement drafting and registration assistance are available."
+    },
+    {
+      "category": "business_registration",
+      "question": "Do you help with company or business registration?",
+      "answer": "Yes, company formation and business registration legal services are available."
+    },
+    {
+      "category": "legal_support",
+      "question": "Can I get urgent legal support?",
+      "answer": "Yes, urgent legal assistance may be provided depending on lawyer availability."
+    },
+    {
+      "category": "customer_support",
+      "question": "How can I contact the law firm?",
+      "answer": "You can contact us through phone, WhatsApp, email, or office visit."
+    }
+  ]
+}

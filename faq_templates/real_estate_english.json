@@ -1,0 +1,149 @@
+{
+  "faqs": [
+    {
+      "category": "real_estate_overview",
+      "question": "What real estate services do you provide?",
+      "answer": "We provide property buying, selling, renting, leasing, property management, and real estate consultation services."
+    },
+    {
+      "category": "property_types",
+      "question": "What types of properties are available?",
+      "answer": "Apartments, villas, houses, plots, commercial spaces, offices, and agricultural lands may be available."
+    },
+    {
+      "category": "buy_property",
+      "question": "Can I buy property through your agency?",
+      "answer": "Yes, we assist customers in buying residential and commercial properties."
+    },
+    {
+      "category": "sell_property",
+      "question": "Can I sell my property through your agency?",
+      "answer": "Yes, we help property owners list and sell their properties."
+    },
+    {
+      "category": "rent_property",
+      "question": "Do you provide rental properties?",
+      "answer": "Yes, rental properties for residential and commercial purposes are available."
+    },
+    {
+      "category": "lease_property",
+      "question": "Do you arrange lease properties?",
+      "answer": "Yes, lease options are available for selected properties."
+    },
+    {
+      "category": "property_locations",
+      "question": "Which locations do you cover?",
+      "answer": "We cover multiple locations depending on property availability and customer requirements."
+    },
+    {
+      "category": "site_visit",
+      "question": "Can I schedule a property site visit?",
+      "answer": "Yes, site visits can be arranged based on customer convenience and property availability."
+    },
+    {
+      "category": "property_photos",
+      "question": "Can I see property photos before visiting?",
+      "answer": "Yes, property photos and videos may be shared before the site visit."
+    },
+    {
+      "category": "property_price",
+      "question": "How do I know the property price?",
+      "answer": "Property pricing details will be shared based on the selected property."
+    },
+    {
+      "category": "negotiation",
+      "question": "Can property prices be negotiated?",
+      "answer": "Yes, price negotiations may be possible depending on the property owner."
+    },
+    {
+      "category": "loan_assistance",
+      "question": "Do you provide home loan assistance?",
+      "answer": "Yes, home loan and financial assistance may be arranged through partner banks."
+    },
+    {
+      "category": "legal_verification",
+      "question": "Do you help with legal verification of property documents?",
+      "answer": "Yes, assistance for legal verification and documentation may be provided."
+    },
+    {
+      "category": "registration_support",
+      "question": "Do you assist with property registration?",
+      "answer": "Yes, registration and documentation support services are available."
+    },
+    {
+      "category": "property_documents",
+      "question": "What documents are required to buy property?",
+      "answer": "Required documents may include ID proof, address proof, financial documents, and legal property papers."
+    },
+    {
+      "category": "commercial_properties",
+      "question": "Do you deal with commercial properties?",
+      "answer": "Yes, offices, shops, warehouses, and commercial buildings are available."
+    },
+    {
+      "category": "new_projects",
+      "question": "Do you provide information about new real estate projects?",
+      "answer": "Yes, details about upcoming and ongoing projects are available."
+    },
+    {
+      "category": "ready_to_move",
+      "question": "Do you have ready-to-move properties?",
+      "answer": "Yes, ready-to-move residential and commercial properties may be available."
+    },
+    {
+      "category": "under_construction",
+      "question": "Do you have under-construction properties?",
+      "answer": "Yes, under-construction projects with booking options may be available."
+    },
+    {
+      "category": "investment_guidance",
+      "question": "Can you help with property investment guidance?",
+      "answer": "Yes, we provide real estate investment consultation and guidance."
+    },
+    {
+      "category": "property_management",
+      "question": "Do you provide property management services?",
+      "answer": "Yes, property maintenance and management services may be available."
+    },
+    {
+      "category": "brokerage_fee",
+      "question": "Do you charge brokerage or service fees?",
+      "answer": "Yes, brokerage or service charges may apply depending on the transaction."
+    },
+    {
+      "category": "booking_amount",
+      "question": "Is an advance booking amount required?",
+      "answer": "Yes, selected properties may require advance booking payments."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "Cash, bank transfer, cheque, UPI, and online payments may be accepted."
+    },
+    {
+      "category": "emi_options",
+      "question": "Are EMI options available for properties?",
+      "answer": "Yes, EMI and loan repayment options may be available through banks."
+    },
+    {
+      "category": "property_availability",
+      "question": "How can I check if a property is available?",
+      "answer": "You can contact us directly to confirm property availability."
+    },
+    {
+      "category": "property_customization",
+      "question": "Can properties be customized?",
+      "answer": "Customization options may be available for selected projects."
+    },
+    {
+      "category": "rental_agreement",
+      "question": "Do you assist with rental agreements?",
+      "answer": "Yes, rental agreement preparation and assistance are available."
+    },
+    {
+      "category": "customer_support",
+      "question": "How can I contact the real estate agency?",
+      "answer": "You can contact us through phone, WhatsApp, email, or office visit."
+    }
+  ]
+}

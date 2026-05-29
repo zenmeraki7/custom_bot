@@ -1,0 +1,149 @@
+{
+  "faqs": [
+    {
+      "category": "law_firm_overview",
+      "question": "Ningalude law firm enthokke legal services provide cheyyunnu?",
+      "answer": "Legal consultation, documentation, court representation, property legal services, family law services, corporate legal support, matte legal assistance services ellam provide cheyyunnu."
+    },
+    {
+      "category": "legal_consultation",
+      "question": "Legal consultation kittumo?",
+      "answer": "Athe, individualsinum businessesinum legal consultation services available aanu."
+    },
+    {
+      "category": "appointment_booking",
+      "question": "Lawyer appointment engane book cheyyam?",
+      "answer": "Phone, WhatsApp, email, website, allenkil direct office visit vazhi appointment book cheyyam."
+    },
+    {
+      "category": "online_consultation",
+      "question": "Online legal consultation undo?",
+      "answer": "Athe, phone call allenkil video meeting vazhi online consultation available aanu."
+    },
+    {
+      "category": "office_timings",
+      "question": "Office timings enthaanu?",
+      "answer": "Working daysum lawyer availabilityum anusari office timings vary cheyyum."
+    },
+    {
+      "category": "family_cases",
+      "question": "Family law cases handle cheyyumo?",
+      "answer": "Athe, divorce, child custody, maintenance, domestic disputes, matte family-related legal matters ellam handle cheyyunnu."
+    },
+    {
+      "category": "divorce_cases",
+      "question": "Divorce legal services undo?",
+      "answer": "Athe, divorce consultationum court representation servicesum available aanu."
+    },
+    {
+      "category": "property_cases",
+      "question": "Property-related legal issues handle cheyyumo?",
+      "answer": "Athe, property disputes, registration, verification, documentation enivakku legal assistance provide cheyyunnu."
+    },
+    {
+      "category": "criminal_cases",
+      "question": "Criminal cases handle cheyyumo?",
+      "answer": "Athe, criminal defenseum legal representation servicesum available aanu."
+    },
+    {
+      "category": "civil_cases",
+      "question": "Civil cases deal cheyyumo?",
+      "answer": "Athe, civil dispute handlingum legal representation servicesum provide cheyyunnu."
+    },
+    {
+      "category": "corporate_services",
+      "question": "Corporate legal services undo?",
+      "answer": "Athe, companiesinu legal support, agreements, registrations, compliance matters ellam provide cheyyunnu."
+    },
+    {
+      "category": "document_preparation",
+      "question": "Legal documents prepare cheyyumo?",
+      "answer": "Athe, agreements, affidavits, contracts, notices, matte legal documents ellam prepare cheyyam."
+    },
+    {
+      "category": "notary_services",
+      "question": "Notary services undo?",
+      "answer": "Athe, notaryum attestation servicesum available ayirikkam."
+    },
+    {
+      "category": "property_verification",
+      "question": "Property documents verify cheyyumo?",
+      "answer": "Athe, property document verificationum legal checking servicesum available aanu."
+    },
+    {
+      "category": "court_representation",
+      "question": "Court il representation provide cheyyumo?",
+      "answer": "Athe, vivida legal mattersinu court representation services available aanu."
+    },
+    {
+      "category": "legal_notice",
+      "question": "Legal notice ayakkan pattumo?",
+      "answer": "Athe, clientsinte behalfil legal notices draft cheyth ayakkam."
+    },
+    {
+      "category": "consumer_cases",
+      "question": "Consumer complaint cases handle cheyyumo?",
+      "answer": "Athe, consumer court complaints um disputes um handle cheyyunnu."
+    },
+    {
+      "category": "employment_cases",
+      "question": "Employment allenkil labor law cases handle cheyyumo?",
+      "answer": "Athe, employment disputes, labor issues, workplace legal matters ellam handle cheyyunnu."
+    },
+    {
+      "category": "bail_services",
+      "question": "Bail proceduresinu assistance undo?",
+      "answer": "Athe, bail applicationsinum proceduresinum legal assistance available aanu."
+    },
+    {
+      "category": "legal_fees",
+      "question": "Legal fees engane calculate cheyyum?",
+      "answer": "Case type, complexity, documentation, court procedures eniva anusari legal fees vary cheyyum."
+    },
+    {
+      "category": "consultation_fee",
+      "question": "Consultation fee undo?",
+      "answer": "Athe, legal service anusari consultation charges apply cheyyam."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Ethu payment methods accept cheyyum?",
+      "answer": "Cash, bank transfer, UPI, cheque, online payments ellam accept cheyyum."
+    },
+    {
+      "category": "confidentiality",
+      "question": "Ente legal matters confidential ayirikkumo?",
+      "answer": "Athe, ella client informationum legal mattersum confidential ayi handle cheyyunnu."
+    },
+    {
+      "category": "case_status",
+      "question": "Case status updates kittumo?",
+      "answer": "Athe, case progressinte regular updates provide cheyyam."
+    },
+    {
+      "category": "documentation_required",
+      "question": "Legal consultationinu enthokke documents venam?",
+      "answer": "Case typeum legal matterum anusari required documents vary cheyyum."
+    },
+    {
+      "category": "agreement_registration",
+      "question": "Agreement registrationinu assistance undo?",
+      "answer": "Athe, agreement draftingum registration assistanceum available aanu."
+    },
+    {
+      "category": "business_registration",
+      "question": "Company allenkil business registrationinu help undo?",
+      "answer": "Athe, company formationum business registration legal servicesum available aanu."
+    },
+    {
+      "category": "legal_support",
+      "question": "Urgent legal support kittumo?",
+      "answer": "Athe, lawyer availability anusari urgent legal assistance provide cheyyam."
+    },
+    {
+      "category": "customer_support",
+      "question": "Law firmine engane contact cheyyam?",
+      "answer": "Phone, WhatsApp, email, allenkil office visit vazhi contact cheyyam."
+    }
+  ]
+}
