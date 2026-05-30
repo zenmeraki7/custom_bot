@@ -51,7 +51,15 @@
       "How to cancel?",
       "Can I cancel?",
       "Order cancellation?",
-      "Cancel my order?"
+      "Cancel my order?",
+      "how to cancel order",
+      "can order be cancelled",
+      "cancel my order please",
+      "order cancellation process",
+      "i want to cancel",
+      "cancel before dispatch",
+      "how do i cancel",
+      "cancel order steps"
     ],
     "answer": "Yes! You can cancel your order any time before it is dispatched. Log in, go to 'My Orders', and tap 'Cancel'. Once dispatched, you'll need to use the returns process instead."
   },
@@ -125,7 +133,18 @@
       "Can I pay with card?",
       "What are the ways to pay?",
       "Accepted payment types?",
-      "Payment options available?"
+      "Payment options available?",
+      "what payment options",
+      "accepted payment methods",
+      "can i pay with gpay",
+      "is upi accepted",
+      "phonepe available",
+      "can i pay cash on delivery",
+      "cod available",
+      "card payment accepted",
+      "paytm accepted",
+      "net banking available",
+      "how can i pay"
     ],
     "answer": "We accept UPI (GPay, PhonePe, Paytm), credit/debit cards, net banking, digital wallets, Cash on Delivery, and EMI — choose whatever is easiest for you at checkout."
   },
@@ -180,9 +199,17 @@
       "Money deducted but no order?",
       "Transaction failed?",
       "Payment issue?",
-      "Charged but order not placed?"
+      "Charged but order not placed?",
+      "payment failed but money deducted",
+      "paid but order not placed",
+      "transaction failed",
+      "money cut but order not confirmed",
+      "payment declined",
+      "upi payment failed",
+      "payment error occurred",
+      "order not placed after payment"
     ],
-    "answer": "If your payment failed but money was deducted, it will automatically reverse within 5–7 business days. For urgent help, WhatsApp us at +91 98765 43210 with your order details."
+    "answer": "If your payment failed but money was deducted, it will automatically reverse within 5–7 business days. For urgent help, WhatsApp us at {whatsapp} with your order details."
   },
   {
     "id": "delivery_001",
@@ -198,9 +225,19 @@
       "How many days for delivery?",
       "When will my parcel arrive?",
       "Delivery time?",
-      "How soon will it arrive?"
+      "How soon will it arrive?",
+      "how long does delivery take",
+      "when will i get my order",
+      "delivery in how many days",
+      "how many days for delivery",
+      "estimated delivery time",
+      "when will order arrive",
+      "delivery days how many",
+      "parcel arrival time",
+      "how soon will i receive",
+      "order arrival date"
     ],
-    "answer": "Standard delivery across Kerala takes 2–3 working days. Express delivery (1–2 days) is available at ₹150 extra, and same-day delivery is available in Ernakulam for orders placed before 12 PM."
+    "answer": "Standard delivery across Kerala takes {delivery_days}. Express delivery (1–2 days) is available at ₹150 extra, and same-day delivery is available in {city} for orders placed before 12 PM."
   },
   {
     "id": "delivery_002",
@@ -213,9 +250,19 @@
       "What is the delivery charge?",
       "Shipping fee?",
       "Any delivery charges?",
-      "Free shipping available?"
+      "Free shipping available?",
+      "is delivery free",
+      "what is delivery charge",
+      "how much is shipping",
+      "free delivery available",
+      "delivery fee how much",
+      "shipping cost",
+      "free shipping above how much",
+      "delivery cost",
+      "any shipping charges",
+      "is there a delivery fee"
     ],
-    "answer": "Delivery is free on orders above ₹500. For orders below ₹500, a small delivery fee applies based on your location — shown clearly at checkout before you pay."
+    "answer": "Delivery is free on orders above {delivery_free}. For orders below {delivery_free}, a small delivery fee applies based on your location — shown clearly at checkout before you pay."
   },
   {
     "id": "delivery_003",
@@ -226,7 +273,7 @@
       "Order is past the expected date",
       "Why is my delivery late?"
     ],
-    "answer": "We're sorry for the delay! Please contact us on WhatsApp at +91 98765 43210 or email support@zenmeraki.com with your order ID and we'll check the live status and resolve it right away."
+    "answer": "We're sorry for the delay! Please contact us on WhatsApp at {whatsapp} or email {email} with your order ID and we'll check the live status and resolve it right away."
   },
   {
     "id": "delivery_004",
@@ -259,7 +306,7 @@
       "Urgent delivery today",
       "Same day delivery option"
     ],
-    "answer": "Same-day delivery is available in Ernakulam for orders placed before 12 PM, subject to stock. For other Kerala cities, Express delivery (1–2 days) is available at ₹150 extra."
+    "answer": "Same-day delivery is available in {city} for orders placed before 12 PM, subject to stock. For other Kerala cities, Express delivery (1–2 days) is available at ₹150 extra."
   },
   {
     "id": "delivery_007",
@@ -322,7 +369,7 @@
       "Delivery is overdue",
       "My order is delayed beyond expected date"
     ],
-    "answer": "We apologise for the inconvenience! Message us on WhatsApp at +91 98765 43210 with your order ID and we'll provide a real-time status update and resolution within the same day."
+    "answer": "We apologise for the inconvenience! Message us on WhatsApp at {whatsapp} with your order ID and we'll provide a real-time status update and resolution within the same day."
   },
   {
     "id": "tracking_001",
@@ -338,7 +385,18 @@
       "Track my order?",
       "Order status?",
       "Tracking link?",
-      "Order location?"
+      "Order location?",
+      "how to track order",
+      "order tracking link",
+      "where is my parcel",
+      "track my delivery",
+      "order tracking status",
+      "check order status",
+      "parcel location",
+      "where is my order now",
+      "shipment tracking",
+      "delivery status check",
+      "is my order dispatched"
     ],
     "answer": "Once your order is shipped, you'll receive a tracking link via SMS and email. You can also log in to your account and go to 'My Orders' for live tracking updates."
   },
@@ -378,7 +436,19 @@
       "Is return possible?",
       "Return process?",
       "Can I send it back?",
-      "How do returns work?"
+      "How do returns work?",
+      "what is the return policy",
+      "can i return this",
+      "what is your return rule",
+      "how many days to return",
+      "is return allowed",
+      "return within how many days",
+      "7 day return",
+      "return policy please",
+      "how does return work",
+      "what items can be returned",
+      "can i send it back",
+      "return process explain"
     ],
     "answer": "Yes! Returns are accepted within 7 days of delivery for unused items with original tags and packaging. Worn, washed, or altered items are not eligible for return."
   },
@@ -440,9 +510,18 @@
       "How long for refund?",
       "Refund process?",
       "When does refund come?",
-      "How many days for refund?"
+      "How many days for refund?",
+      "how long for refund",
+      "when will i get my money back",
+      "refund time please",
+      "days for refund",
+      "money back how many days",
+      "upi refund time",
+      "card refund days",
+      "when does refund come",
+      "refund status"
     ],
-    "answer": "Once we receive and inspect the returned item, refunds are processed within 3–5 business days to your original payment method. UPI refunds are usually instant; card refunds may take up to 7 days."
+    "answer": "Once we receive and inspect the returned item, refunds are processed within {refund_days} to your original payment method. UPI refunds are usually instant; card refunds may take up to 7 days."
   },
   {
     "id": "refund_002",
@@ -453,7 +532,7 @@
       "I want money back not exchange",
       "Cash refund option"
     ],
-    "answer": "Yes, you can choose a full refund instead of an exchange when submitting your return request. Refunds go back to your original payment method within 3–5 business days."
+    "answer": "Yes, you can choose a full refund instead of an exchange when submitting your return request. Refunds go back to your original payment method within {refund_days}."
   },
   {
     "id": "refund_003",
@@ -502,7 +581,7 @@
       "Wholesale pricing?",
       "Corporate bulk rates?"
     ],
-    "answer": "Yes! We offer bulk discounts: 5% off for 10–49 pieces, 10% off for 50–99, and 15% off for 100+. Contact us on WhatsApp at +91 98765 43210 for a custom quote."
+    "answer": "Yes! We offer bulk discounts: 5% off for 10–49 pieces, 10% off for 50–99, and 15% off for 100+. Contact us on WhatsApp at {whatsapp} for a custom quote."
   },
   {
     "id": "pricing_004",
@@ -513,7 +592,7 @@
       "How to use a discount code?",
       "Promo code not working"
     ],
-    "answer": "At checkout, look for the 'Apply Coupon' box and enter your code there. If it's not working, check that it hasn't expired and matches the minimum order value. New customers can use WELCOME10 for 10% off!"
+    "answer": "At checkout, look for the 'Apply Coupon' box and enter your code there. If it's not working, check that it hasn't expired and matches the minimum order value. New customers can use {offer_code} for 10% off!"
   },
   {
     "id": "pricing_005",
@@ -557,7 +636,7 @@
       "I found it cheaper elsewhere",
       "Price match policy"
     ],
-    "answer": "We don't offer formal price matching, but we run frequent offers and you can use WELCOME10 for 10% off your first order. Reach out on WhatsApp and we'll do our best to help!"
+    "answer": "We don't offer formal price matching, but we run frequent offers and you can use {offer_code} for 10% off your first order. Reach out on WhatsApp and we'll do our best to help!"
   },
   {
     "id": "offers_001",
@@ -573,9 +652,21 @@
       "Current offers?",
       "Any sale going on?",
       "Promo available?",
-      "Any deals?"
+      "Any deals?",
+      "any offers available",
+      "current discount",
+      "any sale going on",
+      "promo code available",
+      "any coupon",
+      "discount available now",
+      "ongoing offers",
+      "what offers do you have",
+      "any deals",
+      "sale running now",
+      "best offer now",
+      "current promotions"
     ],
-    "answer": "Yes! We run seasonal sales and exclusive app offers regularly. New customers get 10% off with code WELCOME10. Check the Offers page or subscribe to our WhatsApp broadcasts for the latest deals."
+    "answer": "Yes! We run seasonal sales and exclusive app offers regularly. New customers get 10% off with code {offer_code}. Check the Offers page or subscribe to our WhatsApp broadcasts for the latest deals."
   },
   {
     "id": "offers_002",
@@ -586,7 +677,7 @@
       "Subscribe to offers",
       "WhatsApp offer updates"
     ],
-    "answer": "Save our WhatsApp number +91 98765 43210 and send 'Hi' to subscribe to offer alerts. You can also subscribe to our newsletter via the website footer."
+    "answer": "Save our WhatsApp number {whatsapp} and send 'Hi' to subscribe to offer alerts. You can also subscribe to our newsletter via the website footer."
   },
   {
     "id": "offers_003",
@@ -597,9 +688,19 @@
       "Welcome discount?",
       "First order coupon?",
       "First time discount?",
-      "Any offer for new customers?"
+      "Any offer for new customers?",
+      "first order discount",
+      "new customer offer",
+      "welcome discount",
+      "first time buyer offer",
+      "WELCOME10 code",
+      "is there a welcome code",
+      "discount for new customers",
+      "10 percent off first order",
+      "new user discount",
+      "first purchase offer"
     ],
-    "answer": "Yes! First-time customers get 10% off on their first order using code WELCOME10 at checkout. Valid on all products with no minimum order value."
+    "answer": "Yes! First-time customers get 10% off on their first order using code {offer_code} at checkout. Valid on all products with no minimum order value."
   },
   {
     "id": "quality_001",
@@ -655,7 +756,17 @@
       "How to choose the right size?",
       "Which size fits me?",
       "Size chart?",
-      "How to choose size?"
+      "How to choose size?",
+      "size chart please",
+      "how to find my size",
+      "size guide",
+      "which size should i order",
+      "size measurement guide",
+      "how do i know my size",
+      "size help",
+      "size selection guide",
+      "correct size for me",
+      "size doubt"
     ],
     "answer": "Our size chart is on every product page — measure your chest, waist, and hip and compare to the chart. If you're between sizes, we recommend sizing up. Still unsure? WhatsApp us and we'll guide you!"
   },
@@ -718,9 +829,21 @@
       "WhatsApp number?",
       "Email address?",
       "Customer care number?",
-      "How to reach you?"
+      "How to reach you?",
+      "what is your contact number",
+      "customer support number",
+      "whatsapp number please",
+      "how to reach you",
+      "phone number please",
+      "helpline number",
+      "contact details please",
+      "give me your number",
+      "how can i call you",
+      "support phone number",
+      "email address please",
+      "contact info"
     ],
-    "answer": "You can reach us via WhatsApp at +91 98765 43210 (fastest), email at support@zenmeraki.com, or live chat on our website. We're here Mon–Sat 9 AM–8 PM."
+    "answer": "You can reach us via WhatsApp at {whatsapp} (fastest), email at {email}, or live chat on our website. We're here {hours_weekdays}."
   },
   {
     "id": "support_002",
@@ -742,7 +865,7 @@
       "Instant chat available?",
       "WhatsApp support?"
     ],
-    "answer": "Yes! WhatsApp is our fastest support channel — message +91 98765 43210 for near-instant replies during support hours. We also have live chat on our website."
+    "answer": "Yes! WhatsApp is our fastest support channel — message {whatsapp} for near-instant replies during support hours. We also have live chat on our website."
   },
   {
     "id": "support_004",
@@ -764,7 +887,7 @@
       "Website not working?",
       "App technical issue"
     ],
-    "answer": "Yes, contact us via email at support@zenmeraki.com with a screenshot of the issue and we'll resolve it. For urgent order-related issues, WhatsApp is faster."
+    "answer": "Yes, contact us via email at {email} with a screenshot of the issue and we'll resolve it. For urgent order-related issues, WhatsApp is faster."
   },
   {
     "id": "support_006",
@@ -797,7 +920,7 @@
       "B2B customer service?",
       "Wholesale support?"
     ],
-    "answer": "Yes, business and bulk customers get a dedicated account manager. Contact us via email at support@zenmeraki.com with your company details to get started."
+    "answer": "Yes, business and bulk customers get a dedicated account manager. Contact us via email at {email} with your company details to get started."
   },
   {
     "id": "support_009",
@@ -808,7 +931,7 @@
       "App not working properly",
       "Report a technical problem"
     ],
-    "answer": "Please report bugs via WhatsApp at +91 98765 43210 or email support@zenmeraki.com with a description and screenshot. We appreciate the feedback and fix issues quickly!"
+    "answer": "Please report bugs via WhatsApp at {whatsapp} or email {email} with a description and screenshot. We appreciate the feedback and fix issues quickly!"
   },
   {
     "id": "complaint_001",
@@ -830,7 +953,7 @@
       "Complaint process?",
       "Register a complaint"
     ],
-    "answer": "Log in, go to 'My Orders', select the item, and tap 'Report Issue'. Or message us directly on WhatsApp at +91 98765 43210 with your order ID and photos — that's the quickest route."
+    "answer": "Log in, go to 'My Orders', select the item, and tap 'Report Issue'. Or message us directly on WhatsApp at {whatsapp} with your order ID and photos — that's the quickest route."
   },
   {
     "id": "complaint_003",
@@ -862,7 +985,7 @@
       "How long to fix my issue?",
       "When will my complaint be resolved?"
     ],
-    "answer": "Most complaints are resolved within 2–3 working days. Complex cases like quality defects or lost parcels may take up to 5–7 days — we'll keep you updated throughout."
+    "answer": "Most complaints are resolved within {delivery_days}. Complex cases like quality defects or lost parcels may take up to 5–7 days — we'll keep you updated throughout."
   },
   {
     "id": "complaint_006",
@@ -873,7 +996,7 @@
       "How to escalate?",
       "Speak to a manager"
     ],
-    "answer": "Absolutely — your satisfaction matters to us. Reply to your existing ticket requesting escalation, or WhatsApp us at +91 98765 43210. A senior team member will personally follow up within 24 hours."
+    "answer": "Absolutely — your satisfaction matters to us. Reply to your existing ticket requesting escalation, or WhatsApp us at {whatsapp}. A senior team member will personally follow up within 24 hours."
   },
   {
     "id": "complaint_007",
@@ -1033,9 +1156,18 @@
       "How can I book an appointment?",
       "How to schedule a visit?",
       "Book a store appointment?",
-      "Can I visit the store by appointment?"
+      "Can I visit the store by appointment?",
+      "How to book a session?",
+      "How to book for my session?",
+      "Book a session",
+      "Can I book a slot?",
+      "How to book an appointment?",
+      "How to visit the store?",
+      "Trial room booking",
+      "Store visit booking",
+      "Schedule a visit"
     ],
-    "answer": "Book a store visit via our website, app, or WhatsApp at +91 98765 43210. Our store at MG Road, Ernakulam is open Mon–Sat 9 AM–8 PM, Sunday 10 AM–6 PM."
+    "answer": "Book a store visit via our website, app, or WhatsApp at {whatsapp}. Our store at {location} is open {hours_weekdays}, {hours_sunday}."
   },
   {
     "id": "appointment_002",
@@ -1251,7 +1383,7 @@
       "Missed delivery — how to rebook?",
       "Re-delivery after failed attempt?"
     ],
-    "answer": "Yes! If a delivery attempt failed, you'll get an SMS. You can reschedule directly from the tracking link, or WhatsApp us at +91 98765 43210 for a new delivery date."
+    "answer": "Yes! If a delivery attempt failed, you'll get an SMS. You can reschedule directly from the tracking link, or WhatsApp us at {whatsapp} for a new delivery date."
   },
   {
     "id": "reschedule_010",
@@ -1331,7 +1463,7 @@
       "Remove my account?",
       "Account deletion request"
     ],
-    "answer": "Contact us at support@zenmeraki.com to request account deletion. We'll process it within 7 working days. Please note this will remove your order history and saved data."
+    "answer": "Contact us at {email} to request account deletion. We'll process it within 7 working days. Please note this will remove your order history and saved data."
   },
   {
     "id": "store_001",
@@ -1342,9 +1474,21 @@
       "Shop address?",
       "Where are you located?",
       "Where is the shop?",
-      "Store address?"
+      "Store address?",
+      "where is your shop",
+      "shop address please",
+      "store location please",
+      "where are you located",
+      "which area is your shop",
+      "MG road shop",
+      "Ernakulam shop address",
+      "physical store address",
+      "where can i visit",
+      "nearest store location",
+      "store address please",
+      "shop near lulu mall"
     ],
-    "answer": "Our store is at MG Road, Ernakulam, near Lulu Mall. We're open Mon–Sat 9 AM–8 PM and Sunday 10 AM–6 PM. Come visit us!"
+    "answer": "Our store is at {location}. We're open {hours_weekdays} and {hours_sunday}. Come visit us!"
   },
   {
     "id": "store_002",
@@ -1358,7 +1502,17 @@
       "When do you open?",
       "Opening hours?",
       "Is the shop open?",
-      "What time does the shop close?"
+      "What time does the shop close?",
+      "what time does shop open",
+      "store opening time",
+      "when does shop close",
+      "are you open on sunday",
+      "shop hours please",
+      "weekend timings",
+      "saturday open",
+      "store working hours",
+      "what time do you open",
+      "shop open now"
     ],
     "answer": "We're open Monday to Saturday 9 AM to 8 PM, and Sundays 10 AM to 6 PM. Public holidays may have adjusted hours — check our WhatsApp status for updates."
   },

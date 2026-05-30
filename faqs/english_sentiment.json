@@ -9,7 +9,7 @@
       "Are you coping okay today?",
       "How are things going for you at the moment?"
     ],
-    "answer": "I’m managing things step by step, just taking it one moment at a time."
+    "answer": "I'm here to help! Feel free to ask about your orders, delivery, returns, or offers. 😊"
   },
   {
     "id": "",
@@ -21,7 +21,7 @@
       "Anything new going on with you?",
       "How’s life treating you lately?"
     ],
-    "answer": "Just the usual ups and downs, nothing too unusual going on."
+    "answer": "I'm here to help! Feel free to ask about your orders, delivery, returns, or offers. 😊"
   },
   {
     "id": "",
@@ -45,7 +45,7 @@
       "What helps you stay in a good mindset?",
       "What’s your secret to staying positive?"
     ],
-    "answer": "I try to focus on what I can control and not dwell on what I can’t."
+    "answer": "I'm here to help! Feel free to ask about your orders, delivery, returns, or offers. 😊"
   },
   {
     "id": "",
@@ -57,7 +57,7 @@
       "What’s been bothering you the most?",
       "What’s been draining your energy?"
     ],
-    "answer": "A lot has been building up, and it’s been hard to stay balanced."
+    "answer": "I'm sorry to hear that! Please share your concern and I'll do my best to help right away. 😔"
   },
   {
     "id": "",
@@ -69,7 +69,7 @@
       "What’s causing you so much stress?",
       "Why are things feeling so tough right now?"
     ],
-    "answer": "It just feels like too much is happening at once, and it’s overwhelming."
+    "answer": "I'm here to help! Feel free to ask about your orders, delivery, returns, or offers. 😊"
   },
   {
     "id": "",
@@ -81,7 +81,7 @@
       "Wow, life treating you wonderfully again?",
       "Let me guess, everything’s flawless?"
     ],
-    "answer": "Oh yes, absolutely perfect—because life is always that simple, right?"
+    "answer": "I understand your frustration and I sincerely apologise. Please share what happened and I'll make it right. 🙏"
   },
   {
     "id": "",
@@ -117,7 +117,7 @@
       "Are you managing your tasks okay?",
       "How busy have you been lately?"
     ],
-    "answer": "It’s manageable, just a steady flow of tasks I’m handling one by one."
+    "answer": "I'm here to help! Feel free to ask about your orders, delivery, returns, or offers. 😊"
   },
   {
     "id": "",
@@ -129,7 +129,7 @@
       "What’s been improving at work for you?",
       "What’s been going smoothly in your job?"
     ],
-    "answer": "I’ve been getting better at my tasks and feeling more confident in my work."
+    "answer": "Happy to assist! Let me know if you have any questions about your order or our products. 😊"
   },
   {
     "id": "",
@@ -141,7 +141,7 @@
       "What helps you enjoy your work?",
       "Why are you feeling positive about work?"
     ],
-    "answer": "Seeing progress in my work and small achievements keeps me motivated."
+    "answer": "Happy to assist! Let me know if you have any questions about your order or our products. 😊"
   },
   {
     "id": "",
@@ -153,7 +153,7 @@
       "What’s going wrong at work?",
       "Why is your workload overwhelming?"
     ],
-    "answer": "There’s too much pressure and not enough time to manage everything properly."
+    "answer": "I'm sorry to hear that! Please tell me what went wrong and I'll sort it out. 🙏"
   },
   {
     "id": "",
@@ -165,7 +165,7 @@
       "Is your job affecting your mental health?",
       "Are you struggling with work stress?"
     ],
-    "answer": "Yes, I’ve been feeling really drained and mentally exhausted lately."
+    "answer": "I'm sorry to hear that! Please share your concern and I'll do my best to help right away. 😔"
   },
   {
     "id": "",
@@ -189,7 +189,7 @@
       "Can you complete everything on time?",
       "Is your workload urgent and critical?"
     ],
-    "answer": "No, I need urgent assistance to meet my deadlines."
+    "answer": "Please share your order details or describe the issue — I'll escalate this immediately! ⚡"
   },
   {
     "id": "",
@@ -237,7 +237,7 @@
       "How was your shopping experience?",
       "Was the purchase process smooth?"
     ],
-    "answer": "Yes, everything went smoothly and the process was very easy."
+    "answer": "Wonderful! 😊 Your order is confirmed — you'll get tracking details via SMS and email once it ships."
   },
   {
     "id": "",
@@ -249,7 +249,7 @@
       "Is your order delayed or missing?",
       "Did the order not go as expected?"
     ],
-    "answer": "Yes, there seems to be a delay and I’m not sure what is happening."
+    "answer": "I'm sorry about the issue with your order! Please WhatsApp us at {whatsapp} with your order ID and we'll fix it right away."
   },
   {
     "id": "",
@@ -273,7 +273,7 @@
       "Order experience was flawless, right?",
       "Let me guess, everything went perfectly?"
     ],
-    "answer": "Oh yes, of course—perfect timing, as always… not."
+    "answer": "I sincerely apologise for the poor experience. Share your order ID and we'll make it right immediately. 🙏"
   },
   {
     "id": "",
@@ -285,7 +285,7 @@
       "Enjoying the delivery delays too?",
       "Shopping must be fun with no issues, huh?"
     ],
-    "answer": "Oh absolutely, it’s been a dream experience…thank you if you enjoy waiting."
+    "answer": "I understand your frustration and I sincerely apologise. Please share what happened and I'll make it right. 🙏"
   },
   {
     "id": "",
@@ -321,7 +321,7 @@
       "How many days will delivery take?",
       "What is the usual delivery duration?"
     ],
-    "answer": "Delivery usually takes a few days depending on your location and shipping method."
+    "answer": "Standard delivery takes {delivery_days} across Kerala. Track via the link in your SMS/email or check 'My Orders'. 😊"
   },
   {
     "id": "",
@@ -381,7 +381,7 @@
       "Did my shipment get lost?",
       "Where is my package?"
     ],
-    "answer": "We are checking with the courier, and there may be a delay or misrouting."
+    "answer": "Standard delivery takes {delivery_days} across Kerala. Track via the link in your SMS/email or check 'My Orders'. 😊"
   },
   {
     "id": "",
@@ -393,7 +393,7 @@
       "Will my package arrive before I grow old?",
       "Is delivery speed real or just a joke?"
     ],
-    "answer": "Oh yes, it’s definitely on its way… patience is part of the experience."
+    "answer": "I completely understand your frustration with the delay. Share your order ID and we'll escalate it with the courier right now. 🙏"
   },
   {
     "id": "",
@@ -405,7 +405,7 @@
       "Is it moving or just taking a vacation?",
       "Is shipping speed set to slow motion?"
     ],
-    "answer": "Yes, it’s on an exciting world tour before reaching you."
+    "answer": "Standard delivery takes {delivery_days} across Kerala. Track via the link in your SMS/email or check 'My Orders'. 😊"
   },
   {
     "id": "",
@@ -417,7 +417,7 @@
       "I need my shipment status immediately.",
       "Where is my parcel currently?"
     ],
-    "answer": "Your package is currently delayed in transit and we are checking with the courier."
+    "answer": "Please share your order ID via WhatsApp ({whatsapp}) right away — I'll check with the courier immediately! ⚡"
   },
   {
     "id": "",
@@ -453,7 +453,7 @@
       "How long have you used the product?",
       "Have you tried the product yet?"
     ],
-    "answer": "Yes, I have started using it and I am getting familiar with its features."
+    "answer": "Returns are accepted within 7 days of delivery for unused items with original tags. Start via 'My Orders' → 'Return/Exchange'. 😊"
   },
   {
     "id": "",
@@ -465,7 +465,7 @@
       "Is it worth using?",
       "Is the product helpful in daily use?"
     ],
-    "answer": "Yes, it perfectly meets my needs and has been very useful."
+    "answer": "Returns are accepted within 7 days of delivery for unused items with original tags. Start via 'My Orders' → 'Return/Exchange'. 😊"
   },
   {
     "id": "",
@@ -477,7 +477,7 @@
       "Is the product not useful?",
       "Do you regret buying it?"
     ],
-    "answer": "Yes, it did not meet my expectations and I am disappointed."
+    "answer": "Returns are accepted within 7 days of delivery for unused items with original tags. Start via 'My Orders' → 'Return/Exchange'. 😊"
   },
   {
     "id": "",
@@ -489,7 +489,7 @@
       "It works like magic, doesn’t it?",
       "Best product ever, right?"
     ],
-    "answer": "Oh yes, absolutely perfect… if you ignore all the problems."
+    "answer": "I sincerely apologise for this experience. Send photos to WhatsApp {whatsapp} and we'll resolve it immediately. 🙏"
   },
   {
     "id": "",
@@ -501,7 +501,7 @@
       "Product experience must be amazing, right?",
       "Everything working wonderfully, I guess?"
     ],
-    "answer": "Oh totally amazing… especially the parts that don’t work."
+    "answer": "Returns are accepted within 7 days of delivery for unused items with original tags. Start via 'My Orders' → 'Return/Exchange'. 😊"
   },
   {
     "id": "",
@@ -573,7 +573,7 @@
       "Is replacement handled quickly?",
       "Do replacements arrive fast?"
     ],
-    "answer": "Yes, replacements are processed quickly once approved."
+    "answer": "Returns are accepted within 7 days of delivery for unused items with original tags. Start via 'My Orders' → 'Return/Exchange'. 😊"
   },
   {
     "id": "",
@@ -585,7 +585,7 @@
       "Is there a problem with my return request?",
       "Why is replacement taking too much time?"
     ],
-    "answer": "There may be delays due to verification or logistics processing."
+    "answer": "I'm really sorry about that! Please WhatsApp photos to {whatsapp} within 48 hours — we'll arrange free pickup and replacement. 🙏"
   },
   {
     "id": "",
@@ -609,7 +609,7 @@
       "Everything gets replaced immediately, right?",
       "Return process is lightning fast, I guess?"
     ],
-    "answer": "Oh yes, super fast… patience is just part of the process."
+    "answer": "I sincerely apologise for this experience. Send photos to WhatsApp {whatsapp} and we'll resolve it immediately. 🙏"
   },
   {
     "id": "",
@@ -621,7 +621,7 @@
       "No complications at all, I assume?",
       "Replacement process is always fun, yes?"
     ],
-    "answer": "Oh absolutely, it’s the easiest thing in the world… sometimes."
+    "answer": "Returns are accepted within 7 days of delivery for unused items with original tags. Start via 'My Orders' → 'Return/Exchange'. 😊"
   },
   {
     "id": "",
@@ -633,7 +633,7 @@
       "Is instant return possible?",
       "Do I get emergency replacement service?"
     ],
-    "answer": "Yes, please submit a request immediately and we will prioritize your case."
+    "answer": "Please send photos to WhatsApp {whatsapp} right now — we'll arrange an emergency pickup! ⚡"
   },
   {
     "id": "",
@@ -645,7 +645,7 @@
       "Is immediate action possible for my case?",
       "I need urgent help with my return."
     ],
-    "answer": "We are checking your request urgently and will update you shortly."
+    "answer": "Returns are accepted within 7 days of delivery for unused items with original tags. Start via 'My Orders' → 'Return/Exchange'. 😊"
   },
   {
     "id": "",
@@ -657,7 +657,7 @@
       "Where do I sign in?",
       "How do I enter my account?"
     ],
-    "answer": "You can log in using your registered email/username and password on the login page."
+    "answer": "For account issues, use 'Forgot Password' on the login page. For anything else, email {email}. 😊"
   },
   {
     "id": "",
@@ -669,7 +669,7 @@
       "What is the process to recover my password?",
       "Can I update my login password?"
     ],
-    "answer": "Yes, you can reset your password using the ‘Forgot Password’ option."
+    "answer": "For account issues, use 'Forgot Password' on the login page. For anything else, email {email}. 😊"
   },
   {
     "id": "",
@@ -681,7 +681,7 @@
       "Is sign-in fast?",
       "Is account access smooth?"
     ],
-    "answer": "Yes, the login process is quick, simple, and user-friendly."
+    "answer": "Happy to hear from you! 😊 Let me know if there's anything I can help with."
   },
   {
     "id": "",
@@ -717,7 +717,7 @@
       "Why is login failing repeatedly?",
       "What’s wrong with my login details?"
     ],
-    "answer": "Your password may be incorrect or needs to be reset."
+    "answer": "For account issues, use 'Forgot Password' on the login page. For anything else, email {email}. 😊"
   },
   {
     "id": "",
@@ -729,7 +729,7 @@
       "Passwords never fail, I assume?",
       "Login always works perfectly, yes?"
     ],
-    "answer": "Oh yes, always perfect… until it suddenly isn’t."
+    "answer": "I understand your frustration and I sincerely apologise. Please share what happened and I'll make it right. 🙏"
   },
   {
     "id": "",
@@ -741,7 +741,7 @@
       "Password forgotten… again?",
       "Account issues again, of course?"
     ],
-    "answer": "Yes, because remembering passwords is clearly my strongest skill."
+    "answer": "For account issues, use 'Forgot Password' on the login page. For anything else, email {email}. 😊"
   },
   {
     "id": "",
@@ -813,7 +813,7 @@
       "Are issues resolved quickly?",
       "Is customer service prompt?"
     ],
-    "answer": "Yes, most queries are handled quickly depending on their complexity."
+    "answer": "Our support team is available {hours_weekdays}. WhatsApp us at {whatsapp} for the fastest response! 😊"
   },
   {
     "id": "",
@@ -849,7 +849,7 @@
       "Never any delays with service, right?",
       "Agents always available immediately?"
     ],
-    "answer": "Oh yes, instantly… right after the queue finishes its coffee break."
+    "answer": "I completely understand and I'm truly sorry. Share your details via WhatsApp {whatsapp} and I'll escalate immediately. 🙏"
   },
   {
     "id": "",
@@ -861,7 +861,7 @@
       "Support is always magical, yes?",
       "Problems disappear instantly, I guess?"
     ],
-    "answer": "Of course, everything is always solved perfectly… eventually."
+    "answer": "Our support team is available {hours_weekdays}. WhatsApp us at {whatsapp} for the fastest response! 😊"
   },
   {
     "id": "",
@@ -873,7 +873,7 @@
       "I need instant customer service help.",
       "Can support respond immediately?"
     ],
-    "answer": "We understand the urgency and will prioritize your request immediately."
+    "answer": "I need immediate help from our team! Please WhatsApp {whatsapp} right now — mention it's urgent. ⚡"
   },
   {
     "id": "",
@@ -957,7 +957,7 @@
       "Why is everything full price?",
       "Why am I not seeing any promotions?"
     ],
-    "answer": "Offers may vary based on time, availability, and ongoing promotional campaigns."
+    "answer": "Yes! New customers get 10% off with code {offer_code}. Seasonal sales run regularly — WhatsApp us to stay updated! 😊"
   },
   {
     "id": "",
@@ -969,7 +969,7 @@
       "Discounts are just unbelievable, right?",
       "So many offers, I can’t even count?"
     ],
-    "answer": "Oh yes, absolutely massive savings… if you find the right one."
+    "answer": "I apologise for the coupon issue! Share the code via WhatsApp {whatsapp} and we'll apply it manually. 🙏"
   },
   {
     "id": "",
@@ -981,7 +981,7 @@
       "No expired codes ever, huh?",
       "Offers always go smoothly, I guess?"
     ],
-    "answer": "Of course, they always work… until they don’t."
+    "answer": "Yes! New customers get 10% off with code {offer_code}. Seasonal sales run regularly — WhatsApp us to stay updated! 😊"
   },
   {
     "id": "",
@@ -1041,7 +1041,7 @@
       "Are subscription features useful?",
       "Is membership a good choice?"
     ],
-    "answer": "Yes, the subscription provides great value with premium features and benefits."
+    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp {whatsapp}."
   },
   {
     "id": "",
@@ -1089,7 +1089,7 @@
       "No hidden renewals ever, I assume?",
       "Everything is always crystal clear, yes?"
     ],
-    "answer": "Oh yes, everything is perfectly predictable… until the renewal email arrives."
+    "answer": "I apologise for the unexpected charge. WhatsApp {whatsapp} right now with your account details. 🙏"
   },
   {
     "id": "",
@@ -1143,7 +1143,7 @@
       "What’s making you feel so good today?",
       "Why are you glowing with happiness today?"
     ],
-    "answer": "I’m feeling grateful and happy about the little things."
+    "answer": "Happy to hear from you! 😊 Let me know if there's anything I can help with."
   },
   {
     "id": "",
@@ -1151,7 +1151,7 @@
     "question_variants": [
       "What made your day better?"
     ],
-    "answer": "Spending time with people I care about really lifted my mood."
+    "answer": "Happy to hear from you! 😊 Let me know if there's anything I can help with."
   },
   {
     "id": "",
@@ -1169,7 +1169,7 @@
       "Is everything going well for you?",
       "Are you feeling comfortable and happy?"
     ],
-    "answer": "Yes, I feel optimistic and content right now."
+    "answer": "Happy to assist! Let me know if you have any questions about your order or our products. 😊"
   },
   {
     "id": "",
@@ -1187,7 +1187,7 @@
       "Why do you look worried?",
       "What’s got you feeling low?"
     ],
-    "answer": "I’ve been dealing with some difficult thoughts and emotions."
+    "answer": "I'm sorry to hear that! Please tell me what went wrong and I'll sort it out. 🙏"
   },
   {
     "id": "",
@@ -1195,7 +1195,7 @@
     "question_variants": [
       "What’s bothering you?"
     ],
-    "answer": "It’s just been a tough time, and I’m feeling overwhelmed."
+    "answer": "I'm sorry to hear that! Please tell me what went wrong and I'll sort it out. 🙏"
   },
   {
     "id": "",
@@ -1213,7 +1213,7 @@
       "Are things progressing perfectly?",
       "Is everything going according to plan?"
     ],
-    "answer": "Oh absolutely, nothing ever goes wrong in my life."
+    "answer": "I understand your frustration and I sincerely apologise. Please share what happened and I'll make it right. 🙏"
   },
   {
     "id": "",
@@ -1231,7 +1231,7 @@
       "Are you feeling excited about it?",
       "Is this something you're happy about?"
     ],
-    "answer": "Yeah, I couldn’t be more excited... obviously."
+    "answer": "I understand your frustration and I sincerely apologise. Please share what happened and I'll make it right. 🙏"
   },
   {
     "id": "",
@@ -1267,7 +1267,7 @@
       "Do you mind talking right now?",
       "Are you in a position to talk?"
     ],
-    "answer": "Please, I really need someone to listen right now."
+    "answer": "I'm here to help urgently! Please share your order ID or issue and I'll escalate immediately. ⚡"
   },
   {
     "id": "",
@@ -1297,7 +1297,7 @@
       "What helps you stay in a good mindset?",
       "What’s your secret to staying positive?"
     ],
-    "answer": "I try to focus on what I can control and not dwell on what I can’t."
+    "answer": "Happy to assist! Let me know if you have any questions about your order or our products. 😊"
   },
   {
     "id": "",
@@ -1309,7 +1309,7 @@
       "What’s causing you so much stress?",
       "Why are things feeling so tough right now?"
     ],
-    "answer": "It just feels like too much is happening at once, and it’s overwhelming."
+    "answer": "I'm sorry to hear that! Please share your concern and I'll do my best to help right away. 😔"
   },
   {
     "id": "",
@@ -1345,7 +1345,7 @@
       "Did my shipment get lost?",
       "Where is my package?"
     ],
-    "answer": "We are checking with the courier, and there may be a delay or misrouting."
+    "answer": "I'm sorry about the delay! Please WhatsApp us at {whatsapp} with your order ID and we'll check the status immediately."
   },
   {
     "id": "",
@@ -1357,7 +1357,7 @@
       "Is it moving or just taking a vacation?",
       "Is shipping speed set to slow motion?"
     ],
-    "answer": "Yes, it’s on an exciting world tour before reaching you."
+    "answer": "I completely understand your frustration with the delay. Share your order ID and we'll escalate it with the courier right now. 🙏"
   },
   {
     "id": "",
@@ -1381,7 +1381,7 @@
       "Is it worth using?",
       "Is the product helpful in daily use?"
     ],
-    "answer": "Yes, it perfectly meets my needs and has been very useful."
+    "answer": "Great question! 😊 Returns are easy — go to 'My Orders', select the item, and tap 'Return/Exchange'."
   },
   {
     "id": "",
@@ -1393,7 +1393,7 @@
       "Is the product not useful?",
       "Do you regret buying it?"
     ],
-    "answer": "Yes, it did not meet my expectations and I am disappointed."
+    "answer": "I'm really sorry about that! Please WhatsApp photos to {whatsapp} within 48 hours — we'll arrange free pickup and replacement. 🙏"
   },
   {
     "id": "",
@@ -1405,7 +1405,7 @@
       "Product experience must be amazing, right?",
       "Everything working wonderfully, I guess?"
     ],
-    "answer": "Oh totally amazing… especially the parts that don’t work."
+    "answer": "I sincerely apologise for this experience. Send photos to WhatsApp {whatsapp} and we'll resolve it immediately. 🙏"
   },
   {
     "id": "",
@@ -1429,7 +1429,7 @@
       "Is replacement handled quickly?",
       "Do replacements arrive fast?"
     ],
-    "answer": "Yes, replacements are processed quickly once approved."
+    "answer": "Great question! 😊 Returns are easy — go to 'My Orders', select the item, and tap 'Return/Exchange'."
   },
   {
     "id": "",
@@ -1453,7 +1453,7 @@
       "No complications at all, I assume?",
       "Replacement process is always fun, yes?"
     ],
-    "answer": "Oh absolutely, it’s the easiest thing in the world… sometimes."
+    "answer": "I sincerely apologise for this experience. Send photos to WhatsApp {whatsapp} and we'll resolve it immediately. 🙏"
   },
   {
     "id": "",
@@ -1465,7 +1465,7 @@
       "Is immediate action possible for my case?",
       "I need urgent help with my return."
     ],
-    "answer": "We are checking your request urgently and will update you shortly."
+    "answer": "Please send photos to WhatsApp {whatsapp} right now — we'll arrange an emergency pickup! ⚡"
   },
   {
     "id": "",
@@ -1489,7 +1489,7 @@
       "Why is login failing repeatedly?",
       "What’s wrong with my login details?"
     ],
-    "answer": "Your password may be incorrect or needs to be reset."
+    "answer": "I'm sorry you can't log in! Email {email} with your registered number and we'll sort it out right away. 🙏"
   },
   {
     "id": "",
@@ -1501,7 +1501,7 @@
       "Password forgotten… again?",
       "Account issues again, of course?"
     ],
-    "answer": "Yes, because remembering passwords is clearly my strongest skill."
+    "answer": "I understand the frustration. Email {email} with your number — we'll get you back in immediately. 🙏"
   },
   {
     "id": "",
@@ -1525,7 +1525,7 @@
       "Are issues resolved quickly?",
       "Is customer service prompt?"
     ],
-    "answer": "Yes, most queries are handled quickly depending on their complexity."
+    "answer": "We're always here for you! 😊 WhatsApp {whatsapp} or email {email} — we reply within 15–30 minutes."
   },
   {
     "id": "",
@@ -1549,7 +1549,7 @@
       "Support is always magical, yes?",
       "Problems disappear instantly, I guess?"
     ],
-    "answer": "Of course, everything is always solved perfectly… eventually."
+    "answer": "I completely understand and I'm truly sorry. Share your details via WhatsApp {whatsapp} and I'll escalate immediately. 🙏"
   },
   {
     "id": "",
@@ -1585,7 +1585,7 @@
       "Why is everything full price?",
       "Why am I not seeing any promotions?"
     ],
-    "answer": "Offers may vary based on time, availability, and ongoing promotional campaigns."
+    "answer": "I'm sorry the discount isn't working! Please WhatsApp {whatsapp} with the code and order details — we'll fix it. 🙏"
   },
   {
     "id": "",
@@ -1597,7 +1597,7 @@
       "No expired codes ever, huh?",
       "Offers always go smoothly, I guess?"
     ],
-    "answer": "Of course, they always work… until they don’t."
+    "answer": "I apologise for the coupon issue! Share the code via WhatsApp {whatsapp} and we'll apply it manually. 🙏"
   },
   {
     "id": "",
@@ -1681,7 +1681,7 @@
       "Can I choose a plan that fits me well?",
       "Are the subscription options user-friendly?"
     ],
-    "answer": "Yes, our subscription plans are flexible and designed to provide great value for users."
+    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp {whatsapp}."
   },
   {
     "id": "",
@@ -1741,7 +1741,7 @@
       "Will I get better benefits with upgrade?",
       "Does upgrade improve my experience?"
     ],
-    "answer": "Yes, upgrading gives you access to more features, better performance, and additional benefits."
+    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp {whatsapp}."
   },
   {
     "id": "",
@@ -1753,7 +1753,7 @@
       "Why am I unable to change my plan?",
       "Is there an issue with upgrading?"
     ],
-    "answer": "You may already be on the highest plan or there may be a temporary system restriction."
+    "answer": "I'm sorry about the billing issue! Please WhatsApp {whatsapp} with your details — we'll resolve it immediately. 🙏"
   },
   {
     "id": "",
@@ -1765,7 +1765,7 @@
       "Upgrades happen magically, I guess?",
       "No delays in upgrading ever?"
     ],
-    "answer": "Yes, upgrades are usually smooth… when everything works as expected."
+    "answer": "I understand your frustration and I sincerely apologise. Please share what happened and I'll make it right. 🙏"
   },
   {
     "id": "",
@@ -1849,7 +1849,7 @@
       "Do I stay subscribed without interruption?",
       "Is auto-renew useful?"
     ],
-    "answer": "Yes, auto-renewal ensures uninterrupted service without manual action."
+    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp {whatsapp}."
   },
   {
     "id": "",
@@ -1873,7 +1873,7 @@
       "Everything is always obvious, I assume?",
       "Charges never surprise anyone?"
     ],
-    "answer": "Yes, auto-renewal is clearly mentioned… though it can be easy to miss."
+    "answer": "I apologise for the unexpected charge. WhatsApp {whatsapp} right now with your account details. 🙏"
   },
   {
     "id": "",
@@ -1897,7 +1897,7 @@
       "Do I need payment for trial?",
       "How can I start a free trial?"
     ],
-    "answer": "The free trial allows you to explore features for a limited time before subscription starts."
+    "answer": "For billing or subscription queries, please WhatsApp us at {whatsapp} or email {email}. 😊"
   },
   {
     "id": "",
@@ -1909,7 +1909,7 @@
       "Do I get full access in trial?",
       "Is trial period helpful?"
     ],
-    "answer": "Yes, the free trial gives you access to key features so you can evaluate the service."
+    "answer": "We're glad you're enjoying our service! 😊 For membership questions, WhatsApp {whatsapp}."
   },
   {
     "id": "",
@@ -1984,7 +1984,7 @@
       "this is unacceptable",
       "I need to escalate this"
     ],
-    "answer": "We're really sorry to hear that! Please WhatsApp us at +91 98765 43210 (fastest) or email support@zenmeraki.com — our team will respond within 24 hours and make it right. 🙏"
+    "answer": "We're really sorry to hear that! Please WhatsApp us at {whatsapp} (fastest) or email {email} — our team will respond within 24 hours and make it right. 🙏"
   },
   {
     "category": "negative",
@@ -2001,7 +2001,7 @@
       "I am disappointed",
       "this is really disappointing"
     ],
-    "answer": "We're sorry your experience wasn't what you expected — your feedback genuinely helps us improve. Please reach out on WhatsApp +91 98765 43210 or email support@zenmeraki.com and we'll make it right. 🙏"
+    "answer": "We're sorry your experience wasn't what you expected — your feedback genuinely helps us improve. Please reach out on WhatsApp {whatsapp} or email {email} and we'll make it right. 🙏"
   },
   {
     "category": "urgent",
@@ -2017,7 +2017,7 @@
       "I need help right now",
       "asap please"
     ],
-    "answer": "On it! Please WhatsApp us immediately at +91 98765 43210 — that's our fastest channel. Share your order ID and we'll prioritise your case right away. ⚡"
+    "answer": "On it! Please WhatsApp us immediately at {whatsapp} — that's our fastest channel. Share your order ID and we'll prioritise your case right away. ⚡"
   },
   {
     "category": "negative",
@@ -2032,7 +2032,7 @@
       "they sent the wrong thing",
       "completely wrong order"
     ],
-    "answer": "We sincerely apologise for sending the wrong item! Please WhatsApp us at +91 98765 43210 with a photo of what you received — we'll arrange the correct item and a free return pickup right away. 🙏"
+    "answer": "We sincerely apologise for sending the wrong item! Please WhatsApp us at {whatsapp} with a photo of what you received — we'll arrange the correct item and a free return pickup right away. 🙏"
   },
   {
     "category": "negative",
@@ -2048,7 +2048,7 @@
       "stitching is coming apart",
       "fabric is tearing"
     ],
-    "answer": "So sorry about the damaged item! Please WhatsApp us at +91 98765 43210 with a photo — we'll arrange a replacement or full refund and a free return pickup immediately. 🙏"
+    "answer": "So sorry about the damaged item! Please WhatsApp us at {whatsapp} with a photo — we'll arrange a replacement or full refund and a free return pickup immediately. 🙏"
   },
   {
     "category": "negative",
@@ -2063,7 +2063,7 @@
       "been trying to contact you",
       "why is no one picking up"
     ],
-    "answer": "We're really sorry for the delay in responding! Please WhatsApp us directly at +91 98765 43210 — that's monitored continuously. We'll get back to you within the hour. 🙏"
+    "answer": "We're really sorry for the delay in responding! Please WhatsApp us directly at {whatsapp} — that's monitored continuously. We'll get back to you within the hour. 🙏"
   },
   {
     "category": "sarcastic",
@@ -2078,6 +2078,6 @@
       "loving this experience NOT",
       "this is just brilliant"
     ],
-    "answer": "We completely understand your frustration — and we deserve that. Please give us a chance to fix it: WhatsApp +91 98765 43210 with your order details and we'll personally sort it out. 🙏"
+    "answer": "We completely understand your frustration — and we deserve that. Please give us a chance to fix it: WhatsApp {whatsapp} with your order details and we'll personally sort it out. 🙏"
   }
 ]
