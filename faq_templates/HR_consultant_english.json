@@ -1,4 +1,6 @@
-﻿{"faqs": [{
+{
+  "faqs": [
+    {
       "category": "job_openings",
       "question": "What job openings are currently available?",
       "answer": "We have openings across various industries and roles. Please share your profile to receive the latest suitable opportunities."
@@ -72,10 +74,7 @@
       "category": "job_alerts",
       "question": "Can I receive notifications about new job openings?",
       "answer": "Yes, we can provide job alerts and updates when suitable vacancies become available."
-    }
-  
-{
-  "faqs": [
+    },
     {
       "category": "job_application_overview",
       "question": "How can I apply for a job through your HR consultancy?",
@@ -150,11 +149,7 @@
       "category": "support_contact",
       "question": "Who can I contact if I have questions about my application?",
       "answer": "You can contact your assigned recruiter or our support team for assistance throughout the application process."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "resume_service_overview",
       "question": "What resume and CV support services do you offer?",
@@ -229,89 +224,7 @@
       "category": "consultation",
       "question": "Can I get a consultation before choosing a resume service?",
       "answer": "Yes, we offer consultations to understand your career goals and recommend suitable resume solutions."
-    }
-  ]
-}
-
-  "faqs": [
-    {
-      "category": "interview_preparation_overview",
-      "question": "What is interview preparation service in HR consultancy?",
-      "answer": "It is a service that helps candidates prepare for job interviews through training, mock interviews, and career guidance."
     },
-    {
-      "category": "mock_interview",
-      "question": "Do you conduct mock interviews?",
-      "answer": "Yes, we conduct mock interviews to help candidates practice real interview scenarios and improve confidence."
-    },
-    {
-      "category": "resume_preparation",
-      "question": "Do you help with resume preparation?",
-      "answer": "Yes, we assist in creating and improving resumes to match job requirements and industry standards."
-    },
-    {
-      "category": "hr_round_questions",
-      "question": "What kind of HR questions are covered in training?",
-      "answer": "We cover common HR questions like self-introduction, strengths and weaknesses, career goals, and behavioral questions."
-    },
-    {
-      "category": "technical_interview",
-      "question": "Do you provide technical interview preparation?",
-      "answer": "Yes, we provide technical interview preparation based on the candidateâ€™s job role and industry."
-    },
-    {
-      "category": "communication_skills",
-      "question": "Do you help improve communication skills?",
-      "answer": "Yes, we focus on improving spoken English, confidence, and professional communication skills."
-    },
-    {
-      "category": "interview_tips",
-      "question": "What tips are given for interviews?",
-       "answer": "We provide tips on body language, dressing, answering techniques, and how to handle difficult questions."
-    },
-    {
-      "category": "career_guidance",
-      "question": "Do you provide career guidance?",
-      "answer": "Yes, we guide candidates in choosing the right career path and improving job opportunities."
-    },
-    {
-      "category": "salary_negotiation",
-      "question": "Do you help with salary negotiation skills?",
-      "answer": "Yes, we train candidates on how to discuss salary expectations professionally."
-    },
-    {
-      "category": "job_search_support",
-      "question": "Do you assist in job search?",
-      "answer": "Yes, we help candidates find suitable job opportunities through consultancy networks."
-    },
-    {
-      "category": "freshers_support",
-      "question": "Is this service useful for freshers?",
-      "answer": "Yes, freshers can greatly benefit from interview training and basic job preparation support."
-    },
-    {
-      "category": "experience_candidates",
-      "question": "Do you support experienced candidates?",
-      "answer": "Yes, we provide advanced interview preparation for experienced professionals as well."
-    },
-    {
-      "category": "training_mode",
-      "question": "Is training online or offline?",
-      "answer": "Training can be offered both online and offline depending on availability."
-    },
-    {
-      "category": "service_duration",
-      "question": "How long is the interview preparation program?",
-      "answer": "Duration varies depending on the candidateâ€™s needs and selected program."
-    },
-    {
-      "category": "consultation",
-      "question": "Can I get a consultation before joining?",
-      "answer": "Yes, initial consultation is available to understand your career goals and preparation needs."
-    }
-  ]
-  {
-  "faqs": [
     {
       "category": "salary_overview",
       "question": "How is salary decided in HR consultancy roles?",
@@ -386,12 +299,7 @@
       "category": "additional_benefits",
       "question": "Are there any additional perks in HR consultancy jobs?",
       "answer": "Yes, perks may include travel allowance, mobile reimbursement, and skill development programs."
-    }
-  ]
-}
-}
-{
-  "faqs": [
+    },
     {
       "category": "hr_consultancy_overview",
       "question": "What is an HR consultancy or recruitment service?",
@@ -466,11 +374,7 @@
       "category": "support_contact",
       "question": "How can I contact your HR consultancy?",
       "answer": "You can contact us via phone, email, WhatsApp, or visit our office for assistance."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "recruitment_fees_overview",
       "question": "What are recruitment fees in HR consultancy?",
@@ -545,11 +449,7 @@
       "category": "consultation",
       "question": "Can I get a consultation before agreeing to recruitment fees?",
       "answer": "Yes, most HR consultancies provide consultation to explain services and pricing before onboarding."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "screening_overview",
       "question": "What is candidate screening in HR consultancy?",
@@ -624,11 +524,7 @@
       "category": "feedback",
       "question": "Do candidates receive feedback after screening?",
       "answer": "Yes, feedback may be provided depending on the recruitment process and client policy."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "training_overview",
       "question": "What training and skill development programs do you offer?",
@@ -703,11 +599,7 @@
       "category": "consultation",
       "question": "Can I get guidance before choosing a training program?",
       "answer": "Yes, we offer consultation to help you choose the right training based on your career goals."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "training_overview",
       "question": "What training and skill development programs do you offer?",
@@ -782,11 +674,7 @@
       "category": "consultation",
       "question": "Can I get guidance before choosing a training program?",
       "answer": "Yes, we offer consultation to help you choose the right training based on your career goals."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "offer_letter_overview",
       "question": "What is an offer letter in HR consultancy?",
@@ -861,11 +749,7 @@
       "category": "rejection_case",
       "question": "Can an offer letter be withdrawn?",
       "answer": "Yes, in rare cases, an offer may be withdrawn due to company requirements or policy changes."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "job_overview",
       "question": "What are remote and hybrid jobs in HR consultancy?",
@@ -942,4 +826,4 @@
       "answer": "It usually includes HR screening, technical interview, communication assessment, and final HR round."
     }
   ]
-}]}
+}

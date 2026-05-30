@@ -48,7 +48,7 @@
     {
       "category": "license_assistance",
       "question": "Do you help with getting a driving license?",
-      "answer": "Yes, many driving schools assist with learner’s license and driving license application procedures."
+      "answer": "Yes, many driving schools assist with learner's license and driving license application procedures."
     },
     {
       "category": "vehicle_choice",
@@ -74,11 +74,7 @@
       "category": "support",
       "question": "Who can I contact for admission help?",
       "answer": "You can contact the driving school office or support team for assistance with admission and enrollment."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "license_overview",
       "question": "What types of driving licenses can I apply for?",
@@ -153,11 +149,7 @@
       "category": "support",
       "question": "Do you help with the full driving license process?",
       "answer": "Yes, we assist with documentation, training, application, and test preparation for a smooth process."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "fees_overview",
       "question": "What are the fees for driving school courses?",
@@ -232,11 +224,7 @@
       "category": "online_payment",
       "question": "Can I pay driving school fees online?",
       "answer": "Yes, online payment options such as UPI, net banking, and digital wallets are available in most institutes."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "driving_lessons_overview",
       "question": "What are the available driving lesson timings?",
@@ -311,11 +299,7 @@
       "category": "holiday_schedule",
       "question": "Are driving lessons available on public holidays?",
       "answer": "Driving lessons may be limited or unavailable on public holidays depending on the driving school."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "driving_school_overview",
       "question": "What driving courses do you offer?",
@@ -349,7 +333,7 @@
     {
       "category": "license_support",
       "question": "Do you help with driving license application?",
-      "answer": "Yes, we provide guidance and assistance for learner’s license and driving test procedures."
+      "answer": "Yes, we provide guidance and assistance for learner's license and driving test procedures."
     },
     {
       "category": "test_preparation",
@@ -390,11 +374,7 @@
       "category": "certificate",
       "question": "Do I get a certificate after training?",
       "answer": "Yes, completion certificates are provided after finishing the driving course."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "instructors_overview",
       "question": "What qualifications do your driving instructors have?",
@@ -469,34 +449,30 @@
       "category": "support_contact",
       "question": "Can I contact instructors for doubts after class?",
       "answer": "Yes, students can contact instructors or the school for clarification and support during training."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "learners_test_overview",
-      "question": "What is a learner’s test in driving school?",
-      "answer": "A learner’s test is a written or computer-based exam that checks your knowledge of road rules, traffic signs, and safe driving practices."
+      "question": "What is a learner's test in driving school?",
+      "answer": "A learner's test is a written or computer-based exam that checks your knowledge of road rules, traffic signs, and safe driving practices."
     },
     {
       "category": "test_booking",
-      "question": "How can I book a learner’s test?",
-      "answer": "You can book a learner’s test through the driving school, online transport authority portal, or with assistance from your instructor."
+      "question": "How can I book a learner's test?",
+      "answer": "You can book a learner's test through the driving school, online transport authority portal, or with assistance from your instructor."
     },
     {
       "category": "eligibility",
-      "question": "Who is eligible for the learner’s test?",
-      "answer": "Anyone who meets the minimum age requirement and has completed the required application process can apply for the learner’s test."
+      "question": "Who is eligible for the learner's test?",
+      "answer": "Anyone who meets the minimum age requirement and has completed the required application process can apply for the learner's test."
     },
     {
       "category": "test_format",
-      "question": "What is the format of the learner’s test?",
+      "question": "What is the format of the learner's test?",
       "answer": "The test usually includes multiple-choice questions based on traffic rules, road signs, and driving safety."
     },
     {
       "category": "study_material",
-      "question": "Do you provide study materials for the learner’s test?",
+      "question": "Do you provide study materials for the learner's test?",
       "answer": "Yes, we provide study notes, question banks, and guidance to help you prepare for the test."
     },
     {
@@ -506,53 +482,49 @@
     },
     {
       "category": "test_support",
-      "question": "Do you provide support during the learner’s test process?",
+      "question": "Do you provide support during the learner's test process?",
       "answer": "Yes, instructors guide you with application, preparation, and exam-related support."
     },
     {
       "category": "passing_marks",
-      "question": "What is the passing score for the learner’s test?",
+      "question": "What is the passing score for the learner's test?",
       "answer": "The passing score varies by region, but you must answer a minimum percentage of questions correctly."
     },
     {
       "category": "test_duration",
-      "question": "How long does the learner’s test take?",
+      "question": "How long does the learner's test take?",
       "answer": "The test usually takes around 15 to 30 minutes depending on the system and number of questions."
     },
     {
       "category": "retake_policy",
-      "question": "What happens if I fail the learner’s test?",
+      "question": "What happens if I fail the learner's test?",
       "answer": "If you fail, you can reapply and retake the test after a specified waiting period."
     },
     {
       "category": "documents_required",
-      "question": "What documents are needed for the learner’s test?",
+      "question": "What documents are needed for the learner's test?",
       "answer": "You typically need identification proof, application form, and passport-size photos."
     },
     {
       "category": "test_language",
-      "question": "In which languages is the learner’s test available?",
+      "question": "In which languages is the learner's test available?",
       "answer": "The test is usually available in multiple languages depending on your region."
     },
     {
       "category": "driving_school_help",
-      "question": "How does the driving school help with the learner’s test?",
+      "question": "How does the driving school help with the learner's test?",
       "answer": "The driving school assists with application, training, mock tests, and exam preparation."
     },
     {
       "category": "fees",
-      "question": "Is there a fee for the learner’s test?",
+      "question": "Is there a fee for the learner's test?",
       "answer": "Yes, there is a government or authority fee for the test, which may vary by location."
     },
     {
       "category": "result",
-      "question": "How will I get my learner’s test result?",
+      "question": "How will I get my learner's test result?",
       "answer": "Results are usually shown immediately after the test or sent through official channels."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "safety_overview",
       "question": "What safety rules are followed in the driving school?",
@@ -595,8 +567,8 @@
     },
     {
       "category": "license_requirement",
-      "question": "Do I need a learner’s license before training?",
-      "answer": "Yes, a valid learner’s license is required before starting practical driving lessons."
+      "question": "Do I need a learner's license before training?",
+      "answer": "Yes, a valid learner's license is required before starting practical driving lessons."
     },
     {
       "category": "weather_safety",
@@ -627,11 +599,7 @@
       "category": "rules_violation",
       "question": "What happens if a learner breaks safety rules?",
       "answer": "Repeated violations may lead to warnings, suspension of training, or additional guidance sessions."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "location_overview",
       "question": "Where is your driving school located?",
@@ -706,11 +674,7 @@
       "category": "contact_hours",
       "question": "When can I contact the driving school?",
       "answer": "You can contact us during working hours, and WhatsApp support may be available for quick queries."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "pickup_drop_overview",
       "question": "Do you provide pickup and drop facility for driving classes?",
@@ -785,12 +749,7 @@
       "category": "contact_support",
       "question": "Whom should I contact for pickup issues?",
       "answer": "You can contact the driving school office or instructor for any pickup and drop related support."
-    }
-  ]
-}
-
-{
-  "faqs": [
+    },
     {
       "category": "h_class_overview",
       "question": "What is H Class driving license procedure?",
@@ -865,11 +824,7 @@
       "category": "certificate",
       "question": "Will I get a certificate after completing H Class training?",
       "answer": "Yes, after successful completion of training and tests, you receive a completion certificate and can apply for license approval."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "h_class_overview",
       "question": "What is H Class driving license procedure?",

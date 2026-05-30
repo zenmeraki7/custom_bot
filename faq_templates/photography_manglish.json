@@ -74,11 +74,7 @@
       "category": "support",
       "question": "Booking doubts undengil engane contact cheyyam?",
       "answer": "Nee WhatsApp or call cheythu support team-ine contact cheyyam."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "pricing_overview",
       "question": "Studio and photography packages pricing engane decide cheyyum?",
@@ -153,11 +149,7 @@
       "category": "consultation",
       "question": "Package select cheyyan consultation kittumo?",
       "answer": "Yes, requirement discuss cheythu best package suggest cheyyum."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "photoshoot_overview",
       "question": "Studio photoshoot and photography services enthellam available aanu?",
@@ -232,11 +224,7 @@
       "category": "consultation",
       "question": "Photoshoot plan cheyyan consultation kittumo?",
       "answer": "Yes, theme, outfit, and location choose cheyyan consultation available aanu."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "editing_overview",
       "question": "Photography editing services enthellam available aanu?",
@@ -311,11 +299,7 @@
       "category": "consultation",
       "question": "Photography package select cheyyan consultation kittumo?",
       "answer": "Yes, requirements anusarich best package recommend cheyyum."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "studio_overview",
       "question": "Studio-il enthellam photography services available aanu?",
@@ -390,11 +374,7 @@
       "category": "cancellation",
       "question": "Booking cancel cheyyan pattumo?",
       "answer": "Yes, prior notice koduthal cancellation or reschedule cheyyam."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "videography_overview",
       "question": "Videography and photography services enthellam available aanu?",
@@ -469,11 +449,7 @@
       "category": "consultation",
       "question": "Booking munpu consultation kittumo?",
       "answer": "Yes, event details discuss cheythu best package recommend cheyyum."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "equipment_overview",
       "question": "Studio photography-inu enthellam equipment use cheyyum?",
@@ -548,11 +524,7 @@
       "category": "package",
       "question": "Photography packages available aano?",
       "answer": "Yes, different budget and event based packages available aanu."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "cancellation_overview",
       "question": "Photography studio booking cancel cheyyan pattumo?",
@@ -627,11 +599,7 @@
       "category": "policy_agreement",
       "question": "Booking cheyyumbo cancellation policy accept cheyyano?",
       "answer": "Yes, booking confirm cheyyumbo cancellation terms agree cheyyanam."
-    }
-  ]
-}
-{
-  "faqs": [
+    },
     {
       "category": "albums_overview",
       "question": "Photography studio-il albums and prints services enthellam available aanu?",
@@ -709,5 +677,3 @@
     }
   ]
 }
-  
-  
