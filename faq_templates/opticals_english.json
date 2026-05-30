@@ -1,0 +1,159 @@
+{
+  "faqs": [
+    {
+      "category": "shop_overview",
+      "question": "What products are available in the optical shop?",
+      "answer": "We provide eyeglasses, sunglasses, contact lenses, frames, eye care accessories, and vision testing services."
+    },
+    {
+      "category": "eye_testing",
+      "question": "Do you provide eye testing services?",
+      "answer": "Yes, professional eye testing and vision check-up services are available."
+    },
+    {
+      "category": "eye_test_booking",
+      "question": "How can I book an eye test appointment?",
+      "answer": "Appointments can be booked through phone call, website, WhatsApp, or direct visit."
+    },
+    {
+      "category": "walkin_eye_test",
+      "question": "Can I do an eye test without appointment?",
+      "answer": "Yes, walk-in eye tests are accepted depending on doctor availability."
+    },
+    {
+      "category": "eye_test_duration",
+      "question": "How long does an eye test take?",
+      "answer": "An eye test usually takes around 15 to 30 minutes."
+    },
+    {
+      "category": "prescription_glasses",
+      "question": "Do you provide prescription glasses?",
+      "answer": "Yes, prescription eyeglasses are available based on your eye power."
+    },
+    {
+      "category": "frame_options",
+      "question": "What types of frames are available?",
+      "answer": "We offer metal, plastic, rimless, full-frame, half-frame, and branded frame options."
+    },
+    {
+      "category": "lens_types",
+      "question": "What types of lenses are available?",
+      "answer": "Single vision, bifocal, progressive, blue-cut, anti-glare, and photochromic lenses are available."
+    },
+    {
+      "category": "contact_lenses",
+      "question": "Do you sell contact lenses?",
+      "answer": "Yes, daily, monthly, colored, and prescription contact lenses are available."
+    },
+    {
+      "category": "contact_lens_guidance",
+      "question": "Can you help me choose contact lenses?",
+      "answer": "Yes, our staff can help you choose suitable contact lenses based on your prescription and comfort."
+    },
+    {
+      "category": "sunglasses",
+      "question": "Do you sell sunglasses?",
+      "answer": "Yes, we provide regular, polarized, UV-protected, and branded sunglasses."
+    },
+    {
+      "category": "kids_glasses",
+      "question": "Do you have glasses for children?",
+      "answer": "Yes, special frames and lenses for kids are available."
+    },
+    {
+      "category": "computer_glasses",
+      "question": "Do you provide computer or blue-light glasses?",
+      "answer": "Yes, blue-light protection glasses for computer and mobile usage are available."
+    },
+    {
+      "category": "custom_glasses",
+      "question": "Can I customize my glasses?",
+      "answer": "Yes, frame and lens customization options are available."
+    },
+    {
+      "category": "glasses_delivery_time",
+      "question": "How long does it take to make glasses?",
+      "answer": "Delivery time depends on lens type and frame selection, usually within a few days."
+    },
+    {
+      "category": "urgent_delivery",
+      "question": "Do you provide urgent or same-day delivery?",
+      "answer": "Same-day delivery may be available for selected frames and lenses."
+    },
+    {
+      "category": "frame_repair",
+      "question": "Do you repair eyeglasses?",
+      "answer": "Yes, frame adjustments and minor repairs are available."
+    },
+    {
+      "category": "lens_replacement",
+      "question": "Can I replace lenses in my old frame?",
+      "answer": "Yes, lenses can be replaced if the frame condition is suitable."
+    },
+    {
+      "category": "cleaning_service",
+      "question": "Do you provide glasses cleaning services?",
+      "answer": "Yes, cleaning and maintenance services are available."
+    },
+    {
+      "category": "warranty",
+      "question": "Do glasses come with warranty?",
+      "answer": "Warranty availability depends on the brand and product type."
+    },
+    {
+      "category": "return_policy",
+      "question": "Can I return or exchange glasses?",
+      "answer": "Exchange or return policies depend on the product and store terms."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, cards, UPI, and online payments."
+    },
+    {
+      "category": "insurance_support",
+      "question": "Do you accept insurance claims?",
+      "answer": "Insurance support may be available depending on provider policies."
+    },
+    {
+      "category": "offers_discounts",
+      "question": "Do you have offers or discounts?",
+      "answer": "Yes, seasonal discounts and promotional offers may be available."
+    },
+    {
+      "category": "branded_products",
+      "question": "Do you sell branded eyewear?",
+      "answer": "Yes, branded frames and sunglasses are available."
+    },
+    {
+      "category": "home_delivery",
+      "question": "Do you provide home delivery?",
+      "answer": "Yes, home delivery may be available depending on location."
+    },
+    {
+      "category": "online_orders",
+      "question": "Can I order glasses online?",
+      "answer": "Yes, selected products can be ordered online or through WhatsApp."
+    },
+    {
+      "category": "store_timings",
+      "question": "What are your shop timings?",
+      "answer": "Shop timings vary depending on location and business hours."
+    },
+    {
+      "category": "holiday_opening",
+      "question": "Are you open on holidays?",
+      "answer": "Holiday availability depends on the store schedule."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Is parking available?",
+      "answer": "Parking facilities may be available depending on shop location."
+    },
+    {
+      "category": "customer_support",
+      "question": "How can I contact the optical shop?",
+      "answer": "You can contact us through phone, WhatsApp, email, or direct visit."
+    }
+  ]
+}

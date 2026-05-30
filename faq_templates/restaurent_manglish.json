@@ -1,0 +1,229 @@
+{
+  "faqs": [
+    {
+      "category": "table_reservation_overview",
+      "question": "Restaurant-il table reserve cheyyan engane cheyyam?",
+      "answer": "Nee phone call cheythu, WhatsApp message ayachu, allenkil online booking system use cheythu table reserve cheyyam."
+    },
+    {
+      "category": "online_reservation",
+      "question": "Online table booking available aano?",
+      "answer": "Yes, restaurant website allenkil app vazhi online reservation easy aayi cheyyam."
+    },
+    {
+      "category": "walk_in",
+      "question": "Walk-in customers accept cheyyumo?",
+      "answer": "Yes, walk-in accept cheyyum, pakshe busy time-il waiting varam."
+    },
+    {
+      "category": "reservation_confirmation",
+      "question": "Reservation confirm aayennu engane ariyam?",
+      "answer": "Booking kazhinjal SMS, WhatsApp, allenkil call vazhi confirmation varum."
+    },
+    {
+      "category": "cancellation",
+      "question": "Table reservation cancel cheyyan pattumo?",
+      "answer": "Yes, prior notice koduthal reservation cancel cheyyam."
+    },
+    {
+      "category": "reschedule",
+      "question": "Reservation reschedule cheyyan pattumo?",
+      "answer": "Yes, availability anusarich reservation reschedule cheyyam."
+    },
+    {
+      "category": "late_arrival",
+      "question": "Njan late aayal table cancel aavumo?",
+      "answer": "Korachu time grace period undavum, pakshe adhikam late aayal reservation cancel aayekkam."
+    },
+    {
+      "category": "group_booking",
+      "question": "Group table booking available aano?",
+      "answer": "Yes, family and group dining-inu special table booking available aanu."
+    },
+    {
+      "category": "special_request",
+      "question": "Special seating request cheyyan pattumo?",
+      "answer": "Yes, window seat, corner table pole requests provide cheyyam availability anusarich."
+    },
+    {
+      "category": "peak_hours",
+      "question": "Peak hours evide aanu?",
+      "answer": "Lunch and dinner time-il restaurant adhikam busy aayirikkum."
+    },
+    {
+      "category": "booking_time",
+      "question": "Table ethra neram munpu book cheyyanam?",
+      "answer": "Busy days-il kurachu hours or days munpu booking cheyyunnath better aanu."
+    },
+    {
+      "category": "no_show",
+      "question": "No-show aayal entha sambhavikkum?",
+      "answer": "Reservation cancel aavum, future booking-inu impact undavum."
+    },
+    {
+      "category": "special_occasion",
+      "question": "Birthday or anniversary booking available aano?",
+      "answer": "Yes, special occasions-inu decoration and arrangements available aanu."
+    },
+    {
+      "category": "seating_time_limit",
+      "question": "Table use cheyyan time limit undo?",
+      "answer": "Busy hours-il seating time limit apply cheyyam."
+    },
+    {
+      "category": "contact_support",
+      "question": "Reservation doubts engane contact cheyyam?",
+      "answer": "Call, WhatsApp, allenkil restaurant counter vazhi support kittum."
+    },
+    {
+      "category": "takeaway_delivery_overview",
+      "question": "Takeaway and delivery services available aano?",
+      "answer": "Yes, takeaway and delivery services available aanu based on restaurant availability."
+    },
+    {
+      "category": "delivery_areas",
+      "question": "Delivery evide ellam available aanu?",
+      "answer": "Delivery area restaurant location anusarich vary cheyyum, nearby areas-il usually service kittum."
+    },
+    {
+      "category": "delivery_time",
+      "question": "Delivery ethra neram edukum?",
+      "answer": "Usually 30 to 60 minutes vare edukum, order and location depend cheyyum."
+    },
+    {
+      "category": "order_online",
+      "question": "Online ayi order cheyyan pattumo?",
+      "answer": "Yes, website, app, allenkil WhatsApp vazhi online order place cheyyam."
+    },
+    {
+      "category": "minimum_order",
+      "question": "Minimum order value undo?",
+      "answer": "Yes, some restaurants-inu minimum order value apply cheyyam delivery-inu."
+    },
+    {
+      "category": "delivery_charges",
+      "question": "Delivery charge undo?",
+      "answer": "Yes, distance and order amount anusarich delivery charge apply cheyyum."
+    },
+    {
+      "category": "payment_options",
+      "question": "Payment options enthellam aanu?",
+      "answer": "Cash on delivery, UPI, card payment, and online wallets available aanu."
+    },
+    {
+      "category": "takeaway_option",
+      "question": "Takeaway option available aano?",
+      "answer": "Yes, nee order place cheythu directly restaurant-il ninnu pickup cheyyam."
+    },
+    {
+      "category": "order_tracking",
+      "question": "Order track cheyyan pattumo?",
+      "answer": "Yes, app or WhatsApp tracking available aayirikkum."
+    },
+    {
+      "category": "food_packaging",
+      "question": "Food packaging safe aano delivery-inu?",
+      "answer": "Yes, hygienic and sealed packaging use cheythu food deliver cheyyum."
+    },
+    {
+      "category": "delayed_delivery",
+      "question": "Delivery delay aayal entha cheyyam?",
+      "answer": "Customer support contact cheyyuka, order status check cheyyam."
+    },
+    {
+      "category": "cancellation",
+      "question": "Order cancel cheyyan pattumo?",
+      "answer": "Yes, restaurant preparation start aavunnathinu munpu cancel cheyyam."
+    },
+    {
+      "category": "bulk_order",
+      "question": "Bulk orders available aano?",
+      "answer": "Yes, parties and events-inu bulk order service available aanu."
+    },
+    {
+      "category": "delivery_hours",
+      "question": "Delivery timing eppozha available?",
+      "answer": "Restaurant working hours-il delivery service available aayirikkum."
+    },
+    {
+      "category": "support",
+      "question": "Help or support kittumo order-inu?",
+      "answer": "Yes, customer support phone or chat vazhi help provide cheyyum."
+    },
+    {
+      "category": "opening_hours",
+      "question": "Restaurant opening time enthaanu?",
+      "answer": "Most restaurants morning breakfast time allenkil lunch time-il open aavum, usually 7 AM to 11 AM or 12 PM around."
+    },
+    {
+      "category": "closing_hours",
+      "question": "Restaurant closing time enthaanu?",
+      "answer": "Restaurants usually night 9 PM muthal 11 PM vare close aavum, place and business type depend cheyyum."
+    },
+    {
+      "category": "weekend_hours",
+      "question": "Weekend-il timing change aavumo?",
+      "answer": "Yes, weekends-il extended timing undavum and crowd adhikam aayirikkum."
+    },
+    {
+      "category": "lunch_hours",
+      "question": "Lunch time enthaanu?",
+      "answer": "Lunch service usually 12 PM muthal 3 PM vare undavum."
+    },
+    {
+      "category": "dinner_hours",
+      "question": "Dinner time enthaanu?",
+      "answer": "Dinner service usually 6 PM muthal 10 PM vare aavum."
+    },
+    {
+      "category": "late_night",
+      "question": "Late night dining available aano?",
+      "answer": "Some restaurants late night service provide cheyyum, especially city areas-il."
+    },
+    {
+      "category": "24_hours",
+      "question": "24 hours restaurant available aano?",
+      "answer": "Yes, selected restaurants 24/7 open aayirikkum."
+    },
+    {
+      "category": "holiday_hours",
+      "question": "Public holidays-il open aano?",
+      "answer": "Most restaurants holidays-il open aavum, pakshe timing vary cheyyam."
+    },
+    {
+      "category": "festival_hours",
+      "question": "Festival days-il restaurant open aano?",
+      "answer": "Yes, but sometimes special timing or crowd-based delay undavum."
+    },
+    {
+      "category": "kitchen_closing",
+      "question": "Kitchen close aayalum restaurant open aavumo?",
+      "answer": "Some restaurants seating open aayirikkum, but kitchen orders stop aavum."
+    },
+    {
+      "category": "last_order_time",
+      "question": "Last order time enthaanu?",
+      "answer": "Usually closing time-inu 30 minutes munpu last order edukkum."
+    },
+    {
+      "category": "timing_changes",
+      "question": "Restaurant timing change aavumo?",
+      "answer": "Yes, special days, maintenance, or holidays-il timing change aavum."
+    },
+    {
+      "category": "reservation_time",
+      "question": "Reservation timing available aano?",
+      "answer": "Yes, peak hours-il reservation recommend cheyyunnu."
+    },
+    {
+      "category": "rush_hours",
+      "question": "Busy hours eppozha?",
+      "answer": "Lunch 12–2 PM and dinner 7–9 PM usually busy aavum."
+    },
+    {
+      "category": "contact_hours",
+      "question": "Restaurant call cheyyan best time ethanu?",
+      "answer": "Working hours-il call cheyyunnath best aanu, usually morning muthal night vare."
+    }
+  ]
+}

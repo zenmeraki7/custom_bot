@@ -1,0 +1,229 @@
+{
+  "faqs": [
+    {
+      "category": "school_overview",
+      "question": "Schoolil enthokke classes undu?",
+      "answer": "School curriculumum academic structureum anusari different classes available aanu."
+    },
+    {
+      "category": "admission_process",
+      "question": "Admission engane apply cheyyam?",
+      "answer": "Admissions school office, website, allenkil online admission portal vazhi cheyyam."
+    },
+    {
+      "category": "admission_documents",
+      "question": "Admissioninu enthokke documents venam?",
+      "answer": "Usually birth certificate, previous mark list, ID proof, passport size photo, transfer certificate eniva venam."
+    },
+    {
+      "category": "admission_age",
+      "question": "Admissioninu minimum age ethra aanu?",
+      "answer": "Minimum age classum education board guidelinesum anusari ayirikkum."
+    },
+    {
+      "category": "admission_deadline",
+      "question": "Admission eppo start cheyyum?",
+      "answer": "Admission dates academic year anusari school announce cheyyum."
+    },
+    {
+      "category": "entrance_exam",
+      "question": "Admissioninu entrance exam undo?",
+      "answer": "Chila classesinu entrance test allenkil interview undayirikkam."
+    },
+    {
+      "category": "fee_structure",
+      "question": "School fee structure enthaanu?",
+      "answer": "Fees class, facilities, academic program anusari vary cheyyum."
+    },
+    {
+      "category": "fee_payment",
+      "question": "School fees engane pay cheyyam?",
+      "answer": "Fees cash, bank transfer, UPI, card, allenkil online payment vazhi pay cheyyam."
+    },
+    {
+      "category": "late_fee",
+      "question": "Late ayi fees pay cheythal fine undo?",
+      "answer": "School policy anusari late fee charges apply cheyyam."
+    },
+    {
+      "category": "scholarship",
+      "question": "Scholarship undo?",
+      "answer": "Eligible studentsinu scholarships allenkil fee concessions available ayirikkam."
+    },
+    {
+      "category": "school_timings",
+      "question": "School timing enthaanu?",
+      "answer": "School timings grade levelum academic scheduleum anusari vary cheyyum."
+    },
+    {
+      "category": "working_days",
+      "question": "School ethu days open aanu?",
+      "answer": "Usually weekdaysil school open ayirikkum, holidaysum vacationsum ozhike."
+    },
+    {
+      "category": "holiday_schedule",
+      "question": "Holiday calendar provide cheyyumo?",
+      "answer": "Athe, academic year startil holiday calendar provide cheyyum."
+    },
+    {
+      "category": "uniform_details",
+      "question": "School uniform mandatory aano?",
+      "answer": "Athe, prescribed school uniform wear cheyyunnathu mandatory aanu."
+    },
+    {
+      "category": "books_materials",
+      "question": "Booksum study materialsum school provide cheyyumo?",
+      "answer": "Booksum study materialsum schoolil ninnu provide cheyyukayo purchase cheyyan available ayirikkukayo cheyyum."
+    },
+    {
+      "category": "transport_service",
+      "question": "School transportation undo?",
+      "answer": "Athe, selected routesil school transport service available ayirikkum."
+    },
+    {
+      "category": "transport_fee",
+      "question": "Transportinu separate fees undo?",
+      "answer": "Athe, transport charges routeum distanceum anusari ayirikkum."
+    },
+    {
+      "category": "hostel_facility",
+      "question": "Hostel facility undo?",
+      "answer": "Hostel availability school campus facilities anusari ayirikkum."
+    },
+    {
+      "category": "canteen_facility",
+      "question": "Schoolil canteen undo?",
+      "answer": "Athe, studentsinum staffinum canteen facilities available ayirikkum."
+    },
+    {
+      "category": "library_facility",
+      "question": "Library undo?",
+      "answer": "Athe, academic booksum reference materialsum ulla library available aanu."
+    },
+    {
+      "category": "computer_lab",
+      "question": "Computer lab undo?",
+      "answer": "Athe, studentsinu computer lab facilities available aanu."
+    },
+    {
+      "category": "sports_facility",
+      "question": "Sports facilities enthokke undu?",
+      "answer": "School campus infrastructure anusari indoorum outdoorum sports facilities available aanu."
+    },
+    {
+      "category": "extracurricular_activities",
+      "question": "Extracurricular activities undo?",
+      "answer": "Athe, arts, music, dance, sports, clubs pole activitiesil students participate cheyyam."
+    },
+    {
+      "category": "smart_classrooms",
+      "question": "Smart classrooms undo?",
+      "answer": "Athe, digital learning supportode smart classroom facilities available ayirikkam."
+    },
+    {
+      "category": "online_classes",
+      "question": "Online classes provide cheyyumo?",
+      "answer": "Required situationsil online learning support available ayirikkum."
+    },
+    {
+      "category": "attendance_policy",
+      "question": "Attendance policy enthaanu?",
+      "answer": "Students academic regulations anusari minimum attendance maintain cheyyanam."
+    },
+    {
+      "category": "leave_application",
+      "question": "Leave engane apply cheyyam?",
+      "answer": "Leave requests written application, parent communication, allenkil online system vazhi submit cheyyam."
+    },
+    {
+      "category": "exam_schedule",
+      "question": "Exam schedule engane ariyam?",
+      "answer": "Exam schedules notices, school diary, website, allenkil parent communication vazhi share cheyyum."
+    },
+    {
+      "category": "report_cards",
+      "question": "Report card engane kittum?",
+      "answer": "Report cards parent meetingsil allenkil online student portal vazhi provide cheyyum."
+    },
+    {
+      "category": "parent_teacher_meeting",
+      "question": "Parent teacher meeting undo?",
+      "answer": "Athe, student performance discuss cheyyan regular parent-teacher meetings conduct cheyyum."
+    },
+    {
+      "category": "student_safety",
+      "question": "School student safety engane ensure cheyyunnu?",
+      "answer": "School safety protocols, CCTV monitoring, supervision systems ellam follow cheyyunnu."
+    },
+    {
+      "category": "medical_facility",
+      "question": "Medical assistance undo?",
+      "answer": "Basic first aidum medical supportum schoolil available ayirikkum."
+    },
+    {
+      "category": "special_education",
+      "question": "Special learning support undo?",
+      "answer": "School resources anusari special support services available ayirikkam."
+    },
+    {
+      "category": "language_options",
+      "question": "Schoolil ethu languages padippikkunnu?",
+      "answer": "Language options curriculumum school academic policyum anusari ayirikkum."
+    },
+    {
+      "category": "curriculum_board",
+      "question": "Ethu education board aanu follow cheyyunnath?",
+      "answer": "School approved curriculumum education boardum follow cheyyunnu."
+    },
+    {
+      "category": "transfer_certificate",
+      "question": "Transfer certificate engane apply cheyyam?",
+      "answer": "Transfer certificate requests school administration office vazhi submit cheyyam."
+    },
+    {
+      "category": "student_counselling",
+      "question": "Student counselling services undo?",
+      "answer": "Academicum personal supportinum counselling services available ayirikkam."
+    },
+    {
+      "category": "school_events",
+      "question": "Annual eventsum programsum undo?",
+      "answer": "Athe, annual day, competitions, exhibitions, celebrations pole events conduct cheyyum."
+    },
+    {
+      "category": "contact_support",
+      "question": "School officeine engane contact cheyyam?",
+      "answer": "Phone, email, website, allenkil direct office visit vazhi schooline contact cheyyam."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Parking facility undo?",
+      "answer": "Campus infrastructure anusari parking facilities available ayirikkam."
+    },
+    {
+      "category": "wifi_facility",
+      "question": "Schoolil WiFi undo?",
+      "answer": "Academicum administrative purposesinum WiFi facilities available ayirikkam."
+    },
+    {
+      "category": "security_system",
+      "question": "Security systems undo?",
+      "answer": "Athe, CCTV monitoringum campus security systemsum safetyinu use cheyyunnu."
+    },
+    {
+      "category": "school_notifications",
+      "question": "School updates engane kittum?",
+      "answer": "School updates SMS, apps, email, notices, allenkil WhatsApp groups vazhi share cheyyum."
+    },
+    {
+      "category": "admission_status",
+      "question": "Admission status engane check cheyyam?",
+      "answer": "Admission status school office allenkil online admission portal vazhi check cheyyam."
+    },
+    {
+      "category": "vacancy_availability",
+      "question": "Admissioninu seats available aano?",
+      "answer": "Seat availability classum admission capacityum anusari ayirikkum."
+    }
+  ]
+}

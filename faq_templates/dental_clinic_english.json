@@ -1,0 +1,979 @@
+{
+  "faqs": [
+    {
+      "category": "greeting",
+      "question": "Hello, do I need an appointment before visiting the dental clinic?",
+      "answer": "Yes, appointments are recommended to reduce waiting time and ensure the dentist is available for your treatment."
+    },
+    {
+      "category": "general",
+      "question": "What dental services do you provide?",
+      "answer": "We provide general checkups, teeth cleaning, fillings, root canal treatment, braces consultation, tooth extraction, whitening, crowns, and dental implants."
+    },
+    {
+      "category": "appointment",
+      "question": "How can I book a dental appointment?",
+      "answer": "You can book an appointment by phone, website, or visiting the clinic directly."
+    },
+    {
+      "category": "emergency",
+      "question": "Do you accept emergency dental cases?",
+      "answer": "Yes, we handle emergency dental issues such as severe tooth pain, broken teeth, swelling, and bleeding gums."
+    },
+    {
+      "category": "pricing",
+      "question": "How much does a dental checkup cost?",
+      "answer": "The cost depends on the treatment required. Basic consultation and checkup charges are usually affordable, and exact pricing can be shared during booking."
+    },
+    {
+      "category": "insurance",
+      "question": "Do you accept dental insurance?",
+      "answer": "Yes, we accept selected dental insurance plans. Please contact the clinic to confirm your provider."
+    },
+    {
+      "category": "cleaning",
+      "question": "How often should I get my teeth cleaned?",
+      "answer": "Most dentists recommend professional teeth cleaning every 6 months for healthy oral hygiene."
+    },
+    {
+      "category": "tooth_pain",
+      "question": "What should I do if I have severe tooth pain?",
+      "answer": "You should schedule a dental visit as soon as possible. Avoid very hot or cold foods and take prescribed pain relief if necessary."
+    },
+    {
+      "category": "whitening",
+      "question": "Is teeth whitening safe?",
+      "answer": "Yes, professional teeth whitening performed by a dentist is generally safe and effective."
+    },
+    {
+      "category": "braces",
+      "question": "Do you provide braces or aligner treatment?",
+      "answer": "Yes, we offer braces consultations and clear aligner treatment options depending on your dental condition."
+    },
+    {
+      "category": "kids",
+      "question": "Do you treat children at the clinic?",
+      "answer": "Yes, we provide pediatric dental care for children, including routine checkups and cavity treatment."
+    },
+    {
+      "category": "extraction",
+      "question": "Is tooth extraction painful?",
+      "answer": "The procedure is usually done under local anesthesia, so pain is minimal during treatment."
+    },
+    {
+      "category": "root_canal",
+      "question": "How do I know if I need a root canal treatment?",
+      "answer": "Symptoms may include severe tooth pain, sensitivity, swelling, or infection. A dentist examination is required for confirmation."
+    },
+    {
+      "category": "timing",
+      "question": "What are the clinic working hours?",
+      "answer": "Clinic hours may vary by day. Please contact the clinic or check the website for updated timings."
+    },
+    {
+      "category": "follow_up",
+      "question": "Do I need a follow-up visit after treatment?",
+      "answer": "Some treatments may require follow-up appointments to monitor healing and ensure proper recovery."
+    },
+    {
+      "category": "appointment_booking",
+      "question": "How can I book a dental appointment?",
+      "answer": "You can book an appointment by calling the clinic, visiting our website, or walking into the clinic directly."
+    },
+    {
+      "category": "appointment_availability",
+      "question": "Do I need an appointment before visiting the clinic?",
+      "answer": "Yes, appointments are recommended to ensure the dentist is available and to reduce waiting time."
+    },
+    {
+      "category": "same_day_appointment",
+      "question": "Can I get a same-day dental appointment?",
+      "answer": "Same-day appointments may be available depending on the clinic schedule and emergency cases."
+    },
+    {
+      "category": "emergency_appointment",
+      "question": "Do you provide emergency dental appointments?",
+      "answer": "Yes, emergency appointments are available for severe tooth pain, swelling, broken teeth, or dental injuries."
+    },
+    {
+      "category": "appointment_confirmation",
+      "question": "Will I receive confirmation after booking an appointment?",
+      "answer": "Yes, appointment confirmation is usually sent through phone call, SMS, or email."
+    },
+    {
+      "category": "reschedule_appointment",
+      "question": "Can I reschedule my dental appointment?",
+      "answer": "Yes, appointments can be rescheduled by contacting the clinic in advance."
+    },
+    {
+      "category": "cancel_appointment",
+      "question": "How can I cancel my appointment?",
+      "answer": "You can cancel your appointment by phone, email, or through the clinic’s booking system."
+    },
+    {
+      "category": "late_arrival",
+      "question": "What happens if I arrive late for my appointment?",
+      "answer": "Late arrival may shorten your consultation time or require rescheduling depending on the clinic schedule."
+    },
+    {
+      "category": "first_visit",
+      "question": "What should I bring for my first dental appointment?",
+      "answer": "Please bring your identification, insurance details if applicable, and any previous dental records or prescriptions."
+    },
+    {
+      "category": "appointment_duration",
+      "question": "How long does a dental appointment usually take?",
+      "answer": "A routine dental checkup typically takes around 30 to 60 minutes depending on the treatment needed."
+    },
+    {
+      "category": "online_booking",
+      "question": "Can I book my dental appointment online?",
+      "answer": "Yes, online appointment booking is available through the clinic website or mobile application."
+    },
+    {
+      "category": "weekend_appointment",
+      "question": "Are weekend dental appointments available?",
+      "answer": "Weekend appointments may be available depending on clinic operating hours."
+    },
+    {
+      "category": "insurance_appointment",
+      "question": "Do I need to provide insurance details before the appointment?",
+      "answer": "Yes, providing insurance information before your visit helps speed up the registration process."
+    },
+    {
+      "category": "follow_up_appointment",
+      "question": "Will I need a follow-up appointment after treatment?",
+      "answer": "Certain treatments may require follow-up visits to monitor healing and treatment progress."
+    },
+    {
+      "category": "appointment_reminder",
+      "question": "Will the clinic send appointment reminders?",
+      "answer": "Yes, reminder notifications are usually sent before your scheduled appointment date."
+    },
+    {
+      "category": "book_slot",
+      "question": "How can I book a slot for a dental appointment?",
+      "answer": "You can book a slot by calling the clinic, using the website booking form, or visiting the clinic directly."
+    },
+    {
+      "category": "slot_availability",
+      "question": "Are appointment slots available today?",
+      "answer": "Available slots depend on the dentist’s schedule. Please contact the clinic to check current availability."
+    },
+    {
+      "category": "same_day_slot",
+      "question": "Can I book a same-day appointment slot?",
+      "answer": "Yes, same-day slots may be available for regular and emergency dental consultations."
+    },
+    {
+      "category": "preferred_time_slot",
+      "question": "Can I choose my preferred appointment time?",
+      "answer": "Yes, you can request your preferred time slot based on available clinic timings."
+    },
+    {
+      "category": "slot_confirmation",
+      "question": "How will I know if my slot is confirmed?",
+      "answer": "You will receive confirmation through SMS, email, or a phone call after booking."
+    },
+    {
+      "category": "reschedule_slot",
+      "question": "Can I change my booked appointment slot?",
+      "answer": "Yes, appointment slots can be rescheduled depending on availability."
+    },
+    {
+      "category": "cancel_slot",
+      "question": "How can I cancel my booked slot?",
+      "answer": "You can cancel your slot by contacting the clinic or through the online booking system."
+    },
+    {
+      "category": "emergency_slot",
+      "question": "Do you have emergency booking slots available?",
+      "answer": "Yes, emergency slots are reserved for urgent dental issues such as severe pain or dental injuries."
+    },
+    {
+      "category": "weekend_slot",
+      "question": "Can I book a dental slot on weekends?",
+      "answer": "Weekend slots may be available depending on clinic working hours."
+    },
+    {
+      "category": "online_slot_booking",
+      "question": "Can I book a slot online?",
+      "answer": "Yes, online slot booking is available through the clinic website or mobile app."
+    },
+    {
+      "category": "slot_duration",
+      "question": "How long is a dental appointment slot?",
+      "answer": "Most standard appointment slots last between 30 and 60 minutes depending on the treatment."
+    },
+    {
+      "category": "late_for_slot",
+      "question": "What happens if I miss my appointment slot?",
+      "answer": "Missing your slot may require rescheduling based on the next available appointment."
+    },
+    {
+      "category": "multiple_slot_booking",
+      "question": "Can I book slots for multiple family members?",
+      "answer": "Yes, multiple appointment slots can be booked for family members during the same visit."
+    },
+    {
+      "category": "doctor_selection",
+      "question": "Can I choose a specific dentist while booking a slot?",
+      "answer": "Yes, you can request a preferred dentist based on their availability."
+    },
+    {
+      "category": "slot_reminder",
+      "question": "Will I receive a reminder before my appointment slot?",
+      "answer": "Yes, appointment reminders are usually sent before the scheduled visit."
+    },
+    {
+      "category": "schedule_consultation",
+      "question": "How can I schedule a dental consultation?",
+      "answer": "You can schedule a consultation by calling the clinic, booking online, or visiting the clinic directly."
+    },
+    {
+      "category": "consultation_availability",
+      "question": "Are consultation appointments available this week?",
+      "answer": "Availability depends on the dentist’s schedule. Please contact the clinic for the latest appointment slots."
+    },
+    {
+      "category": "online_consultation_booking",
+      "question": "Can I schedule a consultation online?",
+      "answer": "Yes, online consultation scheduling is available through the clinic website or mobile application."
+    },
+    {
+      "category": "same_day_consultation",
+      "question": "Can I get a same-day dental consultation?",
+      "answer": "Same-day consultations may be available depending on appointment availability and emergency cases."
+    },
+    {
+      "category": "consultation_confirmation",
+      "question": "How will I know my consultation is confirmed?",
+      "answer": "You will receive a confirmation message through SMS, email, or phone call after booking."
+    },
+    {
+      "category": "consultation_duration",
+      "question": "How long does a dental consultation usually take?",
+      "answer": "A standard dental consultation usually takes around 30 to 60 minutes depending on your concerns."
+    },
+    {
+      "category": "consultation_fee",
+      "question": "Is there a fee for the dental consultation?",
+      "answer": "Yes, consultation fees may apply depending on the clinic and treatment requirements."
+    },
+    {
+      "category": "reschedule_consultation",
+      "question": "Can I reschedule my consultation appointment?",
+      "answer": "Yes, consultation appointments can be rescheduled based on slot availability."
+    },
+    {
+      "category": "cancel_consultation",
+      "question": "How can I cancel my consultation appointment?",
+      "answer": "You can cancel your consultation by contacting the clinic directly or through the online booking system."
+    },
+    {
+      "category": "emergency_consultation",
+      "question": "Do you provide emergency dental consultations?",
+      "answer": "Yes, emergency consultations are available for urgent dental issues such as severe pain, swelling, or injuries."
+    },
+    {
+      "category": "first_consultation",
+      "question": "What should I bring for my first consultation?",
+      "answer": "Please bring identification, insurance details if applicable, and any previous dental reports or X-rays."
+    },
+    {
+      "category": "weekend_consultation",
+      "question": "Can I schedule a consultation on weekends?",
+      "answer": "Weekend consultations may be available depending on clinic operating hours."
+    },
+    {
+      "category": "specialist_consultation",
+      "question": "Can I schedule a consultation with a specialist dentist?",
+      "answer": "Yes, specialist consultations can be arranged based on the required dental treatment."
+    },
+    {
+      "category": "consultation_reminder",
+      "question": "Will I receive a reminder before my consultation?",
+      "answer": "Yes, reminder notifications are usually sent before your scheduled consultation."
+    },
+    {
+      "category": "family_consultation",
+      "question": "Can I schedule consultations for multiple family members together?",
+      "answer": "Yes, family consultation appointments can be scheduled together based on slot availability."
+    },
+    {
+      "category": "how_to_book_appointment",
+      "question": "How can I book a dental appointment?",
+      "answer": "You can book a dental appointment by calling the clinic, booking online through the website, or visiting the clinic directly."
+    },
+    {
+      "category": "online_booking",
+      "question": "Can I book my dental appointment online?",
+      "answer": "Yes, online appointment booking is available through the clinic website or mobile app."
+    },
+    {
+      "category": "phone_booking",
+      "question": "Can I schedule an appointment by phone?",
+      "answer": "Yes, you can contact the clinic reception to schedule your appointment over the phone."
+    },
+    {
+      "category": "walk_in_booking",
+      "question": "Can I visit the clinic directly to book an appointment?",
+      "answer": "Yes, you can visit the clinic and book an appointment at the reception desk."
+    },
+    {
+      "category": "appointment_steps",
+      "question": "What information is needed to book an appointment?",
+      "answer": "You may need to provide your name, contact number, preferred date and time, and reason for the visit."
+    },
+    {
+      "category": "appointment_confirmation",
+      "question": "How will I know if my appointment is confirmed?",
+      "answer": "You will receive a confirmation through SMS, email, or a phone call once your booking is completed."
+    },
+    {
+      "category": "same_day_booking",
+      "question": "Can I book a same-day dental appointment?",
+      "answer": "Yes, same-day appointments may be available depending on the clinic schedule."
+    },
+    {
+      "category": "emergency_booking",
+      "question": "How do I book an emergency dental appointment?",
+      "answer": "You should call the clinic directly for emergency appointments related to severe pain, swelling, or dental injuries."
+    },
+    {
+      "category": "preferred_dentist",
+      "question": "Can I choose a specific dentist while booking?",
+      "answer": "Yes, you can request a preferred dentist based on their availability."
+    },
+    {
+      "category": "weekend_booking",
+      "question": "Can I book appointments for weekends?",
+      "answer": "Weekend appointments may be available depending on clinic operating hours."
+    },
+    {
+      "category": "reschedule_booking",
+      "question": "Can I change my appointment after booking?",
+      "answer": "Yes, appointments can be rescheduled by contacting the clinic in advance."
+    },
+    {
+      "category": "cancel_booking",
+      "question": "How can I cancel my booked appointment?",
+      "answer": "You can cancel your appointment through phone, email, or the online booking portal."
+    },
+    {
+      "category": "booking_fee",
+      "question": "Is there any fee required while booking an appointment?",
+      "answer": "Some clinics may require an advance booking fee depending on the treatment type."
+    },
+    {
+      "category": "appointment_reminder",
+      "question": "Will I receive a reminder before my appointment?",
+      "answer": "Yes, reminder notifications are usually sent before your scheduled appointment."
+    },
+    {
+      "category": "family_booking",
+      "question": "Can I book appointments for my family members together?",
+      "answer": "Yes, multiple appointments for family members can usually be booked together."
+    },
+    {
+      "category": "root_canal_overview",
+      "question": "What is a root canal procedure?",
+      "answer": "A root canal is a dental treatment used to remove infected or damaged pulp from inside a tooth, clean it, and seal it to save the natural tooth."
+    },
+    {
+      "category": "root_canal_need",
+      "question": "How do I know if I need a root canal?",
+      "answer": "You may need a root canal if you have severe tooth pain, sensitivity to hot or cold, swelling, or infection in the tooth."
+    },
+    {
+      "category": "root_canal_pain",
+      "question": "Is a root canal procedure painful?",
+      "answer": "No, the procedure is usually not painful as it is performed under local anesthesia. Most patients feel relief after treatment."
+    },
+    {
+      "category": "root_canal_duration",
+      "question": "How long does a root canal treatment take?",
+      "answer": "A root canal typically takes one to two appointments, depending on the condition of the tooth."
+    },
+    {
+      "category": "root_canal_steps",
+      "question": "What happens during a root canal procedure?",
+      "answer": "The dentist removes the infected pulp, cleans and shapes the root canals, and then fills and seals the tooth."
+    },
+    {
+      "category": "root_canal_recovery",
+      "question": "What is the recovery time after a root canal?",
+      "answer": "Most patients recover within a few days, although mild discomfort may last temporarily."
+    },
+    {
+      "category": "root_canal_aftercare",
+      "question": "What should I avoid after a root canal?",
+      "answer": "Avoid chewing hard foods on the treated tooth until it is fully restored and follow your dentist’s instructions."
+    },
+    {
+      "category": "root_canal_success",
+      "question": "How successful is a root canal treatment?",
+      "answer": "Root canal treatments are highly successful and can save a tooth for many years with proper care."
+    },
+    {
+      "category": "root_canal_alternative",
+      "question": "What happens if I don’t get a root canal?",
+      "answer": "If untreated, the infection may spread, leading to severe pain, abscess formation, or tooth loss."
+    },
+    {
+      "category": "root_canal_cost",
+      "question": "How much does a root canal procedure cost?",
+      "answer": "The cost varies depending on the tooth and severity of the infection. Your dentist will provide an exact estimate."
+    },
+    {
+      "category": "root_canal_anesthesia",
+      "question": "Will I be awake during the root canal procedure?",
+      "answer": "Yes, you will be awake, but the area will be numbed with local anesthesia so you won’t feel pain."
+    },
+    {
+      "category": "root_canal_crown",
+      "question": "Do I need a crown after a root canal?",
+      "answer": "In most cases, a dental crown is recommended to protect and strengthen the treated tooth."
+    },
+    {
+      "category": "root_canal_infection",
+      "question": "Can infection return after a root canal?",
+      "answer": "It is rare, but possible if the tooth is not properly sealed or cared for. Regular dental checkups help prevent this."
+    },
+    {
+      "category": "root_canal_preparation",
+      "question": "How should I prepare for a root canal treatment?",
+      "answer": "Eat a light meal before the appointment and inform your dentist about any medications or medical conditions."
+    },
+    {
+      "category": "root_canal_followup",
+      "question": "Do I need follow-up visits after a root canal?",
+      "answer": "Yes, follow-up visits may be needed to ensure proper healing and placement of a permanent restoration like a crown."
+    },
+    {
+      "category": "root_canal_cost",
+      "question": "How much does a root canal treatment cost?",
+      "answer": "The cost of a root canal treatment varies depending on the tooth type, complexity, and clinic location. Your dentist will provide an exact estimate after examination."
+    },
+    {
+      "category": "root_canal_price_range",
+      "question": "What is the typical price range for a root canal procedure?",
+      "answer": "On average, root canal treatment can range from basic to complex pricing depending on the tooth and infection severity. A consultation is needed for accurate pricing."
+    },
+    {
+      "category": "root_canal_offer",
+      "question": "Are there any discounts or offers for root canal treatment?",
+      "answer": "Some clinics may offer seasonal discounts, package deals, or promotional pricing on root canal treatments. Please check with the clinic for current offers."
+    },
+    {
+      "category": "root_canal_package",
+      "question": "Do you provide package deals for root canal and crown treatment?",
+      "answer": "Yes, some dental clinics offer combined packages for root canal treatment along with a crown at a discounted rate."
+    },
+    {
+      "category": "root_canal_installment",
+      "question": "Can I pay for root canal treatment in installments?",
+      "answer": "Many clinics offer flexible payment plans or installment options depending on the total treatment cost."
+    },
+    {
+      "category": "root_canal_insurance",
+      "question": "Is root canal treatment covered by insurance?",
+      "answer": "Some dental insurance plans cover root canal treatment partially or fully. It depends on your insurance provider and policy."
+    },
+    {
+      "category": "root_canal_extra_costs",
+      "question": "Are there any additional charges apart from the root canal procedure?",
+      "answer": "Additional costs may include consultation fees, X-rays, crown placement, or follow-up visits depending on your treatment plan."
+    },
+    {
+      "category": "root_canal_affordable_options",
+      "question": "Is affordable root canal treatment available?",
+      "answer": "Yes, many clinics provide affordable treatment options without compromising on quality. It is best to consult for exact pricing."
+    },
+    {
+      "category": "root_canal_free_consultation",
+      "question": "Do you offer free consultation for root canal treatment?",
+      "answer": "Some clinics may offer free or discounted initial consultations. Please check with the clinic for current availability."
+    },
+    {
+      "category": "root_canal_emergency_cost",
+      "question": "Is emergency root canal treatment more expensive?",
+      "answer": "Emergency treatments may have slightly higher charges depending on urgency and after-hours service requirements."
+    },
+    {
+      "category": "root_canal_crown_cost",
+      "question": "Does the root canal cost include a dental crown?",
+      "answer": "In most cases, the crown is charged separately unless it is included in a package deal."
+    },
+    {
+      "category": "root_canal_payment_methods",
+      "question": "What payment methods are accepted for root canal treatment?",
+      "answer": "Most clinics accept cash, credit/debit cards, and digital payment methods. Some also support insurance billing."
+    },
+    {
+      "category": "root_canal_offer_validity",
+      "question": "How long are root canal offers valid?",
+      "answer": "Offer validity depends on clinic promotions and may change seasonally. It is recommended to confirm before booking."
+    },
+    {
+      "category": "root_canal_second_opinion",
+      "question": "Can I get a second opinion before starting treatment?",
+      "answer": "Yes, you are encouraged to get a second opinion before proceeding with root canal treatment."
+    },
+    {
+      "category": "root_canal_cost_transparency",
+      "question": "Will I be informed about the total cost before treatment starts?",
+      "answer": "Yes, clinics typically provide a detailed treatment plan with complete cost breakdown before starting the procedure."
+    },
+    {
+      "category": "root_canal_aftercare_overview",
+      "question": "What is root canal aftercare?",
+      "answer": "Root canal aftercare includes steps and precautions you should follow after treatment to ensure proper healing and long-term success of the treated tooth."
+    },
+    {
+      "category": "pain_management",
+      "question": "Is pain normal after a root canal?",
+      "answer": "Mild pain or sensitivity is normal for a few days after treatment and can usually be managed with prescribed or over-the-counter pain relief."
+    },
+    {
+      "category": "eating_after_root_canal",
+      "question": "When can I eat after a root canal?",
+      "answer": "You can eat once the numbness wears off, but it is best to avoid hard or sticky foods for a few days on the treated side."
+    },
+    {
+      "category": "foods_to_avoid",
+      "question": "What foods should I avoid after a root canal?",
+      "answer": "Avoid very hard, crunchy, or sticky foods as they may damage the treated tooth before it is fully restored."
+    },
+    {
+      "category": "oral_hygiene",
+      "question": "How should I maintain oral hygiene after a root canal?",
+      "answer": "Continue brushing and flossing gently, and maintain good oral hygiene to prevent further infection."
+    },
+    {
+      "category": "swelling_after_root_canal",
+      "question": "Is swelling normal after a root canal?",
+      "answer": "Mild swelling may occur but usually reduces within a few days. If swelling increases, you should contact your dentist."
+    },
+    {
+      "category": "medication_after_root_canal",
+      "question": "Do I need to take medication after a root canal?",
+      "answer": "Your dentist may prescribe painkillers or antibiotics depending on your condition. Always follow the prescribed instructions."
+    },
+    {
+      "category": "temporary_filling",
+      "question": "What should I do if my temporary filling falls out?",
+      "answer": "Contact your dentist immediately so it can be replaced to avoid contamination or damage to the treated tooth."
+    },
+    {
+      "category": "follow_up_visit",
+      "question": "Do I need a follow-up visit after a root canal?",
+      "answer": "Yes, a follow-up visit is important to check healing and place a permanent crown if required."
+    },
+    {
+      "category": "return_to_normal_activity",
+      "question": "When can I return to normal activities after a root canal?",
+      "answer": "Most patients can resume normal activities the same day or the next day, depending on how they feel."
+    },
+    {
+      "category": "tooth_sensitivity",
+      "question": "Why is my tooth still sensitive after the root canal?",
+      "answer": "Some sensitivity is normal as surrounding tissues heal. It should gradually improve within a few days."
+    },
+    {
+      "category": "brushing_after_root_canal",
+      "question": "Can I brush my teeth after a root canal?",
+      "answer": "Yes, you can brush your teeth gently, avoiding excessive pressure on the treated area."
+    },
+    {
+      "category": "warning_signs",
+      "question": "When should I contact the dentist after a root canal?",
+      "answer": "You should contact your dentist if you experience severe pain, swelling, fever, or if the temporary filling comes out."
+    },
+    {
+      "category": "long_term_care",
+      "question": "How can I protect my tooth long-term after a root canal?",
+      "answer": "Maintain good oral hygiene, attend regular checkups, and get a permanent crown if recommended by your dentist."
+    },
+    {
+      "category": "healing_time",
+      "question": "How long does it take to fully heal after a root canal?",
+      "answer": "Most healing occurs within a few days, but full recovery and stabilization of the tooth may take a few weeks."
+    },
+    {
+      "category": "braces_overview",
+      "question": "What are dental braces and why are they used?",
+      "answer": "Dental braces are orthodontic devices used to straighten teeth, correct bite issues, and improve overall dental alignment and appearance."
+    },
+    {
+      "category": "braces_need",
+      "question": "How do I know if I need braces?",
+      "answer": "You may need braces if you have crooked teeth, gaps, overcrowding, or bite problems such as overbite, underbite, or crossbite."
+    },
+    {
+      "category": "treatment_options",
+      "question": "What types of braces are available?",
+      "answer": "Common options include metal braces, ceramic braces, lingual braces, and clear aligners depending on your dental condition and preference."
+    },
+    {
+      "category": "aligners_vs_braces",
+      "question": "What is the difference between braces and clear aligners?",
+      "answer": "Braces are fixed devices attached to teeth, while clear aligners are removable trays that gradually move teeth into alignment."
+    },
+    {
+      "category": "treatment_duration",
+      "question": "How long does orthodontic treatment take?",
+      "answer": "Treatment usually takes between 12 to 24 months depending on the complexity of the alignment issues."
+    },
+    {
+      "category": "pain_discomfort",
+      "question": "Is getting braces painful?",
+      "answer": "You may feel mild discomfort or pressure initially, but it usually subsides after a few days."
+    },
+    {
+      "category": "braces_cost",
+      "question": "How much do braces cost?",
+      "answer": "The cost varies depending on the type of braces and treatment complexity. A consultation is required for an accurate estimate."
+    },
+    {
+      "category": "food_restrictions",
+      "question": "What foods should I avoid with braces?",
+      "answer": "Avoid hard, sticky, and chewy foods such as nuts, chewing gum, and hard candies to prevent damage to braces."
+    },
+    {
+      "category": "oral_hygiene",
+      "question": "How should I maintain oral hygiene with braces?",
+      "answer": "Brush after every meal, floss carefully, and use orthodontic cleaning tools to keep teeth and braces clean."
+    },
+    {
+      "category": "adjustment_visits",
+      "question": "How often do I need to visit the dentist for braces adjustments?",
+      "answer": "You will usually need adjustments every 4 to 6 weeks during treatment."
+    },
+    {
+      "category": "braces_age",
+      "question": "At what age can someone get braces?",
+      "answer": "Braces can be used for both children and adults, depending on dental health and alignment needs."
+    },
+    {
+      "category": "invisible_aligners",
+      "question": "Are clear aligners effective for all cases?",
+      "answer": "Clear aligners are effective for many mild to moderate cases, but severe alignment issues may require traditional braces."
+    },
+    {
+      "category": "braces_duration_variation",
+      "question": "Why does treatment time vary between patients?",
+      "answer": "Treatment time depends on the severity of misalignment, type of braces used, and patient compliance."
+    },
+    {
+      "category": "retainers",
+      "question": "Will I need retainers after braces?",
+      "answer": "Yes, retainers are usually required after braces to maintain teeth in their new position."
+    },
+    {
+      "category": "follow_up",
+      "question": "What happens after braces treatment is completed?",
+      "answer": "After treatment, retainers are provided and follow-up visits ensure your teeth stay properly aligned."
+    },
+    {
+      "category": "insurance_coverage",
+      "question": "Do you accept dental insurance?",
+      "answer": "Yes, we accept selected dental insurance plans. Please check with the clinic to confirm your provider coverage."
+    },
+    {
+      "category": "coverage_details",
+      "question": "What dental treatments are covered by insurance?",
+      "answer": "Coverage depends on your insurance plan, but commonly includes consultation, basic treatments, fillings, and sometimes root canal or extraction."
+    },
+    {
+      "category": "claim_process",
+      "question": "How do I claim dental insurance?",
+      "answer": "You need to provide your insurance details at the clinic, and we will assist you with the claim process based on your policy."
+    },
+    {
+      "category": "pre_approval",
+      "question": "Do I need pre-approval for dental treatment?",
+      "answer": "Some insurance providers require pre-approval for major treatments. It is best to confirm with your insurer before starting treatment."
+    },
+    {
+      "category": "direct_billing",
+      "question": "Do you offer direct billing to insurance companies?",
+      "answer": "Yes, selected insurance providers support direct billing, where the clinic handles payment directly with the insurer."
+    },
+    {
+      "category": "out_of_pocket",
+      "question": "Will I have to pay anything if I use insurance?",
+      "answer": "You may need to pay co-payment, deductibles, or non-covered treatment charges depending on your insurance plan."
+    },
+    {
+      "category": "billing_transparency",
+      "question": "Will I know the cost before treatment?",
+      "answer": "Yes, we provide a clear cost breakdown before starting any treatment so you understand your expenses and insurance coverage."
+    },
+    {
+      "category": "accepted_payment_methods",
+      "question": "What payment methods are accepted at the clinic?",
+      "answer": "We accept cash, credit/debit cards, digital payments, and insurance-based billing where applicable."
+    },
+    {
+      "category": "invoice_request",
+      "question": "Can I get an invoice for my dental treatment?",
+      "answer": "Yes, detailed invoices are provided for all treatments, which can also be used for insurance claims."
+    },
+    {
+      "category": "insurance_rejection",
+      "question": "What happens if my insurance claim is rejected?",
+      "answer": "If a claim is rejected, you will need to cover the cost as per the clinic billing policy. We can help guide you on the reason for rejection."
+    },
+    {
+      "category": "policy_limits",
+      "question": "Are there limits on dental insurance coverage?",
+      "answer": "Yes, most insurance policies have annual limits, waiting periods, and treatment-specific restrictions."
+    },
+    {
+      "category": "emergency_coverage",
+      "question": "Does insurance cover emergency dental treatment?",
+      "answer": "Many insurance plans include emergency dental coverage, but it depends on your specific policy terms."
+    },
+    {
+      "category": "cosmetic_coverage",
+      "question": "Is cosmetic dental treatment covered by insurance?",
+      "answer": "Most insurance plans do not cover cosmetic treatments such as teeth whitening or aesthetic procedures."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Can I get a refund after dental treatment?",
+      "answer": "Refunds are generally not provided after treatment, but billing adjustments may be made in case of insurance processing issues."
+    },
+    {
+      "category": "support",
+      "question": "Can the clinic help me understand my insurance plan?",
+      "answer": "Yes, our staff can assist you in understanding your coverage and guide you through the billing and insurance process."
+    },
+    {
+      "category": "teeth_cleaning_overview",
+      "question": "What is professional teeth cleaning?",
+      "answer": "Professional teeth cleaning is a dental procedure that removes plaque, tartar, and stains from teeth to maintain oral hygiene and prevent gum disease."
+    },
+    {
+      "category": "teeth_cleaning_frequency",
+      "question": "How often should I get my teeth cleaned?",
+      "answer": "It is generally recommended to get professional teeth cleaning every 6 months, depending on your oral health condition."
+    },
+    {
+      "category": "teeth_cleaning_pain",
+      "question": "Is teeth cleaning painful?",
+      "answer": "Teeth cleaning is usually not painful, though you may feel mild discomfort if there is heavy tartar buildup or sensitive gums."
+    },
+    {
+      "category": "teeth_cleaning_benefits",
+      "question": "What are the benefits of teeth cleaning?",
+      "answer": "Teeth cleaning helps prevent cavities, gum disease, bad breath, and keeps your teeth looking clean and healthy."
+    },
+    {
+      "category": "teeth_cleaning_duration",
+      "question": "How long does a teeth cleaning session take?",
+      "answer": "A typical teeth cleaning session takes about 30 to 60 minutes depending on the amount of plaque and tartar buildup."
+    },
+    {
+      "category": "teeth_cleaning_procedure",
+      "question": "What happens during teeth cleaning?",
+      "answer": "The dentist or hygienist removes plaque and tartar, polishes the teeth, and may apply fluoride treatment for added protection."
+    },
+    {
+      "category": "teeth_cleaning_aftercare",
+      "question": "What should I do after teeth cleaning?",
+      "answer": "After cleaning, maintain good oral hygiene by brushing twice daily, flossing, and avoiding staining foods for a few hours."
+    },
+    {
+      "category": "teeth_cleaning_bleeding",
+      "question": "Is bleeding normal after teeth cleaning?",
+      "answer": "Mild gum bleeding can occur if gums are sensitive or inflamed, but it usually stops quickly after the procedure."
+    },
+    {
+      "category": "teeth_cleaning_smoking",
+      "question": "Can I smoke after teeth cleaning?",
+      "answer": "It is recommended to avoid smoking for at least 24 hours after teeth cleaning to allow gums to recover."
+    },
+    {
+      "category": "teeth_cleaning_food",
+      "question": "What should I avoid eating after teeth cleaning?",
+      "answer": "Avoid very hot, cold, or strongly colored foods and drinks for a few hours after cleaning to prevent sensitivity and staining."
+    },
+    {
+      "category": "teeth_cleaning_whitening",
+      "question": "Does teeth cleaning whiten teeth?",
+      "answer": "Teeth cleaning removes surface stains and can make teeth look brighter, but it is not the same as professional teeth whitening."
+    },
+    {
+      "category": "teeth_cleaning_safety",
+      "question": "Is teeth cleaning safe for everyone?",
+      "answer": "Yes, teeth cleaning is generally safe for most people, including children and adults, when done by a dental professional."
+    },
+    {
+      "category": "teeth_cleaning_sensitive_teeth",
+      "question": "Can teeth cleaning cause sensitivity?",
+      "answer": "Some people may experience temporary sensitivity after cleaning, which usually subsides within a few days."
+    },
+    {
+      "category": "teeth_cleaning_gum_health",
+      "question": "Does teeth cleaning help with gum disease?",
+      "answer": "Yes, regular teeth cleaning helps prevent and manage gum disease by removing plaque and bacteria buildup."
+    },
+    {
+      "category": "teeth_cleaning_cost",
+      "question": "How much does teeth cleaning cost?",
+      "answer": "The cost varies depending on the clinic and level of cleaning required. A consultation can provide an exact estimate."
+    },
+    {
+      "category": "cavities_overview",
+      "question": "What are dental cavities?",
+      "answer": "Dental cavities are small holes in teeth caused by tooth decay due to plaque buildup and bacteria damaging the enamel."
+    },
+    {
+      "category": "cavity_causes",
+      "question": "What causes cavities?",
+      "answer": "Cavities are caused by poor oral hygiene, frequent sugar intake, plaque buildup, and lack of regular dental care."
+    },
+    {
+      "category": "cavity_symptoms",
+      "question": "How do I know if I have a cavity?",
+      "answer": "Common signs include tooth pain, sensitivity to hot or cold, visible holes, and discomfort while chewing."
+    },
+    {
+      "category": "filling_overview",
+      "question": "What is a dental filling?",
+      "answer": "A dental filling is a treatment used to restore a tooth damaged by decay by cleaning the cavity and filling it with a suitable material."
+    },
+    {
+      "category": "filling_types",
+      "question": "What types of dental fillings are available?",
+      "answer": "Common types include composite (tooth-colored), amalgam, ceramic, and glass ionomer fillings."
+    },
+    {
+      "category": "filling_pain",
+      "question": "Is getting a dental filling painful?",
+      "answer": "No, fillings are usually done under local anesthesia, so the procedure is generally painless."
+    },
+    {
+      "category": "filling_duration",
+      "question": "How long does a dental filling take?",
+      "answer": "A filling procedure usually takes about 20 to 60 minutes depending on the size of the cavity."
+    },
+    {
+      "category": "filling_life",
+      "question": "How long do dental fillings last?",
+      "answer": "Fillings can last several years depending on the material used and how well you maintain oral hygiene."
+    },
+    {
+      "category": "filling_aftercare",
+      "question": "What should I do after getting a filling?",
+      "answer": "Avoid eating until numbness wears off, and maintain good oral hygiene to protect the filled tooth."
+    },
+    {
+      "category": "filling_sensitivity",
+      "question": "Is sensitivity normal after a filling?",
+      "answer": "Yes, mild sensitivity is common for a few days after a filling and usually improves over time."
+    },
+    {
+      "category": "filling_prevention",
+      "question": "How can I prevent cavities?",
+      "answer": "Brush twice daily, floss regularly, reduce sugar intake, and visit your dentist for routine checkups."
+    },
+    {
+      "category": "filling_replacement",
+      "question": "Can old fillings be replaced?",
+      "answer": "Yes, old or damaged fillings can be removed and replaced with new restorations if needed."
+    },
+    {
+      "category": "filling_cost",
+      "question": "How much does a dental filling cost?",
+      "answer": "The cost depends on the type of filling material and size of the cavity. A dentist can provide an exact estimate after examination."
+    },
+    {
+      "category": "filling_complications",
+      "question": "What happens if a cavity is not treated?",
+      "answer": "If left untreated, cavities can worsen, leading to severe pain, infection, and possible tooth loss."
+    },
+    {
+      "category": "filling_children",
+      "question": "Can children get dental fillings?",
+      "answer": "Yes, children commonly receive fillings to treat cavities and protect their developing teeth."
+    },
+    {
+      "category": "pediatric_overview",
+      "question": "What is pediatric dentistry?",
+      "answer": "Pediatric dentistry focuses on the oral health of infants, children, and teenagers, including preventive care and treatment of dental issues."
+    },
+    {
+      "category": "first_visit",
+      "question": "When should my child first visit a dentist?",
+      "answer": "A child should visit a dentist by their first birthday or within six months after the first tooth appears."
+    },
+    {
+      "category": "kids_checkup",
+      "question": "How often should children visit the dentist?",
+      "answer": "Children should visit the dentist every six months for regular checkups and preventive care."
+    },
+    {
+      "category": "kids_cavities",
+      "question": "Why do children get cavities easily?",
+      "answer": "Children are more prone to cavities due to sugary diets, poor brushing habits, and developing tooth enamel."
+    },
+    {
+      "category": "kids_brushing",
+      "question": "When should children start brushing their teeth?",
+      "answer": "Children should start brushing as soon as the first tooth appears, using a soft toothbrush and a small amount of toothpaste."
+    },
+    {
+      "category": "fluoride_safety",
+      "question": "Is fluoride safe for children?",
+      "answer": "Yes, fluoride is safe and helps strengthen teeth and prevent cavities when used in appropriate amounts."
+    },
+    {
+      "category": "kids_pain",
+      "question": "Is dental treatment painful for children?",
+      "answer": "Most pediatric dental treatments are painless and performed with gentle techniques and local anesthesia if needed."
+    },
+    {
+      "category": "teething",
+      "question": "What should I do if my child is teething?",
+      "answer": "You can soothe teething discomfort with cold teething rings, gentle gum massage, and appropriate pediatric guidance."
+    },
+    {
+      "category": "kids_diet",
+      "question": "How does diet affect children's dental health?",
+      "answer": "Sugary snacks and drinks increase cavity risk, while a balanced diet helps maintain strong and healthy teeth."
+    },
+    {
+      "category": "kids_braces",
+      "question": "Do children need braces?",
+      "answer": "Some children may need braces to correct alignment or bite issues, usually assessed during orthodontic evaluation."
+    },
+    {
+      "category": "thumb_sucking",
+      "question": "Is thumb sucking harmful for teeth?",
+      "answer": "Prolonged thumb sucking can affect tooth alignment and jaw development if it continues beyond early childhood."
+    },
+    {
+      "category": "kids_emergency",
+      "question": "What should I do if my child has a dental injury?",
+      "answer": "Contact a pediatric dentist immediately if your child has a broken tooth, pain, or dental trauma."
+    },
+    {
+      "category": "preventive_care",
+      "question": "How can I prevent dental problems in children?",
+      "answer": "Encourage regular brushing, limit sugary foods, and ensure routine dental checkups."
+    },
+    {
+      "category": "kids_cleaning",
+      "question": "Do children need professional teeth cleaning?",
+      "answer": "Yes, professional cleaning helps remove plaque and prevent cavities, even in children."
+    },
+    {
+      "category": "pediatric_dentist_role",
+      "question": "What does a pediatric dentist do differently?",
+      "answer": "A pediatric dentist is specially trained to handle children's dental needs with gentle techniques and child-friendly care."
+    }
+  ]
+}

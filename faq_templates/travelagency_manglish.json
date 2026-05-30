@@ -1,0 +1,174 @@
+{
+  "faqs": [
+    {
+      "category": "travel_agency_overview",
+      "question": "Ningalude travel agency enthokke services provide cheyyunnu?",
+      "answer": "Tour packages, flight booking, hotel booking, visa assistance, holiday planning, transportation, travel support services ellam provide cheyyunnu."
+    },
+    {
+      "category": "domestic_travel",
+      "question": "Domestic tour packages undo?",
+      "answer": "Athe, vivida destinationsilekku domestic tour packages available aanu."
+    },
+    {
+      "category": "international_travel",
+      "question": "International tour packages undo?",
+      "answer": "Athe, international holidayum tour packagesum available aanu."
+    },
+    {
+      "category": "honeymoon_packages",
+      "question": "Honeymoon packages undo?",
+      "answer": "Athe, multiple destinationsinu customized honeymoon packages available aanu."
+    },
+    {
+      "category": "family_packages",
+      "question": "Family tour packages undo?",
+      "answer": "Athe, family-friendly travel packages available aanu."
+    },
+    {
+      "category": "group_tours",
+      "question": "Group tours arrange cheyyumo?",
+      "answer": "Athe, families, friends, schools, companies enivarkku group tours organize cheyyunnu."
+    },
+    {
+      "category": "corporate_travel",
+      "question": "Corporate travel services undo?",
+      "answer": "Athe, corporate travel planningum booking servicesum provide cheyyunnu."
+    },
+    {
+      "category": "flight_booking",
+      "question": "Flight ticket booking cheyyan sahayikkumo?",
+      "answer": "Athe, domesticum internationalum flight tickets book cheyyam."
+    },
+    {
+      "category": "train_booking",
+      "question": "Train ticket booking undo?",
+      "answer": "Athe, train ticket booking assistance available ayirikkam."
+    },
+    {
+      "category": "bus_booking",
+      "question": "Bus tickets book cheyyan pattumo?",
+      "answer": "Athe, bus ticket booking services available aanu."
+    },
+    {
+      "category": "hotel_booking",
+      "question": "Hotel booking arrange cheyyumo?",
+      "answer": "Athe, budgetum preferencesum anusari hotelum resort bookingum arrange cheyyum."
+    },
+    {
+      "category": "visa_assistance",
+      "question": "Visa assistance undo?",
+      "answer": "Athe, visa applicationum documentation assistanceum available aanu."
+    },
+    {
+      "category": "passport_services",
+      "question": "Passport servicesinu help undo?",
+      "answer": "Athe, passport applicationum renewal guidanceum provide cheyyam."
+    },
+    {
+      "category": "travel_insurance",
+      "question": "Travel insurance undo?",
+      "answer": "Athe, domesticum internationalum tripsinu travel insurance options available aanu."
+    },
+    {
+      "category": "custom_packages",
+      "question": "Travel packages customize cheyyan pattumo?",
+      "answer": "Athe, budgetum travel preferencesum anusari packages customize cheyyam."
+    },
+    {
+      "category": "package_inclusions",
+      "question": "Tour packageil enthokke include cheyyum?",
+      "answer": "Transportation, accommodation, sightseeing, meals, travel assistance enivayellam include cheyyam."
+    },
+    {
+      "category": "package_exclusions",
+      "question": "Tour packageil enthokke include cheyyilla?",
+      "answer": "Personal expenses, extra activities, chila entry tickets eniva include cheyyilla."
+    },
+    {
+      "category": "booking_process",
+      "question": "Travel package engane book cheyyam?",
+      "answer": "Phone, WhatsApp, website, allenkil direct office visit vazhi booking cheyyam."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Bookinginu advance payment venamo?",
+      "answer": "Athe, booking confirm cheyyan advance payment venam ayirikkam."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Ethu payment methods accept cheyyum?",
+      "answer": "Cash, cards, UPI, bank transfer, online payments ellam accept cheyyum."
+    },
+    {
+      "category": "emi_option",
+      "question": "EMI option undo?",
+      "answer": "Selected tour packagesinu EMI options available ayirikkam."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Booking cancel cheyyan pattumo?",
+      "answer": "Athe, cancellation policy anusari bookings cancel cheyyam."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Cancellation kazhinjal refund kittumo?",
+      "answer": "Refund eligibility package termsum cancellation timingum anusari ayirikkum."
+    },
+    {
+      "category": "rescheduling",
+      "question": "Trip reschedule cheyyan pattumo?",
+      "answer": "Athe, availabilityum supplier policiesum anusari rescheduling possible aanu."
+    },
+    {
+      "category": "travel_guides",
+      "question": "Tour guides provide cheyyumo?",
+      "answer": "Athe, selected packagesil guide services include cheyyam."
+    },
+    {
+      "category": "pickup_drop",
+      "question": "Pickup and drop services undo?",
+      "answer": "Athe, pickup and drop services available ayirikkam."
+    },
+    {
+      "category": "vehicle_services",
+      "question": "Sightseeinginu vehicles arrange cheyyumo?",
+      "answer": "Athe, cars, vans, buses eniva travelinum sightseeinginum arrange cheyyum."
+    },
+    {
+      "category": "international_support",
+      "question": "International travel samayath support kittumo?",
+      "answer": "Athe, travel samayath customer support assistance available aanu."
+    },
+    {
+      "category": "student_tours",
+      "question": "Student tours arrange cheyyumo?",
+      "answer": "Athe, educationalum student tour packagesum available aanu."
+    },
+    {
+      "category": "adventure_trips",
+      "question": "Adventure trip packages undo?",
+      "answer": "Athe, trekking, camping, adventure tour packages ellam available aanu."
+    },
+    {
+      "category": "seasonal_offers",
+      "question": "Seasonal offers allenkil discounts undo?",
+      "answer": "Athe, selected seasonsil discounts um special offers um available ayirikkam."
+    },
+    {
+      "category": "best_time_booking",
+      "question": "Trip eppol book cheyyunnathanu nallath?",
+      "answer": "Better pricingum availabilityum vendi nerathe booking cheyyunnathanu recommend cheyyunnath."
+    },
+    {
+      "category": "travel_documents",
+      "question": "Travelinu enthokke documents venam?",
+      "answer": "ID proof, passport, visa, tickets, matte travel documents eniva venam ayirikkam."
+    },
+    {
+      "category": "customer_support",
+      "question": "Travel agencyine engane contact cheyyam?",
+      "answer": "Phone, WhatsApp, email, allenkil office visit vazhi contact cheyyam."
+    }
+  ]
+}

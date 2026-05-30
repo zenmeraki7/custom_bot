@@ -1,0 +1,149 @@
+{
+  "faqs": [
+    {
+      "category": "ca_firm_overview",
+      "question": "What services does your CA firm provide?",
+      "answer": "We provide accounting, auditing, GST filing, income tax filing, company registration, payroll, financial consulting, and other accounting services."
+    },
+    {
+      "category": "appointment_booking",
+      "question": "How can I book an appointment with your CA firm?",
+      "answer": "Appointments can be booked through phone, WhatsApp, email, website, or direct office visit."
+    },
+    {
+      "category": "online_consultation",
+      "question": "Do you provide online consultation services?",
+      "answer": "Yes, online consultation is available through phone calls and video meetings."
+    },
+    {
+      "category": "office_timings",
+      "question": "What are your office timings?",
+      "answer": "Office timings vary depending on working days and service schedules."
+    },
+    {
+      "category": "gst_registration",
+      "question": "Do you help with GST registration?",
+      "answer": "Yes, GST registration and related compliance services are available."
+    },
+    {
+      "category": "gst_filing",
+      "question": "Do you handle GST return filing?",
+      "answer": "Yes, monthly, quarterly, and annual GST return filing services are provided."
+    },
+    {
+      "category": "income_tax_filing",
+      "question": "Do you provide income tax filing services?",
+      "answer": "Yes, income tax return filing services are available for individuals and businesses."
+    },
+    {
+      "category": "tax_consultation",
+      "question": "Can I get tax consultation from your firm?",
+      "answer": "Yes, tax planning and consultation services are available."
+    },
+    {
+      "category": "company_registration",
+      "question": "Do you help with company registration?",
+      "answer": "Yes, company incorporation and registration services are available."
+    },
+    {
+      "category": "startup_services",
+      "question": "Do you provide startup registration services?",
+      "answer": "Yes, startup registration and business setup assistance are available."
+    },
+    {
+      "category": "accounting_services",
+      "question": "Do you provide accounting and bookkeeping services?",
+      "answer": "Yes, accounting, bookkeeping, and financial record maintenance services are available."
+    },
+    {
+      "category": "audit_services",
+      "question": "Do you conduct audits?",
+      "answer": "Yes, internal audits, statutory audits, and financial audits are conducted."
+    },
+    {
+      "category": "payroll_services",
+      "question": "Do you provide payroll management services?",
+      "answer": "Yes, payroll processing and employee salary management services are available."
+    },
+    {
+      "category": "financial_statements",
+      "question": "Can you prepare financial statements?",
+      "answer": "Yes, balance sheets, profit and loss statements, and other financial reports can be prepared."
+    },
+    {
+      "category": "business_consulting",
+      "question": "Do you provide business financial consulting?",
+      "answer": "Yes, business planning and financial consulting services are available."
+    },
+    {
+      "category": "loan_documentation",
+      "question": "Can you assist with loan documentation?",
+      "answer": "Yes, financial documents and reports required for loans can be prepared."
+    },
+    {
+      "category": "digital_signature",
+      "question": "Do you help with digital signature registration?",
+      "answer": "Yes, digital signature certificate registration services are available."
+    },
+    {
+      "category": "pan_tan_services",
+      "question": "Do you assist with PAN and TAN applications?",
+      "answer": "Yes, PAN, TAN, and related registration services are provided."
+    },
+    {
+      "category": "roc_compliance",
+      "question": "Do you handle ROC compliance services?",
+      "answer": "Yes, ROC filing and compliance services are available for companies."
+    },
+    {
+      "category": "msme_registration",
+      "question": "Do you provide MSME registration services?",
+      "answer": "Yes, MSME and Udyam registration services are available."
+    },
+    {
+      "category": "itr_deadline",
+      "question": "Can you remind clients about tax filing deadlines?",
+      "answer": "Yes, clients may receive reminders regarding important filing dates."
+    },
+    {
+      "category": "document_requirements",
+      "question": "What documents are required for tax filing?",
+      "answer": "Required documents depend on the type of filing and financial details."
+    },
+    {
+      "category": "consultation_fee",
+      "question": "Is there a consultation fee?",
+      "answer": "Yes, consultation charges may apply depending on the service."
+    },
+    {
+      "category": "service_charges",
+      "question": "How are service charges calculated?",
+      "answer": "Service charges depend on the type of work, documentation, and complexity involved."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "Cash, bank transfer, UPI, cheque, and online payments are accepted."
+    },
+    {
+      "category": "data_confidentiality",
+      "question": "Will my financial information remain confidential?",
+      "answer": "Yes, all financial and personal information is handled confidentially."
+    },
+    {
+      "category": "business_support",
+      "question": "Do you provide support for small businesses?",
+      "answer": "Yes, accounting and compliance support services are available for small businesses and startups."
+    },
+    {
+      "category": "urgent_services",
+      "question": "Can I get urgent accounting or tax services?",
+      "answer": "Yes, urgent services may be available depending on workload and deadlines."
+    },
+    {
+      "category": "customer_support",
+      "question": "How can I contact your CA firm?",
+      "answer": "You can contact us through phone, WhatsApp, email, or office visit."
+    }
+  ]
+}

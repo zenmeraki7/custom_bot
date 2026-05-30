@@ -1,0 +1,834 @@
+{
+  "faqs": [
+    {
+      "category": "visa_overview",
+      "question": "What is visa eligibility in immigration consultancy?",
+      "answer": "Visa eligibility refers to the requirements you must meet to apply for a specific country's visa successfully."
+    },
+    {
+      "category": "eligibility_check",
+      "question": "How do I know if I am eligible for a visa?",
+      "answer": "Eligibility is checked based on your age, education, work experience, financial status, and travel history."
+    },
+    {
+      "category": "consultation",
+      "question": "Do you provide visa eligibility consultation?",
+      "answer": "Yes, we provide professional consultation to assess your eligibility for different visa categories."
+    },
+    {
+      "category": "document_requirements",
+      "question": "What documents are required for visa eligibility assessment?",
+      "answer": "Common documents include passport, educational certificates, work experience letters, bank statements, and identification proofs."
+    },
+    {
+      "category": "job_offer_requirement",
+      "question": "Is a job offer required for visa eligibility?",
+      "answer": "It depends on the visa type. Some visas require a job offer, while others do not."
+    },
+    {
+      "category": "language_requirement",
+      "question": "Is English language test required for visa eligibility?",
+      "answer": "Yes, many countries require English tests like IELTS or TOEFL depending on the visa category."
+    },
+    {
+      "category": "age_limit",
+      "question": "Is there an age limit for visa eligibility?",
+      "answer": "Some visa categories have age limits, while others are flexible depending on the program."
+    },
+    {
+      "category": "financial_requirement",
+      "question": "Do I need to show financial proof for visa eligibility?",
+      "answer": "Yes, most visa applications require proof of sufficient funds to support your stay."
+    },
+    {
+      "category": "rejection_reasons",
+      "question": "Why do visa applications get rejected?",
+      "answer": "Common reasons include incomplete documents, insufficient funds, incorrect information, or not meeting eligibility criteria."
+    },
+    {
+      "category": "reapplication",
+      "question": "Can I reapply if my visa is rejected?",
+      "answer": "Yes, you can reapply after correcting the issues that caused the rejection."
+    },
+    {
+      "category": "processing_time",
+      "question": "How long does visa eligibility assessment take?",
+      "answer": "Assessment time varies but usually takes a few days depending on case complexity."
+    },
+    {
+      "category": "country_specific",
+      "question": "Does visa eligibility differ by country?",
+      "answer": "Yes, each country has different visa rules and eligibility requirements."
+    },
+    {
+      "category": "permanent_residency",
+      "question": "Can visa eligibility lead to permanent residency?",
+      "answer": "Yes, some visa programs can lead to permanent residency depending on the country and visa type."
+    },
+    {
+      "category": "free_assessment",
+      "question": "Do you provide free visa eligibility checks?",
+      "answer": "Some consultancy services offer free initial eligibility assessments."
+    },
+    {
+      "category": "support",
+      "question": "Will you assist after eligibility approval?",
+      "answer": "Yes, we assist with documentation, application filing, and interview preparation after eligibility confirmation."
+    },
+    {
+      "category": "process_overview",
+      "question": "What services does an immigration consultancy provide?",
+      "answer": "Immigration consultancy services include visa application assistance, document preparation, eligibility assessment, and guidance for study, work, or permanent residency visas."
+    },
+    {
+      "category": "process_start",
+      "question": "How does the immigration process start?",
+      "answer": "The process starts with an initial consultation where eligibility, goals, and destination country requirements are evaluated."
+    },
+    {
+      "category": "eligibility_check",
+      "question": "How do you check if I am eligible for immigration?",
+      "answer": "Eligibility is checked based on age, education, work experience, language proficiency, and country-specific requirements."
+    },
+    {
+      "category": "documentation",
+      "question": "What documents are required for immigration processing?",
+      "answer": "Common documents include passport, educational certificates, work experience proof, language test results, and identity documents."
+    },
+    {
+      "category": "document_verification",
+      "question": "Do you verify my documents before submission?",
+      "answer": "Yes, all documents are carefully verified to ensure accuracy and compliance with immigration requirements."
+    },
+    {
+      "category": "visa_types",
+      "question": "What types of visas can you assist with?",
+      "answer": "We assist with student visas, work visas, tourist visas, skilled migration, and permanent residency applications."
+    },
+    {
+      "category": "processing_time",
+      "question": "How long does the immigration process take?",
+      "answer": "Processing time varies depending on the country, visa type, and application complexity."
+    },
+    {
+      "category": "application_submission",
+      "question": "Who submits the visa application?",
+      "answer": "The consultancy prepares and guides the application, and in most cases, submits it on behalf of the client or assists in submission."
+    },
+    {
+      "category": "interview_preparation",
+      "question": "Do you help with visa interview preparation?",
+      "answer": "Yes, we provide guidance and mock interview training to help clients prepare for visa interviews."
+    },
+    {
+      "category": "rejection_support",
+      "question": "What happens if my visa application is rejected?",
+      "answer": "If a visa is rejected, we analyze the reason and guide you with reapplication or alternative options."
+    },
+    {
+      "category": "consultation_fee",
+      "question": "Is there a consultation fee for immigration services?",
+      "answer": "Yes, consultation fees may apply depending on the service package and case evaluation."
+    },
+    {
+      "category": "country_options",
+      "question": "Which countries do you support for immigration?",
+      "answer": "We support multiple countries depending on visa category, including popular destinations for study and work migration."
+    },
+    {
+      "category": "job_assistance",
+      "question": "Do you help with job placement abroad?",
+      "answer": "Some immigration services include job search guidance, resume preparation, and employer connections."
+    },
+    {
+      "category": "legal_support",
+      "question": "Do you provide legal assistance for immigration cases?",
+      "answer": "We provide guidance aligned with immigration laws and may collaborate with legal experts if required."
+    },
+    {
+      "category": "status_tracking",
+      "question": "Can I track my visa application status?",
+      "answer": "Yes, we help clients track their application status through official immigration portals."
+    },
+    {
+      "category": "services_overview",
+      "question": "What services do you provide for job and study abroad?",
+      "answer": "We provide end-to-end immigration consultancy including study abroad guidance, job placement assistance, visa processing support, documentation help, and career counseling."
+    },
+    {
+      "category": "study_abroad",
+      "question": "Which countries can I apply for study abroad?",
+      "answer": "You can apply for popular study destinations such as Canada, UK, USA, Australia, Germany, and New Zealand depending on eligibility."
+    },
+    {
+      "category": "job_abroad",
+      "question": "Do you help with job opportunities abroad?",
+      "answer": "Yes, we assist with job search guidance, resume preparation, and employer connections based on your skills and eligibility."
+    },
+    {
+      "category": "eligibility_check",
+      "question": "How do I know if I am eligible to study or work abroad?",
+      "answer": "We conduct an eligibility assessment based on your education, work experience, language skills, and visa requirements."
+    },
+    {
+      "category": "visa_process",
+      "question": "Do you help with visa application process?",
+      "answer": "Yes, we provide complete visa assistance including documentation, application filing, and interview preparation."
+    },
+    {
+      "category": "documentation",
+      "question": "What documents are required for study abroad application?",
+      "answer": "Common documents include passport, academic certificates, IELTS/TOEFL scores, financial proof, and recommendation letters."
+    },
+    {
+      "category": "language_requirements",
+      "question": "Is IELTS or other language test required?",
+      "answer": "Yes, most countries require IELTS, TOEFL, or equivalent language proficiency tests depending on the course or job role."
+    },
+    {
+      "category": "consultation",
+      "question": "Do you provide consultation before applying?",
+      "answer": "Yes, we provide one-on-one consultation to guide you on the best country, course, or job opportunity."
+    },
+    {
+      "category": "processing_time",
+      "question": "How long does the visa process take?",
+      "answer": "Processing time varies by country and visa type, usually ranging from a few weeks to several months."
+    },
+    {
+      "category": "fees",
+      "question": "What are the consultancy charges?",
+      "answer": "Fees depend on the service type, destination country, and level of assistance required."
+    },
+    {
+      "category": "scholarships",
+      "question": "Do you help with scholarships for study abroad?",
+      "answer": "Yes, we guide students in finding and applying for eligible scholarships."
+    },
+    {
+      "category": "job_support",
+      "question": "Do you help with resume and interview preparation?",
+      "answer": "Yes, we assist with professional resume building and interview preparation for international job applications."
+    },
+    {
+      "category": "country_selection",
+      "question": "How do I choose the right country for study or work?",
+      "answer": "We help you select the best country based on your career goals, budget, and eligibility."
+    },
+    {
+      "category": "rejection_support",
+      "question": "What if my visa gets rejected?",
+      "answer": "We analyze the rejection reason and guide you for reapplication with improved documentation."
+    },
+    {
+      "category": "support_after_arrival",
+      "question": "Do you provide support after reaching abroad?",
+      "answer": "Yes, we offer post-arrival support such as accommodation guidance and local settlement assistance."
+    },
+    {
+      "category": "overview",
+      "question": "What services do you offer for job and study abroad?",
+      "answer": "We provide study abroad guidance, job placement assistance, visa support, documentation help, and immigration consultancy services."
+    },
+    {
+      "category": "study_abroad",
+      "question": "Which countries can I apply to for study abroad programs?",
+      "answer": "You can apply to countries like Canada, UK, USA, Australia, Germany, and other popular study destinations."
+    },
+    {
+      "category": "eligibility",
+      "question": "What are the eligibility requirements for studying abroad?",
+      "answer": "Eligibility depends on the course and country, but generally includes academic qualifications, English proficiency tests, and financial proof."
+    },
+    {
+      "category": "job_abroad",
+      "question": "Can you help me find jobs abroad?",
+      "answer": "Yes, we assist with overseas job opportunities, resume preparation, and employer connections based on your profile."
+    },
+    {
+      "category": "visa_process",
+      "question": "Do you help with visa application process?",
+      "answer": "Yes, we provide complete visa assistance including documentation, application filing, and interview preparation."
+    },
+    {
+      "category": "documentation",
+      "question": "What documents are required for immigration or study abroad?",
+      "answer": "Common documents include passport, academic certificates, resume, financial proof, and language test results."
+    },
+    {
+      "category": "ielts_requirement",
+      "question": "Is IELTS or other language tests required?",
+      "answer": "Yes, most countries require IELTS, TOEFL, or other English proficiency tests depending on the program."
+    },
+    {
+      "category": "processing_time",
+      "question": "How long does the visa process take?",
+      "answer": "Processing time varies by country and visa type, usually ranging from a few weeks to several months."
+    },
+    {
+      "category": "consultation",
+      "question": "Do you provide consultation before applying?",
+      "answer": "Yes, we provide free or paid consultation to guide you on the best study or job options abroad."
+    },
+    {
+      "category": "success_rate",
+      "question": "What is your success rate for visa approvals?",
+      "answer": "Our success rate depends on applicant eligibility and proper documentation, with strong support throughout the process."
+    },
+    {
+      "category": "fees",
+      "question": "How much do your consultancy services cost?",
+      "answer": "Fees vary depending on the country, service type, and level of assistance required."
+    },
+    {
+      "category": "job_support",
+      "question": "Do you provide resume and interview support?",
+      "answer": "Yes, we offer resume building, interview preparation, and job application support."
+    },
+    {
+      "category": "post_arrival_support",
+      "question": "Do you provide support after reaching abroad?",
+      "answer": "Yes, we assist with post-arrival services like accommodation guidance and settlement support."
+    },
+    {
+      "category": "family_visa",
+      "question": "Can I apply for dependent or family visa?",
+      "answer": "Yes, dependent visa options are available depending on the country and visa category."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Do you provide refunds if visa is rejected?",
+      "answer": "Refund policies depend on the service agreement and case-specific conditions."
+    },
+    {
+      "category": "pr_overview",
+      "question": "What is Permanent Residency (PR) in immigration consultancy?",
+      "answer": "Permanent Residency (PR) allows foreign nationals to live, work, and stay in a country indefinitely with certain benefits similar to citizens."
+    },
+    {
+      "category": "eligibility",
+      "question": "Who is eligible to apply for PR?",
+      "answer": "Eligibility depends on factors like employment status, education, income level, family ties, and length of stay in the country."
+    },
+    {
+      "category": "application_process",
+      "question": "How do I apply for PR?",
+      "answer": "You can apply through official immigration portals or with the help of a licensed immigration consultancy that assists with documentation and submission."
+    },
+    {
+      "category": "documents_required",
+      "question": "What documents are required for PR application?",
+      "answer": "Common documents include passport, employment details, educational certificates, income proof, tax records, and supporting identification documents."
+    },
+    {
+      "category": "processing_time",
+      "question": "How long does PR processing take?",
+      "answer": "Processing time varies by country and application type, typically ranging from a few months to over a year."
+    },
+    {
+      "category": "approval_chances",
+      "question": "Does using a consultancy guarantee PR approval?",
+      "answer": "No consultancy can guarantee approval. Success depends on immigration authority evaluation and eligibility factors."
+    },
+    {
+      "category": "consultancy_services",
+      "question": "What services do immigration consultancies provide?",
+      "answer": "They assist with eligibility assessment, documentation, application submission, follow-ups, and interview preparation if required."
+    },
+    {
+      "category": "fees",
+      "question": "How much does PR application or consultancy cost?",
+      "answer": "Fees vary depending on the country, visa type, and consultancy services provided."
+    },
+    {
+      "category": "rejection",
+      "question": "What happens if my PR application is rejected?",
+      "answer": "You may reapply after a waiting period or improve your profile based on feedback from immigration authorities."
+    },
+    {
+      "category": "appeal",
+      "question": "Can I appeal a PR rejection?",
+      "answer": "In some countries, appeals are allowed, while in others you may need to submit a new application."
+    },
+    {
+      "category": "family_pr",
+      "question": "Can I include my family in my PR application?",
+      "answer": "Yes, many immigration systems allow you to include spouse and dependent children in your PR application."
+    },
+    {
+      "category": "consultancy_benefit",
+      "question": "Why should I use an immigration consultancy for PR?",
+      "answer": "Consultancies help ensure proper documentation, reduce errors, and improve the chances of a well-prepared application."
+    },
+    {
+      "category": "status_check",
+      "question": "How can I check my PR application status?",
+      "answer": "You can check status through official immigration portals or through your consultancy service provider."
+    },
+    {
+      "category": "job_requirement",
+      "question": "Is a job required to apply for PR?",
+      "answer": "In many cases, employment or stable income is an important factor, but requirements vary by country."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get a consultation before applying for PR?",
+      "answer": "Yes, immigration consultancies provide eligibility assessments and guidance before starting the application process."
+    },
+    {
+      "category": "consultation_fees",
+      "question": "How much is the initial consultation fee?",
+      "answer": "The initial consultation fee varies depending on the case type and destination country. Please contact us for exact pricing."
+    },
+    {
+      "category": "service_charges",
+      "question": "What are your immigration consultancy charges?",
+      "answer": "Our charges depend on the visa type, country, and complexity of the application process."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods do you accept?",
+      "answer": "We accept bank transfer, credit/debit cards, UPI, and other online payment methods."
+    },
+    {
+      "category": "installment_option",
+      "question": "Can I pay in installments?",
+      "answer": "Yes, installment payment options may be available depending on the service package."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Is advance payment required?",
+      "answer": "Yes, an advance payment is usually required to start the application process."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Do you offer refunds if my visa is rejected?",
+      "answer": "Refund policies depend on the service agreement and specific case terms. Please check your contract details."
+    },
+    {
+      "category": "hidden_charges",
+      "question": "Are there any hidden charges?",
+      "answer": "No, we maintain transparent pricing with all charges clearly explained before starting the process."
+    },
+    {
+      "category": "document_fees",
+      "question": "Do I need to pay extra for document processing?",
+      "answer": "Some services like documentation, translation, or attestation may have additional charges."
+    },
+    {
+      "category": "visa_fee_included",
+      "question": "Are government visa fees included in your charges?",
+      "answer": "Government visa fees are usually separate and paid directly to the respective embassy or authority."
+    },
+    {
+      "category": "payment_receipt",
+      "question": "Will I receive a payment receipt?",
+      "answer": "Yes, we provide official receipts for all payments made to our consultancy."
+    },
+    {
+      "category": "free_consultation",
+      "question": "Do you offer free consultation?",
+      "answer": "Some basic consultations may be free, but detailed case evaluations may be chargeable."
+    },
+    {
+      "category": "service_packages",
+      "question": "Do you have different service packages?",
+      "answer": "Yes, we offer different packages based on visa type, country, and support level required."
+    },
+    {
+      "category": "payment_security",
+      "question": "Is online payment secure?",
+      "answer": "Yes, all online payments are processed through secure and encrypted payment gateways."
+    },
+    {
+      "category": "cancellation_fee",
+      "question": "Is there a cancellation fee?",
+      "answer": "Cancellation charges may apply depending on the stage of your application process."
+    },
+    {
+      "category": "support_fee",
+      "question": "Do you charge for ongoing support?",
+      "answer": "Ongoing support is usually included in the service package, but premium support may have additional charges."
+    },
+    {
+      "category": "work_visa_overview",
+      "question": "What is a work visa?",
+      "answer": "A work visa is an official authorization that allows you to legally work in a foreign country for a specific employer and period."
+    },
+    {
+      "category": "sponsorship_overview",
+      "question": "What is sponsorship in immigration?",
+      "answer": "Sponsorship means an employer or organization supports your visa application and confirms your job offer or employment."
+    },
+    {
+      "category": "eligibility",
+      "question": "Who is eligible to apply for a work visa?",
+      "answer": "Eligibility depends on your qualifications, work experience, job offer, and the immigration rules of the destination country."
+    },
+    {
+      "category": "job_offer_requirement",
+      "question": "Do I need a job offer for a work visa?",
+      "answer": "In most cases, yes. A valid job offer from a registered employer is required for sponsorship-based work visas."
+    },
+    {
+      "category": "application_process",
+      "question": "What is the process for applying for a work visa?",
+      "answer": "The process usually includes job offer approval, document submission, visa application, biometric verification, and final approval."
+    },
+    {
+      "category": "documents_required",
+      "question": "What documents are required for a work visa?",
+      "answer": "Common documents include passport, educational certificates, work experience letters, job offer letter, and identification documents."
+    },
+    {
+      "category": "processing_time",
+      "question": "How long does a work visa take to process?",
+      "answer": "Processing time varies by country and visa type, usually ranging from a few weeks to several months."
+    },
+    {
+      "category": "visa_fees",
+      "question": "How much does a work visa cost?",
+      "answer": "Visa fees depend on the destination country, visa category, and processing requirements."
+    },
+    {
+      "category": "employer_sponsorship",
+      "question": "What is the role of an employer in sponsorship?",
+      "answer": "The employer provides a job offer, supports your visa application, and may handle part of the immigration process."
+    },
+    {
+      "category": "change_employer",
+      "question": "Can I change my employer on a work visa?",
+      "answer": "It depends on visa conditions. Some visas allow changes, while others require a new application."
+    },
+    {
+      "category": "family_visa",
+      "question": "Can I bring my family on a work visa?",
+      "answer": "Many work visa programs allow dependents such as spouse and children to accompany you."
+    },
+    {
+      "category": "rejection_reasons",
+      "question": "Why might a work visa get rejected?",
+      "answer": "Common reasons include incomplete documents, lack of eligibility, insufficient qualifications, or invalid job offers."
+    },
+    {
+      "category": "consultancy_support",
+      "question": "How can an immigration consultancy help?",
+      "answer": "Consultancies assist with documentation, job matching, visa applications, and guidance throughout the immigration process."
+    },
+    {
+      "category": "country_options",
+      "question": "Which countries offer work visa opportunities?",
+      "answer": "Popular destinations include Canada, UK, Australia, Germany, and several European and Gulf countries."
+    },
+    {
+      "category": "success_rate",
+      "question": "Do consultancies guarantee visa approval?",
+      "answer": "No consultancy can guarantee approval, but they can improve your application quality and chances of success."
+    },
+    {
+      "category": "family_immigration_overview",
+      "question": "What is family immigration consultancy?",
+      "answer": "Family immigration consultancy helps individuals apply for visas, residency, or sponsorship to bring family members to another country legally."
+    },
+    {
+      "category": "eligibility",
+      "question": "Who can apply for family immigration?",
+      "answer": "Eligibility depends on the country's immigration laws, but usually spouses, children, parents, and dependents can be sponsored."
+    },
+    {
+      "category": "visa_types",
+      "question": "What types of family visas are available?",
+      "answer": "Common types include spouse visa, dependent visa, parent visa, child visa, and family reunion visa."
+    },
+    {
+      "category": "sponsorship",
+      "question": "What is sponsorship in family immigration?",
+      "answer": "Sponsorship means a resident or citizen supports a family member's visa application by meeting legal and financial requirements."
+    },
+    {
+      "category": "documentation",
+      "question": "What documents are required for family immigration?",
+      "answer": "Documents may include passports, relationship proof, financial statements, identity documents, and visa application forms."
+    },
+    {
+      "category": "processing_time",
+      "question": "How long does family immigration take?",
+      "answer": "Processing time varies by country and visa type, ranging from a few weeks to several months."
+    },
+    {
+      "category": "financial_requirements",
+      "question": "Do I need to show financial proof for family immigration?",
+      "answer": "Yes, most countries require proof of sufficient income or financial stability to sponsor family members."
+    },
+    {
+      "category": "language_requirements",
+      "question": "Are language tests required for family visas?",
+      "answer": "Some countries may require language proficiency tests depending on the visa category and destination country."
+    },
+    {
+      "category": "application_process",
+      "question": "How do I apply for family immigration?",
+      "answer": "You can apply through official immigration portals or with the help of a licensed immigration consultant."
+    },
+    {
+      "category": "consultancy_support",
+      "question": "How can immigration consultants help?",
+      "answer": "Consultants guide you through documentation, eligibility checks, application submission, and interview preparation."
+    },
+    {
+      "category": "rejection_reasons",
+      "question": "Why do family visa applications get rejected?",
+      "answer": "Common reasons include incomplete documents, insufficient funds, incorrect information, or failure to meet eligibility criteria."
+    },
+    {
+      "category": "appeal_process",
+      "question": "Can I appeal a rejected family visa application?",
+      "answer": "Yes, in many cases you can appeal or reapply depending on the country's immigration rules."
+    },
+    {
+      "category": "dependent_children",
+      "question": "Can I bring my children under family immigration?",
+      "answer": "Yes, dependent children can usually be sponsored under family visa categories."
+    },
+    {
+      "category": "medical_requirements",
+      "question": "Is medical examination required for family immigration?",
+      "answer": "Some countries require medical tests to ensure applicants meet health standards."
+    },
+    {
+      "category": "consultation_fee",
+      "question": "Do immigration consultants charge fees?",
+      "answer": "Yes, consultancy fees vary depending on services, visa type, and complexity of the case."
+    },
+    {
+      "category": "tracking_application",
+      "question": "Can I track my family visa application status?",
+      "answer": "Yes, most immigration authorities provide online tracking systems for application status updates."
+    },
+    {
+      "category": "processing_time_overview",
+      "question": "Immigration consultancy processing time ethra aanu?",
+      "answer": "Processing time case type, country, and visa category depend cheyyum. Usually few weeks muthal several months vare aavum."
+    },
+    {
+      "category": "visa_processing_time",
+      "question": "Visa application processing time ethra neram edukum?",
+      "answer": "Visa type anusarich processing time vary cheyyum. Tourist visa quick aayirikkum, work or PR visas more time edukum."
+    },
+    {
+      "category": "document_verification_time",
+      "question": "Documents verification ethra time edukum?",
+      "answer": "Usually document verification few days muthal 2-3 weeks vare aavum depending on embassy requirements."
+    },
+    {
+      "category": "fast_track_processing",
+      "question": "Fast track processing available aano?",
+      "answer": "Yes, some countries fast track or priority processing option provide cheyyum additional fees with."
+    },
+    {
+      "category": "delays_causes",
+      "question": "Processing delay varan entha reasons?",
+      "answer": "Incomplete documents, background checks, high application volume, or embassy delays kaaranam processing slow aavum."
+    },
+    {
+      "category": "application_stages",
+      "question": "Immigration process-il stages enthellam aanu?",
+      "answer": "Initial assessment, document submission, verification, biometric/medical checks, and final decision enniva main stages aanu."
+    },
+    {
+      "category": "biometrics_time",
+      "question": "Biometrics appointment ethra neram kazhinju varum?",
+      "answer": "Biometrics appointment usually few days muthal 2 weeks ullil schedule cheyyum."
+    },
+    {
+      "category": "medical_processing_time",
+      "question": "Medical test processing ethra neram edukum?",
+      "answer": "Medical reports usually 1 to 7 days ullil submit cheyyum, clinic and country depend cheyyum."
+    },
+    {
+      "category": "pr_processing_time",
+      "question": "PR application processing time ethra aanu?",
+      "answer": "Permanent Residency applications usually several months muthal 1 year vare edukam."
+    },
+    {
+      "category": "work_visa_time",
+      "question": "Work visa processing time ethra aanu?",
+      "answer": "Work visa processing usually few weeks muthal 3 months vare aavum depending on employer and country."
+    },
+    {
+      "category": "status_tracking",
+      "question": "Application status track cheyyan pattumo?",
+      "answer": "Yes, most immigration systems online tracking facility provide cheyyum."
+    },
+    {
+      "category": "expedited_cases",
+      "question": "Emergency cases fast process cheyyumo?",
+      "answer": "Yes, humanitarian or emergency cases priority processing available aavum certain conditions-il."
+    },
+    {
+      "category": "interview_time",
+      "question": "Interview schedule ethra neram kazhinju varum?",
+      "answer": "Interview scheduling usually few weeks ullil arrange cheyyum depending on embassy workload."
+    },
+    {
+      "category": "overall_timeline",
+      "question": "Complete immigration process ethra neram edukum?",
+      "answer": "Overall process 1 month muthal 12 months vare vary cheyyum based on visa category and country."
+    },
+    {
+      "category": "consultant_support",
+      "question": "Consultant help processing time kurakkan pattumo?",
+      "answer": "Yes, proper documentation and guidance provide cheythal delays avoid cheyyan help cheyyum."
+    },
+    {
+      "category": "immigration_overview",
+      "question": "What services do you offer for travel and immigration consultancy?",
+      "answer": "We provide visa assistance, study abroad guidance, work permit support, PR application help, and complete immigration consulting services."
+    },
+    {
+      "category": "visa_services",
+      "question": "Do you help with visa applications?",
+      "answer": "Yes, we assist with tourist visas, student visas, work visas, and dependent visas for multiple countries."
+    },
+    {
+      "category": "study_abroad",
+      "question": "Can you help me study abroad?",
+      "answer": "Yes, we guide students in selecting courses, universities, visa processing, and documentation for studying abroad."
+    },
+    {
+      "category": "work_permit",
+      "question": "Do you assist with work permits?",
+      "answer": "Yes, we provide guidance and documentation support for work permit applications in different countries."
+    },
+    {
+      "category": "pr_application",
+      "question": "Do you help with permanent residency (PR) applications?",
+      "answer": "Yes, we assist with PR eligibility checks, documentation, and application submission process."
+    },
+    {
+      "category": "eligibility_check",
+      "question": "How do I know if I am eligible for immigration?",
+      "answer": "We evaluate your profile based on education, work experience, language skills, and destination country requirements."
+    },
+    {
+      "category": "documentation",
+      "question": "What documents are required for visa processing?",
+      "answer": "Documents vary by country and visa type, but generally include passport, photos, financial proof, and application forms."
+    },
+    {
+      "category": "processing_time",
+      "question": "How long does visa processing take?",
+      "answer": "Processing time depends on visa type and country, ranging from a few weeks to several months."
+    },
+    {
+      "category": "job_assistance",
+      "question": "Do you provide job placement support abroad?",
+      "answer": "Some immigration packages may include job search guidance and employer connection support."
+    },
+    {
+      "category": "language_requirements",
+      "question": "Do I need IELTS or other language tests?",
+      "answer": "Yes, many countries require IELTS, TOEFL, or similar language proficiency tests depending on visa type."
+    },
+    {
+      "category": "rejection_support",
+      "question": "What if my visa gets rejected?",
+      "answer": "We analyze rejection reasons and help you reapply with improved documentation and guidance."
+    },
+    {
+      "category": "country_options",
+      "question": "Which countries can I apply for through your consultancy?",
+      "answer": "We assist with popular destinations like Canada, Australia, UK, Europe, and other countries based on eligibility."
+    },
+    {
+      "category": "consultation_fee",
+      "question": "Is there a consultation fee?",
+      "answer": "Yes, consultation fees may apply depending on the service and immigration package selected."
+    },
+    {
+      "category": "support",
+      "question": "Do you provide end-to-end support?",
+      "answer": "Yes, we provide complete support from consultation to visa approval and settlement guidance."
+    },
+    {
+      "category": "appointment",
+      "question": "How can I book a consultation with your immigration expert?",
+      "answer": "You can book a consultation through phone, WhatsApp, or our online booking system."
+    },
+    {
+      "category": "country_selection_overview",
+      "question": "What is country selection in immigration consultancy?",
+      "answer": "Country selection is the process of choosing the best country for study, work, or migration based on your profile, goals, and eligibility."
+    },
+    {
+      "category": "eligibility_check",
+      "question": "How do you decide which country is suitable for me?",
+      "answer": "We evaluate your education, work experience, language skills, budget, and long-term goals to suggest suitable countries."
+    },
+    {
+      "category": "popular_countries",
+      "question": "Which countries are commonly suggested for immigration?",
+      "answer": "Popular options include Canada, Australia, Germany, UK, New Zealand, and some European countries depending on eligibility."
+    },
+    {
+      "category": "study_vs_work",
+      "question": "Can I choose between study and work immigration options?",
+      "answer": "Yes, we help you compare study visa and work visa pathways based on your profile and future plans."
+    },
+    {
+      "category": "cost_consideration",
+      "question": "Does budget affect country selection?",
+      "answer": "Yes, visa fees, tuition costs, living expenses, and settlement funds are important factors in selecting a country."
+    },
+    {
+      "category": "visa_chances",
+      "question": "Will you suggest countries based on visa success chances?",
+      "answer": "Yes, we recommend countries where your profile has higher approval probability based on current immigration trends."
+    },
+    {
+      "category": "job_opportunities",
+      "question": "Do you consider job opportunities when selecting a country?",
+      "answer": "Yes, we analyze job demand, PR pathways, and work opportunities before suggesting countries."
+    },
+    {
+      "category": "language_requirements",
+      "question": "Do language requirements affect country selection?",
+      "answer": "Yes, English or other language requirements like IELTS, German, or French can influence country choice."
+    },
+    {
+      "category": "family_migration",
+      "question": "Can I choose a country for family migration?",
+      "answer": "Yes, we help select countries that allow family sponsorship and dependent visa options."
+    },
+    {
+      "category": "permanent_residency",
+      "question": "Do you suggest countries with PR options?",
+      "answer": "Yes, we prioritize countries that offer clear pathways to permanent residency."
+    },
+    {
+      "category": "processing_time",
+      "question": "Does processing time vary by country?",
+      "answer": "Yes, visa processing time differs based on country and visa category."
+    },
+    {
+      "category": "documentation_support",
+      "question": "Do you help with documents for country selection?",
+      "answer": "Yes, we guide you in preparing and organizing required documents for the chosen country."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get a consultation before selecting a country?",
+      "answer": "Yes, we provide personalized consultation to help you choose the most suitable country."
+    },
+    {
+      "category": "profile_assessment",
+      "question": "Do you analyze my profile before suggesting countries?",
+      "answer": "Yes, a full profile assessment is done before recommending immigration destinations."
+    },
+    {
+      "category": "future_settlement",
+      "question": "Do you consider long-term settlement options?",
+      "answer": "Yes, we focus on countries that offer better long-term settlement and citizenship opportunities."
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "faqs": [
+    {
+      "category": "product_availability",
+      "question": "Is this electronic product currently available?",
+      "answer": "Product availability depends on current stock status and store inventory."
+    },
+    {
+      "category": "stock_check",
+      "question": "How can I check if a product is in stock?",
+      "answer": "You can check stock availability through the website, mobile app, or by contacting customer support."
+    },
+    {
+      "category": "out_of_stock",
+      "question": "What happens if the product is out of stock?",
+      "answer": "You may choose to wait for restocking, pre-order the product, or select an alternative model."
+    },
+    {
+      "category": "restock_time",
+      "question": "When will the out-of-stock product be available again?",
+      "answer": "Restock timelines depend on supplier availability and product demand."
+    },
+    {
+      "category": "pre_order",
+      "question": "Can I pre-order an electronic product?",
+      "answer": "Yes, selected electronic products may be available for pre-order before official stock arrival."
+    },
+    {
+      "category": "store_availability",
+      "question": "Can I check product availability at a nearby store?",
+      "answer": "Yes, store-specific availability can usually be checked online or through customer support."
+    },
+    {
+      "category": "online_availability",
+      "question": "Is the product available for online purchase?",
+      "answer": "Yes, products marked as available online can be purchased through the website or app."
+    },
+    {
+      "category": "limited_stock",
+      "question": "What does limited stock mean?",
+      "answer": "Limited stock means only a small quantity of the product is currently available."
+    },
+    {
+      "category": "new_arrivals",
+      "question": "How can I know about new electronic product arrivals?",
+      "answer": "You can subscribe to notifications, newsletters, or follow social media updates for new arrivals."
+    },
+    {
+      "category": "color_availability",
+      "question": "Are all product colors and variants available?",
+      "answer": "Availability of colors and variants depends on current stock and supplier inventory."
+    },
+    {
+      "category": "replacement_model",
+      "question": "Can you suggest an alternative if the product is unavailable?",
+      "answer": "Yes, similar models or upgraded alternatives can be recommended based on your requirements."
+    },
+    {
+      "category": "reservation",
+      "question": "Can I reserve a product before visiting the store?",
+      "answer": "Yes, selected products may be reserved for a limited time depending on store policy."
+    },
+    {
+      "category": "availability_notification",
+      "question": "Can I get notified when the product becomes available?",
+      "answer": "Yes, stock alerts and availability notifications may be available through email or SMS."
+    },
+    {
+      "category": "bulk_availability",
+      "question": "Do you have bulk stock available for businesses?",
+      "answer": "Bulk availability depends on inventory levels and supplier stock."
+    },
+    {
+      "category": "support_contact",
+      "question": "Who can I contact for product availability updates?",
+      "answer": "You can contact customer support or the nearest store for the latest stock updates."
+    },
+    {
+      "category": "product_overview",
+      "question": "What are the main specifications of this electronic product?",
+      "answer": "The product specifications include features such as processor, memory, storage, display, battery, connectivity, and supported functions."
+    },
+    {
+      "category": "compatibility",
+      "question": "Is this product compatible with other devices?",
+      "answer": "Yes, compatibility depends on the operating system, connectivity options, and supported device standards."
+    },
+    {
+      "category": "battery_capacity",
+      "question": "What is the battery capacity of the product?",
+      "answer": "Battery capacity varies by model and is usually measured in mAh or battery life hours."
+    },
+    {
+      "category": "charging_support",
+      "question": "Does the product support fast charging?",
+      "answer": "Yes, selected models support fast charging depending on the included adapter and technology."
+    },
+    {
+      "category": "display_size",
+      "question": "What is the display size and resolution?",
+      "answer": "Display size and resolution depend on the product model and specifications."
+    },
+    {
+      "category": "storage_capacity",
+      "question": "How much storage does the device have?",
+      "answer": "Storage capacity varies by model and may include expandable storage support."
+    },
+    {
+      "category": "ram_details",
+      "question": "How much RAM does the product include?",
+      "answer": "RAM size depends on the product variant and affects multitasking performance."
+    },
+    {
+      "category": "processor_information",
+      "question": "Which processor is used in this product?",
+      "answer": "Processor details vary by model and are designed for performance, gaming, or daily usage."
+    },
+    {
+      "category": "wireless_connectivity",
+      "question": "Does the product support Bluetooth and Wi-Fi?",
+      "answer": "Yes, most electronic devices support Bluetooth and Wi-Fi connectivity."
+    },
+    {
+      "category": "operating_system",
+      "question": "Which operating system does the device use?",
+      "answer": "The product may use Android, iOS, Windows, Linux, or other operating systems depending on the device type."
+    },
+    {
+      "category": "warranty",
+      "question": "What warranty is provided with the product?",
+      "answer": "Warranty coverage depends on the manufacturer and product category."
+    },
+    {
+      "category": "water_resistance",
+      "question": "Is the product water resistant?",
+      "answer": "Some models include water or splash resistance features based on certification ratings."
+    },
+    {
+      "category": "ports_and_connectivity",
+      "question": "Which ports are available on the device?",
+      "answer": "Available ports may include USB, Type-C, HDMI, audio jack, memory card slot, and charging ports."
+    },
+    {
+      "category": "included_accessories",
+      "question": "What accessories come with the product?",
+      "answer": "Included accessories may include charger, cable, user manual, adapter, remote, or protective accessories."
+    },
+    {
+      "category": "upgrade_support",
+      "question": "Can the product software be updated?",
+      "answer": "Yes, most electronic devices support software and firmware updates provided by the manufacturer."
+    },
+    {
+      "category": "pricing_overview",
+      "question": "How is the pricing of electronics decided?",
+      "answer": "Electronics pricing depends on brand, specifications, features, warranty, and market demand."
+    },
+    {
+      "category": "price_comparison",
+      "question": "Why do prices vary for the same electronic product?",
+      "answer": "Prices may vary due to different sellers, offers, warranty options, and stock availability."
+    },
+    {
+      "category": "discounts",
+      "question": "Do you offer discounts on electronics?",
+      "answer": "Yes, seasonal discounts, festival offers, and promotional deals are often available on selected electronics."
+    },
+    {
+      "category": "offers_availability",
+      "question": "How can I know about current offers on electronics?",
+      "answer": "You can check our website, app, or contact customer support to get the latest offers and deals."
+    },
+    {
+      "category": "combo_offers",
+      "question": "Are combo offers available for electronics?",
+      "answer": "Yes, combo offers like laptop with accessories or mobile with accessories may be available."
+    },
+    {
+      "category": "bank_offers",
+      "question": "Do you have bank or card offers?",
+      "answer": "Yes, selected bank cards and payment methods may provide additional discounts or cashback offers."
+    },
+    {
+      "category": "seasonal_sales",
+      "question": "When do you have big sales on electronics?",
+      "answer": "Big sales usually happen during festivals, special events, and seasonal promotions."
+    },
+    {
+      "category": "price_drop",
+      "question": "What should I do if the price drops after I purchase an item?",
+      "answer": "Price drop policies depend on the store; some may offer refunds or price protection within a limited time."
+    },
+    {
+      "category": "price_match",
+      "question": "Do you offer price match guarantee?",
+      "answer": "Some sellers may offer price matching if a lower price is found for the same product elsewhere."
+    },
+    {
+      "category": "hidden_charges",
+      "question": "Are there any hidden charges in electronics pricing?",
+      "answer": "No, all applicable charges like taxes and delivery fees are shown clearly before purchase."
+    },
+    {
+      "category": "emi_options",
+      "question": "Is EMI available for electronics purchases?",
+      "answer": "Yes, EMI options are available on selected products with eligible payment methods."
+    },
+    {
+      "category": "warranty_included",
+      "question": "Does the price include warranty?",
+      "answer": "Yes, most electronics come with manufacturer warranty included in the price."
+    },
+    {
+      "category": "refurbished_pricing",
+      "question": "Are refurbished electronics cheaper?",
+      "answer": "Yes, refurbished products are usually priced lower than new products."
+    },
+    {
+      "category": "bulk_purchase",
+      "question": "Do you offer discounts for bulk electronics purchase?",
+      "answer": "Yes, bulk purchase discounts may be available for business or wholesale buyers."
+    },
+    {
+      "category": "offer_validity",
+      "question": "How long do electronics offers last?",
+      "answer": "Offers are usually time-limited and depend on the promotion period or stock availability."
+    },
+    {
+      "category": "warranty_overview",
+      "question": "What is warranty in electronics?",
+      "answer": "Warranty is a manufacturer’s assurance that the electronic product will be repaired or replaced within a specified period if it has defects."
+    },
+    {
+      "category": "warranty_vs_guarantee",
+      "question": "What is the difference between warranty and guarantee?",
+      "answer": "Warranty usually covers repair or replacement under specific conditions, while a guarantee is a promise of product quality and may offer replacement or refund."
+    },
+    {
+      "category": "warranty_duration",
+      "question": "How long is the warranty period for electronics?",
+      "answer": "Warranty periods vary by product and brand, commonly ranging from 6 months to 2 years or more."
+    },
+    {
+      "category": "what_is_covered",
+      "question": "What does electronic warranty cover?",
+      "answer": "Warranty typically covers manufacturing defects and hardware failures under normal usage conditions."
+    },
+    {
+      "category": "what_is_not_covered",
+      "question": "What is not covered under warranty?",
+      "answer": "Warranty usually does not cover physical damage, water damage, unauthorized repairs, or misuse of the product."
+    },
+    {
+      "category": "claim_process",
+      "question": "How can I claim warranty for a product?",
+      "answer": "You can claim warranty by contacting the authorized service center with the purchase invoice and warranty card."
+    },
+    {
+      "category": "warranty_registration",
+      "question": "Do I need to register my product for warranty?",
+      "answer": "Some brands require online warranty registration, while others activate warranty automatically upon purchase."
+    },
+    {
+      "category": "repair_time",
+      "question": "How long does warranty repair take?",
+      "answer": "Repair time depends on the issue and service center, usually ranging from a few days to a couple of weeks."
+    },
+    {
+      "category": "replacement_policy",
+      "question": "When is a product replaced under warranty?",
+      "answer": "A product may be replaced if the issue cannot be repaired or if it has a major manufacturing defect."
+    },
+    {
+      "category": "extended_warranty",
+      "question": "What is extended warranty?",
+      "answer": "Extended warranty is an additional coverage plan that extends protection beyond the standard warranty period."
+    },
+    {
+      "category": "warranty_void",
+      "question": "What can void a warranty?",
+      "answer": "Unauthorized repairs, physical damage, misuse, or tampering with the product can void the warranty."
+    },
+    {
+      "category": "invoice_importance",
+      "question": "Is the purchase invoice required for warranty claims?",
+      "answer": "Yes, the purchase invoice is usually required to validate and process warranty claims."
+    },
+    {
+      "category": "online_purchase_warranty",
+      "question": "Do online purchases have warranty coverage?",
+      "answer": "Yes, products purchased online also come with manufacturer warranty if bought from authorized sellers."
+    },
+    {
+      "category": "service_center",
+      "question": "Where can I get warranty service?",
+      "answer": "Warranty service is available at authorized service centers of the brand."
+    },
+    {
+      "category": "customer_support",
+      "question": "Can I contact support for warranty help?",
+      "answer": "Yes, you can contact customer support or the brand service center for assistance with warranty-related issues."
+    },
+    {
+      "category": "shipping_overview",
+      "question": "What shipping options are available for electronics?",
+      "answer": "We offer standard shipping, express shipping, and same-day or next-day delivery options depending on location."
+    },
+    {
+      "category": "delivery_time",
+      "question": "How long does delivery take for electronics?",
+      "answer": "Delivery usually takes 2 to 7 business days depending on your location and shipping method."
+    },
+    {
+      "category": "order_tracking",
+      "question": "How can I track my electronics order?",
+      "answer": "You can track your order using the tracking link sent via email, SMS, or through your account dashboard."
+    },
+    {
+      "category": "shipping_charges",
+      "question": "Are there any shipping charges?",
+      "answer": "Shipping charges depend on the product, delivery location, and selected shipping method. Some offers may include free shipping."
+    },
+    {
+      "category": "international_shipping",
+      "question": "Do you offer international shipping for electronics?",
+      "answer": "Yes, international shipping is available for selected products and countries."
+    },
+    {
+      "category": "delivery_delay",
+      "question": "What should I do if my electronics order is delayed?",
+      "answer": "If your order is delayed, please contact customer support with your order ID for assistance."
+    },
+    {
+      "category": "damaged_delivery",
+      "question": "What if my electronic item arrives damaged?",
+      "answer": "If your item arrives damaged, report it immediately and request a replacement or refund based on return policy."
+    },
+    {
+      "category": "delivery_address",
+      "question": "Can I change my delivery address after placing an order?",
+      "answer": "Address changes are possible only before the order is shipped. Please contact support quickly."
+    },
+    {
+      "category": "cash_on_delivery",
+      "question": "Do you offer Cash on Delivery (COD)?",
+      "answer": "Yes, COD is available for selected locations and eligible electronic products."
+    },
+    {
+      "category": "shipping_partners",
+      "question": "Which courier services do you use for delivery?",
+      "answer": "We use trusted courier partners to ensure safe and timely delivery of electronic products."
+    },
+    {
+      "category": "installation_support",
+      "question": "Do you provide installation for electronics?",
+      "answer": "Yes, installation support is available for selected electronics like TVs and appliances."
+    },
+    {
+      "category": "order_packaging",
+      "question": "How are electronic products packaged for shipping?",
+      "answer": "All electronics are securely packed with protective materials to prevent damage during transit."
+    },
+    {
+      "category": "partial_delivery",
+      "question": "Will my order be delivered in parts?",
+      "answer": "Yes, if your order contains multiple items, they may be shipped separately."
+    },
+    {
+      "category": "failed_delivery",
+      "question": "What happens if delivery fails?",
+      "answer": "If delivery fails, the courier will attempt re-delivery or return the package to the warehouse."
+    },
+    {
+      "category": "support_contact",
+      "question": "How can I contact support for shipping issues?",
+      "answer": "You can contact our support team via phone, email, or live chat for any shipping-related concerns."
+    },
+    {
+      "category": "service_overview",
+      "question": "What types of electronics repair services do you offer?",
+      "answer": "We offer repair services for mobile phones, laptops, tablets, TVs, home appliances, and other electronic devices."
+    },
+    {
+      "category": "device_issues",
+      "question": "What common electronic issues can you fix?",
+      "answer": "We handle issues like screen damage, battery problems, charging issues, software errors, and hardware failures."
+    },
+    {
+      "category": "diagnosis",
+      "question": "Do you provide device diagnosis before repair?",
+      "answer": "Yes, we perform a full diagnosis to identify the exact issue before starting any repair work."
+    },
+    {
+      "category": "repair_time",
+      "question": "How long does an electronics repair take?",
+      "answer": "Repair time depends on the issue and device type, ranging from a few hours to a few days."
+    },
+    {
+      "category": "cost_estimation",
+      "question": "How is repair cost calculated?",
+      "answer": "Repair cost depends on the device type, damage level, spare parts required, and service complexity."
+    },
+    {
+      "category": "warranty",
+      "question": "Do you provide warranty on repairs?",
+      "answer": "Yes, selected repairs and replaced parts may come with a limited service warranty."
+    },
+    {
+      "category": "original_parts",
+      "question": "Do you use original spare parts?",
+      "answer": "We use original or high-quality compatible spare parts depending on availability and customer preference."
+    },
+    {
+      "category": "data_safety",
+      "question": "Is my data safe during repair?",
+      "answer": "Yes, we take precautions to protect your data, but we recommend backing up important information before repair."
+    },
+    {
+      "category": "pickup_delivery",
+      "question": "Do you offer pickup and delivery for repairs?",
+      "answer": "Yes, pickup and delivery services may be available depending on your location."
+    },
+    {
+      "category": "walk_in_service",
+      "question": "Can I walk in for electronics repair?",
+      "answer": "Yes, walk-in repair services are available depending on technician availability."
+    },
+    {
+      "category": "software_issues",
+      "question": "Do you fix software issues like phone slow performance or crashes?",
+      "answer": "Yes, we handle software troubleshooting, updates, virus removal, and performance optimization."
+    },
+    {
+      "category": "hardware_repair",
+      "question": "Do you repair hardware problems?",
+      "answer": "Yes, we repair hardware issues like motherboard problems, screen replacement, and charging port issues."
+    },
+    {
+      "category": "home_appliances",
+      "question": "Do you repair home appliances?",
+      "answer": "Yes, we provide repair services for appliances like refrigerators, washing machines, and microwaves."
+    },
+    {
+      "category": "emergency_repair",
+      "question": "Do you offer urgent or same-day repair services?",
+      "answer": "Yes, urgent repair services may be available depending on the issue and workload."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get advice before repairing my device?",
+      "answer": "Yes, our technicians can guide you on repair options, cost, and feasibility before proceeding."
+    },
+    {
+      "category": "store_location",
+      "question": "Where is your electronics shop located?",
+      "answer": "Our electronics shop is located in a convenient area and you can find the exact location on Google Maps or by contacting our store."
+    },
+    {
+      "category": "direction_help",
+      "question": "How can I get directions to your electronics store?",
+      "answer": "You can use Google Maps, GPS navigation, or contact our customer support for step-by-step directions."
+    },
+    {
+      "category": "nearest_landmark",
+      "question": "Are there any landmarks near your electronics shop?",
+      "answer": "Yes, our shop is located near popular landmarks for easy identification and access."
+    },
+    {
+      "category": "multiple_branches",
+      "question": "Do you have multiple electronics store locations?",
+      "answer": "Yes, we may have multiple branches in different locations. You can choose the nearest store for convenience."
+    },
+    {
+      "category": "store_hours",
+      "question": "What are your electronics shop opening hours?",
+      "answer": "Our store is usually open from morning to evening, depending on the day and branch location."
+    },
+    {
+      "category": "closing_time",
+      "question": "What time does your electronics shop close?",
+      "answer": "We typically close in the evening, but closing time may vary based on weekdays and weekends."
+    },
+    {
+      "category": "weekend_hours",
+      "question": "Are you open on weekends?",
+      "answer": "Yes, we are open on weekends, but timing may be slightly different compared to weekdays."
+    },
+    {
+      "category": "holiday_hours",
+      "question": "Are you open on public holidays?",
+      "answer": "We may operate with limited hours or remain closed on major public holidays."
+    },
+    {
+      "category": "special_hours",
+      "question": "Do shop timings change during special sales or events?",
+      "answer": "Yes, during sales or promotional events, store hours may be extended."
+    },
+    {
+      "category": "late_opening",
+      "question": "Do you open early in the morning?",
+      "answer": "Opening time may vary, but most branches open in the morning around standard business hours."
+    },
+    {
+      "category": "customer_support",
+      "question": "Can I contact the store for timing confirmation?",
+      "answer": "Yes, you can call or message our support team to confirm store timings and availability."
+    },
+    {
+      "category": "parking_availability",
+      "question": "Is parking available at your electronics shop?",
+      "answer": "Yes, parking facilities are available at most of our store locations."
+    },
+    {
+      "category": "accessibility",
+      "question": "Is your electronics shop easily accessible by public transport?",
+      "answer": "Yes, our store is accessible via bus, metro, and other public transport options."
+    },
+    {
+      "category": "rush_hours",
+      "question": "What is the best time to visit the store?",
+      "answer": "Weekday mornings or non-peak hours are usually the best time to avoid crowd."
+    },
+    {
+      "category": "contact_location_help",
+      "question": "Can I get help finding the store location?",
+      "answer": "Yes, our staff can share live location, map links, and guidance to help you reach the store easily."
+    },
+    {
+      "category": "mobile_overview",
+      "question": "What types of mobile phones do you offer?",
+      "answer": "We offer smartphones ranging from budget to premium models, including Android and iOS devices."
+    },
+    {
+      "category": "accessories_available",
+      "question": "What mobile accessories are available?",
+      "answer": "We provide chargers, earphones, headphones, power banks, phone cases, screen protectors, and Bluetooth devices."
+    },
+    {
+      "category": "warranty",
+      "question": "Do mobile phones come with warranty?",
+      "answer": "Yes, most mobile phones come with manufacturer warranty depending on the brand and model."
+    },
+    {
+      "category": "original_products",
+      "question": "Are your mobile accessories original?",
+      "answer": "Yes, we provide original and high-quality branded mobile accessories."
+    },
+    {
+      "category": "price_range",
+      "question": "What is the price range of mobile phones?",
+      "answer": "Mobile phone prices vary from budget-friendly models to high-end premium smartphones."
+    },
+    {
+      "category": "accessory_compatibility",
+      "question": "Are accessories compatible with all phones?",
+      "answer": "Most accessories are universal, but some are model-specific and should be checked before purchase."
+    },
+    {
+      "category": "repair_services",
+      "question": "Do you provide mobile repair services?",
+      "answer": "Some stores offer basic repair services like screen replacement, battery change, and software issues."
+    },
+    {
+      "category": "screen_protection",
+      "question": "Do you offer screen protectors and tempered glass?",
+      "answer": "Yes, we provide tempered glass and screen protection for most mobile models."
+    },
+    {
+      "category": "return_policy",
+      "question": "Can I return mobile accessories if defective?",
+      "answer": "Yes, returns or replacements are allowed based on the store’s return policy and product condition."
+    },
+    {
+      "category": "offers_discounts",
+      "question": "Do you have offers or discounts on mobiles?",
+      "answer": "Yes, seasonal offers, festival discounts, and promotional deals are available on selected products."
+    },
+    {
+      "category": "online_purchase",
+      "question": "Can I buy mobiles and accessories online?",
+      "answer": "Yes, products can be purchased online through websites or e-commerce platforms."
+    },
+    {
+      "category": "delivery",
+      "question": "Do you provide home delivery?",
+      "answer": "Yes, home delivery is available depending on location and order type."
+    },
+    {
+      "category": "installation_help",
+      "question": "Do you help with mobile setup and installation?",
+      "answer": "Yes, basic setup and installation assistance is provided at the time of purchase."
+    },
+    {
+      "category": "exchange_offers",
+      "question": "Do you offer mobile exchange programs?",
+      "answer": "Yes, exchange offers are available depending on the condition and model of the old device."
+    },
+    {
+      "category": "customer_support",
+      "question": "Is customer support available after purchase?",
+      "answer": "Yes, after-sales support is available for product-related issues and assistance."
+    }
+  ]
+}

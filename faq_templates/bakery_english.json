@@ -1,0 +1,159 @@
+{
+  "faqs": [
+    {
+      "category": "bakery_overview",
+      "question": "What products are available in the bakery?",
+      "answer": "We offer cakes, pastries, breads, cookies, snacks, desserts, beverages, and customized bakery items."
+    },
+    {
+      "category": "store_timings",
+      "question": "What are your bakery opening hours?",
+      "answer": "Bakery timings vary depending on location and business hours."
+    },
+    {
+      "category": "holiday_opening",
+      "question": "Is the bakery open on holidays?",
+      "answer": "Yes, the bakery may remain open on holidays depending on the schedule."
+    },
+    {
+      "category": "cake_orders",
+      "question": "Can I order cakes in advance?",
+      "answer": "Yes, cakes can be pre-ordered through phone, WhatsApp, website, or direct visit."
+    },
+    {
+      "category": "custom_cakes",
+      "question": "Do you make customized cakes?",
+      "answer": "Yes, customized cakes are available for birthdays, weddings, anniversaries, and special occasions."
+    },
+    {
+      "category": "photo_cakes",
+      "question": "Do you provide photo cakes?",
+      "answer": "Yes, photo cakes can be prepared based on customer requirements."
+    },
+    {
+      "category": "theme_cakes",
+      "question": "Can you prepare theme cakes?",
+      "answer": "Yes, theme cakes are available for kids, parties, and special events."
+    },
+    {
+      "category": "eggless_cakes",
+      "question": "Do you have eggless cakes?",
+      "answer": "Yes, eggless cakes and pastries are available."
+    },
+    {
+      "category": "cake_flavours",
+      "question": "What cake flavours are available?",
+      "answer": "Chocolate, vanilla, butterscotch, red velvet, black forest, white forest, fruit, and other flavours are available."
+    },
+    {
+      "category": "cake_size",
+      "question": "What cake sizes are available?",
+      "answer": "Different cake sizes are available depending on serving requirements."
+    },
+    {
+      "category": "same_day_cake",
+      "question": "Can I get same-day cake delivery?",
+      "answer": "Same-day delivery may be available depending on cake type and availability."
+    },
+    {
+      "category": "cake_delivery",
+      "question": "Do you provide cake delivery?",
+      "answer": "Yes, home delivery services are available for cakes and selected products."
+    },
+    {
+      "category": "delivery_area",
+      "question": "Is delivery available in my area?",
+      "answer": "Delivery availability depends on your location and service area."
+    },
+    {
+      "category": "delivery_time",
+      "question": "How long does delivery take?",
+      "answer": "Delivery time depends on order size, traffic, and delivery location."
+    },
+    {
+      "category": "online_orders",
+      "question": "Can I order bakery items online?",
+      "answer": "Yes, orders can be placed through website, app, WhatsApp, or phone."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "We accept cash, cards, UPI, wallets, and online payments."
+    },
+    {
+      "category": "upi_payments",
+      "question": "Do you accept UPI payments?",
+      "answer": "Yes, all major UPI payment apps are accepted."
+    },
+    {
+      "category": "offers_discounts",
+      "question": "Do you provide offers or discounts?",
+      "answer": "Yes, seasonal offers, combo deals, and special discounts may be available."
+    },
+    {
+      "category": "birthday_packages",
+      "question": "Do you provide birthday party packages?",
+      "answer": "Yes, birthday packages with cakes, snacks, and decorations may be available."
+    },
+    {
+      "category": "snacks_availability",
+      "question": "Do you sell snacks and fast food items?",
+      "answer": "Yes, puffs, sandwiches, rolls, burgers, pizza, and other snacks are available."
+    },
+    {
+      "category": "beverages",
+      "question": "Do you provide beverages?",
+      "answer": "Yes, tea, coffee, juices, soft drinks, and other beverages are available."
+    },
+    {
+      "category": "fresh_bread",
+      "question": "Do you sell fresh bread?",
+      "answer": "Yes, fresh bread and buns are prepared daily."
+    },
+    {
+      "category": "cookies_biscuits",
+      "question": "Do you have cookies and biscuits?",
+      "answer": "Yes, a variety of cookies, biscuits, and baked snacks are available."
+    },
+    {
+      "category": "bulk_orders",
+      "question": "Do you accept bulk orders?",
+      "answer": "Yes, bulk orders for events and functions are accepted."
+    },
+    {
+      "category": "event_catering",
+      "question": "Do you provide bakery catering for events?",
+      "answer": "Yes, bakery catering services may be available for parties and events."
+    },
+    {
+      "category": "product_freshness",
+      "question": "Are bakery products freshly prepared?",
+      "answer": "Yes, products are freshly prepared and packed hygienically."
+    },
+    {
+      "category": "return_policy",
+      "question": "Can I return bakery products?",
+      "answer": "Returns or exchanges depend on product condition and bakery policy."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Is parking available at the bakery?",
+      "answer": "Parking availability depends on bakery location."
+    },
+    {
+      "category": "seating_availability",
+      "question": "Do you have seating facilities?",
+      "answer": "Some bakery locations may provide dine-in seating facilities."
+    },
+    {
+      "category": "wifi_facility",
+      "question": "Do you provide WiFi for customers?",
+      "answer": "WiFi availability depends on bakery facilities."
+    },
+    {
+      "category": "customer_support",
+      "question": "How can I contact the bakery?",
+      "answer": "You can contact us through phone, WhatsApp, email, or direct visit."
+    }
+  ]
+}

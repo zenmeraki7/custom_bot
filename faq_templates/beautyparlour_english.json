@@ -1,0 +1,979 @@
+{
+  "faqs": [
+    {
+      "category": "appointment_booking",
+      "question": "How can I book an appointment at the beauty parlour?",
+      "answer": "You can book an appointment by phone call, WhatsApp, online booking, or by visiting the parlour directly."
+    },
+    {
+      "category": "online_booking",
+      "question": "Can I book a beauty service online?",
+      "answer": "Yes, online booking is available through the parlour website or social media platforms."
+    },
+    {
+      "category": "walk_in",
+      "question": "Do you accept walk-in customers?",
+      "answer": "Yes, walk-ins are accepted based on service availability, but advance booking is recommended."
+    },
+    {
+      "category": "same_day_booking",
+      "question": "Can I get a same-day appointment?",
+      "answer": "Same-day appointments may be available depending on the schedule and service availability."
+    },
+    {
+      "category": "appointment_confirmation",
+      "question": "How will I know if my appointment is confirmed?",
+      "answer": "You will receive a confirmation message or call after your appointment is successfully booked."
+    },
+    {
+      "category": "reschedule",
+      "question": "Can I reschedule my appointment?",
+      "answer": "Yes, appointments can be rescheduled by contacting the parlour in advance."
+    },
+    {
+      "category": "cancel_appointment",
+      "question": "How can I cancel my appointment?",
+      "answer": "You can cancel your appointment by calling, messaging, or using the online booking system."
+    },
+    {
+      "category": "late_arrival",
+      "question": "What happens if I arrive late for my appointment?",
+      "answer": "Late arrivals may reduce service time or require rescheduling depending on the schedule."
+    },
+    {
+      "category": "appointment_duration",
+      "question": "How long do beauty appointments usually take?",
+      "answer": "Appointment duration depends on the service selected and can range from 15 minutes to several hours."
+    },
+    {
+      "category": "weekend_booking",
+      "question": "Should I book appointments early for weekends?",
+      "answer": "Yes, weekends are usually busy, so advance booking is recommended."
+    },
+    {
+      "category": "group_booking",
+      "question": "Can I book appointments for multiple people?",
+      "answer": "Yes, group bookings are available for friends, families, and bridal parties."
+    },
+    {
+      "category": "preferred_staff",
+      "question": "Can I request a preferred beautician or stylist?",
+      "answer": "Yes, you can request a specific staff member based on availability."
+    },
+    {
+      "category": "bridal_booking",
+      "question": "How early should I book bridal services?",
+      "answer": "Bridal appointments should ideally be booked several weeks or months in advance."
+    },
+    {
+      "category": "reminder_service",
+      "question": "Will I receive appointment reminders?",
+      "answer": "Yes, reminder messages or calls are usually sent before your scheduled appointment."
+    },
+    {
+      "category": "home_service_booking",
+      "question": "Can I book beauty services for home visits?",
+      "answer": "Yes, selected beauty services may be available for home appointments depending on location."
+    },
+    {
+      "category": "hair_services_overview",
+      "question": "What hair services do you offer?",
+      "answer": "We offer haircuts, hair coloring, hair spa, keratin treatment, smoothening, rebonding, styling, and scalp treatments."
+    },
+    {
+      "category": "haircut_cost",
+      "question": "How much does a haircut cost?",
+      "answer": "Haircut prices vary depending on hair length, style, and stylist experience."
+    },
+    {
+      "category": "hair_coloring",
+      "question": "Do you provide hair coloring services?",
+      "answer": "Yes, we offer global coloring, highlights, balayage, root touch-up, and fashion hair colors."
+    },
+    {
+      "category": "hair_smoothening",
+      "question": "What is hair smoothening treatment?",
+      "answer": "Hair smoothening is a treatment that reduces frizz and makes hair smoother, shinier, and easier to manage."
+    },
+    {
+      "category": "keratin_treatment",
+      "question": "What is keratin treatment for hair?",
+      "answer": "Keratin treatment helps repair damaged hair, reduce frizz, and improve smoothness using protein-based formulas."
+    },
+    {
+      "category": "hair_spa",
+      "question": "What are the benefits of a hair spa?",
+      "answer": "Hair spa treatments help nourish the scalp, reduce dryness, improve hair texture, and promote relaxation."
+    },
+    {
+      "category": "hair_fall_treatment",
+      "question": "Do you provide treatment for hair fall?",
+      "answer": "Yes, we offer scalp analysis and treatments designed to reduce hair fall and strengthen hair."
+    },
+    {
+      "category": "hair_treatment_duration",
+      "question": "How long do hair treatments usually take?",
+      "answer": "Treatment duration depends on the service and may range from 30 minutes to several hours."
+    },
+    {
+      "category": "hair_wash_before_visit",
+      "question": "Should I wash my hair before coming to the salon?",
+      "answer": "It depends on the service, but for most treatments, clean hair is preferred."
+    },
+    {
+      "category": "hair_coloring_safety",
+      "question": "Is hair coloring safe for sensitive scalp?",
+      "answer": "Yes, patch tests and suitable products are used to reduce the risk of irritation."
+    },
+    {
+      "category": "hair_treatment_aftercare",
+      "question": "What aftercare is needed after hair treatment?",
+      "answer": "Use recommended shampoos, avoid excessive heat, and follow stylist instructions for best results."
+    },
+    {
+      "category": "hair_styling",
+      "question": "Do you provide hair styling for events?",
+      "answer": "Yes, we offer party hairstyles, bridal hairstyling, curls, straightening, and special occasion styling."
+    },
+    {
+      "category": "hair_extensions",
+      "question": "Do you provide hair extensions?",
+      "answer": "Yes, hair extensions are available in different styles and lengths based on customer preference."
+    },
+    {
+      "category": "hair_service_pricing",
+      "question": "How are hair service charges calculated?",
+      "answer": "Pricing depends on hair length, thickness, products used, and the type of service selected."
+    },
+    {
+      "category": "hair_consultation",
+      "question": "Can I get a consultation before choosing a hair treatment?",
+      "answer": "Yes, professional consultation is available to recommend the most suitable hair service."
+    },
+    {
+      "category": "facial_overview",
+      "question": "What facial services do you offer?",
+      "answer": "We offer basic facials, hydrating facials, anti-aging facials, acne treatments, brightening facials, and premium skin care therapies."
+    },
+    {
+      "category": "best_facial",
+      "question": "Which facial is best for glowing skin?",
+      "answer": "The best facial depends on your skin type and concerns, but hydrating and brightening facials are popular for healthy glowing skin."
+    },
+    {
+      "category": "sensitive_skin",
+      "question": "Are facials safe for sensitive skin?",
+      "answer": "Yes, suitable products and gentle techniques are used for sensitive skin types."
+    },
+    {
+      "category": "facial_duration",
+      "question": "How long does a facial session take?",
+      "answer": "Most facial sessions take between 45 minutes to 90 minutes depending on the treatment."
+    },
+    {
+      "category": "facial_frequency",
+      "question": "How often should I get a facial?",
+      "answer": "It is generally recommended to get a facial once every 4 to 6 weeks."
+    },
+    {
+      "category": "acne_treatment",
+      "question": "Do you offer acne treatment services?",
+      "answer": "Yes, we provide acne-control facials and skin care treatments designed to reduce breakouts and improve skin health."
+    },
+    {
+      "category": "pigmentation_treatment",
+      "question": "Can facials help with pigmentation and dark spots?",
+      "answer": "Yes, specialized treatments may help reduce pigmentation, uneven skin tone, and dark spots over time."
+    },
+    {
+      "category": "facial_side_effects",
+      "question": "Are there any side effects after a facial?",
+      "answer": "Mild redness or sensitivity may occur temporarily, but it usually settles within a few hours."
+    },
+    {
+      "category": "aftercare",
+      "question": "What should I do after a facial treatment?",
+      "answer": "Avoid heavy makeup, excessive sun exposure, and harsh skin products for at least 24 hours."
+    },
+    {
+      "category": "makeup_after_facial",
+      "question": "Can I apply makeup after a facial?",
+      "answer": "It is best to avoid makeup for a few hours after a facial to allow the skin to breathe."
+    },
+    {
+      "category": "skin_analysis",
+      "question": "Do you provide skin analysis before treatment?",
+      "answer": "Yes, skin analysis helps determine the most suitable facial and skin care treatment."
+    },
+    {
+      "category": "organic_products",
+      "question": "Do you use herbal or organic skin care products?",
+      "answer": "Yes, herbal and organic product options may be available depending on the treatment."
+    },
+    {
+      "category": "anti_aging",
+      "question": "Do you offer anti-aging skin treatments?",
+      "answer": "Yes, we provide treatments targeting fine lines, wrinkles, and skin rejuvenation."
+    },
+    {
+      "category": "facial_cost",
+      "question": "How much does a facial treatment cost?",
+      "answer": "Facial pricing depends on the type of treatment, products used, and session duration."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get a consultation before choosing a facial?",
+      "answer": "Yes, professional consultation is available to recommend the best treatment for your skin type."
+    },
+    {
+      "category": "bridal_makeup_overview",
+      "question": "Do you provide bridal makeup services?",
+      "answer": "Yes, we offer complete bridal makeup services for weddings, receptions, engagements, and related events."
+    },
+    {
+      "category": "bridal_package_details",
+      "question": "What is included in a bridal makeup package?",
+      "answer": "Bridal packages may include makeup, hairstyling, saree draping, skin preparation, nail services, and touch-up support."
+    },
+    {
+      "category": "bridal_trial",
+      "question": "Do you offer bridal makeup trials?",
+      "answer": "Yes, trial sessions are available to help brides choose their preferred makeup look before the wedding day."
+    },
+    {
+      "category": "booking_advance",
+      "question": "How early should I book bridal makeup services?",
+      "answer": "It is recommended to book bridal services several weeks or months in advance to secure your preferred date."
+    },
+    {
+      "category": "home_service",
+      "question": "Do you provide bridal makeup at home or venue?",
+      "answer": "Yes, bridal makeup home and venue services are available depending on location and package selection."
+    },
+    {
+      "category": "makeup_products",
+      "question": "Which makeup brands do you use for bridal makeup?",
+      "answer": "Professional and premium makeup brands are used based on skin type and customer preference."
+    },
+    {
+      "category": "waterproof_makeup",
+      "question": "Do you provide waterproof bridal makeup?",
+      "answer": "Yes, waterproof and long-lasting makeup options are available for bridal events."
+    },
+    {
+      "category": "bridal_hairstyling",
+      "question": "Is hairstyling included in bridal packages?",
+      "answer": "Yes, bridal hairstyling is commonly included in most bridal packages."
+    },
+    {
+      "category": "bridal_family_services",
+      "question": "Can bridal packages include makeup for family members?",
+      "answer": "Yes, customized packages for bridesmaids and family members are available."
+    },
+    {
+      "category": "bridal_skin_preparation",
+      "question": "Do you provide pre-bridal skin care treatments?",
+      "answer": "Yes, pre-bridal facials, skin care, hair care, and grooming services are available."
+    },
+    {
+      "category": "bridal_duration",
+      "question": "How long does bridal makeup usually take?",
+      "answer": "Bridal makeup and hairstyling usually take between 2 to 4 hours depending on the look."
+    },
+    {
+      "category": "bridal_customization",
+      "question": "Can bridal makeup looks be customized?",
+      "answer": "Yes, bridal looks can be customized according to outfit, skin tone, and personal preference."
+    },
+    {
+      "category": "bridal_pricing",
+      "question": "How much does a bridal makeup package cost?",
+      "answer": "Pricing depends on the package type, makeup style, products used, and additional services selected."
+    },
+    {
+      "category": "bridal_touchup",
+      "question": "Do you provide bridal makeup touch-up services?",
+      "answer": "Yes, touch-up services may be included or added based on the package."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get a consultation before booking a bridal package?",
+      "answer": "Yes, consultations are available to discuss bridal styles, packages, and service requirements."
+    },
+    {
+      "category": "makeup_services_overview",
+      "question": "What makeup services do you offer?",
+      "answer": "We offer bridal makeup, party makeup, engagement makeup, HD makeup, airbrush makeup, and special occasion makeup services."
+    },
+    {
+      "category": "party_makeup",
+      "question": "Do you provide party makeup services?",
+      "answer": "Yes, party makeup services are available for birthdays, receptions, corporate events, and celebrations."
+    },
+    {
+      "category": "hd_makeup",
+      "question": "What is HD makeup?",
+      "answer": "HD makeup is a professional makeup technique designed to give a flawless finish, especially for photography and video."
+    },
+    {
+      "category": "airbrush_makeup",
+      "question": "What is airbrush makeup?",
+      "answer": "Airbrush makeup uses a spray technique to create lightweight, smooth, and long-lasting makeup coverage."
+    },
+    {
+      "category": "waterproof_makeup",
+      "question": "Do you provide waterproof makeup?",
+      "answer": "Yes, waterproof makeup options are available for long events and outdoor occasions."
+    },
+    {
+      "category": "makeup_duration",
+      "question": "How long does makeup usually take?",
+      "answer": "Makeup sessions generally take between 45 minutes to 2 hours depending on the style and service."
+    },
+    {
+      "category": "makeup_products",
+      "question": "Which makeup brands do you use?",
+      "answer": "We use professional makeup brands selected based on skin type, event requirements, and customer preferences."
+    },
+    {
+      "category": "sensitive_skin",
+      "question": "Is makeup safe for sensitive skin?",
+      "answer": "Yes, suitable skin-friendly products are used for sensitive skin types."
+    },
+    {
+      "category": "makeup_trial",
+      "question": "Do you offer makeup trial sessions?",
+      "answer": "Yes, trial makeup sessions are available before major events or bridal bookings."
+    },
+    {
+      "category": "hairstyling_included",
+      "question": "Is hairstyling included with makeup services?",
+      "answer": "Hairstyling may be included or added separately depending on the selected package."
+    },
+    {
+      "category": "false_eyelashes",
+      "question": "Do you provide false eyelashes with makeup?",
+      "answer": "Yes, false eyelashes can be included based on the makeup style requested."
+    },
+    {
+      "category": "home_service",
+      "question": "Do you provide makeup services at home or event venues?",
+      "answer": "Yes, home and venue makeup services are available depending on location and booking."
+    },
+    {
+      "category": "makeup_aftercare",
+      "question": "How can I maintain makeup for a longer time?",
+      "answer": "Avoid touching the face frequently and use recommended setting sprays or touch-up products."
+    },
+    {
+      "category": "makeup_pricing",
+      "question": "How much do makeup services cost?",
+      "answer": "Pricing depends on the makeup style, products used, duration, and event type."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get a consultation before booking makeup services?",
+      "answer": "Yes, consultations are available to discuss makeup styles, skin type, and event requirements."
+    },
+    {
+      "category": "waxing_services_overview",
+      "question": "What waxing and hair removal services do you offer?",
+      "answer": "We offer full body waxing, facial waxing, bikini waxing, arm waxing, leg waxing, and other hair removal services."
+    },
+    {
+      "category": "waxing_types",
+      "question": "What types of waxing are available?",
+      "answer": "We provide regular wax, chocolate wax, Rica wax, fruit wax, and sensitive skin waxing options."
+    },
+    {
+      "category": "waxing_pain",
+      "question": "Is waxing painful?",
+      "answer": "Some mild discomfort may occur during waxing, but it is usually quick and manageable."
+    },
+    {
+      "category": "hair_length",
+      "question": "How long should hair be before waxing?",
+      "answer": "Hair should ideally be at least a quarter-inch long for effective waxing results."
+    },
+    {
+      "category": "waxing_duration",
+      "question": "How long does a waxing session take?",
+      "answer": "The duration depends on the area being treated and can range from 15 minutes to over an hour."
+    },
+    {
+      "category": "sensitive_skin",
+      "question": "Is waxing safe for sensitive skin?",
+      "answer": "Yes, gentle waxing products and techniques are used for sensitive skin."
+    },
+    {
+      "category": "aftercare",
+      "question": "What care should I take after waxing?",
+      "answer": "Avoid hot showers, direct sunlight, heavy workouts, and harsh skin products for at least 24 hours."
+    },
+    {
+      "category": "waxing_frequency",
+      "question": "How often should I get waxing done?",
+      "answer": "Most people schedule waxing every 3 to 6 weeks depending on hair growth."
+    },
+    {
+      "category": "ingrown_hair",
+      "question": "Can waxing cause ingrown hair?",
+      "answer": "Ingrown hair can occur occasionally, but exfoliating regularly may help reduce the risk."
+    },
+    {
+      "category": "waxing_vs_shaving",
+      "question": "Is waxing better than shaving?",
+      "answer": "Waxing removes hair from the root, providing smoother skin and longer-lasting results compared to shaving."
+    },
+    {
+      "category": "facial_hair_removal",
+      "question": "Do you provide facial hair removal services?",
+      "answer": "Yes, facial waxing and threading services are available for areas like eyebrows, upper lip, and chin."
+    },
+    {
+      "category": "full_body_waxing",
+      "question": "Do you offer full body waxing packages?",
+      "answer": "Yes, full body waxing packages are available with customized service options."
+    },
+    {
+      "category": "hygiene",
+      "question": "Are waxing tools and materials hygienic?",
+      "answer": "Yes, hygienic practices and sanitized tools are used for every customer."
+    },
+    {
+      "category": "waxing_pricing",
+      "question": "How much do waxing services cost?",
+      "answer": "Pricing depends on the body area, waxing type, and package selected."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get a consultation before choosing a hair removal service?",
+      "answer": "Yes, consultations are available to recommend the best waxing or hair removal option for your skin type."
+    },
+    {
+      "category": "threading_overview",
+      "question": "What threading services do you offer?",
+      "answer": "We offer eyebrow threading, upper lip threading, forehead threading, chin threading, and full face threading services."
+    },
+    {
+      "category": "eyebrow_threading",
+      "question": "Do you provide eyebrow shaping and threading?",
+      "answer": "Yes, professional eyebrow shaping and threading services are available based on your face shape and preference."
+    },
+    {
+      "category": "threading_pain",
+      "question": "Is threading painful?",
+      "answer": "Threading may cause slight discomfort, but the process is quick and generally well tolerated."
+    },
+    {
+      "category": "threading_duration",
+      "question": "How long does eyebrow threading take?",
+      "answer": "Eyebrow threading usually takes around 10 to 20 minutes."
+    },
+    {
+      "category": "custom_shape",
+      "question": "Can I choose my eyebrow shape?",
+      "answer": "Yes, eyebrow shapes can be customized according to your preference and facial features."
+    },
+    {
+      "category": "sensitive_skin",
+      "question": "Is threading safe for sensitive skin?",
+      "answer": "Yes, threading is generally suitable for sensitive skin because it does not involve chemicals."
+    },
+    {
+      "category": "threading_frequency",
+      "question": "How often should I get eyebrow threading done?",
+      "answer": "Most people schedule eyebrow threading every 2 to 4 weeks depending on hair growth."
+    },
+    {
+      "category": "aftercare",
+      "question": "What should I do after threading?",
+      "answer": "Avoid touching the area frequently and avoid makeup, excessive heat, or harsh products for a few hours."
+    },
+    {
+      "category": "redness_after_threading",
+      "question": "Is redness normal after threading?",
+      "answer": "Yes, mild redness is common after threading and usually disappears within a short time."
+    },
+    {
+      "category": "threading_vs_waxing",
+      "question": "Is threading better than waxing for eyebrows?",
+      "answer": "Threading offers more precise eyebrow shaping and is often preferred for sensitive facial areas."
+    },
+    {
+      "category": "full_face_threading",
+      "question": "Do you offer full face threading?",
+      "answer": "Yes, full face threading services are available for smooth facial hair removal."
+    },
+    {
+      "category": "hygiene",
+      "question": "Are threading tools hygienic?",
+      "answer": "Yes, clean and hygienic threading practices are followed for every customer."
+    },
+    {
+      "category": "threading_pricing",
+      "question": "How much does eyebrow threading cost?",
+      "answer": "Pricing depends on the threading service selected and parlour pricing policies."
+    },
+    {
+      "category": "walk_in",
+      "question": "Can I walk in for eyebrow threading without an appointment?",
+      "answer": "Yes, walk-ins are usually accepted for threading services depending on availability."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get advice on the best eyebrow shape for my face?",
+      "answer": "Yes, beauticians can recommend eyebrow shapes based on your face structure and style preference."
+    },
+    {
+      "category": "manicure_pedicure_overview",
+      "question": "What manicure and pedicure services do you offer?",
+      "answer": "We offer basic manicure, spa manicure, gel manicure, basic pedicure, spa pedicure, nail care, and foot care treatments."
+    },
+    {
+      "category": "service_difference",
+      "question": "What is the difference between a manicure and a pedicure?",
+      "answer": "A manicure focuses on hand and nail care, while a pedicure focuses on foot and toenail care."
+    },
+    {
+      "category": "service_duration",
+      "question": "How long do manicure and pedicure sessions take?",
+      "answer": "Sessions usually take between 30 minutes to 90 minutes depending on the service selected."
+    },
+    {
+      "category": "gel_polish",
+      "question": "Do you provide gel nail polish services?",
+      "answer": "Yes, gel nail polish services are available for long-lasting shine and durability."
+    },
+    {
+      "category": "nail_extensions",
+      "question": "Do you offer nail extensions?",
+      "answer": "Yes, nail extensions are available in different shapes, lengths, and styles."
+    },
+    {
+      "category": "spa_services",
+      "question": "What is included in a spa manicure or pedicure?",
+      "answer": "Spa services may include nail trimming, cuticle care, exfoliation, massage, masks, and moisturizing treatments."
+    },
+    {
+      "category": "hygiene",
+      "question": "Are manicure and pedicure tools sanitized?",
+      "answer": "Yes, all tools and equipment are properly sanitized after every customer."
+    },
+    {
+      "category": "sensitive_skin",
+      "question": "Are manicure and pedicure services safe for sensitive skin?",
+      "answer": "Yes, gentle products and suitable techniques are used for sensitive skin."
+    },
+    {
+      "category": "nail_polish_duration",
+      "question": "How long does nail polish usually last?",
+      "answer": "Regular nail polish may last a few days, while gel polish can last up to two or three weeks."
+    },
+    {
+      "category": "aftercare",
+      "question": "What care should I take after a manicure or pedicure?",
+      "answer": "Avoid harsh chemicals, keep nails moisturized, and wear gloves during cleaning work if possible."
+    },
+    {
+      "category": "ingrown_nails",
+      "question": "Can pedicure help with dry feet or ingrown nails?",
+      "answer": "Pedicure treatments can help improve foot care, but severe nail issues may require medical advice."
+    },
+    {
+      "category": "men_services",
+      "question": "Do you provide manicure and pedicure services for men?",
+      "answer": "Yes, nail and foot care services are available for both men and women."
+    },
+    {
+      "category": "appointment",
+      "question": "Do I need an appointment for manicure or pedicure services?",
+      "answer": "Appointments are recommended, but walk-ins may also be accepted depending on availability."
+    },
+    {
+      "category": "pricing",
+      "question": "How much do manicure and pedicure services cost?",
+      "answer": "Pricing depends on the type of service, products used, and additional treatments selected."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get recommendations for the best nail care treatment?",
+      "answer": "Yes, professionals can suggest suitable nail and foot care treatments based on your needs."
+    },
+    {
+      "category": "pricing_overview",
+      "question": "How are beauty parlour service prices calculated?",
+      "answer": "Pricing depends on the type of service, products used, treatment duration, and stylist expertise."
+    },
+    {
+      "category": "service_price_list",
+      "question": "Can I get a full price list for your services?",
+      "answer": "Yes, a complete service price list is available at the parlour, through WhatsApp, or online."
+    },
+    {
+      "category": "consultation_charges",
+      "question": "Is there a consultation fee?",
+      "answer": "Consultation charges may vary depending on the service and treatment selected."
+    },
+    {
+      "category": "bridal_package_pricing",
+      "question": "How much do bridal packages cost?",
+      "answer": "Bridal package pricing depends on makeup style, hairstyling, products used, and additional services included."
+    },
+    {
+      "category": "hair_service_pricing",
+      "question": "Why do hair treatment prices vary?",
+      "answer": "Hair service pricing may vary based on hair length, thickness, products used, and treatment complexity."
+    },
+    {
+      "category": "offers_availability",
+      "question": "Do you have any ongoing offers or discounts?",
+      "answer": "Yes, seasonal offers, festival discounts, and promotional packages may be available."
+    },
+    {
+      "category": "combo_packages",
+      "question": "Do you provide combo beauty packages?",
+      "answer": "Yes, combo packages are available for services like facials, hair spa, manicure, pedicure, and bridal care."
+    },
+    {
+      "category": "membership_plans",
+      "question": "Do you offer membership or loyalty programs?",
+      "answer": "Yes, membership plans and loyalty rewards may be available for regular customers."
+    },
+    {
+      "category": "festival_offers",
+      "question": "Do you provide festival or holiday offers?",
+      "answer": "Yes, special discounts and festive beauty packages are often available during holidays and celebrations."
+    },
+    {
+      "category": "student_discounts",
+      "question": "Are student discounts available?",
+      "answer": "Student discounts may be available on selected services with valid identification."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Which payment methods do you accept?",
+      "answer": "We accept cash, debit cards, credit cards, UPI, and digital wallet payments."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Is advance payment required for bookings?",
+      "answer": "Advance payment may be required for bridal packages, premium services, or large bookings."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Do you provide refunds after payment?",
+      "answer": "Refund policies depend on the type of service and cancellation terms of the parlour."
+    },
+    {
+      "category": "offer_validity",
+      "question": "How long are offers valid?",
+      "answer": "Offer validity depends on the promotion period and terms announced by the parlour."
+    },
+    {
+      "category": "custom_package",
+      "question": "Can I customize a beauty package based on my budget?",
+      "answer": "Yes, customized beauty packages can be created based on your preferences and budget."
+    },
+    {
+      "category": "location_overview",
+      "question": "Where is your beauty parlour located?",
+      "answer": "Our beauty parlour is located at a convenient area with easy access. You can find the exact location on Google Maps or contact us for directions."
+    },
+    {
+      "category": "nearest_landmark",
+      "question": "How can I find your parlour easily?",
+      "answer": "You can find us near well-known landmarks in the area. We also provide Google Maps location for easy navigation."
+    },
+    {
+      "category": "directions_help",
+      "question": "Can I get directions to your parlour?",
+      "answer": "Yes, we can share Google Maps links, WhatsApp location, or guide you over the phone."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Is parking available at your parlour?",
+      "answer": "Yes, parking facilities are available for customers, but availability may vary depending on location."
+    },
+    {
+      "category": "public_transport",
+      "question": "Can I reach your parlour using public transport?",
+      "answer": "Yes, our parlour is easily accessible by bus, metro, and other public transport options."
+    },
+    {
+      "category": "opening_hours",
+      "question": "What are your opening hours?",
+      "answer": "We are usually open from morning to evening. Exact timings may vary depending on the day and location."
+    },
+    {
+      "category": "closing_hours",
+      "question": "What time do you close?",
+      "answer": "We typically close in the evening, but timings may vary based on weekdays and weekends."
+    },
+    {
+      "category": "weekend_timing",
+      "question": "Are you open on weekends?",
+      "answer": "Yes, we are open on weekends, but prior booking is recommended due to high demand."
+    },
+    {
+      "category": "holiday_availability",
+      "question": "Are you open on public holidays?",
+      "answer": "We may remain open or closed on public holidays depending on the schedule. Please confirm in advance."
+    },
+    {
+      "category": "festival_closure",
+      "question": "Are you open during festivals?",
+      "answer": "During major festivals, timings may be limited or the parlour may remain closed."
+    },
+    {
+      "category": "appointment_timing",
+      "question": "Can I book appointments outside working hours?",
+      "answer": "Online booking may be available 24/7, but services are provided during working hours only."
+    },
+    {
+      "category": "late_evening_slots",
+      "question": "Do you offer late evening appointments?",
+      "answer": "Late evening slots may be available depending on staff availability and prior booking."
+    },
+    {
+      "category": "early_morning_slots",
+      "question": "Do you provide early morning appointments?",
+      "answer": "Early morning appointments may be arranged based on request and availability."
+    },
+    {
+      "category": "timing_changes",
+      "question": "Do your timings change sometimes?",
+      "answer": "Yes, parlour timings may change during special occasions, holidays, or operational requirements."
+    },
+    {
+      "category": "contact_hours",
+      "question": "When can I contact your parlour?",
+      "answer": "You can contact us during working hours, and WhatsApp support may be available for quick responses."
+    },
+    {
+      "category": "home_service_overview",
+      "question": "Do you provide home beauty services?",
+      "answer": "Yes, we offer selected beauty parlour services at home based on availability and location."
+    },
+    {
+      "category": "home_service_booking",
+      "question": "How can I book home beauty services?",
+      "answer": "You can book home services through phone call, WhatsApp, or online booking system."
+    },
+    {
+      "category": "home_service_availability",
+      "question": "Which areas do you cover for home services?",
+      "answer": "Home service availability depends on your location and parlour service coverage area."
+    },
+    {
+      "category": "home_service_charges",
+      "question": "Are there extra charges for home services?",
+      "answer": "Yes, additional charges may apply for travel and home service convenience."
+    },
+    {
+      "category": "home_service_services",
+      "question": "What services are available at home?",
+      "answer": "Services like threading, waxing, facials, hair care, and makeup may be available at home."
+    },
+    {
+      "category": "home_service_bridal",
+      "question": "Do you provide bridal makeup at home?",
+      "answer": "Yes, bridal makeup and related services can be provided at home or venue."
+    },
+    {
+      "category": "home_service_safety",
+      "question": "Is home beauty service safe and hygienic?",
+      "answer": "Yes, professional and hygienic tools are used for all home services."
+    },
+    {
+      "category": "home_service_duration",
+      "question": "How long do home services take?",
+      "answer": "Duration depends on the service and may take slightly longer than in-salon services."
+    },
+    {
+      "category": "home_service_booking_time",
+      "question": "How early should I book home services?",
+      "answer": "It is recommended to book home services in advance for better availability."
+    },
+    {
+      "category": "home_service_staff",
+      "question": "Will trained professionals come for home services?",
+      "answer": "Yes, experienced and trained professionals will provide home beauty services."
+    },
+    {
+      "category": "home_service_products",
+      "question": "Do you bring beauty products for home services?",
+      "answer": "Yes, professionals bring required tools and products based on the service booked."
+    },
+    {
+      "category": "home_service_cancellation",
+      "question": "Can I cancel or reschedule a home service booking?",
+      "answer": "Yes, home service bookings can be rescheduled or canceled with prior notice."
+    },
+    {
+      "category": "home_service_payment",
+      "question": "How do I pay for home beauty services?",
+      "answer": "Payments can be made via cash, UPI, or digital payment methods after service completion."
+    },
+    {
+      "category": "home_service_gender",
+      "question": "Do you provide home services for both men and women?",
+      "answer": "Yes, home beauty services are available for both men and women depending on service type."
+    },
+    {
+      "category": "home_service_emergency",
+      "question": "Can I book urgent home beauty services?",
+      "answer": "Yes, urgent home service bookings may be accepted based on staff availability."
+    },
+    {
+      "category": "products_overview",
+      "question": "What types of beauty products do you use?",
+      "answer": "We use professional, branded, and skin-friendly beauty products suitable for different skin and hair types."
+    },
+    {
+      "category": "product_safety",
+      "question": "Are your beauty products safe for all skin types?",
+      "answer": "Yes, we use safe and dermatologically tested products suitable for most skin types, including sensitive skin."
+    },
+    {
+      "category": "organic_products",
+      "question": "Do you use herbal or organic products?",
+      "answer": "Yes, herbal and organic product options are available depending on the service and customer preference."
+    },
+    {
+      "category": "product_allergy",
+      "question": "What if I have an allergy to a product?",
+      "answer": "Please inform our staff before the service so we can use suitable alternatives and perform a patch test if needed."
+    },
+    {
+      "category": "patch_test",
+      "question": "Do you perform patch tests before treatments?",
+      "answer": "Yes, patch tests are recommended before chemical treatments like hair coloring and skin services."
+    },
+    {
+      "category": "product_quality",
+      "question": "Are your products of good quality?",
+      "answer": "Yes, we use high-quality professional-grade products to ensure safety and effective results."
+    },
+    {
+      "category": "tool_hygiene",
+      "question": "Are your tools and equipment hygienic?",
+      "answer": "Yes, all tools are properly sanitized before and after every customer service."
+    },
+    {
+      "category": "single_use_items",
+      "question": "Do you use disposable items for services?",
+      "answer": "Yes, we use disposable items like gloves, towels, and applicators wherever necessary for hygiene."
+    },
+    {
+      "category": "chemical_treatments",
+      "question": "Are chemical treatments safe for hair and skin?",
+      "answer": "Yes, when performed by professionals using quality products, chemical treatments are safe."
+    },
+    {
+      "category": "skin_sensitivity",
+      "question": "What precautions are taken for sensitive skin?",
+      "answer": "We use gentle products and adjust treatments based on skin sensitivity to avoid irritation."
+    },
+    {
+      "category": "product_storage",
+      "question": "How are beauty products stored?",
+      "answer": "All products are stored in clean, temperature-controlled conditions to maintain quality and safety."
+    },
+    {
+      "category": "expired_products",
+      "question": "Do you use expired or old products?",
+      "answer": "No, we strictly use only fresh and within-expiry-date professional products."
+    },
+    {
+      "category": "makeup_safety",
+      "question": "Is makeup safe for long hours?",
+      "answer": "Yes, we use long-lasting but skin-safe makeup products suitable for extended wear."
+    },
+    {
+      "category": "client_safety",
+      "question": "What safety measures do you follow during services?",
+      "answer": "We maintain hygiene, use sanitized tools, follow safety protocols, and ensure client comfort at all times."
+    },
+    {
+      "category": "consultation_safety",
+      "question": "Can I discuss product safety before starting a service?",
+      "answer": "Yes, our professionals are always available to explain product usage and safety before any treatment."
+    },
+    {
+      "category": "aftercare_overview",
+      "question": "What is aftercare in beauty services?",
+      "answer": "Aftercare means following proper care instructions after a beauty treatment to maintain results and avoid skin or hair damage."
+    },
+    {
+      "category": "facial_aftercare",
+      "question": "What should I do after a facial treatment?",
+      "answer": "Avoid heavy makeup, direct sunlight, and harsh skincare products for at least 24 hours after a facial."
+    },
+    {
+      "category": "hair_treatment_aftercare",
+      "question": "How should I care for my hair after treatment?",
+      "answer": "Use recommended shampoos, avoid heat styling for a few days, and follow stylist instructions."
+    },
+    {
+      "category": "waxing_aftercare",
+      "question": "What should I avoid after waxing?",
+      "answer": "Avoid hot showers, sun exposure, swimming, and tight clothing for at least 24 hours after waxing."
+    },
+    {
+      "category": "threading_aftercare",
+      "question": "What care is needed after threading?",
+      "answer": "Avoid touching the area frequently and avoid makeup or harsh products for a few hours."
+    },
+    {
+      "category": "manicure_pedicure_aftercare",
+      "question": "How do I maintain manicure and pedicure results?",
+      "answer": "Keep nails moisturized, avoid harsh chemicals, and use gloves during cleaning work."
+    },
+    {
+      "category": "makeup_aftercare",
+      "question": "How can I make my makeup last longer?",
+      "answer": "Use setting spray, avoid touching your face frequently, and remove makeup properly at the end of the day."
+    },
+    {
+      "category": "skin_sensitivity_aftercare",
+      "question": "Is redness normal after beauty treatments?",
+      "answer": "Yes, mild redness or sensitivity is normal and usually settles within a few hours."
+    },
+    {
+      "category": "hair_color_aftercare",
+      "question": "How should I maintain colored hair?",
+      "answer": "Use color-protect shampoo, avoid frequent washing, and reduce heat styling."
+    },
+    {
+      "category": "sun_protection",
+      "question": "Why is sun protection important after skin treatments?",
+      "answer": "Skin becomes more sensitive after treatments, so sunscreen helps prevent damage and pigmentation."
+    },
+    {
+      "category": "maintenance_frequency",
+      "question": "How often should I repeat beauty treatments?",
+      "answer": "It depends on the service, but regular maintenance every few weeks or months is recommended."
+    },
+    {
+      "category": "product_usage",
+      "question": "Can I use normal products after treatment?",
+      "answer": "It is better to use recommended products for a few days to avoid irritation and maintain results."
+    },
+    {
+      "category": "hydration_care",
+      "question": "Why is hydration important after beauty treatments?",
+      "answer": "Hydrated skin and hair help maintain treatment results and improve overall health."
+    },
+    {
+      "category": "followup_services",
+      "question": "Do I need follow-up appointments after treatments?",
+      "answer": "Yes, follow-up services help maintain results and improve long-term beauty care."
+    },
+    {
+      "category": "professional_advice",
+      "question": "Can I contact the parlour for aftercare advice?",
+      "answer": "Yes, you can always contact our professionals for personalized aftercare and maintenance guidance."
+    }
+  ]
+}

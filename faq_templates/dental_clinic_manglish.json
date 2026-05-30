@@ -1,0 +1,1054 @@
+{
+  "faqs": [
+    {
+      "category": "appointment_booking",
+      "question": "Njan engane dental appointment book cheyyum?",
+      "answer": "Nee clinic-il call cheythu, online booking system use cheythu, allenkil direct clinic visit cheythu appointment book cheyyam."
+    },
+    {
+      "category": "online_booking",
+      "question": "Online ayi appointment book cheyyan pattumo?",
+      "answer": "Athu sherikkum pattum. Clinic website allenkil mobile app use cheythu easy ayi book cheyyam."
+    },
+    {
+      "category": "phone_booking",
+      "question": "Phone call cheythu appointment book cheyyan pattumo?",
+      "answer": "Yes, clinic reception-il call cheythal available time slots nokki appointment set cheyyam."
+    },
+    {
+      "category": "walk_in",
+      "question": "Appointment illathe direct clinic-il pokam?",
+      "answer": "Pattum, pakshe waiting time undavum. Appointment eduthal better aanu."
+    },
+    {
+      "category": "same_day_booking",
+      "question": "Ippo thanne same-day appointment kittumo?",
+      "answer": "Clinic schedule depend cheyyum. Emergency cases undengil same-day slot kittan chance undu."
+    },
+    {
+      "category": "confirmation",
+      "question": "Appointment confirm aayennu engane ariyum?",
+      "answer": "Booking kazhinjal SMS, email, allenkil phone call vazhi confirmation varum."
+    },
+    {
+      "category": "reschedule",
+      "question": "Njan appointment reschedule cheyyan pattumo?",
+      "answer": "Yes, clinic contact cheythal allenkil online system use cheythu reschedule cheyyam."
+    },
+    {
+      "category": "cancel",
+      "question": "Appointment cancel cheyyan engane?",
+      "answer": "Call cheythu allenkil online portal use cheythu cancel cheyyam."
+    },
+    {
+      "category": "missed",
+      "question": "Appointment miss aayal entha cheyyuka?",
+      "answer": "Miss aayal next available slot-il reschedule cheyyanam."
+    },
+    {
+      "category": "duration",
+      "question": "Dental appointment ethra neram edukum?",
+      "answer": "Usually 30 to 60 minutes vare edukum, treatment depend cheyyum."
+    },
+    {
+      "category": "preferred_dentist",
+      "question": "Njan specific dentist choose cheyyan pattumo?",
+      "answer": "Yes, pakshe avar available aayirikkunnath depend cheyyum."
+    },
+    {
+      "category": "emergency",
+      "question": "Emergency appointment engane book cheyyum?",
+      "answer": "Emergency cases-il direct clinic call cheyyuka, immediate help kittum."
+    },
+    {
+      "category": "details_needed",
+      "question": "Appointment book cheyyan entha details venam?",
+      "answer": "Name, contact number, preferred time, and reason for visit venam."
+    },
+    {
+      "category": "reminder",
+      "question": "Appointment reminder varumo?",
+      "answer": "Yes, SMS, email, allenkil call vazhi reminder varum."
+    },
+    {
+      "category": "family_booking",
+      "question": "Family members-kkum appointment book cheyyan pattumo?",
+      "answer": "Yes, multiple appointments same time slot-il book cheyyan pattum (availability depend cheyyum)."
+    },
+    {
+      "category": "consultation_overview",
+      "question": "Dental consultation ennathu enthaanu?",
+      "answer": "Dental consultation ennathu dentist ningalude teeth, gums, and oral health check cheythu proper diagnosis and treatment suggestion tharunna process aanu."
+    },
+    {
+      "category": "consultation_booking",
+      "question": "Consultation engane book cheyyam?",
+      "answer": "Nee clinic-il call cheythu, online booking cheythu, allenkil direct visit cheythu consultation book cheyyam."
+    },
+    {
+      "category": "consultation_first_visit",
+      "question": "First consultation-il entha expect cheyyam?",
+      "answer": "First visit-il dentist teeth check cheyyum, X-ray venamengil edukkum, pinne treatment plan explain cheyyum."
+    },
+    {
+      "category": "consultation_duration",
+      "question": "Consultation ethra neram edukum?",
+      "answer": "Usually 30 to 60 minutes vare consultation edukum, case depend cheyyum."
+    },
+    {
+      "category": "consultation_fee",
+      "question": "Consultation fee ethra aanu?",
+      "answer": "Fee clinic-inte policy depend cheyyum. Exact amount booking time-il ariyikkum."
+    },
+    {
+      "category": "consultation_pain",
+      "question": "Consultation painful aano?",
+      "answer": "Illa, consultation painless aanu. Only check-up and basic examination mathram aanu."
+    },
+    {
+      "category": "consultation_emergency",
+      "question": "Emergency consultation kittumo?",
+      "answer": "Yes, severe tooth pain, swelling, injury etc. emergency consultation available aanu."
+    },
+    {
+      "category": "consultation_followup",
+      "question": "Consultation kazhinjal follow-up venamo?",
+      "answer": "Treatment depending ayi follow-up visit venam. Dentist ath recommend cheyyum."
+    },
+    {
+      "category": "consultation_documents",
+      "question": "Consultation-innu entha documents venam?",
+      "answer": "ID card, previous dental records, insurance details (undengil) kondu varunnath nallath aanu."
+    },
+    {
+      "category": "consultation_online",
+      "question": "Online consultation available aano?",
+      "answer": "Yes, some clinics video consultation option provide cheyyum."
+    },
+    {
+      "category": "consultation_specialist",
+      "question": "Njan specialist dentist ne kanumo?",
+      "answer": "Yes, required case anusarichu orthodontist, periodontist, endodontist etc. consult cheyyam."
+    },
+    {
+      "category": "consultation_second_opinion",
+      "question": "Second opinion edukkan pattumo?",
+      "answer": "Yes, ningal vere dentist-nte second opinion edukkan full freedom undu."
+    },
+    {
+      "category": "consultation_children",
+      "question": "Children-kkum consultation kittumo?",
+      "answer": "Yes, pediatric consultation kids-ine vendi available aanu."
+    },
+    {
+      "category": "consultation_result",
+      "question": "Consultation kazhinjal entha kittum?",
+      "answer": "Diagnosis report, treatment plan, cost estimate, and next steps dentist explain cheyyum."
+    },
+    {
+      "category": "consultation_booking_change",
+      "question": "Consultation reschedule cheyyan pattumo?",
+      "answer": "Yes, clinic contact cheythu appointment reschedule cheyyam based on availability."
+    },
+    {
+      "category": "tooth_pain_overview",
+      "question": "Tooth pain varunnath enthu kond aanu?",
+      "answer": "Tooth decay, gum infection, sensitivity, cracked tooth, allenkil wisdom tooth issues kond tooth pain varam."
+    },
+    {
+      "category": "pain_severity",
+      "question": "Light tooth pain serious aano?",
+      "answer": "Start-il mild aayirikkum, pakshe ignore cheythal infection worsen aavum. Dentist-ne consult cheyyunnath nallath aanu."
+    },
+    {
+      "category": "emergency_definition",
+      "question": "Dental emergency ennathu enthaanu?",
+      "answer": "Severe tooth pain, swelling, bleeding, broken tooth, or infection varunna situation-ine dental emergency ennu parayum."
+    },
+    {
+      "category": "immediate_relief",
+      "question": "Ippo tooth pain undengil entha cheyyam?",
+      "answer": "Warm salt water rinse cheyyuka, painkiller use cheyyuka, and as soon as possible dentist-ne contact cheyyuka."
+    },
+    {
+      "category": "swelling",
+      "question": "Face swelling undengil entha cheyyanam?",
+      "answer": "Ithu infection sign aakam. Immediate dental emergency care venam. Delay cheyyaruthu."
+    },
+    {
+      "category": "broken_tooth",
+      "question": "Tooth break aayal entha cheyyum?",
+      "answer": "Broken piece save cheyyuka, mouth rinse cheyyuka, and immediately dentist-ne consult cheyyuka."
+    },
+    {
+      "category": "bleeding_gums",
+      "question": "Gum bleeding varunnath normal aano?",
+      "answer": "Occasional bleeding okay aanu, pakshe regular aayi varunnengil gum disease sign aayirikkam."
+    },
+    {
+      "category": "infection_signs",
+      "question": "Tooth infection symptoms enthaanu?",
+      "answer": "Severe pain, swelling, pus, fever, and bad taste in mouth infection signs aayirikkam."
+    },
+    {
+      "category": "night_pain",
+      "question": "Night-il tooth pain kooduthal aavunnath enthu kond aanu?",
+      "answer": "Blood flow changes and inflammation koodunnath kond night pain increase aavum."
+    },
+    {
+      "category": "home_remedy",
+      "question": "Home remedy use cheythu tooth pain cure cheyyan pattumo?",
+      "answer": "Temporary relief kittum, pakshe permanent cure dentist treatment through mathram possible aanu."
+    },
+    {
+      "category": "emergency_visit",
+      "question": "Eppozha dentist-ne urgent ayi kananam?",
+      "answer": "Severe pain, swelling, fever, trauma, or continuous bleeding undengil immediate visit venam."
+    },
+    {
+      "category": "pain_medicine",
+      "question": "Painkillers safe aano use cheyyan?",
+      "answer": "Yes, pakshe doctor recommend cheytha dosage follow cheyyanam."
+    },
+    {
+      "category": "wisdom_tooth_pain",
+      "question": "Wisdom tooth pain common aano?",
+      "answer": "Yes, wisdom tooth erupt cheyyumbo pain, swelling, and discomfort varam."
+    },
+    {
+      "category": "delay_risk",
+      "question": "Dental emergency delay cheythal entha sambhavikkum?",
+      "answer": "Infection spread aavum, pain worsen aavum, and tooth loss risk koodum."
+    },
+    {
+      "category": "emergency_care",
+      "question": "Clinic-il emergency treatment enthaanu cheyyunnath?",
+      "answer": "Pain relief, infection control, X-ray diagnosis, and immediate treatment like extraction or root canal depending on condition."
+    },
+    {
+      "category": "root_canal_overview",
+      "question": "Root canal treatment ennathu enthaanu?",
+      "answer": "Root canal treatment ennathu infected allenkil damaged tooth pulp remove cheythu tooth save cheyyunna dental procedure aanu."
+    },
+    {
+      "category": "root_canal_need",
+      "question": "Enikk root canal venamo ennu engane ariyam?",
+      "answer": "Severe tooth pain, sensitivity, swelling, allenkil infection symptoms undengil root canal venam aayirikkam."
+    },
+    {
+      "category": "root_canal_pain",
+      "question": "Root canal painful aano?",
+      "answer": "Illa, local anesthesia use cheyyunnath kond procedure painless aanu. Treatment kazhinjal mild discomfort mathram undavum."
+    },
+    {
+      "category": "root_canal_duration",
+      "question": "Root canal treatment ethra neram edukum?",
+      "answer": "Usually 1 to 2 sittings venam, tooth condition depend cheyyum."
+    },
+    {
+      "category": "root_canal_steps",
+      "question": "Root canal procedure-il entha cheyyunnath?",
+      "answer": "Infected pulp remove cheyyum, canal clean cheyyum, pinne seal cheythu tooth restore cheyyum."
+    },
+    {
+      "category": "root_canal_aftercare",
+      "question": "Root canal kazhinjal entha care venam?",
+      "answer": "Hard food avoid cheyyuka, oral hygiene maintain cheyyuka, and dentist advice follow cheyyuka."
+    },
+    {
+      "category": "root_canal_success",
+      "question": "Root canal successful aano?",
+      "answer": "Yes, proper care undengil root canal treated tooth long term survive cheyyum."
+    },
+    {
+      "category": "root_canal_cost",
+      "question": "Root canal cost ethra aanu?",
+      "answer": "Cost tooth type, infection severity, clinic depend cheyyum. Exact price consultation-il ariyikkum."
+    },
+    {
+      "category": "root_canal_alternative",
+      "question": "Root canal cheyyathe irunnal entha sambhavikkum?",
+      "answer": "Infection worsen aavum, severe pain varum, tooth lose cheyyan chance undu."
+    },
+    {
+      "category": "root_canal_crown",
+      "question": "Root canal kazhinjal crown venamo?",
+      "answer": "Yes, tooth strength maintain cheyyan crown usually recommend cheyyum."
+    },
+    {
+      "category": "root_canal_recovery",
+      "question": "Recovery time ethra aanu?",
+      "answer": "Usually few days-il discomfort reduce aavum, full healing weeks edukkam."
+    },
+    {
+      "category": "root_canal_anesthesia",
+      "question": "Procedure time-il pain undavumo?",
+      "answer": "Illa, anesthesia use cheyyunnath kond pain feel cheyyilla."
+    },
+    {
+      "category": "root_canal_infection",
+      "question": "Root canal kazhinjal infection thirich varumo?",
+      "answer": "Rare aanu, but proper care illenkil infection return cheyyan chance undu."
+    },
+    {
+      "category": "root_canal_followup",
+      "question": "Follow-up venamo?",
+      "answer": "Yes, healing check cheyyanum crown placement confirm cheyyanum follow-up venam."
+    },
+    {
+      "category": "root_canal_prevention",
+      "question": "Root canal avoid cheyyan entha cheyyam?",
+      "answer": "Regular brushing, flossing, dental checkups, and early cavity treatment cheyyuka."
+    },
+    {
+      "category": "tooth_extraction_overview",
+      "question": "Tooth extraction ennathu enthaanu?",
+      "answer": "Tooth extraction ennathu damaged, infected, allenkil problematic tooth remove cheyyunna dental procedure aanu."
+    },
+    {
+      "category": "extraction_need",
+      "question": "Enikk tooth extract cheyyan venamo ennu engane ariyam?",
+      "answer": "Severe decay, infection, crowding, wisdom tooth pain, allenkil damage undengil extraction recommend cheyyam."
+    },
+    {
+      "category": "extraction_pain",
+      "question": "Tooth extraction painful aano?",
+      "answer": "Illa, local anesthesia use cheyyunnath kond procedure painless aanu. After treatment mild pain undavum."
+    },
+    {
+      "category": "extraction_duration",
+      "question": "Tooth extraction ethra neram edukum?",
+      "answer": "Simple extraction 10–30 minutes vare edukam, complex cases kooduthal time edukkam."
+    },
+    {
+      "category": "extraction_aftercare",
+      "question": "Extraction kazhinjal entha care venam?",
+      "answer": "Gauze bite cheyyuka, hot food avoid cheyyuka, smoking avoid cheyyuka, and dentist instructions follow cheyyuka."
+    },
+    {
+      "category": "bleeding",
+      "question": "Extraction kazhinjal bleeding normal aano?",
+      "answer": "Yes, mild bleeding normal aanu. But excess bleeding undengil dentist-ne contact cheyyanam."
+    },
+    {
+      "category": "swelling",
+      "question": "Swelling varunnath normal aano?",
+      "answer": "Yes, mild swelling normal aanu and 2–3 days-il reduce aavum."
+    },
+    {
+      "category": "diet_after_extraction",
+      "question": "Extraction kazhinjal entha food avoid cheyyanam?",
+      "answer": "Hard, hot, spicy, and crunchy foods avoid cheyyanam. Soft food mathram kazhikkuka."
+    },
+    {
+      "category": "healing_time",
+      "question": "Healing ethra neram edukum?",
+      "answer": "Usually 1 week-il primary healing start aavum, full healing kurachu weeks edukkam."
+    },
+    {
+      "category": "dry_socket",
+      "question": "Dry socket ennathu enthaanu?",
+      "answer": "Blood clot remove aayal severe pain varunna condition aanu dry socket, immediate treatment venam."
+    },
+    {
+      "category": "smoking_after",
+      "question": "Extraction kazhinjal smoking cheyyan pattumo?",
+      "answer": "At least 48–72 hours avoid cheyyanam, illenkil healing delay aavum."
+    },
+    {
+      "category": "medication",
+      "question": "Medicine venamo after extraction?",
+      "answer": "Yes, painkillers and antibiotics dentist prescribe cheyyum if needed."
+    },
+    {
+      "category": "stitches",
+      "question": "Stitches venamo extraction-il?",
+      "answer": "Simple extraction-il usually venilla, surgical extraction-il stitches venam aavum."
+    },
+    {
+      "category": "complications",
+      "question": "Complications varumo?",
+      "answer": "Rare aanu, but infection, dry socket, or prolonged bleeding varan chance undu."
+    },
+    {
+      "category": "followup",
+      "question": "Follow-up venamo?",
+      "answer": "Yes, healing check cheyyanum stitches remove cheyyanum follow-up venam."
+    },
+    {
+      "category": "teeth_cleaning_overview",
+      "question": "Teeth cleaning ennathu enthaanu?",
+      "answer": "Teeth cleaning ennathu dentist plaque, tartar, and stains remove cheythu teeth clean and healthy aakkunna procedure aanu."
+    },
+    {
+      "category": "teeth_cleaning_need",
+      "question": "Enikk teeth cleaning venamo ennu engane ariyam?",
+      "answer": "Bad breath, yellow stains, gum bleeding, allenkil regular checkup-il dentist recommend cheyyunnengil cleaning venam."
+    },
+    {
+      "category": "teeth_cleaning_pain",
+      "question": "Teeth cleaning painful aano?",
+      "answer": "Usually painless aanu, pakshe heavy tartar undengil slight discomfort feel cheyyam."
+    },
+    {
+      "category": "teeth_cleaning_duration",
+      "question": "Teeth cleaning ethra neram edukum?",
+      "answer": "Usually 30 to 60 minutes vare edukum, teeth condition depend cheyyum."
+    },
+    {
+      "category": "teeth_cleaning_benefits",
+      "question": "Teeth cleaning benefits enthaanu?",
+      "answer": "Cavities prevent cheyyum, gum disease avoid cheyyum, bad breath reduce cheyyum, teeth bright aakkum."
+    },
+    {
+      "category": "teeth_cleaning_bleeding",
+      "question": "Cleaning kazhinjal bleeding normal aano?",
+      "answer": "Mild bleeding normal aanu, especially gums sensitive aayirikkumbol."
+    },
+    {
+      "category": "teeth_cleaning_aftercare",
+      "question": "Cleaning kazhinjal entha care venam?",
+      "answer": "24 hours spicy/hot food avoid cheyyuka, brushing continue cheyyuka, oral hygiene maintain cheyyuka."
+    },
+    {
+      "category": "teeth_cleaning_frequency",
+      "question": "Ethra time-il once cleaning cheyyanam?",
+      "answer": "Usually every 6 months once recommend cheyyunnu."
+    },
+    {
+      "category": "teeth_cleaning_whitening",
+      "question": "Cleaning teeth white aakkumo?",
+      "answer": "Surface stains remove cheyyum, pakshe full whitening alla."
+    },
+    {
+      "category": "teeth_cleaning_smoking",
+      "question": "Cleaning kazhinjal smoking cheyyan pattumo?",
+      "answer": "Avoid cheyyunnath better aanu, at least 24 hours."
+    },
+    {
+      "category": "teeth_cleaning_sensitive_teeth",
+      "question": "Cleaning kazhinjal sensitivity varumo?",
+      "answer": "Some cases-il temporary sensitivity varam, but it will reduce in few days."
+    },
+    {
+      "category": "teeth_cleaning_safety",
+      "question": "Teeth cleaning safe aano?",
+      "answer": "Yes, trained dentist cheyyunnengil fully safe aanu."
+    },
+    {
+      "category": "teeth_cleaning_children",
+      "question": "Kids-um teeth cleaning cheyyan pattumo?",
+      "answer": "Yes, children-um safe aayi professional cleaning cheyyam."
+    },
+    {
+      "category": "teeth_cleaning_cost",
+      "question": "Teeth cleaning cost ethra aanu?",
+      "answer": "Cost clinic depend cheyyum, exact amount consultation-il ariyikkum."
+    },
+    {
+      "category": "teeth_cleaning_followup",
+      "question": "Cleaning kazhinjal follow-up venamo?",
+      "answer": "Usually venilla, but regular checkups recommend cheyyunnu."
+    },
+    {
+      "category": "braces_overview",
+      "question": "Braces ennathu enthaanu?",
+      "answer": "Braces ennathu teeth straight cheyyanum bite correct cheyyanum use cheyyunna orthodontic treatment aanu."
+    },
+    {
+      "category": "alignment_need",
+      "question": "Enikk braces venamo ennu engane ariyam?",
+      "answer": "Crooked teeth, gaps, overcrowding, allenkil bite issues (overbite/underbite) undengil braces recommend cheyyam."
+    },
+    {
+      "category": "braces_pain",
+      "question": "Braces pain full aano?",
+      "answer": "Start-il slight discomfort varam, pakshe kurachu days kazhinjal adjust aavum."
+    },
+    {
+      "category": "treatment_duration",
+      "question": "Braces treatment ethra neram edukum?",
+      "answer": "Usually 12 to 24 months vare edukum, case severity depend cheyyum."
+    },
+    {
+      "category": "types_of_braces",
+      "question": "Braces types enthaanu?",
+      "answer": "Metal braces, ceramic braces, lingual braces, clear aligners ennivayum undu."
+    },
+    {
+      "category": "aligners_vs_braces",
+      "question": "Aligners and braces difference enthaanu?",
+      "answer": "Braces fixed aanu, aligners removable clear trays aanu teeth move cheyyan use cheyyunnathu."
+    },
+    {
+      "category": "braces_cost",
+      "question": "Braces cost ethra aanu?",
+      "answer": "Cost type and case depend cheyyum. Exact estimate dentist consultation-il kittum."
+    },
+    {
+      "category": "food_restrictions",
+      "question": "Braces use cheyyumbo entha food avoid cheyyanam?",
+      "answer": "Hard, sticky, and chewy foods avoid cheyyanam like gum, nuts, and candies."
+    },
+    {
+      "category": "oral_hygiene",
+      "question": "Braces ullappol cleaning engane cheyyam?",
+      "answer": "Regular brushing, flossing, and orthodontic tools use cheythu clean maintain cheyyanam."
+    },
+    {
+      "category": "adjustment_visits",
+      "question": "Braces adjustment ethra neram kazhinju cheyyum?",
+      "answer": "Usually every 4 to 6 weeks dentist visit venam adjustmentinu."
+    },
+    {
+      "category": "age_limit",
+      "question": "Braces edukkan age limit undo?",
+      "answer": "Illa, kids-um adults-um braces edukkan pattum depending on dental condition."
+    },
+    {
+      "category": "invisible_aligners",
+      "question": "Clear aligners ellavarkkum work cheyyumo?",
+      "answer": "Mild to moderate cases-il aligners effective aanu, severe cases-il braces venam."
+    },
+    {
+      "category": "retainers",
+      "question": "Braces kazhinjal retainers venamo?",
+      "answer": "Yes, teeth position maintain cheyyan retainers mandatory aanu."
+    },
+    {
+      "category": "treatment_comfort",
+      "question": "Braces wear cheyyumbo normal life lead cheyyan pattumo?",
+      "answer": "Yes, pakshe initial adjustment period kazhinjal normal life continue cheyyam."
+    },
+    {
+      "category": "followup",
+      "question": "Treatment kazhinjal follow-up venamo?",
+      "answer": "Yes, regular follow-up venam to ensure teeth alignment stable aanu."
+    },
+    {
+      "category": "cavities_overview",
+      "question": "Cavity ennathu enthaanu?",
+      "answer": "Cavity ennathu teeth-il bacteria karanam undavunna hole allenkil decay aanu, ith tooth damage aakkum."
+    },
+    {
+      "category": "cavity_causes",
+      "question": "Cavities varunnath enthu kond aanu?",
+      "answer": "Sugary food, poor brushing, plaque buildup, and regular dental care illathath kond cavities varum."
+    },
+    {
+      "category": "cavity_symptoms",
+      "question": "Cavity undennu engane ariyam?",
+      "answer": "Tooth pain, sensitivity, black spots, and chewing time-il discomfort varum."
+    },
+    {
+      "category": "filling_overview",
+      "question": "Dental filling ennathu enthaanu?",
+      "answer": "Filling ennathu cavity clean cheythu tooth restore cheyyan use cheyyunna treatment aanu."
+    },
+    {
+      "category": "filling_pain",
+      "question": "Filling painful aano?",
+      "answer": "Illa, local anesthesia use cheyyunnath kond procedure painless aanu."
+    },
+    {
+      "category": "filling_duration",
+      "question": "Filling treatment ethra neram edukum?",
+      "answer": "Usually 20 to 60 minutes vare edukum depending on cavity size."
+    },
+    {
+      "category": "filling_types",
+      "question": "Filling types enthaanu?",
+      "answer": "Composite (tooth color), amalgam, ceramic, and glass ionomer fillings undu."
+    },
+    {
+      "category": "filling_life",
+      "question": "Filling ethra kalam last cheyyum?",
+      "answer": "Proper care undengil filling several years vare last cheyyum."
+    },
+    {
+      "category": "after_filling",
+      "question": "Filling kazhinjal entha care venam?",
+      "answer": "Numbness kazhinjathinu shesham mathram food kazhikkuka and good oral hygiene maintain cheyyuka."
+    },
+    {
+      "category": "sensitivity",
+      "question": "Filling kazhinjal sensitivity normal aano?",
+      "answer": "Yes, few days vare mild sensitivity normal aanu."
+    },
+    {
+      "category": "cavity_treatment",
+      "question": "Cavity treat cheyyathe irunnal entha sambhavikkum?",
+      "answer": "Cavity worsen aavum, severe pain, infection, and tooth loss varan chance undu."
+    },
+    {
+      "category": "prevention",
+      "question": "Cavities engane prevent cheyyam?",
+      "answer": "Daily brushing, flossing, sugar control, and regular dental checkups follow cheyyuka."
+    },
+    {
+      "category": "replacement",
+      "question": "Old filling replace cheyyan pattumo?",
+      "answer": "Yes, damaged or old fillings replace cheyyan dentist cheyyum."
+    },
+    {
+      "category": "kids_filling",
+      "question": "Kids-um filling cheyyan pattumo?",
+      "answer": "Yes, children-um cavities treat cheyyan fillings safe aanu."
+    },
+    {
+      "category": "cost",
+      "question": "Filling cost ethra aanu?",
+      "answer": "Cost cavity size and material depend cheyyum, clinic-il exact estimate kittum."
+    },
+    {
+      "category": "pediatric_overview",
+      "question": "Pediatric dentistry ennathu enthaanu?",
+      "answer": "Pediatric dentistry ennathu kids-inde teeth, gums, and oral health care cheyyunna special dental branch aanu."
+    },
+    {
+      "category": "first_visit",
+      "question": "Ente child first dentist visit eppozha venam?",
+      "answer": "First tooth varumbo allenkil 1 year age-il dentist-ne kanikkunnath recommend cheyyunnu."
+    },
+    {
+      "category": "kids_checkup",
+      "question": "Kids dentist-ne ethra neram kazhinju kananam?",
+      "answer": "Usually every 6 months once regular checkup venam."
+    },
+    {
+      "category": "kids_brushing",
+      "question": "Children eppozha brushing start cheyyanam?",
+      "answer": "First tooth varumbo thanne soft brush and small toothpaste use cheythu brushing start cheyyam."
+    },
+    {
+      "category": "kids_cavities",
+      "question": "Kids-innu cavities varunnath enthu kond aanu?",
+      "answer": "Sugary food, poor brushing habits, and plaque buildup kond cavities varum."
+    },
+    {
+      "category": "fluoride_safety",
+      "question": "Fluoride kids-innu safe aano?",
+      "answer": "Yes, correct amount-il fluoride safe aanu and teeth strengthen cheyyum."
+    },
+    {
+      "category": "teething",
+      "question": "Teething time-il entha cheyyam?",
+      "answer": "Cold teething toys, gum massage, and doctor advice follow cheyyuka."
+    },
+    {
+      "category": "kids_pain",
+      "question": "Dental treatment kids-innu painful aano?",
+      "answer": "Illa, pediatric dentists gentle techniques use cheyyum so pain kuravayirikkum."
+    },
+    {
+      "category": "diet",
+      "question": "Kids dental health-ine diet affect cheyyumo?",
+      "answer": "Yes, sugar kooduthal ullath cavities risk increase cheyyum."
+    },
+    {
+      "category": "braces_kids",
+      "question": "Kids-innu braces venamo?",
+      "answer": "Some cases-il alignment issues undengil braces recommend cheyyum."
+    },
+    {
+      "category": "thumb_sucking",
+      "question": "Thumb sucking harmful aano?",
+      "answer": "Long term thumb sucking teeth alignment and jaw development affect cheyyum."
+    },
+    {
+      "category": "emergency",
+      "question": "Child tooth injury aayal entha cheyyam?",
+      "answer": "Immediately dentist-ne contact cheyyuka for emergency treatment."
+    },
+    {
+      "category": "prevention",
+      "question": "Kids dental problems engane prevent cheyyam?",
+      "answer": "Regular brushing, healthy diet, and dental checkups follow cheyyuka."
+    },
+    {
+      "category": "cleaning",
+      "question": "Kids-innu professional cleaning venamo?",
+      "answer": "Yes, plaque and cavity prevention-innu cleaning helpful aanu."
+    },
+    {
+      "category": "specialist",
+      "question": "Pediatric dentist special aano?",
+      "answer": "Yes, avar kids dental care handle cheyyan special training undu."
+    },
+    {
+      "category": "cosmetic_overview",
+      "question": "Cosmetic dentistry ennathu enthaanu?",
+      "answer": "Cosmetic dentistry ennathu teeth appearance improve cheyyan vendi cheyyunna dental treatments aanu."
+    },
+    {
+      "category": "whitening_overview",
+      "question": "Teeth whitening ennathu enthaanu?",
+      "answer": "Teeth whitening ennathu teeth-il ulla stains remove cheythu teeth brighter aakkunna procedure aanu."
+    },
+    {
+      "category": "whitening_safety",
+      "question": "Teeth whitening safe aano?",
+      "answer": "Yes, dentist supervision-il cheyyumbo whitening safe aanu."
+    },
+    {
+      "category": "whitening_duration",
+      "question": "Whitening results ethra kalam nilkkum?",
+      "answer": "Usually few months to 1-2 years vare results nilkkum, oral habits depend cheyyum."
+    },
+    {
+      "category": "whitening_pain",
+      "question": "Whitening painful aano?",
+      "answer": "Illa, pakshe some people-kk temporary sensitivity varam."
+    },
+    {
+      "category": "whitening_food",
+      "question": "Whitening kazhinjal entha food avoid cheyyanam?",
+      "answer": "Coffee, tea, wine, and colored foods kurachu days avoid cheyyunnath nallath aanu."
+    },
+    {
+      "category": "whitening_cost",
+      "question": "Teeth whitening cost ethra aanu?",
+      "answer": "Cost clinic and method depend cheyyum. Exact price consultation-il kittum."
+    },
+    {
+      "category": "whitening_types",
+      "question": "Teeth whitening types enthaanu?",
+      "answer": "In-clinic whitening, laser whitening, and home whitening kits undu."
+    },
+    {
+      "category": "whitening_effectiveness",
+      "question": "Whitening ellavarkkum work cheyyumo?",
+      "answer": "Most people-kk work cheyyum, but results vary based on teeth condition."
+    },
+    {
+      "category": "whitening_side_effects",
+      "question": "Whitening side effects undo?",
+      "answer": "Temporary sensitivity allenkil gum irritation undavum, pakshe usually short-term aanu."
+    },
+    {
+      "category": "cosmetic_options",
+      "question": "Other cosmetic dental treatments enthaanu?",
+      "answer": "Veneers, bonding, smile makeover, and gum contouring enniva cosmetic treatments aanu."
+    },
+    {
+      "category": "veneers",
+      "question": "Veneers ennathu enthaanu?",
+      "answer": "Veneers ennathu thin shells aanu, teeth front surface-il place cheythu smile improve cheyyum."
+    },
+    {
+      "category": "cosmetic_pain",
+      "question": "Cosmetic dental treatments painful aano?",
+      "answer": "Most treatments painless aanu or minimal discomfort mathram undavum."
+    },
+    {
+      "category": "cosmetic_duration",
+      "question": "Cosmetic treatment ethra neram edukum?",
+      "answer": "Treatment type depend cheyyum, few sessions venam aayirikkum."
+    },
+    {
+      "category": "consultation",
+      "question": "Cosmetic dentistry start cheyyan munpe consultation venamo?",
+      "answer": "Yes, dentist evaluation important aanu best treatment plan decide cheyyan."
+    },
+    {
+      "category": "payment_overview",
+      "question": "Dental clinic-il payment engane cheyyam?",
+      "answer": "Cash, card, UPI, and online payment options usually available aanu clinic-il."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Enthellam payment methods accept cheyyum?",
+      "answer": "Cash, debit/credit cards, UPI apps, and digital wallets accept cheyyum."
+    },
+    {
+      "category": "payment_after_treatment",
+      "question": "Treatment kazhinjittano payment cheyyendathu?",
+      "answer": "Most clinics-il treatment kazhinjittanu payment cheyyendathu, pakshe some cases-il advance venam."
+    },
+    {
+      "category": "installments",
+      "question": "Dental treatment installments-il pay cheyyan pattumo?",
+      "answer": "Yes, big treatments-innu installment or EMI options available aayirikkam."
+    },
+    {
+      "category": "insurance_payment",
+      "question": "Insurance use cheythu payment cheyyan pattumo?",
+      "answer": "Yes, eligible insurance plans undengil part or full coverage kittam."
+    },
+    {
+      "category": "billing_transparency",
+      "question": "Treatment munpe cost ariyikkumo?",
+      "answer": "Yes, clinic treatment plan and estimated cost munpe explain cheyyum."
+    },
+    {
+      "category": "hidden_charges",
+      "question": "Hidden charges undavumo?",
+      "answer": "Illa, reputed clinics clear pricing and transparency follow cheyyum."
+    },
+    {
+      "category": "offers_overview",
+      "question": "Dental clinic-il offers undavumo?",
+      "answer": "Yes, seasonal offers, discounts, and package deals available aayirikkam."
+    },
+    {
+      "category": "discounts",
+      "question": "Discounts available aano?",
+      "answer": "Yes, cleaning, whitening, and treatment packages-il discounts varam."
+    },
+    {
+      "category": "package_deals",
+      "question": "Treatment package deals undavumo?",
+      "answer": "Yes, root canal + crown, braces packages, and smile makeover combos available aayirikkam."
+    },
+    {
+      "category": "free_consultation",
+      "question": "Free consultation available aano?",
+      "answer": "Some clinics-il free or discounted first consultation offer cheyyum."
+    },
+    {
+      "category": "offer_validity",
+      "question": "Offers ethra kalam valid aanu?",
+      "answer": "Offers seasonal aayirikkum, limited time vare valid aayirikkam."
+    },
+    {
+      "category": "emergency_cost",
+      "question": "Emergency treatment cost kooduthal aano?",
+      "answer": "Emergency cases-il slight additional charges varan chance undu."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Refund kittumo treatment kazhinjal?",
+      "answer": "Usually refund illa, but billing adjustments possible aayirikkam."
+    },
+    {
+      "category": "support",
+      "question": "Payment and offers related doubts clear cheyyan help kittumo?",
+      "answer": "Yes, clinic staff full support provide cheyyum billing and offers clarification-inu."
+    },
+    {
+      "category": "root_canal_aftercare_overview",
+      "question": "Root canal kazhinjal after care enthaanu?",
+      "answer": "Root canal kazhinjal tooth protect cheyyanum healing smooth aakkanum follow cheyyenda care instructions aanu after care."
+    },
+    {
+      "category": "pain_management",
+      "question": "Root canal kazhinjal pain normal aano?",
+      "answer": "Yes, mild pain or discomfort kurachu days vare normal aanu. Pain kooduthal aayal dentist-ne contact cheyyanam."
+    },
+    {
+      "category": "food_restrictions",
+      "question": "Root canal kazhinjal entha food avoid cheyyanam?",
+      "answer": "Hard, sticky, and very hot foods avoid cheyyanam until permanent restoration complete aakunnu."
+    },
+    {
+      "category": "eating_after_treatment",
+      "question": "Root canal kazhinjal eppozha kazhikkam?",
+      "answer": "Numbness poyathinu shesham soft food kazhikkam, treated side avoid cheyyunnath nallath aanu."
+    },
+    {
+      "category": "temporary_filling",
+      "question": "Temporary filling veezhiyal entha cheyyanam?",
+      "answer": "Immediately dentist-ne contact cheyyanam, illaengil infection varan chance undu."
+    },
+    {
+      "category": "oral_hygiene",
+      "question": "Brushing and flossing continue cheyyan pattumo?",
+      "answer": "Yes, gentle brushing and flossing continue cheyyanam to maintain oral hygiene."
+    },
+    {
+      "category": "medication",
+      "question": "Medicines edukkan venamo after root canal?",
+      "answer": "Yes, dentist prescribe cheyyunna painkillers or antibiotics follow cheyyanam if required."
+    },
+    {
+      "category": "swelling",
+      "question": "Swelling varunnath normal aano?",
+      "answer": "Mild swelling normal aanu, pakshe increase aayal dentist-ne consult cheyyanam."
+    },
+    {
+      "category": "crown_need",
+      "question": "Root canal kazhinjal crown venamo?",
+      "answer": "Yes, tooth strength maintain cheyyan crown usually recommend cheyyum."
+    },
+    {
+      "category": "followup",
+      "question": "Follow-up appointment venamo?",
+      "answer": "Yes, healing check cheyyanum crown placement confirm cheyyanum follow-up venam."
+    },
+    {
+      "category": "avoid_pressure",
+      "question": "Treated tooth-il pressure kodukkan pattumo?",
+      "answer": "Avoid heavy pressure cheyyanam until permanent crown place cheyyunnu."
+    },
+    {
+      "category": "infection_warning",
+      "question": "Infection signs enthaanu?",
+      "answer": "Severe pain, swelling, pus, fever, allenkil bad taste varunnath infection sign aayirikkam."
+    },
+    {
+      "category": "healing_time",
+      "question": "Full healing ethra neram edukum?",
+      "answer": "Few days-il discomfort reduce aavum, full restoration weeks edukkam."
+    },
+    {
+      "category": "smoking_alcohol",
+      "question": "Smoking or alcohol avoid cheyyanam?",
+      "answer": "Yes, at least 48–72 hours avoid cheyyunnath better aanu healinginu."
+    },
+    {
+      "category": "emergency_contact",
+      "question": "Eppo dentist-ne emergency ayi contact cheyyanam?",
+      "answer": "Severe pain, swelling increase, fever, or filling/crown damage undengil immediate contact cheyyanam."
+    },
+    {
+      "category": "location_overview",
+      "question": "Dental clinic location engane kandupidikkam?",
+      "answer": "Google Maps, clinic website, allenkil contact number use cheythu exact location kandupidikkam."
+    },
+    {
+      "category": "directions",
+      "question": "Clinic-il reach cheyyan directions engane kittum?",
+      "answer": "Google Maps link, WhatsApp location share, allenkil reception call cheythu directions ariyam."
+    },
+    {
+      "category": "nearest_clinic",
+      "question": "Ente near-il dental clinic undo ennu engane ariyam?",
+      "answer": "Google search allenkil maps-il 'dental clinic near me' ennu search cheythal nearest clinics kittum."
+    },
+    {
+      "category": "parking",
+      "question": "Clinic-il parking facility undo?",
+      "answer": "Most clinics-il parking facility undavum, pakshe visit munpe confirm cheyyunnath nallath aanu."
+    },
+    {
+      "category": "public_transport",
+      "question": "Public transport use cheythu clinic reach cheyyan pattumo?",
+      "answer": "Yes, bus, metro, or train use cheythu nearby stop-il ninnu walk cheyyam."
+    },
+    {
+      "category": "landmark",
+      "question": "Clinic kandupidikkan landmark help cheyyumo?",
+      "answer": "Yes, clinic usually nearby famous landmarks mention cheyyum for easy navigation."
+    },
+    {
+      "category": "multiple_branches",
+      "question": "Clinic-inde multiple branches undo?",
+      "answer": "Some dental clinics-inde multiple branches undavum, location choose cheyyan pattum."
+    },
+    {
+      "category": "appointment_location",
+      "question": "Different location-il appointment book cheyyan pattumo?",
+      "answer": "Yes, preferred branch select cheythu appointment book cheyyam."
+    },
+    {
+      "category": "emergency_location",
+      "question": "Emergency case-il nearest clinic engane kandupidikkam?",
+      "answer": "Google Maps emergency search allenkil clinic helpline call cheythu nearest branch ariyam."
+    },
+    {
+      "category": "clinic_hours",
+      "question": "Location anu anusarich opening hours change aavumo?",
+      "answer": "Yes, branch anusarich working hours vary cheyyam, confirm cheyyunnath nallath aanu."
+    },
+    {
+      "category": "navigation_support",
+      "question": "Clinic staff navigation help cheyyumo?",
+      "answer": "Yes, reception team WhatsApp location and directions provide cheyyum."
+    },
+    {
+      "category": "distance_time",
+      "question": "Clinic ethra distance-il aanu ennu ariyam?",
+      "answer": "Google Maps use cheythu travel time and distance easily check cheyyam."
+    },
+    {
+      "category": "accessibility",
+      "question": "Wheelchair accessibility clinic-il undo?",
+      "answer": "Most modern clinics wheelchair accessible aanu, pakshe confirm cheyyunnath better aanu."
+    },
+    {
+      "category": "online_map",
+      "question": "Clinic Google Maps-il available aano?",
+      "answer": "Yes, most dental clinics Google Maps-il verified location undavum."
+    },
+    {
+      "category": "contact_location_help",
+      "question": "Location doubt undengil help kittumo?",
+      "answer": "Yes, clinic contact cheythal staff full guidance provide cheyyum."
+    },
+    {
+      "category": "clinic_opening_hours",
+      "question": "Dental clinic eppozha open aavunnath?",
+      "answer": "Usually dental clinic morning 9 AM allenkil 10 AM-il open aavum, clinic depend cheyyum."
+    },
+    {
+      "category": "clinic_closing_hours",
+      "question": "Clinic eppozha close aavunnath?",
+      "answer": "Most clinics evening 6 PM to 8 PM vare open aayirikkum, pinne close aavum."
+    },
+    {
+      "category": "weekend_timing",
+      "question": "Weekend-il clinic open aayirikkumo?",
+      "answer": "Yes, many clinics Saturday open aayirikkum, pakshe Sunday partial working or holiday aayirikkam."
+    },
+    {
+      "category": "sunday_closing",
+      "question": "Sunday clinic open aayirikkumo?",
+      "answer": "Some clinics Sunday close aayirikkum, emergency cases-il only open aayirikkum."
+    },
+    {
+      "category": "emergency_hours",
+      "question": "Emergency time-il clinic available aano?",
+      "answer": "Yes, some clinics emergency support 24/7 or after-hours provide cheyyum."
+    },
+    {
+      "category": "appointment_timing",
+      "question": "Appointment ethra neram kazhinju book cheyyam?",
+      "answer": "Working hours-il appointment book cheyyam, online booking 24/7 available aayirikkam."
+    },
+    {
+      "category": "holiday_closure",
+      "question": "Public holidays-il clinic open aavumo?",
+      "answer": "Most clinics major public holidays-il close aayirikkum, pakshe emergency service available aayirikkam."
+    },
+    {
+      "category": "festival_holidays",
+      "question": "Festival days-il clinic open aavumo?",
+      "answer": "Festivals like Onam, Christmas, New Year days-il clinic close or limited timing aayirikkum."
+    },
+    {
+      "category": "holiday_emergency",
+      "question": "Holiday time-il dental emergency undengil entha cheyyam?",
+      "answer": "Emergency number call cheyyuka, or nearest emergency dental clinic visit cheyyuka."
+    },
+    {
+      "category": "timing_changes",
+      "question": "Clinic timing change aavumo?",
+      "answer": "Yes, season or doctor availability anusarich timing change aavum, advance notice provide cheyyum."
+    },
+    {
+      "category": "late_evening",
+      "question": "Evening late appointment kittumo?",
+      "answer": "Some clinics late evening slots provide cheyyum, prior booking venam."
+    },
+    {
+      "category": "early_morning",
+      "question": "Early morning appointment available aano?",
+      "answer": "Yes, request cheythal early morning slots arrange cheyyan pattum."
+    },
+    {
+      "category": "holiday_booking",
+      "question": "Holiday-il appointment book cheyyan pattumo?",
+      "answer": "Online booking system 24/7 work cheyyum, pakshe confirmation next working day-il varam."
+    },
+    {
+      "category": "clinic_working_days",
+      "question": "Clinic ethra days open aayirikkum?",
+      "answer": "Usually Monday to Saturday open aayirikkum, Sunday holiday aayirikkam."
+    },
+    {
+      "category": "support_hours",
+      "question": "Customer support eppozha available?",
+      "answer": "Clinic support working hours-il available aayirikkum, some clinics WhatsApp support 24/7 provide cheyyum."
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "faqs": [
+    {
+      "category": "shop_overview",
+      "questions": [
+        "Do you sell furniture?",
+        "What products are available?",
+        "Is this a furniture shop?",
+        "Do you have home furniture?"
+      ],
+      "answer": "Yes, we sell home, office, and custom furniture including sofas, beds, dining tables, wardrobes, chairs, and more."
+    },
+    {
+      "category": "sofa_availability",
+      "questions": [
+        "Do you have sofas?",
+        "Sofa sets available?",
+        "Do you sell recliners?",
+        "Leather sofa available?"
+      ],
+      "answer": "Yes, we offer different types of sofas including fabric sofas, leather sofas, recliners, and sectional sofa sets."
+    },
+    {
+      "category": "bed_availability",
+      "questions": [
+        "Do you sell beds?",
+        "King size bed available?",
+        "Cot available?",
+        "Bedroom furniture available?"
+      ],
+      "answer": "Yes, we have single beds, double beds, king-size beds, queen-size beds, and storage cots."
+    },
+    {
+      "category": "wardrobe_availability",
+      "questions": [
+        "Wardrobes available?",
+        "Do you have cupboards?",
+        "Sliding wardrobe available?",
+        "Wooden wardrobe available?"
+      ],
+      "answer": "Yes, we offer wardrobes in different sizes, materials, and  designs including sliding and modular wardrobes."
+    },
+    {
+      "category": "dining_table",
+      "questions": [
+        "Dining tables available?",
+        "4 seater dining table available?",
+        "6 seater dining set available?",
+        "Wooden dining table available?"
+      ],
+      "answer": "Yes, we have dining tables in various sizes and materials including wooden, glass-top, and marble-finish designs."
+    },
+    {
+      "category": "office_furniture",
+      "questions": [
+        "Do you sell office furniture?",
+        "Office chairs available?",
+        "Office table available?",
+        "Workstation furniture available?"
+      ],
+      "answer": "Yes, we provide office chairs, office tables, workstations, storage cabinets, and conference furniture."
+    },
+    {
+      "category": "custom_furniture",
+      "questions": [
+        "Can you make custom furniture?",
+        "Custom sofa available?",
+        "Furniture made on order?",
+        "Can I customize furniture size?"
+      ],
+      "answer": "Yes, custom furniture options are available based on design, size, material, and customer requirements."
+    },
+    {
+      "category": "wood_material",
+      "questions": [
+        "Which wood materials are used?",
+        "Do you use teak wood?",
+        "Solid wood furniture available?",
+        "Engineered wood available?"
+      ],
+      "answer": "We offer furniture made from teak wood, solid wood, engineered wood, plywood, MDF, and metal depending on the product."
+    },
+    {
+      "category": "price_range",
+      "questions": [
+        "What is the price range?",
+        "Budget furniture available?",
+        "Affordable sofa available?",
+        "Premium furniture available?"
+      ],
+      "answer": "We offer furniture options ranging from budget-friendly products to premium luxury collections."
+    },
+    {
+      "category": "offers_discount",
+      "questions": [
+        "Any offers available?",
+        "Discount available?",
+        "Festival offers available?",
+        "Furniture sale going on?"
+      ],
+      "answer": "Yes, we regularly provide discounts, seasonal offers, combo deals, and festive promotions."
+    },
+    {
+      "category": "emi_options",
+      "questions": [
+        "Do you provide EMI?",
+        "Furniture EMI available?",
+        "Installment option available?",
+        "No-cost EMI available?"
+      ],
+      "answer": "Yes, EMI and no-cost EMI options may be available through selected banks and finance partners."
+    },
+    {
+      "category": "delivery_service",
+      "questions": [
+        "Do you provide delivery?",
+        "Home delivery available?",
+        "Can you deliver furniture?",
+        "Same day delivery available?"
+      ],
+      "answer": "Yes, furniture delivery services are available depending on the product and location."
+    },
+    {
+      "category": "installation_service",
+      "questions": [
+        "Do you provide installation?",
+        "Furniture assembly available?",
+        "Will your staff install the furniture?",
+        "Installation service available?"
+      ],
+      "answer": "Yes, installation and assembly services are available for selected furniture products."
+    },
+    {
+      "category": "delivery_time",
+      "questions": [
+        "How long does delivery take?",
+        "When will the furniture arrive?",
+        "Delivery timing?",
+        "How many days for delivery?"
+      ],
+      "answer": "Delivery time depends on product availability, customization, and delivery location."
+    },
+    {
+      "category": "warranty",
+      "questions": [
+        "Do you provide warranty?",
+        "Furniture warranty available?",
+        "Warranty period?",
+        "Product guarantee available?"
+      ],
+      "answer": "Yes, selected furniture products come with manufacturer or seller warranty."
+    },
+    {
+      "category": "return_policy",
+      "questions": [
+        "Can I return furniture?",
+        "Replacement available?",
+        "Return policy?",
+        "Damaged product replacement available?"
+      ],
+      "answer": "Returns and replacements depend on product condition and store policy."
+    },
+    {
+      "category": "payment_methods",
+      "questions": [
+        "What payment methods are accepted?",
+        "UPI payment available?",
+        "Card payment accepted?",
+        "Google Pay accepted?"
+      ],
+      "answer": "We accept cash, debit cards, credit cards, UPI, bank transfers, and wallet payments."
+    },
+    {
+      "category": "gst_invoice",
+      "questions": [
+        "Can I get GST invoice?",
+        "Official bill available?",
+        "Tax invoice available?",
+        "GST bill provided?"
+      ],
+      "answer": "Yes, GST invoices and proper purchase bills are provided for eligible purchases."
+    },
+    {
+      "category": "bulk_orders",
+      "questions": [
+        "Do you accept bulk orders?",
+        "Furniture for office project available?",
+        "Wholesale furniture available?",
+        "Hotel furniture supply available?"
+      ],
+      "answer": "Yes, we accept bulk and commercial furniture orders for offices, hotels, and projects."
+    },
+    {
+      "category": "shop_timings",
+      "questions": [
+        "What are your shop timings?",
+        "When do you open?",
+        "Sunday open?",
+        "Closing time?"
+      ],
+      "answer": "Our furniture shop operates during regular business hours every day."
+    },
+    {
+      "category": "contact_support",
+      "questions": [
+        "How can I contact the shop?",
+        "WhatsApp number available?",
+        "Location share?",
+        "How do I reach the shop?"
+      ],
+      "answer": "You can contact us through phone, WhatsApp, social media, or by visiting our showroom directly."
+    }
+  ]
+}

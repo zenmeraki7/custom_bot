@@ -1,0 +1,79 @@
+{
+  "faqs": [
+    {
+      "category": "jewellery_overview",
+      "question": "Jewellery shop-il enthellam products available aanu?",
+      "answer": "Gold jewellery, diamond jewellery, silver items, bridal sets, chains, rings, bangles, earrings ellam available aanu."
+    },
+    {
+      "category": "gold_purity",
+      "question": "Gold purity engane check cheyyam?",
+      "answer": "Hallmark certification nokki gold purity confirm cheyyam. Usually 22K and 18K options available aanu."
+    },
+    {
+      "category": "design_types",
+      "question": "New design jewellery available aano?",
+      "answer": "Yes, latest trendy, traditional, and custom design jewellery collections available aanu."
+    },
+    {
+      "category": "custom_design",
+      "question": "Custom jewellery design cheyyan pattumo?",
+      "answer": "Yes, customer requirement anusarich custom design jewellery create cheyyam."
+    },
+    {
+      "category": "bridal_jewellery",
+      "question": "Bridal jewellery sets available aano?",
+      "answer": "Yes, complete bridal sets including necklace, earrings, bangles, and maang tikka available aanu."
+    },
+    {
+      "category": "diamond_jewellery",
+      "question": "Diamond jewellery authentic aano?",
+      "answer": "Yes, certified diamond jewellery with proper authenticity certificate provide cheyyum."
+    },
+    {
+      "category": "silver_collection",
+      "question": "Silver jewellery available aano?",
+      "answer": "Yes, silver chains, anklets, rings, and pooja items ellam available aanu."
+    },
+    {
+      "category": "design_trends",
+      "question": "Latest jewellery trends enthaanu?",
+      "answer": "Minimal designs, lightweight jewellery, temple jewellery, and fusion designs trending aanu."
+    },
+    {
+      "category": "size_customization",
+      "question": "Ring and bangle size customize cheyyan pattumo?",
+      "answer": "Yes, perfect fitting-inu size customization available aanu."
+    },
+    {
+      "category": "repair_services",
+      "question": "Jewellery repair service kittumo?",
+      "answer": "Yes, polishing, resizing, and repair services available aanu."
+    },
+    {
+      "category": "warranty",
+      "question": "Jewellery-inu warranty undo?",
+      "answer": "Yes, certain products-inu manufacturing warranty and purity guarantee available aanu."
+    },
+    {
+      "category": "exchange_policy",
+      "question": "Old jewellery exchange cheyyan pattumo?",
+      "answer": "Yes, old gold exchange and upgrade options available aanu terms anusarich."
+    },
+    {
+      "category": "pricing",
+      "question": "Jewellery price engane decide cheyyum?",
+      "answer": "Gold rate, weight, design making charge, and purity based aayi price decide cheyyum."
+    },
+    {
+      "category": "hallmark",
+      "question": "Hallmark jewellery available aano?",
+      "answer": "Yes, BIS hallmarked jewellery available aanu for purity assurance."
+    },
+    {
+      "category": "consultation",
+      "question": "Design select cheyyan help kittumo?",
+      "answer": "Yes, staff nee-inu suitable design and budget based suggestions provide cheyyum."
+    }
+  ]
+}

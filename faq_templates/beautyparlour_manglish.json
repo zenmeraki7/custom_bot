@@ -1,0 +1,979 @@
+{
+  "faqs": [
+    {
+      "category": "appointment_booking",
+      "question": "Njan engane beauty parlour appointment book cheyyum?",
+      "answer": "Nee phone call cheythu, WhatsApp message ayachu, online booking cheythu, allenkil direct parlour-il poyi appointment book cheyyam."
+    },
+    {
+      "category": "online_booking",
+      "question": "Online ayi appointment book cheyyan pattumo?",
+      "answer": "Yes, parlour website allenkil social media link use cheythu online booking easy ayi cheyyam."
+    },
+    {
+      "category": "walk_in",
+      "question": "Walk-in customers accept cheyyumo?",
+      "answer": "Yes, walk-in accept cheyyum, pakshe advance booking undengil waiting time kurayum."
+    },
+    {
+      "category": "same_day_booking",
+      "question": "Same day appointment kittumo?",
+      "answer": "Availability undengil same day appointment kittum, pakshe busy days-il confirm cheyyanam."
+    },
+    {
+      "category": "appointment_confirmation",
+      "question": "Appointment confirm aayennu engane ariyam?",
+      "answer": "Booking kazhinjal SMS, WhatsApp message, allenkil call vazhi confirmation varum."
+    },
+    {
+      "category": "reschedule",
+      "question": "Appointment reschedule cheyyan pattumo?",
+      "answer": "Yes, prior notice koduthal appointment reschedule cheyyam based on availability."
+    },
+    {
+      "category": "cancel_appointment",
+      "question": "Appointment cancel cheyyan engane?",
+      "answer": "Call cheythu allenkil WhatsApp message ayachu appointment cancel cheyyam."
+    },
+    {
+      "category": "late_arrival",
+      "question": "Njan late aayal entha sambhavikkum?",
+      "answer": "Late aayal service time kurayum allenkil reschedule cheyyan parayum depending on schedule."
+    },
+    {
+      "category": "appointment_duration",
+      "question": "Appointment ethra neram edukum?",
+      "answer": "Service depend cheyyum, 15 minutes muthal several hours vare aavum."
+    },
+    {
+      "category": "weekend_booking",
+      "question": "Weekend-il booking cheyyan pattumo?",
+      "answer": "Yes, weekend-il busy aayirikkum, athukond advance booking recommend cheyyunnu."
+    },
+    {
+      "category": "group_booking",
+      "question": "Group booking cheyyan pattumo?",
+      "answer": "Yes, friends, bridal group, family bookings ellam available aanu."
+    },
+    {
+      "category": "preferred_staff",
+      "question": "Preferred beautician choose cheyyan pattumo?",
+      "answer": "Yes, availability undengil nee choice cheytha staff-ne request cheyyam."
+    },
+    {
+      "category": "bridal_booking",
+      "question": "Bridal services eppozha book cheyyanam?",
+      "answer": "Bridal services kurachu weeks allenkil months munpu book cheyyunnath nallath aanu."
+    },
+    {
+      "category": "reminder",
+      "question": "Appointment reminder varumo?",
+      "answer": "Yes, SMS allenkil WhatsApp reminder usually varum appointment munpu."
+    },
+    {
+      "category": "home_service_booking",
+      "question": "Home service appointment book cheyyan pattumo?",
+      "answer": "Yes, selected services-inu home service booking available aanu based on location."
+    },
+    {
+      "category": "hair_services_overview",
+      "question": "Beauty parlour-il enthellam hair services kittum?",
+      "answer": "Haircut, hair spa, hair coloring, keratin treatment, smoothening, rebonding, styling, and scalp treatments ellam available aanu."
+    },
+    {
+      "category": "haircut",
+      "question": "Haircut cheyyan ethra neram edukum?",
+      "answer": "Usually 15 muthal 45 minutes vare edukum, hairstyle depend cheyyum."
+    },
+    {
+      "category": "hair_coloring",
+      "question": "Hair coloring cheyyumbo damage varumo?",
+      "answer": "Professional products use cheythal damage kuravaanu, pakshe aftercare follow cheyyanam."
+    },
+    {
+      "category": "hair_spa",
+      "question": "Hair spa entha benefit aanu?",
+      "answer": "Hair spa hair nourish cheyyum, dryness reduce cheyyum, and scalp healthy aakkum."
+    },
+    {
+      "category": "keratin_treatment",
+      "question": "Keratin treatment enthaanu?",
+      "answer": "Keratin treatment hair smooth aakkum, frizz reduce cheyyum, and shine increase cheyyum."
+    },
+    {
+      "category": "smoothening",
+      "question": "Hair smoothening safe aano?",
+      "answer": "Yes, trained professionals cheyyumbo safe aanu, pakshe proper aftercare venam."
+    },
+    {
+      "category": "rebonding",
+      "question": "Rebonding cheyyumbo entha effect kittum?",
+      "answer": "Hair straight and smooth aavum, long-lasting result kittum."
+    },
+    {
+      "category": "hair_fall",
+      "question": "Hair fall treatment kittumo?",
+      "answer": "Yes, scalp treatment and hair fall control therapies available aanu."
+    },
+    {
+      "category": "hair_wash",
+      "question": "Service munpu hair wash venamo?",
+      "answer": "Service type depend cheyyum, stylists advise cheyyum clean hair or washed hair venamo ennu."
+    },
+    {
+      "category": "aftercare",
+      "question": "Hair service kazhinjal entha care venam?",
+      "answer": "Proper shampoo use cheyyuka, heat styling avoid cheyyuka, and stylist advice follow cheyyuka."
+    },
+    {
+      "category": "hair_styling",
+      "question": "Party or bridal hair styling available aano?",
+      "answer": "Yes, special occasion hair styling services available aanu."
+    },
+    {
+      "category": "hair_extensions",
+      "question": "Hair extensions kittumo?",
+      "answer": "Yes, different length and style hair extensions available aanu."
+    },
+    {
+      "category": "hair_cost",
+      "question": "Hair services cost ethra aanu?",
+      "answer": "Cost service type, hair length, and products use cheyyunnathine depend cheyyum."
+    },
+    {
+      "category": "consultation",
+      "question": "Hair service munpu consultation kittumo?",
+      "answer": "Yes, stylist consultation kittum best service choose cheyyan."
+    },
+    {
+      "category": "damage_prevention",
+      "question": "Hair damage avoid cheyyan entha cheyyam?",
+      "answer": "Heat tools kurachu use cheyyuka, proper products use cheyyuka, and regular care maintain cheyyuka."
+    },
+    {
+      "category": "aftercare_overview",
+      "question": "Aftercare and maintenance enthaanu?",
+      "answer": "Beauty service kazhinjal skin and hair healthy aayi maintain cheyyan follow cheyyunna care instructions aanu aftercare."
+    },
+    {
+      "category": "facial_aftercare",
+      "question": "Facial kazhinjal entha care venam?",
+      "answer": "Heavy makeup avoid cheyyuka, sun exposure kurakkuka, and mild skincare products use cheyyuka 24 hours vare."
+    },
+    {
+      "category": "hair_aftercare",
+      "question": "Hair service kazhinjal entha maintenance venam?",
+      "answer": "Proper shampoo use cheyyuka, heat styling kurakkuka, and stylist instructions follow cheyyuka."
+    },
+    {
+      "category": "waxing_aftercare",
+      "question": "Waxing kazhinjal entha avoid cheyyanam?",
+      "answer": "Hot shower, sun exposure, tight clothes, and swimming 24 hours avoid cheyyuka."
+    },
+    {
+      "category": "threading_aftercare",
+      "question": "Threading kazhinjal entha care venam?",
+      "answer": "Face touch cheyyathirikkuka, makeup kurachu neram avoid cheyyuka, and harsh products use cheyyaruthu."
+    },
+    {
+      "category": "manicure_pedicure_aftercare",
+      "question": "Manicure/pedicure kazhinjal entha care venam?",
+      "answer": "Hands and feet moisturize cheyyuka, cleaning chemicals avoid cheyyuka, and gloves use cheyyuka."
+    },
+    {
+      "category": "makeup_aftercare",
+      "question": "Makeup long-lasting aakkan engane care cheyyam?",
+      "answer": "Setting spray use cheyyuka, face touch avoid cheyyuka, and proper makeup removal cheyyuka."
+    },
+    {
+      "category": "skin_sensitivity",
+      "question": "Treatment kazhinjal redness normal aano?",
+      "answer": "Yes, mild redness normal aanu and kurachu neram kazhinjal settle aavum."
+    },
+    {
+      "category": "hair_color_aftercare",
+      "question": "Hair coloring kazhinjal entha care venam?",
+      "answer": "Color-safe shampoo use cheyyuka, frequent wash avoid cheyyuka, and heat styling kurakkuka."
+    },
+    {
+      "category": "hydration",
+      "question": "Aftercare-il hydration important aano?",
+      "answer": "Yes, skin and hair hydrated aayirikkunnath results maintain cheyyan help cheyyum."
+    },
+    {
+      "category": "sun_protection",
+      "question": "Sun protection why important aanu?",
+      "answer": "Sun exposure damage and pigmentation avoid cheyyan sunscreen use cheyyanam."
+    },
+    {
+      "category": "maintenance_frequency",
+      "question": "Maintenance ethra often cheyyanam?",
+      "answer": "Service type anusarich 2 to 6 weeks interval-il maintenance cheyyunnath nallath aanu."
+    },
+    {
+      "category": "product_usage",
+      "question": "Normal products use cheyyan pattumo?",
+      "answer": "Recommended products use cheyyunnath better aanu initial days-il."
+    },
+    {
+      "category": "followup",
+      "question": "Follow-up appointment venamo?",
+      "answer": "Yes, long-term results maintain cheyyan follow-up important aanu."
+    },
+    {
+      "category": "consultation",
+      "question": "Aftercare doubts clarify cheyyan pattumo?",
+      "answer": "Yes, parlour staff always aftercare guidance provide cheyyum."
+    },
+    {
+      "category": "facial_overview",
+      "question": "Facial services enthellam available aanu?",
+      "answer": "Basic facial, gold facial, fruit facial, hydrating facial, acne facial, anti-aging facial, and skin brightening treatments ellam available aanu."
+    },
+    {
+      "category": "best_facial",
+      "question": "Glowing skin-inu best facial ethanu?",
+      "answer": "Skin type depend cheyyum, pakshe hydrating and fruit facials usually glow increase cheyyum."
+    },
+    {
+      "category": "facial_duration",
+      "question": "Facial ethra neram edukum?",
+      "answer": "Usually 45 minutes muthal 90 minutes vare edukum."
+    },
+    {
+      "category": "facial_safety",
+      "question": "Sensitive skin-il facial safe aano?",
+      "answer": "Yes, gentle products use cheythal sensitive skin-inu safe aanu."
+    },
+    {
+      "category": "acne_treatment",
+      "question": "Acne skin-inu facial help cheyyumo?",
+      "answer": "Yes, acne control facials and skincare treatments help cheyyum breakouts kurakkan."
+    },
+    {
+      "category": "pigmentation",
+      "question": "Dark spots and pigmentation kurakkan facial help cheyyumo?",
+      "answer": "Yes, regular treatment cheythal pigmentation kurayan chance undu."
+    },
+    {
+      "category": "aftercare",
+      "question": "Facial kazhinjal entha care venam?",
+      "answer": "Heavy makeup avoid cheyyuka, sun exposure kurakkuka, and mild skincare use cheyyuka."
+    },
+    {
+      "category": "facial_frequency",
+      "question": "Facial ethra often cheyyanam?",
+      "answer": "Usually 3 to 6 weeks once cheyyunnath nallath aanu."
+    },
+    {
+      "category": "redness",
+      "question": "Facial kazhinjal redness normal aano?",
+      "answer": "Yes, mild redness normal aanu, kurachu neram kazhinjal settle aavum."
+    },
+    {
+      "category": "makeup_after_facial",
+      "question": "Facial kazhinjal makeup use cheyyan pattumo?",
+      "answer": "Kurachu neram wait cheythu mathram makeup use cheyyuka."
+    },
+    {
+      "category": "skin_analysis",
+      "question": "Facial munpu skin check cheyyumo?",
+      "answer": "Yes, skin analysis cheythu best facial recommend cheyyum."
+    },
+    {
+      "category": "organic_products",
+      "question": "Herbal or organic products use cheyyumo?",
+      "answer": "Yes, available aanu depending on service and skin type."
+    },
+    {
+      "category": "anti_aging",
+      "question": "Anti-aging facial available aano?",
+      "answer": "Yes, fine lines and wrinkles reduce cheyyan anti-aging treatments available aanu."
+    },
+    {
+      "category": "cost",
+      "question": "Facial cost ethra aanu?",
+      "answer": "Cost facial type, products use cheyyunnath, and duration depend cheyyum."
+    },
+    {
+      "category": "consultation",
+      "question": "Facial select cheyyan consultation kittumo?",
+      "answer": "Yes, professionals skin type anusarich best facial suggest cheyyum."
+    },
+    {
+      "category": "bridal_overview",
+      "question": "Bridal makeup packages enthellam available aanu?",
+      "answer": "Basic bridal makeup, HD makeup, airbrush makeup, engagement makeup, reception makeup, and full bridal packages ellam available aanu."
+    },
+    {
+      "category": "package_inclusion",
+      "question": "Bridal package-il enthellam include cheyyum?",
+      "answer": "Makeup, hairstyle, saree draping, skin prep, touch-up support, and sometimes pre-bridal care ellam include aavum."
+    },
+    {
+      "category": "trial_makeup",
+      "question": "Bridal makeup trial available aano?",
+      "answer": "Yes, trial makeup available aanu bride-inu look finalize cheyyan."
+    },
+    {
+      "category": "booking_time",
+      "question": "Bridal makeup eppozha book cheyyanam?",
+      "answer": "At least few weeks or months munpu book cheyyunnath best aanu, especially peak season-il."
+    },
+    {
+      "category": "home_service",
+      "question": "Bridal makeup home service kittumo?",
+      "answer": "Yes, home or venue bridal makeup service available aanu depending on location."
+    },
+    {
+      "category": "makeup_type",
+      "question": "Waterproof bridal makeup available aano?",
+      "answer": "Yes, long-lasting and waterproof makeup options available aanu."
+    },
+    {
+      "category": "hairstyle",
+      "question": "Bridal package-il hairstyle include aano?",
+      "answer": "Yes, most bridal packages-il hairstyle included aanu."
+    },
+    {
+      "category": "customization",
+      "question": "Bridal makeup customize cheyyan pattumo?",
+      "answer": "Yes, dress, skin tone, and preference anusarich customize cheyyam."
+    },
+    {
+      "category": "family_makeup",
+      "question": "Family members-inu makeup include cheyyumo?",
+      "answer": "Yes, bridesmaid and family makeup add cheyyan packages available aanu."
+    },
+    {
+      "category": "duration",
+      "question": "Bridal makeup ethra neram edukum?",
+      "answer": "Usually 2 to 4 hours vare edukum depending on look."
+    },
+    {
+      "category": "pre_bridal",
+      "question": "Pre-bridal services available aano?",
+      "answer": "Yes, facials, skin care, hair care, and grooming services pre-bridal package-il include cheyyam."
+    },
+    {
+      "category": "product_quality",
+      "question": "Bridal makeup-inu use cheyyunna products safe aano?",
+      "answer": "Yes, professional and premium quality products use cheyyum."
+    },
+    {
+      "category": "touchup",
+      "question": "Bridal makeup touch-up kittumo?",
+      "answer": "Yes, package anusarich touch-up support available aanu."
+    },
+    {
+      "category": "pricing",
+      "question": "Bridal makeup package cost ethra aanu?",
+      "answer": "Cost package type, services included, and customization depend cheyyum."
+    },
+    {
+      "category": "consultation",
+      "question": "Bridal makeup munpu consultation kittumo?",
+      "answer": "Yes, consultation cheythu best look and package select cheyyam."
+    },
+    {
+      "category": "makeup_services_overview",
+      "question": "Makeup services enthellam available aanu?",
+      "answer": "Party makeup, bridal makeup, HD makeup, airbrush makeup, engagement makeup, and special occasion makeup ellam available aanu."
+    },
+    {
+      "category": "party_makeup",
+      "question": "Party makeup cheyyan pattumo?",
+      "answer": "Yes, birthday, wedding, engagement, corporate events ellam-inu party makeup available aanu."
+    },
+    {
+      "category": "hd_makeup",
+      "question": "HD makeup enthaanu?",
+      "answer": "HD makeup professional finish nalkunna makeup aanu, camera and video-inu perfect look kittum."
+    },
+    {
+      "category": "airbrush_makeup",
+      "question": "Airbrush makeup entha special aanu?",
+      "answer": "Airbrush makeup spray technique use cheythu smooth and long-lasting finish provide cheyyum."
+    },
+    {
+      "category": "waterproof_makeup",
+      "question": "Waterproof makeup available aano?",
+      "answer": "Yes, long-lasting and waterproof makeup options available aanu."
+    },
+    {
+      "category": "duration",
+      "question": "Makeup cheyyan ethra neram edukum?",
+      "answer": "Usually 45 minutes muthal 2 hours vare edukum depending on style."
+    },
+    {
+      "category": "products",
+      "question": "Which makeup products use cheyyum?",
+      "answer": "Professional branded and skin-friendly products use cheyyum based on skin type."
+    },
+    {
+      "category": "sensitive_skin",
+      "question": "Sensitive skin-il makeup safe aano?",
+      "answer": "Yes, skin-safe products use cheythal sensitive skin-inu safe aanu."
+    },
+    {
+      "category": "trial",
+      "question": "Makeup trial available aano?",
+      "answer": "Yes, bridal and special events-inu trial makeup available aanu."
+    },
+    {
+      "category": "hairstyle",
+      "question": "Makeup package-il hairstyle include aano?",
+      "answer": "Some packages-il hairstyle include aayirikkum, allenkil add-on aayi edukkam."
+    },
+    {
+      "category": "home_service",
+      "question": "Makeup home service kittumo?",
+      "answer": "Yes, home and venue makeup services available aanu based on booking."
+    },
+    {
+      "category": "makeup_duration",
+      "question": "Makeup last cheyyan ethra neram varum?",
+      "answer": "Proper setting cheythal makeup many hours vare last cheyyum."
+    },
+    {
+      "category": "aftercare",
+      "question": "Makeup kazhinjal entha care venam?",
+      "answer": "Face avoid touching, setting spray use cheyyuka, and proper removal cheyyuka."
+    },
+    {
+      "category": "pricing",
+      "question": "Makeup service cost ethra aanu?",
+      "answer": "Cost makeup type, products, and service duration depend cheyyum."
+    },
+    {
+      "category": "consultation",
+      "question": "Makeup select cheyyan consultation kittumo?",
+      "answer": "Yes, skin type and event anusarich best makeup suggest cheyyum."
+    },
+    {
+      "category": "waxing_overview",
+      "question": "Waxing and hair removal services enthellam available aanu?",
+      "answer": "Full body waxing, facial waxing, arm waxing, leg waxing, bikini waxing, and underarm hair removal ellam available aanu."
+    },
+    {
+      "category": "waxing_types",
+      "question": "Which types of waxing available aanu?",
+      "answer": "Normal wax, chocolate wax, Rica wax, fruit wax, and sensitive skin waxing options available aanu."
+    },
+    {
+      "category": "waxing_pain",
+      "question": "Waxing painful aano?",
+      "answer": "Kurachu discomfort undavum, pakshe professional way-il cheyyumbo pain manageable aayirikkum."
+    },
+    {
+      "category": "hair_length",
+      "question": "Waxing-inu hair ethra length venam?",
+      "answer": "Best result-inu hair kurachu growth undavunnath nallath aanu, around small visible length."
+    },
+    {
+      "category": "duration",
+      "question": "Waxing session ethra neram edukum?",
+      "answer": "Area depend cheyyum, 15 minutes muthal 1 hour vare aavum."
+    },
+    {
+      "category": "sensitive_skin",
+      "question": "Sensitive skin-il waxing safe aano?",
+      "answer": "Yes, proper products and gentle technique use cheythal safe aanu."
+    },
+    {
+      "category": "aftercare",
+      "question": "Waxing kazhinjal entha care venam?",
+      "answer": "Hot shower, sun exposure, tight clothes, and harsh products 24 hours avoid cheyyuka."
+    },
+    {
+      "category": "frequency",
+      "question": "Waxing ethra often cheyyanam?",
+      "answer": "Usually 3 to 6 weeks once waxing cheyyunnath nallath aanu."
+    },
+    {
+      "category": "ingrown_hair",
+      "question": "Waxing kazhinjal ingrown hair varumo?",
+      "answer": "Sometimes varam, regular exfoliation cheythal reduce cheyyam."
+    },
+    {
+      "category": "waxing_vs_shaving",
+      "question": "Waxing vs shaving which better aanu?",
+      "answer": "Waxing longer smooth result nalkum, shaving quick but short-lasting aanu."
+    },
+    {
+      "category": "facial_hair",
+      "question": "Facial hair removal available aano?",
+      "answer": "Yes, upper lip, chin, eyebrow waxing/threading ellam available aanu."
+    },
+    {
+      "category": "full_body",
+      "question": "Full body waxing package kittumo?",
+      "answer": "Yes, customized full body waxing packages available aanu."
+    },
+    {
+      "category": "hygiene",
+      "question": "Waxing hygiene maintain cheyyumo?",
+      "answer": "Yes, all tools and materials proper hygienic way-il use cheyyum."
+    },
+    {
+      "category": "pricing",
+      "question": "Waxing cost ethra aanu?",
+      "answer": "Cost body area, wax type, and package depend cheyyum."
+    },
+    {
+      "category": "consultation",
+      "question": "Hair removal select cheyyan consultation kittumo?",
+      "answer": "Yes, skin type anusarich best method recommend cheyyum."
+    },
+    {
+      "category": "threading_overview",
+      "question": "Eyebrow threading enthaanu?",
+      "answer": "Eyebrow threading ennu parayunnath cotton thread use cheythu unwanted facial hair remove cheyyunna safe and precise method aanu."
+    },
+    {
+      "category": "eyebrow_shaping",
+      "question": "Eyebrow shape customize cheyyan pattumo?",
+      "answer": "Yes, face shape anusarich eyebrow shape customize cheythu tharum."
+    },
+    {
+      "category": "threading_pain",
+      "question": "Threading painful aano?",
+      "answer": "Kurachu discomfort undavum, pakshe quick process aayathukond pain adhikam feel aavilla."
+    },
+    {
+      "category": "duration",
+      "question": "Eyebrow threading ethra neram edukum?",
+      "answer": "Usually 10 muthal 20 minutes vare mathi."
+    },
+    {
+      "category": "sensitive_skin",
+      "question": "Sensitive skin-il threading safe aano?",
+      "answer": "Yes, chemical illatha method aayathukond sensitive skin-inu safe aanu."
+    },
+    {
+      "category": "frequency",
+      "question": "Threading ethra often cheyyanam?",
+      "answer": "2 to 4 weeks interval-il threading cheyyunnath nallath aanu."
+    },
+    {
+      "category": "aftercare",
+      "question": "Threading kazhinjal entha care venam?",
+      "answer": "Face touch cheyyathirikkuka, makeup kurachu neram avoid cheyyuka, and harsh products use cheyyaruthu."
+    },
+    {
+      "category": "redness",
+      "question": "Threading kazhinjal redness normal aano?",
+      "answer": "Yes, mild redness normal aanu, kurachu neram kazhinjal settle aavum."
+    },
+    {
+      "category": "facial_threading",
+      "question": "Full face threading available aano?",
+      "answer": "Yes, upper lip, chin, forehead, and full face threading ellam available aanu."
+    },
+    {
+      "category": "hygiene",
+      "question": "Threading hygiene maintain cheyyumo?",
+      "answer": "Yes, clean and hygienic thread and tools use cheyyum."
+    },
+    {
+      "category": "walk_in",
+      "question": "Walk-in threading available aano?",
+      "answer": "Yes, walk-in accepted aanu availability depend cheyyum."
+    },
+    {
+      "category": "men_services",
+      "question": "Men-inu threading available aano?",
+      "answer": "Yes, men grooming services-inu threading available aanu."
+    },
+    {
+      "category": "pricing",
+      "question": "Threading cost ethra aanu?",
+      "answer": "Cost service area and parlour pricing depend cheyyum."
+    },
+    {
+      "category": "skin_irritation",
+      "question": "Threading kazhinjal irritation varumo?",
+      "answer": "Rare aayi mild irritation varam, pakshe normal aayi quickly settle aavum."
+    },
+    {
+      "category": "consultation",
+      "question": "Best eyebrow shape select cheyyan help kittumo?",
+      "answer": "Yes, professionals face structure anusarich best shape suggest cheyyum."
+    },
+    {
+      "category": "manicure_pedicure_overview",
+      "question": "Manicure and pedicure enthaanu?",
+      "answer": "Manicure hand and nails care aanu, pedicure foot and toenails care aanu."
+    },
+    {
+      "category": "services_available",
+      "question": "Manicure and pedicure-il enthellam services available aanu?",
+      "answer": "Basic manicure, spa manicure, gel manicure, basic pedicure, spa pedicure, nail shaping, and cuticle care ellam available aanu."
+    },
+    {
+      "category": "duration",
+      "question": "Manicure and pedicure ethra neram edukum?",
+      "answer": "Usually 30 minutes muthal 90 minutes vare service depend cheyyum."
+    },
+    {
+      "category": "spa_benefits",
+      "question": "Spa manicure/pedicure entha benefit?",
+      "answer": "Skin soft aavum, nails healthy aavum, and relaxation kittum."
+    },
+    {
+      "category": "gel_polish",
+      "question": "Gel nail polish available aano?",
+      "answer": "Yes, long-lasting gel polish services available aanu."
+    },
+    {
+      "category": "nail_extensions",
+      "question": "Nail extensions kittumo?",
+      "answer": "Yes, different styles and lengths-il nail extensions available aanu."
+    },
+    {
+      "category": "hygiene",
+      "question": "Tools hygienic aano?",
+      "answer": "Yes, every customer-inu munpu and shesham tools properly sanitize cheyyum."
+    },
+    {
+      "category": "sensitive_skin",
+      "question": "Sensitive skin-inu safe aano?",
+      "answer": "Yes, gentle and skin-safe products use cheyyum."
+    },
+    {
+      "category": "nail_polish_duration",
+      "question": "Nail polish ethra neram last cheyyum?",
+      "answer": "Normal polish kurachu days vare, gel polish 2 to 3 weeks vare last cheyyum."
+    },
+    {
+      "category": "aftercare",
+      "question": "Manicure/pedicure kazhinjal entha care venam?",
+      "answer": "Hands and feet moisturize cheyyuka, harsh chemicals avoid cheyyuka, and gloves use cheyyuka."
+    },
+    {
+      "category": "men_services",
+      "question": "Men-inu manicure and pedicure available aano?",
+      "answer": "Yes, men grooming services ellam available aanu."
+    },
+    {
+      "category": "ingrown_nails",
+      "question": "Pedicure ingrown nail issue solve cheyyumo?",
+      "answer": "Basic care cheyyam, but severe cases-inu medical advice venam."
+    },
+    {
+      "category": "walk_in",
+      "question": "Walk-in available aano?",
+      "answer": "Yes, availability undengil walk-in accept cheyyum."
+    },
+    {
+      "category": "pricing",
+      "question": "Manicure and pedicure cost ethra aanu?",
+      "answer": "Cost service type, spa package, and salon depend cheyyum."
+    },
+    {
+      "category": "consultation",
+      "question": "Best nail care select cheyyan help kittumo?",
+      "answer": "Yes, professionals nee-inu suitable treatment suggest cheyyum."
+    },
+    {
+      "category": "pricing_overview",
+      "question": "Beauty parlour service pricing engane decide cheyyum?",
+      "answer": "Service type, product usage, time duration, and stylist experience based aayi pricing decide cheyyum."
+    },
+    {
+      "category": "price_list",
+      "question": "Full price list kittumo?",
+      "answer": "Yes, parlour-il direct aayi allenkil WhatsApp/online vazhi full price list request cheyyam."
+    },
+    {
+      "category": "service_cost_variation",
+      "question": "Same service-inu price different aayirikkumo?",
+      "answer": "Yes, hair length, skin type, and package add-ons depend cheythu price vary cheyyam."
+    },
+    {
+      "category": "offers_available",
+      "question": "Current offers undo?",
+      "answer": "Yes, seasonal and festival offers periodically available aavum."
+    },
+    {
+      "category": "discount_packages",
+      "question": "Combo packages available aano?",
+      "answer": "Yes, facial + waxing, hair spa + cut, bridal packages pole combo deals available aanu."
+    },
+    {
+      "category": "membership",
+      "question": "Membership plans undo?",
+      "answer": "Yes, regular customers-inu loyalty and membership discounts available aanu."
+    },
+    {
+      "category": "festival_offers",
+      "question": "Festival offers kittumo?",
+      "answer": "Yes, Onam, Christmas, New Year pole festivals-il special offers varum."
+    },
+    {
+      "category": "student_discount",
+      "question": "Student discount available aano?",
+      "answer": "Some selected services-inu student discount available aayirikkam valid ID use cheythal."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Which payment methods accept cheyyum?",
+      "answer": "Cash, UPI, card payments, and digital wallets ellam accept cheyyum."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Advance payment venamo?",
+      "answer": "Bridal and premium services-inu advance payment venam aayirikkam."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Refund available aano?",
+      "answer": "Refund policy service and cancellation terms depend cheyyum."
+    },
+    {
+      "category": "custom_packages",
+      "question": "Budget anusarich package customize cheyyan pattumo?",
+      "answer": "Yes, nee budget paranjal customized package arrange cheyyam."
+    },
+    {
+      "category": "offer_validity",
+      "question": "Offers ethra neram valid aayirikkum?",
+      "answer": "Offer duration promotion anusarich vary cheyyum."
+    },
+    {
+      "category": "hidden_charges",
+      "question": "Hidden charges undo?",
+      "answer": "No, all charges service before clearly inform cheyyum."
+    },
+    {
+      "category": "consultation_cost",
+      "question": "Consultation free aano?",
+      "answer": "Some salons free consultation provide cheyyum, others minimal fee undavum."
+    },
+    {
+      "category": "products_overview",
+      "question": "Beauty parlour-il use cheyyunna products enthellam aanu?",
+      "answer": "Professional salon-grade products, branded skincare, haircare, and makeup products aanu use cheyyunnath."
+    },
+    {
+      "category": "product_safety",
+      "question": "Products safe aano skin and hair-inu?",
+      "answer": "Yes, majority products dermatologically tested and safe for most skin and hair types aanu."
+    },
+    {
+      "category": "organic_products",
+      "question": "Herbal or organic products available aano?",
+      "answer": "Yes, herbal and organic product options available aanu based on service and customer preference."
+    },
+    {
+      "category": "sensitive_skin",
+      "question": "Sensitive skin-inu products safe aano?",
+      "answer": "Yes, gentle and skin-friendly products select cheythu use cheyyum sensitive skin-inu."
+    },
+    {
+      "category": "patch_test",
+      "question": "Chemical services munpu patch test cheyyumo?",
+      "answer": "Yes, hair color and skin treatments-inu munpu patch test recommend cheyyum."
+    },
+    {
+      "category": "allergy",
+      "question": "Enikku allergy undengil entha cheyyanam?",
+      "answer": "Service munpu staff-ne inform cheyyuka, safe alternative products use cheyyum."
+    },
+    {
+      "category": "product_quality",
+      "question": "Low quality products use cheyyumo?",
+      "answer": "No, only trusted and high-quality professional products mathram use cheyyum."
+    },
+    {
+      "category": "tool_hygiene",
+      "question": "Tools sanitize cheyyumo?",
+      "answer": "Yes, every customer-inu munpu and shesham tools properly sanitize cheyyum."
+    },
+    {
+      "category": "disposable_items",
+      "question": "Disposable items use cheyyumo?",
+      "answer": "Yes, gloves, towels, applicators pole disposable items use cheyyum hygiene maintain cheyyan."
+    },
+    {
+      "category": "chemical_safety",
+      "question": "Hair color and chemical treatments safe aano?",
+      "answer": "Yes, trained professionals cheyyumbo safe products use cheyyum."
+    },
+    {
+      "category": "product_storage",
+      "question": "Products correct way-il store cheyyumo?",
+      "answer": "Yes, quality maintain cheyyan proper storage conditions follow cheyyum."
+    },
+    {
+      "category": "expired_products",
+      "question": "Expired products use cheyyumo?",
+      "answer": "No, always fresh and valid expiry products mathram use cheyyum."
+    },
+    {
+      "category": "makeup_safety",
+      "question": "Makeup skin-inu safe aano long time use cheyyan?",
+      "answer": "Yes, long-lasting but skin-safe makeup products use cheyyum."
+    },
+    {
+      "category": "consultation",
+      "question": "Product select cheyyan guidance kittumo?",
+      "answer": "Yes, skin and hair type anusarich best products suggest cheyyum."
+    },
+    {
+      "category": "safety_standards",
+      "question": "Safety standards follow cheyyumo?",
+      "answer": "Yes, hygiene, safety, and professional standards strictly follow cheyyum."
+    },
+    {
+      "category": "location_overview",
+      "question": "Beauty parlour evide aanu located?",
+      "answer": "Parlour city center allenkil easy access area-il aanu located, exact location Google Maps vazhi kittum."
+    },
+    {
+      "category": "directions",
+      "question": "Parlour-il ethra easy aayi reach cheyyam?",
+      "answer": "Google Maps link, WhatsApp location, allenkil call cheythu directions easily ariyam."
+    },
+    {
+      "category": "nearest_landmark",
+      "question": "Nearest landmark enthaanu?",
+      "answer": "Parlour nearby famous landmarks reference cheythu easy aayi kandupidikkam."
+    },
+    {
+      "category": "parking",
+      "question": "Parking facility available aano?",
+      "answer": "Yes, parking facility available aanu but availability location depend cheyyum."
+    },
+    {
+      "category": "public_transport",
+      "question": "Public transport use cheythu varan pattumo?",
+      "answer": "Yes, bus, metro, auto ellam use cheythu easily reach cheyyam."
+    },
+    {
+      "category": "opening_hours",
+      "question": "Parlour opening time enthaanu?",
+      "answer": "Usually morning 9 AM allenkil 10 AM-il open aavum."
+    },
+    {
+      "category": "closing_hours",
+      "question": "Parlour closing time enthaanu?",
+      "answer": "Evening 6 PM muthal 8 PM vare close aavum depending on schedule."
+    },
+    {
+      "category": "weekend_timing",
+      "question": "Weekend-il open aavumo?",
+      "answer": "Yes, weekend-il open aavum, but crowd adhikam aayirikkum."
+    },
+    {
+      "category": "holiday",
+      "question": "Public holidays-il open aano?",
+      "answer": "Some holidays-il close aavum, emergency service available aayirikkam."
+    },
+    {
+      "category": "festival",
+      "question": "Festival days-il open aavumo?",
+      "answer": "Festival days-il limited timing allenkil holiday aayirikkam."
+    },
+    {
+      "category": "appointment_timing",
+      "question": "Appointment timing adjust cheyyan pattumo?",
+      "answer": "Yes, availability anusarich timing adjust cheyyam."
+    },
+    {
+      "category": "late_evening",
+      "question": "Late evening appointment kittumo?",
+      "answer": "Yes, prior booking undengil late slots arrange cheyyam."
+    },
+    {
+      "category": "early_morning",
+      "question": "Early morning service kittumo?",
+      "answer": "Request cheythal early morning slots available aayirikkam."
+    },
+    {
+      "category": "timing_changes",
+      "question": "Timing change aavumo sometimes?",
+      "answer": "Yes, special occasions and holidays-il timing change aavum."
+    },
+    {
+      "category": "contact_hours",
+      "question": "Call cheyyan best time ethanu?",
+      "answer": "Working hours-il call cheyyunnath best aanu, WhatsApp support kittum."
+    },
+    {
+      "category": "home_service_overview",
+      "question": "Beauty parlour home services available aano?",
+      "answer": "Yes, selected beauty services home service aayi provide cheyyum based on availability and location."
+    },
+    {
+      "category": "home_service_booking",
+      "question": "Home service book cheyyan engane cheyyam?",
+      "answer": "Phone call, WhatsApp message, allenkil online booking vazhi home service request cheyyam."
+    },
+    {
+      "category": "home_service_area",
+      "question": "Home service evide ellam available aanu?",
+      "answer": "Home service coverage area parlour location anusarich vary cheyyum."
+    },
+    {
+      "category": "home_service_charges",
+      "question": "Home service-inu extra charge undo?",
+      "answer": "Yes, travel and convenience charge home service-inu apply aavum."
+    },
+    {
+      "category": "home_service_services",
+      "question": "Evide ellam services home-il kittum?",
+      "answer": "Threading, waxing, facial, hair care, makeup pole selected services home-il available aanu."
+    },
+    {
+      "category": "home_service_bridal",
+      "question": "Bridal makeup home service available aano?",
+      "answer": "Yes, bridal makeup and dressing home or venue-il provide cheyyum."
+    },
+    {
+      "category": "home_service_safety",
+      "question": "Home service safe and hygienic aano?",
+      "answer": "Yes, professional and hygienic tools use cheythu service provide cheyyum."
+    },
+    {
+      "category": "home_service_duration",
+      "question": "Home service ethra neram edukum?",
+      "answer": "Service type anusarich duration vary cheyyum, sometimes salon-inu compare cheyyumbo kurachu extra time edukkam."
+    },
+    {
+      "category": "home_service_staff",
+      "question": "Trained staff varumo home service-inu?",
+      "answer": "Yes, experienced and trained professionals aanu varunnath."
+    },
+    {
+      "category": "home_service_products",
+      "question": "Products home service-inu kondu varumo?",
+      "answer": "Yes, required tools and products staff kondu varum."
+    },
+    {
+      "category": "home_service_cancellation",
+      "question": "Home service cancel cheyyan pattumo?",
+      "answer": "Yes, prior notice koduthal cancel or reschedule cheyyam."
+    },
+    {
+      "category": "home_service_payment",
+      "question": "Home service payment engane cheyyam?",
+      "answer": "Cash, UPI, card, and digital payments accept cheyyum."
+    },
+    {
+      "category": "home_service_men_women",
+      "question": "Men and women-inu home service available aano?",
+      "answer": "Yes, both men and women-inu selected services available aanu."
+    },
+    {
+      "category": "home_service_booking_time",
+      "question": "Home service eppozha book cheyyanam?",
+      "answer": "Availability confirm cheyyan advance booking cheyyunnath better aanu."
+    },
+    {
+      "category": "home_service_emergency",
+      "question": "Urgent home service kittumo?",
+      "answer": "Yes, availability undengil urgent requests consider cheyyum."
+    }
+  ]
+}

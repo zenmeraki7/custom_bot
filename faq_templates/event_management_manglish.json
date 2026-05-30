@@ -1,0 +1,194 @@
+{
+  "faqs": [
+    {
+      "category": "company_overview",
+      "questions": [
+        "Event management services undo?",
+        "Ethokke events organize cheyyum?",
+        "Ithu event management company ano?",
+        "Entokke services provide cheyyunnu?"
+      ],
+      "answer": "Athe, weddings, birthdays, corporate events, parties, stage shows, special occasions ellathinum complete event management services provide cheyyunnu."
+    },
+    {
+      "category": "wedding_events",
+      "questions": [
+        "Wedding manage cheyyumo?",
+        "Wedding planning available ano?",
+        "Wedding decoration arrange cheyyumo?",
+        "Full wedding management undo?"
+      ],
+      "answer": "Wedding planning, decoration, stage setup, catering coordination, entertainment, guest management ellam provide cheyyunnu."
+    },
+    {
+      "category": "birthday_events",
+      "questions": [
+        "Birthday parties organize cheyyumo?",
+        "Birthday decoration undo?",
+        "Kids birthday management available ano?",
+        "Birthday themes arrange cheyyumo?"
+      ],
+      "answer": "Theme decoration, balloon setup, entertainment, photography, cake arrangements, return gifts ulppedunna birthday event services available aanu."
+    },
+    {
+      "category": "corporate_events",
+      "questions": [
+        "Corporate events manage cheyyumo?",
+        "Office event management undo?",
+        "Conference setup available ano?",
+        "Corporate party arrangements undo?"
+      ],
+      "answer": "Conferences, seminars, office celebrations, product launches, team events, corporate parties ellam handle cheyyunnu."
+    },
+    {
+      "category": "stage_decoration",
+      "questions": [
+        "Stage decoration undo?",
+        "Event stage setup available ano?",
+        "Floral decoration undo?",
+        "Theme decoration available ano?"
+      ],
+      "answer": "Customized stage decoration, floral arrangements, lighting, entrance setup, theme-based decoration ellam provide cheyyunnu."
+    },
+    {
+      "category": "sound_lighting",
+      "questions": [
+        "Sound system provide cheyyumo?",
+        "DJ setup undo?",
+        "Lighting arrangements available ano?",
+        "Music system available ano?"
+      ],
+      "answer": "Sound systems, DJ setups, stage lighting, LED walls, microphones, special effects ellam available aanu."
+    },
+    {
+      "category": "photography_videography",
+      "questions": [
+        "Photography service undo?",
+        "Videography available ano?",
+        "Wedding photography undo?",
+        "Drone shoot available ano?"
+      ],
+      "answer": "Professional photography, videography, candid shoots, drone coverage, live streaming services ellam provide cheyyunnu."
+    },
+    {
+      "category": "catering_support",
+      "questions": [
+        "Catering arrange cheyyumo?",
+        "Food service available ano?",
+        "Buffet arrangement undo?",
+        "Catering service provide cheyyumo?"
+      ],
+      "answer": "Customized menusode catering services ellatharam eventsinum arrange cheyyan pattum."
+    },
+    {
+      "category": "venue_booking",
+      "questions": [
+        "Venue booking help cheyyumo?",
+        "Event hall booking undo?",
+        "Wedding hall arrange cheyyumo?",
+        "Party venue booking available ano?"
+      ],
+      "answer": "Event type, budget, guest count anusarikku venue selectionum bookingum assist cheyyunnu."
+    },
+    {
+      "category": "theme_events",
+      "questions": [
+        "Theme events organize cheyyumo?",
+        "Customized theme party undo?",
+        "Theme decoration available ano?",
+        "Creative event themes arrange cheyyumo?"
+      ],
+      "answer": "Birthdays, weddings, baby showers, anniversaries, corporate functionsinu customized theme events provide cheyyunnu."
+    },
+    {
+      "category": "entertainment_services",
+      "questions": [
+        "Entertainment arrangements undo?",
+        "Live music arrange cheyyumo?",
+        "Dance performance available ano?",
+        "Anchor service undo?"
+      ],
+      "answer": "DJs, live bands, dancers, anchors, celebrity appearances, entertainment programs ellam arrange cheyyan pattum."
+    },
+    {
+      "category": "budget_planning",
+      "questions": [
+        "Budget-il event plan cheyyan pattumo?",
+        "Budget-friendly packages undo?",
+        "Affordable event management available ano?",
+        "Customized packages available ano?"
+      ],
+      "answer": "Different budgets um requirements um anusarikku customizable event packages available aanu."
+    },
+    {
+      "category": "booking_process",
+      "questions": [
+        "Event engane book cheyyam?",
+        "Booking engane confirm cheyyam?",
+        "Advance booking undo?",
+        "Ethra nerathe book cheyyanam?"
+      ],
+      "answer": "Phone, WhatsApp, allenkil direct visit vazhi contact cheythu event discuss cheythu booking confirm cheyyam."
+    },
+    {
+      "category": "advance_payment",
+      "questions": [
+        "Advance payment venamo?",
+        "Booking advance undo?",
+        "Installment ayi payment cheyyan pattumo?",
+        "Payment terms entha?"
+      ],
+      "answer": "Booking confirm cheyyanum arrangements start cheyyanum advance payment usually required aanu."
+    },
+    {
+      "category": "event_customization",
+      "questions": [
+        "Event customize cheyyan pattumo?",
+        "Customized decoration undo?",
+        "Own theme select cheyyan pattumo?",
+        "Arrangements modify cheyyan pattumo?"
+      ],
+      "answer": "Customer preferences um requirements um anusarikku event arrangements customize cheyyan pattum."
+    },
+    {
+      "category": "guest_management",
+      "questions": [
+        "Guests manage cheyyumo?",
+        "Guest coordination undo?",
+        "Invitation management available ano?",
+        "Reception support undo?"
+      ],
+      "answer": "Guest coordination, reception support, seating arrangements, hospitality services ellam provide cheyyunnu."
+    },
+    {
+      "category": "outdoor_events",
+      "questions": [
+        "Outdoor events organize cheyyumo?",
+        "Beach wedding undo?",
+        "Outdoor stage setup available ano?",
+        "Destination events available ano?"
+      ],
+      "answer": "Outdoor events, destination weddings, beach events, open-air celebrations ellam organize cheyyunnu."
+    },
+    {
+      "category": "offers_discount",
+      "questions": [
+        "Offers undo?",
+        "Discount packages available ano?",
+        "Seasonal offers undo?",
+        "Festival event offers available ano?"
+      ],
+      "answer": "Selected event packagesinu special offersum seasonal discounts um available ayirikkum."
+    },
+    {
+      "category": "contact_support",
+      "questions": [
+        "Engane contact cheyyam?",
+        "WhatsApp number undo?",
+        "Location kittumo?",
+        "Office evide aanu?"
+      ],
+      "answer": "Phone, WhatsApp, social media allenkil direct office visit cheythu contact cheyyam."
+    }
+  ]
+}

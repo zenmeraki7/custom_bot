@@ -1,0 +1,604 @@
+{
+  "faqs": [
+    {
+      "category": "product_availability",
+      "question": "Ee electronic product stock-il undo?",
+      "answer": "Yes, current stock availability check cheythu confirm cheyyam."
+    },
+    {
+      "category": "out_of_stock",
+      "question": "Product out of stock aano?",
+      "answer": "Currently stock illenkil next restock date inform cheyyam."
+    },
+    {
+      "category": "new_arrival",
+      "question": "New electronic models vannittundo?",
+      "answer": "Yes, latest models and new arrivals regularly update cheyyunnu."
+    },
+    {
+      "category": "color_availability",
+      "question": "Different colors available aano?",
+      "answer": "Yes, selected products multiple colors-il available aayirikkam."
+    },
+    {
+      "category": "storage_variants",
+      "question": "Different storage variants kittumo?",
+      "answer": "Yes, product model anusarich different storage options available aanu."
+    },
+    {
+      "category": "brand_availability",
+      "question": "Specific brand products available aano?",
+      "answer": "Yes, popular electronic brands stock-il available aayirikkam."
+    },
+    {
+      "category": "pre_booking",
+      "question": "Out of stock product pre-book cheyyan pattumo?",
+      "answer": "Yes, selected products-inu pre-booking facility available aanu."
+    },
+    {
+      "category": "store_pickup",
+      "question": "Online order cheythu store pickup cheyyan pattumo?",
+      "answer": "Yes, availability undengil store pickup option choose cheyyam."
+    },
+    {
+      "category": "same_day_delivery",
+      "question": "Same day delivery available aano?",
+      "answer": "Location and stock availability depend cheythu same day delivery kittam."
+    },
+    {
+      "category": "availability_check",
+      "question": "Product availability engane check cheyyam?",
+      "answer": "Website, app, WhatsApp, allenkil customer support vazhi stock check cheyyam."
+    },
+    {
+      "category": "limited_stock",
+      "question": "Limited stock ennu parayunnath entha?",
+      "answer": "Product kurachu quantity mathram baki undennu artham aanu."
+    },
+    {
+      "category": "restock_notification",
+      "question": "Product restock aayal notification kittumo?",
+      "answer": "Yes, notify me option use cheythal restock alert kittum."
+    },
+    {
+      "category": "discontinued_product",
+      "question": "Ee model discontinue aayo?",
+      "answer": "Some old models discontinue aayirikkam, alternative products suggest cheyyam."
+    },
+    {
+      "category": "bulk_order",
+      "question": "Bulk quantity available aano?",
+      "answer": "Bulk orders availability warehouse stock depend cheyyum."
+    },
+    {
+      "category": "reservation",
+      "question": "Product reserve cheyyan pattumo?",
+      "answer": "Yes, selected electronics products temporary reserve cheyyan pattum."
+    },
+    {
+      "category": "product_overview",
+      "question": "Electronics product specification enthaanu?",
+      "answer": "Electronics product specification ennu parayunnath product-inde features, performance, and technical details aanu."
+    },
+    {
+      "category": "display",
+      "question": "Display specification engane check cheyyam?",
+      "answer": "Display size, resolution, refresh rate, and screen type (LCD/LED/OLED) check cheyyanam."
+    },
+    {
+      "category": "processor",
+      "question": "Processor specification entha important aanu?",
+      "answer": "Processor speed and core count device performance decide cheyyum, athukond athu very important aanu."
+    },
+    {
+      "category": "ram_storage",
+      "question": "RAM and storage engane select cheyyam?",
+      "answer": "More RAM multitasking improve cheyyum, storage capacity files and apps save cheyyan help cheyyum."
+    },
+    {
+      "category": "battery",
+      "question": "Battery specification entha check cheyyanam?",
+      "answer": "Battery capacity (mAh) and backup time check cheyyanam better usage-inu."
+    },
+    {
+      "category": "camera",
+      "question": "Camera specification important aano?",
+      "answer": "Yes, megapixels, aperture, and sensor quality camera performance decide cheyyum."
+    },
+    {
+      "category": "connectivity",
+      "question": "Connectivity features enthellam check cheyyanam?",
+      "answer": "WiFi, Bluetooth version, 4G/5G support, and USB ports ellam important aanu."
+    },
+    {
+      "category": "operating_system",
+      "question": "Operating system specification enthaanu?",
+      "answer": "Device run cheyyunna software platform aanu, like Android, iOS, Windows etc."
+    },
+    {
+      "category": "build_quality",
+      "question": "Build quality specification entha indicate cheyyum?",
+      "answer": "Material quality, durability, and design strength build quality decide cheyyum."
+    },
+    {
+      "category": "warranty",
+      "question": "Warranty specification important aano?",
+      "answer": "Yes, warranty period product protection and service support guarantee cheyyum."
+    },
+    {
+      "category": "audio",
+      "question": "Audio specification check cheyyanam enna?",
+      "answer": "Speaker quality, sound output, and noise cancellation features check cheyyanam."
+    },
+    {
+      "category": "graphics",
+      "question": "Graphics specification entha important aanu?",
+      "answer": "Gaming and video performance-inu GPU and graphics capability important aanu."
+    },
+    {
+      "category": "charging",
+      "question": "Charging specification entha look cheyyanam?",
+      "answer": "Fast charging support, charger wattage, and charging port type check cheyyanam."
+    },
+    {
+      "category": "price_vs_specs",
+      "question": "Price and specification compare cheyyan engane?",
+      "answer": "Budget anusarich best features choose cheyyuka, unnecessary specs avoid cheyyuka."
+    },
+    {
+      "category": "comparison",
+      "question": "Two electronics products compare cheyyan engane?",
+      "answer": "Display, processor, battery, camera, and price compare cheythu best option select cheyyam."
+    },
+    {
+      "category": "pricing_overview",
+      "question": "Electronics products price engane decide cheyyunnu?",
+      "answer": "Brand, specifications, features, model, and market demand anusarich electronics price vary cheyyum."
+    },
+    {
+      "category": "price_variation",
+      "question": "Same product different shops-il different price why?",
+      "answer": "Shop offers, stock availability, warranty, and dealer pricing difference karanam price vary aavum."
+    },
+    {
+      "category": "discounts",
+      "question": "Electronics-inu discounts kittumo?",
+      "answer": "Yes, festival offers, seasonal sales, and online promotions-il discounts kittum."
+    },
+    {
+      "category": "offers_types",
+      "question": "Enthokke offers available aanu electronics-il?",
+      "answer": "Cashback offers, exchange offers, bank discounts, combo deals, and limited-time discounts available aanu."
+    },
+    {
+      "category": "festival_sale",
+      "question": "Festival sale-il electronics cheaper aavumo?",
+      "answer": "Yes, Onam, Christmas, New Year, Diwali time-il big discounts kittum."
+    },
+    {
+      "category": "exchange_offer",
+      "question": "Old device exchange cheythu discount kittumo?",
+      "answer": "Yes, old mobile, laptop, TV exchange cheythu new product-inu discount apply cheyyam."
+    },
+    {
+      "category": "cashback",
+      "question": "Cashback offers available aano?",
+      "answer": "Yes, bank cards and digital payments use cheythal cashback offers kittum."
+    },
+    {
+      "category": "online_vs_offline",
+      "question": "Online price cheaper aano offline shop-il compare cheyyumbo?",
+      "answer": "Sometimes online offers cheaper aavum, pakshe offline-il instant service and warranty support kittum."
+    },
+    {
+      "category": "warranty_influence",
+      "question": "Warranty price-inu impact cheyyumo?",
+      "answer": "Yes, extended warranty or brand warranty include cheyyumbo price increase aavum."
+    },
+    {
+      "category": "bundle_offers",
+      "question": "Bundle offers available aano electronics-il?",
+      "answer": "Yes, phone + accessories, laptop + bag like combo deals available aanu."
+    },
+    {
+      "category": "price_negotiation",
+      "question": "Shop-il price negotiate cheyyan pattumo?",
+      "answer": "Offline shops-il sometimes negotiation possible aanu depending on product."
+    },
+    {
+      "category": "EMI_options",
+      "question": "EMI options available aano electronics-inu?",
+      "answer": "Yes, many stores and online platforms EMI options provide cheyyum."
+    },
+    {
+      "category": "seasonal_price_change",
+      "question": "Price time-to-time change aavumo?",
+      "answer": "Yes, stock, demand, and new model release anusarich price change aavum."
+    },
+    {
+      "category": "best_time_buy",
+      "question": "Electronics buy cheyyan best time ethaanu?",
+      "answer": "Festival sales and end-of-season clearance time best offers kittan chance undu."
+    },
+    {
+      "category": "price_comparison",
+      "question": "Best price engane kandupidikkam?",
+      "answer": "Online comparison sites, multiple shops check cheythu best deal kandupidikkam."
+    },
+    {
+      "category": "warranty_overview",
+      "question": "Warranty enthaanu electronics products-il?",
+      "answer": "Warranty ennu parayunnath product manufacture defects varumbo free repair allenkil replacement kittunna time period aanu."
+    },
+    {
+      "category": "guarantee_overview",
+      "question": "Guarantee enthaanu warranty-umayi difference entha?",
+      "answer": "Guarantee ennu parayunnath product quality promise aanu, warranty ennu parayunnath specific time period-il repair service coverage aanu."
+    },
+    {
+      "category": "warranty_period",
+      "question": "Electronics warranty ethra kaalam undavum?",
+      "answer": "Usually 6 months muthal 2 years vare product category anusarich vary cheyyum."
+    },
+    {
+      "category": "warranty_coverage",
+      "question": "Warranty enthellam cover cheyyum?",
+      "answer": "Manufacturing defects, internal issues, and hardware failures cover cheyyum, pakshe physical damage cover cheyyilla."
+    },
+    {
+      "category": "physical_damage",
+      "question": "Accidental damage warranty-il cover aavumo?",
+      "answer": "No, accidental breakage, water damage, or mishandling warranty-il cover aavilla."
+    },
+    {
+      "category": "warranty_claim",
+      "question": "Warranty claim cheyyan engane?",
+      "answer": "Bill, warranty card, and product service center-il submit cheythal claim cheyyam."
+    },
+    {
+      "category": "warranty_registration",
+      "question": "Product purchase kazhinju warranty register cheyyanam?",
+      "answer": "Some brands-il online registration mandatory aanu, pakshe majority auto activate aavum."
+    },
+    {
+      "category": "repair_time",
+      "question": "Warranty repair ethra neram edukum?",
+      "answer": "Issue depend cheyyum, usually few days muthal 2 weeks vare aavum."
+    },
+    {
+      "category": "replacement_policy",
+      "question": "Product replace cheyyumo repair cheyyathirikkumbo?",
+      "answer": "Major defect undengil replacement or refurbished unit provide cheyyum."
+    },
+    {
+      "category": "extended_warranty",
+      "question": "Extended warranty edukkan pattumo?",
+      "answer": "Yes, extra cost koduthal extended warranty purchase cheyyan pattum."
+    },
+    {
+      "category": "warranty_void",
+      "question": "Warranty cancel aakunna situations enthaanu?",
+      "answer": "Unauthorized repair, physical damage, or misuse cheythal warranty void aavum."
+    },
+    {
+      "category": "service_center",
+      "question": "Warranty service evide cheyyam?",
+      "answer": "Authorized service center-il mathram warranty service available aanu."
+    },
+    {
+      "category": "online_purchase",
+      "question": "Online purchase product warranty valid aano?",
+      "answer": "Yes, authorized seller-il ninnu vangiyal warranty valid aanu."
+    },
+    {
+      "category": "bill_importance",
+      "question": "Bill illaengil warranty kittumo?",
+      "answer": "Most cases-il bill mandatory aanu warranty claim cheyyan."
+    },
+    {
+      "category": "international_warranty",
+      "question": "International warranty available aano?",
+      "answer": "Some branded electronics-il international warranty available aanu, but all products-il illa."
+    },
+    {
+      "category": "delivery_overview",
+      "question": "Electronics delivery and shipping engane work cheyyum?",
+      "answer": "Order place cheythal product confirm aayal shipping process start aavum, courier vazhi safe ayi delivery cheyyum."
+    },
+    {
+      "category": "delivery_time",
+      "question": "Electronics delivery ethra days edukkum?",
+      "answer": "Location depend cheyyum, usually 2 muthal 7 working days vare delivery aavum."
+    },
+    {
+      "category": "shipping_charges",
+      "question": "Shipping charge undo?",
+      "answer": "Some products free shipping undavum, others-inu location and weight anusarich charge varam."
+    },
+    {
+      "category": "order_tracking",
+      "question": "Order track cheyyan pattumo?",
+      "answer": "Yes, tracking ID kittum, ath use cheythu online ayi order track cheyyam."
+    },
+    {
+      "category": "delivery_delay",
+      "question": "Delivery delay aayal entha cheyyam?",
+      "answer": "Courier delay varam, pakshe customer support contact cheythal update kittum."
+    },
+    {
+      "category": "cash_on_delivery",
+      "question": "Cash on delivery available aano?",
+      "answer": "Yes, selected products-inu COD option available aayirikkum."
+    },
+    {
+      "category": "delivery_address",
+      "question": "Delivery address change cheyyan pattumo?",
+      "answer": "Order dispatch aavathinu munpu address change cheyyan pattum."
+    },
+    {
+      "category": "international_shipping",
+      "question": "International shipping available aano?",
+      "answer": "Yes, some electronics-inu international shipping available aanu depending on seller."
+    },
+    {
+      "category": "packaging_safety",
+      "question": "Electronics safe ayi pack cheyyumo?",
+      "answer": "Yes, damage avoid cheyyan protective packaging use cheyyum."
+    },
+    {
+      "category": "delivery_attempt",
+      "question": "Delivery miss aayal entha cheyyum?",
+      "answer": "Courier again attempt cheyyum, illaengil re-schedule cheyyam."
+    },
+    {
+      "category": "damaged_product",
+      "question": "Damaged product kittiyal entha cheyyam?",
+      "answer": "Immediately support contact cheyyuka, replacement or return process start cheyyum."
+    },
+    {
+      "category": "return_policy",
+      "question": "Return policy delivery kazhinjal undo?",
+      "answer": "Yes, selected products-inu return policy available aanu within return period."
+    },
+    {
+      "category": "delivery_confirmation",
+      "question": "Delivery confirm aavunnath engane ariyam?",
+      "answer": "Delivery complete aayal SMS or email confirmation varum."
+    },
+    {
+      "category": "courier_partners",
+      "question": "Which courier services use cheyyum?",
+      "answer": "Reliable courier partners use cheyyum safe and fast delivery-inu."
+    },
+    {
+      "category": "customer_support",
+      "question": "Delivery issue undengil evide contact cheyyam?",
+      "answer": "Customer support team contact cheythal delivery related help kittum."
+    },
+    {
+      "category": "electronics_services_overview",
+      "question": "Electronics repair services enthellam available aanu?",
+      "answer": "TV, mobile phone, laptop, washing machine, refrigerator, AC, and other home appliances repair services ellam available aanu."
+    },
+    {
+      "category": "mobile_repair",
+      "question": "Mobile phone repair cheyyumo?",
+      "answer": "Yes, display replacement, battery change, charging issue, software problem, and water damage repair ellam cheyyum."
+    },
+    {
+      "category": "laptop_repair",
+      "question": "Laptop repair services kittumo?",
+      "answer": "Yes, hardware and software issues, keyboard replacement, battery replacement, and virus removal ellam available aanu."
+    },
+    {
+      "category": "tv_repair",
+      "question": "TV repair cheyyumo?",
+      "answer": "Yes, LED, LCD, and Smart TV repair services available aanu."
+    },
+    {
+      "category": "appliance_repair",
+      "question": "Home appliances repair available aano?",
+      "answer": "Yes, washing machine, fridge, AC, microwave oven, and other appliances repair cheyyum."
+    },
+    {
+      "category": "repair_duration",
+      "question": "Repair cheyyan ethra neram edukum?",
+      "answer": "Problem depend cheyyum, simple issues same day fix aavum, complex repairs kurachu days edukkam."
+    },
+    {
+      "category": "home_service",
+      "question": "Home repair service kittumo?",
+      "answer": "Yes, selected electronics services home visit aayi repair cheyyum."
+    },
+    {
+      "category": "pickup_delivery",
+      "question": "Device pickup and delivery available aano?",
+      "answer": "Yes, some services-il pickup and delivery option available aanu."
+    },
+    {
+      "category": "repair_cost",
+      "question": "Repair cost ethra aanu?",
+      "answer": "Cost issue type, spare parts, and device model depend cheyyum."
+    },
+    {
+      "category": "warranty",
+      "question": "Repair work-inu warranty kittumo?",
+      "answer": "Yes, some repairs-inu limited warranty provide cheyyum."
+    },
+    {
+      "category": "genuine_parts",
+      "question": "Genuine spare parts use cheyyumo?",
+      "answer": "Yes, quality and genuine parts use cheyyum based on availability."
+    },
+    {
+      "category": "software_issues",
+      "question": "Software issues fix cheyyumo?",
+      "answer": "Yes, software installation, update, virus removal, and system repair ellam cheyyum."
+    },
+    {
+      "category": "urgent_service",
+      "question": "Emergency repair service kittumo?",
+      "answer": "Yes, urgent issues-inu fast service arrange cheyyam based on availability."
+    },
+    {
+      "category": "diagnosis",
+      "question": "Problem diagnose cheyyan charge undo?",
+      "answer": "Some cases-il diagnosis charge undavum, service confirm cheythal adjust cheyyum."
+    },
+    {
+      "category": "booking",
+      "question": "Repair service book cheyyan engane?",
+      "answer": "Phone call, WhatsApp, allenkil online booking vazhi service request cheyyam."
+    },
+    {
+      "category": "store_location",
+      "question": "Electronics shop location engane kandupidikkam?",
+      "answer": "Google Maps, website, allenkil shop contact number use cheythu exact location easily kandupidikkam."
+    },
+    {
+      "category": "nearby_store",
+      "question": "Ente near-il electronics shop undo ennu engane ariyam?",
+      "answer": "Google Maps-il 'electronics shop near me' ennu search cheythal nearby stores list kittum."
+    },
+    {
+      "category": "directions",
+      "question": "Shop-il reach cheyyan directions engane kittum?",
+      "answer": "Google Maps link, WhatsApp location share, allenkil call cheythu directions ariyam."
+    },
+    {
+      "category": "landmark",
+      "question": "Shop kandupidikkan landmark help cheyyumo?",
+      "answer": "Yes, nearby famous landmarks mention cheythu easy navigation provide cheyyum."
+    },
+    {
+      "category": "parking",
+      "question": "Electronics shop-il parking facility undo?",
+      "answer": "Most shops-il parking facility undavum, pakshe visit munpu confirm cheyyunnath nallath aanu."
+    },
+    {
+      "category": "public_transport",
+      "question": "Public transport use cheythu shop reach cheyyan pattumo?",
+      "answer": "Yes, bus, metro, train ellam use cheythu nearby stop-il ninnu walk cheyyam."
+    },
+    {
+      "category": "opening_hours",
+      "question": "Electronics shop opening time enthaanu?",
+      "answer": "Most electronics shops morning 9 AM to 10 AM range-il open aavum."
+    },
+    {
+      "category": "closing_hours",
+      "question": "Electronics shop closing time enthaanu?",
+      "answer": "Usually evening 7 PM to 9 PM vare shop open aayirikkum."
+    },
+    {
+      "category": "weekend_hours",
+      "question": "Weekend-il shop open aayirikkumo?",
+      "answer": "Yes, weekend-ilum open aavum, pakshe crowd kooduthal aayirikkum."
+    },
+    {
+      "category": "holiday_hours",
+      "question": "Public holiday-il shop open aayirikkumo?",
+      "answer": "Some shops open aavum, pakshe majority shops limited timing or closed aavum."
+    },
+    {
+      "category": "timing_change",
+      "question": "Shop timing change aavumo?",
+      "answer": "Yes, festival days, stock clearance, or special events time-il timing change aavum."
+    },
+    {
+      "category": "emergency_contact",
+      "question": "Emergency time-il shop contact cheyyan pattumo?",
+      "answer": "Yes, WhatsApp or phone support through contact cheyyan pattum."
+    },
+    {
+      "category": "online_store",
+      "question": "Shop online order service provide cheyyumo?",
+      "answer": "Many electronics shops online ordering and delivery options provide cheyyum."
+    },
+    {
+      "category": "delivery_time",
+      "question": "Delivery timing enthaanu?",
+      "answer": "Delivery time location and product depend cheyyum, usually 1–3 days vare aavum."
+    },
+    {
+      "category": "contact_help",
+      "question": "Location doubt undengil help kittumo?",
+      "answer": "Yes, shop customer support call cheythal full assistance provide cheyyum."
+    },
+    {
+      "category": "mobile_overview",
+      "question": "Mobile phones and accessories enthellam available aanu?",
+      "answer": "Smartphones, feature phones, chargers, earphones, headphones, cases, screen guards, power banks, and cables ellam available aanu."
+    },
+    {
+      "category": "mobile_selection",
+      "question": "Best mobile phone engane select cheyyam?",
+      "answer": "Budget, camera quality, battery life, storage, and usage based aayi mobile select cheyyam."
+    },
+    {
+      "category": "accessories",
+      "question": "Essential mobile accessories enthellam aanu?",
+      "answer": "Charger, tempered glass, mobile cover, power bank, and earphones ellam important accessories aanu."
+    },
+    {
+      "category": "warranty",
+      "question": "Mobile phones-inu warranty kittumo?",
+      "answer": "Yes, brand anusarich warranty and service support available aanu."
+    },
+    {
+      "category": "battery_care",
+      "question": "Mobile battery engane care cheyyam?",
+      "answer": "Overcharging avoid cheyyuka, original charger use cheyyuka, and extreme heat avoid cheyyuka."
+    },
+    {
+      "category": "screen_protection",
+      "question": "Screen protection important aano?",
+      "answer": "Yes, tempered glass and good quality cover use cheyyunnath screen damage prevent cheyyum."
+    },
+    {
+      "category": "charging_issues",
+      "question": "Mobile charge slow aavunnath enthu kond?",
+      "answer": "Faulty cable, adapter issue, or battery problem kond aavum. Check cheyyanam."
+    },
+    {
+      "category": "repair_services",
+      "question": "Mobile repair service kittumo?",
+      "answer": "Yes, display, battery, software, and hardware repair services available aanu."
+    },
+    {
+      "category": "data_backup",
+      "question": "Mobile data backup engane cheyyam?",
+      "answer": "Google Drive, iCloud, or external storage use cheythu backup cheyyam."
+    },
+    {
+      "category": "software_update",
+      "question": "Software update cheyyunnath important aano?",
+      "answer": "Yes, updates security improve cheyyum and performance enhance cheyyum."
+    },
+    {
+      "category": "network_issue",
+      "question": "Network problem varumbo entha cheyyam?",
+      "answer": "SIM check cheyyuka, airplane mode on/off cheyyuka, or network settings reset cheyyuka."
+    },
+    {
+      "category": "accessory_quality",
+      "question": "Cheap accessories safe aano?",
+      "answer": "Low quality accessories avoid cheyyunnath better aanu because device damage varan chance undu."
+    },
+    {
+      "category": "buying_online",
+      "question": "Online mobile purchase safe aano?",
+      "answer": "Trusted websites use cheyyunnengil safe aanu, warranty check cheyyanam."
+    },
+    {
+      "category": "data_security",
+      "question": "Mobile data safe aakkan entha cheyyam?",
+      "answer": "Strong password use cheyyuka, apps verify cheyyuka, and unknown links avoid cheyyuka."
+    },
+    {
+      "category": "consultation",
+      "question": "Best mobile select cheyyan help kittumo?",
+      "answer": "Yes, budget and usage anusarich best option suggest cheyyum."
+    }
+  ]
+}

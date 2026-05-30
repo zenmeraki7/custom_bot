@@ -1,0 +1,199 @@
+{
+  "faqs": [
+    {
+      "category": "store_overview",
+      "question": "Supermarketil enthokke products undu?",
+      "answer": "Groceries, vegetables, fruits, dairy products, beverages, snacks, household items, personal care products enivayellam available aanu."
+    },
+    {
+      "category": "store_timings",
+      "question": "Supermarket timing enthaanu?",
+      "answer": "Store timings locationum business hoursum anusari vary cheyyum."
+    },
+    {
+      "category": "holiday_opening",
+      "question": "Holidaysil supermarket open aano?",
+      "answer": "Athe, store schedule anusari holidaysilum supermarket open ayirikkam."
+    },
+    {
+      "category": "home_delivery",
+      "question": "Home delivery undo?",
+      "answer": "Athe, selected locationsil home delivery services available aanu."
+    },
+    {
+      "category": "delivery_area",
+      "question": "Ente area il delivery undo?",
+      "answer": "Delivery availability ningalude locationum service coverageum anusari ayirikkum."
+    },
+    {
+      "category": "delivery_time",
+      "question": "Deliveryinu ethra time edukum?",
+      "answer": "Order size, traffic, location eniva anusari delivery time vary cheyyum."
+    },
+    {
+      "category": "online_orders",
+      "question": "Online ayi order cheyyan pattumo?",
+      "answer": "Athe, website, app, WhatsApp, allenkil phone vazhi orders place cheyyam."
+    },
+    {
+      "category": "minimum_order",
+      "question": "Deliveryinu minimum order amount undo?",
+      "answer": "Athe, delivery servicesinu minimum order requirement undayirikkam."
+    },
+    {
+      "category": "delivery_charges",
+      "question": "Delivery charges undo?",
+      "answer": "Order amountum distanceum anusari delivery charges apply cheyyam."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Ethu payment methods accept cheyyum?",
+      "answer": "Cash, debit cards, credit cards, UPI, wallets, online payments ellam accept cheyyum."
+    },
+    {
+      "category": "upi_payments",
+      "question": "UPI payments accept cheyyumo?",
+      "answer": "Athe, ella major UPI payment methodsum accept cheyyum."
+    },
+    {
+      "category": "card_payments",
+      "question": "Debit allenkil credit card use cheyyan pattumo?",
+      "answer": "Athe, debitum credit cardsum accept cheyyum."
+    },
+    {
+      "category": "cash_payment",
+      "question": "Cash payment undo?",
+      "answer": "Athe, cash payments storeil accept cheyyum."
+    },
+    {
+      "category": "offers_discounts",
+      "question": "Offers allenkil discounts undo?",
+      "answer": "Athe, regularayi discounts, combo offers, seasonal promotions ellam undayirikkum."
+    },
+    {
+      "category": "loyalty_program",
+      "question": "Loyalty allenkil rewards program undo?",
+      "answer": "Athe, customersinu reward pointsum discounts um loyalty program vazhi labhikkam."
+    },
+    {
+      "category": "membership_card",
+      "question": "Membership card undo?",
+      "answer": "Athe, special benefitsode membership programs available ayirikkam."
+    },
+    {
+      "category": "fresh_products",
+      "question": "Fresh vegetablesum fruitsum undo?",
+      "answer": "Athe, fresh fruitsum vegetablesum daily available aanu."
+    },
+    {
+      "category": "dairy_products",
+      "question": "Dairy products undo?",
+      "answer": "Athe, milk, curd, butter, cheese pole dairy products available aanu."
+    },
+    {
+      "category": "bakery_items",
+      "question": "Bakery products undo?",
+      "answer": "Athe, bread, cakes, biscuits, bakery items ellam available aanu."
+    },
+    {
+      "category": "frozen_food",
+      "question": "Frozen food items undo?",
+      "answer": "Athe, selected frozen food products available aanu."
+    },
+    {
+      "category": "organic_products",
+      "question": "Organic products undo?",
+      "answer": "Athe, selected organicum healthy food productsum available aanu."
+    },
+    {
+      "category": "household_items",
+      "question": "Household products undo?",
+      "answer": "Athe, cleaning supplies, kitchen items, household essentials ellam available aanu."
+    },
+    {
+      "category": "personal_care",
+      "question": "Personal care products undo?",
+      "answer": "Athe, soaps, shampoos, skincare, personal care items ellam available aanu."
+    },
+    {
+      "category": "bulk_orders",
+      "question": "Bulk orders accept cheyyumo?",
+      "answer": "Athe, stock availability anusari bulkum wholesale ordersum accept cheyyam."
+    },
+    {
+      "category": "stock_availability",
+      "question": "Product availability engane check cheyyam?",
+      "answer": "Storeine contact cheytho online platform vazhiyo product availability check cheyyam."
+    },
+    {
+      "category": "product_brands",
+      "question": "Branded products undo?",
+      "answer": "Athe, trusted brandsinte products available aanu."
+    },
+    {
+      "category": "return_policy",
+      "question": "Products return allenkil exchange cheyyan pattumo?",
+      "answer": "Athe, store policy anusari returnsum exchangesum accept cheyyum."
+    },
+    {
+      "category": "damaged_products",
+      "question": "Damaged products kittiyal enthu cheyyum?",
+      "answer": "Damaged products replacement allenkil refundinu report cheyyam."
+    },
+    {
+      "category": "billing_support",
+      "question": "Bill allenkil receipt kittumo?",
+      "answer": "Athe, purchase kazhinjal printed allenkil digital bill provide cheyyum."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Parking undo?",
+      "answer": "Store location anusari parking facilities available ayirikkam."
+    },
+    {
+      "category": "customer_support",
+      "question": "Supermarketine engane contact cheyyam?",
+      "answer": "Phone, WhatsApp, email, allenkil direct visit vazhi contact cheyyam."
+    },
+    {
+      "category": "wifi_facility",
+      "question": "Customersinu WiFi undo?",
+      "answer": "WiFi availability store facilities anusari ayirikkum."
+    },
+    {
+      "category": "bag_availability",
+      "question": "Carry bags provide cheyyumo?",
+      "answer": "Athe, store policy anusari carry bags available ayirikkam."
+    },
+    {
+      "category": "self_checkout",
+      "question": "Self-checkout counters undo?",
+      "answer": "Selected locationsil self-checkout facilities available ayirikkam."
+    },
+    {
+      "category": "gift_cards",
+      "question": "Gift cards allenkil vouchers undo?",
+      "answer": "Athe, gift cardsum shopping vouchersum available ayirikkam."
+    },
+    {
+      "category": "pet_products",
+      "question": "Pet foodum pet care productsum undo?",
+      "answer": "Athe, selected pet foodum pet care itemsum available aanu."
+    },
+    {
+      "category": "baby_products",
+      "question": "Baby care products undo?",
+      "answer": "Athe, diapers, baby food, baby care items ellam available aanu."
+    },
+    {
+      "category": "queue_support",
+      "question": "Billing counter crowded aanenkil enthu cheyyum?",
+      "answer": "Peak hoursil waiting time kurakkan additional counters open cheyyam."
+    },
+    {
+      "category": "festival_offers",
+      "question": "Festival offers undo?",
+      "answer": "Athe, selected seasonsil special festival discounts um promotionsum available aanu."
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "faqs": [
+    {
+      "category": "reservation_overview",
+      "question": "Restaurant-il table reservation eppadi cheyyam?",
+      "answer": "Restaurant-il vilichu, website-iloode, allel WhatsApp / online reservation platforms iloode reservation cheyyam."
+    },
+    {
+      "category": "online_booking",
+      "question": "Online table book cheyyan pattumo?",
+      "answer": "Athe, online table booking nammude website-iloode illengil support cheyyunna reservation apps iloode available aanu."
+    },
+    {
+      "category": "walk_in",
+      "question": "Reservation illathe walk-in customers accept cheyyumo?",
+      "answer": "Athe, walk-ins accept cheyyum, pakshe aa samayathu table availability pole irikkum."
+    },
+    {
+      "category": "reservation_confirmation",
+      "question": "Ente reservation confirm aayennu eppadi ariyam?",
+      "answer": "Booking confirm aayaal SMS, email, allel phone call iloode confirmation kittum."
+    },
+    {
+      "category": "booking_time",
+      "question": "Ethra munne table book cheyyanam?",
+      "answer": "Kurachu munne (few hours) book cheyyunnatha nallathu; weekends illengil peak time aanel onnu randu divasam munne book cheyyuka."
+    },
+    {
+      "category": "group_booking",
+      "question": "Valiya group-inu table book cheyyan pattumo?",
+      "answer": "Athe, group bookings available aanu; ethra peru ennullathinu anusarichu munkan vivekam venam."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Ente reservation cancel cheyyano mattan pattumo?",
+      "answer": "Athe, reservation modify cheyyuka cancel cheyyuka okke pattum, scheduled time-nu munne restaurant-il vilichu ariyichal."
+    },
+    {
+      "category": "late_arrival",
+      "question": "Reservation time kazhinju vannal enthu sambhavikkum?",
+      "answer": "Vikikam undel table kurachu samayam pattichu pidikkum, restaurant policy-kum availability-kkum anusarichu."
+    },
+    {
+      "category": "time_limit",
+      "question": "Table reservation-nu samaya paridhi undo?",
+      "answer": "Athe, peak hours il mattullavarkku vendi table samaya paridhi undakum."
+    },
+    {
+      "category": "special_requests",
+      "question": "Special table illengil seating preference chodikkan pattumo?",
+      "answer": "Athe, window seat, private table pole special requests accept cheyyum, pakshe availability anusarichu."
+    },
+    {
+      "category": "event_booking",
+      "question": "Birthday or events-nu tables reserve cheyyan pattumo?",
+      "answer": "Athe, birthday, party, events-nu special arrangements available aanu, munkan booking venam."
+    },
+    {
+      "category": "deposit_requirement",
+      "question": "Table reservation-nu deposit edukkumo?",
+      "answer": "Valiya groups or special events aanel deposit required aayekkam."
+    },
+    {
+      "category": "peak_hours",
+      "question": "Restaurant ethu samayathu thaamasikam busy aavum?",
+      "answer": "Peak hours usually lunch, dinner timings aanu, especially weekends and holidays il."
+    },
+    {
+      "category": "wait_time",
+      "question": "Ente samayathu table illenkil enthu cheyyum?",
+      "answer": "Unnale waiting list il idam, allel adutha available time slot offer cheyyum."
+    },
+    {
+      "category": "contact_support",
+      "question": "Booking help-nu restaurant-e eppadi contact cheyyam?",
+      "answer": "Phone, email, messaging platforms iloode contact cheyyam."
+    },
+    {
+      "category": "takeaway_delivery_overview",
+      "question": "Takeawayum deliveryum undo?",
+      "answer": "Athe, selected menu items-nu takeawayum home deliveryum undu."
+    },
+    {
+      "category": "delivery_availability",
+      "question": "Ente area-il delivery available ano?",
+      "answer": "Delivery availability location anusarichu maari irikkum."
+    },
+    {
+      "category": "delivery_time",
+      "question": "Delivery ethra samayam edukkum?",
+      "answer": "Usually 30 to 60 minutes, order size and location pole."
+    },
+    {
+      "category": "takeaway_option",
+      "question": "Nerittu restaurant-il vannu order edukkan pattumo?",
+      "answer": "Athe, takeaway order cheythu nere restaurant-il vannu collect cheyyam."
+    },
+    {
+      "category": "order_methods",
+      "question": "Takeaway or delivery order eppadi place cheyyam?",
+      "answer": "Phone call, WhatsApp, website, illengil food delivery apps (available aanenkil) iloode place cheyyam."
+    },
+    {
+      "category": "minimum_order",
+      "question": "Delivery-nu minimum order value undo?",
+      "answer": "Athe, delivery location anusarichu minimum order value undakum."
+    },
+    {
+      "category": "delivery_charges",
+      "question": "Delivery charges undo?",
+      "answer": "Athe, distance and order amount anusarichu delivery charges undakam."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Delivery-nu ethokke payment methods accept cheyyum?",
+      "answer": "Cash on delivery, UPI, cards, online payments accept cheyyum."
+    },
+    {
+      "category": "order_tracking",
+      "question": "Delivery order track cheyyan pattumo?",
+      "answer": "Athe, order tracking platform anusarichu available aayekkam."
+    },
+    {
+      "category": "food_packaging",
+      "question": "Takeaway food eppadi pack cheyyum?",
+      "answer": "Ellam hygienic aayi, secure containers il pack cheyyum, freshness and temperature maintain cheyyan."
+    },
+    {
+      "category": "late_delivery",
+      "question": "Delivery late aayaal enthu cheyyum?",
+      "answer": "Traffic or high demand kaaranam delay undakam. Avisarathil nammal update cheyyum."
+    },
+    {
+      "category": "order_modification",
+      "question": "Order place cheytha shesham modify cheyyan pattumo?",
+      "answer": "Preparation thudangiyittillel modification pattum."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Takeaway or delivery order cancel cheyyan pattumo?",
+      "answer": "Athe, preparation thudangunnathinu munne cancel cheyyam."
+    },
+    {
+      "category": "large_orders",
+      "question": "Bulk illengil party orders accept cheyyumo?",
+      "answer": "Athe, munkan vivekathode bulk and party orders accept cheyyum."
+    },
+    {
+      "category": "food_quality",
+      "question": "Delivery orders-num food quality same aayirikkumo?",
+      "answer": "Athe, dine-in and delivery orders-nu same quality and taste urappikkunnu."
+    },
+    {
+      "category": "opening_hours",
+      "question": "Restaurant opening hours ethokke?",
+      "answer": "Usually morning open cheyyum, service timings and location pole full day operate cheyyum."
+    },
+    {
+      "category": "closing_hours",
+      "question": "Restaurant ethu samayathu close cheyyum?",
+      "answer": "Closing time vary cheyyum, but usually late evening illengil night close cheyyum."
+    },
+    {
+      "category": "lunch_timing",
+      "question": "Lunch service hours ethokke?",
+      "answer": "Lunch usually midday hours il, late morning to afternoon."
+    },
+    {
+      "category": "dinner_timing",
+      "question": "Dinner timings ethokke?",
+      "answer": "Dinner service generally evening muthal closing time vare."
+    },
+    {
+      "category": "weekend_hours",
+      "question": "Weekend-il opening hours vyathyasthamo?",
+      "answer": "Athe, weekends-il customer demand anusarichu extended hours undakam."
+    },
+    {
+      "category": "holiday_hours",
+      "question": "Public holidays-il open ano?",
+      "answer": "Athe, public holidays-il open cheyyum, pakshe adjusted timings undakum."
+    },
+    {
+      "category": "festival_hours",
+      "question": "Festival samayathu timings maarumo?",
+      "answer": "Athe, festivals or special occasions timings change aayekkam."
+    },
+    {
+      "category": "last_order_time",
+      "question": "Last order time ethra mani?",
+      "answer": "Usually closing time-nu munne, restaurant schedule anusarichu vary cheyyum."
+    },
+    {
+      "category": "reservation_timing",
+      "question": "Specific time slot-nu table book cheyyan pattumo?",
+      "answer": "Athe, availability anusarichu preferred time slot-il reservation cheyyam."
+    },
+    {
+      "category": "peak_hours",
+      "question": "Restaurant ethu samayathu kooduthal crowded aavum?",
+      "answer": "Peak hours usually lunch and dinner timings."
+    },
+    {
+      "category": "late_night_service",
+      "question": "Late-night dining undo?",
+      "answer": "Cheela locations il demand anusarichu late-night service undakam."
+    },
+    {
+      "category": "timing_changes",
+      "question": "Restaurant timings chila samayathu maararundo?",
+      "answer": "Athe, holidays, maintenance, special events kaaranam timings maarum."
+    },
+    {
+      "category": "delivery_hours",
+      "question": "Delivery hours restaurant hours pole thanne ano?",
+      "answer": "Delivery hours dine-in hours-ine kkaal kuravu illengil vyathyastham aayekkam."
+    },
+    {
+      "category": "takeaway_hours",
+      "question": "Takeaway timings ethokke?",
+      "answer": "Takeaway usually restaurant full operating hours-il available aanu."
+    },
+    {
+      "category": "contact_hours",
+      "question": "Restaurant-e contact cheyyan ethu samayam nallathu?",
+      "answer": "Working hours il contact cheyyunnatha nallathu, quick response and reservation-nu."
+    },
+    {
+      "category": "menu_options",
+      "question": "Vegetarianum non-vegetarianum food undo?",
+      "answer": "Athe, nammude menu-il vegetarianum non-vegetarianum variety undu."
+    },
+    {
+      "category": "veg_only_option",
+      "question": "Separate vegetarian menu undo?",
+      "answer": "Athe, dedicated vegetarian options menu-il clearly marked undu."
+    },
+    {
+      "category": "non_veg_options",
+      "question": "Ethokke non-vegetarian dishes available aanu?",
+      "answer": "Chicken, mutton, seafood, mattu non-veg specialties menu anusarichu undu."
+    },
+    {
+      "category": "separate_cooking",
+      "question": "Vegetarianum non-vegetarianum food separate aayi cook cheyyumo?",
+      "answer": "Athe, cross-contamination ozhivakkan separate preparation areas and utensils maintain cheyyum."
+    },
+    {
+      "category": "custom_order",
+      "question": "Customized vegetarian illengil non-vegetarian dish request cheyyan pattumo?",
+      "answer": "Athe, ingredient availability and kitchen policy anusarichu custom requests accept cheyyum."
+    },
+    {
+      "category": "halal_options",
+      "question": "Halal non-vegetarian food undo?",
+      "answer": "Athe, selected non-veg dishes-nu halal options available aanu. Staff-odu check cheyyuka."
+    },
+    {
+      "category": "vegan_options",
+      "question": "Vegan food options undo?",
+      "answer": "Athe, selected vegan dishes (dairy or animal-based ingredients illathe) undu."
+    },
+    {
+      "category": "menu_clarity",
+      "question": "Menu-yil veg and non-veg items eppadi identify cheyyum?",
+      "answer": "Ellam clearly labelled aanu, easy identification-nu."
+    },
+    {
+      "category": "special_diet",
+      "question": "Special dietary preferences accommodate cheyyan pattumo?",
+      "answer": "Athe, vegetarian, vegan, allergy-specific requests okke sadhyam pole accommodate cheyyum."
+    },
+    {
+      "category": "availability",
+      "question": "Veg and non-veg options full day available ano?",
+      "answer": "Athe, operating hours motham available aanu."
+    },
+    {
+      "category": "catering_overview",
+      "question": "Catering services provide cheyyumo?",
+      "answer": "Athe, events, parties, weddings, corporate functions, special occasions-nu catering undu."
+    },
+    {
+      "category": "catering_types",
+      "question": "Ethokke catering services offer cheyyunnu?",
+      "answer": "Buffet catering, plated meals, live counters, customized menu catering event requirements pole."
+    },
+    {
+      "category": "menu_customization",
+      "question": "Catering menu customize cheyyan pattumo?",
+      "answer": "Athe, full customization possible - your preferences, budget, dietary requirements anusarichu."
+    },
+    {
+      "category": "event_types",
+      "question": "Ethokke events-nu catering provide cheyyum?",
+      "answer": "Weddings, birthdays, corporate events, private parties, large gatherings."
+    },
+    {
+      "category": "veg_nonveg",
+      "question": "Vegetarianum non-vegetarianum catering options undo?",
+      "answer": "Athe, randum undu, multiple cuisine choices-um."
+    },
+    {
+      "category": "minimum_order",
+      "question": "Catering-nu minimum order requirement undo?",
+      "answer": "Athe, event size and service type anusarichu minimum order undakam."
+    },
+    {
+      "category": "pricing",
+      "question": "Catering pricing eppadi calculate cheyyum?",
+      "answer": "Menu selection, number of guests, service type, additional requirements anusarichu."
+    },
+    {
+      "category": "booking",
+      "question": "Catering services ethra munne book cheyyanam?",
+      "answer": "Availability and proper planning-nu munkan book cheyyunnatha nallathu."
+    },
+    {
+      "category": "delivery_setup",
+      "question": "Food delivery and setup provide cheyyumo?",
+      "answer": "Athe, complete food delivery, setup, and service for events undu."
+    },
+    {
+      "category": "live_counters",
+      "question": "Live food counters provide cheyyumo?",
+      "answer": "Athe, chaat, grill, dessert stations pole live counters request anusarichu available."
+    },
+    {
+      "category": "staff_service",
+      "question": "Catering-ode serving staff provide cheyyumo?",
+      "answer": "Athe, trained staff serving and event management-nu available."
+    },
+    {
+      "category": "hygiene",
+      "question": "Food hygiene and safety eppadi ensure cheyyunnu?",
+      "answer": "Strict hygiene standards follow cheyyunnu, fresh ingredients, proper food safety practices."
+    },
+    {
+      "category": "tasting_session",
+      "question": "Booking-nu munne food tasting request cheyyan pattumo?",
+      "answer": "Athe, selected catering packages-nu tasting sessions available aayekkam."
+    },
+    {
+      "category": "payment_terms",
+      "question": "Catering services-nu payment terms enthanu?",
+      "answer": "Advance payment usually required, remaining balance event-nu munne illengil shesham agreed pole."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Catering-nu cancellation policy enthanu?",
+      "answer": "Booking terms and cancellation timing anusarichu vary cheyyum."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Restaurant-il ethokke payment methods accept cheyyum?",
+      "answer": "Cash, debit cards, credit cards, major digital payments (UPI, mobile wallets)."
+    },
+    {
+      "category": "upi_payments",
+      "question": "UPI payments accept cheyyumo?",
+      "answer": "Athe, Google Pay, PhonePe, Paytm pole ella major UPI apps-um accept cheyyum."
+    },
+    {
+      "category": "card_payments",
+      "question": "Debit or credit card iloode pay cheyyan pattumo?",
+      "answer": "Athe, Visa, MasterCard, mattulla major debit and credit cards accept cheyyum."
+    },
+    {
+      "category": "cash_payment",
+      "question": "Cash payment accept cheyyumo?",
+      "answer": "Athe, ella outlets-ilum cash accept cheyyum."
+    },
+    {
+      "category": "online_payment",
+      "question": "Dine-in or takeaway orders-nu online payment cheyyan pattumo?",
+      "answer": "Athe, ordering platform anusarichu online payment available."
+    },
+    {
+      "category": "split_bill",
+      "question": "Bill split cheyyan pattumo different payment methods iloode?",
+      "answer": "Athe, split payments allowed - multiple cards or cash + digital combination."
+    },
+    {
+      "category": "contactless_payment",
+      "question": "Contactless payments support cheyyumo?",
+      "answer": "Athe, contactless card payments and mobile tap-to-pay options undu."
+    },
+    {
+      "category": "international_cards",
+      "question": "International cards accept cheyyumo?",
+      "answer": "Athe, network support anusarichu majority international debit/credit cards accept cheyyum."
+    },
+    {
+      "category": "payment_receipt",
+      "question": "Payment receipt kittumo?",
+      "answer": "Athe, printed illengil digital receipt payment kazhinju kittum."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Reservation-nu advance payment veno?",
+      "answer": "Large bookings or special events aanel advance payment required aayekkam."
+    },
+    {
+      "category": "parking_availability",
+      "question": "Restaurant-il parking facility undo?",
+      "answer": "Athe, parking undu, pakshe space availability anusarichu."
+    },
+    {
+      "category": "parking_type",
+      "question": "Ethu type parking aanu?",
+      "answer": "Dedicated parking space illengil nearby shared parking, location anusarichu."
+    },
+    {
+      "category": "free_parking",
+      "question": "Parking free ano?",
+      "answer": "Location and parking provider anusarichu free illengil paid aayekkam."
+    },
+    {
+      "category": "valet_parking",
+      "question": "Valet parking service undo?",
+      "answer": "Select locations-il mathrame valet parking ullu. Munkan restaurant-il check cheyyuka."
+    },
+    {
+      "category": "parking_space_availability",
+      "question": "Enikku eppozhum parking spot kittumo?",
+      "answer": "First-come, first-served basis, peak hours-il limited aayekkam."
+    },
+    {
+      "category": "parking_for_large_vehicles",
+      "question": "Valiya vehicles-nu parking undo?",
+      "answer": "Location anusarichu limited space for larger vehicles undakam."
+    },
+    {
+      "category": "nearby_parking",
+      "question": "Restaurant parking niranjal enthu cheyyum?",
+      "answer": "Nearby public parking options usually walking distance-il undakum."
+    },
+    {
+      "category": "parking_time_limit",
+      "question": "Parking-nu samaya paridhi undo?",
+      "answer": "Cheela locations-il building or mall policies anusarichu time-limited parking undakam."
+    },
+    {
+      "category": "parking_safety",
+      "question": "Parking area safe ano?",
+      "answer": "Athe, monitored illengil secure premises-il aanu, customer safety-nu."
+    },
+    {
+      "category": "two_wheeler_parking",
+      "question": "Two-wheeler parking undo?",
+      "answer": "Athe, majority locations-il dedicated two-wheeler parking undu."
+    },
+    {
+      "category": "wifi_availability",
+      "question": "Restaurant-il WiFi provide cheyyumo?",
+      "answer": "Athe, free WiFi ella customers-num ullil undu."
+    },
+    {
+      "category": "wifi_access",
+      "question": "WiFi-l eppadi connect cheyyam?",
+      "answer": "Staff-odu WiFi username and password chodikkuka."
+    },
+    {
+      "category": "wifi_speed",
+      "question": "WiFi browsing and work-nu speed adequate ano?",
+      "answer": "Athe, browsing, social media, basic work-nu suitable aanu."
+    },
+    {
+      "category": "wifi_charges",
+      "question": "WiFi upayogikkan charge undo?",
+      "answer": "Illla, dine-in customers-nu completely free."
+    },
+    {
+      "category": "wifi_availability_time",
+      "question": "WiFi ella samayathum available ano?",
+      "answer": "Athe, restaurant operating hours motham available."
+    },
+    {
+      "category": "wifi_security",
+      "question": "WiFi connection secure ano?",
+      "answer": "Athe, secured aanu, pakshe public networks-il sensitive transactions avoid cheyyunnatha nallathu."
+    },
+    {
+      "category": "wifi_usage_policy",
+      "question": "WiFi upayogikkan usage limits undo?",
+      "answer": "Fair usage policy undakam, ella customers-num smooth access urappikkan."
+    },
+    {
+      "category": "wifi_support",
+      "question": "WiFi-l connect cheyyan pattenkil enthu cheyyum?",
+      "answer": "Staff-odu assistance chodikkuka."
+    },
+    {
+      "category": "wifi_devices",
+      "question": "Multiple devices connect cheyyan pattumo?",
+      "answer": "Athe, network availability anusarichu multiple devices connect cheyyam."
+    },
+    {
+      "category": "wifi_login",
+      "question": "WiFi upayogikkan login veno?",
+      "answer": "Usually password required, staff nalkum."
+    },
+    {
+      "category": "wifi_coverage",
+      "question": "WiFi restaurant-il ella sthalathum work cheyyumo?",
+      "answer": "Athe, majority seating areas-il coverage undu."
+    },
+    {
+      "category": "wifi_customer_only",
+      "question": "WiFi customers-nu mathramano?",
+      "answer": "Athe, dine-in customers-nu mathram."
+    },
+    {
+      "category": "wifi_issue_resolution",
+      "question": "WiFi slow illengil work cheyyunnillenkil enthu cheyyum?",
+      "answer": "Staff assistance cheyyum, allel connection restart cheyyum."
+    },
+    {
+      "category": "wifi_hotspot",
+      "question": "WiFi mattullavarkku hotspot aayi use cheyyan pattumo?",
+      "answer": "Illla, fair usage-nu hotspot sharing allowed alla."
+    },
+    {
+      "category": "wifi_contact",
+      "question": "WiFi help-nu aare contact cheyyum?",
+      "answer": "Any restaurant staff member-e contact cheyyam."
+    },
+    {
+      "category": "offers_overview",
+      "question": "Ongoing offers illengil discounts undo?",
+      "answer": "Athe, regularly seasonal discounts, combo meals, special promotional deals undu."
+    },
+    {
+      "category": "happy_hour",
+      "question": "Happy hour discounts undo?",
+      "answer": "Athe, selected beverages and snacks-nu specific timings-il happy hour discounts undakum."
+    },
+    {
+      "category": "combo_offers",
+      "question": "Combo meals discounted prices-il undo?",
+      "answer": "Athe, separate aayi order cheyyunnathine kkaal special price-il combo meals undu."
+    },
+    {
+      "category": "festival_offers",
+      "question": "Festivals or special occasion offers undo?",
+      "answer": "Athe, festivals and celebrations-il special discounts and limited-time menus undu."
+    },
+    {
+      "category": "student_discount",
+      "question": "Student discount undo?",
+      "answer": "Cheela outlets-il valid student ID onnu kaanichal selected items-nu discount undakam."
+    },
+    {
+      "category": "loyalty_program",
+      "question": "Loyalty or rewards program undo?",
+      "answer": "Athe, regular customers-nu loyalty program iloode rewards or points earn cheyyam."
+    },
+    {
+      "category": "coupon_usage",
+      "question": "Coupons or promo codes use cheyyan pattumo?",
+      "answer": "Athe, valid coupons and promo codes billing samayathu eligible offers-nu apply cheyyam."
+    },
+    {
+      "category": "bulk_orders",
+      "question": "Bulk or party orders-nu discounts undo?",
+      "answer": "Athe, special pricing available for bulk orders and catering services."
+    },
+    {
+      "category": "online_offers",
+      "question": "Online ordering discounts undo?",
+      "answer": "Athe, online platforms iloode orders-nu special discounts undakam."
+    },
+    {
+      "category": "happy_family_deals",
+      "question": "Family meal deals undo?",
+      "answer": "Athe, family meal packages discounted rates-il groups-nu available."
+    },
+    {
+      "category": "new_customer_offer",
+      "question": "New customers-nu special offers undo?",
+      "answer": "Athe, first-time customers-nu welcome discounts or promotional deals undakam."
+    },
+    {
+      "category": "discount_terms",
+      "question": "Ella items-num discount applicable ano?",
+      "answer": "Illla, selected menu items or time periods-nu mathrame offers applicable aavukayuLLu."
+    },
+    {
+      "category": "seasonal_offers",
+      "question": "Offers seasons anusarichu maarumo?",
+      "answer": "Athe, discounts and promotions seasons and restaurant campaigns anusarichu vary cheyyum."
+    },
+    {
+      "category": "payment_offers",
+      "question": "Bank or payment app offers undo?",
+      "answer": "Athe, chila samayathu bank cards or digital wallets additional cashback or discounts thararundu."
+    },
+    {
+      "category": "offer_validity",
+      "question": "Offers ethra naal valid aavum?",
+      "answer": "Promotion period anusarichu validity, munkan ariyikkathe change aayekkam."
+    }
+  ]
+}

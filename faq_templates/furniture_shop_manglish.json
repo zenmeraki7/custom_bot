@@ -1,0 +1,214 @@
+{
+  "faqs": [
+    {
+      "category": "shop_overview",
+      "questions": [
+        "Ningal furniture vilkkunnundo?",
+        "Entokke products undu?",
+        "Ithu furniture shop ano?",
+        "Home furniture undo?"
+      ],
+      "answer": "Athe, home, office, custom furniture including sofas, beds, dining tables, wardrobes, chairs okke available aanu."
+    },
+    {
+      "category": "sofa_availability",
+      "questions": [
+        "Sofas undo?",
+        "Sofa sets available ano?",
+        "Recliners undo?",
+        "Leather sofa available ano?"
+      ],
+      "answer": "Fabric sofas, leather sofas, recliners, sectional sofa sets okke available aanu."
+    },
+    {
+      "category": "bed_availability",
+      "questions": [
+        "Beds undo?",
+        "King size bed available ano?",
+        "Cot undo?",
+        "Bedroom furniture available ano?"
+      ],
+      "answer": "Single beds, double beds, king-size beds, queen-size beds, storage cots okke available aanu."
+    },
+    {
+      "category": "wardrobe_availability",
+      "questions": [
+        "Wardrobes undo?",
+        "Cupboards available ano?",
+        "Sliding wardrobe undo?",
+        "Wooden wardrobe available ano?"
+      ],
+      "answer": "Different sizes um designs um ulla wardrobes including sliding um modular wardrobes um available aanu."
+    },
+    {
+      "category": "dining_table",
+      "questions": [
+        "Dining tables undo?",
+        "4 seater dining table available ano?",
+        "6 seater dining set undo?",
+        "Wooden dining table undo?"
+      ],
+      "answer": "Wooden, glass-top, marble-finish dining tables different  sizes-il available aanu."
+    },
+    {
+      "category": "office_furniture",
+      "questions": [
+        "Office furniture undo?",
+        "Office chairs available ano?",
+        "Office table undo?",
+        "Workstation furniture undo?"
+      ],
+      "answer": "Office chairs, office tables, workstations, storage cabinets, conference furniture okke available aanu."
+    },
+    {
+      "category": "custom_furniture",
+      "questions": [
+        "Custom furniture cheyyumo?",
+        "Custom sofa available ano?",
+        "Order prakaram furniture undakkumo?",
+        "Furniture size customize cheyyan pattumo?"
+      ],
+      "answer": "Design, size, material, customer requirement anusarikku custom furniture options available aanu."
+    },
+    {
+      "category": "wood_material",
+      "questions": [
+        "Eth wood materials aanu use cheyyunnath?",
+        "Teak wood undo?",
+        "Solid wood furniture available ano?",
+        "Engineered wood undo?"
+      ],
+      "answer": "Teak wood, solid wood, engineered wood, plywood, MDF, metal furniture products available aanu."
+    },
+    {
+      "category": "price_range",
+      "questions": [
+        "Price range entha?",
+        "Budget furniture undo?",
+        "Affordable sofa undo?",
+        "Premium furniture available ano?"
+      ],
+      "answer": "Budget-friendly products muthal premium luxury collections vare available aanu."
+    },
+    {
+      "category": "offers_discount",
+      "questions": [
+        "Offers undo?",
+        "Discount available ano?",
+        "Festival offers undo?",
+        "Furniture sale undo?"
+      ],
+      "answer": "Discounts, seasonal offers, combo deals, festive promotions okke regular ayi provide cheyyunnu."
+    },
+    {
+      "category": "emi_options",
+      "questions": [
+        "EMI undo?",
+        "Furniture EMI available ano?",
+        "Installment option undo?",
+        "No-cost EMI available ano?"
+      ],
+      "answer": "Selected banks um finance partners um vazhi EMI um no-cost EMI um available ayirikkum."
+    },
+    {
+      "category": "delivery_service",
+      "questions": [
+        "Delivery undo?",
+        "Home delivery available ano?",
+        "Furniture deliver cheyyumo?",
+        "Same day delivery undo?"
+      ],
+      "answer": "Product um location um anusarikku furniture delivery services available aanu."
+    },
+    {
+      "category": "installation_service",
+      "questions": [
+        "Installation undo?",
+        "Furniture assembly available ano?",
+        "Staff furniture install cheyyumo?",
+        "Installation service undo?"
+      ],
+      "answer": "Selected furniture productsinu installation um assembly services um available aanu."
+    },
+    {
+      "category": "delivery_time",
+      "questions": [
+        "Delivery ethra time edukum?",
+        "Furniture eppo varum?",
+        "Delivery timing entha?",
+        "Ethra divasam edukum?"
+      ],
+      "answer": "Product availability, customization, location okke anusarikku delivery timing vary cheyyum."
+    },
+    {
+      "category": "warranty",
+      "questions": [
+        "Warranty undo?",
+        "Furniture warranty available ano?",
+        "Warranty period entha?",
+        "Product guarantee undo?"
+      ],
+      "answer": "Selected furniture productsinu manufacturer allenkil seller warranty available aanu."
+    },
+    {
+      "category": "return_policy",
+      "questions": [
+        "Furniture return cheyyan pattumo?",
+        "Replacement undo?",
+        "Return policy entha?",
+        "Damaged product replace cheyyumo?"
+      ],
+      "answer": "Returns um replacements um product condition um store policy um anusarikku depend cheyyum."
+    },
+    {
+      "category": "payment_methods",
+      "questions": [
+        "Ethokke payment methods accept cheyyum?",
+        "UPI payment undo?",
+        "Card payment accept cheyyumo?",
+        "Google Pay edukumo?"
+      ],
+      "answer": "Cash, debit cards, credit cards, UPI, bank transfers, wallet payments okke accept cheyyunnu."
+    },
+    {
+      "category": "gst_invoice",
+      "questions": [
+        "GST invoice kittumo?",
+        "Official bill undo?",
+        "Tax invoice available ano?",
+        "GST bill tharumo?"
+      ],
+      "answer": "Eligible purchasesinu GST invoices um proper purchase bills um provide cheyyunnu."
+    },
+    {
+      "category": "bulk_orders",
+      "questions": [
+        "Bulk orders accept cheyyumo?",
+        "Office project furniture undo?",
+        "Wholesale furniture available ano?",
+        "Hotel furniture supply undo?"
+      ],
+      "answer": "Offices, hotels, projects vendi bulk um commercial furniture orders um accept cheyyunnu."
+    },
+    {
+      "category": "shop_timings",
+      "questions": [
+        "Shop timing entha?",
+        "Eppo open aakum?",
+        "Sunday open ano?",
+        "Closing time entha?"
+      ],
+      "answer": "Daily regular business hours-il furniture shop open aanu."
+    },
+    {
+      "category": "contact_support",
+      "questions": [
+        "Shop-ne engane contact cheyyam?",
+        "WhatsApp number undo?",
+        "Location share cheyyumo?",
+        "Shop evide aanu?"
+      ],
+      "answer": "Phone, WhatsApp, social media allenkil direct showroom visit cheythu contact cheyyam."
+    }
+  ]
+}

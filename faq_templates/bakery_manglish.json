@@ -1,0 +1,159 @@
+{
+  "faqs": [
+    {
+      "category": "bakery_overview",
+      "question": "Bakeryil enthokke products undu?",
+      "answer": "Cakes, pastries, breads, cookies, snacks, desserts, beverages, customized bakery items ellam available aanu."
+    },
+    {
+      "category": "store_timings",
+      "question": "Bakery timing enthaanu?",
+      "answer": "Bakery timings locationum business hoursum anusari vary cheyyum."
+    },
+    {
+      "category": "holiday_opening",
+      "question": "Holidaysil bakery open aano?",
+      "answer": "Athe, schedule anusari holidaysil bakery open ayirikkam."
+    },
+    {
+      "category": "cake_orders",
+      "question": "Cake advance ayi order cheyyan pattumo?",
+      "answer": "Athe, phone, WhatsApp, website, allenkil direct visit vazhi cake pre-order cheyyam."
+    },
+    {
+      "category": "custom_cakes",
+      "question": "Customized cakes undo?",
+      "answer": "Athe, birthdays, weddings, anniversaries, special occasionsinu customized cakes available aanu."
+    },
+    {
+      "category": "photo_cakes",
+      "question": "Photo cake undo?",
+      "answer": "Athe, customer requirement anusari photo cakes prepare cheyyum."
+    },
+    {
+      "category": "theme_cakes",
+      "question": "Theme cakes prepare cheyyumo?",
+      "answer": "Athe, kids partiesum special eventsinum theme cakes available aanu."
+    },
+    {
+      "category": "eggless_cakes",
+      "question": "Eggless cakes undo?",
+      "answer": "Athe, eggless cakesum pastriesum available aanu."
+    },
+    {
+      "category": "cake_flavours",
+      "question": "Ethu cake flavours available aanu?",
+      "answer": "Chocolate, vanilla, butterscotch, red velvet, black forest, white forest, fruit flavours enivayellam available aanu."
+    },
+    {
+      "category": "cake_size",
+      "question": "Cake sizes enthokke undu?",
+      "answer": "Serving requirement anusari different cake sizes available aanu."
+    },
+    {
+      "category": "same_day_cake",
+      "question": "Same-day cake delivery undo?",
+      "answer": "Cake typeum availabilityum anusari same-day delivery available ayirikkam."
+    },
+    {
+      "category": "cake_delivery",
+      "question": "Cake delivery undo?",
+      "answer": "Athe, cakesinum selected productsinum home delivery available aanu."
+    },
+    {
+      "category": "delivery_area",
+      "question": "Ente area il delivery undo?",
+      "answer": "Delivery availability ningalude locationum service areaum anusari ayirikkum."
+    },
+    {
+      "category": "delivery_time",
+      "question": "Deliveryinu ethra time edukum?",
+      "answer": "Order size, traffic, location eniva anusari delivery time vary cheyyum."
+    },
+    {
+      "category": "online_orders",
+      "question": "Bakery items online ayi order cheyyan pattumo?",
+      "answer": "Athe, website, app, WhatsApp, allenkil phone vazhi order cheyyam."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Ethu payment methods accept cheyyum?",
+      "answer": "Cash, cards, UPI, wallets, online payments ellam accept cheyyum."
+    },
+    {
+      "category": "upi_payments",
+      "question": "UPI payments accept cheyyumo?",
+      "answer": "Athe, ella major UPI appsum accept cheyyum."
+    },
+    {
+      "category": "offers_discounts",
+      "question": "Offers allenkil discounts undo?",
+      "answer": "Athe, seasonal offers, combo deals, special discounts ellam available ayirikkam."
+    },
+    {
+      "category": "birthday_packages",
+      "question": "Birthday party packages undo?",
+      "answer": "Athe, cakes, snacks, decorations ulppedunna birthday packages available ayirikkam."
+    },
+    {
+      "category": "snacks_availability",
+      "question": "Snacksum fast food itemsum undo?",
+      "answer": "Athe, puffs, sandwiches, rolls, burgers, pizza, matte snacks ellam available aanu."
+    },
+    {
+      "category": "beverages",
+      "question": "Beverages undo?",
+      "answer": "Athe, tea, coffee, juices, soft drinks, matte beverages ellam available aanu."
+    },
+    {
+      "category": "fresh_bread",
+      "question": "Fresh bread undo?",
+      "answer": "Athe, fresh breadum bunsum daily prepare cheyyunnu."
+    },
+    {
+      "category": "cookies_biscuits",
+      "question": "Cookiesum biscuitsum undo?",
+      "answer": "Athe, variety cookies, biscuits, baked snacks ellam available aanu."
+    },
+    {
+      "category": "bulk_orders",
+      "question": "Bulk orders accept cheyyumo?",
+      "answer": "Athe, eventsinum functionsinum bulk orders accept cheyyum."
+    },
+    {
+      "category": "event_catering",
+      "question": "Bakery catering services undo?",
+      "answer": "Athe, partiesum eventsinum bakery catering services available ayirikkam."
+    },
+    {
+      "category": "product_freshness",
+      "question": "Bakery products fresh aano?",
+      "answer": "Athe, products fresh ayi prepare cheyth hygienically pack cheyyunnu."
+    },
+    {
+      "category": "return_policy",
+      "question": "Bakery products return cheyyan pattumo?",
+      "answer": "Returnum exchangeum product conditionum bakery policyum anusari ayirikkum."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Parking undo?",
+      "answer": "Bakery location anusari parking availability undayirikkam."
+    },
+    {
+      "category": "seating_availability",
+      "question": "Seating facility undo?",
+      "answer": "Chila bakery locationsil dine-in seating facilities available ayirikkam."
+    },
+    {
+      "category": "wifi_facility",
+      "question": "Customersinu WiFi undo?",
+      "answer": "WiFi availability bakery facilities anusari ayirikkum."
+    },
+    {
+      "category": "customer_support",
+      "question": "Bakeryine engane contact cheyyam?",
+      "answer": "Phone, WhatsApp, email, allenkil direct visit vazhi contact cheyyam."
+    }
+  ]
+}

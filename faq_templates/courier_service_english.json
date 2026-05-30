@@ -1,0 +1,194 @@
+{
+  "faqs": [
+    {
+      "category": "service_overview",
+      "questions": [
+        "Do you provide courier service?",
+        "What courier services are available?",
+        "Is parcel delivery available?",
+        "Do you send packages?"
+      ],
+      "answer": "Yes, we provide domestic and international courier services for documents, parcels, packages, and business shipments."
+    },
+    {
+      "category": "domestic_courier",
+      "questions": [
+        "Do you provide domestic courier service?",
+        "Can you send parcels within India?",
+        "Local courier available?",
+        "Same state delivery available?"
+      ],
+      "answer": "Yes, we provide courier delivery services across cities, districts, and states within India."
+    },
+    {
+      "category": "international_courier",
+      "questions": [
+        "Do you provide international courier service?",
+        "Can you send parcels abroad?",
+        "International shipping available?",
+        "Courier outside India available?"
+      ],
+      "answer": "Yes, we provide international courier and shipping services to selected countries worldwide."
+    },
+    {
+      "category": "pickup_service",
+      "questions": [
+        "Do you provide pickup service?",
+        "Can you collect parcels from home?",
+        "Door pickup available?",
+        "Home pickup available?"
+      ],
+      "answer": "Yes, pickup services are available depending on your location and shipment type."
+    },
+    {
+      "category": "delivery_time",
+      "questions": [
+        "How long does delivery take?",
+        "When will my parcel arrive?",
+        "Fast delivery available?",
+        "Same day delivery available?"
+      ],
+      "answer": "Delivery time depends on destination, shipment type, and service selected. Express delivery options may also be available."
+    },
+    {
+      "category": "tracking_service",
+      "questions": [
+        "Can I track my parcel?",
+        "Tracking available?",
+        "How do I track shipment?",
+        "Parcel tracking number available?"
+      ],
+      "answer": "Yes, tracking facilities are available using your shipment tracking number through our website or support team."
+    },
+    {
+      "category": "shipping_charges",
+      "questions": [
+        "What are the courier charges?",
+        "Shipping cost details?",
+        "Parcel delivery charges?",
+        "How is pricing calculated?"
+      ],
+      "answer": "Courier charges depend on parcel weight, size, destination, and delivery speed."
+    },
+    {
+      "category": "document_courier",
+      "questions": [
+        "Can you send documents?",
+        "Document courier available?",
+        "Certificate courier service available?",
+        "Passport courier available?"
+      ],
+      "answer": "Yes, we safely deliver documents, certificates, passports, and important papers."
+    },
+    {
+      "category": "parcel_size_weight",
+      "questions": [
+        "Is there a weight limit?",
+        "Large parcel shipping available?",
+        "Heavy item courier available?",
+        "Maximum parcel size allowed?"
+      ],
+      "answer": "Parcel weight and size limits depend on the courier service and destination."
+    },
+    {
+      "category": "fragile_items",
+      "questions": [
+        "Can you send fragile items?",
+        "Glass items courier available?",
+        "Safe packing available?",
+        "Handle with care service available?"
+      ],
+      "answer": "Yes, fragile items can be shipped with proper packaging and handling precautions."
+    },
+    {
+      "category": "packaging_service",
+      "questions": [
+        "Do you provide packaging service?",
+        "Parcel packing available?",
+        "Box packing available?",
+        "Packing materials available?"
+      ],
+      "answer": "Yes, we provide packaging assistance and packing materials for secure shipment."
+    },
+    {
+      "category": "cash_on_delivery",
+      "questions": [
+        "Cash on delivery available?",
+        "COD service available?",
+        "Can customers pay after delivery?",
+        "COD courier service available?"
+      ],
+      "answer": "Cash on delivery services may be available for selected locations and business customers."
+    },
+    {
+      "category": "business_shipments",
+      "questions": [
+        "Business courier service available?",
+        "Bulk parcel shipping available?",
+        "E-commerce courier available?",
+        "Corporate courier service available?"
+      ],
+      "answer": "Yes, we provide courier solutions for businesses, e-commerce sellers, offices, and bulk shipments."
+    },
+    {
+      "category": "delivery_confirmation",
+      "questions": [
+        "Will I get delivery confirmation?",
+        "Can I know when parcel is delivered?",
+        "Delivery status update available?",
+        "SMS updates available?"
+      ],
+      "answer": "Yes, delivery updates and confirmations are provided through SMS, email, or tracking systems."
+    },
+    {
+      "category": "prohibited_items",
+      "questions": [
+        "Are there restricted items?",
+        "What items cannot be shipped?",
+        "Can I send liquids?",
+        "Can dangerous goods be shipped?"
+      ],
+      "answer": "Certain items such as hazardous materials, illegal products, and restricted goods cannot be shipped."
+    },
+    {
+      "category": "insurance_service",
+      "questions": [
+        "Parcel insurance available?",
+        "Can shipments be insured?",
+        "Compensation available for damage?",
+        "Insurance coverage available?"
+      ],
+      "answer": "Insurance options may be available for valuable shipments depending on courier policies."
+    },
+    {
+      "category": "payment_methods",
+      "questions": [
+        "What payment methods are accepted?",
+        "UPI payment available?",
+        "Card payment accepted?",
+        "Google Pay accepted?"
+      ],
+      "answer": "We accept cash, debit cards, credit cards, UPI, bank transfers, and online payments."
+    },
+    {
+      "category": "offers_discount",
+      "questions": [
+        "Any courier offers available?",
+        "Discount available?",
+        "Bulk shipping discount available?",
+        "Business offers available?"
+      ],
+      "answer": "Yes, discounts and special pricing may be available for bulk shipments and regular customers."
+    },
+    {
+      "category": "customer_support",
+      "questions": [
+        "How can I contact support?",
+        "Customer care available?",
+        "WhatsApp support available?",
+        "How do I reach your office?"
+      ],
+      "answer": "You can contact us through phone, WhatsApp, email, or by visiting our office directly."
+    }
+  ]
+}

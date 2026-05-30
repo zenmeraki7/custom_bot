@@ -1,0 +1,154 @@
+{
+  "faqs": [
+    {
+      "category": "membership_overview",
+      "question": "What types of gym memberships do you offer?",
+      "answer": "We offer monthly, quarterly, half-yearly, and yearly gym membership plans based on your fitness goals."
+    },
+    {
+      "category": "joining_process",
+      "question": "How can I join the gym?",
+      "answer": "You can join the gym by visiting the reception, filling out a registration form, and selecting a membership plan."
+    },
+    {
+      "category": "online_joining",
+      "question": "Can I join the gym online?",
+      "answer": "Yes, online registration is available through our website or mobile app depending on the gym facility."
+    },
+    {
+      "category": "membership_fee",
+      "question": "How much is the gym membership fee?",
+      "answer": "Membership fees vary based on the plan duration, facilities, and services included."
+    },
+    {
+      "category": "trial_session",
+      "question": "Do you offer a free trial session?",
+      "answer": "Yes, many gyms offer a free trial or demo session for new members before joining."
+    },
+    {
+      "category": "documents_required",
+      "question": "What documents are required to join the gym?",
+      "answer": "A valid ID proof, passport size photo, and basic registration details are usually required."
+    },
+    {
+      "category": "age_limit",
+      "question": "Is there any age limit for gym membership?",
+      "answer": "Most gyms accept members above 16 or 18 years depending on the policy, with special plans for seniors."
+    },
+    {
+      "category": "personal_trainer",
+      "question": "Is a personal trainer included in membership?",
+      "answer": "Personal training is usually available as an add-on service and may not be included in basic membership."
+    },
+    {
+      "category": "membership_benefits",
+      "question": "What are the benefits of gym membership?",
+      "answer": "Benefits include access to equipment, group classes, fitness guidance, and a healthy lifestyle environment."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Can I cancel my gym membership?",
+      "answer": "Yes, membership cancellation is possible based on gym policies and terms and conditions."
+    },
+    {
+      "category": "freeze_membership",
+      "question": "Can I pause or freeze my membership?",
+      "answer": "Yes, some gyms allow membership freezing due to travel, illness, or personal reasons."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "Cash, card payments, UPI, and online transfers are commonly accepted."
+    },
+    {
+      "category": "timing_access",
+      "question": "When can I use the gym after joining?",
+      "answer": "You can use the gym during working hours based on your selected membership plan."
+    },
+    {
+      "category": "facilities_included",
+      "question": "What facilities are included in membership?",
+      "answer": "Facilities may include cardio equipment, strength training machines, locker rooms, and group classes."
+    },
+    {
+      "category": "membership_renewal",
+      "question": "How do I renew my gym membership?",
+      "answer": "You can renew your membership at the reception or through online payment options before expiry."
+    },
+    {
+      "category": "gym_opening_hours",
+      "question": "What are your gym opening hours?",
+      "answer": "Our gym is usually open from early morning to late evening, with timings varying based on weekdays and weekends."
+    },
+    {
+      "category": "gym_closing_hours",
+      "question": "What time does the gym close?",
+      "answer": "The gym typically closes in the evening, but exact closing time may vary depending on the day and membership plan."
+    },
+    {
+      "category": "gym_weekend_timing",
+      "question": "Are gym timings different on weekends?",
+      "answer": "Yes, weekend timings may differ slightly from weekdays and may be adjusted based on demand."
+    },
+    {
+      "category": "gym_peak_hours",
+      "question": "What are peak hours in the gym?",
+      "answer": "Peak hours are usually early morning and evening when most members prefer to work out."
+    },
+    {
+      "category": "gym_off_peak_hours",
+      "question": "Are there off-peak hours for less crowd?",
+      "answer": "Yes, mid-morning and afternoon hours are generally less crowded and more comfortable for workouts."
+    },
+    {
+      "category": "gym_access_hours",
+      "question": "Do all members get 24/7 gym access?",
+      "answer": "24/7 access depends on your membership plan. Some plans include round-the-clock access."
+    },
+    {
+      "category": "gym_entry_policy",
+      "question": "How do I enter the gym?",
+      "answer": "Members can enter the gym using membership ID, access card, or biometric verification depending on the facility."
+    },
+    {
+      "category": "gym_guest_access",
+      "question": "Can I bring a guest to the gym?",
+      "answer": "Guest access is allowed in some plans, but prior approval or guest pass may be required."
+    },
+    {
+      "category": "gym_trial_access",
+      "question": "Do you offer trial access before joining?",
+      "answer": "Yes, trial passes or one-day access may be available for new users."
+    },
+    {
+      "category": "gym_holiday_hours",
+      "question": "Is the gym open on public holidays?",
+      "answer": "Gym availability on public holidays depends on management policy and may have reduced hours."
+    },
+    {
+      "category": "gym_access_rules",
+      "question": "Are there any access rules for the gym?",
+      "answer": "Yes, members must follow gym rules including proper attire, hygiene standards, and safety guidelines."
+    },
+    {
+      "category": "gym_late_entry",
+      "question": "Can I enter the gym late at night?",
+      "answer": "Late-night access is available only for members with 24/7 access plans."
+    },
+    {
+      "category": "gym_session_timing",
+      "question": "Is there a time limit per gym session?",
+      "answer": "Some gyms may have session limits during peak hours, while others allow unlimited workout time."
+    },
+    {
+      "category": "gym_facility_access",
+      "question": "Can I access all gym equipment anytime?",
+      "answer": "Yes, all equipment is generally accessible during operating hours unless under maintenance."
+    },
+    {
+      "category": "gym_support_hours",
+      "question": "When is gym staff available for assistance?",
+      "answer": "Trainers and staff are usually available during peak hours, and support may be limited during off-peak times."
+    }
+  ]
+}

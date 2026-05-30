@@ -1,0 +1,229 @@
+{
+  "faqs": [
+    {
+      "category": "medicine_availability",
+      "question": "Ee medicine available aano?",
+      "answer": "Medicine name allenkil prescription share cheyyuka. Availability check cheythu parayam."
+    },
+    {
+      "category": "medicine_stock",
+      "question": "Ee medicine stockil undo?",
+      "answer": "Medicine stock regular ayi maarum. Medicine name paranjal confirm cheyyam."
+    },
+    {
+      "category": "medicine_alternative",
+      "question": "Ee medicineinu alternative undo?",
+      "answer": "Athe, prescriptionum stockum anusari alternative allenkil generic medicines available ayirikkum."
+    },
+    {
+      "category": "generic_medicine",
+      "question": "Generic medicine undo?",
+      "answer": "Selected brandsinu generic medicines available aanu."
+    },
+    {
+      "category": "prescription_requirement",
+      "question": "Prescription venamo medicine vangaan?",
+      "answer": "Chila medicinesinu valid doctor prescription mandatory aanu."
+    },
+    {
+      "category": "upload_prescription",
+      "question": "Prescription online ayachu tharamo?",
+      "answer": "Athe, prescription WhatsApp allenkil online platform vazhi share cheyyam."
+    },
+    {
+      "category": "doctor_consultation",
+      "question": "Doctor consultation undo?",
+      "answer": "Doctor consultation availability pharmacy branch anusari ayirikkum."
+    },
+    {
+      "category": "home_delivery",
+      "question": "Home delivery undo?",
+      "answer": "Athe, selected locationsil home delivery available aanu."
+    },
+    {
+      "category": "delivery_availability",
+      "question": "Ente area yil delivery undo?",
+      "answer": "Delivery availability ningalude location anusari ayirikkum."
+    },
+    {
+      "category": "delivery_time",
+      "question": "Delivery ethra time edukum?",
+      "answer": "Locationum order sizeum anusari delivery usually 30 muthal 60 minutes vare edukum."
+    },
+    {
+      "category": "delivery_charges",
+      "question": "Delivery charge undo?",
+      "answer": "Distanceum order valueum anusari delivery charges apply cheyyam."
+    },
+    {
+      "category": "minimum_order",
+      "question": "Deliveryinu minimum order value undo?",
+      "answer": "Location anusari minimum order requirement undayirikkam."
+    },
+    {
+      "category": "order_tracking",
+      "question": "Order track cheyyamo?",
+      "answer": "Athe, ordering method anusari order tracking available ayirikkum."
+    },
+    {
+      "category": "late_delivery",
+      "question": "Delivery late aayal enthu cheyyum?",
+      "answer": "Traffic, weather, allenkil high demand karanam delay undaakam. Updates provide cheyyum."
+    },
+    {
+      "category": "takeaway_option",
+      "question": "Medicine direct ayi shopil ninnu vangamo?",
+      "answer": "Athe, order place cheythu pharmacyil ninnu collect cheyyam."
+    },
+    {
+      "category": "order_methods",
+      "question": "Medicine order engane place cheyyam?",
+      "answer": "Phone call, WhatsApp, website, allenkil online platform vazhi orders place cheyyam."
+    },
+    {
+      "category": "order_modification",
+      "question": "Order place cheythathinu sesham modify cheyyamo?",
+      "answer": "Billing allenkil packing start cheyyunnathinu munpu maathram modifications possible aanu."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Medicine order cancel cheyyamo?",
+      "answer": "Dispatch allenkil billing confirmationinu munpu orders cancel cheyyam."
+    },
+    {
+      "category": "monthly_medicines",
+      "question": "Monthly medicine delivery arrange cheyyamo?",
+      "answer": "Regular medicinesinu monthly recurring delivery arrange cheyyan pattum."
+    },
+    {
+      "category": "bulk_orders",
+      "question": "Bulk medicine orders accept cheyyumo?",
+      "answer": "Athe, stock availability anusari bulk orders accept cheyyum."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Payment options enthokke aanu?",
+      "answer": "Cash, debit card, credit card, UPI, online payments ellam accept cheyyum."
+    },
+    {
+      "category": "upi_payments",
+      "question": "UPI payments accept cheyyumo?",
+      "answer": "Athe, ella major UPI appsum accept cheyyunnu."
+    },
+    {
+      "category": "cash_on_delivery",
+      "question": "Cash on delivery undo?",
+      "answer": "Eligible delivery locationsil cash on delivery available ayirikkum."
+    },
+    {
+      "category": "online_payment",
+      "question": "Online ayi pay cheyyamo?",
+      "answer": "Athe, medicine ordersinu online payment options available aanu."
+    },
+    {
+      "category": "payment_receipt",
+      "question": "Payment receipt kitto?",
+      "answer": "Athe, payment kazhinjal printed allenkil digital receipt labhikkum."
+    },
+    {
+      "category": "discounts",
+      "question": "Medicinesinu discount undo?",
+      "answer": "Selected medicinesinum healthcare productsinum discounts available ayirikkum."
+    },
+    {
+      "category": "membership_program",
+      "question": "Membership allenkil loyalty program undo?",
+      "answer": "Chila branches loyalty rewards allenkil membership benefits provide cheyyunnu."
+    },
+    {
+      "category": "healthcare_products",
+      "question": "Healthcare products undo?",
+      "answer": "Athe, healthcare, wellness, personal care products available aanu."
+    },
+    {
+      "category": "vitamins_supplements",
+      "question": "Vitaminsum supplementsum undo?",
+      "answer": "Athe, vitamins, supplements, nutrition products ellam available aanu."
+    },
+    {
+      "category": "baby_products",
+      "question": "Baby care products undo?",
+      "answer": "Athe, baby food, diapers, baby care items available aanu."
+    },
+    {
+      "category": "diabetic_products",
+      "question": "Diabetic products undo?",
+      "answer": "Athe, diabetic medicines, glucometers, testing supplies ellam available aanu."
+    },
+    {
+      "category": "medical_equipment",
+      "question": "Medical equipment undo?",
+      "answer": "Athe, BP monitor, thermometer pole selected medical equipment available aanu."
+    },
+    {
+      "category": "cosmetics_products",
+      "question": "Skincare allenkil cosmetic products undo?",
+      "answer": "Athe, skincare, cosmetic, personal care products available aanu."
+    },
+    {
+      "category": "cold_storage",
+      "question": "Temperature sensitive medicines proper ayi store cheyyumo?",
+      "answer": "Athe, temperature-sensitive medicines recommended conditionsil store cheyyunnu."
+    },
+    {
+      "category": "expiry_check",
+      "question": "Medicine expiry check cheyyumo?",
+      "answer": "Athe, ella medicinesinteyum expiry dates regular ayi check cheyyunnu."
+    },
+    {
+      "category": "medicine_return",
+      "question": "Medicine return cheyyan pattumo?",
+      "answer": "Medicine return pharmacy policyum product conditionum anusari ayirikkum."
+    },
+    {
+      "category": "damaged_products",
+      "question": "Damaged medicine kittiyal enthu cheyyanam?",
+      "answer": "Damaged products kittiyal pharmacyne immediate ayi contact cheyyuka."
+    },
+    {
+      "category": "store_timings",
+      "question": "Pharmacy opening time enthaanu?",
+      "answer": "Pharmacy timings branch locationum daily scheduleum anusari ayirikkum."
+    },
+    {
+      "category": "holiday_hours",
+      "question": "Public holidaysil open aano?",
+      "answer": "Athe, pala pharmacy branchesum public holidaysil adjusted timingsode open ayirikkum."
+    },
+    {
+      "category": "24_hours_service",
+      "question": "24 hours service undo?",
+      "answer": "24-hour service branch anusari available ayirikkum."
+    },
+    {
+      "category": "peak_hours",
+      "question": "Pharmacy eppo busy ayirikkum?",
+      "answer": "Usually mornings, evenings, weekends, holidays samayath peak hours ayirikkum."
+    },
+    {
+      "category": "parking_availability",
+      "question": "Parking facility undo?",
+      "answer": "Parking availability pharmacy location anusari ayirikkum."
+    },
+    {
+      "category": "wheelchair_access",
+      "question": "Wheelchair access undo?",
+      "answer": "Pala pharmacy locationsilum wheelchair-friendly access available aanu."
+    },
+    {
+      "category": "customer_support",
+      "question": "Customer supportine engane contact cheyyam?",
+      "answer": "Phone, WhatsApp, email, allenkil direct store visit vazhi contact cheyyam."
+    },
+    {
+      "category": "emergency_support",
+      "question": "Emergency timeil pharmacy contact cheyyamo?",
+      "answer": "Emergency medicine support branch timingsum service availabilityum anusari ayirikkum."
+    }
+  ]
+}

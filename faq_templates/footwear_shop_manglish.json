@@ -1,0 +1,184 @@
+{
+  "faqs": [
+    {
+      "category": "shop_overview",
+      "questions": [
+        "Footwear vilkkunnundo?",
+        "Entokke products undu?",
+        "Ithu footwear shop ano?",
+        "Branded shoes undo?"
+      ],
+      "answer": "Athe, shoes, sandals, slippers, sneakers, sports shoes, formal footwear men, women, kids vendi available aanu."
+    },
+    {
+      "category": "mens_footwear",
+      "questions": [
+        "Men's footwear undo?",
+        "Men's shoes available ano?",
+        "Formal shoes for men undo?",
+        "Men's sandals available ano?"
+      ],
+      "answer": "Men's formal shoes, casual shoes, sandals, slippers, sneakers, sports footwear okke available aanu."
+    },
+    {
+      "category": "womens_footwear",
+      "questions": [
+        "Women's footwear undo?",
+        "Ladies sandals available ano?",
+        "Heels undo?",
+        "Women's shoes available ano?"
+      ],
+      "answer": "Women's sandals, heels, flats, sneakers, casual shoes, ethnic footwear okke available aanu."
+    },
+    {
+      "category": "kids_footwear",
+      "questions": [
+        "Kids footwear undo?",
+        "School shoes available ano?",
+        "Children's sandals undo?",
+        "Kids shoes available ano?"
+      ],
+      "answer": "School shoes, sandals, sneakers, casual footwear kidsinu available aanu."
+    },
+    {
+      "category": "sports_footwear",
+      "questions": [
+        "Sports shoes undo?",
+        "Running shoes available ano?",
+        "Gym shoes undo?",
+        "Sneakers available ano?"
+      ],
+      "answer": "Sports shoes, running shoes, walking shoes, gym shoes, sneakers leading brands-il available aanu."
+    },
+    {
+      "category": "brands_available",
+      "questions": [
+        "Eth brands available aanu?",
+        "Nike shoes undo?",
+        "Adidas footwear available ano?",
+        "Puma shoes undo?"
+      ],
+      "answer": "Nike, Adidas, Puma, Bata, Skechers, Woodland, Crocs polulla popular brands footwear available aanu."
+    },
+    {
+      "category": "size_availability",
+      "questions": [
+        "Eth sizes available aanu?",
+        "Large sizes undo?",
+        "Small size footwear available ano?",
+        "Kids size undo?"
+      ],
+      "answer": "Men, women, children vendi multiple sizes-il footwear available aanu."
+    },
+    {
+      "category": "custom_fit",
+      "questions": [
+        "Buy cheyyunnathinu munpe try cheyyan pattumo?",
+        "Trial available ano?",
+        "Fitting nokkan pattumo?",
+        "Footwear fitting undo?"
+      ],
+      "answer": "Athe, customersinu size um comfort um check cheythu footwear try cheyyan pattum."
+    },
+    {
+      "category": "offers_discount",
+      "questions": [
+        "Offers undo?",
+        "Discount available ano?",
+        "Footwear sale undo?",
+        "Festival offers undo?"
+      ],
+      "answer": "Discounts, combo deals, seasonal sales, festive promotions okke regular ayi available aanu."
+    },
+    {
+      "category": "online_orders",
+      "questions": [
+        "Online order cheyyan pattumo?",
+        "WhatsApp order undo?",
+        "Online shopping available ano?",
+        "Footwear online reserve cheyyan pattumo?"
+      ],
+      "answer": "Selected products phone, WhatsApp, social media vazhi order allenkil reserve cheyyan pattum."
+    },
+    {
+      "category": "delivery_service",
+      "questions": [
+        "Delivery undo?",
+        "Home delivery available ano?",
+        "Footwear deliver cheyyumo?",
+        "Same day delivery undo?"
+      ],
+      "answer": "Location um product availability um anusarikku delivery services available aanu."
+    },
+    {
+      "category": "payment_methods",
+      "questions": [
+        "Ethokke payment methods accept cheyyum?",
+        "UPI payment undo?",
+        "Card payment accept cheyyumo?",
+        "Google Pay edukumo?"
+      ],
+      "answer": "Cash, debit cards, credit cards, UPI, mobile wallets, online payments okke accept cheyyunnu."
+    },
+    {
+      "category": "return_exchange",
+      "questions": [
+        "Footwear exchange cheyyan pattumo?",
+        "Return undo?",
+        "Size exchange available ano?",
+        "Replacement undo?"
+      ],
+      "answer": "Eligible productsinu store policy anusarikku exchange um replacement um available aanu."
+    },
+    {
+      "category": "warranty",
+      "questions": [
+        "Footwearinu warranty undo?",
+        "Warranty available ano?",
+        "Product guarantee undo?",
+        "Branded shoe warranty available ano?"
+      ],
+      "answer": "Selected branded footwear productsinu manufacturer warranty allenkil quality assurance available ayirikkum."
+    },
+    {
+      "category": "bulk_orders",
+      "questions": [
+        "Bulk orders accept cheyyumo?",
+        "School shoe bulk order undo?",
+        "Corporate footwear orders available ano?",
+        "Wholesale footwear undo?"
+      ],
+      "answer": "Schools, offices, organizations vendi bulk um wholesale footwear orders um accept cheyyunnu."
+    },
+    {
+      "category": "new_arrivals",
+      "questions": [
+        "New arrivals undo?",
+        "Latest footwear collection available ano?",
+        "Trending shoes undo?",
+        "New stock available ano?"
+      ],
+      "answer": "Latest footwear collections um new designs um regular ayi update cheyyunnu."
+    },
+    {
+      "category": "shop_timings",
+      "questions": [
+        "Shop timing entha?",
+        "Eppo open aakum?",
+        "Sunday open ano?",
+        "Closing time entha?"
+      ],
+      "answer": "Daily regular business hours-il footwear store open aanu."
+    },
+    {
+      "category": "contact_support",
+      "questions": [
+        "Shop-ne engane contact cheyyam?",
+        "WhatsApp number undo?",
+        "Location share cheyyumo?",
+        "Shop evide aanu?"
+      ],
+      "answer": "Phone, WhatsApp, social media allenkil direct store visit cheythu contact cheyyam."
+    }
+  ]
+}

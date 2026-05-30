@@ -1,0 +1,154 @@
+{
+  "faqs": [
+    {
+      "category": "room_booking_overview",
+      "question": "How can I book a hotel room?",
+      "answer": "You can book a hotel room online through the hotel website, travel apps, phone call, or by visiting the hotel directly."
+    },
+    {
+      "category": "online_booking",
+      "question": "Can I book a hotel room online?",
+      "answer": "Yes, most hotels allow online booking through their official website or third-party booking platforms."
+    },
+    {
+      "category": "reservation_confirmation",
+      "question": "How will I know if my room is confirmed?",
+      "answer": "You will receive a confirmation email, SMS, or booking reference number after successful reservation."
+    },
+    {
+      "category": "check_in_check_out",
+      "question": "What are the check-in and check-out times?",
+      "answer": "Standard check-in time is usually afternoon, and check-out is in the morning, but it may vary by hotel."
+    },
+    {
+      "category": "walk_in_booking",
+      "question": "Can I get a room without prior booking?",
+      "answer": "Yes, walk-in bookings are possible depending on room availability."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Can I cancel or modify my hotel booking?",
+      "answer": "Yes, cancellations or modifications are allowed based on the hotel’s cancellation policy."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted for room booking?",
+      "answer": "Hotels usually accept cash, credit/debit cards, UPI, and online payment methods."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Do I need to pay in advance to book a room?",
+      "answer": "Some hotels require advance payment or deposit to confirm the booking."
+    },
+    {
+      "category": "room_types",
+      "question": "What types of rooms are available?",
+      "answer": "Hotels offer single rooms, double rooms, deluxe rooms, suites, and family rooms depending on availability."
+    },
+    {
+      "category": "early_checkin",
+      "question": "Can I check in early?",
+      "answer": "Early check-in is subject to availability and may have additional charges."
+    },
+    {
+      "category": "late_checkout",
+      "question": "Is late check-out allowed?",
+      "answer": "Late check-out may be allowed depending on hotel policy and availability."
+    },
+    {
+      "category": "group_booking",
+      "question": "Can I book multiple rooms for a group?",
+      "answer": "Yes, group bookings are available for families, tours, and corporate stays."
+    },
+    {
+      "category": "special_requests",
+      "question": "Can I request special arrangements in my room?",
+      "answer": "Yes, you can request special arrangements like extra bed, decorations, or view preferences."
+    },
+    {
+      "category": "pricing",
+      "question": "How is hotel room pricing calculated?",
+      "answer": "Room pricing depends on room type, season, location, and duration of stay."
+    },
+    {
+      "category": "customer_support",
+      "question": "Who can I contact for booking help?",
+      "answer": "You can contact hotel reception or customer support for booking assistance and queries."
+    },
+    {
+      "category": "checkin_overview",
+      "question": "What is the standard check-in time at the hotel?",
+      "answer": "Standard check-in time is usually in the afternoon, but it may vary depending on the hotel policy."
+    },
+    {
+      "category": "checkout_time",
+      "question": "What is the check-out time at the hotel?",
+      "answer": "Check-out time is usually in the late morning, and guests are expected to vacate the room by that time."
+    },
+    {
+      "category": "early_checkin",
+      "question": "Can I request early check-in?",
+      "answer": "Yes, early check-in may be available depending on room availability and hotel policy."
+    },
+    {
+      "category": "late_checkout",
+      "question": "Can I request late check-out?",
+      "answer": "Yes, late check-out can be requested, but it may depend on availability and additional charges."
+    },
+    {
+      "category": "checkin_documents",
+      "question": "What documents are required for check-in?",
+      "answer": "A valid government ID or passport is usually required during check-in."
+    },
+    {
+      "category": "booking_confirmation",
+      "question": "Do I need a booking confirmation for check-in?",
+      "answer": "Yes, booking confirmation details are required during check-in."
+    },
+    {
+      "category": "checkout_process",
+      "question": "What is the check-out process?",
+      "answer": "At check-out, guests must return room keys, settle bills, and complete any pending formalities at the reception."
+    },
+    {
+      "category": "late_checkout_charges",
+      "question": "Are there extra charges for late check-out?",
+      "answer": "Yes, additional charges may apply for late check-out depending on hotel policy."
+    },
+    {
+      "category": "early_checkin_charges",
+      "question": "Is early check-in free?",
+      "answer": "Early check-in may be free or chargeable depending on room availability and hotel rules."
+    },
+    {
+      "category": "stay_extension",
+      "question": "Can I extend my stay after check-in?",
+      "answer": "Yes, you can extend your stay subject to room availability."
+    },
+    {
+      "category": "24_hour_checkin",
+      "question": "Do hotels allow 24-hour check-in?",
+      "answer": "Some hotels offer 24-hour check-in, but it depends on their policies."
+    },
+    {
+      "category": "checkout_reminder",
+      "question": "Will I get a reminder for check-out time?",
+      "answer": "Yes, many hotels provide reminders before check-out time."
+    },
+    {
+      "category": "late_arrival",
+      "question": "What happens if I arrive late for check-in?",
+      "answer": "If you arrive late, your booking is usually held, but it's best to inform the hotel in advance."
+    },
+    {
+      "category": "group_checkin",
+      "question": "Can a group check-in together?",
+      "answer": "Yes, group check-in is allowed with proper identification for all guests."
+    },
+    {
+      "category": "checkout_billing",
+      "question": "Do I need to pay anything during check-out?",
+      "answer": "Yes, any pending bills, room service charges, or additional services must be paid at check-out."
+    }
+  ]
+}

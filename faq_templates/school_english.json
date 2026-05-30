@@ -1,0 +1,229 @@
+{
+  "faqs": [
+    {
+      "category": "school_overview",
+      "question": "What classes are available in the school?",
+      "answer": "The school offers classes based on the academic curriculum and grade structure available at the institution."
+    },
+    {
+      "category": "admission_process",
+      "question": "How can I apply for admission?",
+      "answer": "Admissions can be completed through the school office, website, or online admission portal."
+    },
+    {
+      "category": "admission_documents",
+      "question": "What documents are required for admission?",
+      "answer": "Documents usually include birth certificate, previous academic records, ID proof, passport-size photos, and transfer certificate if applicable."
+    },
+    {
+      "category": "admission_age",
+      "question": "What is the minimum age for admission?",
+      "answer": "Minimum age requirements depend on the class and education board guidelines."
+    },
+    {
+      "category": "admission_deadline",
+      "question": "When does the admission process start?",
+      "answer": "Admission dates vary each academic year and are announced through the school office or website."
+    },
+    {
+      "category": "entrance_exam",
+      "question": "Is there an entrance exam for admission?",
+      "answer": "Some classes may require entrance tests or interviews depending on school policy."
+    },
+    {
+      "category": "fee_structure",
+      "question": "What is the school fee structure?",
+      "answer": "Fee structure depends on the class, facilities, and academic program selected."
+    },
+    {
+      "category": "fee_payment",
+      "question": "How can I pay school fees?",
+      "answer": "Fees can usually be paid through cash, bank transfer, UPI, cards, or online payment portals."
+    },
+    {
+      "category": "late_fee",
+      "question": "Is there a fine for late fee payment?",
+      "answer": "Late fee charges may apply according to school payment policies."
+    },
+    {
+      "category": "scholarship",
+      "question": "Do you provide scholarships?",
+      "answer": "Scholarships or fee concessions may be available for eligible students."
+    },
+    {
+      "category": "school_timings",
+      "question": "What are the school timings?",
+      "answer": "School timings vary depending on grade level and academic schedule."
+    },
+    {
+      "category": "working_days",
+      "question": "Which days is the school open?",
+      "answer": "The school usually operates on weekdays except public holidays and scheduled vacations."
+    },
+    {
+      "category": "holiday_schedule",
+      "question": "Do you provide a holiday calendar?",
+      "answer": "Yes, the academic holiday calendar is provided at the beginning of the academic year."
+    },
+    {
+      "category": "uniform_details",
+      "question": "Is school uniform mandatory?",
+      "answer": "Yes, students are required to wear the prescribed school uniform."
+    },
+    {
+      "category": "books_materials",
+      "question": "Does the school provide books and study materials?",
+      "answer": "Books and study materials may be provided or available for purchase through the school."
+    },
+    {
+      "category": "transport_service",
+      "question": "Do you provide school transportation?",
+      "answer": "Yes, transportation services may be available depending on route coverage."
+    },
+    {
+      "category": "transport_fee",
+      "question": "Is there a separate fee for school transport?",
+      "answer": "Yes, transportation charges depend on the travel distance and route."
+    },
+    {
+      "category": "hostel_facility",
+      "question": "Do you provide hostel facilities?",
+      "answer": "Hostel availability depends on the school campus and facilities provided."
+    },
+    {
+      "category": "canteen_facility",
+      "question": "Is a school canteen available?",
+      "answer": "Yes, many schools provide canteen facilities for students and staff."
+    },
+    {
+      "category": "library_facility",
+      "question": "Does the school have a library?",
+      "answer": "Yes, library facilities are available with academic and reference materials."
+    },
+    {
+      "category": "computer_lab",
+      "question": "Do you have computer lab facilities?",
+      "answer": "Yes, computer lab facilities are available for students."
+    },
+    {
+      "category": "sports_facility",
+      "question": "What sports facilities are available?",
+      "answer": "The school provides indoor and outdoor sports facilities depending on campus infrastructure."
+    },
+    {
+      "category": "extracurricular_activities",
+      "question": "Do you offer extracurricular activities?",
+      "answer": "Yes, students can participate in arts, music, dance, sports, and club activities."
+    },
+    {
+      "category": "smart_classrooms",
+      "question": "Do you have smart classrooms?",
+      "answer": "Yes, smart classroom facilities may be available with digital learning support."
+    },
+    {
+      "category": "online_classes",
+      "question": "Do you provide online classes?",
+      "answer": "Online learning support may be available when required."
+    },
+    {
+      "category": "attendance_policy",
+      "question": "What is the attendance policy?",
+      "answer": "Students are expected to maintain minimum attendance according to academic regulations."
+    },
+    {
+      "category": "leave_application",
+      "question": "How can students apply for leave?",
+      "answer": "Leave requests can be submitted through written application, parent communication, or online systems."
+    },
+    {
+      "category": "exam_schedule",
+      "question": "How are exam schedules announced?",
+      "answer": "Exam schedules are shared through notices, school diary, website, or parent communication systems."
+    },
+    {
+      "category": "report_cards",
+      "question": "How can parents access report cards?",
+      "answer": "Report cards are distributed during parent meetings or through online student portals."
+    },
+    {
+      "category": "parent_teacher_meeting",
+      "question": "Do you conduct parent-teacher meetings?",
+      "answer": "Yes, regular parent-teacher meetings are conducted to discuss student performance."
+    },
+    {
+      "category": "student_safety",
+      "question": "How does the school ensure student safety?",
+      "answer": "The school follows safety protocols, campus monitoring, and student supervision practices."
+    },
+    {
+      "category": "medical_facility",
+      "question": "Is medical assistance available at school?",
+      "answer": "Basic first aid and medical support are usually available on campus."
+    },
+    {
+      "category": "special_education",
+      "question": "Do you support students with special learning needs?",
+      "answer": "Support services may be available depending on school resources and programs."
+    },
+    {
+      "category": "language_options",
+      "question": "Which languages are taught in the school?",
+      "answer": "Language options depend on the curriculum and school academic policy."
+    },
+    {
+      "category": "curriculum_board",
+      "question": "Which education board is followed?",
+      "answer": "The school follows the curriculum and education board approved by the institution."
+    },
+    {
+      "category": "transfer_certificate",
+      "question": "How can I apply for a transfer certificate?",
+      "answer": "Transfer certificate requests can be submitted through the school administration office."
+    },
+    {
+      "category": "student_counselling",
+      "question": "Do you provide student counselling services?",
+      "answer": "Counselling and student guidance services may be available for academic and personal support."
+    },
+    {
+      "category": "school_events",
+      "question": "Does the school conduct annual events and programs?",
+      "answer": "Yes, schools usually organize annual day events, competitions, exhibitions, and celebrations."
+    },
+    {
+      "category": "contact_support",
+      "question": "How can I contact the school office?",
+      "answer": "You can contact the school through phone, email, website, or direct office visit."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Is parking available for parents and visitors?",
+      "answer": "Parking facilities may be available depending on campus infrastructure."
+    },
+    {
+      "category": "wifi_facility",
+      "question": "Does the school provide WiFi access?",
+      "answer": "WiFi facilities may be available for academic and administrative purposes."
+    },
+    {
+      "category": "security_system",
+      "question": "Does the school have security systems?",
+      "answer": "Yes, many schools use CCTV monitoring and campus security systems for safety."
+    },
+    {
+      "category": "school_notifications",
+      "question": "How will parents receive school updates?",
+      "answer": "School updates are usually shared through SMS, apps, emails, notices, or WhatsApp groups."
+    },
+    {
+      "category": "admission_status",
+      "question": "How can I check admission status?",
+      "answer": "Admission status can be checked through the school office or online admission portal."
+    },
+    {
+      "category": "vacancy_availability",
+      "question": "Are seats available for admission?",
+      "answer": "Seat availability depends on the class and admission capacity."
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "faqs": [
+    {
+      "category": "enrollment_overview",
+      "question": "Driving school-il admission engane edukkam?",
+      "answer": "Nee direct driving school-il poyi, application form fill cheythu documents submit cheythal enrollment complete aavum."
+    },
+    {
+      "category": "online_enrollment",
+      "question": "Online enrollment cheyyan pattumo?",
+      "answer": "Yes, some driving schools online registration facility provide cheyyum, form fill cheythu details submit cheyyam."
+    },
+    {
+      "category": "eligibility",
+      "question": "Driving school join cheyyan eligibility enthaanu?",
+      "answer": "Basic eligibility 18 years age complete aayirikkanam, valid ID proof undaayirikkanam."
+    },
+    {
+      "category": "documents_required",
+      "question": "Enrollment-inu enthellam documents venam?",
+      "answer": "ID proof, address proof, passport size photos, and age proof documents venam."
+    },
+    {
+      "category": "registration_fee",
+      "question": "Admission fee ethra aanu?",
+      "answer": "Fee driving school and course type anusarich vary cheyyum."
+    },
+    {
+      "category": "course_types",
+      "question": "Enthokke driving courses available aanu?",
+      "answer": "Two wheeler, four wheeler, automatic, manual, and advanced driving courses available aanu."
+    },
+    {
+      "category": "training_start",
+      "question": "Enrollment kazhinjal training eppo start aavum?",
+      "answer": "Usually enrollment complete aayathinu shesham few days-inu ullil training start aavum."
+    },
+    {
+      "category": "batch_timing",
+      "question": "Training batch timing engane aanu?",
+      "answer": "Morning and evening batches available aanu, nee choose cheyyan pattum."
+    },
+    {
+      "category": "license_assistance",
+      "question": "License edukkan driving school help cheyyumo?",
+      "answer": "Yes, learner license and driving license process-il guidance and assistance provide cheyyum."
+    },
+    {
+      "category": "test_preparation",
+      "question": "Driving test preparation kittumo?",
+      "answer": "Yes, theory and practical test preparation training include cheyyum."
+    },
+    {
+      "category": "vehicle_type",
+      "question": "Training-inu enthu type vehicle use cheyyum?",
+      "answer": "Manual and automatic vehicles training-inu use cheyyum depending on course."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Enrollment cancel cheythal refund kittumo?",
+      "answer": "Refund policy driving school rules anusarich vary cheyyum."
+    },
+    {
+      "category": "home_pickup",
+      "question": "Training-inu pickup/drop facility undo?",
+      "answer": "Some driving schools pickup and drop facility provide cheyyum based on package."
+    },
+    {
+      "category": "duration",
+      "question": "Driving course ethra duration aanu?",
+      "answer": "Course duration usually 15 days muthal few weeks vare aavum depending on training level."
+    },
+    {
+      "category": "certificate",
+      "question": "Course complete aayal certificate kittumo?",
+      "answer": "Yes, training completion certificate driving school provide cheyyum."
+    },
+    {
+      "category": "license_overview",
+      "question": "Driving license edukkan entha process aanu?",
+      "answer": "Learner's test pass cheythu, driving practice complete cheythu, final driving test pass cheyyanam."
+    },
+    {
+      "category": "learner_license",
+      "question": "Learner license enthaanu?",
+      "answer": "Driving padikkan vendi temporary license aanu learner license, test pass cheythal kittum."
+    },
+    {
+      "category": "eligibility",
+      "question": "Driving license edukkan eligibility enthaanu?",
+      "answer": "Minimum age complete aayirikkanam, required documents undavum, and basic traffic rules knowledge venam."
+    },
+    {
+      "category": "documents_required",
+      "question": "License edukkan enthellam documents venam?",
+      "answer": "ID proof, address proof, age proof, photos, and application form venam."
+    },
+    {
+      "category": "driving_school_help",
+      "question": "Driving school help cheyyumo license edukkan?",
+      "answer": "Yes, driving school training, test preparation, and application support provide cheyyum."
+    },
+    {
+      "category": "test_process",
+      "question": "Driving test-il entha nadakkunnath?",
+      "answer": "Vehicle control, road rules, parking, and practical driving skills test cheyyum."
+    },
+    {
+      "category": "fail_retest",
+      "question": "Driving test fail aayal entha cheyyam?",
+      "answer": "Re-test apply cheyyam, driving practice improve cheythu next attempt edukkam."
+    },
+    {
+      "category": "license_types",
+      "question": "Which types of driving license kittum?",
+      "answer": "Two wheeler, four wheeler, commercial license, and heavy vehicle license kittum."
+    },
+    {
+      "category": "renewal",
+      "question": "License renew cheyyan engane?",
+      "answer": "License expiry munpu renewal application submit cheyyanam online or RTO office-il."
+    },
+    {
+      "category": "international_license",
+      "question": "International driving license kittumo?",
+      "answer": "Yes, valid Indian license undengil international driving permit apply cheyyam."
+    },
+    {
+      "category": "fees",
+      "question": "License fees ethra aanu?",
+      "answer": "Fees license type and government rules anusarich vary cheyyum."
+    },
+    {
+      "category": "training_duration",
+      "question": "Driving training ethra neram edukum?",
+      "answer": "Usually 15 to 30 days or more depending on course type."
+    },
+    {
+      "category": "online_application",
+      "question": "License online apply cheyyan pattumo?",
+      "answer": "Yes, government portal use cheythu online application submit cheyyam."
+    },
+    {
+      "category": "medical_test",
+      "question": "Medical test venamo license edukkan?",
+      "answer": "Some license categories-inu medical fitness certificate venam."
+    },
+    {
+      "category": "driving_school_benefits",
+      "question": "Driving school join cheyyunnathinte benefit enthaanu?",
+      "answer": "Professional training, confidence building, and test pass chance improve cheyyum."
+    },
+    {
+      "category": "fees_overview",
+      "question": "Driving school fees entha include cheyyunnath?",
+      "answer": "Driving school fees-il theory classes, practical driving sessions, vehicle usage, and basic training ellam usually include aayirikkum."
+    },
+    {
+      "category": "course_fee",
+      "question": "Driving course fee ethra aanu?",
+      "answer": "Course fee driving school, vehicle type (manual or automatic), and duration depend cheyyum."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Payment engane cheyyam?",
+      "answer": "Cash, UPI, bank transfer, debit card, and online payment methods accept cheyyum."
+    },
+    {
+      "category": "installment_payment",
+      "question": "Fees installment aayi pay cheyyan pattumo?",
+      "answer": "Yes, some driving schools installment payment facility provide cheyyum."
+    },
+    {
+      "category": "hidden_charges",
+      "question": "Any hidden charges undo?",
+      "answer": "No, proper driving schools transparent pricing follow cheyyum, pakshe RTO fees separate aayirikkam."
+    },
+    {
+      "category": "rto_fees",
+      "question": "RTO test fees course-il include aano?",
+      "answer": "Usually RTO test fees separate aayirikkum, driving school package-il include allenkil add-on aayirikkum."
+    },
+    {
+      "category": "license_charges",
+      "question": "Driving license process-inu extra charge undo?",
+      "answer": "Yes, license application and processing fees separate aayirikkam."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Fees pay cheythal refund kittumo?",
+      "answer": "Refund policy driving school rules depend cheyyum, usually terms and conditions apply aavum."
+    },
+    {
+      "category": "discounts",
+      "question": "Discounts or offers available aano?",
+      "answer": "Yes, seasonal offers or student discounts occasionally available aayirikkam."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Admission-inu advance payment venamo?",
+      "answer": "Yes, registration confirm cheyyan small advance payment venam."
+    },
+    {
+      "category": "course_packages",
+      "question": "Different driving course packages undo?",
+      "answer": "Yes, beginner, refresher, and advanced packages available aanu."
+    },
+    {
+      "category": "extra_classes",
+      "question": "Extra driving classes edukkan pattumo?",
+      "answer": "Yes, additional classes extra charge-il arrange cheyyam."
+    },
+    {
+      "category": "test_included",
+      "question": "Driving test fees course-il include aano?",
+      "answer": "Some packages-il include aayirikkum, otherwise separate pay cheyyanam."
+    },
+    {
+      "category": "payment_receipt",
+      "question": "Payment receipt kittumo?",
+      "answer": "Yes, official receipt ellavarkkum provide cheyyum."
+    },
+    {
+      "category": "fee_structure",
+      "question": "Fees structure engane ariyam?",
+      "answer": "Driving school office-il allenkil website/WhatsApp vazhi complete fee structure ariyam."
+    }
+  ]
+}
