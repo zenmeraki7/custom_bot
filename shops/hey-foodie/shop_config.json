@@ -26,18 +26,18 @@
   ],
   "services": [],
   "delivery": {
-    "areas": "Local area",
-    "free_above": "₹500",
-    "days": "2–3 working days"
+    "areas": "All Kochi & Ernakulam - Edappally, Kakkanad, Palarivattom, Vyttila, Fort Kochi, Tripunithura, Aluva, Perumbavoor, Kaloor",
+    "free_above": "₹300",
+    "days": "30-45 minutes (peak hours may take up to 60 min)"
   },
   "returns": {
-    "days": 7,
-    "condition": "unused with original packaging",
-    "refund_days": "5–7 business days"
+    "days": 0,
+    "condition": "",
+    "refund_days": ""
   },
   "first_offer": {
-    "code": "WELCOME10",
-    "description": "10% off for new customers"
+    "code": "SPICE10",
+    "description": "10% off on first online order (WhatsApp / Zomato / Swiggy)"
   },
   "escalate": {
     "whatsapp": "+91 98765 44444",
@@ -52,7 +52,9 @@
     "Chicken",
     "Mutton",
     "Beef",
-    "Biryani"
+    "Biryani",
+    "Rice",
+    "Curries"
   ],
   "item_label": "dishes",
   "profile_source": "known",
@@ -70,6 +72,6 @@
   },
   "quick_chips": [],
   "welcome_cards": [],
-  "item_count": 90,
-  "signature_items": "Crab Masala, pieces), Mutton Fry"
+  "item_count": 82,
+  "signature_items": "Crab Masala, Mutton Fry, Mutton Masala"
 }

@@ -1,14 +1,14 @@
 [
   {
     "name": "License No.",
-    "category": "Prescription Medicines",
+    "category": "OTC Medicines",
     "price_min": 482,
     "price_max": 2005,
     "gender": "all"
   },
   {
     "name": "Drug Lic. No.",
-    "category": "Prescription Medicines",
+    "category": "OTC Medicines",
     "price_min": 20,
     "price_max": 2005,
     "gender": "all"
@@ -26,22 +26,8 @@
     "gender": "all"
   },
   {
-    "name": "Metformin, Glimepiride, Sitagliptin, Vildagliptin,\nDapagliflozin, Insulin (all types)",
-    "category": "Prescription Medicines",
-    "price_min": 90,
-    "price_max": 1200,
-    "gender": "all"
-  },
-  {
-    "name": "Amlodipine, Telmisartan, Atenolol, Losartan, Ramipril,\nAtorvastatin, Rosuvastatin",
-    "category": "Prescription Medicines",
-    "price_min": 80,
-    "price_max": 900,
-    "gender": "all"
-  },
-  {
     "name": "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths",
-    "category": "Prescription Medicines",
+    "category": "OTC Medicines",
     "price_min": 40,
     "price_max": 120,
     "gender": "all"
@@ -55,7 +41,7 @@
   },
   {
     "name": "Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine",
-    "category": "OTC Medicines",
+    "category": "Prescription Medicines",
     "price_min": 25,
     "price_max": 180,
     "gender": "all"
@@ -70,7 +56,7 @@
   },
   {
     "name": "Baby Nutrition",
-    "category": "Vitamins",
+    "category": "Baby Care",
     "description": "Nestle Nan Pro, Similac, Dexolac, Farex, Cerelac (all\nstages)",
     "price_min": 400,
     "price_max": 1400,
@@ -94,7 +80,7 @@
   },
   {
     "name": "Homeopathy",
-    "category": "Vitamins",
+    "category": "OTC Medicines",
     "description": "SBL, Dr. Reckeweg, Schwabe - full range stocked",
     "price_min": 60,
     "price_max": 500,
@@ -118,7 +104,7 @@
   },
   {
     "name": "Medical Equipment",
-    "category": "Surgical Supplies",
+    "category": "Devices",
     "description": "BP monitors (Omron, Rossmax), Glucose meters\n(Accu-Chek, OneTouch, SD Codefree)",
     "price_min": 800,
     "price_max": 4500,
@@ -126,7 +112,7 @@
   },
   {
     "name": "Nebulisers",
-    "category": "Prescription Medicines",
+    "category": "Devices",
     "description": "Omron, Romsons, Dr. Odin - compressor and mesh type",
     "price_min": 1200,
     "price_max": 4000,
@@ -158,7 +144,7 @@
   },
   {
     "name": "Condoms / Family Planning",
-    "category": "Personal Care",
+    "category": "OTC Medicines",
     "description": "Durex, Manforce, Skore, i-pill, Unwanted-72, Copper-T\nguidance",
     "price_min": 50,
     "price_max": 350,
@@ -166,13 +152,13 @@
   },
   {
     "name": "Diabetes (Type 2)",
-    "category": "Prescription Medicines",
+    "category": "OTC Medicines",
     "price": 280,
     "gender": "all"
   },
   {
     "name": "Hypertension",
-    "category": "Prescription Medicines",
+    "category": "OTC Medicines",
     "price": 140,
     "gender": "all"
   },
@@ -184,7 +170,7 @@
   },
   {
     "name": "Thyroid",
-    "category": "Prescription Medicines",
+    "category": "OTC Medicines",
     "price_min": 38,
     "price_max": 50,
     "gender": "all"
@@ -196,21 +182,15 @@
     "gender": "all"
   },
   {
-    "name": "Delivery Charge Below Rs.500",
-    "category": "OTC Medicines",
-    "price": 40,
-    "gender": "all"
-  },
-  {
     "name": "How to Order",
-    "category": "Prescription Medicines",
+    "category": "OTC Medicines",
     "price_min": 91,
     "price_max": 98765,
     "gender": "all"
   },
   {
     "name": "Net Banking",
-    "category": "Personal Care",
+    "category": "Devices",
     "price": 5000,
     "gender": "all"
   },
@@ -218,7 +198,7 @@
     "name": "Etoricoxib, Tramadol, Ketorolac",
     "price_min": 30,
     "price_max": 200,
-    "category": "Prescription Medicines",
+    "category": "OTC Medicines",
     "gender": "all"
   },
   {
@@ -243,13 +223,6 @@
     "gender": "all"
   },
   {
-    "name": "stages)",
-    "price_min": 400,
-    "price_max": 1400,
-    "category": "Vitamins",
-    "gender": "all"
-  },
-  {
     "name": "Sebamed, Avene",
     "price_min": 100,
     "price_max": 1500,
@@ -260,56 +233,14 @@
     "name": "Himalaya, Patanjali",
     "price_min": 50,
     "price_max": 800,
-    "category": "Vitamins",
+    "category": "OTC Medicines",
     "gender": "all"
   },
   {
     "name": "Sinarest",
     "price_min": 20,
     "price_max": 150,
-    "category": "Prescription Medicines",
-    "gender": "all"
-  },
-  {
-    "name": "thermometers, nebuliser masks",
-    "price_min": 15,
-    "price_max": 500,
-    "category": "Personal Care",
-    "gender": "all"
-  },
-  {
-    "name": "(Accu-Chek, OneTouch, SD Codefree)",
-    "price_min": 800,
-    "price_max": 4500,
     "category": "OTC Medicines",
-    "gender": "all"
-  },
-  {
-    "name": "wrist splint - Tynor brand",
-    "price_min": 250,
-    "price_max": 2000,
-    "category": "Surgical Supplies",
-    "gender": "all"
-  },
-  {
-    "name": "sensitivity, dental floss",
-    "price_min": 30,
-    "price_max": 400,
-    "category": "OTC Medicines",
-    "gender": "all"
-  },
-  {
-    "name": "wash",
-    "price_min": 40,
-    "price_max": 350,
-    "category": "Personal Care",
-    "gender": "all"
-  },
-  {
-    "name": "guidance",
-    "price_min": 50,
-    "price_max": 350,
-    "category": "Personal Care",
     "gender": "all"
   }
 ]

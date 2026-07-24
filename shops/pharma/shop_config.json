@@ -29,18 +29,18 @@
   ],
   "services": [],
   "delivery": {
-    "areas": "Local area",
+    "areas": "Kozhikode city, Calicut Beach, Palayam, Nadakkavu, Mavoor Road, Feroke, Ramanattukara, Beypore",
     "free_above": "₹500",
-    "days": "2–3 working days"
+    "days": "Same day (orders before 6 PM) | Next day for orders after 6"
   },
   "returns": {
-    "days": 7,
-    "condition": "unused with original packaging",
-    "refund_days": "5–7 business days"
+    "days": 0,
+    "condition": "",
+    "refund_days": ""
   },
   "first_offer": {
-    "code": "WELCOME10",
-    "description": "10% off for new customers"
+    "code": "HEALTH5",
+    "description": "5%"
   },
   "escalate": {
     "whatsapp": "+91 98765 55555",
@@ -55,7 +55,9 @@
     "OTC Medicines",
     "Vitamins",
     "Surgical Supplies",
-    "Personal Care"
+    "Baby Care",
+    "Personal Care",
+    "Devices"
   ],
   "item_label": "medicines",
   "profile_source": "known",
@@ -73,6 +75,6 @@
   },
   "quick_chips": [],
   "welcome_cards": [],
-  "item_count": 44,
+  "item_count": 34,
   "signature_items": "Net Banking, Diabetes (Type 2), High Cholesterol"
 }

@@ -281,7 +281,6 @@ body.debug .meta{display:flex;}
 .pdf-action-btn.secondary{background:var(--surface3);color:var(--text2);border:1px solid var(--border2);}
 .pdf-msg-ok{color:#4ade80;font-size:11px;background:rgba(34,197,94,.1);padding:6px 10px;border-radius:8px;margin-top:6px;}
 .pdf-msg-err{color:#f87171;font-size:11px;background:rgba(239,68,68,.1);padding:6px 10px;border-radius:8px;margin-top:6px;}
-/* stats row inside pdf result */
 .pdf-stats{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 4px;}
 .pdf-stat-chip{font-size:10px;padding:2px 8px;border-radius:20px;background:var(--surface3);color:var(--text2);border:1px solid var(--border2);}
 .pdf-stat-chip.hi{background:var(--teal-glow);color:var(--teal);border-color:rgba(0,196,204,.2);}
@@ -478,8 +477,19 @@ body.debug .meta{display:flex;}
 
 <script>
 const API  = '';
-const CHAT = `${API}/chat`;
-const HLTH = `${API}/health`;
+const urlParams = new URLSearchParams(window.location.search);
+const SHOP_SLUG = urlParams.get('slug') || '';   // e.g. "hey-foodie"
+
+// Helper to build URLs with slug
+function chatUrl() {
+  return SHOP_SLUG ? `${API}/chat?slug=${encodeURIComponent(SHOP_SLUG)}` : `${API}/chat`;
+}
+function healthUrl() {
+  return SHOP_SLUG ? `${API}/health/${encodeURIComponent(SHOP_SLUG)}` : `${API}/health`;
+}
+function uploadConfigUrl() { return `${API}/admin/upload-config`; }
+function generateShopUrl() { return `${API}/admin/generate-shop?slug=${encodeURIComponent(SHOP_SLUG || 'default')}`; }
+function extractPdfUrl(saveSlug) { return `${API}/admin/extract-pdf${saveSlug ? `?slug=${encodeURIComponent(saveSlug)}` : ''}`; }
 
 // ─── THEME ────────────────────────────────────────────────────────────────────
 let dark = localStorage.getItem('th') !== null ? localStorage.getItem('th')==='d' : true;
@@ -506,7 +516,7 @@ function showToast(state,msg){ const t=document.getElementById('toast'),tx=docum
 async function checkHealth(manual=false){
   showToast('loading','Connecting…');
   try{
-    const r=await fetch(HLTH,{signal:AbortSignal.timeout(5000)});
+    const r=await fetch(healthUrl(),{signal:AbortSignal.timeout(5000)});
     if(!r.ok) throw new Error(`HTTP ${r.status}`);
     const d=await r.json();
     showToast('ok',`Connected · ${d.bot_name||'Bot'} v${d.version||'?'}`);
@@ -526,7 +536,7 @@ setTimeout(()=>checkHealth(),1200);
 async function loadConfig(){
   if(window._botJustSetup){ window._botJustSetup=false; return; }
   try{
-    const r=await fetch(HLTH); if(!r.ok) return;
+    const r=await fetch(healthUrl()); if(!r.ok) return;
     const d=await r.json();
     const bot=d.bot_name||'Chottu', shop=d.shop_name||'our shop';
     const cfg=d.shop_config||{}, contact=cfg.contact||{}, hours=cfg.hours||{};
@@ -592,48 +602,32 @@ function srcLabel(src,fs){if(src==='greeting')return 'Greeting';if(src==='compli
 function sCls(fs,src){if(!fs)return 'p-ai';if(/manglish/.test(fs))return 'p-ml';if(/english/.test(fs))return 'p-en';if(fs==='sentiment_aware'||fs?.startsWith('shop_'))return 'p-faq';if(src==='escalation')return 'p-urg';return 'p-ai';}
 function shopEmoji(t){return{dental_clinic:'🦷',beauty_parlour:'💄',restaurant:'🍽️',gym:'💪',jewellery:'💍',hospital:'🏥',pharmacy:'💊',optical:'👓',electronics:'📱',supermarket:'🛒',bakery:'🎂',hotel:'🏨',travel_agency:'✈️',real_estate:'🏠',law_firm:'⚖️',ca_firm:'📊',school:'📚',clothing:'👗'}[t]||'🛍️';}
 
-// ─── CONFIDENCE from v3.0 stats ───────────────────────────────────────────────
-// API returns stats.missing_before_ai (fields not found by regex before Ollama)
-// and stats.filled_by_ai (fields Ollama had to fill).
-// Total required fields = 8.
-// Confidence = fields regex found on its own / 8
-// Regex-found = 8 - missing_before_ai.length
-// Ollama-filled is a weaker signal (AI guess) so we subtract half its count
 function calcConf(stats){
   if(!stats) return 0;
   const TOTAL = 8;
   const missingCount = Array.isArray(stats.missing_before_ai) ? stats.missing_before_ai.length : 0;
   const aiCount      = Array.isArray(stats.filled_by_ai)      ? stats.filled_by_ai.length      : 0;
   const regexFound   = TOTAL - missingCount;
-  // Regex hits count full, AI fills count half (less reliable)
   const score = regexFound + (aiCount * 0.5);
   return Math.round(Math.min(score / TOTAL, 1) * 100);
 }
 
-// ─── BUILD PDF RESULT HTML ────────────────────────────────────────────────────
-// shared by both uploadPDF() and wcUploadPDF()
 function buildPdfResultHtml(shopInfo, stats, isWelcome){
   const conf = calcConf(stats);
   const col  = conf > 70 ? '#22c55e' : conf > 40 ? '#fbbf24' : '#f87171';
-
   const LABELS = {
     shop_name:'Shop', shop_type:'Type', location:'Address',
     city:'City', whatsapp:'WhatsApp', email:'Email',
     hours_weekdays:'Hours', services:'Services', payment:'Payment',
     offer_code:'Offer', shop_items:'Items'
   };
-
   let html = `<div style="font-size:10.5px;color:var(--text3);margin-bottom:3px;">
     Confidence: <strong style="color:${col}">${conf}%</strong>
     ${conf < 50 ? '<span style="color:#fbbf24;font-size:10px;"> — some fields may need editing</span>' : ''}
   </div>`;
-
-  // progress bar
   const barClass = isWelcome ? 'pdf-progress-bar' : 'pdf-conf';
   const fillClass = isWelcome ? 'pdf-progress-fill' : 'pdf-conf-fill';
   html += `<div class="${barClass}"><div class="${fillClass}" style="width:${conf}%;background:${col}"></div></div>`;
-
-  // extraction stats chips
   if(stats){
     html += `<div class="pdf-stats">`;
     if(stats.pages_extracted) html += `<span class="pdf-stat-chip hi">📄 ${stats.pages_extracted} pages</span>`;
@@ -643,8 +637,6 @@ function buildPdfResultHtml(shopInfo, stats, isWelcome){
     if(stats.missing_before_ai?.length) html += `<span class="pdf-stat-chip" style="color:#f87171">⚠️ missing: ${stats.missing_before_ai.join(', ')}</span>`;
     html += `</div>`;
   }
-
-  // field rows
   const fieldRowClass = isWelcome ? 'pdf-field-row' : 'pdf-field';
   const keyClass      = isWelcome ? 'pdf-field-key' : 'pdf-fk';
   for(const [k, label] of Object.entries(LABELS)){
@@ -660,11 +652,9 @@ function buildPdfResultHtml(shopInfo, stats, isWelcome){
     }
     html += `<div class="${fieldRowClass}"><span class="${keyClass}">${label}</span><span>${disp}</span></div>`;
   }
-
   return html;
 }
 
-// ─── RENDER ───────────────────────────────────────────────────────────────────
 function addUser(text){document.getElementById('welcome')?.remove();const d=document.createElement('div');d.className='row user';d.innerHTML=`<div class="m-av usr">YOU</div><div class="col"><div class="bub usr">${esc(text)}</div></div>`;msgsEl.appendChild(d);msgsEl.scrollTop=msgsEl.scrollHeight;}
 function addTyping(){const d=document.createElement('div');d.className='typ-row';d.id='tr';d.innerHTML=`<div class="m-av bot" style="font-size:11px;font-weight:700;">Ch</div><div class="typ-bub"><div class="tdot"></div><div class="tdot"></div><div class="tdot"></div></div>`;msgsEl.appendChild(d);msgsEl.scrollTop=msgsEl.scrollHeight;}
 function addBot(data){
@@ -687,7 +677,7 @@ async function send(){
   closePanel();
   addUser(text);addTyping();
   try{
-    const r=await fetch(CHAT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:text})});
+    const r=await fetch(chatUrl(),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:text})});
     if(!r.ok){const e=await r.text().catch(()=>'');throw new Error(`Server ${r.status}: ${e}`);}
     addBot(await r.json());
   }catch(e){
@@ -699,23 +689,17 @@ ciEl.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDe
 ciEl.addEventListener('input',function(){this.style.height='auto';this.style.height=Math.min(this.scrollHeight,88)+'px';});
 
 // ─── SIDE PANEL PDF UPLOAD ────────────────────────────────────────────────────
-// FIX: reads data.shop_info (not data.extracted which never existed)
-// FIX: calculates confidence from stats (not data.confidence which never existed)
 let _extracted = null;
-
 async function uploadPDF(input){
   const file=input.files[0]; if(!file) return;
   const icon=document.getElementById('pdf-icon'),title=document.getElementById('pdf-title'),result=document.getElementById('pdf-result');
   icon.textContent='⏳'; title.textContent='Extracting…'; result.style.display='none'; result.innerHTML='';
   try{
     const form=new FormData(); form.append('file',file);
-    const res=await fetch('/admin/extract-pdf',{method:'POST',body:form});
+    const res=await fetch(extractPdfUrl(SHOP_SLUG),{method:'POST',body:form});
     const data=await res.json();
     if(!res.ok){result.innerHTML=`<div class="pdf-msg err">❌ ${data.detail||'Extraction failed'}</div>`;result.style.display='block';icon.textContent='❌';title.textContent='Try again';return;}
-
-    // ✅ FIX: use data.shop_info (v3.0 API key), not data.extracted
     _extracted = data.shop_info || {};
-
     let html = buildPdfResultHtml(_extracted, data.stats, false);
     html += `<div class="pdf-actions">
       <button class="pdf-btn primary" onclick="applyPDF()">🚀 Apply</button>
@@ -729,7 +713,6 @@ async function uploadPDF(input){
   }
   input.value='';
 }
-
 async function applyPDF(){
   if(!_extracted) return;
   const ex=_extracted;
@@ -737,17 +720,16 @@ async function applyPDF(){
   try{
     const blob=new Blob([JSON.stringify(cfg,null,2)],{type:'application/json'});
     const form=new FormData(); form.append('file',blob,'shop_config.json');
-    const res=await fetch('/admin/upload-config',{method:'POST',body:form});
+    const res=await fetch(uploadConfigUrl(),{method:'POST',body:form});
     if(res.ok){document.getElementById('pdf-result').innerHTML+=`<div class="pdf-msg ok" style="margin-top:6px">✅ Config applied! Reloading…</div>`;setTimeout(()=>location.reload(),1500);}
     else{const err=await res.json();document.getElementById('pdf-result').innerHTML+=`<div class="pdf-msg err" style="margin-top:6px">❌ ${err.detail}</div>`;}
   }catch(e){document.getElementById('pdf-result').innerHTML+=`<div class="pdf-msg err" style="margin-top:6px">❌ ${e.message}</div>`;}
 }
-
 async function genFAQs(){
   if(!_extracted) return;
   const ex=_extracted;
   try{
-    const res=await fetch('/admin/generate-shop',{method:'POST',headers:{'Content-Type':'application/json'},
+    const res=await fetch(generateShopUrl(),{method:'POST',headers:{'Content-Type':'application/json'},
       body:JSON.stringify({
         bot_name:       ex.bot_name       || 'Assistant',
         shop_name:      ex.shop_name      || 'Our Shop',
@@ -764,7 +746,6 @@ async function genFAQs(){
         offer_desc:     ex.offer_desc     || '',
         delivery_areas: ex.delivery_areas || 'N/A',
         delivery_free:  ex.delivery_free  || 'N/A',
-        // ✅ FIX: pass extracted items so item-price FAQs are generated
         shop_items:     ex.shop_items     || [],
       })
     });
@@ -776,47 +757,34 @@ async function genFAQs(){
   }catch(e){document.getElementById('pdf-result').innerHTML+=`<div class="pdf-msg err" style="margin-top:6px">❌ ${e.message}</div>`;}
 }
 
-
 // ─── WELCOME SCREEN PDF UPLOAD ────────────────────────────────────────────────
-// FIX: reads data.shop_info (not data.extracted)
-// FIX: calculates confidence from stats (not data.confidence)
-// FIX: applyShopTheme only called after res.ok confirmed
 let _wcExtracted = null;
-
 async function wcUploadPDF(input){
   const file=input.files[0]; if(!file) return;
   const icon=document.getElementById('wc-pdf-icon');
   const title=document.getElementById('wc-pdf-title');
   const progress=document.getElementById('wc-pdf-progress');
-
   icon.textContent='⏳'; title.textContent='Extracting shop info…';
   progress.style.display='none'; progress.innerHTML='';
-
   try{
     const form=new FormData(); form.append('file',file);
-    const res=await fetch('/admin/extract-pdf',{method:'POST',body:form});
+    const res=await fetch(extractPdfUrl(SHOP_SLUG),{method:'POST',body:form});
     const data=await res.json();
-
     if(!res.ok){
       progress.innerHTML=`<div class="pdf-msg-err">❌ ${data.detail||'Extraction failed'}</div>`;
       progress.style.display='block';
       icon.textContent='❌'; title.textContent='Try again';
       return;
     }
-
-    // ✅ FIX: use data.shop_info (v3.0 API key), not data.extracted
     _wcExtracted = data.shop_info || {};
-
     let html = buildPdfResultHtml(_wcExtracted, data.stats, true);
     html += `<div class="pdf-action-row">
       <button class="pdf-action-btn primary" onclick="wcGenerateBot()">🚀 Setup Bot Now</button>
       <button class="pdf-action-btn secondary" onclick="wcApplyConfigOnly()">⚙️ Config Only</button>
     </div>`;
-
     progress.innerHTML=html; progress.style.display='block';
     icon.textContent='✅';
     title.textContent=file.name.length>26?file.name.slice(0,24)+'…':file.name;
-
   }catch(e){
     progress.innerHTML=`<div class="pdf-msg-err">❌ Cannot reach server — is backend running?</div>`;
     progress.style.display='block';
@@ -824,16 +792,14 @@ async function wcUploadPDF(input){
   }
   input.value='';
 }
-
 async function wcGenerateBot(){
   if(!_wcExtracted) return;
   const ex=_wcExtracted;
   const progress=document.getElementById('wc-pdf-progress');
   const btn=progress.querySelector('.primary');
   if(btn){ btn.disabled=true; btn.textContent='⏳ Setting up…'; }
-
   try{
-    const res=await fetch('/admin/generate-shop',{
+    const res=await fetch(generateShopUrl(),{
       method:'POST',
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({
@@ -855,37 +821,24 @@ async function wcGenerateBot(){
         delivery_areas: ex.delivery_areas || 'N/A',
         delivery_free:  ex.delivery_free  || 'N/A',
         delivery_days:  ex.delivery_days  || 'N/A',
-        // ✅ FIX: pass extracted items so item-price FAQs are generated
         shop_items:     ex.shop_items     || [],
       })
     });
     const data=await res.json();
-
     if(res.ok){
-      // ✅ FIX: applyShopTheme only after confirmed success
       applyShopTheme(ex.shop_type||'general', data.bot_name, data.shop_name);
-
-      // Update header immediately
       const hn=document.getElementById('hdr-name'); if(hn) hn.textContent=data.bot_name+' — Assistant';
       const hs=document.getElementById('hdr-shop'); if(hs) hs.textContent=data.shop_name+' · English & Manglish';
       document.title=data.bot_name+' — '+data.shop_name;
-
-      // Update emojis
       ['hdr-av','wc-av','ob-icon'].forEach(id=>{const el=document.getElementById(id);if(el)el.textContent=shopEmoji(ex.shop_type);});
-
-      // Update chips
       if(data.config?.quick_chips?.length>0){
         const chipsEl=document.getElementById('chips');
-        if(chipsEl) chipsEl.innerHTML=data.config.quick_chips.map(c=>`<button class="chip" onclick="qs('${c.query.replace(/'/g,"\\'")}') ">${c.label}</button>`).join('');
+        if(chipsEl) chipsEl.innerHTML=data.config.quick_chips.map(c=>`<button class="chip" onclick="qs('${c.query.replace(/'/g,"\\'")}')">${c.label}</button>`).join('');
       }
-
-      // Update welcome cards
       if(data.config?.welcome_cards?.length>0){
         const grid=document.getElementById('wc-grid');
         if(grid) grid.innerHTML=data.config.welcome_cards.map(c=>`<div class="wc-card" onclick="qs('${c.query.replace(/'/g,"\\'")}')"><div class="wc-icon">${c.icon}</div><div class="wc-txt"><strong>${c.title}</strong></div></div>`).join('');
       }
-
-      // Show success block
       document.getElementById('wc-pdf-label').style.display='none';
       progress.innerHTML=`<div class="pdf-msg-ok" style="text-align:center;padding:16px;">
         <div style="font-size:28px;margin-bottom:8px;">🎉</div>
@@ -893,7 +846,6 @@ async function wcGenerateBot(){
         <span style="font-size:10.5px;opacity:.8">${data.faq_count} FAQs · ${data.item_count||0} items for ${data.shop_name}</span>
       </div>`;
       progress.style.display='block';
-
       window._botJustSetup=true;
     }else{
       progress.innerHTML+=`<div class="pdf-msg-err">❌ ${data.detail}</div>`;
@@ -904,7 +856,6 @@ async function wcGenerateBot(){
     if(btn){ btn.disabled=false; btn.textContent='🚀 Setup Bot Now'; }
   }
 }
-
 async function wcApplyConfigOnly(){
   if(!_wcExtracted) return;
   const ex=_wcExtracted;
@@ -928,11 +879,11 @@ async function wcApplyConfigOnly(){
   try{
     const blob=new Blob([JSON.stringify(config,null,2)],{type:'application/json'});
     const form=new FormData(); form.append('file',blob,'shop_config.json');
-    const res=await fetch('/admin/upload-config',{method:'POST',body:form});
+    const res=await fetch(uploadConfigUrl(),{method:'POST',body:form});
     if(res.ok){
       document.getElementById('wc-pdf-label').style.display='none';
       progress.innerHTML+=`<div class="pdf-msg-ok">✅ Config applied! Reloading…</div>`;
-      setTimeout(()=>{ location.href=location.origin+location.pathname+'?t='+Date.now(); },2000);
+      setTimeout(()=>{ location.href=location.origin+location.pathname+'?t='+Date.now()+(SHOP_SLUG?`&slug=${SHOP_SLUG}`:''); },2000);
     }else{
       const err=await res.json();
       progress.innerHTML+=`<div class="pdf-msg-err">❌ ${err.detail}</div>`;
@@ -941,7 +892,6 @@ async function wcApplyConfigOnly(){
     progress.innerHTML+=`<div class="pdf-msg-err">❌ ${e.message}</div>`;
   }
 }
-
 
 // ─── SHOP THEME ENGINE ────────────────────────────────────────────────────────
 const SHOP_THEMES={
@@ -1000,12 +950,9 @@ function applyShopTheme(shopType,botName,shopName){
     .pdf-stat-chip.hi{background:${t.tagBg}!important;color:${t.accent}!important;border-color:${t.accent}33!important;}
   `;
   document.head.appendChild(style);
-
   ['hdr-av','wc-av','ob-icon'].forEach(id=>{const el=document.getElementById(id);if(el)el.textContent=t.emoji;});
-
   const wcSub=document.querySelector('.wc-sub');
   if(wcSub) wcSub.innerHTML=`${t.greeting} for <em id="wc-shop-name">${shopName}</em> — ask in <em>English</em> or <em>Manglish</em>. Njan help cheyyam!`;
-
   const pdfTitle=document.getElementById('wc-pdf-title');
   if(pdfTitle) pdfTitle.style.color=t.accent;
 }
