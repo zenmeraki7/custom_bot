@@ -5041,7 +5041,7 @@ _GUARD_NEUTRAL = {
     "there", "i", "need", "want", "get", "me", "order", "any", "the", "a",
     "an", "for", "of", "in", "at", "on", "to", "my", "your", "what", "ivde",
     "ivide", "evide", "evda", "here", "ningalude", "njangalude", "shop", "store",
-    "ente", "oru", "okke", "ellam", "enthu", "entha", "ethu", "please", "pls",
+    "ente", "oru", "okke", "oke", "ellam", "enthu", "entha", "ethu", "please", "pls",
     # always-in-domain generic topics — let the FAQ layer answer these
     "service", "services", "appointment", "booking", "book", "offer",
     "offers", "discount", "timing", "time", "open", "close", "delivery",
@@ -5611,7 +5611,7 @@ def _needs_rephrase(lang: str, faq: dict) -> bool:
     return True
 
 
-def pipeline(message: str, slug: str | None = None) -> dict:
+def pipeline(message: str, slug: str | None = None) -> dict: # pyright: ignore[reportReturnType]
     """
     Main chat pipeline. Accepts optional slug for multi-tenant shop isolation.
 
@@ -5662,7 +5662,18 @@ def pipeline(message: str, slug: str | None = None) -> dict:
     _pref_lang = _lang_pref.get(_pref_key)
     if _pref_lang:
         _tokens = message.lower().split()
+        # Symmetric escape hatch: a long, unambiguous message in the OTHER
+        # language overrides a sticky preference either direction. Before
+        # this fix, only manglish-pref -> english had an escape; once a
+        # customer's pref locked to "english" (e.g. after saying "reply in
+        # english"), later messages clearly written in Manglish were still
+        # forced into English replies for the rest of the session, with no
+        # way back. Short/ambiguous messages (<=4 tokens, e.g. "yes"/"venam")
+        # still respect the sticky preference either way, since those are
+        # too weak on their own to prove a real language switch.
         if _pref_lang == "manglish" and not is_manglish(message) and len(_tokens) > 4:
+            lang = _detected_lang
+        elif _pref_lang == "english" and is_manglish(message) and len(_tokens) > 4:
             lang = _detected_lang
         else:
             lang = _pref_lang

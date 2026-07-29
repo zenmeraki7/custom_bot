@@ -2435,7 +2435,10 @@ async def generate_shop(
  
 @app.post("/admin/upload-config",
           summary="Upload shop_config.json to change bot identity")
-async def upload_config(file: UploadFile = File(...)) -> dict:
+async def upload_config(
+    file: UploadFile = File(...),
+    slug: str | None = Query(None),
+) -> dict:
     try:
         content  = await file.read()
         cfg      = json.loads(content)
@@ -2443,14 +2446,27 @@ async def upload_config(file: UploadFile = File(...)) -> dict:
         missing  = [k for k in required if k not in cfg]
         if missing:
             raise HTTPException(status_code=400, detail=f"Missing required fields: {missing}")
-        with open("shop_config.json", "w", encoding="utf-8") as f:
+
+        if slug:
+            slug_dir = os.path.join("shops", slug)
+            os.makedirs(slug_dir, exist_ok=True)
+            config_path = os.path.join(slug_dir, "shop_config.json")
+        else:
+            config_path = "shop_config.json"
+
+        with open(config_path, "w", encoding="utf-8") as f:
             json.dump(cfg, f, ensure_ascii=False, indent=2)
-        reload_config()
+
+        if slug:
+            reload_shop(slug)
+        else:
+            reload_config()
+
         log.info(
-            "✅  shop_config.json updated — bot=%s shop=%s",
-            cfg["bot_name"], cfg["shop_name"]
+            "✅  shop_config.json updated — slug=%s bot=%s shop=%s",
+            slug or "root", cfg["bot_name"], cfg["shop_name"]
         )
-        return {"status": "ok", "bot_name": cfg["bot_name"], "shop_name": cfg["shop_name"]}
+        return {"status": "ok", "slug": slug or "root", "bot_name": cfg["bot_name"], "shop_name": cfg["shop_name"]}
     except json.JSONDecodeError as e:
         raise HTTPException(status_code=400, detail=f"Invalid JSON: {e}")
     except Exception as e:

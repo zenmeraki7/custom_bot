@@ -424,7 +424,16 @@ def reset_ollama_cache() -> None:
     pass
 
 _TOP_K = 5
-_MIN_CHUNK_SCORE = 0.25
+# Raised from 0.25 -- at 0.25, semantically-near-but-wrong chunks (e.g. the
+# "Mutton Masala" line for a "masala dosa" query, sharing only the word
+# "masala") were clearing the floor and being handed to the LLM as
+# "relevant", risking a hallucinated match even though the prompt says
+# "never invent". 0.35 is a reasoned starting point, NOT locally validated
+# against this project's actual embedder -- run test_rag_threshold.py
+# against real query/chunk pairs from a live shop and tune from there.
+# Too high = legitimate paraphrased questions start missing real facts and
+# fall through to the soft "I'm not sure" fallback instead of answering.
+_MIN_CHUNK_SCORE = 0.35
 
 _STOPWORDS = {
     "do", "you", "is", "are", "have", "any", "the", "a", "an",
