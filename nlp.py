@@ -1773,7 +1773,7 @@ MANGLISH_SIGNALS = [
     "nthanu", "nthe", "enthe",
     "evideya", "evideyanu", "evideyaanu",
     "enganeya", "ngane", "nganeya", "ingane", "inganeya",
-    "eppo", "eppozha", "eppozhanu",
+    "eppo", "eppol", "eppozha", "eppozhanu", "epo", "epol", "epola", "eppola",
     "ethranu", "ethrayanu", "etranu",
     "ellam", "nellam", "ithu", "athu",
     "ente", "pinne", "sherikkum",

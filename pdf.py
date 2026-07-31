@@ -1166,6 +1166,47 @@ META_SKIP_RE = re.compile(
 )
 
 
+# ── Section-level catalogue gate (shop-type-agnostic) ───────────────────────
+# META_SKIP_RE above catches specific known ROW labels ("Address", "FSSAI
+# License", "Salon Name", ...) but that list has to be hand-extended every
+# time a new shop TYPE introduces its own admin-row vocabulary -- a pharmacy
+# PDF's "License No." / "Drug Lic. No." / "Public Holidays" / "Night
+# Emergency" / "Net Banking" rows all slipped through this way, because the
+# regex had only ever been tested against restaurant/salon-style PDFs.
+#
+# Rather than keep enumerating labels per industry forever, this reads the
+# table's own SECTION HEADER (already tracked as `current_category`, e.g.
+# "SHOP INFORMATION" / "WORKING HOURS" / "PAYMENT OPTIONS" vs "COMPLETE
+# PRODUCT & SERVICES CATALOGUE") to decide whether the section is even the
+# kind of section that COULD contain sellable items, for any shop type.
+_CATALOG_SECTION_RE = re.compile(
+    r'\b(PRODUCTS?|CATALOGUE|CATALOG|MENU|SERVICES?|TREATMENTS?|'
+    r'PRICE\s*LIST|PRICING|TARIFF|ITEMS?)\b',
+    re.IGNORECASE,
+)
+_NON_CATALOG_SECTION_RE = re.compile(
+    r'\b(INFORMATION|HOURS|TIMING|PAYMENT|DELIVERY|POLICY|POLICIES|'
+    r'OFFERS?|LOYALTY|STAFF|EXPERTISE|CONTACT|ABOUT|LICEN[CS]E|'
+    r'REGISTRATION|TERMS|FAQ)\b',
+    re.IGNORECASE,
+)
+
+
+def _section_looks_administrative(category: str) -> bool:
+    """True if this section header reads as shop info/hours/payment/policy
+    content rather than a sellable product/service catalogue. A section that
+    matches BOTH patterns (e.g. "SERVICE INFORMATION & PRICING") is treated
+    as a real catalogue -- the catalogue signal wins on ambiguity, since
+    wrongly dropping a real item is worse than wrongly keeping a borderline
+    admin row (META_SKIP_RE / is_valid_item / the price checks below still
+    get a chance to catch it either way)."""
+    if not category:
+        return False
+    if _CATALOG_SECTION_RE.search(category):
+        return False
+    return bool(_NON_CATALOG_SECTION_RE.search(category))
+
+
 def detect_items_from_tables(tables: list) -> tuple[list, list]:
     items = []
     extra_facts: list = []
@@ -1258,6 +1299,23 @@ def detect_items_from_tables(tables: list) -> tuple[list, list]:
                 # loyalty programmes, offer codes, happy-hour deals,
                 # combo packs etc. are still available to ground
                 # the bot's answers instead of vanishing entirely.
+                fact_value = None
+                for ci, cell in enumerate(row):
+                    if ci != name_col and cell.strip():
+                        fact_value = cell.strip()
+                        break
+                if fact_value:
+                    extra_facts.append({"label": name, "detail": fact_value})
+                continue
+
+            # ── Section-level catalogue gate (shop-type-agnostic) ────────
+            # Backstop for META_SKIP_RE: even when a row's own label isn't
+            # on the known-metadata list (new shop type, new label we've
+            # never seen), a row sitting under a clearly non-catalogue
+            # section header ("SHOP INFORMATION", "WORKING HOURS", "PAYMENT
+            # OPTIONS", ...) still shouldn't become a sellable item just
+            # because some unrelated number appears in the row.
+            if _section_looks_administrative(current_category):
                 fact_value = None
                 for ci, cell in enumerate(row):
                     if ci != name_col and cell.strip():
@@ -1568,7 +1626,7 @@ def detect_metadata_regex(text: str) -> dict:
     }
     tl = text.lower()
     scores = {t: sum(1 for kw in kws if kw in tl) for t, kws in TYPE_KW.items()}
-    best = max(scores, key=scores.get)
+    best = max(scores, key=lambda t: scores[t])
     meta['shop_type'] = best if scores[best] > 0 else 'general'
 
     # ── Universal offer extraction (any shop type) ──────────────────────────

@@ -17,5 +17,6 @@ faqs/
 Modelfile
 test_*.py
 shops/*/shop_context.json
+
 chat_logs.csv
 shops/*/chat_logs.csv

@@ -5611,7 +5611,7 @@ def _needs_rephrase(lang: str, faq: dict) -> bool:
     return True
 
 
-def pipeline(message: str, slug: str | None = None) -> dict: # pyright: ignore[reportReturnType]
+def pipeline(message: str, slug: str | None = None) -> dict:
     """
     Main chat pipeline. Accepts optional slug for multi-tenant shop isolation.
 
@@ -6163,7 +6163,14 @@ def pipeline(message: str, slug: str | None = None) -> dict: # pyright: ignore[r
             return result
 
     # ── 10. FAQ match ──────────────────────────────────────────────────────────
-    faq = match_faq(message, sentiment, slug=slug)
+    # Pass the pipeline's already-detected lang through. Without this, match_faq()
+    # falls back to its own internal _looks_manglish() detector -- a much smaller,
+    # outdated word list that also doesn't strip punctuation before matching (so
+    # a lone Manglish signal word ending in "?" or "," goes unrecognized). That
+    # meant the careful language detection done earlier in this pipeline (sticky
+    # preference, "epola"-class fixes, etc.) was being silently discarded right
+    # before the FAQ layer picked which language pool to answer from.
+    faq = match_faq(message, sentiment, slug=slug, lang=lang)
 
     # Confidence gate: a weak FAQ match (not an exact item/category lookup) is
     # rejected so the query falls through to RAG over the PDF chunks. This stops
@@ -6294,3 +6301,4 @@ def pipeline(message: str, slug: str | None = None) -> dict: # pyright: ignore[r
         "escalate": False, "ms": round((time.time() - t0) * 1000, 1),
     }
     log_chat(result, slug)
+    return result

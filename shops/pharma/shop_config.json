@@ -49,15 +49,10 @@
   "language": "english_manglish",
   "currency": "INR",
   "shop_gender": "all",
-  "specialisation": "ollama_inferred",
+  "specialisation": "complete product & services catalogue+generic medicine savings examples",
   "allowed_categories": [
-    "Prescription Medicines",
-    "OTC Medicines",
-    "Vitamins",
-    "Surgical Supplies",
-    "Baby Care",
-    "Personal Care",
-    "Devices"
+    "COMPLETE PRODUCT & SERVICES CATALOGUE",
+    "GENERIC MEDICINE SAVINGS EXAMPLES"
   ],
   "item_label": "medicines",
   "profile_source": "known",
@@ -75,6 +70,6 @@
   },
   "quick_chips": [],
   "welcome_cards": [],
-  "item_count": 34,
-  "signature_items": "Net Banking, Diabetes (Type 2), High Cholesterol"
+  "item_count": 28,
+  "signature_items": "Diabetes (Type 2), High Cholesterol, Hypertension"
 }

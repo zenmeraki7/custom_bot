@@ -1,54 +1,28 @@
 [
   {
-    "name": "License No.",
-    "category": "OTC Medicines",
-    "price_min": 482,
-    "price_max": 2005,
-    "gender": "all"
-  },
-  {
-    "name": "Drug Lic. No.",
-    "category": "OTC Medicines",
-    "price_min": 20,
-    "price_max": 2005,
-    "gender": "all"
-  },
-  {
-    "name": "Public Holidays",
-    "category": "Personal Care",
-    "price": 10,
-    "gender": "all"
-  },
-  {
-    "name": "Night Emergency",
-    "category": "OTC Medicines",
-    "price": 24,
-    "gender": "all"
-  },
-  {
     "name": "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths",
-    "category": "OTC Medicines",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "price_min": 40,
     "price_max": 120,
     "gender": "all"
   },
   {
     "name": "Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac",
-    "category": "OTC Medicines",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "price_min": 30,
     "price_max": 200,
     "gender": "all"
   },
   {
     "name": "Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine",
-    "category": "Prescription Medicines",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "price_min": 25,
     "price_max": 180,
     "gender": "all"
   },
   {
     "name": "Protein Supplements",
-    "category": "Vitamins",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "description": "Protinex, Ensure, Pediasure, Horlicks, Complan,\nBournvita, Health Tone",
     "price_min": 200,
     "price_max": 1200,
@@ -56,7 +30,7 @@
   },
   {
     "name": "Baby Nutrition",
-    "category": "Baby Care",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "description": "Nestle Nan Pro, Similac, Dexolac, Farex, Cerelac (all\nstages)",
     "price_min": 400,
     "price_max": 1400,
@@ -64,7 +38,7 @@
   },
   {
     "name": "Skin Care / Derma",
-    "category": "Personal Care",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "description": "CeraVe, Cetaphil, Lotus, VLCC, Himalaya, Bioderma,\nSebamed, Avene",
     "price_min": 100,
     "price_max": 1500,
@@ -72,7 +46,7 @@
   },
   {
     "name": "Ayurvedic / Herbal",
-    "category": "Vitamins",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "description": "Dabur, Baidyanath, Kottakkal Arya Vaidya Sala,\nHimalaya, Patanjali",
     "price_min": 50,
     "price_max": 800,
@@ -80,7 +54,7 @@
   },
   {
     "name": "Homeopathy",
-    "category": "OTC Medicines",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "description": "SBL, Dr. Reckeweg, Schwabe - full range stocked",
     "price_min": 60,
     "price_max": 500,
@@ -88,7 +62,7 @@
   },
   {
     "name": "OTC Cold & Flu",
-    "category": "OTC Medicines",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "description": "Vicks, Otrivin, Nasivion, Dolo 650, Crocin, Combiflam,\nSinarest",
     "price_min": 20,
     "price_max": 150,
@@ -96,7 +70,7 @@
   },
   {
     "name": "Surgical Items",
-    "category": "Surgical Supplies",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "description": "Crepe bandage, gauze, cotton, syringes, gloves,\nthermometers, nebuliser masks",
     "price_min": 15,
     "price_max": 500,
@@ -104,7 +78,7 @@
   },
   {
     "name": "Medical Equipment",
-    "category": "Devices",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "description": "BP monitors (Omron, Rossmax), Glucose meters\n(Accu-Chek, OneTouch, SD Codefree)",
     "price_min": 800,
     "price_max": 4500,
@@ -112,7 +86,7 @@
   },
   {
     "name": "Nebulisers",
-    "category": "Devices",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "description": "Omron, Romsons, Dr. Odin - compressor and mesh type",
     "price_min": 1200,
     "price_max": 4000,
@@ -120,7 +94,7 @@
   },
   {
     "name": "Orthopaedic Supports",
-    "category": "Surgical Supplies",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "description": "Knee brace, ankle support, lumbar belt, cervical collar,\nwrist splint - Tynor brand",
     "price_min": 250,
     "price_max": 2000,
@@ -128,7 +102,7 @@
   },
   {
     "name": "Eye / Ear / Dental",
-    "category": "Personal Care",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "description": "Eye drops, ear drops, mouthwash, toothpaste for\nsensitivity, dental floss",
     "price_min": 30,
     "price_max": 400,
@@ -136,7 +110,7 @@
   },
   {
     "name": "Feminine Hygiene",
-    "category": "Personal Care",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "description": "Whisper, Stayfree, Sofy, Carefree, Everteen intimate\nwash",
     "price_min": 40,
     "price_max": 350,
@@ -144,7 +118,7 @@
   },
   {
     "name": "Condoms / Family Planning",
-    "category": "OTC Medicines",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "description": "Durex, Manforce, Skore, i-pill, Unwanted-72, Copper-T\nguidance",
     "price_min": 50,
     "price_max": 350,
@@ -152,95 +126,82 @@
   },
   {
     "name": "Diabetes (Type 2)",
-    "category": "OTC Medicines",
+    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
     "price": 280,
     "gender": "all"
   },
   {
     "name": "Hypertension",
-    "category": "OTC Medicines",
+    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
     "price": 140,
     "gender": "all"
   },
   {
     "name": "High Cholesterol",
-    "category": "OTC Medicines",
+    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
     "price": 180,
     "gender": "all"
   },
   {
     "name": "Thyroid",
-    "category": "OTC Medicines",
+    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
     "price_min": 38,
     "price_max": 50,
     "gender": "all"
   },
   {
     "name": "Acid Reflux",
-    "category": "OTC Medicines",
+    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
     "price": 45,
-    "gender": "all"
-  },
-  {
-    "name": "How to Order",
-    "category": "OTC Medicines",
-    "price_min": 91,
-    "price_max": 98765,
-    "gender": "all"
-  },
-  {
-    "name": "Net Banking",
-    "category": "Devices",
-    "price": 5000,
     "gender": "all"
   },
   {
     "name": "Etoricoxib, Tramadol, Ketorolac",
     "price_min": 30,
     "price_max": 200,
-    "category": "OTC Medicines",
+    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
     "gender": "all"
   },
   {
     "name": "Ondansetron, Ranitidine",
     "price_min": 25,
     "price_max": 180,
-    "category": "OTC Medicines",
+    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
     "gender": "all"
   },
   {
     "name": "Supradyn, Becosules, Shelcal",
     "price_min": 50,
     "price_max": 600,
-    "category": "OTC Medicines",
+    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
     "gender": "all"
   },
   {
     "name": "Bournvita, Health Tone",
     "price_min": 200,
     "price_max": 1200,
-    "category": "Vitamins",
+    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
     "gender": "all"
   },
   {
     "name": "Sebamed, Avene",
     "price_min": 100,
     "price_max": 1500,
-    "category": "Personal Care",
+    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
     "gender": "all"
   },
   {
     "name": "Himalaya, Patanjali",
     "price_min": 50,
     "price_max": 800,
-    "category": "OTC Medicines",
+    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
     "gender": "all"
   },
   {
     "name": "Sinarest",
     "price_min": 20,
     "price_max": 150,
-    "category": "OTC Medicines",
+    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
     "gender": "all"
   }
 ]
