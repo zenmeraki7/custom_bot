@@ -1,0 +1,395 @@
+{
+  "faqs": [
+    {
+      "category": "availability_overview",
+      "question": "Ippo fresh vegetables available undo?",
+      "answer": "Yes, daily fresh vegetables stock varunnundu. Availability season and supply depend cheyyum."
+    },
+    {
+      "category": "stock_update",
+      "question": "Vegetables stock eppozha update cheyyunnath?",
+      "answer": "Stock daily morning and evening update cheyyunnu based on fresh delivery."
+    },
+    {
+      "category": "specific_item",
+      "question": "Njan specific vegetable venamengil kittumo?",
+      "answer": "Yes, available stock-il undengil immediate ayi provide cheyyam. Illengil next delivery-il arrange cheyyam."
+    },
+    {
+      "category": "seasonal_availability",
+      "question": "Ellam vegetables year round kittumo?",
+      "answer": "Some vegetables seasonal aanu, athukond availability change aavum."
+    },
+    {
+      "category": "freshness",
+      "question": "Vegetables fresh aano?",
+      "answer": "Yes, daily fresh farm delivery aanu varunnath. Quality check cheythittaan sell cheyyunnath."
+    },
+    {
+      "category": "out_of_stock",
+      "question": "Oru vegetable out of stock aayal entha cheyyum?",
+      "answer": "Next batch varumbo notify cheyyum, allenkil substitute options suggest cheyyum."
+    },
+    {
+      "category": "pre_order",
+      "question": "Vegetables pre-order cheyyan pattumo?",
+      "answer": "Yes, bulk or specific items pre-order cheyyan pattum."
+    },
+    {
+      "category": "delivery",
+      "question": "Home delivery-il vegetables kittumo?",
+      "answer": "Yes, selected areas-il home delivery available aanu."
+    },
+    {
+      "category": "timing",
+      "question": "Vegetable shop timing enthanu?",
+      "answer": "Usually morning 7 AM to evening 8 PM vare shop open aanu."
+    },
+    {
+      "category": "bulk_order",
+      "question": "Bulk vegetables order cheyyan pattumo?",
+      "answer": "Yes, wholesale and bulk orders available aanu with prior booking."
+    },
+    {
+      "category": "price",
+      "question": "Vegetable price daily change aavumo?",
+      "answer": "Yes, market rate and season based ayi price vary cheyyum."
+    },
+    {
+      "category": "organic",
+      "question": "Organic vegetables available undo?",
+      "answer": "Yes, selected organic vegetables stock-il undu."
+    },
+    {
+      "category": "new_arrival",
+      "question": "New vegetables stock eppozha varunnath?",
+      "answer": "Daily early morning fresh stock arrival undu."
+    },
+    {
+      "category": "substitution",
+      "question": "Oru vegetable illenkil substitute kittumo?",
+      "answer": "Yes, similar vegetables recommend cheythu substitute provide cheyyam."
+    },
+    {
+      "category": "reservation",
+      "question": "Vegetables reserve cheyyan pattumo?",
+      "answer": "Yes, limited stock items reserve cheyyan pattum advance booking vazhi."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "price_enquiry",
+      "question": "Vegetables price enthaanu ippo?",
+      "answer": "Prices daily market supply, season, and demand depend cheyyum. Exact price list shop-il or WhatsApp updates-il kittum."
+    },
+    {
+      "category": "price_variation",
+      "question": "Why vegetable prices change daily?",
+      "answer": "Season change, transport cost, weather condition, and availability kond prices daily vary cheyyum."
+    },
+    {
+      "category": "bulk_price",
+      "question": "Bulk purchase cheythal discount kittumo?",
+      "answer": "Yes, bulk order cheyyumbo special wholesale price or discount available aayirikkum."
+    },
+    {
+      "category": "freshness",
+      "question": "Vegetables fresh aano ennu engane guarantee?",
+      "answer": "Daily morning fresh stock varum, handpicked vegetables aanu shop-il available."
+    },
+    {
+      "category": "fresh_delivery",
+      "question": "Delivery kazhinju vegetables fresh aayirikkumo?",
+      "answer": "Proper packing and fast delivery through freshness maintain cheyyum."
+    },
+    {
+      "category": "quality_check",
+      "question": "Quality check engane cheyyunnu?",
+      "answer": "Each vegetable hand-select cheythu quality check cheythittanu sale cheyyunnath."
+    },
+    {
+      "category": "organic_option",
+      "question": "Organic vegetables available aano?",
+      "answer": "Yes, seasonal organic vegetables limited stock-il available aayirikkum."
+    },
+    {
+      "category": "return_policy",
+      "question": "Bad quality vegetables kittiyal return cheyyan pattumo?",
+      "answer": "Yes, genuine quality issues undengil replacement or refund policy available aanu."
+    },
+    {
+      "category": "availability",
+      "question": "Ellam vegetables daily available aano?",
+      "answer": "Some seasonal vegetables availability depend cheyyum, stock daily update cheyyum."
+    },
+    {
+      "category": "home_delivery",
+      "question": "Home delivery fresh vegetables kittumo?",
+      "answer": "Yes, nearby areas-il fast and fresh home delivery available aanu."
+    },
+    {
+      "category": "order_timing",
+      "question": "Order cheyyan best time ethra aanu?",
+      "answer": "Morning order cheyyunnath aanu best, fresh stock ath time-il kittum."
+    },
+    {
+      "category": "storage_tips",
+      "question": "Vegetables fresh aayi engane store cheyyam?",
+      "answer": "Cool place-il store cheyyuka, fridge use cheyyuka, and airtight containers use cheyyuka."
+    },
+    {
+      "category": "wastage_policy",
+      "question": "Damaged vegetables kittiyal entha cheyyum?",
+      "answer": "Delivery time-il complaint cheythal immediate replacement arrange cheyyum."
+    },
+    {
+      "category": "seasonal_items",
+      "question": "Seasonal vegetables ellam available aano?",
+      "answer": "Seasonal items availability season depend cheyyum, but fresh alternatives suggest cheyyum."
+    },
+    {
+      "category": "customer_support",
+      "question": "Enthengil complaint undengil engane contact cheyyam?",
+      "answer": "Shop number or WhatsApp support vazhi immediate assistance kittum."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "organic_vegetables_overview",
+      "question": "Organic vegetables ennathu enthaanu?",
+      "answer": "Organic vegetables ennathu chemical fertilizers allenkil harmful pesticides use cheyyathe natural farming methods-il valarthunna vegetables aanu."
+    },
+    {
+      "category": "organic_benefits",
+      "question": "Organic vegetables kazhikkunnathinte benefits enthaanu?",
+      "answer": "Organic vegetables healthier aanu, chemicals kuravanu, taste nallathum nutrition kooduthalum undavum."
+    },
+    {
+      "category": "freshness",
+      "question": "Vegetables fresh aano ennu engane ariyam?",
+      "answer": "Fresh vegetables usually bright color, firm texture, and natural smell ullath aayirikkum."
+    },
+    {
+      "category": "bulk_order_overview",
+      "question": "Bulk order ennathu enthaanu?",
+      "answer": "Bulk order ennathu kooduthal quantity-il vegetables order cheyyunnath aanu, usually hotels, restaurants, catering, shops etc. use cheyyum."
+    },
+    {
+      "category": "bulk_order_availability",
+      "question": "Bulk orders available aano?",
+      "answer": "Yes, bulk orders available aanu depending on stock and seasonal availability."
+    },
+    {
+      "category": "bulk_order_process",
+      "question": "Bulk order engane place cheyyam?",
+      "answer": "Nee shop-il call cheythu, WhatsApp, allenkil direct visit cheythu bulk order place cheyyam."
+    },
+    {
+      "category": "bulk_order_discount",
+      "question": "Bulk orders-innu discount kittumo?",
+      "answer": "Yes, large quantity orders-innu special price or discount available aayirikkum."
+    },
+    {
+      "category": "delivery",
+      "question": "Bulk order delivery available aano?",
+      "answer": "Yes, bulk orders delivery available aanu depending on location and quantity."
+    },
+    {
+      "category": "minimum_quantity",
+      "question": "Bulk order-innu minimum quantity undo?",
+      "answer": "Yes, shop policy depend cheythu minimum order quantity undaavum."
+    },
+    {
+      "category": "seasonal_availability",
+      "question": "Ellam vegetables year-round kittumo?",
+      "answer": "Illa, some vegetables seasonal aanu, availability season depend cheyyum."
+    },
+    {
+      "category": "quality_check",
+      "question": "Vegetables quality engane ensure cheyyum?",
+      "answer": "Fresh sourcing, daily stock check, and proper storage methods use cheythu quality maintain cheyyum."
+    },
+    {
+      "category": "organic_certification",
+      "question": "Organic vegetables certified aano?",
+      "answer": "Some suppliers certified organic farms-il ninnum vegetables supply cheyyum."
+    },
+    {
+      "category": "home_delivery",
+      "question": "Home delivery available aano?",
+      "answer": "Yes, home delivery available aanu depending on location and order size."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Payment options enthaanu?",
+      "answer": "Cash, card, UPI, and online payment options usually accept cheyyum."
+    },
+    {
+      "category": "order_changes",
+      "question": "Order place cheytha shesham change cheyyan pattumo?",
+      "answer": "Yes, delivery time-inu munpu changes request cheyyan pattum subject to availability."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "home_delivery_overview",
+      "question": "Home delivery service available aano?",
+      "answer": "Yes, vegetable shop-il home delivery service available aanu. Nee order place cheythal home-il delivery cheyyum."
+    },
+    {
+      "category": "online_ordering",
+      "question": "Online order engane place cheyyam?",
+      "answer": "Nee app allenkil website use cheythu vegetables select cheythu cart-il add cheythu order place cheyyam."
+    },
+    {
+      "category": "delivery_time",
+      "question": "Delivery ethra neram edukkum?",
+      "answer": "Usually same day or 24 hours within delivery cheyyum, location depend cheyyum."
+    },
+    {
+      "category": "delivery_charges",
+      "question": "Delivery charge undo?",
+      "answer": "Small order-ukalil delivery charge undaayirikkam, pakshe bulk orders-il free delivery available aayirikkam."
+    },
+    {
+      "category": "minimum_order",
+      "question": "Minimum order amount undo?",
+      "answer": "Yes, some shops minimum order amount set cheythittundavum delivery eligibility-kk vendi."
+    },
+    {
+      "category": "order_tracking",
+      "question": "Order track cheyyan pattumo?",
+      "answer": "Yes, online ordering system-il order status track cheyyan pattum."
+    },
+    {
+      "category": "freshness",
+      "question": "Vegetables fresh aayirikkumo delivery time-il?",
+      "answer": "Yes, shop fresh vegetables select cheythu packing cheythu delivery cheyyum."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Payment engane cheyyam?",
+      "answer": "Cash on delivery, UPI, card, and online payment methods available aanu."
+    },
+    {
+      "category": "order_modification",
+      "question": "Order place cheythu kazhinjal modify cheyyan pattumo?",
+      "answer": "Yes, delivery prepare aayathinu munnil modify cheyyan pattum."
+    },
+    {
+      "category": "cancellation",
+      "question": "Order cancel cheyyan pattumo?",
+      "answer": "Yes, dispatch cheyyathathinu munnil order cancel cheyyan pattum."
+    },
+    {
+      "category": "delivery_area",
+      "question": "Ellam area-kkum delivery undo?",
+      "answer": "Delivery availability location depend cheyyum, nearby areas-il service undu."
+    },
+    {
+      "category": "bulk_order",
+      "question": "Bulk order place cheyyan pattumo?",
+      "answer": "Yes, bulk orders for events or hotels ellam arrange cheyyam."
+    },
+    {
+      "category": "substitution",
+      "question": "Ordered vegetable stock illenkil entha cheyyum?",
+      "answer": "Alternative fresh vegetables replace cheythu deliver cheyyum or confirmation edukkum."
+    },
+    {
+      "category": "quality_issue",
+      "question": "Damaged vegetables kittiyal entha cheyyam?",
+      "answer": "Immediately support team-ne contact cheyyuka, replacement or refund arrange cheyyum."
+    },
+    {
+      "category": "support",
+      "question": "Customer support available aano?",
+      "answer": "Yes, order and delivery related issues solve cheyyan customer support available aanu."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "payment_overview",
+      "question": "Vegetable shop-il entha payment methods accept cheyyum?",
+      "answer": "Cash, UPI apps (Google Pay, PhonePe, Paytm), and card payments accept cheyyum depending on shop facility."
+    },
+    {
+      "category": "cash_payment",
+      "question": "Cash payment accept cheyyumo?",
+      "answer": "Yes, most vegetable shops-il cash payment fully accept cheyyum."
+    },
+    {
+      "category": "upi_payment",
+      "question": "UPI payment use cheyyan pattumo?",
+      "answer": "Yes, Google Pay, PhonePe, Paytm pole UPI apps use cheythu payment cheyyam."
+    },
+    {
+      "category": "card_payment",
+      "question": "Debit card / credit card accept cheyyumo?",
+      "answer": "Some shops accept card payments, pakshe ellaa shops-ilum available alla."
+    },
+    {
+      "category": "qr_payment",
+      "question": "QR code scan cheythu payment cheyyan pattumo?",
+      "answer": "Yes, most shops QR code provide cheyyum, scan cheythu easy ayi pay cheyyam."
+    },
+    {
+      "category": "online_payment",
+      "question": "Online payment available aano?",
+      "answer": "Yes, UPI and wallet apps through online payment possible aanu."
+    },
+    {
+      "category": "minimum_payment",
+      "question": "Minimum amount illathe UPI use cheyyan pattumo?",
+      "answer": "Yes, usually small amount transactions-um UPI use cheyyan pattum."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Refund available aano vegetable shop-il?",
+      "answer": "Fresh vegetables aayath kond usually refund illa, but damage item undengil replace cheyyam."
+    },
+    {
+      "category": "change_return",
+      "question": "Cash return (change) kittumo?",
+      "answer": "Yes, exact change illaengil shopkeeper change tharum."
+    },
+    {
+      "category": "split_payment",
+      "question": "Split payment cheyyan pattumo?",
+      "answer": "Some shops accept split payment cash + UPI combination ayi."
+    },
+    {
+      "category": "billing",
+      "question": "Bill kittumo purchase cheythal?",
+      "answer": "Yes, simple bill receipt provide cheyyum many shops-il."
+    },
+    {
+      "category": "discount_payment",
+      "question": "UPI use cheythal discount kittumo?",
+      "answer": "Some shops occasional offers provide cheyyum, pakshe always illa."
+    },
+    {
+      "category": "failed_payment",
+      "question": "Payment fail aayal entha cheyyum?",
+      "answer": "App check cheyyuka, internet verify cheyyuka, and shopkeeper-ne inform cheyyuka."
+    },
+    {
+      "category": "contactless_payment",
+      "question": "Contactless payment safe aano?",
+      "answer": "Yes, UPI QR payments fully safe and widely used aanu."
+    },
+    {
+      "category": "bulk_purchase",
+      "question": "Bulk vegetable purchase-il payment method same aano?",
+      "answer": "Yes, bulk purchase-ilum cash, UPI, or card (if available) use cheyyam."
+    }
+  ]
+}

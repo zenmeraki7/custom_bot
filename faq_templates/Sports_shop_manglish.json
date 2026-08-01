@@ -1,0 +1,679 @@
+{
+  "faqs": [
+    {
+      "category": "product_availability_overview",
+      "question": "Sports shop-il products available aano ennu engane ariyam?",
+      "answer": "Nee shop-il call cheyyuka, website check cheyyuka, allenkil direct visit cheythu availability confirm cheyyam."
+    },
+    {
+      "category": "online_availability",
+      "question": "Online-il product stock check cheyyan pattumo?",
+      "answer": "Yes, most sports shops website or app-il real-time stock availability kanikkum."
+    },
+    {
+      "category": "out_of_stock",
+      "question": "Product out of stock aayal entha cheyyam?",
+      "answer": "Nee alternative models choose cheyyam allenkil restock notification set cheyyam."
+    },
+    {
+      "category": "restock_time",
+      "question": "Out of stock items eppozha thirich varum?",
+      "answer": "Restock time product and supplier depend cheyyum. Shop staff ne contact cheyyunnath best aanu."
+    },
+    {
+      "category": "reservation",
+      "question": "Product reserve cheyyan pattumo?",
+      "answer": "Some sports shops limited time reservation facility provide cheyyum."
+    },
+    {
+      "category": "pre_order",
+      "question": "Pre-order option available aano?",
+      "answer": "Yes, new or high-demand sports products pre-order cheyyan pattum."
+    },
+    {
+      "category": "size_availability",
+      "question": "Different sizes available aano?",
+      "answer": "Yes, shoes, jerseys, and sports gear different sizes-il available aavum depending on stock."
+    },
+    {
+      "category": "brand_availability",
+      "question": "Specific brands available aano?",
+      "answer": "Yes, but brand availability shop collection and stock depend cheyyum."
+    },
+    {
+      "category": "seasonal_stock",
+      "question": "Seasonal sports items always available aano?",
+      "answer": "Illa, seasonal items like cricket kits, football gear etc. limited stock aayirikkum."
+    },
+    {
+      "category": "bulk_purchase",
+      "question": "Bulk order cheyyan pattumo?",
+      "answer": "Yes, bulk purchase sports shops-il usually discount kooduthal kittum."
+    },
+    {
+      "category": "custom_order",
+      "question": "Custom sports gear order cheyyan pattumo?",
+      "answer": "Some shops custom jerseys, printing, and equipment provide cheyyum."
+    },
+    {
+      "category": "delivery_availability",
+      "question": "Stock available aayal delivery kittumo?",
+      "answer": "Yes, in-stock items home delivery or same-day pickup options undaavum."
+    },
+    {
+      "category": "store_pickup",
+      "question": "Online order cheythal store pickup cheyyan pattumo?",
+      "answer": "Yes, many sports shops offer click-and-collect option."
+    },
+    {
+      "category": "discount_availability",
+      "question": "Stock items-il discounts undaakumo?",
+      "answer": "Yes, seasonal sales and clearance offers-il discounts available aavum."
+    },
+    {
+      "category": "availability_confirmation",
+      "question": "Order place cheyyunnathinu munpu availability confirm cheyyanam?",
+      "answer": "Yes, especially high-demand products-il confirmation important aanu."
+    },
+    {
+      "category": "product_availability_overview",
+      "question": "Sports shop-il products available aano ennu engane ariyam?",
+      "answer": "Nee shop-il call cheyyuka, website check cheyyuka, allenkil direct visit cheythu availability confirm cheyyam."
+    },
+    {
+      "category": "online_availability",
+      "question": "Online-il product stock check cheyyan pattumo?",
+      "answer": "Yes, most sports shops website or app-il real-time stock availability kanikkum."
+    },
+    {
+      "category": "out_of_stock",
+      "question": "Product out of stock aayal entha cheyyam?",
+      "answer": "Nee alternative models choose cheyyam allenkil restock notification set cheyyam."
+    },
+    {
+      "category": "restock_time",
+      "question": "Out of stock items eppozha thirich varum?",
+      "answer": "Restock time product and supplier depend cheyyum. Shop staff ne contact cheyyunnath best aanu."
+    },
+    {
+      "category": "reservation",
+      "question": "Product reserve cheyyan pattumo?",
+      "answer": "Some sports shops limited time reservation facility provide cheyyum."
+    },
+    {
+      "category": "pre_order",
+      "question": "Pre-order option available aano?",
+      "answer": "Yes, new or high-demand sports products pre-order cheyyan pattum."
+    },
+    {
+      "category": "size_availability",
+      "question": "Different sizes available aano?",
+      "answer": "Yes, shoes, jerseys, and sports gear different sizes-il available aavum depending on stock."
+    },
+    {
+      "category": "brand_availability",
+      "question": "Specific brands available aano?",
+      "answer": "Yes, but brand availability shop collection and stock depend cheyyum."
+    },
+    {
+      "category": "seasonal_stock",
+      "question": "Seasonal sports items always available aano?",
+      "answer": "Illa, seasonal items like cricket kits, football gear etc. limited stock aayirikkum."
+    },
+    {
+      "category": "bulk_purchase",
+      "question": "Bulk order cheyyan pattumo?",
+      "answer": "Yes, bulk purchase sports shops-il usually discount kooduthal kittum."
+    },
+    {
+      "category": "custom_order",
+      "question": "Custom sports gear order cheyyan pattumo?",
+      "answer": "Some shops custom jerseys, printing, and equipment provide cheyyum."
+    },
+    {
+      "category": "delivery_availability",
+      "question": "Stock available aayal delivery kittumo?",
+      "answer": "Yes, in-stock items home delivery or same-day pickup options undaavum."
+    },
+    {
+      "category": "store_pickup",
+      "question": "Online order cheythal store pickup cheyyan pattumo?",
+      "answer": "Yes, many sports shops offer click-and-collect option."
+    },
+    {
+      "category": "discount_availability",
+      "question": "Stock items-il discounts undaakumo?",
+      "answer": "Yes, seasonal sales and clearance offers-il discounts available aavum."
+    },
+    {
+      "category": "availability_confirmation",
+      "question": "Order place cheyyunnathinu munpu availability confirm cheyyanam?",
+      "answer": "Yes, especially high-demand products-il confirmation important aanu."
+    },
+    {
+      "category": "pricing_overview",
+      "question": "Sports shop-il products price engane decide cheyyunnu?",
+      "answer": "Products quality, brand, material, and demand depend cheythu pricing decide cheyyunnu."
+    },
+    {
+      "category": "discount_availability",
+      "question": "Sports items-il discount available aano?",
+      "answer": "Yes, season, festival offers, and clearance sales time-il discounts available aavum."
+    },
+    {
+      "category": "seasonal_offer",
+      "question": "Eppozha kooduthal discount kittunnath?",
+      "answer": "End of season sales, festive offers, and special promotion days-il kooduthal discount kittum."
+    },
+    {
+      "category": "bulk_discount",
+      "question": "Bulk purchase cheythal discount kittumo?",
+      "answer": "Yes, kooduthal quantity purchase cheyyumbo special discount or wholesale pricing kittan chance undu."
+    },
+    {
+      "category": "student_discount",
+      "question": "Students-innu special discount undo?",
+      "answer": "Some sports shops students-innu ID card base cheythu special discount provide cheyyum."
+    },
+    {
+      "category": "membership_offer",
+      "question": "Membership eduthal discount kittumo?",
+      "answer": "Yes, membership customers-innu exclusive offers and additional discounts kittum."
+    },
+    {
+      "category": "online_discount",
+      "question": "Online purchase-il cheaper aavumo?",
+      "answer": "Sometimes online exclusive deals and coupons available aavum, offline price compare cheyyanam."
+    },
+    {
+      "category": "price_match",
+      "question": "Veru shop-il kurav price kittiyal match cheyyumo?",
+      "answer": "Some sports shops price match policy offer cheyyum, but terms vary cheyyum."
+    },
+    {
+      "category": "return_policy",
+      "question": "Discount items return cheyyan pattumo?",
+      "answer": "Return policy depends on shop rules. Sale items sometimes non-returnable aayirikkum."
+    },
+    {
+      "category": "warranty",
+      "question": "Discount products-innu warranty undo?",
+      "answer": "Yes, brand depend cheythu warranty continue aayirikkum even discount items-innum."
+    },
+    {
+      "category": "clearance_sale",
+      "question": "Clearance sale ennathu enthaanu?",
+      "answer": "Old stock clear cheyyan vendi heavy discount-il products sell cheyyunna sale aanu."
+    },
+    {
+      "category": "price_negotiation",
+      "question": "Sports shop-il price negotiate cheyyan pattumo?",
+      "answer": "Some offline shops-il small negotiation possible aanu, especially bulk purchase-il."
+    },
+    {
+      "category": "combo_offer",
+      "question": "Combo offers available aano?",
+      "answer": "Yes, bat + ball, shoes + socks pole combo deals discounts-il kittum."
+    },
+    {
+      "category": "festival_offer",
+      "question": "Festival time-il special offers undo?",
+      "answer": "Yes, Onam, Christmas, New Year pole festivals-il attractive discounts available aavum."
+    },
+    {
+      "category": "pricing_support",
+      "question": "Price doubt undengil engane confirm cheyyam?",
+      "answer": "Shop staff-ne contact cheythu or official website-il price verify cheyyam."
+    },
+    {
+      "category": "sports_equipment_overview",
+      "question": "Sports equipment ennathu enthaanu?",
+      "answer": "Sports equipment ennathu different sports play cheyyan use cheyyunna tools and accessories aanu, like bats, balls, rackets, shoes, and protective gear."
+    },
+    {
+      "category": "equipment_selection",
+      "question": "Enikk correct sports equipment engane choose cheyyam?",
+      "answer": "Nee play cheyyunna sport, skill level, and budget consider cheythu correct equipment choose cheyyam."
+    },
+    {
+      "category": "quality_check",
+      "question": "Sports equipment quality engane ariyam?",
+      "answer": "Brand reputation, material quality, durability, and reviews nokki quality judge cheyyam."
+    },
+    {
+      "category": "cricket_equipment",
+      "question": "Cricket equipment enthokke venam?",
+      "answer": "Cricket bat, ball, gloves, pads, helmet, and kit bag venam basic cricket play cheyyan."
+    },
+    {
+      "category": "football_equipment",
+      "question": "Football play cheyyan entha equipment venam?",
+      "answer": "Football, studs shoes, shin guards, and comfortable sportswear venam."
+    },
+    {
+      "category": "badminton_equipment",
+      "question": "Badminton play cheyyan entha venam?",
+      "answer": "Badminton racket, shuttlecock, court shoes, and grip tape venam."
+    },
+    {
+      "category": "fitness_equipment",
+      "question": "Home workoutinu entha equipment venam?",
+      "answer": "Dumbbells, resistance bands, yoga mat, skipping rope, and bench use cheyyam."
+    },
+    {
+      "category": "equipment_price",
+      "question": "Sports equipment cost ethra aanu?",
+      "answer": "Cost equipment type, brand, and quality depend cheyyum. Budget to premium options available aanu."
+    },
+    {
+      "category": "online_purchase",
+      "question": "Sports equipment online vangam pattumo?",
+      "answer": "Yes, online sports stores-il wide range equipment available aanu."
+    },
+    {
+      "category": "durability",
+      "question": "Sports equipment ethra kalam last cheyyum?",
+      "answer": "Proper use and maintenance undengil equipment long time durable aayirikkum."
+    },
+    {
+      "category": "maintenance",
+      "question": "Sports equipment care engane cheyyam?",
+      "answer": "Regular cleaning, dry storage, and proper handling follow cheyyanam."
+    },
+    {
+      "category": "kids_equipment",
+      "question": "Kids-innu sports equipment safe aano?",
+      "answer": "Yes, age appropriate and lightweight equipment use cheythal safe aanu."
+    },
+    {
+      "category": "brand_choice",
+      "question": "Best sports brands enthaanu?",
+      "answer": "Nike, Adidas, Puma, Yonex, Kookaburra pole trusted brands popular aanu."
+    },
+    {
+      "category": "warranty",
+      "question": "Sports equipment warranty kittumo?",
+      "answer": "Some branded equipment warranty provide cheyyum, product depend cheyyum."
+    },
+    {
+      "category": "return_policy",
+      "question": "Sports shop-il return policy undo?",
+      "answer": "Yes, most shops return or exchange policy provide cheyyum condition basis-il."
+    },
+    {
+      "category": "quality_overview",
+      "question": "Sports shop-il sell cheyyunna products quality reliable aano?",
+      "answer": "Yes, most sports shops provide branded and quality-tested products suitable for sports and fitness use."
+    },
+    {
+      "category": "product_authenticity",
+      "question": "Products original brands aano?",
+      "answer": "Yes, trusted sports shops usually sell 100% genuine branded products with proper sourcing."
+    },
+    {
+      "category": "quality_check",
+      "question": "Products dispatch cheyyunnathinu munpu quality check cheyyumo?",
+      "answer": "Yes, most shops ensure basic quality inspection before selling or shipping products."
+    },
+    {
+      "category": "durability",
+      "question": "Sports equipment durability engane confirm cheyyam?",
+      "answer": "Durability depends on brand, material, and usage. Product description and warranty details help confirm it."
+    },
+    {
+      "category": "warranty_overview",
+      "question": "Sports products-innu warranty undaakumo?",
+      "answer": "Yes, many branded sports items come with manufacturer warranty depending on the product type."
+    },
+    {
+      "category": "warranty_duration",
+      "question": "Warranty period ethra aanu?",
+      "answer": "Warranty duration varies by product and brand, usually ranging from a few months to a few years."
+    },
+    {
+      "category": "warranty_coverage",
+      "question": "Warranty entha cover cheyyunnathu?",
+      "answer": "Warranty usually covers manufacturing defects but does not include damage due to misuse or wear and tear."
+    },
+    {
+      "category": "warranty_claim",
+      "question": "Warranty claim engane cheyyam?",
+      "answer": "You need proof of purchase and warranty card. Contact the shop or brand service center for claim process."
+    },
+    {
+      "category": "return_policy",
+      "question": "Sports products return cheyyan pattumo?",
+      "answer": "Yes, return policy depends on shop terms. Usually unused products within a limited time can be returned."
+    },
+    {
+      "category": "replacement",
+      "question": "Defective product replace cheyyumo?",
+      "answer": "Yes, manufacturing defects undengil warranty conditions based replacement or repair available aanu."
+    },
+    {
+      "category": "damage_policy",
+      "question": "Usage kazhinju damage aayal warranty apply aavumo?",
+      "answer": "No, improper use or wear and tear due to usage warranty cover cheyyilla."
+    },
+    {
+      "category": "brand_support",
+      "question": "Brands direct support provide cheyyumo?",
+      "answer": "Yes, many international and local brands have authorized service centers for support and warranty claims."
+    },
+    {
+      "category": "proof_purchase",
+      "question": "Warranty claim cheyyan bill venamo?",
+      "answer": "Yes, valid invoice or purchase bill mandatory aanu warranty claimsinu."
+    },
+    {
+      "category": "extended_warranty",
+      "question": "Extended warranty available aano?",
+      "answer": "Some premium products offer extended warranty options at extra cost."
+    },
+    {
+      "category": "quality_assurance",
+      "question": "Sports shop quality guarantee tharumo?",
+      "answer": "Yes, reputed shops ensure quality assurance for all branded sports equipment sold."
+    },
+    {
+      "category": "return_policy_overview",
+      "question": "Sports shop-il return policy enthaanu?",
+      "answer": "Purchase cheytha product damaged, wrong size, allenkil unused condition-il undengil return policy apply cheyyam, shop rules depend cheyyum."
+    },
+    {
+      "category": "return_time_limit",
+      "question": "Return cheyyan ethra days ullathu?",
+      "answer": "Usually 7 to 15 days vare return window undavum, but shop policy depend cheyyum."
+    },
+    {
+      "category": "exchange_policy",
+      "question": "Exchange cheyyan pattumo?",
+      "answer": "Yes, size issue allenkil defective product aanel exchange option available aayirikkum."
+    },
+    {
+      "category": "return_condition",
+      "question": "Return cheyyan entha condition venam?",
+      "answer": "Product unused aayirikkanam, original tag and packaging intact aayirikkanam."
+    },
+    {
+      "category": "bill_requirement",
+      "question": "Return or exchange-innu bill venamo?",
+      "answer": "Yes, original bill or invoice mandatory aanu return/exchange process-inu."
+    },
+    {
+      "category": "online_order_return",
+      "question": "Online order return cheyyan pattumo?",
+      "answer": "Yes, courier pickup or store drop-off option available aayirikkum shop policy depend cheythu."
+    },
+    {
+      "category": "damaged_product",
+      "question": "Damaged product kittiyal entha cheyyum?",
+      "answer": "Immediately shop-ne contact cheyyuka and photo proof submit cheyyuka for replacement or refund."
+    },
+    {
+      "category": "refund_time",
+      "question": "Refund ethra days-il kittum?",
+      "answer": "Refund usually 5 to 10 working days edukkam depending on payment method."
+    },
+    {
+      "category": "non_returnable_items",
+      "question": "Ellam products return cheyyan pattumo?",
+      "answer": "No, some items like used shoes, personalized items, or clearance sale products return allowed alla."
+    },
+    {
+      "category": "exchange_size_issue",
+      "question": "Size fit aavathirikkumbol exchange cheyyan pattumo?",
+      "answer": "Yes, unused condition-il undengil size exchange usually allow cheyyum."
+    },
+    {
+      "category": "in_store_return",
+      "question": "Store-il direct return cheyyan pattumo?",
+      "answer": "Yes, store visit cheythu return or exchange request submit cheyyam."
+    },
+    {
+      "category": "delivery_charge",
+      "question": "Return cheyyumbo delivery charge refund kittumo?",
+      "answer": "Some cases-il refund kittum, but policy shop-to-shop vary cheyyum."
+    },
+    {
+      "category": "sports_equipment_return",
+      "question": "Sports equipment return cheyyan pattumo?",
+      "answer": "Unused condition-il undengil return or exchange possible aanu, but usage aayal accept cheyyilla."
+    },
+    {
+      "category": "defective_product",
+      "question": "Defective product replace cheyyumo?",
+      "answer": "Yes, manufacturing defect undengil replacement or refund provide cheyyum."
+    },
+    {
+      "category": "support",
+      "question": "Return process-il help kittumo?",
+      "answer": "Yes, customer support team return and exchange process-il assist cheyyum."
+    },
+    {
+      "category": "online_order_overview",
+      "question": "Sports shop-il online order engane place cheyyam?",
+      "answer": "Nee website allenkil app use cheythu products select cheythu cart-il add cheythu checkout cheythal order place cheyyam."
+    },
+    {
+      "category": "product_availability",
+      "question": "Online-il ella sports items um available aano?",
+      "answer": "Most items available aanu, pakshe stock availability time-to-time change aavum."
+    },
+    {
+      "category": "delivery_time",
+      "question": "Order kazhinjal delivery ethra divasam edukum?",
+      "answer": "Usually 2 to 7 working days vare delivery aavum, location depend cheyyum."
+    },
+    {
+      "category": "delivery_charges",
+      "question": "Delivery charge unda?",
+      "answer": "Some orders free delivery eligible aanu, otherwise small delivery charge apply cheyyum."
+    },
+    {
+      "category": "order_tracking",
+      "question": "Order track cheyyan pattumo?",
+      "answer": "Yes, order confirm aayal tracking ID use cheythu shipment track cheyyam."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Payment methods enthaanu available?",
+      "answer": "Cash on delivery, credit/debit card, UPI, and online wallets ellam accept cheyyum."
+    },
+    {
+      "category": "order_cancellation",
+      "question": "Order cancel cheyyan pattumo?",
+      "answer": "Yes, shipment dispatch aavunnathinu munpu order cancel cheyyam."
+    },
+    {
+      "category": "return_policy",
+      "question": "Product return cheyyan pattumo?",
+      "answer": "Yes, damaged or wrong item delivery aayal return or replacement available aanu."
+    },
+    {
+      "category": "refund_process",
+      "question": "Refund ethra neram edukkum?",
+      "answer": "Refund usually 5 to 7 working days within original payment method-il process cheyyum."
+    },
+    {
+      "category": "size_issue",
+      "question": "Sports shoes size mismatch aayal entha cheyyam?",
+      "answer": "Return request place cheythu correct size replacement request cheyyam."
+    },
+    {
+      "category": "international_delivery",
+      "question": "International delivery available aano?",
+      "answer": "Some sports shops international delivery offer cheyyum, pakshe extra charges apply cheyyum."
+    },
+    {
+      "category": "order_confirmation",
+      "question": "Order confirm aayennu engane ariyam?",
+      "answer": "SMS or email confirmation order place cheythal kittum."
+    },
+    {
+      "category": "discounts_offers",
+      "question": "Online orders-innu discounts undo?",
+      "answer": "Yes, seasonal offers, coupon codes, and special discounts available aayirikkum."
+    },
+    {
+      "category": "damaged_product",
+      "question": "Damaged product kittiyal entha cheyyam?",
+      "answer": "Immediately customer support contact cheythu replacement or refund request cheyyam."
+    },
+    {
+      "category": "customer_support",
+      "question": "Help venamengil engane contact cheyyam?",
+      "answer": "Website chat, email, or customer care number use cheythu support team-ne contact cheyyam."
+    },
+    {
+      "category": "size_overview",
+      "question": "Sports items-inde correct size engane choose cheyyam?",
+      "answer": "Ningalude body measurements (height, weight, chest, waist) nokki size chart compare cheythu correct size choose cheyyam."
+    },
+    {
+      "category": "shoe_size",
+      "question": "Sports shoes size engane select cheyyam?",
+      "answer": "Normal shoe size follow cheyyam, pakshe running shoes-innu half size kooduthal comfortable aavum."
+    },
+    {
+      "category": "fit_check",
+      "question": "Shoes fit correct aano ennu engane ariyam?",
+      "answer": "Toe area-il slight space undaavum, heel slip cheyyaruthu, and comfortable feel venam."
+    },
+    {
+      "category": "apparel_size",
+      "question": "Sports dress size engane choose cheyyam?",
+      "answer": "Chest, waist, hip measurements use cheythu size chart match cheyyuka. Tight illa comfortable fit choose cheyyuka."
+    },
+    {
+      "category": "loose_vs_tight",
+      "question": "Sports wear tight aano loose aano best?",
+      "answer": "Activity depend cheyyum. Gym wear tight fit, running wear slightly loose and breathable better aanu."
+    },
+    {
+      "category": "kids_size",
+      "question": "Kids sports size engane select cheyyam?",
+      "answer": "Child-inde height and age base cheythu size chart follow cheyyuka. Growth consider cheyyanam."
+    },
+    {
+      "category": "equipment_fit",
+      "question": "Sports equipment correct fit aano ennu engane check cheyyam?",
+      "answer": "Grip comfortable aayirikkanam, weight manageable aayirikkanam, and safe feel venam."
+    },
+    {
+      "category": "return_policy",
+      "question": "Size fit aayillengil return cheyyan pattumo?",
+      "answer": "Yes, most sports shops return/exchange policy provide cheyyum within specific days."
+    },
+    {
+      "category": "online_purchase",
+      "question": "Online sports items size correct aakumo?",
+      "answer": "Size chart carefully follow cheythal correct fit kittum, pakshe reviews check cheyyunnath useful aanu."
+    },
+    {
+      "category": "wide_feet",
+      "question": "Wide feet ullavar shoes engane select cheyyam?",
+      "answer": "Wide fit shoes choose cheyyuka or half size up try cheyyuka for comfort."
+    },
+    {
+      "category": "running_shoes",
+      "question": "Running shoes fit engane irikkanam?",
+      "answer": "Front-il thumb space venam, heel stable aayirikkanam, and cushioning proper aayirikkanam."
+    },
+    {
+      "category": "gym_wear",
+      "question": "Gym wear fit engane irikkanam?",
+      "answer": "Sweat absorb cheyyunna breathable material and body fit but flexible design venam."
+    },
+    {
+      "category": "sports_brands",
+      "question": "Different brands-il size same aayirikkumo?",
+      "answer": "Illa, brand-to-brand slight size variation undavum, so always size chart check cheyyuka."
+    },
+    {
+      "category": "try_before_buy",
+      "question": "Try cheyyathe sports items vangaan safe aano?",
+      "answer": "Possible aanu, pakshe try cheyyunnath best fit confirm cheyyan helpful aanu."
+    },
+    {
+      "category": "comfort_priority",
+      "question": "Style ano comfort ano important?",
+      "answer": "Sports use-il comfort aanu priority. Performance and safety athil depend cheyyum."
+    },
+    {
+      "category": "brand_availability_overview",
+      "question": "Ee sports shop-il brands available aano?",
+      "answer": "Yes, popular sports brands shop-il available aanu depending on stock and season."
+    },
+    {
+      "category": "brand_list",
+      "question": "Ethokke brands sports shop-il kittum?",
+      "answer": "Nike, Adidas, Puma, Reebok, Under Armour, and other popular sports brands usually available aanu."
+    },
+    {
+      "category": "availability_variation",
+      "question": "Ellam brands always available aano?",
+      "answer": "Illa, brand availability stock and demand depend cheyyum. Some items fast sell out aavum."
+    },
+    {
+      "category": "online_availability",
+      "question": "Brands online-ilum available aano?",
+      "answer": "Yes, most sports brands online store or app vazhi kittum depending on availability."
+    },
+    {
+      "category": "authenticity",
+      "question": "Ee brands original products aano?",
+      "answer": "Yes, authorized sports shops usually only genuine and original branded products sell cheyyum."
+    },
+    {
+      "category": "out_of_stock",
+      "question": "Wanted brand stock illenkil entha cheyyum?",
+      "answer": "You can pre-order, wait for restock, or choose alternative brands available in store."
+    },
+    {
+      "category": "new_arrivals",
+      "question": "New brand products eppozha varum?",
+      "answer": "New arrivals seasonal launches and company supply based aanu."
+    },
+    {
+      "category": "discount_brands",
+      "question": "Brand products-il discount kittumo?",
+      "answer": "Yes, seasonal sales and offers time-il branded items discount-il kittum."
+    },
+    {
+      "category": "size_availability",
+      "question": "Ellam sizes brands-inu available aano?",
+      "answer": "Not always. Popular sizes fast out of stock aavum, availability depend cheyyum."
+    },
+    {
+      "category": "custom_order",
+      "question": "Specific brand order cheyyan pattumo?",
+      "answer": "Yes, some stores special request or pre-order basis-il brand products arrange cheyyum."
+    },
+    {
+      "category": "latest_models",
+      "question": "Latest model sports shoes available aano?",
+      "answer": "Yes, but availability depend cheyyum stock and release timing."
+    },
+    {
+      "category": "seasonal_variation",
+      "question": "Season change aayal brand stock change aavumo?",
+      "answer": "Yes, seasonal collections and sports demand anusarichu stock update aavum."
+    },
+    {
+      "category": "genuine_guarantee",
+      "question": "Brand products ku guarantee undo?",
+      "answer": "Yes, most branded products manufacturer warranty or store guarantee provide cheyyum."
+    },
+    {
+      "category": "comparison",
+      "question": "Different brands compare cheyyan help kittumo?",
+      "answer": "Yes, store staff usually performance and price comparison help provide cheyyum."
+    },
+    {
+      "category": "availability_check",
+      "question": "Specific brand stock check cheyyan engane?",
+      "answer": "You can call store, check website, or visit directly to confirm availability."
+    }
+  ]
+}

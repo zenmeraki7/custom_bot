@@ -1,0 +1,632 @@
+{
+  "faqs": [
+    {
+      "category": "membership_overview",
+      "question": "What is a yoga center membership?",
+      "answer": "A yoga center membership is a plan that allows you to attend yoga classes regularly for a fixed period such as monthly, quarterly, or yearly."
+    },
+    {
+      "category": "enrollment_process",
+      "question": "How can I enroll in a yoga center membership?",
+      "answer": "You can enroll by visiting the yoga center, registering online, or contacting the center through phone or email."
+    },
+    {
+      "category": "membership_types",
+      "question": "What types of membership plans are available?",
+      "answer": "Most yoga centers offer monthly, quarterly, half-yearly, and yearly membership plans depending on your preference."
+    },
+    {
+      "category": "trial_classes",
+      "question": "Do you offer trial yoga classes before enrollment?",
+      "answer": "Yes, many yoga centers offer free or paid trial classes before you choose a membership plan."
+    },
+    {
+      "category": "membership_fees",
+      "question": "How much does a yoga membership cost?",
+      "answer": "Membership fees vary based on duration, class type, and center facilities. Exact pricing is provided during enrollment."
+    },
+    {
+      "category": "class_access",
+      "question": "Can I attend any class with my membership?",
+      "answer": "It depends on your membership plan. Some plans allow unlimited access while others restrict specific classes or timings."
+    },
+    {
+      "category": "registration_documents",
+      "question": "What documents are required for enrollment?",
+      "answer": "Usually, a valid ID proof, contact details, and basic health information are required for registration."
+    },
+    {
+      "category": "batch_timing",
+      "question": "Can I choose my yoga class timings?",
+      "answer": "Yes, you can choose from available batches such as morning, evening, or weekend sessions depending on availability."
+    },
+    {
+      "category": "membership_freeze",
+      "question": "Can I pause or freeze my membership?",
+      "answer": "Yes, many yoga centers allow you to pause your membership for a certain period due to travel or health reasons."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Is membership fee refundable?",
+      "answer": "Refund policies vary by center. Some offer partial refunds while others may not provide refunds after enrollment."
+    },
+    {
+      "category": "renewal",
+      "question": "How do I renew my membership?",
+      "answer": "You can renew your membership online or at the center before your current plan expires."
+    },
+    {
+      "category": "discounts_offers",
+      "question": "Are there discounts for long-term membership?",
+      "answer": "Yes, most yoga centers provide discounts for quarterly, half-yearly, or yearly memberships."
+    },
+    {
+      "category": "family_membership",
+      "question": "Do you offer family or group membership plans?",
+      "answer": "Yes, some yoga centers offer special discounts for family or group enrollment."
+    },
+    {
+      "category": "attendance_tracking",
+      "question": "How is attendance tracked in yoga classes?",
+      "answer": "Attendance is usually tracked digitally or manually at the reception before each class."
+    },
+    {
+      "category": "membership_support",
+      "question": "Who can I contact for membership-related queries?",
+      "answer": "You can contact the yoga center receptionist or support team for any membership or enrollment assistance."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "class_schedule_overview",
+      "question": "What are the yoga class timings?",
+      "answer": "Yoga classes are usually scheduled in the morning and evening, but exact timings depend on the yoga center."
+    },
+    {
+      "category": "daily_schedule",
+      "question": "Do you have daily yoga classes?",
+      "answer": "Yes, most yoga centers offer daily classes with different time slots for beginners and advanced levels."
+    },
+    {
+      "category": "morning_classes",
+      "question": "What time do morning yoga classes start?",
+      "answer": "Morning yoga classes typically start between 5:30 AM and 8:00 AM depending on the schedule."
+    },
+    {
+      "category": "evening_classes",
+      "question": "Are evening yoga classes available?",
+      "answer": "Yes, evening yoga classes are usually available between 5:00 PM and 8:00 PM."
+    },
+    {
+      "category": "weekend_schedule",
+      "question": "Do you conduct yoga classes on weekends?",
+      "answer": "Yes, most yoga centers conduct weekend classes, though timing may vary."
+    },
+    {
+      "category": "holiday_schedule",
+      "question": "Are yoga classes available on public holidays?",
+      "answer": "Some yoga centers remain open on holidays with limited classes, while others may remain closed."
+    },
+    {
+      "category": "class_duration",
+      "question": "How long is each yoga class?",
+      "answer": "Each yoga session usually lasts between 45 minutes to 90 minutes depending on the class type."
+    },
+    {
+      "category": "batch_system",
+      "question": "Are yoga classes conducted in batches?",
+      "answer": "Yes, classes are often organized in batches based on timing and skill level."
+    },
+    {
+      "category": "drop_in_classes",
+      "question": "Can I join a yoga class anytime?",
+      "answer": "Some centers allow drop-in classes, but advance booking is recommended."
+    },
+    {
+      "category": "beginner_timing",
+      "question": "Are there specific timings for beginners?",
+      "answer": "Yes, many centers offer separate beginner batches at fixed times."
+    },
+    {
+      "category": "advanced_classes",
+      "question": "Do you have advanced yoga classes at different times?",
+      "answer": "Yes, advanced classes are scheduled separately from beginner sessions."
+    },
+    {
+      "category": "schedule_changes",
+      "question": "Does the yoga class schedule change?",
+      "answer": "Yes, schedules may change based on instructor availability or seasonal adjustments."
+    },
+    {
+      "category": "attendance",
+      "question": "Do I need to attend classes at a fixed time?",
+      "answer": "Yes, students usually attend at fixed batch timings for consistency."
+    },
+    {
+      "category": "online_schedule",
+      "question": "Are online yoga classes available at fixed timings?",
+      "answer": "Yes, online yoga classes are conducted live at scheduled times."
+    },
+    {
+      "category": "booking_schedule",
+      "question": "How do I know the class schedule before joining?",
+      "answer": "You can check the schedule on the yoga center website or contact the reception for updated timings."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "yoga_overview",
+      "question": "What is beginner yoga?",
+      "answer": "Beginner yoga is a simple form of yoga designed for new learners, focusing on basic poses, breathing techniques, and flexibility."
+    },
+    {
+      "category": "who_can_join",
+      "question": "Can beginners join yoga classes?",
+      "answer": "Yes, yoga classes are suitable for beginners of all ages and fitness levels."
+    },
+    {
+      "category": "first_class",
+      "question": "What should I expect in my first yoga class?",
+      "answer": "In your first class, you will learn basic poses, breathing exercises, and simple stretching techniques in a calm environment."
+    },
+    {
+      "category": "equipment_needed",
+      "question": "Do I need any equipment for yoga?",
+      "answer": "A yoga mat and comfortable clothing are usually enough for beginner yoga classes."
+    },
+    {
+      "category": "physical_fitness",
+      "question": "Do I need to be fit to start yoga?",
+      "answer": "No, yoga is for everyone. Beginners can start at their own pace and gradually improve flexibility and strength."
+    },
+    {
+      "category": "health_benefits",
+      "question": "What are the benefits of beginner yoga?",
+      "answer": "Yoga improves flexibility, reduces stress, enhances focus, and helps in overall physical and mental well-being."
+    },
+    {
+      "category": "difficulty_level",
+      "question": "Is beginner yoga difficult?",
+      "answer": "No, beginner yoga is gentle and easy to follow, with simple poses and slow movements."
+    },
+    {
+      "category": "session_duration",
+      "question": "How long is a yoga class?",
+      "answer": "Most beginner yoga sessions last between 45 minutes to 1 hour."
+    },
+    {
+      "category": "frequency",
+      "question": "How often should I attend yoga classes?",
+      "answer": "It is recommended to attend 2 to 4 classes per week for better results."
+    },
+    {
+      "category": "injury_safety",
+      "question": "Is yoga safe for beginners with injuries?",
+      "answer": "Yes, but you should inform the instructor so they can modify poses according to your condition."
+    },
+    {
+      "category": "weight_loss",
+      "question": "Can yoga help with weight loss?",
+      "answer": "Yes, regular yoga practice can support weight management along with a healthy lifestyle."
+    },
+    {
+      "category": "stress_relief",
+      "question": "Does yoga help reduce stress?",
+      "answer": "Yes, yoga includes breathing and meditation techniques that help reduce stress and improve relaxation."
+    },
+    {
+      "category": "age_limit",
+      "question": "Is there any age limit for yoga classes?",
+      "answer": "No, yoga is suitable for children, adults, and seniors with appropriate modifications."
+    },
+    {
+      "category": "clothing",
+      "question": "What should I wear for yoga?",
+      "answer": "Wear comfortable, stretchable clothing that allows easy movement during practice."
+    },
+    {
+      "category": "progress_time",
+      "question": "How long does it take to see results from yoga?",
+      "answer": "With regular practice, noticeable improvements can be seen in a few weeks to a few months."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "yoga_overview",
+      "question": "What is yoga?",
+      "answer": "Yoga is a practice that combines physical postures, breathing exercises, and meditation to improve physical and mental well-being."
+    },
+    {
+      "category": "hatha_yoga",
+      "question": "What is Hatha Yoga?",
+      "answer": "Hatha Yoga focuses on basic postures and breathing techniques, making it suitable for beginners."
+    },
+    {
+      "category": "ashtanga_yoga",
+      "question": "What is Ashtanga Yoga?",
+      "answer": "Ashtanga Yoga is a dynamic and structured style that involves a fixed sequence of postures performed in a continuous flow."
+    },
+    {
+      "category": "vinyasa_yoga",
+      "question": "What is Vinyasa Yoga?",
+      "answer": "Vinyasa Yoga links breath with movement and creates a flowing sequence of poses, often more fast-paced."
+    },
+    {
+      "category": "iyengar_yoga",
+      "question": "What is Iyengar Yoga?",
+      "answer": "Iyengar Yoga focuses on precise alignment and often uses props like blocks and straps to support poses."
+    },
+    {
+      "category": "kundalini_yoga",
+      "question": "What is Kundalini Yoga?",
+      "answer": "Kundalini Yoga combines breathing, chanting, and postures to awaken energy and improve spiritual awareness."
+    },
+    {
+      "category": "power_yoga",
+      "question": "What is Power Yoga?",
+      "answer": "Power Yoga is a fitness-based yoga style that focuses on strength, flexibility, and endurance."
+    },
+    {
+      "category": "yin_yoga",
+      "question": "What is Yin Yoga?",
+      "answer": "Yin Yoga involves holding poses for longer durations to deeply stretch connective tissues and improve flexibility."
+    },
+    {
+      "category": "restorative_yoga",
+      "question": "What is Restorative Yoga?",
+      "answer": "Restorative Yoga focuses on relaxation and stress relief using gentle poses and supportive props."
+    },
+    {
+      "category": "prenatal_yoga",
+      "question": "What is Prenatal Yoga?",
+      "answer": "Prenatal Yoga is designed for pregnant women to improve flexibility, reduce stress, and prepare for childbirth."
+    },
+    {
+      "category": "beginner_yoga",
+      "question": "Which yoga is best for beginners?",
+      "answer": "Hatha Yoga and gentle Vinyasa Yoga are best for beginners due to their simple and slow-paced nature."
+    },
+    {
+      "category": "weight_loss_yoga",
+      "question": "Which yoga is good for weight loss?",
+      "answer": "Power Yoga, Ashtanga Yoga, and Vinyasa Yoga are effective for weight loss and fitness."
+    },
+    {
+      "category": "stress_relief_yoga",
+      "question": "Which yoga is best for stress relief?",
+      "answer": "Restorative Yoga, Yin Yoga, and meditation-based practices are best for stress relief."
+    },
+    {
+      "category": "yoga_for_flexibility",
+      "question": "Which yoga improves flexibility?",
+      "answer": "Yin Yoga and Hatha Yoga are excellent for improving flexibility over time."
+    },
+    {
+      "category": "yoga_selection",
+      "question": "How do I choose the right type of yoga?",
+      "answer": "The right yoga depends on your goals such as fitness, relaxation, flexibility, or spiritual growth. A yoga instructor can help you decide."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "health_condition_overview",
+      "question": "What health conditions can yoga help with?",
+      "answer": "Yoga can help improve flexibility, reduce stress, support weight management, and manage conditions like back pain, hypertension, and anxiety."
+    },
+    {
+      "category": "back_pain",
+      "question": "Is yoga good for back pain?",
+      "answer": "Yes, gentle yoga stretches can help reduce back pain by improving posture, flexibility, and muscle strength."
+    },
+    {
+      "category": "stress_relief",
+      "question": "Can yoga reduce stress and anxiety?",
+      "answer": "Yes, breathing exercises and meditation in yoga help calm the mind and reduce stress and anxiety levels."
+    },
+    {
+      "category": "heart_health",
+      "question": "Is yoga helpful for heart health?",
+      "answer": "Yes, regular yoga practice can improve blood circulation, reduce blood pressure, and support overall heart health."
+    },
+    {
+      "category": "weight_management",
+      "question": "Can yoga help in weight loss?",
+      "answer": "Yes, dynamic yoga styles combined with proper diet can support weight loss and improve metabolism."
+    },
+    {
+      "category": "diabetes",
+      "question": "Is yoga beneficial for diabetes patients?",
+      "answer": "Yes, yoga can help regulate blood sugar levels when practiced regularly along with a healthy lifestyle."
+    },
+    {
+      "category": "blood_pressure",
+      "question": "Can yoga help control blood pressure?",
+      "answer": "Yes, relaxation techniques and breathing exercises in yoga can help manage blood pressure levels."
+    },
+    {
+      "category": "flexibility",
+      "question": "Does yoga improve body flexibility?",
+      "answer": "Yes, regular yoga practice improves flexibility, joint mobility, and overall body strength."
+    },
+    {
+      "category": "pregnancy_yoga",
+      "question": "Is yoga safe during pregnancy?",
+      "answer": "Yes, prenatal yoga is safe when done under expert guidance and helps reduce pregnancy discomfort."
+    },
+    {
+      "category": "injury_concerns",
+      "question": "Can yoga cause injuries?",
+      "answer": "Yoga is generally safe, but improper posture or overexertion without guidance can lead to minor injuries."
+    },
+    {
+      "category": "breathing_exercises",
+      "question": "What are pranayama benefits?",
+      "answer": "Pranayama improves lung capacity, reduces stress, and enhances mental clarity and relaxation."
+    },
+    {
+      "category": "arthritis",
+      "question": "Is yoga helpful for arthritis?",
+      "answer": "Yes, gentle yoga movements can reduce joint stiffness and improve mobility in arthritis patients."
+    },
+    {
+      "category": "sleep_problems",
+      "question": "Can yoga improve sleep quality?",
+      "answer": "Yes, relaxation and meditation techniques in yoga help improve sleep quality and reduce insomnia."
+    },
+    {
+      "category": "elderly",
+      "question": "Is yoga suitable for elderly people?",
+      "answer": "Yes, light and gentle yoga is safe and beneficial for seniors to improve balance and mobility."
+    },
+    {
+      "category": "general_wellness",
+      "question": "Can yoga improve overall health?",
+      "answer": "Yes, yoga supports physical, mental, and emotional well-being when practiced regularly."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "class_modes",
+      "question": "Do you offer both online and offline yoga classes?",
+      "answer": "Yes, we offer both online live yoga classes and offline in-studio sessions for students."
+    },
+    {
+      "category": "online_classes",
+      "question": "How do online yoga classes work?",
+      "answer": "Online yoga classes are conducted through live video sessions where instructors guide you in real time."
+    },
+    {
+      "category": "offline_classes",
+      "question": "What are offline yoga classes?",
+      "answer": "Offline yoga classes are in-person sessions conducted at our yoga center with direct instructor guidance."
+    },
+    {
+      "category": "joining_online",
+      "question": "How can I join online yoga classes?",
+      "answer": "You can join online classes by registering and receiving a meeting link or app access from the center."
+    },
+    {
+      "category": "joining_offline",
+      "question": "How can I join offline yoga classes?",
+      "answer": "You can join offline classes by visiting the yoga center and enrolling in the preferred batch."
+    },
+    {
+      "category": "class_timing",
+      "question": "Are online and offline class timings the same?",
+      "answer": "Class timings may vary, but both online and offline schedules are planned for convenience."
+    },
+    {
+      "category": "attendance",
+      "question": "How is attendance taken for online yoga classes?",
+      "answer": "Attendance is marked digitally during live sessions through the online platform."
+    },
+    {
+      "category": "recordings",
+      "question": "Will I get recordings of online yoga classes?",
+      "answer": "Some programs may provide recorded sessions for revision, depending on the package."
+    },
+    {
+      "category": "equipment",
+      "question": "Do I need equipment for online yoga classes?",
+      "answer": "Usually only a yoga mat is required, and other props may be suggested by the instructor."
+    },
+    {
+      "category": "instructor_support",
+      "question": "Is instructor guidance available in online classes?",
+      "answer": "Yes, instructors provide live guidance, corrections, and support during online sessions."
+    },
+    {
+      "category": "batch_size",
+      "question": "Are offline yoga classes crowded?",
+      "answer": "Offline classes usually have limited batch sizes to ensure personal attention."
+    },
+    {
+      "category": "trial_class",
+      "question": "Do you offer trial classes for online or offline yoga?",
+      "answer": "Yes, many yoga centers offer trial sessions for both online and offline classes."
+    },
+    {
+      "category": "fees",
+      "question": "Is online yoga cheaper than offline classes?",
+      "answer": "Online classes are often more affordable compared to offline studio sessions."
+    },
+    {
+      "category": "flexibility",
+      "question": "Can I switch between online and offline classes?",
+      "answer": "Some yoga centers allow switching between online and offline batches based on availability."
+    },
+    {
+      "category": "suitability",
+      "question": "Which is better, online or offline yoga classes?",
+      "answer": "Both are effective; online is flexible and offline provides hands-on correction from instructors."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "fees_overview",
+      "question": "What are the fees for yoga classes?",
+      "answer": "Yoga class fees vary depending on the package, duration, and type of classes chosen such as group or personal training."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted at the yoga center?",
+      "answer": "Most yoga centers accept cash, card payments, UPI, bank transfer, and online payment methods."
+    },
+    {
+      "category": "monthly_fees",
+      "question": "Do you have monthly membership fees?",
+      "answer": "Yes, many yoga centers offer monthly membership plans with unlimited or fixed number of sessions."
+    },
+    {
+      "category": "package_options",
+      "question": "Are there different yoga packages available?",
+      "answer": "Yes, yoga centers usually offer beginner, intermediate, advanced, and customized wellness packages."
+    },
+    {
+      "category": "trial_class",
+      "question": "Is there a trial class available before joining?",
+      "answer": "Some yoga centers offer free or paid trial classes so you can experience the session before enrolling."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Is the yoga fee refundable?",
+      "answer": "Refund policies depend on the yoga center. Some allow partial refunds within a specific time frame."
+    },
+    {
+      "category": "discounts",
+      "question": "Are there any discounts or offers available?",
+      "answer": "Yes, discounts are often available for long-term memberships, group enrollments, or seasonal promotions."
+    },
+    {
+      "category": "installment_payment",
+      "question": "Can I pay yoga fees in installments?",
+      "answer": "Some yoga centers allow installment payments for long-term courses or premium programs."
+    },
+    {
+      "category": "hidden_charges",
+      "question": "Are there any hidden charges apart from fees?",
+      "answer": "No, reputed yoga centers maintain transparent pricing without hidden charges."
+    },
+    {
+      "category": "corporate_packages",
+      "question": "Do you offer corporate yoga packages?",
+      "answer": "Yes, many yoga centers provide corporate wellness programs with customized pricing."
+    },
+    {
+      "category": "online_payment",
+      "question": "Can I pay yoga fees online?",
+      "answer": "Yes, online payments through apps, websites, or UPI are commonly accepted."
+    },
+    {
+      "category": "fee_validity",
+      "question": "How long is my yoga membership valid?",
+      "answer": "Validity depends on the package chosen, such as monthly, quarterly, or yearly plans."
+    },
+    {
+      "category": "missed_classes",
+      "question": "Can I attend missed yoga classes later?",
+      "answer": "Some yoga centers allow make-up classes depending on availability and policy."
+    },
+    {
+      "category": "private_classes_fee",
+      "question": "Are private yoga classes more expensive?",
+      "answer": "Yes, private or one-to-one yoga sessions usually cost more than group classes."
+    },
+    {
+      "category": "payment_receipt",
+      "question": "Will I get a receipt after payment?",
+      "answer": "Yes, all payments are usually confirmed with a receipt or digital invoice."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "attendance_policy",
+      "question": "What is the attendance policy for yoga classes?",
+      "answer": "Students are expected to attend classes regularly to get maximum benefit. Consistent attendance helps improve flexibility, strength, and progress."
+    },
+    {
+      "category": "punctuality",
+      "question": "Is punctuality important for yoga classes?",
+      "answer": "Yes, arriving on time is important. Late entry may disturb the class flow and relaxation sessions."
+    },
+    {
+      "category": "missed_classes",
+      "question": "What happens if I miss a yoga class?",
+      "answer": "If you miss a class, you may be allowed to attend a make-up session depending on the studio policy and availability."
+    },
+    {
+      "category": "makeup_classes",
+      "question": "Are make-up classes available?",
+      "answer": "Yes, many yoga centers offer make-up classes within a valid time period, subject to prior approval."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Can I cancel a booked yoga class?",
+      "answer": "Yes, cancellations are allowed if informed in advance as per the studio’s cancellation policy."
+    },
+    {
+      "category": "late_cancellation",
+      "question": "What happens if I cancel late?",
+      "answer": "Late cancellations may result in class deduction or fee loss depending on the center's rules."
+    },
+    {
+      "category": "class_packages",
+      "question": "Do yoga classes come in packages?",
+      "answer": "Yes, most yoga centers offer monthly, quarterly, or yearly packages for regular students."
+    },
+    {
+      "category": "validity_packages",
+      "question": "What is the validity of yoga class packages?",
+      "answer": "Package validity depends on the center, usually ranging from 1 month to 1 year."
+    },
+    {
+      "category": "attendance_tracking",
+      "question": "How is attendance tracked in yoga classes?",
+      "answer": "Attendance is usually marked manually by the instructor or through a digital check-in system."
+    },
+    {
+      "category": "minimum_attendance",
+      "question": "Is there a minimum attendance requirement?",
+      "answer": "Some programs require minimum attendance to complete courses or receive certification."
+    },
+    {
+      "category": "drop_in_classes",
+      "question": "Can I attend yoga classes as a drop-in student?",
+      "answer": "Yes, many centers allow drop-in classes based on availability and prior booking."
+    },
+    {
+      "category": "trial_classes",
+      "question": "Do you offer trial yoga classes?",
+      "answer": "Yes, many yoga centers offer free or paid trial classes for new students."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Are fees refundable if I stop attending classes?",
+      "answer": "Refund policies vary by center. Some offer partial refunds, while others do not provide refunds after enrollment."
+    },
+    {
+      "category": "holiday_policy",
+      "question": "Are yoga classes held on public holidays?",
+      "answer": "Classes may be suspended or rescheduled on public holidays depending on the studio schedule."
+    },
+    {
+      "category": "online_classes",
+      "question": "Can I attend yoga classes online if I miss in-person sessions?",
+      "answer": "Yes, some centers offer online or recorded sessions as an alternative option."
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "faqs": [
+    {
+      "category": "booking_overview",
+      "question": "How can I book a taxi?",
+      "answer": "You can book a taxi through a mobile app, website, phone call, or by visiting a taxi booking counter."
+    },
+    {
+      "category": "instant_booking",
+      "question": "Can I book a taxi instantly?",
+      "answer": "Yes, most taxi services offer instant booking with nearby available drivers assigned immediately."
+    },
+    {
+      "category": "advance_booking",
+      "question": "Can I book a taxi in advance?",
+      "answer": "Yes, you can schedule a taxi ride in advance by selecting your preferred date and time."
+    },
+    {
+      "category": "booking_confirmation",
+      "question": "How do I know my taxi booking is confirmed?",
+      "answer": "You will receive a confirmation via SMS, email, or app notification with driver details."
+    },
+    {
+      "category": "ride_tracking",
+      "question": "Can I track my taxi after booking?",
+      "answer": "Yes, you can track your taxi in real-time using the app or tracking link provided."
+    },
+    {
+      "category": "fare_estimate",
+      "question": "How is the taxi fare calculated?",
+      "answer": "Taxi fare is calculated based on distance, travel time, traffic conditions, and service type."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "Most taxi services accept cash, credit/debit cards, UPI, and digital wallet payments."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Can I cancel my taxi booking?",
+      "answer": "Yes, you can cancel your booking through the app or customer support, but cancellation charges may apply."
+    },
+    {
+      "category": "driver_details",
+      "question": "Will I get driver details after booking?",
+      "answer": "Yes, you will receive driver name, photo, vehicle number, and contact details."
+    },
+    {
+      "category": "safety",
+      "question": "Is taxi service safe?",
+      "answer": "Yes, most taxi services verify drivers and include safety features like GPS tracking and emergency support."
+    },
+    {
+      "category": "ride_types",
+      "question": "What types of taxi services are available?",
+      "answer": "Options may include economy rides, premium cars, shared rides, and airport transfers."
+    },
+    {
+      "category": "waiting_time",
+      "question": "How long will I wait for a taxi?",
+      "answer": "Waiting time depends on location, traffic, and driver availability, usually a few minutes."
+    },
+    {
+      "category": "luggage_policy",
+      "question": "Can I carry luggage in a taxi?",
+      "answer": "Yes, you can carry luggage, but large or excess baggage may require a bigger vehicle."
+    },
+    {
+      "category": "airport_rides",
+      "question": "Do you provide airport taxi services?",
+      "answer": "Yes, airport pickup and drop services are commonly available with pre-booking options."
+    },
+    {
+      "category": "customer_support",
+      "question": "What if I face issues during the ride?",
+      "answer": "You can contact customer support through the app or helpline for immediate assistance."
+    },
+    {
+      "category": "fare_overview",
+      "question": "How is taxi fare calculated?",
+      "answer": "Taxi fare is usually calculated based on distance traveled, time taken, base fare, and any applicable surcharges."
+    },
+    {
+      "category": "base_fare",
+      "question": "What is the base fare for a taxi ride?",
+      "answer": "The base fare is the starting charge for any taxi ride and varies depending on the city, taxi company, and vehicle type."
+    },
+    {
+      "category": "distance_fare",
+      "question": "How much is charged per kilometer?",
+      "answer": "The per-kilometer rate depends on the taxi provider and vehicle category. It increases with premium or larger vehicles."
+    },
+    {
+      "category": "time_fare",
+      "question": "Do taxi fares include waiting time charges?",
+      "answer": "Yes, many taxi services charge for waiting time if the vehicle is idle during the trip."
+    },
+    {
+      "category": "peak_hours",
+      "question": "Are fares higher during peak hours?",
+      "answer": "Yes, surge pricing or peak-hour charges may apply during high-demand times such as rush hours or bad weather."
+    },
+    {
+      "category": "night_charges",
+      "question": "Is there extra charge for night rides?",
+      "answer": "Some taxi services apply night surcharges for rides taken during late-night hours."
+    },
+    {
+      "category": "airport_fare",
+      "question": "Are airport taxi fares fixed?",
+      "answer": "Some cities offer fixed airport fares, while others use meter-based pricing depending on the taxi service."
+    },
+    {
+      "category": "booking_fee",
+      "question": "Is there a booking fee for taxis?",
+      "answer": "Some taxi services may charge a small booking or convenience fee depending on the platform."
+    },
+    {
+      "category": "tolls_and_charges",
+      "question": "Who pays toll and parking charges?",
+      "answer": "Toll fees, parking charges, and road taxes are usually paid by the passenger unless stated otherwise."
+    },
+    {
+      "category": "fare_estimate",
+      "question": "Can I get a fare estimate before booking?",
+      "answer": "Yes, most taxi apps and services provide fare estimates before confirming the ride."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted for taxi fares?",
+      "answer": "Taxi fares can be paid via cash, card, UPI, or digital wallet depending on the service provider."
+    },
+    {
+      "category": "cancellation_fee",
+      "question": "Is there a cancellation fee for taxi bookings?",
+      "answer": "Yes, a cancellation fee may apply if the ride is cancelled after the driver is assigned."
+    },
+    {
+      "category": "shared_rides",
+      "question": "Are shared rides cheaper than private taxis?",
+      "answer": "Yes, shared rides are usually more affordable as the fare is split among passengers."
+    },
+    {
+      "category": "extra_stops",
+      "question": "Do extra stops increase the fare?",
+      "answer": "Yes, additional stops or route changes may increase the total fare."
+    },
+    {
+      "category": "fare_disputes",
+      "question": "What should I do if I am charged incorrectly?",
+      "answer": "You should contact the taxi service support team with trip details to resolve fare disputes."
+    },
+    {
+      "category": "payment_overview",
+      "question": "What payment methods are accepted for taxi service?",
+      "answer": "Most taxi services accept cash, credit/debit cards, UPI, and digital wallets depending on the service provider."
+    },
+    {
+      "category": "cash_payment",
+      "question": "Can I pay cash for taxi rides?",
+      "answer": "Yes, cash payment is commonly accepted for taxi rides at the end of the trip."
+    },
+    {
+      "category": "card_payment",
+      "question": "Can I pay using credit or debit card in taxi?",
+      "answer": "Yes, many taxis support card payments through POS machines or mobile payment systems."
+    },
+    {
+      "category": "upi_payment",
+      "question": "Is UPI payment available for taxi service?",
+      "answer": "Yes, UPI payments like Google Pay, PhonePe, and Paytm are widely accepted in most taxi services."
+    },
+    {
+      "category": "digital_wallets",
+      "question": "Can I use digital wallets for taxi payment?",
+      "answer": "Yes, many taxi services accept digital wallets depending on driver and platform availability."
+    },
+    {
+      "category": "online_payment",
+      "question": "Can I pay taxi fare online before the ride?",
+      "answer": "Yes, some taxi apps allow prepaid bookings where payment is made online before the trip."
+    },
+    {
+      "category": "split_payment",
+      "question": "Can I split taxi fare payment with others?",
+      "answer": "Some taxi apps provide split payment options, but it depends on the service provider."
+    },
+    {
+      "category": "card_not_working",
+      "question": "What should I do if card payment fails in taxi?",
+      "answer": "You can try another payment method like cash or UPI, or restart the payment terminal if available."
+    },
+    {
+      "category": "receipt_invoice",
+      "question": "Will I get a receipt for taxi payment?",
+      "answer": "Yes, receipts are usually provided via SMS, email, or printed copy depending on the taxi service."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Can I get a refund if I am overcharged in taxi?",
+      "answer": "Yes, you can request a refund through the taxi service support if there is a billing error or overcharge."
+    },
+    {
+      "category": "surge_pricing",
+      "question": "Does payment change during peak hours?",
+      "answer": "Yes, during peak hours or high demand, taxi fares may increase due to surge pricing."
+    },
+    {
+      "category": "cashless_taxi",
+      "question": "Are cashless taxis available?",
+      "answer": "Yes, many taxi services offer fully cashless payment options through apps and digital systems."
+    },
+    {
+      "category": "driver_payment",
+      "question": "Do I pay the driver directly or through the app?",
+      "answer": "It depends on the service; some allow direct payment to drivers, while app-based taxis handle payment online."
+    },
+    {
+      "category": "tips_payment",
+      "question": "Can I give tips to taxi drivers?",
+      "answer": "Yes, tipping is optional and can be given in cash or through supported app payment options."
+    },
+    {
+      "category": "payment_security",
+      "question": "Is online taxi payment safe?",
+      "answer": "Yes, online payments are secure when using trusted taxi apps and verified payment gateways."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "How can I cancel a taxi booking?",
+      "answer": "You can cancel a taxi booking through the app, website, or by calling customer support before the driver arrives."
+    },
+    {
+      "category": "cancellation_timing",
+      "question": "Can I cancel my ride after booking?",
+      "answer": "Yes, you can cancel your ride anytime before the driver reaches the pickup location, subject to cancellation charges."
+    },
+    {
+      "category": "free_cancellation",
+      "question": "Is cancellation free?",
+      "answer": "Cancellation may be free if done within a short time after booking. After that, cancellation fees may apply."
+    },
+    {
+      "category": "driver_arrived_cancellation",
+      "question": "What happens if I cancel after the driver arrives?",
+      "answer": "If you cancel after the driver arrives at the pickup location, a cancellation fee may be charged."
+    },
+    {
+      "category": "no_show",
+      "question": "What happens if I don’t show up for my ride?",
+      "answer": "If the passenger does not show up after driver arrival, a no-show fee will be charged."
+    },
+    {
+      "category": "refund_policy",
+      "question": "When will I get a refund after cancellation?",
+      "answer": "Refunds, if applicable, are usually processed within 3 to 7 business days depending on the payment method."
+    },
+    {
+      "category": "refund_eligibility",
+      "question": "Am I eligible for a refund after canceling a ride?",
+      "answer": "Refund eligibility depends on the cancellation timing and the taxi service policy."
+    },
+    {
+      "category": "partial_refund",
+      "question": "Will I get a full refund if I cancel?",
+      "answer": "A full refund may be given only if cancellation is done within the free cancellation period. Otherwise, partial refund may apply."
+    },
+    {
+      "category": "payment_deduction",
+      "question": "Why was a cancellation fee deducted?",
+      "answer": "A cancellation fee is charged to compensate the driver for time and fuel costs after accepting the ride."
+    },
+    {
+      "category": "refund_delay",
+      "question": "Why is my refund delayed?",
+      "answer": "Refund delays may occur due to bank processing times or payment gateway delays."
+    },
+    {
+      "category": "refund_method",
+      "question": "How will I receive my refund?",
+      "answer": "Refunds are usually credited back to the original payment method used for booking."
+    },
+    {
+      "category": "wrong_charge",
+      "question": "What should I do if I was charged incorrectly?",
+      "answer": "You should contact customer support with booking details to review and resolve incorrect charges."
+    },
+    {
+      "category": "emergency_cancellation",
+      "question": "Can I cancel in case of emergency without penalty?",
+      "answer": "Some taxi services may waive cancellation fees in genuine emergency cases after verification."
+    },
+    {
+      "category": "driver_delay",
+      "question": "Can I cancel if the driver is delayed?",
+      "answer": "Yes, if the driver is significantly delayed, you may cancel without or with reduced charges depending on policy."
+    },
+    {
+      "category": "support_help",
+      "question": "Who can I contact for cancellation or refund issues?",
+      "answer": "You can contact taxi service customer support via app, email, or helpline for cancellation and refund assistance."
+    },
+    {
+      "category": "driver_information",
+      "question": "How can I check driver details before the ride?",
+      "answer": "You can view the driver’s name, photo, vehicle number, and rating in the app before the ride starts."
+    },
+    {
+      "category": "driver_verification",
+      "question": "Are drivers verified before joining the taxi service?",
+      "answer": "Yes, all drivers go through background checks, license verification, and training before being approved."
+    },
+    {
+      "category": "driver_contact",
+      "question": "Can I contact the driver directly after booking?",
+      "answer": "Yes, once the ride is confirmed, you can call or message the driver through the app."
+    },
+    {
+      "category": "driver_rating",
+      "question": "Can I rate and review the driver?",
+      "answer": "Yes, after each trip you can rate the driver and share feedback based on your experience."
+    },
+    {
+      "category": "driver_change",
+      "question": "Can I change the driver after booking?",
+      "answer": "Once the ride is assigned, changing the driver is not usually possible unless there is an issue or cancellation."
+    },
+    {
+      "category": "vehicle_options",
+      "question": "What types of vehicles are available in taxi service?",
+      "answer": "You can choose from economy cars, sedans, SUVs, luxury cars, and shared ride options depending on availability."
+    },
+    {
+      "category": "vehicle_selection",
+      "question": "Can I choose my preferred vehicle type?",
+      "answer": "Yes, you can select your preferred vehicle type before confirming the booking based on your comfort and budget."
+    },
+    {
+      "category": "vehicle_capacity",
+      "question": "How many passengers can a taxi accommodate?",
+      "answer": "Vehicle capacity depends on type, usually 4 passengers for sedans and up to 6–7 for SUVs."
+    },
+    {
+      "category": "vehicle_condition",
+      "question": "Are the vehicles clean and well maintained?",
+      "answer": "Yes, all vehicles are regularly cleaned and maintained for safety and comfort."
+    },
+    {
+      "category": "vehicle_air_conditioning",
+      "question": "Are all taxi vehicles air-conditioned?",
+      "answer": "Most vehicles are air-conditioned, and you can check AC availability before booking."
+    },
+    {
+      "category": "vehicle_tracking",
+      "question": "Can I track my vehicle in real time?",
+      "answer": "Yes, you can track your taxi live on the app after the ride starts."
+    },
+    {
+      "category": "vehicle_change_request",
+      "question": "Can I request a different vehicle after booking?",
+      "answer": "Vehicle change is possible only if the current assigned vehicle is unavailable or cancelled."
+    },
+    {
+      "category": "luggage_support",
+      "question": "Are vehicles suitable for luggage carrying?",
+      "answer": "Yes, SUVs and larger vehicles are suitable for carrying extra luggage."
+    },
+    {
+      "category": "special_vehicle_request",
+      "question": "Can I request special vehicles like luxury cars?",
+      "answer": "Yes, luxury and premium vehicle options are available in selected locations."
+    },
+    {
+      "category": "emergency_support",
+      "question": "What if I face an issue with the driver or vehicle?",
+      "answer": "You can contact customer support through the app for immediate assistance and resolution."
+    },
+    {
+      "category": "safety_overview",
+      "question": "How safe is your taxi service?",
+      "answer": "Our taxi service prioritizes passenger safety with verified drivers, GPS tracking, and 24/7 support."
+    },
+    {
+      "category": "driver_verification",
+      "question": "Are your drivers verified?",
+      "answer": "Yes, all drivers undergo background checks, license verification, and training before joining the service."
+    },
+    {
+      "category": "gps_tracking",
+      "question": "Can I track my ride in real time?",
+      "answer": "Yes, all rides are GPS tracked in real time for passenger safety and transparency."
+    },
+    {
+      "category": "emergency_support",
+      "question": "What should I do in case of an emergency during the ride?",
+      "answer": "You can use the in-app emergency button or contact our 24/7 support team immediately."
+    },
+    {
+      "category": "women_safety",
+      "question": "Do you have special safety features for women passengers?",
+      "answer": "Yes, we offer women safety features like driver details sharing, SOS alerts, and priority support."
+    },
+    {
+      "category": "ride_sharing",
+      "question": "Is ride sharing safe?",
+      "answer": "Yes, ride sharing is safe as all passengers and routes are verified and monitored in real time."
+    },
+    {
+      "category": "night_travel",
+      "question": "Is it safe to travel at night using your taxi service?",
+      "answer": "Yes, night rides are safe with GPS tracking, verified drivers, and emergency support available."
+    },
+    {
+      "category": "lost_items",
+      "question": "What should I do if I forget something in the taxi?",
+      "answer": "You can contact customer support immediately with ride details to help recover your lost items."
+    },
+    {
+      "category": "payment_safety",
+      "question": "Is online payment safe in your taxi service?",
+      "answer": "Yes, all online payments are secured with encrypted gateways to ensure transaction safety."
+    },
+    {
+      "category": "driver_behavior",
+      "question": "What if the driver behaves unprofessionally?",
+      "answer": "You can report the driver through the app or customer support, and strict action will be taken."
+    },
+    {
+      "category": "route_safety",
+      "question": "Can I choose my route for safety reasons?",
+      "answer": "Yes, passengers can request preferred routes for added safety and convenience."
+    },
+    {
+      "category": "child_safety",
+      "question": "Is the taxi service safe for children?",
+      "answer": "Yes, child safety is ensured with verified drivers and secure ride monitoring systems."
+    },
+    {
+      "category": "live_support",
+      "question": "Is customer support available during the ride?",
+      "answer": "Yes, 24/7 live support is available for any safety or service-related concerns."
+    },
+    {
+      "category": "panic_button",
+      "question": "Do you provide a panic button feature?",
+      "answer": "Yes, passengers can use the SOS or panic button in the app for immediate assistance."
+    },
+    {
+      "category": "data_privacy",
+      "question": "Is my personal information safe with your taxi service?",
+      "answer": "Yes, all personal data is securely stored and not shared without authorization."
+    },
+    {
+      "category": "airport_transfer_overview",
+      "question": "Do you provide airport taxi services?",
+      "answer": "Yes, we provide reliable airport pickup and drop taxi services for all major airports."
+    },
+    {
+      "category": "booking_process",
+      "question": "How can I book an airport taxi?",
+      "answer": "You can book through phone call, WhatsApp, website, or mobile app depending on availability."
+    },
+    {
+      "category": "advance_booking",
+      "question": "Can I book a taxi in advance for airport transfer?",
+      "answer": "Yes, advance booking is recommended to ensure timely pickup and smooth travel."
+    },
+    {
+      "category": "24_7_service",
+      "question": "Is airport taxi service available 24/7?",
+      "answer": "Yes, most airport taxi services operate 24/7, including late-night and early-morning trips."
+    },
+    {
+      "category": "pricing_fare",
+      "question": "How is the fare calculated for airport trips?",
+      "answer": "Fare is usually calculated based on distance, vehicle type, toll charges, and time of travel."
+    },
+    {
+      "category": "fixed_price",
+      "question": "Do you offer fixed pricing for airport transfers?",
+      "answer": "Yes, many services offer fixed rates for airport pickups and drop-offs."
+    },
+    {
+      "category": "waiting_time",
+      "question": "What if my flight is delayed?",
+      "answer": "Drivers usually track flight status and adjust pickup time accordingly. Some services offer limited free waiting time."
+    },
+    {
+      "category": "luggage_space",
+      "question": "Is there enough space for luggage?",
+      "answer": "Yes, different vehicle options are available depending on your luggage requirement."
+    },
+    {
+      "category": "vehicle_types",
+      "question": "What types of vehicles are available?",
+      "answer": "Sedan, SUV, and premium cars are available for airport and long-distance travel."
+    },
+    {
+      "category": "long_distance_travel",
+      "question": "Do you provide long-distance taxi services?",
+      "answer": "Yes, we offer long-distance intercity taxi services for business and personal travel."
+    },
+    {
+      "category": "trip_comfort",
+      "question": "Is long-distance travel comfortable?",
+      "answer": "Yes, well-maintained vehicles and experienced drivers ensure a comfortable journey."
+    },
+    {
+      "category": "driver_experience",
+      "question": "Are the drivers experienced for long trips?",
+      "answer": "Yes, drivers are trained and experienced in long-distance and highway travel."
+    },
+    {
+      "category": "safety",
+      "question": "Is airport taxi service safe?",
+      "answer": "Yes, safety is a priority with verified drivers and well-maintained vehicles."
+    },
+    {
+      "category": "cancellation_policy",
+      "question": "Can I cancel or reschedule my booking?",
+      "answer": "Yes, you can cancel or reschedule based on the service provider’s cancellation policy."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "Cash, card, UPI, and online payments are usually accepted."
+    },
+    {
+      "category": "customer_support",
+      "question": "Is customer support available during travel?",
+      "answer": "Yes, customer support is available 24/7 for assistance during your trip."
+    },
+    {
+      "category": "service_availability",
+      "question": "Is taxi service available 24/7?",
+      "answer": "Yes, most taxi services operate 24/7, but availability may vary depending on location and demand."
+    },
+    {
+      "category": "location_coverage",
+      "question": "Which areas do you cover?",
+      "answer": "Taxi services usually cover city areas, suburbs, and nearby locations depending on the service provider."
+    },
+    {
+      "category": "nearby_pickup",
+      "question": "Can I book a taxi near my location?",
+      "answer": "Yes, you can book a taxi from your current location using the app or by calling the service provider."
+    },
+    {
+      "category": "pickup_time",
+      "question": "How quickly can I get a taxi near me?",
+      "answer": "Pickup time depends on traffic and availability, but usually a taxi arrives within 5 to 15 minutes in city areas."
+    },
+    {
+      "category": "location_tracking",
+      "question": "Can I track my taxi location?",
+      "answer": "Yes, most taxi services provide real-time GPS tracking of your booked vehicle."
+    },
+    {
+      "category": "remote_areas",
+      "question": "Do you provide taxi service in remote areas?",
+      "answer": "Some taxi services may operate in remote areas, but availability can be limited compared to city regions."
+    },
+    {
+      "category": "late_night_service",
+      "question": "Is taxi service available at night?",
+      "answer": "Yes, many taxi services operate late at night or offer 24-hour emergency rides."
+    },
+    {
+      "category": "peak_hours_availability",
+      "question": "Is taxi available during peak hours?",
+      "answer": "Yes, but during peak hours there may be higher demand and longer waiting times."
+    },
+    {
+      "category": "booking_location_change",
+      "question": "Can I change my pickup location after booking?",
+      "answer": "Yes, most services allow you to update your pickup location before the driver arrives."
+    },
+    {
+      "category": "destination_coverage",
+      "question": "Can I travel outside city limits?",
+      "answer": "Yes, long-distance or outstation rides are available depending on the taxi service provider."
+    },
+    {
+      "category": "airport_service",
+      "question": "Do you provide airport pickup and drop service?",
+      "answer": "Yes, most taxi services offer dedicated airport pickup and drop services."
+    },
+    {
+      "category": "advance_booking",
+      "question": "Can I book a taxi in advance?",
+      "answer": "Yes, you can schedule rides in advance for a specific time and location."
+    },
+    {
+      "category": "service_unavailability",
+      "question": "What if no taxis are available near me?",
+      "answer": "In such cases, the system will try to assign a taxi from nearby areas or suggest waiting for availability."
+    },
+    {
+      "category": "gps_accuracy",
+      "question": "How accurate is the location tracking?",
+      "answer": "GPS tracking is usually accurate within a few meters depending on network and signal strength."
+    },
+    {
+      "category": "emergency_rides",
+      "question": "Can I get a taxi in emergency situations?",
+      "answer": "Yes, priority or emergency ride options may be available depending on the service provider."
+    }
+  ]
+}

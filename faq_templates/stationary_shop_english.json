@@ -1,0 +1,197 @@
+{
+"faqs": [
+{
+"category": "shop_overview",
+"questions": [
+"Do you sell stationery items?",
+"What products are available in your shop?",
+"Is this a stationery store?",
+"Do you have school supplies?"
+],
+"answer": "Yes, we sell a wide range of stationery products including notebooks, pens, pencils, office supplies, school items, art materials, and printing accessories."
+},
+{
+"category": "school_supplies",
+"questions": [
+"Do you have school supplies?",
+"School items available?",
+"Student stationery available?",
+"School bag available?"
+],
+"answer": "Yes, we offer notebooks, school bags, lunch boxes, water bottles, geometry boxes, and other school essentials."
+},
+{
+"category": "office_supplies",
+"questions": [
+"Do you sell office supplies?",
+"Office stationery available?",
+"Files and folders available?",
+"Printer paper available?"
+],
+"answer": "Yes, we provide office stationery including files, folders, staplers, printer paper, markers, calculators, and desk accessories."
+},
+{
+"category": "notebooks_books",
+"questions": [
+"Notebooks available?",
+"Long notebooks available?",
+"Record books available?",
+"Drawing books available?"
+],
+"answer": "Yes, we have notebooks, long books, record books, drawing books, diaries, and writing pads in different sizes and brands."
+},
+{
+"category": "pens_pencils",
+"questions": [
+"Pens available?",
+"Pencils available?",
+"Gel pens available?",
+"Exam pens available?"
+],
+"answer": "Yes, we offer ball pens, gel pens, fountain pens, pencils, mechanical pencils, highlighters, and markers."
+},
+{
+"category": "art_craft_items",
+"questions": [
+"Art materials available?",
+"Craft items available?",
+"Color pencils available?",
+"Paint brushes available?"
+],
+"answer": "Yes, we sell crayons, color pencils, paints, sketch pens, brushes, craft papers, and other art supplies."
+},
+{
+"category": "printing_photocopy",
+"questions": [
+"Do you provide photocopy service?",
+"Printing service available?",
+"Color print available?",
+"Lamination available?"
+],
+"answer": "Yes, we provide photocopying, printing, scanning, lamination, and document binding services."
+},
+{
+"category": "computer_accessories",
+"questions": [
+"Computer accessories available?",
+"Pendrive available?",
+"Printer ink available?",
+"USB cable available?"
+],
+"answer": "Yes, selected computer accessories like pendrives, printer ink, USB cables, and memory cards are available."
+},
+{
+"category": "gift_items",
+"questions": [
+"Gift items available?",
+"Greeting cards available?",
+"Gift wrapping available?",
+"Fancy items available?"
+],
+"answer": "Yes, we have greeting cards, gift wraps, fancy stationery, and small gift items for special occasions."
+},
+{
+"category": "brands_available",
+"questions": [
+"Which brands are available?",
+"Classmate notebooks available?",
+"Cello pens available?",
+"Camlin products available?"
+],
+"answer": "We offer products from leading brands including Classmate, Camlin, Cello, Reynolds, Faber-Castell, Doms, and more."
+},
+{
+"category": "bulk_orders",
+"questions": [
+"Do you accept bulk orders?",
+"School bulk stationery available?",
+"Office bulk order available?",
+"Wholesale stationery available?"
+],
+"answer": "Yes, we accept bulk and wholesale orders for schools, colleges, offices, and institutions."
+},
+{
+"category": "custom_printing",
+"questions": [
+"Custom printing available?",
+"Name printing on notebooks available?",
+"ID card printing available?",
+"Customized stationery available?"
+],
+"answer": "Yes, customized printing services may be available for notebooks, ID cards, invitations, and stationery products."
+},
+{
+"category": "offers_discount",
+"questions": [
+"Any offers available?",
+"Discount available?",
+"Back to school offer available?",
+"Stationery sale available?"
+],
+"answer": "Yes, we regularly provide discounts, combo offers, student offers, and seasonal promotions."
+},
+{
+"category": "delivery_service",
+"questions": [
+"Do you provide delivery?",
+"Home delivery available?",
+"Can you deliver stationery items?",
+"Same day delivery available?"
+],
+"answer":
+"Yes, delivery services are available depending on order size and location."
+},
+{
+"category": "online_orders",
+"questions": [
+"Can I order online?",
+"WhatsApp order available?",
+"Online stationery shopping available?",
+"Can I reserve products online?"
+],
+"answer": "Yes, selected products can be ordered or reserved online through phone, WhatsApp, or social media."
+},
+{
+"category": "payment_methods",
+"questions": [
+"What payment methods are accepted?",
+"UPI payment available?",
+"Card payment accepted?",
+"Google Pay accepted?"
+],
+"answer": "We accept cash, debit cards, credit cards, UPI, mobile wallets, and online payments."
+},
+{
+"category": "return_exchange",
+"questions": [
+"Can I exchange products?",
+"Return available?",
+"Damaged item replacement available?",
+"Refund available?"
+],
+"answer":
+"Exchange and replacement are available for eligible products according to store policy."
+},
+{
+"category": "shop_timings",
+"questions": [
+"What are your shop timings?",
+"When do you open?",
+"Sunday open?",
+"Closing time?"
+],
+"answer": "Our stationery shop operates during regular business hours every day."
+},
+{
+"category": "contact_support",
+"questions": [
+"How can I contact the shop?",
+"WhatsApp number available?",
+"Location share?",
+"How do I reach the shop?"
+],
+"answer":
+"You can contact us through phone, WhatsApp, social media, or by visiting our shop directly."
+}
+]
+}

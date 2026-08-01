@@ -1,0 +1,395 @@
+{
+  "faqs": [
+    {
+      "category": "availability_general",
+      "question": "Are all vegetables available daily in the shop?",
+      "answer": "Most common vegetables are available daily, but availability may vary based on season and fresh stock supply."
+    },
+    {
+      "category": "fresh_stock",
+      "question": "Do you provide fresh vegetables every day?",
+      "answer": "Yes, we receive fresh vegetable stock daily to ensure quality and freshness for customers."
+    },
+    {
+      "category": "out_of_stock",
+      "question": "What happens if a vegetable is out of stock?",
+      "answer": "If a vegetable is out of stock, it will usually be restocked the next day depending on supplier availability."
+    },
+    {
+      "category": "seasonal_vegetables",
+      "question": "Are seasonal vegetables available all year round?",
+      "answer": "No, seasonal vegetables are available only during their specific growing seasons."
+    },
+    {
+      "category": "pre_order",
+      "question": "Can I pre-order vegetables that are not available?",
+      "answer": "Yes, you can place a pre-order for selected vegetables, and we will arrange them when stock is available."
+    },
+    {
+      "category": "availability_update",
+      "question": "How can I check vegetable availability before visiting?",
+      "answer": "You can call the shop or check our online updates for current vegetable availability."
+    },
+    {
+      "category": "bulk_availability",
+      "question": "Do you have enough stock for bulk vegetable orders?",
+      "answer": "Yes, bulk orders are available for most vegetables depending on current stock and supplier supply."
+    },
+    {
+      "category": "imported_vegetables",
+      "question": "Are imported vegetables always available?",
+      "answer": "Imported vegetables may not always be available and depend on shipment and supply conditions."
+    },
+    {
+      "category": "organic_availability",
+      "question": "Do you always have organic vegetables in stock?",
+      "answer": "Organic vegetables are available but may be limited based on farm supply and demand."
+    },
+    {
+      "category": "morning_stock",
+      "question": "Is vegetable stock better in the morning?",
+      "answer": "Yes, fresh stock is usually best available in the morning after daily deliveries."
+    },
+    {
+      "category": "weekend_stock",
+      "question": "Is vegetable availability different on weekends?",
+      "answer": "Weekend stock may vary depending on demand and supplier deliveries."
+    },
+    {
+      "category": "price_availability",
+      "question": "Does price change based on availability?",
+      "answer": "Yes, prices may vary depending on demand, season, and supply availability."
+    },
+    {
+      "category": "holiday_availability",
+      "question": "Are vegetables available on public holidays?",
+      "answer": "Yes, but stock may be limited depending on supplier schedules and shop hours."
+    },
+    {
+      "category": "rare_vegetables",
+      "question": "Do you always keep rare vegetables in stock?",
+      "answer": "Rare vegetables are not always available and depend on special supply or seasonal sourcing."
+    },
+    {
+      "category": "availability_support",
+      "question": "Can the shop inform me when a vegetable becomes available?",
+      "answer": "Yes, you can request notification or call updates when specific vegetables are restocked."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "price_inquiry",
+      "question": "Vegetable price ethra aanu?",
+      "answer": "Prices vegetables type and season depend cheyyum. Daily market rate anusarichu change aavum."
+    },
+    {
+      "category": "price_update",
+      "question": "Prices daily update aavumo?",
+      "answer": "Yes, vegetable prices daily market condition anusarichu update aavum."
+    },
+    {
+      "category": "bulk_price",
+      "question": "Bulk purchase cheythal discount kittumo?",
+      "answer": "Yes, bulk purchase cheyyumbo discount allenkil special rate kittan chance undu."
+    },
+    {
+      "category": "freshness",
+      "question": "Vegetables fresh aano?",
+      "answer": "Yes, daily fresh stock mathram aanu shop-il vekkunnathu, quality check cheytha vegetables aanu sell cheyyunnathu."
+    },
+    {
+      "category": "quality_check",
+      "question": "Quality engane ensure cheyyunnu?",
+      "answer": "Farm fresh vegetables select cheythu daily check cheythu quality maintain cheyyunnu."
+    },
+    {
+      "category": "organic_options",
+      "question": "Organic vegetables available aano?",
+      "answer": "Yes, seasonal organic vegetables availability undu depending on supply."
+    },
+    {
+      "category": "delivery",
+      "question": "Home delivery available aano?",
+      "answer": "Yes, nearby areas-il home delivery service available aanu."
+    },
+    {
+      "category": "replacement",
+      "question": "Bad quality item kittiyal replacement kittumo?",
+      "answer": "Yes, immediate complaint cheythal replacement or refund provide cheyyum."
+    },
+    {
+      "category": "storage",
+      "question": "Vegetables fresh aayi engane store cheyyam?",
+      "answer": "Cool and dry place-il store cheyyuka, fridge use cheyyunnath better aanu."
+    },
+    {
+      "category": "availability",
+      "question": "Ellam vegetables daily available aano?",
+      "answer": "Season and supply depend cheythu availability vary cheyyum."
+    },
+    {
+      "category": "morning_stock",
+      "question": "Morning stock better aano?",
+      "answer": "Yes, morning fresh stock full availability undavum."
+    },
+    {
+      "category": "payment",
+      "question": "Payment methods enthaanu accept cheyyunnathu?",
+      "answer": "Cash, UPI, card payments ellam accept cheyyunnu."
+    },
+    {
+      "category": "price_fluctuation",
+      "question": "Why vegetable prices change often?",
+      "answer": "Season, transport cost, and market demand kond prices change aavum."
+    },
+    {
+      "category": "home_pack",
+      "question": "Daily home vegetable pack available aano?",
+      "answer": "Yes, customized vegetable packs daily home delivery-inu available aanu."
+    },
+    {
+      "category": "complaint",
+      "question": "Quality complaint engane report cheyyam?",
+      "answer": "Shop contact cheythu immediately complaint report cheyyam, quick resolution provide cheyyum."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "organic_vegetables",
+      "question": "What are organic vegetables?",
+      "answer": "Organic vegetables are grown without synthetic pesticides, chemical fertilizers, or genetically modified seeds, ensuring more natural and chemical-free produce."
+    },
+    {
+      "category": "organic_benefits",
+      "question": "Why should I choose organic vegetables?",
+      "answer": "Organic vegetables are considered healthier, safer, and more environmentally friendly as they contain fewer chemical residues."
+    },
+    {
+      "category": "freshness",
+      "question": "Are your vegetables fresh daily?",
+      "answer": "Yes, we supply fresh vegetables daily sourced directly from farms and trusted suppliers."
+    },
+    {
+      "category": "bulk_orders_overview",
+      "question": "Do you accept bulk vegetable orders?",
+      "answer": "Yes, we accept bulk orders for households, restaurants, hotels, and catering services."
+    },
+    {
+      "category": "bulk_order_process",
+      "question": "How can I place a bulk order?",
+      "answer": "You can place bulk orders by calling us, using our website, or visiting our shop directly."
+    },
+    {
+      "category": "bulk_order_delivery",
+      "question": "Do you provide delivery for bulk orders?",
+      "answer": "Yes, we offer home and business delivery for bulk vegetable orders depending on location and order size."
+    },
+    {
+      "category": "bulk_order_discount",
+      "question": "Are there discounts for bulk orders?",
+      "answer": "Yes, we provide special pricing and discounts for large quantity or regular bulk orders."
+    },
+    {
+      "category": "minimum_order",
+      "question": "Is there a minimum order quantity for bulk purchases?",
+      "answer": "Minimum order quantity may apply depending on the type of vegetables and delivery requirements."
+    },
+    {
+      "category": "custom_orders",
+      "question": "Can I customize my bulk vegetable order?",
+      "answer": "Yes, you can choose specific vegetables and quantities based on your requirements."
+    },
+    {
+      "category": "pricing",
+      "question": "How are vegetable prices calculated for bulk orders?",
+      "answer": "Prices depend on quantity, type of vegetables, season, and market rates."
+    },
+    {
+      "category": "subscription",
+      "question": "Do you offer daily or weekly vegetable supply?",
+      "answer": "Yes, we offer subscription-based daily and weekly vegetable supply for regular customers."
+    },
+    {
+      "category": "quality_check",
+      "question": "How do you ensure vegetable quality?",
+      "answer": "We carefully select fresh produce from trusted farms and conduct quality checks before delivery."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "We accept cash, card payments, and digital payment options for convenience."
+    },
+    {
+      "category": "delivery_time",
+      "question": "How long does delivery take for bulk orders?",
+      "answer": "Delivery time depends on order size and location, usually within the same day or next day."
+    },
+    {
+      "category": "return_policy",
+      "question": "What if I receive damaged vegetables?",
+      "answer": "If you receive damaged items, please contact us immediately for replacement or resolution."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "home_delivery_overview",
+      "question": "Do you offer home delivery for vegetables?",
+      "answer": "Yes, we provide fresh vegetable home delivery to your doorstep based on your location."
+    },
+    {
+      "category": "online_ordering",
+      "question": "How can I place an online order for vegetables?",
+      "answer": "You can place an order through our website or mobile app by selecting products and confirming checkout."
+    },
+    {
+      "category": "delivery_time",
+      "question": "How long does delivery take?",
+      "answer": "Delivery usually takes 30 minutes to a few hours depending on your location and order volume."
+    },
+    {
+      "category": "delivery_charges",
+      "question": "Is there a delivery charge?",
+      "answer": "Delivery charges may apply depending on order value and delivery distance. Some orders may qualify for free delivery."
+    },
+    {
+      "category": "minimum_order",
+      "question": "Is there a minimum order value for home delivery?",
+      "answer": "Yes, a minimum order value may be required depending on your location."
+    },
+    {
+      "category": "order_tracking",
+      "question": "Can I track my vegetable order?",
+      "answer": "Yes, you can track your order status in real time through the app or website."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "We accept cash on delivery, UPI, credit/debit cards, and other digital payment options."
+    },
+    {
+      "category": "freshness",
+      "question": "Are the vegetables fresh during delivery?",
+      "answer": "Yes, we ensure fresh and quality vegetables are packed and delivered directly from trusted sources."
+    },
+    {
+      "category": "order_modification",
+      "question": "Can I change my order after placing it?",
+      "answer": "Order changes are possible only before dispatch. Please contact customer support immediately."
+    },
+    {
+      "category": "order_cancellation",
+      "question": "Can I cancel my order?",
+      "answer": "Yes, orders can be cancelled before they are packed or shipped."
+    },
+    {
+      "category": "delivery_slots",
+      "question": "Can I choose my delivery time slot?",
+      "answer": "Yes, you can select preferred delivery slots during checkout based on availability."
+    },
+    {
+      "category": "out_of_stock",
+      "question": "What happens if a vegetable is out of stock?",
+      "answer": "Out-of-stock items may be replaced with similar alternatives or removed from the order with notification."
+    },
+    {
+      "category": "bulk_orders",
+      "question": "Can I place bulk vegetable orders?",
+      "answer": "Yes, bulk orders are accepted. Please contact support for special pricing and arrangements."
+    },
+    {
+      "category": "delivery_area",
+      "question": "Do you deliver to all areas?",
+      "answer": "Delivery is available in selected service areas. Please check availability using your pincode."
+    },
+    {
+      "category": "customer_support",
+      "question": "How can I contact support for my order?",
+      "answer": "You can contact our customer support via phone, chat, or email for any order-related issues."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "payment_methods_overview",
+      "question": "What payment methods do you accept at the vegetable shop?",
+      "answer": "We accept cash, debit cards, credit cards, and popular digital payment options like UPI and mobile wallets."
+    },
+    {
+      "category": "cash_payment",
+      "question": "Can I pay in cash?",
+      "answer": "Yes, cash payments are fully accepted at the counter."
+    },
+    {
+      "category": "digital_payment",
+      "question": "Do you accept UPI payments?",
+      "answer": "Yes, we accept UPI payments such as Google Pay, PhonePe, and Paytm."
+    },
+    {
+      "category": "card_payment",
+      "question": "Can I pay using debit or credit cards?",
+      "answer": "Yes, we accept both debit and credit card payments at the store."
+    },
+    {
+      "category": "online_payment",
+      "question": "Is online payment available?",
+      "answer": "Yes, you can pay through supported mobile wallets and online payment apps."
+    },
+    {
+      "category": "minimum_payment",
+      "question": "Is there a minimum amount for card or digital payments?",
+      "answer": "Some payment methods may have a minimum transaction limit depending on the bank or payment provider."
+    },
+    {
+      "category": "payment_failure",
+      "question": "What should I do if my payment fails?",
+      "answer": "If payment fails, you can retry or use an alternative payment method like cash or another digital option."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Do you provide refunds for payments?",
+      "answer": "Refunds are provided only in cases of billing errors or order cancellations as per store policy."
+    },
+    {
+      "category": "split_payment",
+      "question": "Can I split my payment using multiple methods?",
+      "answer": "Yes, split payments may be allowed depending on the total bill and available options."
+    },
+    {
+      "category": "billing_receipt",
+      "question": "Will I receive a bill or receipt after payment?",
+      "answer": "Yes, a printed or digital receipt is provided after every purchase."
+    },
+    {
+      "category": "contactless_payment",
+      "question": "Is contactless payment available?",
+      "answer": "Yes, contactless payments via UPI and tap cards are supported for quick checkout."
+    },
+    {
+      "category": "offers_payment",
+      "question": "Are there any discounts for digital payments?",
+      "answer": "Occasionally, special offers or cashback may be available on selected digital payment methods."
+    },
+    {
+      "category": "payment_security",
+      "question": "Are digital payments safe at your shop?",
+      "answer": "Yes, all digital transactions are processed through secure and trusted payment gateways."
+    },
+    {
+      "category": "change_return",
+      "question": "Will I get change if I pay extra in cash?",
+      "answer": "Yes, exact change will be returned for cash payments."
+    },
+    {
+      "category": "international_payment",
+      "question": "Do you accept international cards or payments?",
+      "answer": "Currently, we mainly accept local cards and domestic payment methods. Please confirm at the counter for availability."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+"faqs": [
+{
+"category": "shop_overview",
+"questions": [
+"Stationery items vilkkunnundo?",
+"Entokke products undu?",
+"Ithu stationery shop ano?",
+"School supplies undo?"
+],
+"answer": "Athe, notebooks, pens, pencils, office supplies, school items, art materials, printing accessories okke available aanu."
+},
+{
+"category": "school_supplies",
+"questions": [
+"School supplies undo?",
+"School items available ano?",
+"Student stationery undo?",
+"School bag available ano?"
+],
+"answer":
+"Notebooks, school bags, lunch boxes, water bottles, geometry boxes, mattu school essentials okke available aanu."
+},
+{
+"category": "office_supplies",
+"questions": [
+"Office supplies undo?",
+"Office stationery available ano?",
+"Files and folders undo?",
+"Printer paper available ano?"
+],
+"answer": "Files, folders, staplers, printer paper, markers, calculators, desk accessories polulla office stationery available aanu."
+},
+{
+"category": "notebooks_books",
+"questions": [
+"Notebooks undo?",
+"Long notebooks available ano?",
+"Record books undo?",
+"Drawing books available ano?"
+],
+"answer":
+"Notebooks, long books, record books, drawing books, diaries, writing pads different sizes-il available aanu."
+},
+{
+"category": "pens_pencils",
+"questions": [
+"Pens undo?",
+"Pencils available ano?",
+"Gel pens undo?",
+"Exam pens available ano?"
+],
+"answer": "Ball pens, gel pens, fountain pens, pencils, mechanical pencils, highlighters, markers okke available aanu."
+},
+{
+"category": "art_craft_items",
+"questions": [
+"Art materials undo?",
+"Craft items available ano?",
+"Color pencils undo?",
+"Paint brushes available ano?"
+],
+"answer": "Crayons, color pencils, paints, sketch pens, brushes, craft papers, mattu art supplies okke available aanu."
+},
+{
+"category": "printing_photocopy",
+"questions": [
+"Photocopy service undo?",
+"Printing service available ano?",
+"Color print undo?",
+"Lamination available ano?"
+],
+"answer": "Photocopying, printing, scanning, lamination, document binding services okke available aanu."
+},
+{
+"category": "computer_accessories",
+"questions": [
+"Computer accessories undo?",
+"Pendrive available ano?",
+"Printer ink undo?",
+"USB cable available ano?"
+],
+"answer": "Pendrives, printer ink, USB cables, memory cards polulla selected computer accessories available aanu."
+},
+{
+"category": "gift_items",
+"questions": [
+"Gift items undo?",
+"Greeting cards available ano?",
+"Gift wrapping undo?",
+"Fancy items available ano?"
+],
+"answer": "Greeting cards, gift wraps, fancy stationery, small gift items special occasionsinu available aanu."
+},
+{
+"category": "brands_available",
+"questions": [
+"Eth brands available aanu?",
+"Classmate notebooks undo?",
+"Cello pens available ano?",
+"Camlin products undo?"
+],
+"answer": "Classmate, Camlin, Cello, Reynolds, Faber-Castell, Doms polulla leading brands products available aanu."
+},
+{
+"category": "bulk_orders",
+"questions": [
+"Bulk orders accept cheyyumo?",
+"School bulk stationery undo?",
+"Office bulk order available ano?",
+"Wholesale stationery undo?"
+],
+"answer": "Schools, colleges, offices, institutions vendi bulk um wholesale orders um accept cheyyunnu."
+},
+{
+"category": "custom_printing",
+"questions": [
+"Custom printing undo?",
+"Name printing on notebooks available ano?",
+"ID card printing undo?",
+"Customized stationery available ano?"
+],
+"answer": "Notebooks, ID cards, invitations, stationery productsinu customized printing services available ayirikkum."
+},
+{
+"category": "offers_discount",
+"questions": [
+"Offers undo?",
+"Discount available ano?",
+"Back to school offer undo?",
+"Stationery sale available ano?"
+],
+"answer":
+"Discounts, combo offers, student offers, seasonal promotions okke regular ayi available aanu."
+},
+{
+"category": "delivery_service",
+"questions": [
+"Delivery undo?",
+"Home delivery available ano?",
+"Stationery items deliver cheyyumo?",
+"Same day delivery undo?"
+],
+"answer": "Order size um location um anusarikku delivery services available aanu."
+},
+{
+"category": "online_orders",
+"questions": [
+"Online order cheyyan pattumo?",
+"WhatsApp order undo?",
+"Online stationery shopping available ano?",
+"Products online reserve cheyyan pattumo?"
+],
+"answer": "Selected products phone, WhatsApp, social media vazhi order allenkil reserve cheyyan pattum."
+},
+{
+"category": "payment_methods",
+"questions": [
+"Ethokke payment methods accept cheyyum?",
+"UPI payment undo?",
+"Card payment accept cheyyumo?",
+"Google Pay edukumo?"
+],
+"answer":
+"Cash, debit cards, credit cards, UPI, mobile wallets, online payments okke accept cheyyunnu."
+},
+{
+"category": "return_exchange",
+"questions": [
+"Products exchange cheyyan pattumo?",
+"Return undo?",
+"Damaged item replacement available ano?",
+"Refund undo?"
+],
+"answer": "Eligible productsinu store policy anusarikku exchange um replacement um available aanu."
+},
+{
+"category": "shop_timings",
+"questions": [
+"Shop timing entha?",
+"Eppo open aakum?",
+"Sunday open ano?",
+"Closing time entha?"
+],
+"answer": "Daily regular business hours-il stationery shop open aanu."
+},
+{
+"category": "contact_support",
+"questions": [
+"Shop-ne engane contact cheyyam?",
+"WhatsApp number undo?",
+"Location share cheyyumo?",
+"Shop evide aanu?"
+],
+"answer": "Phone, WhatsApp, social media allenkil direct shop visit cheythu contact cheyyam."
+}
+]
+}

@@ -1,0 +1,632 @@
+{
+  "faqs": [
+    {
+      "category": "membership_overview",
+      "question": "Yoga center membership ennathu enthaanu?",
+      "answer": "Yoga center membership ennathu regular yoga classes, training, and wellness programs attend cheyyan register cheyyunna system aanu."
+    },
+    {
+      "category": "enrollment_process",
+      "question": "Yoga center-il enroll cheyyan engane cheyyam?",
+      "answer": "Center visit cheythu, online form fill cheythu, allenkil phone/WhatsApp vazhi enroll cheyyam."
+    },
+    {
+      "category": "membership_types",
+      "question": "Membership types enthaanu available?",
+      "answer": "Monthly, quarterly, and yearly membership plans usually available aanu."
+    },
+    {
+      "category": "fees",
+      "question": "Membership fee ethra aanu?",
+      "answer": "Fee plan and center depend cheyyum. Exact details enrollment time-il ariyikkum."
+    },
+    {
+      "category": "trial_classes",
+      "question": "Free trial class available aano?",
+      "answer": "Yes, many yoga centers free trial class provide cheyyum before joining."
+    },
+    {
+      "category": "class_schedule",
+      "question": "Yoga classes schedule engane ariyam?",
+      "answer": "Daily schedule center notice board-il, website-il, allenkil WhatsApp group-il kittum."
+    },
+    {
+      "category": "timing_flexibility",
+      "question": "Flexible timing options undo?",
+      "answer": "Yes, morning and evening batches usually available aanu depending on center."
+    },
+    {
+      "category": "age_limit",
+      "question": "Yoga class attend cheyyan age limit undo?",
+      "answer": "No strict age limit illa, kids, adults, and seniors ellavarkkum classes available aanu."
+    },
+    {
+      "category": "cancellation",
+      "question": "Membership cancel cheyyan pattumo?",
+      "answer": "Yes, but cancellation policy center rules depend cheyyum."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Refund kittumo membership cancel cheyyumbo?",
+      "answer": "Some centers partial refund provide cheyyum, pakshe policy vary cheyyum."
+    },
+    {
+      "category": "attendance",
+      "question": "Regular attendance mandatory aano?",
+      "answer": "Yes, better results-inu regular attendance recommend cheyyunnu."
+    },
+    {
+      "category": "instructor",
+      "question": "Qualified instructors undo?",
+      "answer": "Yes, certified yoga trainers classes handle cheyyum."
+    },
+    {
+      "category": "online_classes",
+      "question": "Online yoga classes available aano?",
+      "answer": "Yes, many centers online live or recorded classes provide cheyyum."
+    },
+    {
+      "category": "equipment",
+      "question": "Yoga mat venamo bring cheyyan?",
+      "answer": "Some centers mats provide cheyyum, but own mat bring cheyyunnath better aanu."
+    },
+    {
+      "category": "membership_benefits",
+      "question": "Membership benefits enthaanu?",
+      "answer": "Stress relief, fitness improvement, flexibility increase, and guided training benefits kittum."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "class_schedule_overview",
+      "question": "Yoga class schedule engane ariyam?",
+      "answer": "Yoga center-inde class schedule notice board, website, WhatsApp updates, allenkil reception-il ninnu ariyam."
+    },
+    {
+      "category": "class_timings",
+      "question": "Yoga classes eppozha nadakkunnath?",
+      "answer": "Usually morning and evening sessions undavum, example 6 AM–7 AM and 6 PM–7 PM slots aayirikkum."
+    },
+    {
+      "category": "weekend_classes",
+      "question": "Weekend-il yoga classes undaakumo?",
+      "answer": "Yes, many yoga centers Saturday and Sunday classes conduct cheyyum."
+    },
+    {
+      "category": "batch_system",
+      "question": "Yoga classes batch system aano?",
+      "answer": "Yes, beginners, intermediate, and advanced batches separate aayirikkum."
+    },
+    {
+      "category": "class_duration",
+      "question": "Oru yoga class ethra neram edukum?",
+      "answer": "Usually 45 minutes to 1 hour vare class duration undavum."
+    },
+    {
+      "category": "missed_class",
+      "question": "Oru class miss aayal entha cheyyum?",
+      "answer": "Next available batch-il join cheyyam allenkil instructor-ne contact cheythu makeup class request cheyyam."
+    },
+    {
+      "category": "beginner_schedule",
+      "question": "Beginners-kk schedule separate undo?",
+      "answer": "Yes, beginners-inu simple and slow-paced classes separate aayirikkum."
+    },
+    {
+      "category": "advanced_classes",
+      "question": "Advanced yoga classes undaakumo?",
+      "answer": "Yes, advanced poses and techniques ullath separate batch-il provide cheyyum."
+    },
+    {
+      "category": "online_classes",
+      "question": "Online yoga classes available aano?",
+      "answer": "Yes, many centers online live or recorded classes provide cheyyum."
+    },
+    {
+      "category": "flexible_timing",
+      "question": "Flexible timing choose cheyyan pattumo?",
+      "answer": "Yes, available batches-il ninnu convenient time select cheyyam."
+    },
+    {
+      "category": "holiday_schedule",
+      "question": "Holidays-il yoga classes undaakumo?",
+      "answer": "Some centers reduced schedule follow cheyyum, pakshe public holidays-il break undaayirikkam."
+    },
+    {
+      "category": "trial_class",
+      "question": "Trial yoga class attend cheyyan pattumo?",
+      "answer": "Yes, many yoga centers first trial class free or paid basis-il provide cheyyum."
+    },
+    {
+      "category": "attendance_tracking",
+      "question": "Attendance important aano?",
+      "answer": "Yes, regular attendance practice improvement-inu important aanu."
+    },
+    {
+      "category": "batch_change",
+      "question": "Batch change cheyyan pattumo?",
+      "answer": "Yes, availability anusarich batch change request cheyyam."
+    },
+    {
+      "category": "schedule_updates",
+      "question": "Class schedule change aayal engane ariyum?",
+      "answer": "WhatsApp group, SMS, or instructor updates vazhi schedule changes ariyikkum."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "yoga_overview",
+      "question": "Beginner yoga ennathu enthaanu?",
+      "answer": "Beginner yoga ennathu basic yoga poses and breathing techniques teach cheyyunna starting level yoga training aanu."
+    },
+    {
+      "category": "first_class",
+      "question": "First yoga class-il entha expect cheyyam?",
+      "answer": "First class-il simple stretching, breathing exercises, and basic poses practice cheyyum."
+    },
+    {
+      "category": "fitness_level",
+      "question": "Yoga start cheyyan fitness venamo?",
+      "answer": "Illa, beginners-um easily start cheyyam. Yoga ellavarkkum suitable aanu."
+    },
+    {
+      "category": "health_benefits",
+      "question": "Yoga cheyyunnathinte benefits enthaanu?",
+      "answer": "Stress kurakkum, flexibility improve cheyyum, body strength koodum, mental peace kittum."
+    },
+    {
+      "category": "class_duration",
+      "question": "Yoga class ethra neram edukum?",
+      "answer": "Usually 45 minutes to 1 hour vare class edukum."
+    },
+    {
+      "category": "timing",
+      "question": "Yoga class timing eppozha aayirikkum?",
+      "answer": "Morning and evening batches available aayirikkum, center anusarich vary cheyyum."
+    },
+    {
+      "category": "what_to_wear",
+      "question": "Yoga class-il entha wear cheyyanam?",
+      "answer": "Comfortable loose clothes wear cheyyanam, so easy movement kittum."
+    },
+    {
+      "category": "equipment",
+      "question": "Yoga mat venamo?",
+      "answer": "Yes, yoga mat use cheyyunnath better aanu, many centers provide cheyyum."
+    },
+    {
+      "category": "weight_loss",
+      "question": "Yoga weight loss-inu help cheyyumo?",
+      "answer": "Yes, regular yoga practice weight loss and body tone improve cheyyum."
+    },
+    {
+      "category": "breathing",
+      "question": "Breathing exercises important aano?",
+      "answer": "Yes, pranayama breathing techniques mental calmness and oxygen flow improve cheyyum."
+    },
+    {
+      "category": "age_limit",
+      "question": "Yoga ellavarkkum practice cheyyan pattumo?",
+      "answer": "Yes, kids, adults, and elders ellavarkkum yoga safe aanu."
+    },
+    {
+      "category": "pain",
+      "question": "Yoga cheyyumbo pain varumo?",
+      "answer": "Proper guidance follow cheythal pain illa, pakshe over stretching avoid cheyyanam."
+    },
+    {
+      "category": "diet",
+      "question": "Yoga cheyyumbo diet follow cheyyanam?",
+      "answer": "Light and healthy diet follow cheyyunnath better results kittan help cheyyum."
+    },
+    {
+      "category": "trial_class",
+      "question": "Trial yoga class available aano?",
+      "answer": "Many yoga centers trial class or demo session provide cheyyum."
+    },
+    {
+      "category": "progress",
+      "question": "Yoga results eppozha start aavum?",
+      "answer": "Few weeks regular practice kazhinjal flexibility and mental calmness feel cheyyam."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "yoga_overview",
+      "question": "Yoga center-il enthellam yoga types available aanu?",
+      "answer": "Yoga center-il Hatha Yoga, Vinyasa Yoga, Ashtanga Yoga, Kundalini Yoga, and Yin Yoga pole different types available aayirikkum."
+    },
+    {
+      "category": "hatha_yoga",
+      "question": "Hatha Yoga ennathu enthaanu?",
+      "answer": "Hatha Yoga slow movements and breathing focus cheyyunna basic yoga form aanu, beginners-innu suitable aanu."
+    },
+    {
+      "category": "vinyasa_yoga",
+      "question": "Vinyasa Yoga ennathu enthaanu?",
+      "answer": "Vinyasa Yoga continuous flow movements and breathing synchronize cheythu cheyyunna active yoga style aanu."
+    },
+    {
+      "category": "ashtanga_yoga",
+      "question": "Ashtanga Yoga ennathu enthaanu?",
+      "answer": "Ashtanga Yoga structured sequence follow cheyyunna physically intense yoga practice aanu."
+    },
+    {
+      "category": "kundalini_yoga",
+      "question": "Kundalini Yoga ennathu enthaanu?",
+      "answer": "Kundalini Yoga meditation, breathing, and chanting combine cheythu energy awakening focus cheyyunna yoga aanu."
+    },
+    {
+      "category": "yin_yoga",
+      "question": "Yin Yoga ennathu enthaanu?",
+      "answer": "Yin Yoga slow passive stretches long time hold cheythu flexibility improve cheyyunna yoga style aanu."
+    },
+    {
+      "category": "power_yoga",
+      "question": "Power Yoga ennathu enthaanu?",
+      "answer": "Power Yoga fitness-oriented fast paced yoga aanu, strength and stamina improve cheyyan help cheyyum."
+    },
+    {
+      "category": "beginners_yoga",
+      "question": "Beginners-innu best yoga type ethanu?",
+      "answer": "Hatha Yoga and gentle Vinyasa Yoga beginners-innu best aanu."
+    },
+    {
+      "category": "weight_loss_yoga",
+      "question": "Weight loss-innu entha yoga best aanu?",
+      "answer": "Vinyasa Yoga and Power Yoga weight loss and fat burn cheyyan effective aanu."
+    },
+    {
+      "category": "stress_relief_yoga",
+      "question": "Stress reduce cheyyan entha yoga best aanu?",
+      "answer": "Yin Yoga, Hatha Yoga, and meditation-based yoga stress relief-inu nallath aanu."
+    },
+    {
+      "category": "flexibility_yoga",
+      "question": "Flexibility improve cheyyan entha yoga best aanu?",
+      "answer": "Yin Yoga and Hatha Yoga flexibility improve cheyyan helpful aanu."
+    },
+    {
+      "category": "kids_yoga",
+      "question": "Kids-innu yoga types undo?",
+      "answer": "Yes, simple stretching, breathing exercises, and playful yoga poses kids-innu suitable aanu."
+    },
+    {
+      "category": "meditation_yoga",
+      "question": "Meditation yoga available aano?",
+      "answer": "Yes, guided meditation and breathing-based yoga sessions available aanu."
+    },
+    {
+      "category": "group_classes",
+      "question": "Group yoga classes available aano?",
+      "answer": "Yes, group classes and personal training both available aayirikkum."
+    },
+    {
+      "category": "yoga_selection",
+      "question": "Enikk suitable yoga type engane select cheyyam?",
+      "answer": "Trainer assessment cheythu ningalude fitness level and goal anusarich yoga suggest cheyyum."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "health_condition_overview",
+      "question": "Yoga center-il health condition assess cheyyumo?",
+      "answer": "Yes, yoga center-il ningalude health condition understand cheythu suitable yoga plan suggest cheyyum."
+    },
+    {
+      "category": "fitness_level",
+      "question": "Ente fitness level low aanengil yoga start cheyyan pattumo?",
+      "answer": "Yes, beginners-um low fitness level ullavarum gentle yoga sessions start cheyyam."
+    },
+    {
+      "category": "medical_conditions",
+      "question": "Medical conditions undengil yoga cheyyan safe aano?",
+      "answer": "Doctor approval undengil most conditions-il yoga safe aanu, pakshe instructor informed aayirikkanam."
+    },
+    {
+      "category": "back_pain",
+      "question": "Back pain undengil yoga help cheyyumo?",
+      "answer": "Yes, specific yoga poses back pain reduce cheyyanum flexibility improve cheyyanum help cheyyum."
+    },
+    {
+      "category": "knee_pain",
+      "question": "Knee pain undengil yoga cheyyan pattumo?",
+      "answer": "Yes, modified poses use cheythu knee pain manage cheyyan yoga help cheyyum."
+    },
+    {
+      "category": "pregnancy_yoga",
+      "question": "Pregnant ladies yoga cheyyan pattumo?",
+      "answer": "Yes, prenatal yoga safe aanu, pakshe doctor approval mandatory aanu."
+    },
+    {
+      "category": "stress_anxiety",
+      "question": "Stress and anxiety control cheyyan yoga help cheyyumo?",
+      "answer": "Yes, breathing exercises and meditation stress reduce cheyyan valare helpful aanu."
+    },
+    {
+      "category": "heart_condition",
+      "question": "Heart problem ullavark yoga safe aano?",
+      "answer": "Mild yoga safe aayirikkam, pakshe doctor consultation venam."
+    },
+    {
+      "category": "diabetes",
+      "question": "Diabetes control cheyyan yoga help cheyyumo?",
+      "answer": "Yes, regular yoga practice blood sugar control improve cheyyum."
+    },
+    {
+      "category": "blood_pressure",
+      "question": "High BP ullavark yoga cheyyan pattumo?",
+      "answer": "Yes, breathing-based yoga BP control cheyyan help cheyyum, pakshe intense poses avoid cheyyanam."
+    },
+    {
+      "category": "injury_recovery",
+      "question": "Injury kazhinju yoga start cheyyan pattumo?",
+      "answer": "Yes, recovery stage-il gentle yoga doctor advice follow cheythu start cheyyam."
+    },
+    {
+      "category": "asthma",
+      "question": "Asthma patients yoga cheyyan pattumo?",
+      "answer": "Yes, breathing exercises asthma patients-ine help cheyyum."
+    },
+    {
+      "category": "weight_loss",
+      "question": "Weight loss-inu yoga effective aano?",
+      "answer": "Yes, regular yoga metabolism improve cheythu weight loss support cheyyum."
+    },
+    {
+      "category": "old_age",
+      "question": "Elderly people yoga cheyyan safe aano?",
+      "answer": "Yes, senior citizens-inu gentle yoga safe aanu and flexibility improve cheyyum."
+    },
+    {
+      "category": "health_assessment",
+      "question": "Yoga start cheyyunnathinu munpe health check venamo?",
+      "answer": "Yes, medical conditions undengil doctor consultation recommend cheyyunnu."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "online_offline_overview",
+      "question": "Yoga class online and offline difference enthaanu?",
+      "answer": "Online class home-il irunnu video call through attend cheyyam, offline class yoga center-il direct attend cheyyanam."
+    },
+    {
+      "category": "online_classes",
+      "question": "Online yoga classes engane join cheyyam?",
+      "answer": "Mobile, laptop, allenkil tablet use cheythu link through video class join cheyyam."
+    },
+    {
+      "category": "offline_classes",
+      "question": "Offline yoga classes eppozha nadakkunnath?",
+      "answer": "Yoga center-il fixed timetable anusarich morning or evening batches nadakkum."
+    },
+    {
+      "category": "best_option",
+      "question": "Online yoga better aano offline better aano?",
+      "answer": "Beginners-innu offline better aanu, pakshe convenience vendi online classes nallath aanu."
+    },
+    {
+      "category": "attendance",
+      "question": "Online class-il attendance maintain cheyyumo?",
+      "answer": "Yes, many centers online attendance tracking system use cheyyum."
+    },
+    {
+      "category": "equipment",
+      "question": "Online yoga class-innu equipment venamo?",
+      "answer": "Mat mathram mathi, some classes blocks and straps suggest cheyyum."
+    },
+    {
+      "category": "offline_equipment",
+      "question": "Offline yoga class-il equipment provide cheyyumo?",
+      "answer": "Yes, yoga mats and basic props center provide cheyyum, pakshe personal mat use cheyyunnath better aanu."
+    },
+    {
+      "category": "class_recording",
+      "question": "Online yoga class record cheythu pinne kaanan pattumo?",
+      "answer": "Some centers recorded sessions provide cheyyum for revision."
+    },
+    {
+      "category": "timing_flexibility",
+      "question": "Online class timings flexible aano?",
+      "answer": "Yes, many online classes flexible timings or multiple batches offer cheyyum."
+    },
+    {
+      "category": "offline_discipline",
+      "question": "Offline class-il discipline kooduthal aano?",
+      "answer": "Yes, center environment motivation and discipline increase cheyyum."
+    },
+    {
+      "category": "health_conditions",
+      "question": "Health issues undengil online yoga safe aano?",
+      "answer": "Yes, pakshe instructor guidance follow cheyyanam and proper form maintain cheyyanam."
+    },
+    {
+      "category": "trial_class",
+      "question": "Trial online or offline class available aano?",
+      "answer": "Yes, many yoga centers free or paid trial classes provide cheyyum."
+    },
+    {
+      "category": "fees_difference",
+      "question": "Online and offline class fees different aano?",
+      "answer": "Yes, online classes usually cheaper aanu compared to offline center classes."
+    },
+    {
+      "category": "location_requirement",
+      "question": "Online yoga class-innu location requirement undo?",
+      "answer": "Illa, internet connection mathram mathi anywhere ninnum attend cheyyam."
+    },
+    {
+      "category": "teacher_support",
+      "question": "Online class-il instructor correction kittumo?",
+      "answer": "Yes, live classes-il instructor feedback and correction provide cheyyum."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "fees_overview",
+      "question": "Yoga center fees enthaanu?",
+      "answer": "Yoga center fees course type, duration, and classes depend cheyyum. Monthly or package based aayirikkum usually."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Payment engane cheyyam?",
+      "answer": "Cash, UPI, bank transfer, card payment enniva yoga center-il accept cheyyum."
+    },
+    {
+      "category": "monthly_fees",
+      "question": "Monthly yoga class fees ethra aanu?",
+      "answer": "Monthly fees center anusarich vary cheyyum. Exact amount class type select cheythal ariyam."
+    },
+    {
+      "category": "package_plans",
+      "question": "Yoga package plans undo?",
+      "answer": "Yes, monthly, quarterly, and yearly packages available aayirikkum discount optionsode koodi."
+    },
+    {
+      "category": "trial_class",
+      "question": "Free trial class available aano?",
+      "answer": "Some yoga centers free or paid trial class provide cheyyum."
+    },
+    {
+      "category": "registration_fee",
+      "question": "Registration fee venamo?",
+      "answer": "Yes, some centers-il one-time registration fee venam aayirikkum."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Fee refund kittumo?",
+      "answer": "Refund policy center rules depend cheyyum. Usually classes start aayal refund limited aayirikkum."
+    },
+    {
+      "category": "discounts",
+      "question": "Discounts available aano?",
+      "answer": "Yes, early booking, student, and yearly package discounts available aayirikkum."
+    },
+    {
+      "category": "installment_payment",
+      "question": "Installment-il payment cheyyan pattumo?",
+      "answer": "Some yoga centers installment payment option provide cheyyum."
+    },
+    {
+      "category": "late_fee",
+      "question": "Late payment undengil penalty undo?",
+      "answer": "Yes, some centers-il late payment fee apply cheyyan chance undu."
+    },
+    {
+      "category": "online_payment",
+      "question": "Online payment accept cheyyumo?",
+      "answer": "Yes, most yoga centers UPI and online payment accept cheyyum."
+    },
+    {
+      "category": "membership",
+      "question": "Membership plan available aano?",
+      "answer": "Yes, membership plans undu which include multiple classes and discounts."
+    },
+    {
+      "category": "extra_charges",
+      "question": "Extra charges undavumo?",
+      "answer": "Special workshops or personal training sessions-il extra charges varam."
+    },
+    {
+      "category": "fee_change",
+      "question": "Fees change aavumo?",
+      "answer": "Yes, season or new batch start cheyyumbo fees update aavum."
+    },
+    {
+      "category": "payment_receipt",
+      "question": "Payment receipt kittumo?",
+      "answer": "Yes, payment cheythal digital or printed receipt provide cheyyum."
+    }
+  ]
+}
+{
+  "faqs": [
+    {
+      "category": "fees_overview",
+      "question": "Yoga center fees enthaanu?",
+      "answer": "Yoga center fees course type, duration, and classes depend cheyyum. Monthly or package based aayirikkum usually."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Payment engane cheyyam?",
+      "answer": "Cash, UPI, bank transfer, card payment enniva yoga center-il accept cheyyum."
+    },
+    {
+      "category": "monthly_fees",
+      "question": "Monthly yoga class fees ethra aanu?",
+      "answer": "Monthly fees center anusarich vary cheyyum. Exact amount class type select cheythal ariyam."
+    },
+    {
+      "category": "package_plans",
+      "question": "Yoga package plans undo?",
+      "answer": "Yes, monthly, quarterly, and yearly packages available aayirikkum discount optionsode koodi."
+    },
+    {
+      "category": "trial_class",
+      "question": "Free trial class available aano?",
+      "answer": "Some yoga centers free or paid trial class provide cheyyum."
+    },
+    {
+      "category": "registration_fee",
+      "question": "Registration fee venamo?",
+      "answer": "Yes, some centers-il one-time registration fee venam aayirikkum."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Fee refund kittumo?",
+      "answer": "Refund policy center rules depend cheyyum. Usually classes start aayal refund limited aayirikkum."
+    },
+    {
+      "category": "discounts",
+      "question": "Discounts available aano?",
+      "answer": "Yes, early booking, student, and yearly package discounts available aayirikkum."
+    },
+    {
+      "category": "installment_payment",
+      "question": "Installment-il payment cheyyan pattumo?",
+      "answer": "Some yoga centers installment payment option provide cheyyum."
+    },
+    {
+      "category": "late_fee",
+      "question": "Late payment undengil penalty undo?",
+      "answer": "Yes, some centers-il late payment fee apply cheyyan chance undu."
+    },
+    {
+      "category": "online_payment",
+      "question": "Online payment accept cheyyumo?",
+      "answer": "Yes, most yoga centers UPI and online payment accept cheyyum."
+    },
+    {
+      "category": "membership",
+      "question": "Membership plan available aano?",
+      "answer": "Yes, membership plans undu which include multiple classes and discounts."
+    },
+    {
+      "category": "extra_charges",
+      "question": "Extra charges undavumo?",
+      "answer": "Special workshops or personal training sessions-il extra charges varam."
+    },
+    {
+      "category": "fee_change",
+      "question": "Fees change aavumo?",
+      "answer": "Yes, season or new batch start cheyyumbo fees update aavum."
+    },
+    {
+      "category": "payment_receipt",
+      "question": "Payment receipt kittumo?",
+      "answer": "Yes, payment cheythal digital or printed receipt provide cheyyum."
+    }
+  ]
+}

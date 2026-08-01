@@ -1,0 +1,895 @@
+{
+  "faqs": [
+    {
+      "category": "clinic_overview",
+      "questions": [
+        "clinic overview undo?",
+        "clinic overview available ano?",
+        "clinic overview kurich parayamo?",
+        "clinic overview kittumo?",
+        "clinic overview cost ethra aanu?"
+      ],
+      "answer": "clinic overview sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "clinic_location",
+      "questions": [
+        "clinic location undo?",
+        "clinic location available ano?",
+        "clinic location kurich parayamo?",
+        "clinic location kittumo?",
+        "clinic location cost ethra aanu?"
+      ],
+      "answer": "clinic location sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "clinic_timings",
+      "questions": [
+        "clinic timings undo?",
+        "clinic timings available ano?",
+        "clinic timings kurich parayamo?",
+        "clinic timings kittumo?",
+        "clinic timings cost ethra aanu?"
+      ],
+      "answer": "clinic timings sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "appointment_booking",
+      "questions": [
+        "appointment booking undo?",
+        "appointment booking available ano?",
+        "appointment booking kurich parayamo?",
+        "appointment booking kittumo?",
+        "appointment booking cost ethra aanu?"
+      ],
+      "answer": "appointment booking sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "online_booking",
+      "questions": [
+        "online booking undo?",
+        "online booking available ano?",
+        "online booking kurich parayamo?",
+        "online booking kittumo?",
+        "online booking cost ethra aanu?"
+      ],
+      "answer": "online booking sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "whatsapp_booking",
+      "questions": [
+        "whatsapp booking undo?",
+        "whatsapp booking available ano?",
+        "whatsapp booking kurich parayamo?",
+        "whatsapp booking kittumo?",
+        "whatsapp booking cost ethra aanu?"
+      ],
+      "answer": "whatsapp booking sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "walkin_consultation",
+      "questions": [
+        "walkin consultation undo?",
+        "walkin consultation available ano?",
+        "walkin consultation kurich parayamo?",
+        "walkin consultation kittumo?",
+        "walkin consultation cost ethra aanu?"
+      ],
+      "answer": "walkin consultation sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "dermatologist_consultation",
+      "questions": [
+        "dermatologist consultation undo?",
+        "dermatologist consultation available ano?",
+        "dermatologist consultation kurich parayamo?",
+        "dermatologist consultation kittumo?",
+        "dermatologist consultation cost ethra aanu?"
+      ],
+      "answer": "dermatologist consultation sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "first_visit",
+      "questions": [
+        "first visit undo?",
+        "first visit available ano?",
+        "first visit kurich parayamo?",
+        "first visit kittumo?",
+        "first visit cost ethra aanu?"
+      ],
+      "answer": "first visit sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "followup_consultation",
+      "questions": [
+        "followup consultation undo?",
+        "followup consultation available ano?",
+        "followup consultation kurich parayamo?",
+        "followup consultation kittumo?",
+        "followup consultation cost ethra aanu?"
+      ],
+      "answer": "followup consultation sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "online_consultation",
+      "questions": [
+        "online consultation undo?",
+        "online consultation available ano?",
+        "online consultation kurich parayamo?",
+        "online consultation kittumo?",
+        "online consultation cost ethra aanu?"
+      ],
+      "answer": "online consultation sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "acne_treatment",
+      "questions": [
+        "acne treatment undo?",
+        "acne treatment available ano?",
+        "acne treatment kurich parayamo?",
+        "acne treatment kittumo?",
+        "acne treatment cost ethra aanu?"
+      ],
+      "answer": "acne treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "pimples_treatment",
+      "questions": [
+        "pimples treatment undo?",
+        "pimples treatment available ano?",
+        "pimples treatment kurich parayamo?",
+        "pimples treatment kittumo?",
+        "pimples treatment cost ethra aanu?"
+      ],
+      "answer": "pimples treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "acne_scars",
+      "questions": [
+        "acne scars undo?",
+        "acne scars available ano?",
+        "acne scars kurich parayamo?",
+        "acne scars kittumo?",
+        "acne scars cost ethra aanu?"
+      ],
+      "answer": "acne scars sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "pigmentation_treatment",
+      "questions": [
+        "pigmentation treatment undo?",
+        "pigmentation treatment available ano?",
+        "pigmentation treatment kurich parayamo?",
+        "pigmentation treatment kittumo?",
+        "pigmentation treatment cost ethra aanu?"
+      ],
+      "answer": "pigmentation treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "melasma_treatment",
+      "questions": [
+        "melasma treatment undo?",
+        "melasma treatment available ano?",
+        "melasma treatment kurich parayamo?",
+        "melasma treatment kittumo?",
+        "melasma treatment cost ethra aanu?"
+      ],
+      "answer": "melasma treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "dark_spots",
+      "questions": [
+        "dark spots undo?",
+        "dark spots available ano?",
+        "dark spots kurich parayamo?",
+        "dark spots kittumo?",
+        "dark spots cost ethra aanu?"
+      ],
+      "answer": "dark spots sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "tanning_removal",
+      "questions": [
+        "tanning removal undo?",
+        "tanning removal available ano?",
+        "tanning removal kurich parayamo?",
+        "tanning removal kittumo?",
+        "tanning removal cost ethra aanu?"
+      ],
+      "answer": "tanning removal sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "skin_allergy",
+      "questions": [
+        "skin allergy undo?",
+        "skin allergy available ano?",
+        "skin allergy kurich parayamo?",
+        "skin allergy kittumo?",
+        "skin allergy cost ethra aanu?"
+      ],
+      "answer": "skin allergy sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "itching_treatment",
+      "questions": [
+        "itching treatment undo?",
+        "itching treatment available ano?",
+        "itching treatment kurich parayamo?",
+        "itching treatment kittumo?",
+        "itching treatment cost ethra aanu?"
+      ],
+      "answer": "itching treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "eczema_treatment",
+      "questions": [
+        "eczema treatment undo?",
+        "eczema treatment available ano?",
+        "eczema treatment kurich parayamo?",
+        "eczema treatment kittumo?",
+        "eczema treatment cost ethra aanu?"
+      ],
+      "answer": "eczema treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "psoriasis_treatment",
+      "questions": [
+        "psoriasis treatment undo?",
+        "psoriasis treatment available ano?",
+        "psoriasis treatment kurich parayamo?",
+        "psoriasis treatment kittumo?",
+        "psoriasis treatment cost ethra aanu?"
+      ],
+      "answer": "psoriasis treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "fungal_infection",
+      "questions": [
+        "fungal infection undo?",
+        "fungal infection available ano?",
+        "fungal infection kurich parayamo?",
+        "fungal infection kittumo?",
+        "fungal infection cost ethra aanu?"
+      ],
+      "answer": "fungal infection sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "hair_fall_treatment",
+      "questions": [
+        "hair fall treatment undo?",
+        "hair fall treatment available ano?",
+        "hair fall treatment kurich parayamo?",
+        "hair fall treatment kittumo?",
+        "hair fall treatment cost ethra aanu?"
+      ],
+      "answer": "hair fall treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "dandruff_treatment",
+      "questions": [
+        "dandruff treatment undo?",
+        "dandruff treatment available ano?",
+        "dandruff treatment kurich parayamo?",
+        "dandruff treatment kittumo?",
+        "dandruff treatment cost ethra aanu?"
+      ],
+      "answer": "dandruff treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "alopecia_treatment",
+      "questions": [
+        "alopecia treatment undo?",
+        "alopecia treatment available ano?",
+        "alopecia treatment kurich parayamo?",
+        "alopecia treatment kittumo?",
+        "alopecia treatment cost ethra aanu?"
+      ],
+      "answer": "alopecia treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "hair_growth_treatment",
+      "questions": [
+        "hair growth treatment undo?",
+        "hair growth treatment available ano?",
+        "hair growth treatment kurich parayamo?",
+        "hair growth treatment kittumo?",
+        "hair growth treatment cost ethra aanu?"
+      ],
+      "answer": "hair growth treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "prp_hair_treatment",
+      "questions": [
+        "prp hair treatment undo?",
+        "prp hair treatment available ano?",
+        "prp hair treatment kurich parayamo?",
+        "prp hair treatment kittumo?",
+        "prp hair treatment cost ethra aanu?"
+      ],
+      "answer": "prp hair treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "hair_transplant_consultation",
+      "questions": [
+        "hair transplant consultation undo?",
+        "hair transplant consultation available ano?",
+        "hair transplant consultation kurich parayamo?",
+        "hair transplant consultation kittumo?",
+        "hair transplant consultation cost ethra aanu?"
+      ],
+      "answer": "hair transplant consultation sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "chemical_peel",
+      "questions": [
+        "chemical peel undo?",
+        "chemical peel available ano?",
+        "chemical peel kurich parayamo?",
+        "chemical peel kittumo?",
+        "chemical peel cost ethra aanu?"
+      ],
+      "answer": "chemical peel sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "hydrafacial",
+      "questions": [
+        "hydrafacial undo?",
+        "hydrafacial available ano?",
+        "hydrafacial kurich parayamo?",
+        "hydrafacial kittumo?",
+        "hydrafacial cost ethra aanu?"
+      ],
+      "answer": "hydrafacial sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "skin_polishing",
+      "questions": [
+        "skin polishing undo?",
+        "skin polishing available ano?",
+        "skin polishing kurich parayamo?",
+        "skin polishing kittumo?",
+        "skin polishing cost ethra aanu?"
+      ],
+      "answer": "skin polishing sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "skin_rejuvenation",
+      "questions": [
+        "skin rejuvenation undo?",
+        "skin rejuvenation available ano?",
+        "skin rejuvenation kurich parayamo?",
+        "skin rejuvenation kittumo?",
+        "skin rejuvenation cost ethra aanu?"
+      ],
+      "answer": "skin rejuvenation sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "laser_hair_removal",
+      "questions": [
+        "laser hair removal undo?",
+        "laser hair removal available ano?",
+        "laser hair removal kurich parayamo?",
+        "laser hair removal kittumo?",
+        "laser hair removal cost ethra aanu?"
+      ],
+      "answer": "laser hair removal sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "laser_skin_treatment",
+      "questions": [
+        "laser skin treatment undo?",
+        "laser skin treatment available ano?",
+        "laser skin treatment kurich parayamo?",
+        "laser skin treatment kittumo?",
+        "laser skin treatment cost ethra aanu?"
+      ],
+      "answer": "laser skin treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "laser_pigmentation_removal",
+      "questions": [
+        "laser pigmentation removal undo?",
+        "laser pigmentation removal available ano?",
+        "laser pigmentation removal kurich parayamo?",
+        "laser pigmentation removal kittumo?",
+        "laser pigmentation removal cost ethra aanu?"
+      ],
+      "answer": "laser pigmentation removal sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "laser_acne_scar_treatment",
+      "questions": [
+        "laser acne scar treatment undo?",
+        "laser acne scar treatment available ano?",
+        "laser acne scar treatment kurich parayamo?",
+        "laser acne scar treatment kittumo?",
+        "laser acne scar treatment cost ethra aanu?"
+      ],
+      "answer": "laser acne scar treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "laser_tattoo_removal",
+      "questions": [
+        "laser tattoo removal undo?",
+        "laser tattoo removal available ano?",
+        "laser tattoo removal kurich parayamo?",
+        "laser tattoo removal kittumo?",
+        "laser tattoo removal cost ethra aanu?"
+      ],
+      "answer": "laser tattoo removal sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "botox",
+      "questions": [
+        "botox undo?",
+        "botox available ano?",
+        "botox kurich parayamo?",
+        "botox kittumo?",
+        "botox cost ethra aanu?"
+      ],
+      "answer": "botox sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "fillers",
+      "questions": [
+        "fillers undo?",
+        "fillers available ano?",
+        "fillers kurich parayamo?",
+        "fillers kittumo?",
+        "fillers cost ethra aanu?"
+      ],
+      "answer": "fillers sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "anti_aging_treatment",
+      "questions": [
+        "anti aging treatment undo?",
+        "anti aging treatment available ano?",
+        "anti aging treatment kurich parayamo?",
+        "anti aging treatment kittumo?",
+        "anti aging treatment cost ethra aanu?"
+      ],
+      "answer": "anti aging treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "wrinkle_reduction",
+      "questions": [
+        "wrinkle reduction undo?",
+        "wrinkle reduction available ano?",
+        "wrinkle reduction kurich parayamo?",
+        "wrinkle reduction kittumo?",
+        "wrinkle reduction cost ethra aanu?"
+      ],
+      "answer": "wrinkle reduction sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "skin_tightening",
+      "questions": [
+        "skin tightening undo?",
+        "skin tightening available ano?",
+        "skin tightening kurich parayamo?",
+        "skin tightening kittumo?",
+        "skin tightening cost ethra aanu?"
+      ],
+      "answer": "skin tightening sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "mole_removal",
+      "questions": [
+        "mole removal undo?",
+        "mole removal available ano?",
+        "mole removal kurich parayamo?",
+        "mole removal kittumo?",
+        "mole removal cost ethra aanu?"
+      ],
+      "answer": "mole removal sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "wart_removal",
+      "questions": [
+        "wart removal undo?",
+        "wart removal available ano?",
+        "wart removal kurich parayamo?",
+        "wart removal kittumo?",
+        "wart removal cost ethra aanu?"
+      ],
+      "answer": "wart removal sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "skin_tag_removal",
+      "questions": [
+        "skin tag removal undo?",
+        "skin tag removal available ano?",
+        "skin tag removal kurich parayamo?",
+        "skin tag removal kittumo?",
+        "skin tag removal cost ethra aanu?"
+      ],
+      "answer": "skin tag removal sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "hair_transplant",
+      "questions": [
+        "hair transplant undo?",
+        "hair transplant available ano?",
+        "hair transplant kurich parayamo?",
+        "hair transplant kittumo?",
+        "hair transplant cost ethra aanu?"
+      ],
+      "answer": "hair transplant sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "hair_transplant_cost",
+      "questions": [
+        "hair transplant cost undo?",
+        "hair transplant cost available ano?",
+        "hair transplant cost kurich parayamo?",
+        "hair transplant cost kittumo?",
+        "hair transplant cost cost ethra aanu?"
+      ],
+      "answer": "hair transplant cost sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "prp_treatment",
+      "questions": [
+        "prp treatment undo?",
+        "prp treatment available ano?",
+        "prp treatment kurich parayamo?",
+        "prp treatment kittumo?",
+        "prp treatment cost ethra aanu?"
+      ],
+      "answer": "prp treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "prp_hair",
+      "questions": [
+        "prp hair undo?",
+        "prp hair available ano?",
+        "prp hair kurich parayamo?",
+        "prp hair kittumo?",
+        "prp hair cost ethra aanu?"
+      ],
+      "answer": "prp hair sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "prp_skin",
+      "questions": [
+        "prp skin undo?",
+        "prp skin available ano?",
+        "prp skin kurich parayamo?",
+        "prp skin kittumo?",
+        "prp skin cost ethra aanu?"
+      ],
+      "answer": "prp skin sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "bridal_skin_package",
+      "questions": [
+        "bridal skin package undo?",
+        "bridal skin package available ano?",
+        "bridal skin package kurich parayamo?",
+        "bridal skin package kittumo?",
+        "bridal skin package cost ethra aanu?"
+      ],
+      "answer": "bridal skin package sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "pre_wedding_skin_care",
+      "questions": [
+        "pre wedding skin care undo?",
+        "pre wedding skin care available ano?",
+        "pre wedding skin care kurich parayamo?",
+        "pre wedding skin care kittumo?",
+        "pre wedding skin care cost ethra aanu?"
+      ],
+      "answer": "pre wedding skin care sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "glow_treatment",
+      "questions": [
+        "glow treatment undo?",
+        "glow treatment available ano?",
+        "glow treatment kurich parayamo?",
+        "glow treatment kittumo?",
+        "glow treatment cost ethra aanu?"
+      ],
+      "answer": "glow treatment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "skin_brightening",
+      "questions": [
+        "skin brightening undo?",
+        "skin brightening available ano?",
+        "skin brightening kurich parayamo?",
+        "skin brightening kittumo?",
+        "skin brightening cost ethra aanu?"
+      ],
+      "answer": "skin brightening sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "child_skin_problem",
+      "questions": [
+        "child skin problem undo?",
+        "child skin problem available ano?",
+        "child skin problem kurich parayamo?",
+        "child skin problem kittumo?",
+        "child skin problem cost ethra aanu?"
+      ],
+      "answer": "child skin problem sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "nail_infection",
+      "questions": [
+        "nail infection undo?",
+        "nail infection available ano?",
+        "nail infection kurich parayamo?",
+        "nail infection kittumo?",
+        "nail infection cost ethra aanu?"
+      ],
+      "answer": "nail infection sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "dermatologist_products",
+      "questions": [
+        "dermatologist products undo?",
+        "dermatologist products available ano?",
+        "dermatologist products kurich parayamo?",
+        "dermatologist products kittumo?",
+        "dermatologist products cost ethra aanu?"
+      ],
+      "answer": "dermatologist products sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "sunscreen",
+      "questions": [
+        "sunscreen undo?",
+        "sunscreen available ano?",
+        "sunscreen kurich parayamo?",
+        "sunscreen kittumo?",
+        "sunscreen cost ethra aanu?"
+      ],
+      "answer": "sunscreen sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "anti_acne_products",
+      "questions": [
+        "anti acne products undo?",
+        "anti acne products available ano?",
+        "anti acne products kurich parayamo?",
+        "anti acne products kittumo?",
+        "anti acne products cost ethra aanu?"
+      ],
+      "answer": "anti acne products sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "skin_biopsy",
+      "questions": [
+        "skin biopsy undo?",
+        "skin biopsy available ano?",
+        "skin biopsy kurich parayamo?",
+        "skin biopsy kittumo?",
+        "skin biopsy cost ethra aanu?"
+      ],
+      "answer": "skin biopsy sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "allergy_testing",
+      "questions": [
+        "allergy testing undo?",
+        "allergy testing available ano?",
+        "allergy testing kurich parayamo?",
+        "allergy testing kittumo?",
+        "allergy testing cost ethra aanu?"
+      ],
+      "answer": "allergy testing sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "treatment_duration",
+      "questions": [
+        "treatment duration undo?",
+        "treatment duration available ano?",
+        "treatment duration kurich parayamo?",
+        "treatment duration kittumo?",
+        "treatment duration cost ethra aanu?"
+      ],
+      "answer": "treatment duration sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "recovery_time",
+      "questions": [
+        "recovery time undo?",
+        "recovery time available ano?",
+        "recovery time kurich parayamo?",
+        "recovery time kittumo?",
+        "recovery time cost ethra aanu?"
+      ],
+      "answer": "recovery time sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "treatment_results",
+      "questions": [
+        "treatment results undo?",
+        "treatment results available ano?",
+        "treatment results kurich parayamo?",
+        "treatment results kittumo?",
+        "treatment results cost ethra aanu?"
+      ],
+      "answer": "treatment results sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "aftercare_instructions",
+      "questions": [
+        "aftercare instructions undo?",
+        "aftercare instructions available ano?",
+        "aftercare instructions kurich parayamo?",
+        "aftercare instructions kittumo?",
+        "aftercare instructions cost ethra aanu?"
+      ],
+      "answer": "aftercare instructions sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "side_effects",
+      "questions": [
+        "side effects undo?",
+        "side effects available ano?",
+        "side effects kurich parayamo?",
+        "side effects kittumo?",
+        "side effects cost ethra aanu?"
+      ],
+      "answer": "side effects sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "consultation_fee",
+      "questions": [
+        "consultation fee undo?",
+        "consultation fee available ano?",
+        "consultation fee kurich parayamo?",
+        "consultation fee kittumo?",
+        "consultation fee cost ethra aanu?"
+      ],
+      "answer": "consultation fee sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "treatment_cost",
+      "questions": [
+        "treatment cost undo?",
+        "treatment cost available ano?",
+        "treatment cost kurich parayamo?",
+        "treatment cost kittumo?",
+        "treatment cost cost ethra aanu?"
+      ],
+      "answer": "treatment cost sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "package_price",
+      "questions": [
+        "package price undo?",
+        "package price available ano?",
+        "package price kurich parayamo?",
+        "package price kittumo?",
+        "package price cost ethra aanu?"
+      ],
+      "answer": "package price sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "laser_cost",
+      "questions": [
+        "laser cost undo?",
+        "laser cost available ano?",
+        "laser cost kurich parayamo?",
+        "laser cost kittumo?",
+        "laser cost cost ethra aanu?"
+      ],
+      "answer": "laser cost sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "prp_cost",
+      "questions": [
+        "prp cost undo?",
+        "prp cost available ano?",
+        "prp cost kurich parayamo?",
+        "prp cost kittumo?",
+        "prp cost cost ethra aanu?"
+      ],
+      "answer": "prp cost sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "cash_payment",
+      "questions": [
+        "cash payment undo?",
+        "cash payment available ano?",
+        "cash payment kurich parayamo?",
+        "cash payment kittumo?",
+        "cash payment cost ethra aanu?"
+      ],
+      "answer": "cash payment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "upi_payment",
+      "questions": [
+        "upi payment undo?",
+        "upi payment available ano?",
+        "upi payment kurich parayamo?",
+        "upi payment kittumo?",
+        "upi payment cost ethra aanu?"
+      ],
+      "answer": "upi payment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "card_payment",
+      "questions": [
+        "card payment undo?",
+        "card payment available ano?",
+        "card payment kurich parayamo?",
+        "card payment kittumo?",
+        "card payment cost ethra aanu?"
+      ],
+      "answer": "card payment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "online_payment",
+      "questions": [
+        "online payment undo?",
+        "online payment available ano?",
+        "online payment kurich parayamo?",
+        "online payment kittumo?",
+        "online payment cost ethra aanu?"
+      ],
+      "answer": "online payment sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "emi_option",
+      "questions": [
+        "emi option undo?",
+        "emi option available ano?",
+        "emi option kurich parayamo?",
+        "emi option kittumo?",
+        "emi option cost ethra aanu?"
+      ],
+      "answer": "emi option sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "insurance_coverage",
+      "questions": [
+        "insurance coverage undo?",
+        "insurance coverage available ano?",
+        "insurance coverage kurich parayamo?",
+        "insurance coverage kittumo?",
+        "insurance coverage cost ethra aanu?"
+      ],
+      "answer": "insurance coverage sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "complaint_registration",
+      "questions": [
+        "complaint registration undo?",
+        "complaint registration available ano?",
+        "complaint registration kurich parayamo?",
+        "complaint registration kittumo?",
+        "complaint registration cost ethra aanu?"
+      ],
+      "answer": "complaint registration sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "feedback",
+      "questions": [
+        "feedback undo?",
+        "feedback available ano?",
+        "feedback kurich parayamo?",
+        "feedback kittumo?",
+        "feedback cost ethra aanu?"
+      ],
+      "answer": "feedback sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    },
+    {
+      "category": "customer_support",
+      "questions": [
+        "customer support undo?",
+        "customer support available ano?",
+        "customer support kurich parayamo?",
+        "customer support kittumo?",
+        "customer support cost ethra aanu?"
+      ],
+      "answer": "customer support sambandhicha vivarangal labhyam aanu. Availability, treatment plan, price eniva individual assessment anusarikku vary cheyyum."
+    }
+  ]
+}

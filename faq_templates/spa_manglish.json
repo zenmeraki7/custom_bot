@@ -1,0 +1,609 @@
+{
+  "faqs": [
+    {
+      "question": "Spa la enna services ellam available?",
+      "answer": "Namma spa la massage, facial, body scrub, body polishing, aromatherapy, head massage, foot massage, wellness treatments ellam available."
+    },
+    {
+      "question": "Ungaloda most popular spa treatment edhu?",
+      "answer": "Aromatherapy massage, deep tissue massage, facial treatment, body spa package dhan customer-ku romba pidikkum."
+    },
+    {
+      "question": "Spa treatment evlo neram aagum?",
+      "answer": "Treatment type poruthu 30 minutes irundhu 2 hours varaikkum aagum."
+    },
+    {
+      "question": "Massage-ku munnaadi enna prepare panna vendum?",
+      "answer": "Appointment-ku 10-15 minutes munnaadi vandhu relax aagavum, heavy food avoid pannavum."
+    },
+    {
+      "question": "Facial treatment-ku age limit irukka?",
+      "answer": "Generally 18+ customers facial eduthukkalam. Special cases-ku consultation recommend pannuvom."
+    },
+    {
+      "question": "Sensitive skin irundha facial pannalama?",
+      "answer": "Aama, unga skin type-ku suitable products use panni treatment provide pannuvom."
+    },
+    {
+      "question": "Body scrub-na enna?",
+      "answer": "Body scrub treatment dead skin remove panni skin smooth-um fresh-a irukka help pannum."
+    },
+    {
+      "question": "Aromatherapy massage-na enna?",
+      "answer": "Essential oils use panni body-yum mind-yum relax panna seyyum massage treatment."
+    },
+    {
+      "question": "Deep tissue massage yaarukku suitable?",
+      "answer": "Muscle pain, body stiffness, stress irukkaravangalukku deep tissue massage suitable."
+    },
+    {
+      "question": "Couple spa package irukka?",
+      "answer": "Aama, couples-ku special spa packages available."
+    },
+    {
+      "question": "Spa treatment stress reduce pannuma?",
+      "answer": "Aama, spa treatments stress, anxiety, body tension reduce panna help pannum."
+    },
+    {
+      "question": "Pregnant ladies spa treatment eduthukkalama?",
+      "answer": "Doctor advice-kku apram specific prenatal spa treatments eduthukkalam."
+    },
+    {
+      "question": "Spa products safe-ah irukka?",
+      "answer": "Aama, quality-tested products use pannuvom. Allergy irundha munnaadi sollunga."
+    },
+    {
+      "question": "Head massage separate-ah available-ah?",
+      "answer": "Aama, head massage individual service-aagavum package-laagavum available."
+    },
+    {
+      "question": "Foot massage irukka?",
+      "answer": "Aama, foot reflexology and foot massage services available."
+    },
+    {
+      "question": "Spa treatment-ku apram immediate-a work pogalama?",
+      "answer": "Pogalam, aana konjam neram relax pannina treatment benefits adhigama irukkum."
+    },
+    {
+      "question": "Body pain-ku yedha treatment recommend pannuveenga?",
+      "answer": "Deep tissue massage, hot stone massage, therapeutic massage recommend pannuvom."
+    },
+    {
+      "question": "First time spa-ku varra customer-ku yedha treatment best?",
+      "answer": "Aromatherapy massage illa basic relaxation massage recommend pannuvom."
+    },
+    {
+      "question": "Spa treatment customize panna mudiyuma?",
+      "answer": "Aama, unga preference and body condition base panni customize panna mudiyum."
+    },
+    {
+      "question": "Full body spa package-la enna include aagum?",
+      "answer": "Package poruthu massage, body scrub, facial, steam bath, wellness therapy include aagum."
+    },
+    {
+      "category": "appointment_booking",
+      "question": "Spa appointment engane book cheyyam?",
+      "answer": "Phone call, WhatsApp, online booking, allenkil direct spa visit cheythu appointment book cheyyam."
+    },
+    {
+      "category": "online_booking",
+      "question": "Online ayi spa appointment book cheyyan pattumo?",
+      "answer": "Yes, website, mobile app, allenkil social media vazhi online booking cheyyan pattum."
+    },
+    {
+      "category": "walk_in",
+      "question": "Appointment illathe spa-il varan pattumo?",
+      "answer": "Pattum, pakshe availability depend cheyyum. Advance booking cheyyunnath better aanu."
+    },
+    {
+      "category": "same_day_booking",
+      "question": "Inn thanne spa appointment kittumo?",
+      "answer": "Available slots undengil same-day appointment arrange cheyyan pattum."
+    },
+    {
+      "category": "appointment_confirmation",
+      "question": "Appointment confirm aayennu engane ariyam?",
+      "answer": "Booking kazhinjal SMS, WhatsApp, email, allenkil call vazhi confirmation labhikkum."
+    },
+    {
+      "category": "reschedule",
+      "question": "Spa appointment reschedule cheyyan pattumo?",
+      "answer": "Yes, appointment date allenkil time maattan spa-ne contact cheyyam."
+    },
+    {
+      "category": "cancellation",
+      "question": "Appointment cancel cheyyan engane?",
+      "answer": "Call, WhatsApp, allenkil booking platform vazhi appointment cancel cheyyam."
+    },
+    {
+      "category": "late_arrival",
+      "question": "Late aayi vannal entha sambhavikkum?",
+      "answer": "Late arrival undengil session time kuraykkendi varam allenkil reschedule cheyyendi varam."
+    },
+    {
+      "category": "appointment_duration",
+      "question": "Spa session ethra neram edukum?",
+      "answer": "Service type anusarichu 30 minutes ninnum 2 hours vare edukam."
+    },
+    {
+      "category": "weekend_booking",
+      "question": "Weekend-il booking munpe cheyyendath undo?",
+      "answer": "Yes, weekends busy aayirikkum, athukond advance booking recommend cheyyunnu."
+    },
+    {
+      "category": "couple_booking",
+      "question": "Couple spa appointment book cheyyan pattumo?",
+      "answer": "Yes, couple spa packages and appointments available aanu."
+    },
+    {
+      "category": "group_booking",
+      "question": "Friends allenkil group booking cheyyan pattumo?",
+      "answer": "Yes, group bookings special occasions-inu arrange cheyyam."
+    },
+    {
+      "category": "preferred_therapist",
+      "question": "Specific therapist-ne request cheyyan pattumo?",
+      "answer": "Yes, therapist availability anusarichu request consider cheyyum."
+    },
+    {
+      "category": "reminder_service",
+      "question": "Appointment reminder varumo?",
+      "answer": "Yes, appointment-inu munpe SMS, WhatsApp, allenkil call reminder ayakkum."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Booking-inu advance payment venamo?",
+      "answer": "Some spa services and packages-inu advance payment allenkil booking deposit venam aayirikkam."
+    },
+    {
+      "category": "spa_pricing_overview",
+      "question": "Spa services price engane decide cheyyum?",
+      "answer": "Spa pricing service type, duration, oils/products use cheyyunnath, and therapist experience depend cheythu vary cheyyum."
+    },
+    {
+      "category": "massage_cost",
+      "question": "Massage therapy cost ethra aanu?",
+      "answer": "Massage cost type of massage (relaxation, deep tissue, aroma) and time duration depend cheyyum."
+    },
+    {
+      "category": "facial_spa_packages",
+      "question": "Spa facial packages available aano?",
+      "answer": "Yes, facial spa packages undu like glow facial, anti-aging facial, and hydrating skin treatments."
+    },
+    {
+      "category": "body_spa_packages",
+      "question": "Body spa packages enthaanu include cheyyunnath?",
+      "answer": "Body spa packages-il full body massage, exfoliation, oil therapy, and relaxation treatments include cheyyum."
+    },
+    {
+      "category": "combo_packages",
+      "question": "Combo spa packages available aano?",
+      "answer": "Yes, hair spa + facial, body massage + scrub, and complete relaxation combo packages available aanu."
+    },
+    {
+      "category": "couple_spa",
+      "question": "Couple spa packages undo?",
+      "answer": "Yes, couple spa packages available aanu romantic and relaxation experience vendi."
+    },
+    {
+      "category": "membership_plans",
+      "question": "Spa membership plans available aano?",
+      "answer": "Yes, monthly or yearly membership plans undu with discounted spa services."
+    },
+    {
+      "category": "offers_discounts",
+      "question": "Spa offers or discounts undavumo?",
+      "answer": "Yes, seasonal offers, festival discounts, and package deals available aayirikkum."
+    },
+    {
+      "category": "first_time_offer",
+      "question": "First time customers-inu discount kittumo?",
+      "answer": "Yes, new customers-inu introductory offers or discounts available aayirikkam."
+    },
+    {
+      "category": "package_customization",
+      "question": "Spa packages customize cheyyan pattumo?",
+      "answer": "Yes, customer need and budget anusarich customized spa packages arrange cheyyam."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Spa booking-inu advance payment venamo?",
+      "answer": "Some premium or long-duration spa packages-inu advance payment venam aayirikkam."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Spa booking cancel cheythal refund kittumo?",
+      "answer": "Refund policy depends on parlour rules and cancellation timing."
+    },
+    {
+      "category": "gift_vouchers",
+      "question": "Spa gift vouchers available aano?",
+      "answer": "Yes, spa gift vouchers available aanu gifting and special occasions-inu vendi."
+    },
+    {
+      "category": "session_duration",
+      "question": "Spa session ethra neram edukum?",
+      "answer": "Spa session usually 30 minutes to 2 hours vare duration undavum package depend cheythu."
+    },
+    {
+      "category": "consultation_pricing",
+      "question": "Spa treatment start cheyyunnathinu munpe consultation fee undo?",
+      "answer": "Some parlours-il consultation free aayirikkam, pakshe premium spas-il charge undavum."
+    },
+    {
+      "category": "spa_hygiene_overview",
+      "question": "Spa services-il health and safety engane ensure cheyyunnu?",
+      "answer": "Spa-il strict hygiene practices follow cheyyum, sanitized tools, clean towels, and safe environment maintain cheyyum."
+    },
+    {
+      "category": "sanitization",
+      "question": "Tools and equipment sanitize cheyyumo?",
+      "answer": "Yes, ellam toolsum every customer kazhinju proper ayi sanitize cheyyum."
+    },
+    {
+      "category": "product_safety",
+      "question": "Spa-il use cheyyunna products safe aano?",
+      "answer": "Yes, skin-safe and approved products mathram use cheyyum based on skin type."
+    },
+    {
+      "category": "skin_allergy",
+      "question": "Allergy undengil spa treatment safe aano?",
+      "answer": "Yes, but prior consultation venam. Patch test cheyyunnath recommend cheyyum."
+    },
+    {
+      "category": "infection_control",
+      "question": "Infection prevent cheyyan entha measures undu?",
+      "answer": "Disposable items use cheyyum, proper sanitization follow cheyyum, and hygiene protocols strictly maintain cheyyum."
+    },
+    {
+      "category": "therapist_safety",
+      "question": "Therapists trained aano?",
+      "answer": "Yes, trained professionals mathram spa treatments handle cheyyum."
+    },
+    {
+      "category": "clean_environment",
+      "question": "Spa environment clean aano?",
+      "answer": "Yes, daily cleaning and disinfection cheythu safe environment maintain cheyyum."
+    },
+    {
+      "category": "covid_safety",
+      "question": "Covid or infection safety measures follow cheyyumo?",
+      "answer": "Yes, hygiene protocols, mask usage, and sanitization strict ayi follow cheyyum."
+    },
+    {
+      "category": "medical_conditions",
+      "question": "Medical condition undengil spa use cheyyan pattumo?",
+      "answer": "Doctor advice follow cheyyuka, certain conditions-il spa avoid cheyyan vendi varam."
+    },
+    {
+      "category": "pregnancy_safety",
+      "question": "Pregnant women spa use cheyyan safe aano?",
+      "answer": "Some treatments safe aanu, pakshe doctor approval venam before spa therapy."
+    },
+    {
+      "category": "privacy",
+      "question": "Spa treatment-il privacy kittumo?",
+      "answer": "Yes, complete privacy and comfort ensure cheyyum."
+    },
+    {
+      "category": "allergy_patch_test",
+      "question": "Patch test cheyyumo?",
+      "answer": "Yes, new products use cheyyumbol patch test recommend cheyyum."
+    },
+    {
+      "category": "hygiene_linen",
+      "question": "Towels and linens clean aano?",
+      "answer": "Yes, every use kazhinju fresh and clean linens use cheyyum."
+    },
+    {
+      "category": "equipment_safety",
+      "question": "Spa equipment safe aano?",
+      "answer": "Yes, regularly maintained and safety checked equipment mathram use cheyyum."
+    },
+    {
+      "category": "customer_guidelines",
+      "question": "Customers follow cheyyenda safety rules enthaanu?",
+      "answer": "Cleanliness maintain cheyyuka, staff instructions follow cheyyuka, and any medical issues inform cheyyuka."
+    },
+    {
+      "category": "spa_overview",
+      "question": "Spa treatment ennathu enthaanu?",
+      "answer": "Spa treatment ennathu body relax cheyyan, skin care improve cheyyan, and stress kurakkan vendi cheyyunna wellness service aanu."
+    },
+    {
+      "category": "before_spa_preparation",
+      "question": "Spa treatment-innu munpe entha prepare cheyyanam?",
+      "answer": "Light dress wear cheyyuka, heavy meals avoid cheyyuka, and appointment time-il kurachu neram munpe reach cheyyuka."
+    },
+    {
+      "category": "before_spa_shower",
+      "question": "Spa-innu munpe bath edukkanam aano?",
+      "answer": "Yes, clean aayi irikkunnath better aanu, pakshe parlour-il shower facility undengil avideyum adjust cheyyam."
+    },
+    {
+      "category": "before_spa_food",
+      "question": "Spa treatment-innu munpe food kazhikkamo?",
+      "answer": "Yes, pakshe heavy or oily food avoid cheyyunnath nallath aanu."
+    },
+    {
+      "category": "before_spa_medical",
+      "question": "Medical condition undengil spa cheyyan pattumo?",
+      "answer": "Pregnancy, skin issues, or serious health conditions undengil spa-innu munpe therapist-ne ariyikkanam."
+    },
+    {
+      "category": "during_spa_relaxation",
+      "question": "Spa session time-il entha expect cheyyam?",
+      "answer": "Relaxing massage, aromatherapy, steam therapy, and calm environment expect cheyyam."
+    },
+    {
+      "category": "during_spa_discomfort",
+      "question": "Spa time-il discomfort feel cheythal entha cheyyam?",
+      "answer": "Immediately therapist-ne parayuka, pressure adjust cheyyum allenkil technique change cheyyum."
+    },
+    {
+      "category": "after_spa_care",
+      "question": "Spa kazhinjal entha care venam?",
+      "answer": "Plenty water drink cheyyuka, rest edukkuka, and heavy physical activity avoid cheyyuka."
+    },
+    {
+      "category": "after_spa_shower",
+      "question": "Spa kazhinjal shower edukkan pattumo?",
+      "answer": "Yes, but kurachu neram relax aayi irunnathinu shesham warm shower edukkan nallath aanu."
+    },
+    {
+      "category": "after_spa_skin",
+      "question": "Spa kazhinjal skin care entha cheyyanam?",
+      "answer": "Moisturizer use cheyyuka and harsh chemicals avoid cheyyuka for soft skin maintenance."
+    },
+    {
+      "category": "after_spa_side_effects",
+      "question": "Spa kazhinjal side effects varumo?",
+      "answer": "Rare aayi mild tiredness or body soreness varam, but it usually settles quickly."
+    },
+    {
+      "category": "after_spa_sleep",
+      "question": "Spa kazhinjal nalla sleep varumo?",
+      "answer": "Yes, spa relaxation karanam body calm aayi better sleep kittum."
+    },
+    {
+      "category": "after_spa_results",
+      "question": "Spa results ethra kalam nilkkum?",
+      "answer": "Results lifestyle and regular care depend cheyyum, stress relief immediate aayirikkum."
+    },
+    {
+      "category": "after_spa_exercise",
+      "question": "Spa kazhinjal exercise cheyyan pattumo?",
+      "answer": "Heavy exercise avoid cheyyunnath nallath aanu, at least same day rest edukkanam."
+    },
+    {
+      "category": "after_spa_followup",
+      "question": "Spa regular aayi cheyyanam aano?",
+      "answer": "Yes, monthly or weekly spa sessions body and mind health improve cheyyan help cheyyum."
+    },
+    {
+      "category": "spa_location_overview",
+      "question": "Spa center evide aanu located?",
+      "answer": "Spa center easily accessible location-il aanu. Exact address Google Maps allenkil WhatsApp vazhi kittum."
+    },
+    {
+      "category": "spa_directions",
+      "question": "Spa-ilekku directions engane kittum?",
+      "answer": "Google Maps link, WhatsApp location share, allenkil call cheythu easy directions ariyam."
+    },
+    {
+      "category": "nearby_landmark",
+      "question": "Spa kandupidikkan enthu landmark use cheyyam?",
+      "answer": "Nearby famous landmarks use cheythu spa easily locate cheyyan pattum. Staff guidance kittum."
+    },
+    {
+      "category": "spa_parking",
+      "question": "Spa-il parking facility undo?",
+      "answer": "Yes, parking facility available aanu, pakshe peak time-il space limited aavum."
+    },
+    {
+      "category": "spa_public_transport",
+      "question": "Public transport use cheythu spa reach cheyyan pattumo?",
+      "answer": "Yes, bus, metro, auto ellam use cheythu nearby stop-il ninnu easily reach cheyyam."
+    },
+    {
+      "category": "spa_opening_time",
+      "question": "Spa eppozha open aavunnath?",
+      "answer": "Usually spa morning 10 AM around open aavum, timing spa anusarich vary cheyyam."
+    },
+    {
+      "category": "spa_closing_time",
+      "question": "Spa eppozha close aavunnath?",
+      "answer": "Evening 8 PM to 10 PM vare spa close aavum, service depend cheyyum."
+    },
+    {
+      "category": "spa_weekend_timing",
+      "question": "Weekend-il spa open aayirikkumo?",
+      "answer": "Yes, weekends-il spa open aayirikkum, but advance booking recommend cheyyunnu."
+    },
+    {
+      "category": "spa_holiday_availability",
+      "question": "Public holidays-il spa open aavumo?",
+      "answer": "Some spa centers holidays-il open aayirikkum, pakshe limited timing or prior booking venam."
+    },
+    {
+      "category": "spa_festival_timing",
+      "question": "Festival days-il spa open aayirikkumo?",
+      "answer": "Festival days-il timing change aavum, some days close aayirikkam."
+    },
+    {
+      "category": "spa_appointment_timing",
+      "question": "Spa appointment eppozha book cheyyan pattum?",
+      "answer": "Online booking 24/7 available aayirikkum, pakshe service working hours-il mathram."
+    },
+    {
+      "category": "spa_late_slots",
+      "question": "Late evening spa appointment kittumo?",
+      "answer": "Yes, late evening slots available aayirikkum based on availability."
+    },
+    {
+      "category": "spa_early_slots",
+      "question": "Early morning spa booking undo?",
+      "answer": "Some spa centers-il early morning appointments request cheythu arrange cheyyam."
+    },
+    {
+      "category": "spa_timing_changes",
+      "question": "Spa timing change aavumo?",
+      "answer": "Yes, seasonal or management decision anusarich spa timing change aavum."
+    },
+    {
+      "category": "spa_contact_support",
+      "question": "Spa location and timing doubts clear cheyyan help kittumo?",
+      "answer": "Yes, spa reception team WhatsApp or call vazhi full support provide cheyyum."
+    },
+    {
+      "category": "wellness_overview",
+      "question": "Spa wellness programs ennathu enthaanu?",
+      "answer": "Spa wellness programs ennathu body relax cheyyanum stress kurakkanum health improve cheyyanum vendi design cheytha treatments aanu."
+    },
+    {
+      "category": "program_types",
+      "question": "Enthellam spa wellness programs available aanu?",
+      "answer": "Body massage, aromatherapy, detox programs, Ayurvedic treatments, steam bath, and relaxation therapies available aanu."
+    },
+    {
+      "category": "stress_relief",
+      "question": "Stress relief-innu best spa treatment enthaanu?",
+      "answer": "Aromatherapy massage, Swedish massage, and deep tissue massage stress relief-innu very effective aanu."
+    },
+    {
+      "category": "detox_program",
+      "question": "Detox spa program enthaanu?",
+      "answer": "Detox program body-il ulla toxins remove cheyyan help cheyyunna treatments like body wrap, steam bath, and herbal therapies include cheyyum."
+    },
+    {
+      "category": "session_duration",
+      "question": "Spa wellness session ethra neram edukum?",
+      "answer": "Usually 60 minutes to 2 hours vare session duration vary cheyyum."
+    },
+    {
+      "category": "program_benefits",
+      "question": "Spa wellness programs benefits enthaanu?",
+      "answer": "Relaxation improve cheyyum, stress reduce cheyyum, blood circulation improve cheyyum, and overall wellness boost cheyyum."
+    },
+    {
+      "category": "ayurvedic_spa",
+      "question": "Ayurvedic spa treatments available aano?",
+      "answer": "Yes, Ayurvedic massages and herbal treatments many spa centers-il available aanu."
+    },
+    {
+      "category": "weight_loss_program",
+      "question": "Spa-il weight loss programs undo?",
+      "answer": "Yes, body wrap, detox therapy, and steam treatments weight management support cheyyum."
+    },
+    {
+      "category": "package_options",
+      "question": "Spa wellness packages available aano?",
+      "answer": "Yes, combo wellness packages and customized treatment plans available aanu."
+    },
+    {
+      "category": "session_frequency",
+      "question": "Spa sessions ethra time-il once cheyyanam?",
+      "answer": "Weekly or monthly sessions depending on body condition and therapist recommendation."
+    },
+    {
+      "category": "relaxation_music",
+      "question": "Spa sessions-il music use cheyyumo?",
+      "answer": "Yes, calm and relaxing music usually use cheyyum to improve relaxation experience."
+    },
+    {
+      "category": "oil_use",
+      "question": "Spa massage-il oils use cheyyumo?",
+      "answer": "Yes, herbal oils and essential oils massage treatments-il use cheyyum."
+    },
+    {
+      "category": "safety",
+      "question": "Spa wellness programs safe aano?",
+      "answer": "Yes, trained therapists and safe products use cheythal spa treatments fully safe aanu."
+    },
+    {
+      "category": "consultation",
+      "question": "Spa treatment munpe consultation venamo?",
+      "answer": "Yes, body condition and needs check cheyyan consultation recommend cheyyunnu."
+    },
+    {
+      "category": "booking",
+      "question": "Spa wellness programs book cheyyan engane?",
+      "answer": "Phone, WhatsApp, or online booking system use cheythu easily appointment book cheyyam."
+    },
+    {
+      "category": "special_events_overview",
+      "question": "Special events spa services enthaanu?",
+      "answer": "Special events spa services ennathu weddings, parties, functions, and celebrations inu vendi customized spa and beauty treatments aanu."
+    },
+    {
+      "category": "corporate_services_overview",
+      "question": "Corporate spa services enthaanu?",
+      "answer": "Corporate spa services ennathu company employees-innu vendi relaxation, wellness, and stress relief treatments provide cheyyunna service aanu."
+    },
+    {
+      "category": "event_booking",
+      "question": "Special events spa services engane book cheyyam?",
+      "answer": "Advance booking cheyyan pattum, phone, WhatsApp, or online through enquiry submit cheythu confirm cheyyam."
+    },
+    {
+      "category": "group_booking",
+      "question": "Group booking available aano events-inu?",
+      "answer": "Yes, large group bookings for parties, bridal groups, and corporate teams available aanu."
+    },
+    {
+      "category": "home_or_venue_service",
+      "question": "Event or corporate spa home/venue-il provide cheyyumo?",
+      "answer": "Yes, selected services home, hotel, or corporate office venues-il provide cheyyan pattum."
+    },
+    {
+      "category": "corporate_wellness",
+      "question": "Corporate wellness programs include enthaanu?",
+      "answer": "Chair massage, stress relief therapy, foot massage, and relaxation sessions usually include cheyyum."
+    },
+    {
+      "category": "event_services_types",
+      "question": "Special events-il entha services include cheyyum?",
+      "answer": "Facials, makeup, hairstyling, spa treatments, grooming, and pre-event packages include cheyyum."
+    },
+    {
+      "category": "duration",
+      "question": "Event spa sessions ethra neram edukum?",
+      "answer": "Service type and group size depend cheythu timing vary cheyyum, few minutes to several hours vare aavum."
+    },
+    {
+      "category": "staff_availability",
+      "question": "Event-inu extra staff available aano?",
+      "answer": "Yes, requirement anusarich trained professionals assign cheyyum."
+    },
+    {
+      "category": "custom_packages",
+      "question": "Custom packages create cheyyan pattumo events-inu?",
+      "answer": "Yes, budget and requirement anusarich customized spa and beauty packages arrange cheyyam."
+    },
+    {
+      "category": "corporate_booking_requirements",
+      "question": "Corporate booking-inu entha details venam?",
+      "answer": "Number of employees, location, timing, and service type provide cheyyanam."
+    },
+    {
+      "category": "payment_corporate",
+      "question": "Corporate services payment engane cheyyam?",
+      "answer": "Invoice basis payment, advance booking, or company billing options available aanu."
+    },
+    {
+      "category": "offers_events",
+      "question": "Special event packages-il offers undo?",
+      "answer": "Yes, bulk booking and corporate deals-inu discounts available aayirikkum."
+    },
+    {
+      "category": "hygiene_safety",
+      "question": "Event spa services safe and hygienic aano?",
+      "answer": "Yes, fully sanitized tools and professional hygiene standards follow cheyyum."
+    },
+    {
+      "category": "consultation",
+      "question": "Event or corporate spa plan cheyyan consultation kittumo?",
+      "answer": "Yes, requirement discuss cheyyan free consultation available aanu."
+    }
+  ]
+}

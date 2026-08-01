@@ -1,0 +1,904 @@
+{
+  "faqs": [
+    {
+      "category": "admission_overview",
+      "question": "How can I get admission to the tuition center?",
+      "answer": "You can get admission by visiting the center, filling out the registration form, or applying through online enrollment if available."
+    },
+    {
+      "category": "online_enrollment",
+      "question": "Is online enrollment available?",
+      "answer": "Yes, many tuition centers offer online enrollment through their website or contact form."
+    },
+    {
+      "category": "eligibility",
+      "question": "What are the eligibility criteria for admission?",
+      "answer": "Eligibility depends on the course or class level. Students are usually placed based on grade, subject, or assessment test."
+    },
+    {
+      "category": "admission_process",
+      "question": "What is the admission process?",
+      "answer": "The admission process includes registration, student assessment (if required), fee payment, and confirmation of enrollment."
+    },
+    {
+      "category": "documents_required",
+      "question": "What documents are required for admission?",
+      "answer": "Basic documents include student ID proof, previous academic records, and passport-size photographs."
+    },
+    {
+      "category": "entry_test",
+      "question": "Is there an entrance test for enrollment?",
+      "answer": "Some tuition centers conduct a placement test to evaluate the student's current knowledge level."
+    },
+    {
+      "category": "batch_allocation",
+      "question": "How are batches assigned after enrollment?",
+      "answer": "Batches are assigned based on grade level, subject choice, and available time slots."
+    },
+    {
+      "category": "fees_payment",
+      "question": "How do I pay the tuition fees?",
+      "answer": "Fees can be paid via cash, bank transfer, UPI, or online payment methods depending on the center."
+    },
+    {
+      "category": "installments",
+      "question": "Can I pay fees in installments?",
+      "answer": "Yes, many tuition centers allow monthly or quarterly installment options."
+    },
+    {
+      "category": "confirmation",
+      "question": "How will I know my admission is confirmed?",
+      "answer": "You will receive confirmation via SMS, email, or printed admission receipt after enrollment."
+    },
+    {
+      "category": "course_change",
+      "question": "Can I change my course or subject after admission?",
+      "answer": "Yes, course changes are possible depending on availability and approval from the center."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Is the admission fee refundable?",
+      "answer": "Refund policies vary by institution. Some fees may be non-refundable after confirmation."
+    },
+    {
+      "category": "trial_class",
+      "question": "Do you offer trial classes before admission?",
+      "answer": "Yes, some tuition centers offer free or paid trial classes before enrollment."
+    },
+    {
+      "category": "batch_timing",
+      "question": "Can I choose my batch timing?",
+      "answer": "Yes, batch timings can be selected based on availability and student preference."
+    },
+    {
+      "category": "support",
+      "question": "Can I contact the center for admission help?",
+      "answer": "Yes, the tuition center staff can assist you with the admission and enrollment process."
+    },
+    {
+      "category": "fees_overview",
+      "question": "How much is the tuition fee?",
+      "answer": "Tuition fees vary based on grade level, subjects, and course type. Please contact the center for exact fee details."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted?",
+      "answer": "We accept cash, bank transfer, credit/debit cards, and online payment methods."
+    },
+    {
+      "category": "installments",
+      "question": "Can I pay the tuition fee in installments?",
+      "answer": "Yes, installment options are available depending on the course duration and center policy."
+    },
+    {
+      "category": "monthly_fees",
+      "question": "Is the fee charged monthly or yearly?",
+      "answer": "Fees can be charged monthly, quarterly, or yearly depending on the course and enrollment plan."
+    },
+    {
+      "category": "registration_fee",
+      "question": "Is there a registration fee?",
+      "answer": "Yes, a one-time registration fee may be applicable during admission."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Is the tuition fee refundable?",
+      "answer": "Fees are generally non-refundable, but policies may vary depending on the situation and center rules."
+    },
+    {
+      "category": "late_payment",
+      "question": "What happens if I pay the fee late?",
+      "answer": "Late payments may incur a penalty or affect class continuation depending on the policy."
+    },
+    {
+      "category": "discounts",
+      "question": "Do you offer discounts or scholarships?",
+      "answer": "Yes, we may offer discounts, early payment benefits, or scholarships based on eligibility."
+    },
+    {
+      "category": "exam_fees",
+      "question": "Are exam fees included in tuition fees?",
+      "answer": "Exam fees may be separate depending on the course and examination requirements."
+    },
+    {
+      "category": "fee_structure",
+      "question": "Can I get a detailed fee breakdown?",
+      "answer": "Yes, a complete fee structure will be provided during admission or inquiry."
+    },
+    {
+      "category": "receipt",
+      "question": "Will I get a receipt for my payment?",
+      "answer": "Yes, all payments are recorded and official receipts are provided."
+    },
+    {
+      "category": "online_payment",
+      "question": "Can I pay tuition fees online?",
+      "answer": "Yes, online payment options are available for convenience."
+    },
+    {
+      "category": "batch_fee_difference",
+      "question": "Do different batches have different fees?",
+      "answer": "Yes, fees may vary depending on batch timing and course level."
+    },
+    {
+      "category": "additional_charges",
+      "question": "Are there any hidden charges?",
+      "answer": "No, all charges are clearly communicated before enrollment."
+    },
+    {
+      "category": "fee_support",
+      "question": "Can I get help regarding fee payment issues?",
+      "answer": "Yes, the administration team is available to assist with any fee-related concerns."
+    },
+    {
+      "category": "class_timing_overview",
+      "question": "Tuition center class timings eppozha aanu?",
+      "answer": "Tuition center classes morning, afternoon, evening batches-il available aayirikkum. Exact timing center anusarich vary cheyyum."
+    },
+    {
+      "category": "schedule_information",
+      "question": "Class schedule engane ariyam?",
+      "answer": "Weekly timetable tuition center office-il, WhatsApp group-il, allenkil notice board-il update cheyyum."
+    },
+    {
+      "category": "batch_system",
+      "question": "Batch system undo tuition center-il?",
+      "answer": "Yes, usually morning, evening, and weekend batches students convenience anusarich arrange cheyyum."
+    },
+    {
+      "category": "weekend_classes",
+      "question": "Weekend classes available aano?",
+      "answer": "Yes, many tuition centers Saturday and Sunday special classes conduct cheyyum."
+    },
+    {
+      "category": "timing_change",
+      "question": "Class timing change aavumo?",
+      "answer": "Yes, exam season or special schedule changes anusarich timings adjust cheyyam."
+    },
+    {
+      "category": "late_joining",
+      "question": "Late aayi join cheythal missed classes cover cheyyan pattumo?",
+      "answer": "Yes, missed topics revision classes or recorded sessions through cover cheyyam."
+    },
+    {
+      "category": "attendance_policy",
+      "question": "Attendance mandatory aano?",
+      "answer": "Yes, regular attendance required aanu better learning results-inu vendi."
+    },
+    {
+      "category": "holiday_schedule",
+      "question": "Holiday days-il classes undavumo?",
+      "answer": "Public holidays-il usually class undavilla, pakshe exam preparation time-il special classes varam."
+    },
+    {
+      "category": "extra_classes",
+      "question": "Extra classes arrange cheyyumo?",
+      "answer": "Yes, weak students-inu additional support classes arrange cheyyum."
+    },
+    {
+      "category": "exam_schedule",
+      "question": "Exam schedule eppozha announce cheyyunnath?",
+      "answer": "Monthly tests and term exams schedule advance-il announce cheyyum."
+    },
+    {
+      "category": "homework_schedule",
+      "question": "Homework eppozha tharunnath?",
+      "answer": "Daily or weekly homework classes anusarich assign cheyyum."
+    },
+    {
+      "category": "timing_flexibility",
+      "question": "Flexible timing available aano?",
+      "answer": "Some tuition centers flexible timing or customized batches provide cheyyum."
+    },
+    {
+      "category": "class_duration",
+      "question": "Each class ethra neram edukum?",
+      "answer": "Usually 1 to 2 hours vare class duration undavum."
+    },
+    {
+      "category": "subject_wise_schedule",
+      "question": "Subject-wise schedule undo?",
+      "answer": "Yes, different subjects separate timetable anusarich teach cheyyum."
+    },
+    {
+      "category": "communication",
+      "question": "Schedule updates engane kittum?",
+      "answer": "WhatsApp groups, SMS alerts, and notice board through regular updates provide cheyyum."
+    },
+    {
+      "category": "teaching_method_overview",
+      "question": "What teaching methods are used in your tuition center?",
+      "answer": "We use a mix of interactive teaching, concept-based learning, practice tests, and personalized attention to help students understand better."
+    },
+    {
+      "category": "individual_attention",
+      "question": "Do teachers give individual attention to students?",
+      "answer": "Yes, teachers provide individual attention based on each student’s learning needs and performance level."
+    },
+    {
+      "category": "teacher_qualification",
+      "question": "Are the teachers qualified?",
+      "answer": "Yes, our teachers are well-qualified and experienced in handling different academic subjects and student levels."
+    },
+    {
+      "category": "teaching_style",
+      "question": "What is your teaching style like?",
+      "answer": "Our teaching style is simple, interactive, and exam-oriented, focusing on concept clarity and regular practice."
+    },
+    {
+      "category": "doubt_clearing",
+      "question": "Do teachers help with doubt clearing?",
+      "answer": "Yes, regular doubt-clearing sessions are conducted to ensure students fully understand each topic."
+    },
+    {
+      "category": "exam_preparation",
+      "question": "Do you help with exam preparation?",
+      "answer": "Yes, we provide special revision classes, mock tests, and exam-oriented training."
+    },
+    {
+      "category": "study_material",
+      "question": "Do you provide study materials?",
+      "answer": "Yes, students receive notes, worksheets, and practice materials prepared by our teachers."
+    },
+    {
+      "category": "progress_tracking",
+      "question": "How do teachers track student progress?",
+      "answer": "We conduct regular tests and assessments to monitor each student’s progress and performance."
+    },
+    {
+      "category": "parent_interaction",
+      "question": "Do teachers communicate with parents?",
+      "answer": "Yes, regular parent-teacher meetings are conducted to discuss student progress and improvement areas."
+    },
+    {
+      "category": "online_classes",
+      "question": "Are online classes available?",
+      "answer": "Yes, we offer online classes for students who prefer remote learning or cannot attend in person."
+    },
+    {
+      "category": "class_size",
+      "question": "How many students are in one class?",
+      "answer": "We maintain small batch sizes to ensure better focus and individual attention."
+    },
+    {
+      "category": "homework_support",
+      "question": "Do teachers help with homework?",
+      "answer": "Yes, teachers guide students in completing homework and understanding difficult questions."
+    },
+    {
+      "category": "learning_pace",
+      "question": "Do teachers adjust according to student learning speed?",
+      "answer": "Yes, teaching pace is adjusted based on the understanding level of students."
+    },
+    {
+      "category": "revision_classes",
+      "question": "Are revision classes conducted?",
+      "answer": "Yes, regular revision classes are conducted before exams for better preparation."
+    },
+    {
+      "category": "performance_improvement",
+      "question": "How do teachers help improve weak students?",
+      "answer": "Extra coaching, special attention, and additional practice sessions are provided for weak students."
+    },
+    {
+      "category": "teaching_method_overview",
+      "question": "What teaching methods are used in your tuition center?",
+      "answer": "We use a mix of interactive teaching, concept-based learning, practice tests, and personalized attention to help students understand better."
+    },
+    {
+      "category": "individual_attention",
+      "question": "Do teachers give individual attention to students?",
+      "answer": "Yes, teachers provide individual attention based on each student’s learning needs and performance level."
+    },
+    {
+      "category": "teacher_qualification",
+      "question": "Are the teachers qualified?",
+      "answer": "Yes, our teachers are well-qualified and experienced in handling different academic subjects and student levels."
+    },
+    {
+      "category": "teaching_style",
+      "question": "What is your teaching style like?",
+      "answer": "Our teaching style is simple, interactive, and exam-oriented, focusing on concept clarity and regular practice."
+    },
+    {
+      "category": "doubt_clearing",
+      "question": "Do teachers help with doubt clearing?",
+      "answer": "Yes, regular doubt-clearing sessions are conducted to ensure students fully understand each topic."
+    },
+    {
+      "category": "exam_preparation",
+      "question": "Do you help with exam preparation?",
+      "answer": "Yes, we provide special revision classes, mock tests, and exam-oriented training."
+    },
+    {
+      "category": "study_material",
+      "question": "Do you provide study materials?",
+      "answer": "Yes, students receive notes, worksheets, and practice materials prepared by our teachers."
+    },
+    {
+      "category": "progress_tracking",
+      "question": "How do teachers track student progress?",
+      "answer": "We conduct regular tests and assessments to monitor each student’s progress and performance."
+    },
+    {
+      "category": "parent_interaction",
+      "question": "Do teachers communicate with parents?",
+      "answer": "Yes, regular parent-teacher meetings are conducted to discuss student progress and improvement areas."
+    },
+    {
+      "category": "online_classes",
+      "question": "Are online classes available?",
+      "answer": "Yes, we offer online classes for students who prefer remote learning or cannot attend in person."
+    },
+    {
+      "category": "class_size",
+      "question": "How many students are in one class?",
+      "answer": "We maintain small batch sizes to ensure better focus and individual attention."
+    },
+    {
+      "category": "homework_support",
+      "question": "Do teachers help with homework?",
+      "answer": "Yes, teachers guide students in completing homework and understanding difficult questions."
+    },
+    {
+      "category": "learning_pace",
+      "question": "Do teachers adjust according to student learning speed?",
+      "answer": "Yes, teaching pace is adjusted based on the understanding level of students."
+    },
+    {
+      "category": "revision_classes",
+      "question": "Are revision classes conducted?",
+      "answer": "Yes, regular revision classes are conducted before exams for better preparation."
+    },
+    {
+      "category": "performance_improvement",
+      "question": "How do teachers help improve weak students?",
+      "answer": "Extra coaching, special attention, and additional practice sessions are provided for weak students."
+    },
+    {
+      "category": "class_modes_overview",
+      "question": "What are online and offline classes?",
+      "answer": "Online classes are conducted through internet platforms, while offline classes are conducted in a physical tuition center."
+    },
+    {
+      "category": "enrollment",
+      "question": "How can I join your tuition center?",
+      "answer": "You can join by visiting the center, contacting us via phone or WhatsApp, or registering through our online enrollment form."
+    },
+    {
+      "category": "online_class_access",
+      "question": "How do I access online classes?",
+      "answer": "After enrollment, you will receive login details or meeting links to join live or recorded online sessions."
+    },
+    {
+      "category": "offline_class_timing",
+      "question": "What are the timings for offline classes?",
+      "answer": "Offline class timings depend on batches and subjects, and will be shared during admission."
+    },
+    {
+      "category": "online_class_timing",
+      "question": "Are online classes live or recorded?",
+      "answer": "We offer both live interactive sessions and recorded classes depending on the course."
+    },
+    {
+      "category": "attendance",
+      "question": "Is attendance required for online and offline classes?",
+      "answer": "Yes, regular attendance is recommended for better learning and performance."
+    },
+    {
+      "category": "study_material",
+      "question": "Will I get study materials?",
+      "answer": "Yes, study materials are provided in both online PDF format and offline printed notes."
+    },
+    {
+      "category": "fees",
+      "question": "What are the fees for tuition classes?",
+      "answer": "Fees depend on the course, grade, and mode of learning. Please contact the center for exact details."
+    },
+    {
+      "category": "doubt_clearing",
+      "question": "How are doubts cleared in online and offline classes?",
+      "answer": "Doubts are cleared during class sessions, special doubt sessions, or via chat support for online students."
+    },
+    {
+      "category": "recordings",
+      "question": "Will I get recorded classes?",
+      "answer": "Yes, recorded sessions are available for revision in online classes."
+    },
+    {
+      "category": "batch_size",
+      "question": "How many students are in one batch?",
+      "answer": "Batch size is limited to ensure personalized attention for each student."
+    },
+    {
+      "category": "exams",
+      "question": "Do you conduct tests and exams?",
+      "answer": "Yes, regular tests, mock exams, and performance assessments are conducted."
+    },
+    {
+      "category": "parent_updates",
+      "question": "Will parents get updates on student progress?",
+      "answer": "Yes, regular progress reports and feedback are shared with parents."
+    },
+    {
+      "category": "device_requirements",
+      "question": "What do I need for online classes?",
+      "answer": "You need a smartphone, tablet, or laptop with internet connection and a stable network."
+    },
+    {
+      "category": "missed_class",
+      "question": "What happens if I miss a class?",
+      "answer": "Missed online classes can be accessed via recordings, and offline students may get notes or revision support."
+    },
+    {
+      "category": "attendance_policy",
+      "question": "What is the attendance policy in the tuition center?",
+      "answer": "Students are expected to attend classes regularly. Minimum attendance requirements may be applicable depending on the course."
+    },
+    {
+      "category": "attendance_tracking",
+      "question": "How is attendance recorded?",
+      "answer": "Attendance is usually recorded daily by teachers through manual registers or digital attendance systems."
+    },
+    {
+      "category": "late_arrival",
+      "question": "What happens if a student comes late to class?",
+      "answer": "Late arrival may be marked as late attendance and repeated delays may be reported to parents."
+    },
+    {
+      "category": "absence",
+      "question": "What should I do if a student is absent?",
+      "answer": "Parents or students should inform the tuition center in advance or as soon as possible in case of absence."
+    },
+    {
+      "category": "leave_request",
+      "question": "How can I request leave from class?",
+      "answer": "Leave requests should be submitted to the tutor or administration before the leave date whenever possible."
+    },
+    {
+      "category": "attendance_effect",
+      "question": "Does low attendance affect performance?",
+      "answer": "Yes, irregular attendance may affect learning progress and exam preparation."
+    },
+    {
+      "category": "makeup_classes",
+      "question": "Are makeup classes available for missed classes?",
+      "answer": "Some tuition centers offer makeup classes depending on availability and policy."
+    },
+    {
+      "category": "punctuality",
+      "question": "Why is punctuality important in tuition classes?",
+      "answer": "Punctuality helps students stay updated with lessons and maintain discipline in learning."
+    },
+    {
+      "category": "discipline_rules",
+      "question": "What are the discipline rules in the tuition center?",
+      "answer": "Students must maintain respectful behavior, follow classroom rules, and avoid distractions during study time."
+    },
+    {
+      "category": "behavior_issue",
+      "question": "What happens if a student misbehaves in class?",
+      "answer": "Misbehavior may lead to warnings, parental notification, or disciplinary action depending on severity."
+    },
+    {
+      "category": "mobile_usage",
+      "question": "Is mobile phone usage allowed in class?",
+      "answer": "Mobile phones are generally not allowed during class unless permitted for educational purposes."
+    },
+    {
+      "category": "uniform_rules",
+      "question": "Is there a dress code or uniform rule?",
+      "answer": "Some tuition centers may have a dress code to maintain discipline and uniformity."
+    },
+    {
+      "category": "homework_discipline",
+      "question": "What happens if homework is not completed?",
+      "answer": "Incomplete homework may result in warnings or additional assignments to improve learning discipline."
+    },
+    {
+      "category": "parent_involvement",
+      "question": "Will parents be informed about attendance or discipline issues?",
+      "answer": "Yes, parents are usually informed regularly about attendance and student behavior."
+    },
+    {
+      "category": "discipline_importance",
+      "question": "Why is discipline important in tuition centers?",
+      "answer": "Discipline helps students focus better, improve academic performance, and build good study habits."
+    },
+    {
+      "category": "attendance_policy",
+      "question": "What is the attendance policy in the tuition center?",
+      "answer": "Students are expected to attend classes regularly. Minimum attendance may be required for exams or assessments."
+    },
+    {
+      "category": "late_arrival",
+      "question": "What happens if a student comes late to class?",
+      "answer": "Late arrival may lead to missing important parts of the lesson. Repeated lateness may be reported to parents."
+    },
+    {
+      "category": "absent_notice",
+      "question": "Do I need to inform if my child is absent?",
+      "answer": "Yes, parents should inform the tuition center in advance or as soon as possible if the student is absent."
+    },
+    {
+      "category": "leave_policy",
+      "question": "Can students take leave from tuition classes?",
+      "answer": "Yes, leave is allowed for valid reasons, but prior permission or notification is preferred."
+    },
+    {
+      "category": "makeup_classes",
+      "question": "Are makeup classes available for missed lessons?",
+      "answer": "Some tuition centers may offer makeup classes depending on availability and policy."
+    },
+    {
+      "category": "discipline_rules",
+      "question": "What are the discipline rules in the tuition center?",
+      "answer": "Students must maintain discipline, respect teachers, follow classroom rules, and avoid disruptive behavior."
+    },
+    {
+      "category": "behavior_issues",
+      "question": "What happens if a student misbehaves in class?",
+      "answer": "Misbehavior may result in warnings, counseling, or informing parents depending on severity."
+    },
+    {
+      "category": "punctuality",
+      "question": "Why is punctuality important in tuition classes?",
+      "answer": "Punctuality ensures students do not miss important lessons and helps maintain classroom discipline."
+    },
+    {
+      "category": "attendance_tracking",
+      "question": "How is attendance tracked?",
+      "answer": "Attendance is usually recorded daily by teachers or through a digital attendance system."
+    },
+    {
+      "category": "parent_notification",
+      "question": "Will parents be informed about attendance issues?",
+      "answer": "Yes, parents are notified if there is frequent absence or poor attendance."
+    },
+    {
+      "category": "discipline_consequences",
+      "question": "What are the consequences of repeated discipline issues?",
+      "answer": "Repeated issues may lead to warnings, parent meetings, or suspension from classes."
+    },
+    {
+      "category": "homework_discipline",
+      "question": "Is completing homework mandatory?",
+      "answer": "Yes, students are expected to complete homework regularly as part of discipline and learning."
+    },
+    {
+      "category": "mobile_usage",
+      "question": "Are mobile phones allowed in class?",
+      "answer": "Mobile phone usage is usually restricted during class hours unless permitted for learning purposes."
+    },
+    {
+      "category": "attendance_requirement",
+      "question": "Is attendance important for exams or tests?",
+      "answer": "Yes, regular attendance is important for eligibility in exams and assessments."
+    },
+    {
+      "category": "discipline_support",
+      "question": "How does the tuition center support discipline improvement?",
+      "answer": "Teachers guide students, provide counseling, and communicate with parents to improve discipline."
+    },
+    {
+      "category": "study_material_overview",
+      "question": "What study materials are provided at the tuition center?",
+      "answer": "The tuition center provides notes, worksheets, practice papers, revision guides, and subject-wise question banks."
+    },
+    {
+      "category": "syllabus_coverage",
+      "question": "Does the study material cover the full syllabus?",
+      "answer": "Yes, the study materials are designed to cover the complete syllabus based on school or board requirements."
+    },
+    {
+      "category": "printed_materials",
+      "question": "Will I receive printed study materials?",
+      "answer": "Yes, printed notes and worksheets are usually provided for regular practice and revision."
+    },
+    {
+      "category": "digital_materials",
+      "question": "Are digital study materials available?",
+      "answer": "Yes, many tuition centers also provide PDFs, online notes, and digital practice tests."
+    },
+    {
+      "category": "practice_tests",
+      "question": "Do you provide practice tests or mock exams?",
+      "answer": "Yes, regular mock exams and practice tests are conducted to improve student performance."
+    },
+    {
+      "category": "exam_preparation",
+      "question": "Is the study material helpful for exam preparation?",
+      "answer": "Yes, the materials are specially designed to help students prepare for school exams and board exams effectively."
+    },
+    {
+      "category": "subject_wise_notes",
+      "question": "Are subject-wise notes available?",
+      "answer": "Yes, separate notes are provided for each subject like Maths, Science, English, and Social Studies."
+    },
+    {
+      "category": "updated_material",
+      "question": "Is the study material updated regularly?",
+      "answer": "Yes, study materials are updated based on syllabus changes and exam patterns."
+    },
+    {
+      "category": "revision_material",
+      "question": "Do you provide revision materials before exams?",
+      "answer": "Yes, special revision notes and important questions are provided before exams."
+    },
+    {
+      "category": "assignments",
+      "question": "Do you give homework or assignments?",
+      "answer": "Yes, regular assignments are given to help students practice and improve understanding."
+    },
+    {
+      "category": "difficulty_level",
+      "question": "Is the study material suitable for all levels of students?",
+      "answer": "Yes, materials are prepared according to beginner, intermediate, and advanced learning levels."
+    },
+    {
+      "category": "exam_questions",
+      "question": "Do you provide previous year question papers?",
+      "answer": "Yes, previous year question papers are included for better exam preparation."
+    },
+    {
+      "category": "doubt_clearing",
+      "question": "Can I get help if I have doubts in study material?",
+      "answer": "Yes, teachers are available to clarify doubts related to study materials and subjects."
+    },
+    {
+      "category": "study_material_cost",
+      "question": "Is study material included in tuition fees?",
+      "answer": "In most cases, basic study materials are included, but advanced books may have additional charges."
+    },
+    {
+      "category": "online_access",
+      "question": "Can I access study materials online anytime?",
+      "answer": "Yes, many tuition centers provide 24/7 online access to study materials through apps or portals."
+    },
+    {
+      "category": "location_overview",
+      "question": "Where is the tuition center located?",
+      "answer": "The tuition center is located at a convenient and easily accessible area. You can check Google Maps or contact the center for exact directions."
+    },
+    {
+      "category": "nearby_landmark",
+      "question": "Is the tuition center near any landmark?",
+      "answer": "Yes, the center is usually located near well-known landmarks to make it easy for students to find."
+    },
+    {
+      "category": "transport_access",
+      "question": "Is the tuition center accessible by public transport?",
+      "answer": "Yes, the center is well connected by bus, metro, or train, depending on the location."
+    },
+    {
+      "category": "parking_facility",
+      "question": "Is parking available at the tuition center?",
+      "answer": "Yes, parking facilities are available for students and parents, but availability may vary based on location."
+    },
+    {
+      "category": "classroom_facilities",
+      "question": "What facilities are available in the classroom?",
+      "answer": "The classrooms are equipped with comfortable seating, whiteboards, and a good learning environment."
+    },
+    {
+      "category": "study_material",
+      "question": "Do you provide study materials?",
+      "answer": "Yes, we provide notes, worksheets, and practice materials for better learning."
+    },
+    {
+      "category": "library_facility",
+      "question": "Is there a library or reference section available?",
+      "answer": "Some tuition centers provide a small library or reference section for students to study."
+    },
+    {
+      "category": "digital_learning",
+      "question": "Do you offer digital or online learning facilities?",
+      "answer": "Yes, online classes and digital learning support may be available depending on the program."
+    },
+    {
+      "category": "safety_security",
+      "question": "Is the tuition center safe for students?",
+      "answer": "Yes, the center maintains a safe and secure environment for all students."
+    },
+    {
+      "category": "washroom_facility",
+      "question": "Are washroom facilities available?",
+      "answer": "Yes, clean washroom facilities are available for students."
+    },
+    {
+      "category": "class_timings",
+      "question": "What are the class timings?",
+      "answer": "Class timings vary based on batches, and details will be provided during admission."
+    },
+    {
+      "category": "air_conditioning",
+      "question": "Is the tuition center air-conditioned?",
+      "answer": "Some centers offer air-conditioned classrooms depending on the facility type."
+    },
+    {
+      "category": "waiting_area",
+      "question": "Is there a waiting area for parents?",
+      "answer": "Yes, many centers provide a waiting area for parents or guardians."
+    },
+    {
+      "category": "drinking_water",
+      "question": "Is drinking water available at the center?",
+      "answer": "Yes, clean drinking water facilities are available for students."
+    },
+    {
+      "category": "contact_support",
+      "question": "How can I contact the tuition center for location help?",
+      "answer": "You can contact the center via phone or WhatsApp for guidance and location assistance."
+    },
+    {
+      "category": "exam_preparation_overview",
+      "question": "What is exam preparation tuition?",
+      "answer": "Exam preparation tuition is a structured learning program designed to help students prepare for school, college, or competitive exams with focused guidance."
+    },
+    {
+      "category": "admission",
+      "question": "How can I join the tuition center?",
+      "answer": "You can join by contacting the center, filling out an admission form, and selecting the required course or subject."
+    },
+    {
+      "category": "subjects_offered",
+      "question": "What subjects are available for tuition?",
+      "answer": "Most tuition centers offer subjects like Mathematics, Science, English, Social Studies, and exam-specific coaching."
+    },
+    {
+      "category": "exam_types",
+      "question": "Which exams do you prepare students for?",
+      "answer": "We prepare students for school exams, board exams, entrance exams, and competitive exams depending on the program."
+    },
+    {
+      "category": "class_timings",
+      "question": "What are the class timings?",
+      "answer": "Class timings vary based on batches and can be scheduled in the morning, afternoon, or evening."
+    },
+    {
+      "category": "online_classes",
+      "question": "Do you offer online tuition classes?",
+      "answer": "Yes, many tuition centers offer online classes through video sessions and digital learning platforms."
+    },
+    {
+      "category": "fees_structure",
+      "question": "What is the fee structure for tuition classes?",
+      "answer": "Fees depend on the subject, grade level, and course duration. Exact details are provided during admission."
+    },
+    {
+      "category": "trial_class",
+      "question": "Is a trial class available?",
+      "answer": "Yes, some centers offer trial classes so students can understand the teaching method before enrolling."
+    },
+    {
+      "category": "study_material",
+      "question": "Will I get study materials?",
+      "answer": "Yes, study materials, notes, and practice papers are usually provided for exam preparation."
+    },
+    {
+      "category": "test_series",
+      "question": "Do you conduct regular tests?",
+      "answer": "Yes, regular tests and mock exams are conducted to evaluate student progress."
+    },
+    {
+      "category": "doubt_clearing",
+      "question": "Are doubt-clearing sessions available?",
+      "answer": "Yes, students can attend special sessions to clarify doubts and improve understanding."
+    },
+    {
+      "category": "teacher_support",
+      "question": "Do teachers provide individual attention?",
+      "answer": "Yes, teachers focus on individual student performance and provide personalized guidance."
+    },
+    {
+      "category": "exam_strategy",
+      "question": "Will I learn exam strategies and tips?",
+      "answer": "Yes, students are trained with exam techniques, time management, and answering strategies."
+    },
+    {
+      "category": "parent_updates",
+      "question": "Do you provide progress updates to parents?",
+      "answer": "Yes, regular progress reports and feedback are shared with parents."
+    },
+    {
+      "category": "batch_size",
+      "question": "How many students are in one batch?",
+      "answer": "Batch size is usually limited to ensure better focus and personalized attention."
+    },
+    {
+      "category": "progress_update",
+      "question": "How will I know my child's progress in tuition center?",
+      "answer": "Regular progress updates are shared through reports, parent meetings, or direct communication with tutors."
+    },
+    {
+      "category": "attendance_update",
+      "question": "Will I be informed if my child misses a class?",
+      "answer": "Yes, attendance updates are usually shared with parents via SMS, WhatsApp, or app notifications."
+    },
+    {
+      "category": "parent_meeting",
+      "question": "How often are parent-teacher meetings conducted?",
+      "answer": "Parent-teacher meetings are typically conducted monthly or quarterly to discuss student performance."
+    },
+    {
+      "category": "doubt_support",
+      "question": "Can I contact teachers for doubts or feedback?",
+      "answer": "Yes, parents can contact teachers through phone, WhatsApp, or scheduled meetings for academic discussions."
+    },
+    {
+      "category": "homework_update",
+      "question": "How will I know about my child's homework?",
+      "answer": "Homework details are shared through notebooks, online portals, or communication apps used by the tuition center."
+    },
+    {
+      "category": "performance_report",
+      "question": "Do you provide performance reports?",
+      "answer": "Yes, regular performance reports including test scores and improvement areas are provided to parents."
+    },
+    {
+      "category": "behavior_update",
+      "question": "Will I be informed about my child's behavior in class?",
+      "answer": "Yes, teachers inform parents if there are any behavioral concerns or notable improvements."
+    },
+    {
+      "category": "exam_preparation",
+      "question": "How do you update parents about exam preparation?",
+      "answer": "Teachers share exam schedules, revision plans, and student readiness updates with parents."
+    },
+    {
+      "category": "communication_mode",
+      "question": "What are the communication methods used?",
+      "answer": "Communication is done through WhatsApp, SMS, phone calls, emails, or parent portals."
+    },
+    {
+      "category": "emergency_contact",
+      "question": "Can I contact the tuition center in case of emergency?",
+      "answer": "Yes, emergency contact numbers are provided for urgent communication with the center."
+    },
+    {
+      "category": "fee_updates",
+      "question": "Will I get updates about fee payments?",
+      "answer": "Yes, fee reminders and payment confirmations are shared with parents regularly."
+    },
+    {
+      "category": "counseling_support",
+      "question": "Do you provide academic counseling for students?",
+      "answer": "Yes, counseling sessions are available to guide students on academic performance and improvement."
+    },
+    {
+      "category": "discipline_updates",
+      "question": "Will parents be informed about discipline issues?",
+      "answer": "Yes, any disciplinary concerns are communicated to parents immediately."
+    },
+    {
+      "category": "feedback_system",
+      "question": "Can parents give feedback about the tuition center?",
+      "answer": "Yes, feedback is welcomed through meetings, forms, or digital communication channels."
+    },
+    {
+      "category": "communication_frequency",
+      "question": "How often will I receive updates about my child?",
+      "answer": "Updates are provided regularly, depending on academic schedules, tests, and performance reviews."
+    }
+  ]
+}

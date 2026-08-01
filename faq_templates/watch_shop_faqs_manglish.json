@@ -1,0 +1,444 @@
+{
+  "faqs": [
+    {
+      "category": "store_overview",
+      "questions": [
+        "store overview undo?",
+        "store overview available ano?",
+        "store overview kurich parayamo?",
+        "store overview kittumo?",
+        "store overview options enthellam aanu?"
+      ],
+      "answer": "store overview sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "store_location",
+      "questions": [
+        "store location undo?",
+        "store location available ano?",
+        "store location kurich parayamo?",
+        "store location kittumo?",
+        "store location options enthellam aanu?"
+      ],
+      "answer": "store location sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "store_timings",
+      "questions": [
+        "store timings undo?",
+        "store timings available ano?",
+        "store timings kurich parayamo?",
+        "store timings kittumo?",
+        "store timings options enthellam aanu?"
+      ],
+      "answer": "store timings sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "watch_brands",
+      "questions": [
+        "watch brands undo?",
+        "watch brands available ano?",
+        "watch brands kurich parayamo?",
+        "watch brands kittumo?",
+        "watch brands options enthellam aanu?"
+      ],
+      "answer": "watch brands sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "new_arrivals",
+      "questions": [
+        "new arrivals undo?",
+        "new arrivals available ano?",
+        "new arrivals kurich parayamo?",
+        "new arrivals kittumo?",
+        "new arrivals options enthellam aanu?"
+      ],
+      "answer": "new arrivals sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "mens_watches",
+      "questions": [
+        "mens watches undo?",
+        "mens watches available ano?",
+        "mens watches kurich parayamo?",
+        "mens watches kittumo?",
+        "mens watches options enthellam aanu?"
+      ],
+      "answer": "mens watches sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "womens_watches",
+      "questions": [
+        "womens watches undo?",
+        "womens watches available ano?",
+        "womens watches kurich parayamo?",
+        "womens watches kittumo?",
+        "womens watches options enthellam aanu?"
+      ],
+      "answer": "womens watches sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "kids_watches",
+      "questions": [
+        "kids watches undo?",
+        "kids watches available ano?",
+        "kids watches kurich parayamo?",
+        "kids watches kittumo?",
+        "kids watches options enthellam aanu?"
+      ],
+      "answer": "kids watches sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "smartwatch_availability",
+      "questions": [
+        "smartwatch availability undo?",
+        "smartwatch availability available ano?",
+        "smartwatch availability kurich parayamo?",
+        "smartwatch availability kittumo?",
+        "smartwatch availability options enthellam aanu?"
+      ],
+      "answer": "smartwatch availability sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "fitness_tracker",
+      "questions": [
+        "fitness tracker undo?",
+        "fitness tracker available ano?",
+        "fitness tracker kurich parayamo?",
+        "fitness tracker kittumo?",
+        "fitness tracker options enthellam aanu?"
+      ],
+      "answer": "fitness tracker sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "bluetooth_calling_watch",
+      "questions": [
+        "bluetooth calling watch undo?",
+        "bluetooth calling watch available ano?",
+        "bluetooth calling watch kurich parayamo?",
+        "bluetooth calling watch kittumo?",
+        "bluetooth calling watch options enthellam aanu?"
+      ],
+      "answer": "bluetooth calling watch sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "water_resistant",
+      "questions": [
+        "water resistant undo?",
+        "water resistant available ano?",
+        "water resistant kurich parayamo?",
+        "water resistant kittumo?",
+        "water resistant options enthellam aanu?"
+      ],
+      "answer": "water resistant sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "strap_replacement",
+      "questions": [
+        "strap replacement undo?",
+        "strap replacement available ano?",
+        "strap replacement kurich parayamo?",
+        "strap replacement kittumo?",
+        "strap replacement options enthellam aanu?"
+      ],
+      "answer": "strap replacement sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "battery_replacement",
+      "questions": [
+        "battery replacement undo?",
+        "battery replacement available ano?",
+        "battery replacement kurich parayamo?",
+        "battery replacement kittumo?",
+        "battery replacement options enthellam aanu?"
+      ],
+      "answer": "battery replacement sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "watch_repair",
+      "questions": [
+        "watch repair undo?",
+        "watch repair available ano?",
+        "watch repair kurich parayamo?",
+        "watch repair kittumo?",
+        "watch repair options enthellam aanu?"
+      ],
+      "answer": "watch repair sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "watch_servicing",
+      "questions": [
+        "watch servicing undo?",
+        "watch servicing available ano?",
+        "watch servicing kurich parayamo?",
+        "watch servicing kittumo?",
+        "watch servicing options enthellam aanu?"
+      ],
+      "answer": "watch servicing sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "engraving_service",
+      "questions": [
+        "engraving service undo?",
+        "engraving service available ano?",
+        "engraving service kurich parayamo?",
+        "engraving service kittumo?",
+        "engraving service options enthellam aanu?"
+      ],
+      "answer": "engraving service sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "gift_wrapping",
+      "questions": [
+        "gift wrapping undo?",
+        "gift wrapping available ano?",
+        "gift wrapping kurich parayamo?",
+        "gift wrapping kittumo?",
+        "gift wrapping options enthellam aanu?"
+      ],
+      "answer": "gift wrapping sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "product_availability",
+      "questions": [
+        "product availability undo?",
+        "product availability available ano?",
+        "product availability kurich parayamo?",
+        "product availability kittumo?",
+        "product availability options enthellam aanu?"
+      ],
+      "answer": "product availability sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "stock_check",
+      "questions": [
+        "stock check undo?",
+        "stock check available ano?",
+        "stock check kurich parayamo?",
+        "stock check kittumo?",
+        "stock check options enthellam aanu?"
+      ],
+      "answer": "stock check sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "watch_price",
+      "questions": [
+        "watch price undo?",
+        "watch price available ano?",
+        "watch price kurich parayamo?",
+        "watch price kittumo?",
+        "watch price options enthellam aanu?"
+      ],
+      "answer": "watch price sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "smartwatch_price",
+      "questions": [
+        "smartwatch price undo?",
+        "smartwatch price available ano?",
+        "smartwatch price kurich parayamo?",
+        "smartwatch price kittumo?",
+        "smartwatch price options enthellam aanu?"
+      ],
+      "answer": "smartwatch price sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "ongoing_offers",
+      "questions": [
+        "ongoing offers undo?",
+        "ongoing offers available ano?",
+        "ongoing offers kurich parayamo?",
+        "ongoing offers kittumo?",
+        "ongoing offers options enthellam aanu?"
+      ],
+      "answer": "ongoing offers sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "festival_offers",
+      "questions": [
+        "festival offers undo?",
+        "festival offers available ano?",
+        "festival offers kurich parayamo?",
+        "festival offers kittumo?",
+        "festival offers options enthellam aanu?"
+      ],
+      "answer": "festival offers sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "manufacturer_warranty",
+      "questions": [
+        "manufacturer warranty undo?",
+        "manufacturer warranty available ano?",
+        "manufacturer warranty kurich parayamo?",
+        "manufacturer warranty kittumo?",
+        "manufacturer warranty options enthellam aanu?"
+      ],
+      "answer": "manufacturer warranty sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "warranty_claim",
+      "questions": [
+        "warranty claim undo?",
+        "warranty claim available ano?",
+        "warranty claim kurich parayamo?",
+        "warranty claim kittumo?",
+        "warranty claim options enthellam aanu?"
+      ],
+      "answer": "warranty claim sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "order_tracking",
+      "questions": [
+        "order tracking undo?",
+        "order tracking available ano?",
+        "order tracking kurich parayamo?",
+        "order tracking kittumo?",
+        "order tracking options enthellam aanu?"
+      ],
+      "answer": "order tracking sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "refund_policy",
+      "questions": [
+        "refund policy undo?",
+        "refund policy available ano?",
+        "refund policy kurich parayamo?",
+        "refund policy kittumo?",
+        "refund policy options enthellam aanu?"
+      ],
+      "answer": "refund policy sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "home_delivery",
+      "questions": [
+        "home delivery undo?",
+        "home delivery available ano?",
+        "home delivery kurich parayamo?",
+        "home delivery kittumo?",
+        "home delivery options enthellam aanu?"
+      ],
+      "answer": "home delivery sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "delivery_charges",
+      "questions": [
+        "delivery charges undo?",
+        "delivery charges available ano?",
+        "delivery charges kurich parayamo?",
+        "delivery charges kittumo?",
+        "delivery charges options enthellam aanu?"
+      ],
+      "answer": "delivery charges sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "cash_payment",
+      "questions": [
+        "cash payment undo?",
+        "cash payment available ano?",
+        "cash payment kurich parayamo?",
+        "cash payment kittumo?",
+        "cash payment options enthellam aanu?"
+      ],
+      "answer": "cash payment sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "upi_payment",
+      "questions": [
+        "upi payment undo?",
+        "upi payment available ano?",
+        "upi payment kurich parayamo?",
+        "upi payment kittumo?",
+        "upi payment options enthellam aanu?"
+      ],
+      "answer": "upi payment sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "card_payment",
+      "questions": [
+        "card payment undo?",
+        "card payment available ano?",
+        "card payment kurich parayamo?",
+        "card payment kittumo?",
+        "card payment options enthellam aanu?"
+      ],
+      "answer": "card payment sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "emi_option",
+      "questions": [
+        "emi option undo?",
+        "emi option available ano?",
+        "emi option kurich parayamo?",
+        "emi option kittumo?",
+        "emi option options enthellam aanu?"
+      ],
+      "answer": "emi option sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "gift_watches",
+      "questions": [
+        "gift watches undo?",
+        "gift watches available ano?",
+        "gift watches kurich parayamo?",
+        "gift watches kittumo?",
+        "gift watches options enthellam aanu?"
+      ],
+      "answer": "gift watches sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "corporate_gifts",
+      "questions": [
+        "corporate gifts undo?",
+        "corporate gifts available ano?",
+        "corporate gifts kurich parayamo?",
+        "corporate gifts kittumo?",
+        "corporate gifts options enthellam aanu?"
+      ],
+      "answer": "corporate gifts sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "bulk_orders",
+      "questions": [
+        "bulk orders undo?",
+        "bulk orders available ano?",
+        "bulk orders kurich parayamo?",
+        "bulk orders kittumo?",
+        "bulk orders options enthellam aanu?"
+      ],
+      "answer": "bulk orders sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "genuine_products",
+      "questions": [
+        "genuine products undo?",
+        "genuine products available ano?",
+        "genuine products kurich parayamo?",
+        "genuine products kittumo?",
+        "genuine products options enthellam aanu?"
+      ],
+      "answer": "genuine products sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "authenticity_certificate",
+      "questions": [
+        "authenticity certificate undo?",
+        "authenticity certificate available ano?",
+        "authenticity certificate kurich parayamo?",
+        "authenticity certificate kittumo?",
+        "authenticity certificate options enthellam aanu?"
+      ],
+      "answer": "authenticity certificate sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    },
+    {
+      "category": "after_sales_support",
+      "questions": [
+        "after sales support undo?",
+        "after sales support available ano?",
+        "after sales support kurich parayamo?",
+        "after sales support kittumo?",
+        "after sales support options enthellam aanu?"
+      ],
+      "answer": "after sales support sambandhicha vivarangal labhyam aanu. Availability, price, specification eniva vary cheyyum."
+    }
+  ]
+}

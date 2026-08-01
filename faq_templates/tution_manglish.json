@@ -1,0 +1,829 @@
+{
+  "faqs": [
+    {
+      "category": "admission_overview",
+      "question": "Tution center-il admission process engane aanu?",
+      "answer": "Admission process simple aanu. Student details fill cheyyuka, course select cheyyuka, pinne fee payment cheythu enrollment complete cheyyam."
+    },
+    {
+      "category": "enrollment_requirements",
+      "question": "Enrollment cheyyan entha details venam?",
+      "answer": "Student name, class, contact number, parent details, and address venam admissioninu."
+    },
+    {
+      "category": "online_enrollment",
+      "question": "Online ayi enrollment cheyyan pattumo?",
+      "answer": "Yes, many tuition centers-il online registration form fill cheythu enrollment cheyyan pattum."
+    },
+    {
+      "category": "offline_enrollment",
+      "question": "Direct center-il poyi admission edukkan pattumo?",
+      "answer": "Yes, center-il direct poyi form fill cheythu admission edukkan pattum."
+    },
+    {
+      "category": "admission_fee",
+      "question": "Admission fee ethra aanu?",
+      "answer": "Fee course and class depend cheyyum. Exact amount center-il confirm cheyyum."
+    },
+    {
+      "category": "monthly_fees",
+      "question": "Monthly tuition fee engane pay cheyyam?",
+      "answer": "Monthly fee cash, UPI, or online transfer use cheythu pay cheyyam."
+    },
+    {
+      "category": "installments",
+      "question": "Fee installments-il pay cheyyan pattumo?",
+      "answer": "Yes, some centers-il installment options available aayirikkum."
+    },
+    {
+      "category": "documents_required",
+      "question": "Admissioninu entha documents venam?",
+      "answer": "Student ID proof, previous mark list, and parent ID proof venam aayirikkam."
+    },
+    {
+      "category": "age_limit",
+      "question": "Admissioninu age limit undo?",
+      "answer": "Course anusarich age limit undavum, pakshe most tuition centers flexible aanu."
+    },
+    {
+      "category": "batch_allocation",
+      "question": "Batch engane select cheyyam?",
+      "answer": "Morning, evening, weekend batches available aanu. Student convenience anusarich choose cheyyam."
+    },
+    {
+      "category": "class_schedule",
+      "question": "Class schedule engane ariyam?",
+      "answer": "Admission kazhinjal timetable provide cheyyum or WhatsApp group-il share cheyyum."
+    },
+    {
+      "category": "trial_class",
+      "question": "Trial class kittumo enrollment munpe?",
+      "answer": "Yes, some centers trial class provide cheyyum before admission."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Admission kazhinjal refund kittumo?",
+      "answer": "Usually refund illa, pakshe center policy depend cheyyum."
+    },
+    {
+      "category": "course_change",
+      "question": "Course change cheyyan pattumo after admission?",
+      "answer": "Yes, availability undengil course change cheyyan pattum."
+    },
+    {
+      "category": "support",
+      "question": "Admission related doubts clarify cheyyan help kittumo?",
+      "answer": "Yes, center staff full support provide cheyyum enrollment and admission process-il."
+    },
+    {
+      "category": "fees_overview",
+      "question": "Tution center fees ethra aanu?",
+      "answer": "Fees course, subject, and class level depend cheyyum. Exact amount center-il ariyikkum."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Fees payment engane cheyyam?",
+      "answer": "Cash, UPI, bank transfer, and card payment options usually available aanu."
+    },
+    {
+      "category": "installments",
+      "question": "Fees installment aayi pay cheyyan pattumo?",
+      "answer": "Yes, monthly or term-wise installment options available aayirikkam."
+    },
+    {
+      "category": "admission_fee",
+      "question": "Admission fee venamo?",
+      "answer": "Yes, some tuition centers-il admission or registration fee undavum."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Fees refund kittumo?",
+      "answer": "Usually refund illa, pakshe center policy anusarich vary cheyyam."
+    },
+    {
+      "category": "late_payment",
+      "question": "Fees late aayal entha sambhavikkum?",
+      "answer": "Late payment-il fine varam allenkil class suspension aavum."
+    },
+    {
+      "category": "discounts",
+      "question": "Discounts available aano?",
+      "answer": "Yes, sibling discount, early admission offer, or merit-based discounts varam."
+    },
+    {
+      "category": "scholarship",
+      "question": "Scholarship options undo?",
+      "answer": "Some centers-il scholarship or fee concession available aayirikkam based on performance."
+    },
+    {
+      "category": "monthly_fees",
+      "question": "Monthly fees pay cheyyan pattumo?",
+      "answer": "Yes, many tuition centers monthly fee structure follow cheyyunnu."
+    },
+    {
+      "category": "extra_charges",
+      "question": "Extra charges undo?",
+      "answer": "Exam fees, study materials, and special classes-ku extra charges varam."
+    },
+    {
+      "category": "fee_receipt",
+      "question": "Payment receipt kittumo?",
+      "answer": "Yes, every payment-inum official receipt provide cheyyum."
+    },
+    {
+      "category": "online_payment",
+      "question": "Online payment cheyyan pattumo?",
+      "answer": "Yes, most centers UPI or online banking accept cheyyum."
+    },
+    {
+      "category": "fee_structure",
+      "question": "Fee structure engane ariyam?",
+      "answer": "Admission time-il full fee structure explain cheyyum."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Advance payment venamo?",
+      "answer": "Yes, some centers-il first month or registration advance collect cheyyum."
+    },
+    {
+      "category": "support",
+      "question": "Fees related doubts clear cheyyan help kittumo?",
+      "answer": "Yes, center staff full support provide cheyyum fees and payment clarification-inu."
+    },
+    {
+      "category": "class_timing_overview",
+      "question": "Tution center class timings eppozha aayirikkum?",
+      "answer": "Usually tution classes morning, evening, allenkil after school hours-il conduct cheyyum, batch anusarichu vary cheyyum."
+    },
+    {
+      "category": "daily_schedule",
+      "question": "Daily schedule engane arrange cheythirikkum?",
+      "answer": "Subjects based ayi timetable set cheyyum, each class fixed duration-il conduct cheyyum."
+    },
+    {
+      "category": "batch_timing",
+      "question": "Different batch timings undo?",
+      "answer": "Yes, morning batch, evening batch, and weekend batch options available aayirikkam."
+    },
+    {
+      "category": "weekend_classes",
+      "question": "Weekend classes available aano?",
+      "answer": "Yes, many tution centers-il Saturday and Sunday special classes undavum."
+    },
+    {
+      "category": "timing_flexibility",
+      "question": "Class timing flexible aano?",
+      "answer": "Some centers flexible timing offer cheyyum depending on student requirement."
+    },
+    {
+      "category": "holiday_schedule",
+      "question": "Holidays-il class undavumo?",
+      "answer": "Public holidays-il usually class illa, pakshe exam time-il special classes nadakkam."
+    },
+    {
+      "category": "exam_batch",
+      "question": "Exam time-il extra classes undo?",
+      "answer": "Yes, revision classes and crash courses exam season-il provide cheyyum."
+    },
+    {
+      "category": "late_class",
+      "question": "Late evening classes available aano?",
+      "answer": "Yes, school kazhinju late evening batches conduct cheyyum."
+    },
+    {
+      "category": "attendance_time",
+      "question": "Class time-il late aayal entha cheyyum?",
+      "answer": "Regular late attendance avoid cheyyanam, pakshe occasional delay accept cheyyam."
+    },
+    {
+      "category": "class_duration",
+      "question": "Oru class ethra neram aayirikkum?",
+      "answer": "Usually 1 to 2 hours vare each session undavum."
+    },
+    {
+      "category": "subject_schedule",
+      "question": "Subjects schedule engane decide cheyyum?",
+      "answer": "Maths, science, English etc. weekly timetable basis-il rotate cheyyum."
+    },
+    {
+      "category": "online_classes",
+      "question": "Online classes available aano?",
+      "answer": "Yes, some tuition centers online and offline classes provide cheyyum."
+    },
+    {
+      "category": "holiday_revision",
+      "question": "Holidays-il revision classes undo?",
+      "answer": "Yes, exam period-il holiday revision classes arrange cheyyum."
+    },
+    {
+      "category": "special_classes",
+      "question": "Special doubt clearing classes undo?",
+      "answer": "Yes, doubt clearing sessions separate ayi conduct cheyyum."
+    },
+    {
+      "category": "schedule_changes",
+      "question": "Class schedule change aavumo?",
+      "answer": "Yes, exam schedules or teacher availability anusarich timing change aavum, advance notice provide cheyyum."
+    },
+    {
+      "category": "teaching_overview",
+      "question": "Tution center-il teachers engane aanu?",
+      "answer": "Tution center-il experienced and qualified teachers aanu classes handle cheyyunnath, students-ine concept clear aakkan focus cheyyum."
+    },
+    {
+      "category": "teaching_method",
+      "question": "Teaching method enthaanu tution center-il follow cheyyunnath?",
+      "answer": "Simple explanation, concept-based learning, and regular practice tests use cheythu teaching nadathum."
+    },
+    {
+      "category": "concept_clarity",
+      "question": "Concept clear aakkan teachers engane help cheyyum?",
+      "answer": "Doubts clear cheyyan extra explanation, examples, and revision sessions provide cheyyum."
+    },
+    {
+      "category": "doubt_clearing",
+      "question": "Doubts clear cheyyan separate class undo?",
+      "answer": "Yes, many tution centers-il doubt clearing sessions separate aayi nadathum."
+    },
+    {
+      "category": "exam_preparation",
+      "question": "Exam preparation teachers engane support cheyyum?",
+      "answer": "Important questions, revision notes, and mock exams provide cheythu exam preparation help cheyyum."
+    },
+    {
+      "category": "individual_attention",
+      "question": "Each student-inu individual attention kittumo?",
+      "answer": "Yes, small batches-il personal attention koduthu weak students-ne improve cheyyum."
+    },
+    {
+      "category": "teaching_style",
+      "question": "Teaching style boring aayirikkumo?",
+      "answer": "Illa, interactive and activity-based classes use cheythu interesting aakkum."
+    },
+    {
+      "category": "online_classes",
+      "question": "Online classes available aano?",
+      "answer": "Yes, many centers online and offline classes provide cheyyum."
+    },
+    {
+      "category": "study_material",
+      "question": "Study materials teachers provide cheyyumo?",
+      "answer": "Yes, notes, worksheets, and practice papers teachers provide cheyyum."
+    },
+    {
+      "category": "homework_support",
+      "question": "Homework help teachers provide cheyyumo?",
+      "answer": "Yes, homework and assignment support teachers provide cheyyum."
+    },
+    {
+      "category": "progress_tracking",
+      "question": "Student progress engane track cheyyum?",
+      "answer": "Regular tests and performance reports use cheythu progress monitor cheyyum."
+    },
+    {
+      "category": "weak_students",
+      "question": "Weak students-ne teachers engane handle cheyyum?",
+      "answer": "Extra practice, simple explanations, and additional support classes provide cheyyum."
+    },
+    {
+      "category": "exam_focus",
+      "question": "Only exam-oriented teaching aano?",
+      "answer": "Illa, concept understanding and exam preparation randum balance cheyyum."
+    },
+    {
+      "category": "language_support",
+      "question": "Malayalam and English-il teaching undo?",
+      "answer": "Yes, students understand cheyyan easy aakkan bilingual teaching use cheyyum."
+    },
+    {
+      "category": "parent_feedback",
+      "question": "Parents-ine feedback teachers provide cheyyumo?",
+      "answer": "Yes, regular parent-teacher meetings and progress updates provide cheyyum."
+    },
+    {
+      "category": "exam_overview",
+      "question": "Tution center-il exams nadakkumo?",
+      "answer": "Yes, most tution centers-il regular exams and tests conduct cheyyum students progress check cheyyan vendi."
+    },
+    {
+      "category": "test_frequency",
+      "question": "Tests ethra neram kazhinju nadakkum?",
+      "answer": "Weekly tests, monthly exams, and revision tests regularly conduct cheyyum."
+    },
+    {
+      "category": "exam_importance",
+      "question": "Tution exams important aano?",
+      "answer": "Yes, students performance improve cheyyanum board exams preparation strong aakkanum ith very important aanu."
+    },
+    {
+      "category": "syllabus_coverage",
+      "question": "Tests syllabus full cover cheyyumo?",
+      "answer": "Yes, portions complete aayal revision tests and mock exams syllabus full cover cheyyum."
+    },
+    {
+      "category": "mock_exams",
+      "question": "Mock exams nadakkumo?",
+      "answer": "Yes, board exam pattern follow cheythu mock exams conduct cheyyum."
+    },
+    {
+      "category": "exam_results",
+      "question": "Test results eppozha kittum?",
+      "answer": "Usually exam kazhinju kurachu days-il results and marks report provide cheyyum."
+    },
+    {
+      "category": "performance_tracking",
+      "question": "Parents-ine performance update kittumo?",
+      "answer": "Yes, regular progress reports and parent-teacher meetings available aanu."
+    },
+    {
+      "category": "exam_preparation",
+      "question": "Exam preparation help kittumo tution-il?",
+      "answer": "Yes, revision classes, doubt clearing sessions, and study materials provide cheyyum."
+    },
+    {
+      "category": "doubt_clearing",
+      "question": "Doubts clear cheyyan separate classes undo?",
+      "answer": "Yes, special doubt clearing sessions arrange cheyyum."
+    },
+    {
+      "category": "exam_difficulty",
+      "question": "Tution exams difficult aano?",
+      "answer": "No, level gradually increase cheyyum students better performance achieve cheyyan."
+    },
+    {
+      "category": "revision_tests",
+      "question": "Revision tests undavumo?",
+      "answer": "Yes, final exams munpe revision tests conduct cheyyum."
+    },
+    {
+      "category": "attendance_exam",
+      "question": "Attendance exams-il affect cheyyumo?",
+      "answer": "Yes, regular attendance exams preparation strong aakkan help cheyyum."
+    },
+    {
+      "category": "exam_schedule",
+      "question": "Exam schedule eppozha ariyikkum?",
+      "answer": "Monthly or weekly schedule students-um parents-um advance-il inform cheyyum."
+    },
+    {
+      "category": "online_tests",
+      "question": "Online tests available aano?",
+      "answer": "Some tution centers-il online test platforms available aanu."
+    },
+    {
+      "category": "final_exam_support",
+      "question": "Final board examsinu support kittumo?",
+      "answer": "Yes, full revision classes and model exams provide cheyyum board exam preparationinu."
+    },
+    {
+      "category": "class_modes_overview",
+      "question": "Online and offline tuition classes entha difference?",
+      "answer": "Offline classes center-il attend cheyyum, online classes mobile or laptop use cheythu home-il ninnu attend cheyyam."
+    },
+    {
+      "category": "online_classes",
+      "question": "Online tuition classes engane nadakkum?",
+      "answer": "Live classes Zoom, Google Meet, allenkil app through nadakkum, notes and recordings provide cheyyum."
+    },
+    {
+      "category": "offline_classes",
+      "question": "Offline tuition classes-il entha advantage?",
+      "answer": "Direct teacher interaction, classroom environment, and immediate doubt clearing offline classes-il kittum."
+    },
+    {
+      "category": "class_booking",
+      "question": "Tuition class engane join cheyyam?",
+      "answer": "Admission form fill cheythu online or offline ayi enrollment cheyyam."
+    },
+    {
+      "category": "fees",
+      "question": "Tuition fees ethra aanu?",
+      "answer": "Fees course, class type, and duration depend cheyyum. Exact details center-il confirm cheyyum."
+    },
+    {
+      "category": "recorded_classes",
+      "question": "Online classes-il recordings kittumo?",
+      "answer": "Yes, many tuition centers recorded sessions provide cheyyum revisioninu vendi."
+    },
+    {
+      "category": "doubts",
+      "question": "Doubts clear cheyyan online classes-il pattumo?",
+      "answer": "Yes, live chat, doubt sessions, and WhatsApp support through doubts clear cheyyam."
+    },
+    {
+      "category": "attendance",
+      "question": "Online classes-il attendance track cheyyumo?",
+      "answer": "Yes, login tracking or attendance system use cheythu monitor cheyyum."
+    },
+    {
+      "category": "offline_timing",
+      "question": "Offline classes timing eppozha?",
+      "answer": "Morning or evening batches available aayirikkum, subject and center depend cheyyum."
+    },
+    {
+      "category": "online_requirements",
+      "question": "Online class attend cheyyan entha venam?",
+      "answer": "Smartphone or laptop, stable internet connection, and app access venam."
+    },
+    {
+      "category": "exam_preparation",
+      "question": "Tuition center exam preparation help cheyyumo?",
+      "answer": "Yes, mock tests, revisions, and exam-oriented classes provide cheyyum."
+    },
+    {
+      "category": "batch_size",
+      "question": "Offline classes-il batch size kurach aayirikkumo?",
+      "answer": "Yes, small batches maintain cheyyum better attentioninu vendi."
+    },
+    {
+      "category": "switch_mode",
+      "question": "Online to offline switch cheyyan pattumo?",
+      "answer": "Yes, many centers flexible mode switching allow cheyyum."
+    },
+    {
+      "category": "study_material",
+      "question": "Study materials kittumo?",
+      "answer": "Yes, both online PDF notes and offline printed materials provide cheyyum."
+    },
+    {
+      "category": "support",
+      "question": "Teachers support eppozha available?",
+      "answer": "Online doubt clearing sessions and offline direct support both available aayirikkum."
+    },
+    {
+      "category": "attendance_overview",
+      "question": "Tuition center-il attendance important aano?",
+      "answer": "Yes, attendance very important aanu. Regular attendance illenkil studies miss aavum."
+    },
+    {
+      "category": "attendance_marking",
+      "question": "Attendance engane mark cheyyum?",
+      "answer": "Daily class start-il teacher attendance mark cheyyum, some centers-il digital system use cheyyum."
+    },
+    {
+      "category": "late_arrival",
+      "question": "Class-il late aayi vannal entha cheyyum?",
+      "answer": "Late arrival attendance affect cheyyam, teacher note cheyyum and repeated late avoid cheyyanam."
+    },
+    {
+      "category": "absent_rules",
+      "question": "Absent aayal entha cheyyanam?",
+      "answer": "Absent aayal parents inform cheyyanam and missed topics catch up cheyyanam."
+    },
+    {
+      "category": "leave_request",
+      "question": "Leave edukkan engane request cheyyam?",
+      "answer": "Prior notice teacher or management-ne inform cheythu leave request cheyyam."
+    },
+    {
+      "category": "attendance_percentage",
+      "question": "Minimum attendance venamo?",
+      "answer": "Yes, most tuition centers 75%–90% attendance maintain cheyyan require cheyyum."
+    },
+    {
+      "category": "punctuality",
+      "question": "Punctuality important aano?",
+      "answer": "Yes, timely class attend cheyyunnath discipline and learning improve cheyyum."
+    },
+    {
+      "category": "discipline_rules",
+      "question": "Class-il discipline rules enthaanu?",
+      "answer": "Silence maintain cheyyuka, teacher respect cheyyuka, and distractions avoid cheyyuka."
+    },
+    {
+      "category": "mobile_usage",
+      "question": "Class-il mobile phone use cheyyan pattumo?",
+      "answer": "No, mobile phones strictly restricted aanu class time-il."
+    },
+    {
+      "category": "behavior",
+      "question": "Class-il bad behavior undengil entha cheyyum?",
+      "answer": "Repeated misbehavior disciplinary action or parents notification varam."
+    },
+    {
+      "category": "homework_discipline",
+      "question": "Homework complete cheyyan venamo?",
+      "answer": "Yes, homework timely complete cheyyunnath discipline part aanu."
+    },
+    {
+      "category": "parent_notification",
+      "question": "Attendance low aayal parents-ne inform cheyyumo?",
+      "answer": "Yes, regular low attendance undengil parents-ne inform cheyyum."
+    },
+    {
+      "category": "exam_preparation",
+      "question": "Attendance exam performance affect cheyyumo?",
+      "answer": "Yes, regular attendance exam preparation strong aakkum."
+    },
+    {
+      "category": "discipline_action",
+      "question": "Rules break cheythal entha action varum?",
+      "answer": "Warning, counseling, or strict disciplinary action edukkum depending on situation."
+    },
+    {
+      "category": "overall_behavior",
+      "question": "Good discipline maintain cheyyan entha cheyyanam?",
+      "answer": "Respect teachers, follow rules, attend classes regularly, and focus on studies."
+    },
+    {
+      "category": "study_material_overview",
+      "question": "Tution center-il study material kittumo?",
+      "answer": "Yes, most tution centers students-ine vendi notes, worksheets, and practice papers provide cheyyum."
+    },
+    {
+      "category": "study_material_types",
+      "question": "Enthellam study materials aanu provide cheyyunnath?",
+      "answer": "Printed notes, PDF materials, assignments, question banks, and model exam papers provide cheyyum."
+    },
+    {
+      "category": "notes_quality",
+      "question": "Study notes simple aayi understand cheyyan easy aano?",
+      "answer": "Yes, tution center notes simple language-il explain cheythu easy aayi study cheyyan help cheyyum."
+    },
+    {
+      "category": "subject_wise_material",
+      "question": "Ellaa subjects-innum study material kittumo?",
+      "answer": "Yes, Maths, Science, English, and other subjects-innum separate materials provide cheyyum."
+    },
+    {
+      "category": "exam_preparation",
+      "question": "Exam preparation-inu study material useful aano?",
+      "answer": "Yes, model question papers and revision notes exam preparation-inu highly useful aanu."
+    },
+    {
+      "category": "updated_material",
+      "question": "Study materials updated aayirikkumo?",
+      "answer": "Yes, syllabus changes anusarich updated materials regularly provide cheyyum."
+    },
+    {
+      "category": "practice_papers",
+      "question": "Practice papers kittumo?",
+      "answer": "Yes, regular practice tests and previous year question papers available aanu."
+    },
+    {
+      "category": "digital_material",
+      "question": "Online PDF study materials kittumo?",
+      "answer": "Yes, many tution centers PDF or digital notes WhatsApp or email vazhi share cheyyum."
+    },
+    {
+      "category": "doubt_clearing",
+      "question": "Study material use cheythu doubts clear cheyyan pattumo?",
+      "answer": "Yes, teachers doubts clear cheyyum based on provided materials."
+    },
+    {
+      "category": "homework_support",
+      "question": "Study material homework-inu help cheyyumo?",
+      "answer": "Yes, assignments and worksheets homework complete cheyyan help cheyyum."
+    },
+    {
+      "category": "revision_support",
+      "question": "Revision-inu study material useful aano?",
+      "answer": "Yes, short notes and summary sheets revision easy aakkum."
+    },
+    {
+      "category": "exam_notes",
+      "question": "Important exam notes kittumo?",
+      "answer": "Yes, important questions and key points highlight cheytha notes provide cheyyum."
+    },
+    {
+      "category": "material_cost",
+      "question": "Study materials free aano allenkil paid aano?",
+      "answer": "Some materials free aayirikkum, advanced books or printed sets paid aayirikkam."
+    },
+    {
+      "category": "extra_material",
+      "question": "Extra reference books provide cheyyumo?",
+      "answer": "Yes, additional reference books recommend cheyyum if needed."
+    },
+    {
+      "category": "student_support",
+      "question": "Study materials students-ine improve cheyyan help cheyyumo?",
+      "answer": "Yes, structured materials learning easy aakkum and performance improve cheyyum."
+    },
+    {
+      "category": "location_overview",
+      "question": "Tution center evide aanu located?",
+      "answer": "Tution center exact location Google Maps-il allenkil contact cheythu ariyam. Easy access area-il aanu usually located."
+    },
+    {
+      "category": "how_to_reach",
+      "question": "Center-il reach cheyyan engane directions kittum?",
+      "answer": "Google Maps link, WhatsApp location, allenkil call cheythu directions easily kittum."
+    },
+    {
+      "category": "nearby_landmark",
+      "question": "Nearby landmark enthanu?",
+      "answer": "Tution center usually bus stop, school, metro station, allenkil famous landmark near-il aayirikkum."
+    },
+    {
+      "category": "public_transport",
+      "question": "Public transport use cheythu varan pattumo?",
+      "answer": "Yes, bus, metro, train ellam use cheythu easily reach cheyyam."
+    },
+    {
+      "category": "parking",
+      "question": "Parking facility undo?",
+      "answer": "Yes, students and parents-inu parking facility available aayirikkam."
+    },
+    {
+      "category": "classroom_facilities",
+      "question": "Classroom facilities enthaanu?",
+      "answer": "Spacious classrooms, whiteboard, proper seating, and clean environment provide cheyyum."
+    },
+    {
+      "category": "digital_classes",
+      "question": "Digital classes available aano?",
+      "answer": "Yes, some centers smart boards, projectors, and online learning support provide cheyyum."
+    },
+    {
+      "category": "study_material",
+      "question": "Study materials kittumo?",
+      "answer": "Yes, notes, worksheets, and exam materials tution center provide cheyyum."
+    },
+    {
+      "category": "library_facility",
+      "question": "Library facility undo?",
+      "answer": "Some centers-il reference books and small library facility available aayirikkam."
+    },
+    {
+      "category": "lab_facility",
+      "question": "Science lab facility undo?",
+      "answer": "Higher classes-inu science lab or practical sessions provide cheyyam."
+    },
+    {
+      "category": "safety",
+      "question": "Students safety assured aano?",
+      "answer": "Yes, CCTV monitoring and safe learning environment maintain cheyyum."
+    },
+    {
+      "category": "timing",
+      "question": "Class timing eppozha?",
+      "answer": "Morning or evening batches available aayirikkam, flexible timing options undu."
+    },
+    {
+      "category": "online_location_support",
+      "question": "Location doubt undengil help kittumo?",
+      "answer": "Yes, staff WhatsApp or call through full location support provide cheyyum."
+    },
+    {
+      "category": "batch_location",
+      "question": "Different branches undo?",
+      "answer": "Some tution centers multiple branches operate cheyyum, preferred branch select cheyyam."
+    },
+    {
+      "category": "accessibility",
+      "question": "Wheelchair accessibility undo?",
+      "answer": "Yes, most modern centers accessible infrastructure maintain cheyyum."
+    },
+    {
+      "category": "tuition_overview",
+      "question": "Tuition center ennathu enthaanu?",
+      "answer": "Tuition center ennathu students-ine school subjects exam preparationinu help cheyyunna coaching center aanu."
+    },
+    {
+      "category": "admission",
+      "question": "Tuition classes-il admission engane edukkam?",
+      "answer": "Center visit cheythu, online form fill cheythu, allenkil call cheythu admission edukkam."
+    },
+    {
+      "category": "subjects",
+      "question": "Enthellam subjects tuition-il teach cheyyum?",
+      "answer": "Maths, Science, English, Social Science, and other school subjects usually cover cheyyum."
+    },
+    {
+      "category": "exam_preparation",
+      "question": "Exam preparation engane help cheyyum?",
+      "answer": "Regular classes, revision sessions, model exams, and doubt clearing sessions provide cheyyum."
+    },
+    {
+      "category": "study_material",
+      "question": "Study materials tuition-il kittumo?",
+      "answer": "Yes, notes, worksheets, and important questions provide cheyyum."
+    },
+    {
+      "category": "test_series",
+      "question": "Regular tests undavumo?",
+      "answer": "Yes, weekly and monthly tests conduct cheyyum performance improve cheyyan."
+    },
+    {
+      "category": "doubt_clearing",
+      "question": "Doubts clear cheyyan special class undo?",
+      "answer": "Yes, doubt clearing sessions and extra classes available aanu."
+    },
+    {
+      "category": "timing",
+      "question": "Tuition class timing eppozha?",
+      "answer": "Morning or evening batches available aayirikkum, center anusarich vary cheyyum."
+    },
+    {
+      "category": "fees",
+      "question": "Tuition fees ethra aanu?",
+      "answer": "Fees subject, class, and duration depend cheyyum. Exact details center-il kittum."
+    },
+    {
+      "category": "online_classes",
+      "question": "Online tuition classes available aano?",
+      "answer": "Yes, many centers online and offline classes provide cheyyum."
+    },
+    {
+      "category": "exam_boost",
+      "question": "Marks improve cheyyan tuition help cheyyumo?",
+      "answer": "Yes, structured learning and practice exams marks improve cheyyan help cheyyum."
+    },
+    {
+      "category": "teacher_support",
+      "question": "Teachers doubt clear cheyyumo?",
+      "answer": "Yes, experienced teachers personal guidance provide cheyyum."
+    },
+    {
+      "category": "revision",
+      "question": "Exam time-il revision class undavumo?",
+      "answer": "Yes, special revision batches exam time-il conduct cheyyum."
+    },
+    {
+      "category": "attendance",
+      "question": "Regular attendance important aano?",
+      "answer": "Yes, consistent attendance better understanding and resultsinu help cheyyum."
+    },
+    {
+      "category": "performance_tracking",
+      "question": "Student progress track cheyyumo?",
+      "answer": "Yes, tests and reports use cheythu performance monitor cheyyum."
+    },
+    {
+      "category": "parent_communication_overview",
+      "question": "Tution center-il parent communication enthaanu?",
+      "answer": "Parent communication ennathu student progress, attendance, and performance parents-ine regular aayi update cheyyunna system aanu."
+    },
+    {
+      "category": "progress_updates",
+      "question": "Ente child-inde progress engane ariyam?",
+      "answer": "Weekly or monthly progress reports, tests, and teacher feedback vazhi progress ariyam."
+    },
+    {
+      "category": "attendance_updates",
+      "question": "Attendance parents-ine update cheyyumo?",
+      "answer": "Yes, daily or weekly attendance SMS, app notification, or WhatsApp vazhi update cheyyum."
+    },
+    {
+      "category": "parent_meetings",
+      "question": "Parent-teacher meeting eppozha nadakkum?",
+      "answer": "Monthly or term-wise PTA meetings arrange cheyyum student performance discuss cheyyan."
+    },
+    {
+      "category": "communication_mode",
+      "question": "Communication engane nadakkum?",
+      "answer": "WhatsApp, SMS, phone calls, and parent apps use cheythu communication nadakkum."
+    },
+    {
+      "category": "emergency_contact",
+      "question": "Emergency situation-il parents-ine contact cheyyumo?",
+      "answer": "Yes, student-related emergency undengil immediately parents-ine contact cheyyum."
+    },
+    {
+      "category": "homework_updates",
+      "question": "Homework updates parents-ine kittumo?",
+      "answer": "Yes, homework details WhatsApp or app vazhi share cheyyum."
+    },
+    {
+      "category": "exam_performance",
+      "question": "Exam marks parents-ine ariyikkumo?",
+      "answer": "Yes, test results and exam performance reports regular aayi share cheyyum."
+    },
+    {
+      "category": "discipline_updates",
+      "question": "Discipline issues parents-ine inform cheyyumo?",
+      "answer": "Yes, behavior or discipline issues undengil parents-ine inform cheyyum."
+    },
+    {
+      "category": "feedback_system",
+      "question": "Parents feedback provide cheyyan pattumo?",
+      "answer": "Yes, feedback forms or direct communication through teachers available aanu."
+    },
+    {
+      "category": "app_communication",
+      "question": "Tution app use cheyyunnundo communication-inu?",
+      "answer": "Many centers parent app use cheyyum attendance, homework, and updates-inu."
+    },
+    {
+      "category": "missed_class_update",
+      "question": "Class miss aayal update kittumo?",
+      "answer": "Yes, missed class notes or recordings available aayirikkum."
+    },
+    {
+      "category": "fee_updates",
+      "question": "Fees related updates parents-ine kittumo?",
+      "answer": "Yes, fee reminders and payment confirmations share cheyyum."
+    },
+    {
+      "category": "teacher_contact",
+      "question": "Teacher-ne direct contact cheyyan pattumo?",
+      "answer": "Yes, scheduled time-il teachers-ine contact cheyyan facility undu."
+    },
+    {
+      "category": "monthly_report",
+      "question": "Monthly report parents-ine kittumo?",
+      "answer": "Yes, monthly academic performance report provide cheyyum."
+    }
+  ]
+}

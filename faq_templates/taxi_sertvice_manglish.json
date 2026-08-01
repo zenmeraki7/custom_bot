@@ -1,0 +1,529 @@
+{
+  "faqs": [
+    {
+      "category": "booking_overview",
+      "question": "Taxi book cheyyan engane start cheyyam?",
+      "answer": "Taxi book cheyyan app, website, allenkil call service use cheyyam. Pickup location and drop location enter cheythal mathi."
+    },
+    {
+      "category": "instant_booking",
+      "question": "Ippo thanne taxi kittumo?",
+      "answer": "Yes, instant booking option use cheythal nearby available taxi assign cheyyum."
+    },
+    {
+      "category": "advance_booking",
+      "question": "Munnottu taxi book cheyyan pattumo?",
+      "answer": "Yes, advance booking cheythu future date and time select cheyyam."
+    },
+    {
+      "category": "fare_estimate",
+      "question": "Taxi fare engane calculate cheyyum?",
+      "answer": "Distance, time, traffic, and vehicle type anusarichu fare calculate cheyyum."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Taxi payment engane cheyyam?",
+      "answer": "Cash, UPI, card, and wallet payments available aayirikkum."
+    },
+    {
+      "category": "driver_info",
+      "question": "Driver details kittumo booking kazhinjal?",
+      "answer": "Yes, driver name, photo, and vehicle details booking confirm aayal kittum."
+    },
+    {
+      "category": "ride_tracking",
+      "question": "Taxi track cheyyan pattumo?",
+      "answer": "Yes, live GPS tracking app-il kittum."
+    },
+    {
+      "category": "cancellation",
+      "question": "Taxi cancel cheyyan pattumo?",
+      "answer": "Yes, ride start aakunnathinu munpu cancel cheyyam, cancellation charge apply aavum."
+    },
+    {
+      "category": "waiting_time",
+      "question": "Taxi ethra neram-il varum?",
+      "answer": "Usually 5 to 15 minutes ullil taxi arrive cheyyum, location depend cheyyum."
+    },
+    {
+      "category": "safety",
+      "question": "Taxi service safe aano?",
+      "answer": "Yes, verified drivers and GPS tracking use cheyyunnath kond safe aanu."
+    },
+    {
+      "category": "night_service",
+      "question": "Night-il taxi available aano?",
+      "answer": "Yes, most taxi services 24/7 available aanu."
+    },
+    {
+      "category": "luggage",
+      "question": "Luggage kondu pokan pattumo?",
+      "answer": "Yes, normal luggage carry cheyyan pattum, pakshe extra luggage mention cheyyanam."
+    },
+    {
+      "category": "ride_types",
+      "question": "Taxi types enthaanu available?",
+      "answer": "Mini, sedan, SUV, luxury cars enniva options available aayirikkum."
+    },
+    {
+      "category": "ride_share",
+      "question": "Shared taxi available aano?",
+      "answer": "Some services-il shared ride option available aayirikkum."
+    },
+    {
+      "category": "support",
+      "question": "Help or complaint eppozha contact cheyyam?",
+      "answer": "24/7 customer support available aanu, app or helpline use cheyyam."
+    },
+    {
+      "category": "fare_overview",
+      "question": "Taxi fare engane calculate cheyyunnu?",
+      "answer": "Taxi fare usually base fare + distance + time + waiting charges combine cheythu calculate cheyyum."
+    },
+    {
+      "category": "starting_fare",
+      "question": "Taxi starting fare ethra aanu?",
+      "answer": "Starting fare city and service depend cheyyum, usually minimum charge undavum ride start aakumbo."
+    },
+    {
+      "category": "per_km_rate",
+      "question": "Per kilometer rate engane aanu?",
+      "answer": "Each kilometer travel cheyyumbo fixed rate charge cheyyum, traffic and city anusarich vary cheyyam."
+    },
+    {
+      "category": "peak_time_fare",
+      "question": "Peak time-il fare koodumo?",
+      "answer": "Yes, rush hours, rain, and festival time-il surge pricing apply aavum."
+    },
+    {
+      "category": "night_charges",
+      "question": "Night time taxi fare kooduthal aano?",
+      "answer": "Yes, usually night rides-il extra charges apply cheyyum depending on service."
+    },
+    {
+      "category": "booking_fee",
+      "question": "Booking fee undaavo taxi-il?",
+      "answer": "Some taxi apps or services booking fee charge cheyyum, some free aayirikkum."
+    },
+    {
+      "category": "waiting_charges",
+      "question": "Waiting time charge cheyyumo?",
+      "answer": "Yes, driver wait cheyyumbol per minute waiting charge apply cheyyum."
+    },
+    {
+      "category": "extra_luggage",
+      "question": "Luggage kooduthal undengil extra charge undo?",
+      "answer": "Yes, heavy or extra luggage undengil additional charge varam."
+    },
+    {
+      "category": "toll_parking",
+      "question": "Toll and parking charge include cheyyumo?",
+      "answer": "Illa, toll and parking charges usually separate aayi passenger pay cheyyanam."
+    },
+    {
+      "category": "fare_estimate",
+      "question": "Ride start cheyyunnathinu munpe fare ariyamo?",
+      "answer": "Yes, app-based taxis-il estimated fare booking time-il kaanikkum."
+    },
+    {
+      "category": "payment_methods",
+      "question": "Taxi payment engane cheyyam?",
+      "answer": "Cash, card, UPI, and app wallet payments accept cheyyum."
+    },
+    {
+      "category": "fare_difference",
+      "question": "App fare and street taxi fare difference undo?",
+      "answer": "Yes, app-based taxis transparent pricing use cheyyum, street taxis negotiated aayirikkam."
+    },
+    {
+      "category": "cancellation_fee",
+      "question": "Taxi cancel cheythal charge undo?",
+      "answer": "Yes, driver arrive cheythittum cancel cheyyumbo cancellation fee varam."
+    },
+    {
+      "category": "ride_receipt",
+      "question": "Receipt kittumo ride kazhinjal?",
+      "answer": "Yes, digital receipt app-il varum or driver provide cheyyum."
+    },
+    {
+      "category": "fare_complaint",
+      "question": "Fare kooduthal aayal complaint cheyyan pattumo?",
+      "answer": "Yes, app support allenkil customer care-il complaint register cheyyam."
+    },
+    {
+      "category": "payment_methods_overview",
+      "question": "Taxi service-il payment methods enthaanu available?",
+      "answer": "Taxi service-il cash, card, UPI, and mobile wallet (Google Pay, Paytm, PhonePe) enniva usually accept cheyyum."
+    },
+    {
+      "category": "cash_payment",
+      "question": "Cash payment cheyyan pattumo taxi-il?",
+      "answer": "Yes, most taxi drivers cash accept cheyyum. Ride kazhinjal direct driver-kku cash kodukkam."
+    },
+    {
+      "category": "online_payment",
+      "question": "Online payment taxi-il support cheyyumo?",
+      "answer": "Yes, UPI apps like Google Pay, PhonePe, Paytm use cheythu online payment cheyyam."
+    },
+    {
+      "category": "card_payment",
+      "question": "Debit or credit card use cheythu pay cheyyan pattumo?",
+      "answer": "Yes, some taxi services card payment accept cheyyum, pakshe driver or app support depend cheyyum."
+    },
+    {
+      "category": "wallet_payment",
+      "question": "Mobile wallet use cheythu payment cheyyan pattumo?",
+      "answer": "Yes, supported apps-il wallet balance use cheythu easy ayi payment cheyyam."
+    },
+    {
+      "category": "split_payment",
+      "question": "Bill split cheythu pay cheyyan pattumo?",
+      "answer": "Some taxi apps split payment feature support cheyyum, friends koodiyum share cheyyan pattum."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Taxi book cheyyumbo advance payment venamo?",
+      "answer": "Some rides-il advance payment venam, especially app-based booking-il."
+    },
+    {
+      "category": "cash_vs_online",
+      "question": "Cash better aano or online payment better aano?",
+      "answer": "Both fine aanu. Online payment safer and faster aanu, cash emergency situations-il useful aanu."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Payment cheythal cancel aayal refund kittumo?",
+      "answer": "Yes, cancellation policy anusarich refund kittum, app rules follow cheyyum."
+    },
+    {
+      "category": "driver_payment_issue",
+      "question": "Driver payment accept cheyyan ready allengil entha cheyyam?",
+      "answer": "Customer support contact cheyyuka allenkil app through complaint raise cheyyuka."
+    },
+    {
+      "category": "upi_failure",
+      "question": "UPI fail aayal entha cheyyam?",
+      "answer": "Network check cheyyuka, retry cheyyuka, illaengil cash/card option use cheyyuka."
+    },
+    {
+      "category": "receipt",
+      "question": "Payment receipt kittumo?",
+      "answer": "Yes, app-based rides-il digital receipt automatically generate aavum."
+    },
+    {
+      "category": "tips_payment",
+      "question": "Driver-kku tip kodukkan pattumo?",
+      "answer": "Yes, optional aanu. Cash or app through tip kodukkan pattum."
+    },
+    {
+      "category": "foreign_card",
+      "question": "Foreign card accept cheyyumo?",
+      "answer": "Some apps accept cheyyum, pakshe driver-based taxi-il vary cheyyum."
+    },
+    {
+      "category": "emergency_payment",
+      "question": "Emergency time-il payment issue varumbo entha cheyyam?",
+      "answer": "Alternate payment method use cheyyuka or taxi support team contact cheyyuka."
+    },
+    {
+      "category": "cancellation_overview",
+      "question": "Taxi booking cancel cheyyan pattumo?",
+      "answer": "Yes, booking cancel cheyyan pattum. App, website, allenkil driver contact cheythu cancel cheyyam."
+    },
+    {
+      "category": "cancellation_charges",
+      "question": "Taxi cancel cheyyumbo charge undavumo?",
+      "answer": "Pickup time-inu munpe cancel cheyyunnengil free aayirikkum. Last minute cancellation-il charge apply aavum."
+    },
+    {
+      "category": "free_cancellation_time",
+      "question": "Ethra neram munpe cancel cheyyanam free aakan?",
+      "answer": "Usually 5–15 minutes allenkil pickup time-inu munpe cancel cheythal charge illa."
+    },
+    {
+      "category": "late_cancellation",
+      "question": "Driver varunna time-il cancel cheyyal entha sambhavikkum?",
+      "answer": "Driver already arrive aayal cancellation fee apply aavum."
+    },
+    {
+      "category": "no_show",
+      "question": "Njan pickup place-il illaengil entha sambhavikkum?",
+      "answer": "No-show aayal full cancellation charge apply aavum."
+    },
+    {
+      "category": "refund_overview",
+      "question": "Cancel cheythal refund kittumo?",
+      "answer": "Yes, eligible cancellation-il refund kittum, payment method depend cheyyum."
+    },
+    {
+      "category": "refund_time",
+      "question": "Refund ethra neram kazhinju varum?",
+      "answer": "Usually 3–7 working days-il refund bank or wallet-il credit aavum."
+    },
+    {
+      "category": "partial_refund",
+      "question": "Full refund kittumo cancellation-il?",
+      "answer": "Free cancellation time-il full refund kittum, late cancellation-il partial refund mathram kittam."
+    },
+    {
+      "category": "payment_gateway_refund",
+      "question": "Card or UPI payment refund engane varum?",
+      "answer": "Original payment method-il thanne refund process cheyyum."
+    },
+    {
+      "category": "wallet_refund",
+      "question": "Wallet payment refund instant aayirikkumo?",
+      "answer": "Wallet refund kurachu cases-il instant aavum, illaengil 24–48 hours edukkam."
+    },
+    {
+      "category": "driver_cancellation",
+      "question": "Driver trip cancel cheythal entha cheyyum?",
+      "answer": "Driver cancel cheyyunnengil full refund allenkil alternative ride arrange cheyyum."
+    },
+    {
+      "category": "emergency_cancellation",
+      "question": "Emergency situation-il cancellation charge undo?",
+      "answer": "Some cases-il emergency proof undengil charge waive cheyyan chance undu."
+    },
+    {
+      "category": "refund_issue",
+      "question": "Refund varathirikkunnengil entha cheyyam?",
+      "answer": "Customer support contact cheyyuka, transaction details provide cheyyuka."
+    },
+    {
+      "category": "promo_booking",
+      "question": "Offer use cheyth booking cancel cheyyumbo refund kittumo?",
+      "answer": "Promo code use cheyth bookings-il refund rules offer conditions depend cheyyum."
+    },
+    {
+      "category": "policy_changes",
+      "question": "Cancellation policy change aavumo?",
+      "answer": "Yes, taxi service policies time-to-time update aavum. App-il latest policy check cheyyuka."
+    },
+    {
+      "category": "driver_info_overview",
+      "question": "Taxi service-il driver details ariyam?",
+      "answer": "Yes, booking kazhinjal driver name, photo, and vehicle details app-il allenkil SMS-il kittum."
+    },
+    {
+      "category": "vehicle_options",
+      "question": "Enthellam vehicle options available aanu?",
+      "answer": "Sedan, SUV, Hatchback, Luxury cars, and sometimes Electric vehicles um available aanu depending on service."
+    },
+    {
+      "category": "driver_tracking",
+      "question": "Driver location live track cheyyan pattumo?",
+      "answer": "Yes, app-il live tracking option use cheythu driver current location kandupidikkam."
+    },
+    {
+      "category": "driver_contact",
+      "question": "Driver-ne direct contact cheyyan pattumo?",
+      "answer": "Yes, booking confirm aayal driver contact number available aavum."
+    },
+    {
+      "category": "vehicle_selection",
+      "question": "Booking time-il vehicle select cheyyan pattumo?",
+      "answer": "Yes, ride type select cheythu preferred vehicle choose cheyyan pattum."
+    },
+    {
+      "category": "driver_arrival_time",
+      "question": "Driver ethra neram kazhinju varum?",
+      "answer": "Pickup location anusarich 5 to 15 minutes vare varan chance undu."
+    },
+    {
+      "category": "driver_identity_verification",
+      "question": "Driver safe aano ennu engane confirm cheyyam?",
+      "answer": "App-il driver photo, vehicle number, and rating check cheythu verify cheyyam."
+    },
+    {
+      "category": "vehicle_comfort",
+      "question": "Vehicles comfortable aano?",
+      "answer": "Yes, AC cars and well-maintained vehicles aanu mostly available."
+    },
+    {
+      "category": "ride_change_vehicle",
+      "question": "Booked vehicle change cheyyan pattumo?",
+      "answer": "Availability depend cheythu customer support vazhi vehicle change request cheyyam."
+    },
+    {
+      "category": "driver_language",
+      "question": "Drivers Malayalam / English ariyumo?",
+      "answer": "Most drivers basic English and local language ariyum, communication easy aayirikkum."
+    },
+    {
+      "category": "female_driver_option",
+      "question": "Female driver option available aano?",
+      "answer": "Some services-il female driver request cheyyan option undu, pakshe availability depend cheyyum."
+    },
+    {
+      "category": "vehicle_cleanliness",
+      "question": "Vehicle clean and sanitized aano?",
+      "answer": "Yes, rides before pickup sanitize cheyyum ennath most services assure cheyyum."
+    },
+    {
+      "category": "ride_types",
+      "question": "Different ride types enthaanu?",
+      "answer": "Economy, Premium, Shared rides, and Outstation rides available aanu."
+    },
+    {
+      "category": "driver_rating",
+      "question": "Driver rating kandupidikkan pattumo?",
+      "answer": "Yes, app-il driver rating and reviews check cheyyan pattum."
+    },
+    {
+      "category": "emergency_support",
+      "question": "Ride time-il emergency undengil entha cheyyum?",
+      "answer": "App emergency button use cheyyam or customer support contact cheyyam immediate helpinu."
+    },
+    {
+      "category": "driver_verification",
+      "question": "Taxi driver safe aano ennu engane ariyam?",
+      "answer": "Verified drivers aanu taxi service-il work cheyyunnathu. Driver ID, license, and background check ellam complete aayirikkum."
+    },
+    {
+      "category": "gps_tracking",
+      "question": "Taxi trip track cheyyan pattumo?",
+      "answer": "Yes, GPS tracking available aanu. Ningalude trip live aayi track cheyyan pattum."
+    },
+    {
+      "category": "emergency_support",
+      "question": "Emergency situation-il entha cheyyam?",
+      "answer": "App-il emergency button use cheyyuka allenkil customer support contact cheyyuka immediate help kittum."
+    },
+    {
+      "category": "female_safety",
+      "question": "Female passengers safety engane ensure cheyyunnu?",
+      "answer": "Female safety-kkayi verified drivers, trip sharing option, and 24/7 support provide cheyyunnu."
+    },
+    {
+      "category": "trip_sharing",
+      "question": "Family or friends-ode trip share cheyyan pattumo?",
+      "answer": "Yes, live trip sharing feature available aanu, location family/friends-nu share cheyyam."
+    },
+    {
+      "category": "driver_behavior",
+      "question": "Driver rude aayal entha cheyyam?",
+      "answer": "App-il complaint file cheyyam, support team immediate action edukkum."
+    },
+    {
+      "category": "vehicle_safety",
+      "question": "Taxi vehicle safe aano?",
+      "answer": "Yes, all vehicles regular inspection cheyyunnathum safety standards follow cheyyunnathum aanu."
+    },
+    {
+      "category": "night_rides",
+      "question": "Night travel safe aano taxi-il?",
+      "answer": "Yes, night rides-il GPS tracking and emergency support active aayirikkum."
+    },
+    {
+      "category": "lost_item",
+      "question": "Taxi-il items marannu poyal entha cheyyam?",
+      "answer": "Immediately support team contact cheyyuka, driver-ine connect cheythu item retrieve cheyyam."
+    },
+    {
+      "category": "otp_verification",
+      "question": "Ride start cheyyumbo OTP venamo?",
+      "answer": "Yes, OTP verification use cheythu ride start cheyyunnath safety enhance cheyyum."
+    },
+    {
+      "category": "cashless_payment",
+      "question": "Cashless payment safe aano?",
+      "answer": "Yes, UPI, card, and app payment fully secure encrypted system aanu."
+    },
+    {
+      "category": "route_safety",
+      "question": "Driver wrong route eduthal entha cheyyam?",
+      "answer": "App-il live navigation monitor cheyyam, issue undengil support contact cheyyam."
+    },
+    {
+      "category": "panic_button",
+      "question": "Panic button use cheyyumbo entha sambhavikkum?",
+      "answer": "Immediate alert support team-ine send aavum and emergency assistance activate aavum."
+    },
+    {
+      "category": "identity_privacy",
+      "question": "Passenger details safe aano?",
+      "answer": "Yes, user data encryption and privacy protection system use cheyyunnu."
+    },
+    {
+      "category": "complaint_system",
+      "question": "Complaint engane register cheyyam?",
+      "answer": "App-il complaint section use cheythu issue report cheyyam, quick resolution provide cheyyum."
+    },
+    {
+      "category": "service_availability",
+      "question": "Taxi service 24/7 available aano?",
+      "answer": "Yes, most taxi services 24/7 available aanu, pakshe location depend cheyyum."
+    },
+    {
+      "category": "location_based_service",
+      "question": "Ente area-il taxi kittumo ennu engane ariyam?",
+      "answer": "App allenkil call booking system use cheythu ningalude location enter cheythal available taxis check cheyyam."
+    },
+    {
+      "category": "nearby_taxi",
+      "question": "Near taxi service engane kandupidikkam?",
+      "answer": "Google Maps allenkil ride apps use cheythu nearest available taxi kandupidikkam."
+    },
+    {
+      "category": "pickup_location",
+      "question": "Pickup location set cheyyan pattumo?",
+      "answer": "Yes, app-il pickup location enter cheythal driver avide varum."
+    },
+    {
+      "category": "drop_location",
+      "question": "Drop location change cheyyan pattumo ride time-il?",
+      "answer": "Yes, pakshe driver accept cheyyanam and extra charge varan chance undu."
+    },
+    {
+      "category": "availability_delay",
+      "question": "Taxi immediate available aakumo?",
+      "answer": "Peak time-il delay varam, pakshe normal time-il fast pickup kittum."
+    },
+    {
+      "category": "night_service",
+      "question": "Night time-il taxi kittumo?",
+      "answer": "Yes, night service available aanu pakshe limited drivers undavum."
+    },
+    {
+      "category": "location_tracking",
+      "question": "Driver ente location track cheyyumo?",
+      "answer": "Yes, GPS tracking use cheythu pickup location identify cheyyum."
+    },
+    {
+      "category": "remote_area",
+      "question": "Remote area-il taxi kittumo?",
+      "answer": "Remote areas-il availability kuravayirikkam, advance booking better aanu."
+    },
+    {
+      "category": "airport_service",
+      "question": "Airport pickup/drop available aano?",
+      "answer": "Yes, airport taxi service most locations-il available aanu."
+    },
+    {
+      "category": "city_vs_outstation",
+      "question": "City rides and outstation rides available aano?",
+      "answer": "Yes, both city and outstation rides available aanu depending on service."
+    },
+    {
+      "category": "waiting_time",
+      "question": "Taxi varan ethra neram edukkum?",
+      "answer": "Location and traffic depend cheythu 5 to 20 minutes vare edukkam."
+    },
+    {
+      "category": "booking_availability",
+      "question": "App-il real-time availability kanikkumo?",
+      "answer": "Yes, available taxis real-time map-il display cheyyum."
+    },
+    {
+      "category": "peak_hours",
+      "question": "Peak hours-il taxi kittumo?",
+      "answer": "Yes, pakshe demand kooduthal aakum, waiting time increase aavum."
+    },
+    {
+      "category": "support_location_help",
+      "question": "Location issue undengil help kittumo?",
+      "answer": "Yes, customer support location and pickup problems resolve cheyyum."
+    }
+  ]
+}

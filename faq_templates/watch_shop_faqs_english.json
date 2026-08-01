@@ -1,0 +1,444 @@
+{
+  "faqs": [
+    {
+      "category": "store_overview",
+      "questions": [
+        "Do you have store overview?",
+        "Is store overview available?",
+        "Tell me about store overview.",
+        "Can I get store overview?",
+        "What are the options for store overview?"
+      ],
+      "answer": "We provide assistance regarding store overview. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "store_location",
+      "questions": [
+        "Do you have store location?",
+        "Is store location available?",
+        "Tell me about store location.",
+        "Can I get store location?",
+        "What are the options for store location?"
+      ],
+      "answer": "We provide assistance regarding store location. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "store_timings",
+      "questions": [
+        "Do you have store timings?",
+        "Is store timings available?",
+        "Tell me about store timings.",
+        "Can I get store timings?",
+        "What are the options for store timings?"
+      ],
+      "answer": "We provide assistance regarding store timings. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "watch_brands",
+      "questions": [
+        "Do you have watch brands?",
+        "Is watch brands available?",
+        "Tell me about watch brands.",
+        "Can I get watch brands?",
+        "What are the options for watch brands?"
+      ],
+      "answer": "We provide assistance regarding watch brands. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "new_arrivals",
+      "questions": [
+        "Do you have new arrivals?",
+        "Is new arrivals available?",
+        "Tell me about new arrivals.",
+        "Can I get new arrivals?",
+        "What are the options for new arrivals?"
+      ],
+      "answer": "We provide assistance regarding new arrivals. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "mens_watches",
+      "questions": [
+        "Do you have mens watches?",
+        "Is mens watches available?",
+        "Tell me about mens watches.",
+        "Can I get mens watches?",
+        "What are the options for mens watches?"
+      ],
+      "answer": "We provide assistance regarding mens watches. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "womens_watches",
+      "questions": [
+        "Do you have womens watches?",
+        "Is womens watches available?",
+        "Tell me about womens watches.",
+        "Can I get womens watches?",
+        "What are the options for womens watches?"
+      ],
+      "answer": "We provide assistance regarding womens watches. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "kids_watches",
+      "questions": [
+        "Do you have kids watches?",
+        "Is kids watches available?",
+        "Tell me about kids watches.",
+        "Can I get kids watches?",
+        "What are the options for kids watches?"
+      ],
+      "answer": "We provide assistance regarding kids watches. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "smartwatch_availability",
+      "questions": [
+        "Do you have smartwatch availability?",
+        "Is smartwatch availability available?",
+        "Tell me about smartwatch availability.",
+        "Can I get smartwatch availability?",
+        "What are the options for smartwatch availability?"
+      ],
+      "answer": "We provide assistance regarding smartwatch availability. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "fitness_tracker",
+      "questions": [
+        "Do you have fitness tracker?",
+        "Is fitness tracker available?",
+        "Tell me about fitness tracker.",
+        "Can I get fitness tracker?",
+        "What are the options for fitness tracker?"
+      ],
+      "answer": "We provide assistance regarding fitness tracker. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "bluetooth_calling_watch",
+      "questions": [
+        "Do you have bluetooth calling watch?",
+        "Is bluetooth calling watch available?",
+        "Tell me about bluetooth calling watch.",
+        "Can I get bluetooth calling watch?",
+        "What are the options for bluetooth calling watch?"
+      ],
+      "answer": "We provide assistance regarding bluetooth calling watch. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "water_resistant",
+      "questions": [
+        "Do you have water resistant?",
+        "Is water resistant available?",
+        "Tell me about water resistant.",
+        "Can I get water resistant?",
+        "What are the options for water resistant?"
+      ],
+      "answer": "We provide assistance regarding water resistant. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "strap_replacement",
+      "questions": [
+        "Do you have strap replacement?",
+        "Is strap replacement available?",
+        "Tell me about strap replacement.",
+        "Can I get strap replacement?",
+        "What are the options for strap replacement?"
+      ],
+      "answer": "We provide assistance regarding strap replacement. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "battery_replacement",
+      "questions": [
+        "Do you have battery replacement?",
+        "Is battery replacement available?",
+        "Tell me about battery replacement.",
+        "Can I get battery replacement?",
+        "What are the options for battery replacement?"
+      ],
+      "answer": "We provide assistance regarding battery replacement. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "watch_repair",
+      "questions": [
+        "Do you have watch repair?",
+        "Is watch repair available?",
+        "Tell me about watch repair.",
+        "Can I get watch repair?",
+        "What are the options for watch repair?"
+      ],
+      "answer": "We provide assistance regarding watch repair. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "watch_servicing",
+      "questions": [
+        "Do you have watch servicing?",
+        "Is watch servicing available?",
+        "Tell me about watch servicing.",
+        "Can I get watch servicing?",
+        "What are the options for watch servicing?"
+      ],
+      "answer": "We provide assistance regarding watch servicing. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "engraving_service",
+      "questions": [
+        "Do you have engraving service?",
+        "Is engraving service available?",
+        "Tell me about engraving service.",
+        "Can I get engraving service?",
+        "What are the options for engraving service?"
+      ],
+      "answer": "We provide assistance regarding engraving service. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "gift_wrapping",
+      "questions": [
+        "Do you have gift wrapping?",
+        "Is gift wrapping available?",
+        "Tell me about gift wrapping.",
+        "Can I get gift wrapping?",
+        "What are the options for gift wrapping?"
+      ],
+      "answer": "We provide assistance regarding gift wrapping. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "product_availability",
+      "questions": [
+        "Do you have product availability?",
+        "Is product availability available?",
+        "Tell me about product availability.",
+        "Can I get product availability?",
+        "What are the options for product availability?"
+      ],
+      "answer": "We provide assistance regarding product availability. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "stock_check",
+      "questions": [
+        "Do you have stock check?",
+        "Is stock check available?",
+        "Tell me about stock check.",
+        "Can I get stock check?",
+        "What are the options for stock check?"
+      ],
+      "answer": "We provide assistance regarding stock check. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "watch_price",
+      "questions": [
+        "Do you have watch price?",
+        "Is watch price available?",
+        "Tell me about watch price.",
+        "Can I get watch price?",
+        "What are the options for watch price?"
+      ],
+      "answer": "We provide assistance regarding watch price. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "smartwatch_price",
+      "questions": [
+        "Do you have smartwatch price?",
+        "Is smartwatch price available?",
+        "Tell me about smartwatch price.",
+        "Can I get smartwatch price?",
+        "What are the options for smartwatch price?"
+      ],
+      "answer": "We provide assistance regarding smartwatch price. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "ongoing_offers",
+      "questions": [
+        "Do you have ongoing offers?",
+        "Is ongoing offers available?",
+        "Tell me about ongoing offers.",
+        "Can I get ongoing offers?",
+        "What are the options for ongoing offers?"
+      ],
+      "answer": "We provide assistance regarding ongoing offers. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "festival_offers",
+      "questions": [
+        "Do you have festival offers?",
+        "Is festival offers available?",
+        "Tell me about festival offers.",
+        "Can I get festival offers?",
+        "What are the options for festival offers?"
+      ],
+      "answer": "We provide assistance regarding festival offers. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "manufacturer_warranty",
+      "questions": [
+        "Do you have manufacturer warranty?",
+        "Is manufacturer warranty available?",
+        "Tell me about manufacturer warranty.",
+        "Can I get manufacturer warranty?",
+        "What are the options for manufacturer warranty?"
+      ],
+      "answer": "We provide assistance regarding manufacturer warranty. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "warranty_claim",
+      "questions": [
+        "Do you have warranty claim?",
+        "Is warranty claim available?",
+        "Tell me about warranty claim.",
+        "Can I get warranty claim?",
+        "What are the options for warranty claim?"
+      ],
+      "answer": "We provide assistance regarding warranty claim. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "order_tracking",
+      "questions": [
+        "Do you have order tracking?",
+        "Is order tracking available?",
+        "Tell me about order tracking.",
+        "Can I get order tracking?",
+        "What are the options for order tracking?"
+      ],
+      "answer": "We provide assistance regarding order tracking. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "refund_policy",
+      "questions": [
+        "Do you have refund policy?",
+        "Is refund policy available?",
+        "Tell me about refund policy.",
+        "Can I get refund policy?",
+        "What are the options for refund policy?"
+      ],
+      "answer": "We provide assistance regarding refund policy. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "home_delivery",
+      "questions": [
+        "Do you have home delivery?",
+        "Is home delivery available?",
+        "Tell me about home delivery.",
+        "Can I get home delivery?",
+        "What are the options for home delivery?"
+      ],
+      "answer": "We provide assistance regarding home delivery. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "delivery_charges",
+      "questions": [
+        "Do you have delivery charges?",
+        "Is delivery charges available?",
+        "Tell me about delivery charges.",
+        "Can I get delivery charges?",
+        "What are the options for delivery charges?"
+      ],
+      "answer": "We provide assistance regarding delivery charges. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "cash_payment",
+      "questions": [
+        "Do you have cash payment?",
+        "Is cash payment available?",
+        "Tell me about cash payment.",
+        "Can I get cash payment?",
+        "What are the options for cash payment?"
+      ],
+      "answer": "We provide assistance regarding cash payment. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "upi_payment",
+      "questions": [
+        "Do you have upi payment?",
+        "Is upi payment available?",
+        "Tell me about upi payment.",
+        "Can I get upi payment?",
+        "What are the options for upi payment?"
+      ],
+      "answer": "We provide assistance regarding upi payment. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "card_payment",
+      "questions": [
+        "Do you have card payment?",
+        "Is card payment available?",
+        "Tell me about card payment.",
+        "Can I get card payment?",
+        "What are the options for card payment?"
+      ],
+      "answer": "We provide assistance regarding card payment. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "emi_option",
+      "questions": [
+        "Do you have emi option?",
+        "Is emi option available?",
+        "Tell me about emi option.",
+        "Can I get emi option?",
+        "What are the options for emi option?"
+      ],
+      "answer": "We provide assistance regarding emi option. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "gift_watches",
+      "questions": [
+        "Do you have gift watches?",
+        "Is gift watches available?",
+        "Tell me about gift watches.",
+        "Can I get gift watches?",
+        "What are the options for gift watches?"
+      ],
+      "answer": "We provide assistance regarding gift watches. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "corporate_gifts",
+      "questions": [
+        "Do you have corporate gifts?",
+        "Is corporate gifts available?",
+        "Tell me about corporate gifts.",
+        "Can I get corporate gifts?",
+        "What are the options for corporate gifts?"
+      ],
+      "answer": "We provide assistance regarding corporate gifts. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "bulk_orders",
+      "questions": [
+        "Do you have bulk orders?",
+        "Is bulk orders available?",
+        "Tell me about bulk orders.",
+        "Can I get bulk orders?",
+        "What are the options for bulk orders?"
+      ],
+      "answer": "We provide assistance regarding bulk orders. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "genuine_products",
+      "questions": [
+        "Do you have genuine products?",
+        "Is genuine products available?",
+        "Tell me about genuine products.",
+        "Can I get genuine products?",
+        "What are the options for genuine products?"
+      ],
+      "answer": "We provide assistance regarding genuine products. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "authenticity_certificate",
+      "questions": [
+        "Do you have authenticity certificate?",
+        "Is authenticity certificate available?",
+        "Tell me about authenticity certificate.",
+        "Can I get authenticity certificate?",
+        "What are the options for authenticity certificate?"
+      ],
+      "answer": "We provide assistance regarding authenticity certificate. Availability, pricing and specifications may vary."
+    },
+    {
+      "category": "after_sales_support",
+      "questions": [
+        "Do you have after sales support?",
+        "Is after sales support available?",
+        "Tell me about after sales support.",
+        "Can I get after sales support?",
+        "What are the options for after sales support?"
+      ],
+      "answer": "We provide assistance regarding after sales support. Availability, pricing and specifications may vary."
+    }
+  ]
+}

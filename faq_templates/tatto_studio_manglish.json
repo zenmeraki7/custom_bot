@@ -1,0 +1,679 @@
+{
+  "faqs": [
+    {
+      "category": "tattoo_booking_overview",
+      "question": "Tattoo studio-il appointment engane book cheyyam?",
+      "answer": "Nee studio-il call cheythu, Instagram/WhatsApp message cheythu, allenkil online booking system use cheythu appointment book cheyyam."
+    },
+    {
+      "category": "walk_in",
+      "question": "Walk-in tattoo appointment kittumo?",
+      "answer": "Some studios-il walk-in accept cheyyum, pakshe waiting time undavum. Advance booking better aanu."
+    },
+    {
+      "category": "same_day_booking",
+      "question": "Same day tattoo appointment kittumo?",
+      "answer": "Artist availability undengil same day slot kittan chance undu, pakshe confirm cheyyunnath nallath aanu."
+    },
+    {
+      "category": "booking_confirmation",
+      "question": "Appointment confirm aayennu engane ariyum?",
+      "answer": "Booking kazhinjal WhatsApp, SMS, allenkil email vazhi confirmation varum."
+    },
+    {
+      "category": "reschedule",
+      "question": "Appointment reschedule cheyyan pattumo?",
+      "answer": "Yes, studio-ne advance ayi contact cheythal reschedule cheyyam based on availability."
+    },
+    {
+      "category": "cancel",
+      "question": "Tattoo appointment cancel cheyyan engane?",
+      "answer": "WhatsApp allenkil call cheythu cancel request submit cheyyam, cancellation policy depend cheyyum."
+    },
+    {
+      "category": "deposit",
+      "question": "Booking confirm cheyyan deposit venamo?",
+      "answer": "Yes, most studios-il design confirm cheyyan small deposit venam, idu final price-il adjust cheyyum."
+    },
+    {
+      "category": "artist_selection",
+      "question": "Specific tattoo artist choose cheyyan pattumo?",
+      "answer": "Yes, nee prefer cheyyunna artist select cheyyam, avar availability depend cheyyum."
+    },
+    {
+      "category": "consultation_before_booking",
+      "question": "Booking munpe consultation venamo?",
+      "answer": "Yes, design discuss cheyyan consultation recommended aanu, especially custom tattoos-innu."
+    },
+    {
+      "category": "booking_duration",
+      "question": "Tattoo appointment ethra neram advance-il book cheyyanam?",
+      "answer": "Popular artists busy aayirikkum, 1–2 weeks munpe book cheyyunnath better aanu."
+    },
+    {
+      "category": "time_slot",
+      "question": "Appointment time slots engane decide cheyyum?",
+      "answer": "Design size and complexity anusarichu time slot studio decide cheyyum."
+    },
+    {
+      "category": "late_arrival",
+      "question": "Late aayal appointment cancel aavumo?",
+      "answer": "Yes, 15–30 minutes above delay aayal slot cancel aavum or reschedule cheyyum."
+    },
+    {
+      "category": "group_booking",
+      "question": "Group booking tattoo session cheyyan pattumo?",
+      "answer": "Yes, group bookings available aanu, but advance notice venam."
+    },
+    {
+      "category": "holiday_booking",
+      "question": "Holiday-il tattoo appointment book cheyyan pattumo?",
+      "answer": "Yes, pakshe holiday slots fast fill aavum, so advance booking venam."
+    },
+    {
+      "category": "consultation_fee",
+      "question": "Tattoo consultation fee undo?",
+      "answer": "Some studios free consultation provide cheyyum, others small fee charge cheyyam."
+    },
+    {
+      "category": "tattoo_design_overview",
+      "question": "Tattoo design customization ennathu enthaanu?",
+      "answer": "Tattoo design customization ennathu ningalude idea, style, and preference anusarichu unique tattoo design create cheyyunna process aanu."
+    },
+    {
+      "category": "design_consultation",
+      "question": "Tattoo design start cheyyan munpe consultation venamo?",
+      "answer": "Yes, consultation venam. Artist ningalude idea understand cheythu best design suggest cheyyum."
+    },
+    {
+      "category": "custom_design",
+      "question": "Njan ente own design create cheyyan pattumo?",
+      "answer": "Yes, ningalude own sketch, idea, allenkil reference image koduthal custom tattoo design create cheyyam."
+    },
+    {
+      "category": "design_changes",
+      "question": "Design approve cheyyunathinu munpe changes cheyyan pattumo?",
+      "answer": "Yes, tattoo start cheyyunathinu munpe unlimited minor changes cheyyan pattum."
+    },
+    {
+      "category": "design_time",
+      "question": "Custom tattoo design create cheyyan ethra time edukkum?",
+      "answer": "Design complexity anusarichu kurachu minutes to few days vare edukkam."
+    },
+    {
+      "category": "design_cost",
+      "question": "Custom tattoo design cost kooduthal aano?",
+      "answer": "Simple designs low cost aayirikkum, pakshe detailed custom designs price koodum."
+    },
+    {
+      "category": "reference_images",
+      "question": "Reference image koduthal design better aavumo?",
+      "answer": "Yes, reference image koduthal artist-innu clear idea kittum and better design create cheyyan help cheyyum."
+    },
+    {
+      "category": "design_style_options",
+      "question": "Enthellam tattoo styles choose cheyyan pattum?",
+      "answer": "Minimal, tribal, realism, portrait, watercolor, geometric, and script styles available aanu."
+    },
+    {
+      "category": "placement_suggestion",
+      "question": "Tattoo placement suggest cheyyumo?",
+      "answer": "Yes, artist body part anusarichu best placement suggest cheyyum."
+    },
+    {
+      "category": "design_size",
+      "question": "Tattoo size customize cheyyan pattumo?",
+      "answer": "Yes, small, medium, large ellam customize cheyyam based on design and body area."
+    },
+    {
+      "category": "design_preview",
+      "question": "Final tattoo before ink preview kittumo?",
+      "answer": "Yes, stencil or digital preview kodukkum before tattoo start cheyyum."
+    },
+    {
+      "category": "design_pain_relation",
+      "question": "Design kooduthal detailed aayal pain koodumo?",
+      "answer": "Yes, large and detailed tattoos take more time, so slight discomfort koodum."
+    },
+    {
+      "category": "design_revision",
+      "question": "Tattoo design approve cheythal pinne change cheyyan pattumo?",
+      "answer": "Minor changes possible aayirikkam, pakshe ink start cheythal after changes difficult aavum."
+    },
+    {
+      "category": "design_privacy",
+      "question": "Custom tattoo design confidential aayirikkumo?",
+      "answer": "Yes, most studios customer designs privacy maintain cheyyum."
+    },
+    {
+      "category": "design_support",
+      "question": "Design choose cheyyan help kittumo?",
+      "answer": "Yes, tattoo artist full guidance and suggestions provide cheyyum best design select cheyyan."
+    },
+    {
+      "category": "tattoo_pain_overview",
+      "question": "Tattoo edukkumbol pain undavumo?",
+      "answer": "Yes, tattoo edukkumbol slight pain or discomfort feel cheyyam, but level body part depend cheyyum."
+    },
+    {
+      "category": "pain_level",
+      "question": "Tattoo pain ethra serious aanu?",
+      "answer": "Pain mild to moderate range-il varum. Bone area (ribs, wrist) kooduthal sensitive aayirikkum."
+    },
+    {
+      "category": "most_painful_areas",
+      "question": "Etha body parts-il tattoo kooduthal pain undavum?",
+      "answer": "Ribs, spine, fingers, neck, and inner arm areas-il pain kooduthal feel cheyyam."
+    },
+    {
+      "category": "least_painful_areas",
+      "question": "Etha areas-il tattoo less pain aayirikkum?",
+      "answer": "Upper arm, thigh, and shoulder areas usually less pain aayirikkum."
+    },
+    {
+      "category": "pain_management",
+      "question": "Tattoo pain manage cheyyan entha cheyyam?",
+      "answer": "Deep breathing, relaxed mindset, hydration, and breaks edukkunnath help cheyyum."
+    },
+    {
+      "category": "numbing_cream",
+      "question": "Numbing cream use cheyyan pattumo?",
+      "answer": "Yes, some studios numbing cream use cheyyum, pakshe artist approval venam."
+    },
+    {
+      "category": "session_duration_pain",
+      "question": "Long tattoo session-il pain koodumo?",
+      "answer": "Yes, long sessions-il skin irritation and discomfort koodum, breaks important aanu."
+    },
+    {
+      "category": "after_pain",
+      "question": "Tattoo kazhinjal pain undavumo?",
+      "answer": "Yes, mild soreness and swelling 1–3 days vare normal aanu."
+    },
+    {
+      "category": "burning_sensation",
+      "question": "Tattoo time-il burning feeling normal aano?",
+      "answer": "Yes, needle ink deposit cheyyumbo slight burning sensation feel cheyyam."
+    },
+    {
+      "category": "comfort_tips",
+      "question": "Tattoo time-il comfort improve cheyyan entha cheyyam?",
+      "answer": "Good sleep, proper food, hydrated body, and relaxed mindset important aanu."
+    },
+    {
+      "category": "pain_tolerance",
+      "question": "Ellavarkkum tattoo pain same aano?",
+      "answer": "Illa, pain tolerance person to person vary cheyyum."
+    },
+    {
+      "category": "fear_of_pain",
+      "question": "Pain fear undengil tattoo avoid cheyyano?",
+      "answer": "Fear undengil small tattoo start cheyyam, gradual exposure help cheyyum."
+    },
+    {
+      "category": "bleeding",
+      "question": "Tattoo time-il bleeding normal aano?",
+      "answer": "Small bleeding normal aanu, but excessive bleeding rare aanu."
+    },
+    {
+      "category": "aftercare_discomfort",
+      "question": "Tattoo after itching or discomfort varumo?",
+      "answer": "Yes, healing stage-il itching and mild discomfort normal aanu."
+    },
+    {
+      "category": "breaks_during_session",
+      "question": "Session-il break edukkan pattumo?",
+      "answer": "Yes, long sessions-il artist break provide cheyyum for comfort."
+    },
+    {
+      "category": "tattoo_pricing_overview",
+      "question": "Tattoo cost engane decide cheyyum?",
+      "answer": "Tattoo cost design size, detail level, ink type, and artist experience depend cheythu decide cheyyum."
+    },
+    {
+      "category": "minimum_price",
+      "question": "Small tattoo-kk minimum cost ethra aanu?",
+      "answer": "Small tattoos usually minimum rate-il start cheyyum, but exact price studio anusarichu vary cheyyum."
+    },
+    {
+      "category": "size_based_pricing",
+      "question": "Tattoo size kooduthal aayal cost koodumo?",
+      "answer": "Yes, tattoo size increase aayal time and ink kooduthal venam, athukondu cost koodum."
+    },
+    {
+      "category": "design_complexity",
+      "question": "Complex design-kk cost koodumo?",
+      "answer": "Yes, detailed and custom designs simple tattoos-inekal expensive aayirikkum."
+    },
+    {
+      "category": "color_vs_black",
+      "question": "Color tattoo vs black tattoo cost difference undo?",
+      "answer": "Yes, color tattoos usually black tattoos-inekal kooduthal cost varum."
+    },
+    {
+      "category": "hourly_rate",
+      "question": "Tattoo artist hourly rate undo?",
+      "answer": "Some studios hourly rate follow cheyyum, especially large or detailed tattoos-kk."
+    },
+    {
+      "category": "consultation_fee",
+      "question": "Tattoo consultation fee unda?",
+      "answer": "Some studios free consultation provide cheyyum, pakshe some places small fee edukkam."
+    },
+    {
+      "category": "custom_design_cost",
+      "question": "Custom tattoo design extra charge undo?",
+      "answer": "Yes, custom artwork create cheyyan extra design fee varan chance undu."
+    },
+    {
+      "category": "cover_up_cost",
+      "question": "Cover-up tattoo cost koodumo?",
+      "answer": "Yes, cover-up tattoos usually more complex aayathukondu cost koodum."
+    },
+    {
+      "category": "touch_up_cost",
+      "question": "Tattoo touch-up free aano?",
+      "answer": "Some studios free touch-up provide cheyyum, others small charge edukkam."
+    },
+    {
+      "category": "hidden_charges",
+      "question": "Hidden charges undo tattoo pricing-il?",
+      "answer": "Reputed studios-il hidden charges illa, full cost munpe explain cheyyum."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Booking time-il advance venamo?",
+      "answer": "Yes, most studios appointment confirm cheyyan advance payment edukkum."
+    },
+    {
+      "category": "discounts",
+      "question": "Tattoo studio-il offers or discounts undo?",
+      "answer": "Festivals or special occasions-il discounts or package deals available aayirikkam."
+    },
+    {
+      "category": "price_range",
+      "question": "Tattoo price range ethra aanu?",
+      "answer": "Small tattoos low budget-il start cheyyum, large custom pieces higher budget venam."
+    },
+    {
+      "category": "aftercare_cost",
+      "question": "Aftercare products cost include cheyyumo?",
+      "answer": "Some studios aftercare kit free or extra charge-il provide cheyyum."
+    },
+    {
+      "category": "hygiene_overview",
+      "question": "Tattoo studio-il hygiene engane maintain cheyyunnu?",
+      "answer": "Tattoo studio-il every client-inum sterilized equipment use cheyyum, and proper cleaning protocols follow cheyyum."
+    },
+    {
+      "category": "needle_safety",
+      "question": "Needles reuse cheyyumo?",
+      "answer": "Illa, oru client-inu vendi only single-use disposable needles mathram use cheyyum."
+    },
+    {
+      "category": "sterilization",
+      "question": "Tools engane sterilize cheyyunnu?",
+      "answer": "All reusable tools autoclave sterilization process through disinfect cheyyum."
+    },
+    {
+      "category": "ink_safety",
+      "question": "Tattoo ink safe aano?",
+      "answer": "Yes, certified and skin-safe inks mathram use cheyyum, allergic reactions kurakkan."
+    },
+    {
+      "category": "gloves_use",
+      "question": "Artist gloves use cheyyumo?",
+      "answer": "Yes, every procedure-il gloves mandatory aanu for hygiene and safety."
+    },
+    {
+      "category": "studio_cleanliness",
+      "question": "Studio clean aayirikumo?",
+      "answer": "Yes, each session kazhinju work station sanitize cheyyum and strict cleaning follow cheyyum."
+    },
+    {
+      "category": "skin_preparation",
+      "question": "Tattoo cheyyan munpe skin clean aakkumo?",
+      "answer": "Yes, skin antiseptic solution use cheythu properly clean cheyyum before tattoo start."
+    },
+    {
+      "category": "infection_risk",
+      "question": "Infection chance undo tattoo cheyyumbo?",
+      "answer": "Proper hygiene follow cheyyunnengil infection risk very low aanu, pakshe aftercare important aanu."
+    },
+    {
+      "category": "aftercare_hygiene",
+      "question": "Tattoo kazhinjal hygiene care enthaanu?",
+      "answer": "Area clean aayi maintain cheyyuka, recommended ointments use cheyyuka, and direct dust/sun avoid cheyyuka."
+    },
+    {
+      "category": "equipment_reuse",
+      "question": "Equipment reuse cheyyumo?",
+      "answer": "Needles reuse cheyyilla, but machines proper sterilization cheythu mathram reuse cheyyum."
+    },
+    {
+      "category": "allergy_safety",
+      "question": "Allergy varan chance undo?",
+      "answer": "Rare aanu, pakshe sensitive skin undengil patch test recommend cheyyum."
+    },
+    {
+      "category": "sanitation_frequency",
+      "question": "Cleaning ethra neram kazhinju cheyyum?",
+      "answer": "Each client session kazhinju full workstation sanitize cheyyum."
+    },
+    {
+      "category": "certification",
+      "question": "Studio certified safety standards follow cheyyumo?",
+      "answer": "Yes, professional studios health and safety guidelines strictly follow cheyyum."
+    },
+    {
+      "category": "disposable_items",
+      "question": "Disposable items use cheyyumo?",
+      "answer": "Yes, gloves, needles, ink caps ellam single-use disposable items aanu."
+    },
+    {
+      "category": "client_safety",
+      "question": "Client safety assure cheyyunnath engane?",
+      "answer": "Proper sterilization, clean environment, and trained artists through client safety ensure cheyyum."
+    },
+    {
+      "category": "hygiene_overview",
+      "question": "Tattoo studio-il hygiene engane maintain cheyyunnu?",
+      "answer": "Tattoo studio-il every client-inum sterilized equipment use cheyyum, and proper cleaning protocols follow cheyyum."
+    },
+    {
+      "category": "needle_safety",
+      "question": "Needles reuse cheyyumo?",
+      "answer": "Illa, oru client-inu vendi only single-use disposable needles mathram use cheyyum."
+    },
+    {
+      "category": "sterilization",
+      "question": "Tools engane sterilize cheyyunnu?",
+      "answer": "All reusable tools autoclave sterilization process through disinfect cheyyum."
+    },
+    {
+      "category": "ink_safety",
+      "question": "Tattoo ink safe aano?",
+      "answer": "Yes, certified and skin-safe inks mathram use cheyyum, allergic reactions kurakkan."
+    },
+    {
+      "category": "gloves_use",
+      "question": "Artist gloves use cheyyumo?",
+      "answer": "Yes, every procedure-il gloves mandatory aanu for hygiene and safety."
+    },
+    {
+      "category": "studio_cleanliness",
+      "question": "Studio clean aayirikumo?",
+      "answer": "Yes, each session kazhinju work station sanitize cheyyum and strict cleaning follow cheyyum."
+    },
+    {
+      "category": "skin_preparation",
+      "question": "Tattoo cheyyan munpe skin clean aakkumo?",
+      "answer": "Yes, skin antiseptic solution use cheythu properly clean cheyyum before tattoo start."
+    },
+    {
+      "category": "infection_risk",
+      "question": "Infection chance undo tattoo cheyyumbo?",
+      "answer": "Proper hygiene follow cheyyunnengil infection risk very low aanu, pakshe aftercare important aanu."
+    },
+    {
+      "category": "aftercare_hygiene",
+      "question": "Tattoo kazhinjal hygiene care enthaanu?",
+      "answer": "Area clean aayi maintain cheyyuka, recommended ointments use cheyyuka, and direct dust/sun avoid cheyyuka."
+    },
+    {
+      "category": "equipment_reuse",
+      "question": "Equipment reuse cheyyumo?",
+      "answer": "Needles reuse cheyyilla, but machines proper sterilization cheythu mathram reuse cheyyum."
+    },
+    {
+      "category": "allergy_safety",
+      "question": "Allergy varan chance undo?",
+      "answer": "Rare aanu, pakshe sensitive skin undengil patch test recommend cheyyum."
+    },
+    {
+      "category": "sanitation_frequency",
+      "question": "Cleaning ethra neram kazhinju cheyyum?",
+      "answer": "Each client session kazhinju full workstation sanitize cheyyum."
+    },
+    {
+      "category": "certification",
+      "question": "Studio certified safety standards follow cheyyumo?",
+      "answer": "Yes, professional studios health and safety guidelines strictly follow cheyyum."
+    },
+    {
+      "category": "disposable_items",
+      "question": "Disposable items use cheyyumo?",
+      "answer": "Yes, gloves, needles, ink caps ellam single-use disposable items aanu."
+    },
+    {
+      "category": "client_safety",
+      "question": "Client safety assure cheyyunnath engane?",
+      "answer": "Proper sterilization, clean environment, and trained artists through client safety ensure cheyyum."
+    },
+    {
+      "category": "age_restriction_overview",
+      "question": "Tattoo edukkan age restriction undo?",
+      "answer": "Yes, most tattoo studios-il minimum age restriction undu. Usually 18+ aanu legally allowed age."
+    },
+    {
+      "category": "minor_policy",
+      "question": "18-il thazhe age ullavark tattoo cheyyan pattumo?",
+      "answer": "Illa, majority studios-il minors (18 below) tattoo cheyyan allow cheyyilla."
+    },
+    {
+      "category": "parent_consent",
+      "question": "Parents consent undengil minor-kk tattoo cheyyan pattumo?",
+      "answer": "Some places-il parental consent accept cheyyum, pakshe many professional studios strict aayi 18+ rule follow cheyyum."
+    },
+    {
+      "category": "id_proof",
+      "question": "Tattoo cheyyan ID proof venamo?",
+      "answer": "Yes, government ID proof mandatory aanu age verify cheyyan."
+    },
+    {
+      "category": "legal_age",
+      "question": "Tattoo edukkan legal age ethra aanu?",
+      "answer": "Most countries and studios-il legal age 18 years aanu."
+    },
+    {
+      "category": "age_check_process",
+      "question": "Studio engane age verify cheyyum?",
+      "answer": "Booking time-il allenkil visit time-il ID card check cheythu age verify cheyyum."
+    },
+    {
+      "category": "below_age_risk",
+      "question": "Fake age paranj tattoo eduthal entha risk undu?",
+      "answer": "Ithu illegal aanu, studio reject cheyyum and legal issues varan chance undu."
+    },
+    {
+      "category": "older_clients",
+      "question": "Elders-kk tattoo edukkan pattumo?",
+      "answer": "Yes, age limit illa upper side-il. Health condition consider cheyyum mathram."
+    },
+    {
+      "category": "medical_conditions",
+      "question": "Age koodiyavark tattoo safe aano?",
+      "answer": "Yes, pakshe diabetes, skin issues, blood conditions undengil doctor advice venam."
+    },
+    {
+      "category": "pregnancy_rule",
+      "question": "Pregnant women-kk tattoo cheyyan pattumo?",
+      "answer": "Illa, pregnancy time-il tattoo avoid cheyyunnath safe aanu."
+    },
+    {
+      "category": "piercing_age_rule",
+      "question": "Piercing-um same age rule follow cheyyumo?",
+      "answer": "Yes, most studios tattoo and piercing both 18+ rule follow cheyyum."
+    },
+    {
+      "category": "consent_form",
+      "question": "Tattoo time-il consent form venamo?",
+      "answer": "Yes, client safety and legal protection-inu consent form fill cheyyanam."
+    },
+    {
+      "category": "fake_id_policy",
+      "question": "Fake ID use cheythal accept cheyyumo?",
+      "answer": "Illa, fake ID use cheyyunnathu strict aayi reject cheyyum."
+    },
+    {
+      "category": "studio_policy_variation",
+      "question": "All tattoo studios-il same age rule aano?",
+      "answer": "Mostly 18+ aanu, pakshe studio policy vary cheyyan chance undu."
+    },
+    {
+      "category": "safety_reason",
+      "question": "Why age restriction tattoo studio-il important aanu?",
+      "answer": "Skin maturity, legal responsibility, and safety reasons kond age restriction follow cheyyunnu."
+    },
+    {
+      "category": "allergy_overview",
+      "question": "Tattoo cheyyumbo skin allergy varumo?",
+      "answer": "Yes, chila people-kk tattoo ink allenkil needle contact kond mild to severe allergy reactions varan chance undu."
+    },
+    {
+      "category": "skin_reaction_types",
+      "question": "Tattoo kazhinjal entha type skin reactions varam?",
+      "answer": "Redness, swelling, itching, rash, and mild burning sensation common reactions aanu."
+    },
+    {
+      "category": "allergy_symptoms",
+      "question": "Allergy symptoms engane ariyam?",
+      "answer": "Severe itching, pus formation, rashes spread aakuka, fever, allenkil long-lasting redness undengil allergy aayirikkam."
+    },
+    {
+      "category": "ink_allergy",
+      "question": "Tattoo ink allergy varumo?",
+      "answer": "Yes, especially red and certain colored inks-ine allergy varan chance kooduthal aanu."
+    },
+    {
+      "category": "patch_test",
+      "question": "Tattoo cheyyunnathinu munpu patch test venamo?",
+      "answer": "Yes, allergy risk avoid cheyyan patch test recommend cheyyunnu."
+    },
+    {
+      "category": "normal_vs_abnormal",
+      "question": "Normal redness and allergy difference enthaanu?",
+      "answer": "Normal redness 2–3 days-il kurayum, pakshe allergy symptoms worsen aavukayum long time nilkukaum cheyyum."
+    },
+    {
+      "category": "itching_after_tattoo",
+      "question": "Tattoo kazhinjal itching normal aano?",
+      "answer": "Mild itching normal healing part aanu, pakshe severe itching allergy sign aayirikkam."
+    },
+    {
+      "category": "infection_risk",
+      "question": "Tattoo infection varan chance undo?",
+      "answer": "Yes, proper hygiene follow cheyyathath kond infection varan chance undu."
+    },
+    {
+      "category": "aftercare_skin",
+      "question": "Skin reactions avoid cheyyan aftercare engane cheyyam?",
+      "answer": "Tattoo clean aayi vekkuka, ointment use cheyyuka, sun exposure avoid cheyyuka, scratching avoid cheyyuka."
+    },
+    {
+      "category": "swelling_duration",
+      "question": "Swelling ethra days vare normal aanu?",
+      "answer": "Usually 1–3 days vare mild swelling normal aanu."
+    },
+    {
+      "category": "when_to_contact",
+      "question": "Eppo tattoo artist allenkil doctor-ne contact cheyyanam?",
+      "answer": "Severe pain, pus, fever, or spreading rash undengil immediately contact cheyyanam."
+    },
+    {
+      "category": "skin_type_reaction",
+      "question": "Ellavarkkum same reaction varumo?",
+      "answer": "Illa, skin type and immune system anusarich reaction vary cheyyum."
+    },
+    {
+      "category": "sun_sensitivity",
+      "question": "Tattoo kazhinjal sun exposure problem aano?",
+      "answer": "Yes, direct sun exposure irritation and fading increase cheyyum."
+    },
+    {
+      "category": "allergy_treatment",
+      "question": "Allergy varumbo entha treatment venam?",
+      "answer": "Mild cases-il ointment use cheyyam, severe cases-il doctor prescribed medicine venam."
+    },
+    {
+      "category": "prevention",
+      "question": "Tattoo allergy prevent cheyyan entha cheyyam?",
+      "answer": "Patch test cheyyuka, safe inks use cheyyuka, hygiene maintain cheyyuka, and proper aftercare follow cheyyuka."
+    },
+    {
+      "category": "tattoo_duration_overview",
+      "question": "Tattoo cheyyan ethra neram edukum?",
+      "answer": "Tattoo size and design depend cheythu 30 minutes muthal several hours vare edukam."
+    },
+    {
+      "category": "small_tattoo_time",
+      "question": "Small tattoo ethra neram edukkum?",
+      "answer": "Small tattoo usually 15 minutes to 1 hour vare complete aavum."
+    },
+    {
+      "category": "medium_tattoo_time",
+      "question": "Medium size tattoo ethra neram edukum?",
+      "answer": "Medium tattoos 1 to 3 hours vare time edukkam design complexity depend cheyyum."
+    },
+    {
+      "category": "large_tattoo_time",
+      "question": "Large tattoo complete aakan ethra neram venam?",
+      "answer": "Large tattoos multiple hours or multiple sessions venam aavum, sometimes 5–10 hours vare edukkam."
+    },
+    {
+      "category": "full_sleeve_time",
+      "question": "Full sleeve tattoo ethra neram edukum?",
+      "answer": "Full sleeve tattoo usually multiple sittings-il cheyyum, total 10 to 30 hours vare edukkam."
+    },
+    {
+      "category": "design_complexity",
+      "question": "Design complex aayal time koodumo?",
+      "answer": "Yes, detailed shading, realism, and color work undengil time koodum."
+    },
+    {
+      "category": "first_session_duration",
+      "question": "First tattoo session ethra neram aayirikkum?",
+      "answer": "First session usually 1 to 2 hours vare safe comfort maintain cheyyan vendi limit cheyyum."
+    },
+    {
+      "category": "breaks_during_tattoo",
+      "question": "Tattoo cheyyumbo break edukkumo?",
+      "answer": "Yes, long sessions-il short breaks provide cheyyum comfortinu vendi."
+    },
+    {
+      "category": "healing_time",
+      "question": "Tattoo heal aakan ethra neram edukum?",
+      "answer": "Skin surface heal aakan 2 to 3 weeks edukkum, full healing 4 to 6 weeks vare aayirikkam."
+    },
+    {
+      "category": "session_gap",
+      "question": "Multiple session tattoos-kk gap venamo?",
+      "answer": "Yes, skin heal aavunnathinu vendi 2 to 4 weeks gap usually venam."
+    },
+    {
+      "category": "color_vs_black_time",
+      "question": "Color tattoo vs black tattoo time difference undo?",
+      "answer": "Yes, color tattoos kooduthal time edukum compared to black ink tattoos."
+    },
+    {
+      "category": "pain_duration",
+      "question": "Tattoo cheyyumbo pain ethra neram undavum?",
+      "answer": "Pain continuous alla, but session duration full time mild discomfort feel cheyyam."
+    },
+    {
+      "category": "touch_up_time",
+      "question": "Touch-up tattoo ethra neram edukum?",
+      "answer": "Touch-up usually 15 minutes to 1 hour vare simple corrections aanu."
+    },
+    {
+      "category": "consultation_time",
+      "question": "Tattoo consultation ethra neram edukum?",
+      "answer": "Consultation usually 10 to 30 minutes vare design discussioninu vendi edukum."
+    },
+    {
+      "category": "time_variation",
+      "question": "Ellam tattoo-kkum same time aayirikkumo?",
+      "answer": "Illa, each tattoo design, size, and placement anusarich time vary cheyyum."
+    }
+  ]
+}

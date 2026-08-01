@@ -1,0 +1,895 @@
+{
+  "faqs": [
+    {
+      "category": "clinic_overview",
+      "questions": [
+        "Do you offer clinic overview?",
+        "Is clinic overview available?",
+        "Tell me about clinic overview.",
+        "Can I get clinic overview?",
+        "How much does clinic overview cost?"
+      ],
+      "answer": "We provide assistance regarding clinic overview. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "clinic_location",
+      "questions": [
+        "Do you offer clinic location?",
+        "Is clinic location available?",
+        "Tell me about clinic location.",
+        "Can I get clinic location?",
+        "How much does clinic location cost?"
+      ],
+      "answer": "We provide assistance regarding clinic location. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "clinic_timings",
+      "questions": [
+        "Do you offer clinic timings?",
+        "Is clinic timings available?",
+        "Tell me about clinic timings.",
+        "Can I get clinic timings?",
+        "How much does clinic timings cost?"
+      ],
+      "answer": "We provide assistance regarding clinic timings. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "appointment_booking",
+      "questions": [
+        "Do you offer appointment booking?",
+        "Is appointment booking available?",
+        "Tell me about appointment booking.",
+        "Can I get appointment booking?",
+        "How much does appointment booking cost?"
+      ],
+      "answer": "We provide assistance regarding appointment booking. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "online_booking",
+      "questions": [
+        "Do you offer online booking?",
+        "Is online booking available?",
+        "Tell me about online booking.",
+        "Can I get online booking?",
+        "How much does online booking cost?"
+      ],
+      "answer": "We provide assistance regarding online booking. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "whatsapp_booking",
+      "questions": [
+        "Do you offer whatsapp booking?",
+        "Is whatsapp booking available?",
+        "Tell me about whatsapp booking.",
+        "Can I get whatsapp booking?",
+        "How much does whatsapp booking cost?"
+      ],
+      "answer": "We provide assistance regarding whatsapp booking. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "walkin_consultation",
+      "questions": [
+        "Do you offer walkin consultation?",
+        "Is walkin consultation available?",
+        "Tell me about walkin consultation.",
+        "Can I get walkin consultation?",
+        "How much does walkin consultation cost?"
+      ],
+      "answer": "We provide assistance regarding walkin consultation. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "dermatologist_consultation",
+      "questions": [
+        "Do you offer dermatologist consultation?",
+        "Is dermatologist consultation available?",
+        "Tell me about dermatologist consultation.",
+        "Can I get dermatologist consultation?",
+        "How much does dermatologist consultation cost?"
+      ],
+      "answer": "We provide assistance regarding dermatologist consultation. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "first_visit",
+      "questions": [
+        "Do you offer first visit?",
+        "Is first visit available?",
+        "Tell me about first visit.",
+        "Can I get first visit?",
+        "How much does first visit cost?"
+      ],
+      "answer": "We provide assistance regarding first visit. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "followup_consultation",
+      "questions": [
+        "Do you offer followup consultation?",
+        "Is followup consultation available?",
+        "Tell me about followup consultation.",
+        "Can I get followup consultation?",
+        "How much does followup consultation cost?"
+      ],
+      "answer": "We provide assistance regarding followup consultation. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "online_consultation",
+      "questions": [
+        "Do you offer online consultation?",
+        "Is online consultation available?",
+        "Tell me about online consultation.",
+        "Can I get online consultation?",
+        "How much does online consultation cost?"
+      ],
+      "answer": "We provide assistance regarding online consultation. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "acne_treatment",
+      "questions": [
+        "Do you offer acne treatment?",
+        "Is acne treatment available?",
+        "Tell me about acne treatment.",
+        "Can I get acne treatment?",
+        "How much does acne treatment cost?"
+      ],
+      "answer": "We provide assistance regarding acne treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "pimples_treatment",
+      "questions": [
+        "Do you offer pimples treatment?",
+        "Is pimples treatment available?",
+        "Tell me about pimples treatment.",
+        "Can I get pimples treatment?",
+        "How much does pimples treatment cost?"
+      ],
+      "answer": "We provide assistance regarding pimples treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "acne_scars",
+      "questions": [
+        "Do you offer acne scars?",
+        "Is acne scars available?",
+        "Tell me about acne scars.",
+        "Can I get acne scars?",
+        "How much does acne scars cost?"
+      ],
+      "answer": "We provide assistance regarding acne scars. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "pigmentation_treatment",
+      "questions": [
+        "Do you offer pigmentation treatment?",
+        "Is pigmentation treatment available?",
+        "Tell me about pigmentation treatment.",
+        "Can I get pigmentation treatment?",
+        "How much does pigmentation treatment cost?"
+      ],
+      "answer": "We provide assistance regarding pigmentation treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "melasma_treatment",
+      "questions": [
+        "Do you offer melasma treatment?",
+        "Is melasma treatment available?",
+        "Tell me about melasma treatment.",
+        "Can I get melasma treatment?",
+        "How much does melasma treatment cost?"
+      ],
+      "answer": "We provide assistance regarding melasma treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "dark_spots",
+      "questions": [
+        "Do you offer dark spots?",
+        "Is dark spots available?",
+        "Tell me about dark spots.",
+        "Can I get dark spots?",
+        "How much does dark spots cost?"
+      ],
+      "answer": "We provide assistance regarding dark spots. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "tanning_removal",
+      "questions": [
+        "Do you offer tanning removal?",
+        "Is tanning removal available?",
+        "Tell me about tanning removal.",
+        "Can I get tanning removal?",
+        "How much does tanning removal cost?"
+      ],
+      "answer": "We provide assistance regarding tanning removal. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "skin_allergy",
+      "questions": [
+        "Do you offer skin allergy?",
+        "Is skin allergy available?",
+        "Tell me about skin allergy.",
+        "Can I get skin allergy?",
+        "How much does skin allergy cost?"
+      ],
+      "answer": "We provide assistance regarding skin allergy. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "itching_treatment",
+      "questions": [
+        "Do you offer itching treatment?",
+        "Is itching treatment available?",
+        "Tell me about itching treatment.",
+        "Can I get itching treatment?",
+        "How much does itching treatment cost?"
+      ],
+      "answer": "We provide assistance regarding itching treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "eczema_treatment",
+      "questions": [
+        "Do you offer eczema treatment?",
+        "Is eczema treatment available?",
+        "Tell me about eczema treatment.",
+        "Can I get eczema treatment?",
+        "How much does eczema treatment cost?"
+      ],
+      "answer": "We provide assistance regarding eczema treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "psoriasis_treatment",
+      "questions": [
+        "Do you offer psoriasis treatment?",
+        "Is psoriasis treatment available?",
+        "Tell me about psoriasis treatment.",
+        "Can I get psoriasis treatment?",
+        "How much does psoriasis treatment cost?"
+      ],
+      "answer": "We provide assistance regarding psoriasis treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "fungal_infection",
+      "questions": [
+        "Do you offer fungal infection?",
+        "Is fungal infection available?",
+        "Tell me about fungal infection.",
+        "Can I get fungal infection?",
+        "How much does fungal infection cost?"
+      ],
+      "answer": "We provide assistance regarding fungal infection. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "hair_fall_treatment",
+      "questions": [
+        "Do you offer hair fall treatment?",
+        "Is hair fall treatment available?",
+        "Tell me about hair fall treatment.",
+        "Can I get hair fall treatment?",
+        "How much does hair fall treatment cost?"
+      ],
+      "answer": "We provide assistance regarding hair fall treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "dandruff_treatment",
+      "questions": [
+        "Do you offer dandruff treatment?",
+        "Is dandruff treatment available?",
+        "Tell me about dandruff treatment.",
+        "Can I get dandruff treatment?",
+        "How much does dandruff treatment cost?"
+      ],
+      "answer": "We provide assistance regarding dandruff treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "alopecia_treatment",
+      "questions": [
+        "Do you offer alopecia treatment?",
+        "Is alopecia treatment available?",
+        "Tell me about alopecia treatment.",
+        "Can I get alopecia treatment?",
+        "How much does alopecia treatment cost?"
+      ],
+      "answer": "We provide assistance regarding alopecia treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "hair_growth_treatment",
+      "questions": [
+        "Do you offer hair growth treatment?",
+        "Is hair growth treatment available?",
+        "Tell me about hair growth treatment.",
+        "Can I get hair growth treatment?",
+        "How much does hair growth treatment cost?"
+      ],
+      "answer": "We provide assistance regarding hair growth treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "prp_hair_treatment",
+      "questions": [
+        "Do you offer prp hair treatment?",
+        "Is prp hair treatment available?",
+        "Tell me about prp hair treatment.",
+        "Can I get prp hair treatment?",
+        "How much does prp hair treatment cost?"
+      ],
+      "answer": "We provide assistance regarding prp hair treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "hair_transplant_consultation",
+      "questions": [
+        "Do you offer hair transplant consultation?",
+        "Is hair transplant consultation available?",
+        "Tell me about hair transplant consultation.",
+        "Can I get hair transplant consultation?",
+        "How much does hair transplant consultation cost?"
+      ],
+      "answer": "We provide assistance regarding hair transplant consultation. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "chemical_peel",
+      "questions": [
+        "Do you offer chemical peel?",
+        "Is chemical peel available?",
+        "Tell me about chemical peel.",
+        "Can I get chemical peel?",
+        "How much does chemical peel cost?"
+      ],
+      "answer": "We provide assistance regarding chemical peel. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "hydrafacial",
+      "questions": [
+        "Do you offer hydrafacial?",
+        "Is hydrafacial available?",
+        "Tell me about hydrafacial.",
+        "Can I get hydrafacial?",
+        "How much does hydrafacial cost?"
+      ],
+      "answer": "We provide assistance regarding hydrafacial. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "skin_polishing",
+      "questions": [
+        "Do you offer skin polishing?",
+        "Is skin polishing available?",
+        "Tell me about skin polishing.",
+        "Can I get skin polishing?",
+        "How much does skin polishing cost?"
+      ],
+      "answer": "We provide assistance regarding skin polishing. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "skin_rejuvenation",
+      "questions": [
+        "Do you offer skin rejuvenation?",
+        "Is skin rejuvenation available?",
+        "Tell me about skin rejuvenation.",
+        "Can I get skin rejuvenation?",
+        "How much does skin rejuvenation cost?"
+      ],
+      "answer": "We provide assistance regarding skin rejuvenation. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "laser_hair_removal",
+      "questions": [
+        "Do you offer laser hair removal?",
+        "Is laser hair removal available?",
+        "Tell me about laser hair removal.",
+        "Can I get laser hair removal?",
+        "How much does laser hair removal cost?"
+      ],
+      "answer": "We provide assistance regarding laser hair removal. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "laser_skin_treatment",
+      "questions": [
+        "Do you offer laser skin treatment?",
+        "Is laser skin treatment available?",
+        "Tell me about laser skin treatment.",
+        "Can I get laser skin treatment?",
+        "How much does laser skin treatment cost?"
+      ],
+      "answer": "We provide assistance regarding laser skin treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "laser_pigmentation_removal",
+      "questions": [
+        "Do you offer laser pigmentation removal?",
+        "Is laser pigmentation removal available?",
+        "Tell me about laser pigmentation removal.",
+        "Can I get laser pigmentation removal?",
+        "How much does laser pigmentation removal cost?"
+      ],
+      "answer": "We provide assistance regarding laser pigmentation removal. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "laser_acne_scar_treatment",
+      "questions": [
+        "Do you offer laser acne scar treatment?",
+        "Is laser acne scar treatment available?",
+        "Tell me about laser acne scar treatment.",
+        "Can I get laser acne scar treatment?",
+        "How much does laser acne scar treatment cost?"
+      ],
+      "answer": "We provide assistance regarding laser acne scar treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "laser_tattoo_removal",
+      "questions": [
+        "Do you offer laser tattoo removal?",
+        "Is laser tattoo removal available?",
+        "Tell me about laser tattoo removal.",
+        "Can I get laser tattoo removal?",
+        "How much does laser tattoo removal cost?"
+      ],
+      "answer": "We provide assistance regarding laser tattoo removal. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "botox",
+      "questions": [
+        "Do you offer botox?",
+        "Is botox available?",
+        "Tell me about botox.",
+        "Can I get botox?",
+        "How much does botox cost?"
+      ],
+      "answer": "We provide assistance regarding botox. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "fillers",
+      "questions": [
+        "Do you offer fillers?",
+        "Is fillers available?",
+        "Tell me about fillers.",
+        "Can I get fillers?",
+        "How much does fillers cost?"
+      ],
+      "answer": "We provide assistance regarding fillers. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "anti_aging_treatment",
+      "questions": [
+        "Do you offer anti aging treatment?",
+        "Is anti aging treatment available?",
+        "Tell me about anti aging treatment.",
+        "Can I get anti aging treatment?",
+        "How much does anti aging treatment cost?"
+      ],
+      "answer": "We provide assistance regarding anti aging treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "wrinkle_reduction",
+      "questions": [
+        "Do you offer wrinkle reduction?",
+        "Is wrinkle reduction available?",
+        "Tell me about wrinkle reduction.",
+        "Can I get wrinkle reduction?",
+        "How much does wrinkle reduction cost?"
+      ],
+      "answer": "We provide assistance regarding wrinkle reduction. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "skin_tightening",
+      "questions": [
+        "Do you offer skin tightening?",
+        "Is skin tightening available?",
+        "Tell me about skin tightening.",
+        "Can I get skin tightening?",
+        "How much does skin tightening cost?"
+      ],
+      "answer": "We provide assistance regarding skin tightening. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "mole_removal",
+      "questions": [
+        "Do you offer mole removal?",
+        "Is mole removal available?",
+        "Tell me about mole removal.",
+        "Can I get mole removal?",
+        "How much does mole removal cost?"
+      ],
+      "answer": "We provide assistance regarding mole removal. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "wart_removal",
+      "questions": [
+        "Do you offer wart removal?",
+        "Is wart removal available?",
+        "Tell me about wart removal.",
+        "Can I get wart removal?",
+        "How much does wart removal cost?"
+      ],
+      "answer": "We provide assistance regarding wart removal. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "skin_tag_removal",
+      "questions": [
+        "Do you offer skin tag removal?",
+        "Is skin tag removal available?",
+        "Tell me about skin tag removal.",
+        "Can I get skin tag removal?",
+        "How much does skin tag removal cost?"
+      ],
+      "answer": "We provide assistance regarding skin tag removal. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "hair_transplant",
+      "questions": [
+        "Do you offer hair transplant?",
+        "Is hair transplant available?",
+        "Tell me about hair transplant.",
+        "Can I get hair transplant?",
+        "How much does hair transplant cost?"
+      ],
+      "answer": "We provide assistance regarding hair transplant. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "hair_transplant_cost",
+      "questions": [
+        "Do you offer hair transplant cost?",
+        "Is hair transplant cost available?",
+        "Tell me about hair transplant cost.",
+        "Can I get hair transplant cost?",
+        "How much does hair transplant cost cost?"
+      ],
+      "answer": "We provide assistance regarding hair transplant cost. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "prp_treatment",
+      "questions": [
+        "Do you offer prp treatment?",
+        "Is prp treatment available?",
+        "Tell me about prp treatment.",
+        "Can I get prp treatment?",
+        "How much does prp treatment cost?"
+      ],
+      "answer": "We provide assistance regarding prp treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "prp_hair",
+      "questions": [
+        "Do you offer prp hair?",
+        "Is prp hair available?",
+        "Tell me about prp hair.",
+        "Can I get prp hair?",
+        "How much does prp hair cost?"
+      ],
+      "answer": "We provide assistance regarding prp hair. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "prp_skin",
+      "questions": [
+        "Do you offer prp skin?",
+        "Is prp skin available?",
+        "Tell me about prp skin.",
+        "Can I get prp skin?",
+        "How much does prp skin cost?"
+      ],
+      "answer": "We provide assistance regarding prp skin. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "bridal_skin_package",
+      "questions": [
+        "Do you offer bridal skin package?",
+        "Is bridal skin package available?",
+        "Tell me about bridal skin package.",
+        "Can I get bridal skin package?",
+        "How much does bridal skin package cost?"
+      ],
+      "answer": "We provide assistance regarding bridal skin package. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "pre_wedding_skin_care",
+      "questions": [
+        "Do you offer pre wedding skin care?",
+        "Is pre wedding skin care available?",
+        "Tell me about pre wedding skin care.",
+        "Can I get pre wedding skin care?",
+        "How much does pre wedding skin care cost?"
+      ],
+      "answer": "We provide assistance regarding pre wedding skin care. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "glow_treatment",
+      "questions": [
+        "Do you offer glow treatment?",
+        "Is glow treatment available?",
+        "Tell me about glow treatment.",
+        "Can I get glow treatment?",
+        "How much does glow treatment cost?"
+      ],
+      "answer": "We provide assistance regarding glow treatment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "skin_brightening",
+      "questions": [
+        "Do you offer skin brightening?",
+        "Is skin brightening available?",
+        "Tell me about skin brightening.",
+        "Can I get skin brightening?",
+        "How much does skin brightening cost?"
+      ],
+      "answer": "We provide assistance regarding skin brightening. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "child_skin_problem",
+      "questions": [
+        "Do you offer child skin problem?",
+        "Is child skin problem available?",
+        "Tell me about child skin problem.",
+        "Can I get child skin problem?",
+        "How much does child skin problem cost?"
+      ],
+      "answer": "We provide assistance regarding child skin problem. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "nail_infection",
+      "questions": [
+        "Do you offer nail infection?",
+        "Is nail infection available?",
+        "Tell me about nail infection.",
+        "Can I get nail infection?",
+        "How much does nail infection cost?"
+      ],
+      "answer": "We provide assistance regarding nail infection. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "dermatologist_products",
+      "questions": [
+        "Do you offer dermatologist products?",
+        "Is dermatologist products available?",
+        "Tell me about dermatologist products.",
+        "Can I get dermatologist products?",
+        "How much does dermatologist products cost?"
+      ],
+      "answer": "We provide assistance regarding dermatologist products. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "sunscreen",
+      "questions": [
+        "Do you offer sunscreen?",
+        "Is sunscreen available?",
+        "Tell me about sunscreen.",
+        "Can I get sunscreen?",
+        "How much does sunscreen cost?"
+      ],
+      "answer": "We provide assistance regarding sunscreen. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "anti_acne_products",
+      "questions": [
+        "Do you offer anti acne products?",
+        "Is anti acne products available?",
+        "Tell me about anti acne products.",
+        "Can I get anti acne products?",
+        "How much does anti acne products cost?"
+      ],
+      "answer": "We provide assistance regarding anti acne products. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "skin_biopsy",
+      "questions": [
+        "Do you offer skin biopsy?",
+        "Is skin biopsy available?",
+        "Tell me about skin biopsy.",
+        "Can I get skin biopsy?",
+        "How much does skin biopsy cost?"
+      ],
+      "answer": "We provide assistance regarding skin biopsy. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "allergy_testing",
+      "questions": [
+        "Do you offer allergy testing?",
+        "Is allergy testing available?",
+        "Tell me about allergy testing.",
+        "Can I get allergy testing?",
+        "How much does allergy testing cost?"
+      ],
+      "answer": "We provide assistance regarding allergy testing. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "treatment_duration",
+      "questions": [
+        "Do you offer treatment duration?",
+        "Is treatment duration available?",
+        "Tell me about treatment duration.",
+        "Can I get treatment duration?",
+        "How much does treatment duration cost?"
+      ],
+      "answer": "We provide assistance regarding treatment duration. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "recovery_time",
+      "questions": [
+        "Do you offer recovery time?",
+        "Is recovery time available?",
+        "Tell me about recovery time.",
+        "Can I get recovery time?",
+        "How much does recovery time cost?"
+      ],
+      "answer": "We provide assistance regarding recovery time. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "treatment_results",
+      "questions": [
+        "Do you offer treatment results?",
+        "Is treatment results available?",
+        "Tell me about treatment results.",
+        "Can I get treatment results?",
+        "How much does treatment results cost?"
+      ],
+      "answer": "We provide assistance regarding treatment results. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "aftercare_instructions",
+      "questions": [
+        "Do you offer aftercare instructions?",
+        "Is aftercare instructions available?",
+        "Tell me about aftercare instructions.",
+        "Can I get aftercare instructions?",
+        "How much does aftercare instructions cost?"
+      ],
+      "answer": "We provide assistance regarding aftercare instructions. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "side_effects",
+      "questions": [
+        "Do you offer side effects?",
+        "Is side effects available?",
+        "Tell me about side effects.",
+        "Can I get side effects?",
+        "How much does side effects cost?"
+      ],
+      "answer": "We provide assistance regarding side effects. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "consultation_fee",
+      "questions": [
+        "Do you offer consultation fee?",
+        "Is consultation fee available?",
+        "Tell me about consultation fee.",
+        "Can I get consultation fee?",
+        "How much does consultation fee cost?"
+      ],
+      "answer": "We provide assistance regarding consultation fee. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "treatment_cost",
+      "questions": [
+        "Do you offer treatment cost?",
+        "Is treatment cost available?",
+        "Tell me about treatment cost.",
+        "Can I get treatment cost?",
+        "How much does treatment cost cost?"
+      ],
+      "answer": "We provide assistance regarding treatment cost. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "package_price",
+      "questions": [
+        "Do you offer package price?",
+        "Is package price available?",
+        "Tell me about package price.",
+        "Can I get package price?",
+        "How much does package price cost?"
+      ],
+      "answer": "We provide assistance regarding package price. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "laser_cost",
+      "questions": [
+        "Do you offer laser cost?",
+        "Is laser cost available?",
+        "Tell me about laser cost.",
+        "Can I get laser cost?",
+        "How much does laser cost cost?"
+      ],
+      "answer": "We provide assistance regarding laser cost. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "prp_cost",
+      "questions": [
+        "Do you offer prp cost?",
+        "Is prp cost available?",
+        "Tell me about prp cost.",
+        "Can I get prp cost?",
+        "How much does prp cost cost?"
+      ],
+      "answer": "We provide assistance regarding prp cost. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "cash_payment",
+      "questions": [
+        "Do you offer cash payment?",
+        "Is cash payment available?",
+        "Tell me about cash payment.",
+        "Can I get cash payment?",
+        "How much does cash payment cost?"
+      ],
+      "answer": "We provide assistance regarding cash payment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "upi_payment",
+      "questions": [
+        "Do you offer upi payment?",
+        "Is upi payment available?",
+        "Tell me about upi payment.",
+        "Can I get upi payment?",
+        "How much does upi payment cost?"
+      ],
+      "answer": "We provide assistance regarding upi payment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "card_payment",
+      "questions": [
+        "Do you offer card payment?",
+        "Is card payment available?",
+        "Tell me about card payment.",
+        "Can I get card payment?",
+        "How much does card payment cost?"
+      ],
+      "answer": "We provide assistance regarding card payment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "online_payment",
+      "questions": [
+        "Do you offer online payment?",
+        "Is online payment available?",
+        "Tell me about online payment.",
+        "Can I get online payment?",
+        "How much does online payment cost?"
+      ],
+      "answer": "We provide assistance regarding online payment. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "emi_option",
+      "questions": [
+        "Do you offer emi option?",
+        "Is emi option available?",
+        "Tell me about emi option.",
+        "Can I get emi option?",
+        "How much does emi option cost?"
+      ],
+      "answer": "We provide assistance regarding emi option. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "insurance_coverage",
+      "questions": [
+        "Do you offer insurance coverage?",
+        "Is insurance coverage available?",
+        "Tell me about insurance coverage.",
+        "Can I get insurance coverage?",
+        "How much does insurance coverage cost?"
+      ],
+      "answer": "We provide assistance regarding insurance coverage. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "complaint_registration",
+      "questions": [
+        "Do you offer complaint registration?",
+        "Is complaint registration available?",
+        "Tell me about complaint registration.",
+        "Can I get complaint registration?",
+        "How much does complaint registration cost?"
+      ],
+      "answer": "We provide assistance regarding complaint registration. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "feedback",
+      "questions": [
+        "Do you offer feedback?",
+        "Is feedback available?",
+        "Tell me about feedback.",
+        "Can I get feedback?",
+        "How much does feedback cost?"
+      ],
+      "answer": "We provide assistance regarding feedback. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    },
+    {
+      "category": "customer_support",
+      "questions": [
+        "Do you offer customer support?",
+        "Is customer support available?",
+        "Tell me about customer support.",
+        "Can I get customer support?",
+        "How much does customer support cost?"
+      ],
+      "answer": "We provide assistance regarding customer support. Availability, suitability, pricing, and treatment plans may vary based on individual assessment."
+    }
+  ]
+}

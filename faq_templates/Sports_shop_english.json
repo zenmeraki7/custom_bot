@@ -1,0 +1,679 @@
+{
+  "faqs": [
+    {
+      "category": "product_availability_overview",
+      "question": "Are all sports products available in your store?",
+      "answer": "We stock a wide range of sports products, but availability may vary depending on demand and current inventory."
+    },
+    {
+      "category": "stock_check",
+      "question": "How can I check if a product is in stock?",
+      "answer": "You can check product availability through our website, by calling the store, or visiting us directly."
+    },
+    {
+      "category": "out_of_stock",
+      "question": "What happens if a product is out of stock?",
+      "answer": "If a product is out of stock, you can request a restock notification or choose an alternative product."
+    },
+    {
+      "category": "restock_time",
+      "question": "How long does it take for products to be restocked?",
+      "answer": "Restock time depends on the product and supplier availability, usually ranging from a few days to a few weeks."
+    },
+    {
+      "category": "online_availability",
+      "question": "Is online stock the same as in-store stock?",
+      "answer": "Not always. Online and in-store inventories may differ, so availability should be checked separately."
+    },
+    {
+      "category": "product_reservation",
+      "question": "Can I reserve a product before buying?",
+      "answer": "Yes, some stores allow short-term reservations depending on product demand and policy."
+    },
+    {
+      "category": "limited_stock",
+      "question": "What does limited stock mean?",
+      "answer": "Limited stock means only a few units of the product are available and it may sell out quickly."
+    },
+    {
+      "category": "new_arrivals",
+      "question": "Do you regularly add new sports products?",
+      "answer": "Yes, we frequently update our inventory with new sports gear, footwear, and accessories."
+    },
+    {
+      "category": "seasonal_availability",
+      "question": "Are seasonal sports items always available?",
+      "answer": "Seasonal items are available during specific times of the year and may not be in stock year-round."
+    },
+    {
+      "category": "bulk_orders",
+      "question": "Can I order sports products in bulk?",
+      "answer": "Yes, bulk orders are possible depending on product availability and store policy."
+    },
+    {
+      "category": "alternative_products",
+      "question": "What if the exact product I want is not available?",
+      "answer": "We can suggest similar alternatives that match your requirements and budget."
+    },
+    {
+      "category": "pre_order",
+      "question": "Can I pre-order sports products?",
+      "answer": "Yes, pre-orders may be available for upcoming or high-demand sports products."
+    },
+    {
+      "category": "delivery_availability",
+      "question": "Do all available products support delivery?",
+      "answer": "Most products are available for delivery, but availability may depend on location and product type."
+    },
+    {
+      "category": "size_availability",
+      "question": "Are all sizes available for sports items?",
+      "answer": "Size availability depends on stock. Popular sizes may sell out faster than others."
+    },
+    {
+      "category": "stock_updates",
+      "question": "How often is product availability updated?",
+      "answer": "Our product availability is updated regularly to reflect real-time stock changes."
+    },
+    {
+      "category": "product_selection_overview",
+      "question": "How do I choose the right sports product in a sports shop?",
+      "answer": "You should choose based on your sport type, skill level, comfort, durability, and budget."
+    },
+    {
+      "category": "equipment_suitability",
+      "question": "How do I know if the sports equipment is suitable for me?",
+      "answer": "Check product specifications, size guides, and ask staff for recommendations based on your activity level."
+    },
+    {
+      "category": "beginner_selection",
+      "question": "What should beginners look for when buying sports gear?",
+      "answer": "Beginners should look for lightweight, easy-to-use, and affordable equipment suitable for basic training."
+    },
+    {
+      "category": "professional_equipment",
+      "question": "Do I need professional-grade equipment for regular training?",
+      "answer": "Not always. Professional gear is recommended for advanced athletes, while standard gear is enough for regular fitness or casual use."
+    },
+    {
+      "category": "size_selection",
+      "question": "How do I choose the correct size for sports equipment?",
+      "answer": "Always refer to the size chart and try the product if possible to ensure proper fit and comfort."
+    },
+    {
+      "category": "brand_choice",
+      "question": "Is it important to choose a well-known brand for sports products?",
+      "answer": "Branded products often offer better quality and durability, but budget-friendly options can also be suitable depending on usage."
+    },
+    {
+      "category": "durability",
+      "question": "How can I check the durability of sports equipment?",
+      "answer": "Check material quality, user reviews, and warranty details before purchasing."
+    },
+    {
+      "category": "price_selection",
+      "question": "Should I choose sports equipment based on price only?",
+      "answer": "No, you should balance price with quality, comfort, and performance needs."
+    },
+    {
+      "category": "multi_sport_use",
+      "question": "Can I use the same equipment for multiple sports?",
+      "answer": "Some equipment is multi-purpose, but most sports require specific gear for safety and performance."
+    },
+    {
+      "category": "try_before_buy",
+      "question": "Can I try sports equipment before buying?",
+      "answer": "Many sports shops allow you to try equipment or provide demo models before purchase."
+    },
+    {
+      "category": "return_policy",
+      "question": "What if the sports product does not fit or suit me?",
+      "answer": "Most stores offer return or exchange policies within a specified period if the product is unused."
+    },
+    {
+      "category": "expert_advice",
+      "question": "Can I get help choosing sports products in-store?",
+      "answer": "Yes, most sports shops have staff who can guide you based on your needs and sport type."
+    },
+    {
+      "category": "seasonal_selection",
+      "question": "Should I choose different sports gear for different seasons?",
+      "answer": "Yes, some gear is designed for indoor use, outdoor conditions, or specific weather conditions."
+    },
+    {
+      "category": "safety_selection",
+      "question": "How important is safety when selecting sports equipment?",
+      "answer": "Safety is very important. Always choose equipment that provides proper protection for your sport."
+    },
+    {
+      "category": "maintenance",
+      "question": "How should I maintain my sports equipment after purchase?",
+      "answer": "Clean and store equipment properly after use to increase durability and performance."
+    },
+    {
+      "category": "pricing_overview",
+      "question": "How are sports shop product prices decided?",
+      "answer": "Prices are based on brand, product quality, materials used, and market demand."
+    },
+    {
+      "category": "discount_availability",
+      "question": "Do you offer discounts on sports products?",
+      "answer": "Yes, discounts are available on selected items, seasonal sales, and special promotions."
+    },
+    {
+      "category": "seasonal_offers",
+      "question": "Are there seasonal discounts available?",
+      "answer": "Yes, we offer seasonal discounts during festivals, clearance sales, and special events."
+    },
+    {
+      "category": "bulk_discount",
+      "question": "Do you provide discounts for bulk purchases?",
+      "answer": "Yes, bulk orders may be eligible for special pricing depending on the quantity and product type."
+    },
+    {
+      "category": "student_discount",
+      "question": "Is there any student discount available?",
+      "answer": "Some selected sports items may have student discounts, depending on ongoing promotions."
+    },
+    {
+      "category": "membership_discount",
+      "question": "Do members get special discounts?",
+      "answer": "Yes, registered members may receive exclusive discounts and early access to offers."
+    },
+    {
+      "category": "online_offers",
+      "question": "Are online prices cheaper than in-store prices?",
+      "answer": "Online offers may differ from in-store pricing depending on promotions and availability."
+    },
+    {
+      "category": "coupon_usage",
+      "question": "Can I use discount coupons?",
+      "answer": "Yes, valid discount coupons can be applied during checkout for eligible products."
+    },
+    {
+      "category": "price_match",
+      "question": "Do you offer price matching?",
+      "answer": "Some stores may offer price matching if a lower price is found on the same product elsewhere."
+    },
+    {
+      "category": "clearance_sale",
+      "question": "Do you have clearance sales?",
+      "answer": "Yes, clearance sales are conducted to offer discounts on old or limited stock items."
+    },
+    {
+      "category": "return_discount",
+      "question": "If I return a discounted item, will I get a full refund?",
+      "answer": "Refund policies depend on store rules, but usually refunds are based on the discounted purchase price."
+    },
+    {
+      "category": "brand_discount",
+      "question": "Are branded sports items ever discounted?",
+      "answer": "Yes, branded products may be discounted during special promotions or seasonal sales."
+    },
+    {
+      "category": "student_offers",
+      "question": "Do you have special offers for schools or teams?",
+      "answer": "Yes, schools and sports teams can get special pricing for bulk equipment orders."
+    },
+    {
+      "category": "price_variation",
+      "question": "Why do prices vary for similar sports items?",
+      "answer": "Price differences depend on brand, material quality, and product specifications."
+    },
+    {
+      "category": "offer_validity",
+      "question": "How long do discounts last?",
+      "answer": "Discount duration depends on the promotion period and stock availability."
+    },
+    {
+      "category": "sports_equipment_overview",
+      "question": "What types of sports equipment do you sell?",
+      "answer": "We offer a wide range of sports equipment including fitness gear, football, cricket, basketball, badminton, tennis, gym equipment, and outdoor sports accessories."
+    },
+    {
+      "category": "product_availability",
+      "question": "Do you have all sports equipment in stock?",
+      "answer": "Most popular sports equipment is available in stock, but availability may vary depending on demand and brand."
+    },
+    {
+      "category": "branded_products",
+      "question": "Do you sell branded sports equipment?",
+      "answer": "Yes, we offer products from trusted sports brands known for quality and durability."
+    },
+    {
+      "category": "quality",
+      "question": "Is your sports equipment good quality?",
+      "answer": "Yes, we ensure all sports equipment is tested for durability, safety, and performance before sale."
+    },
+    {
+      "category": "pricing",
+      "question": "Are your sports products expensive?",
+      "answer": "We offer sports equipment at various price ranges to suit beginners, amateurs, and professional athletes."
+    },
+    {
+      "category": "online_ordering",
+      "question": "Can I order sports equipment online?",
+      "answer": "Yes, you can easily order sports equipment through our online store and get it delivered to your location."
+    },
+    {
+      "category": "delivery",
+      "question": "How long does delivery take for sports equipment?",
+      "answer": "Delivery usually takes 2 to 5 business days depending on your location and product availability."
+    },
+    {
+      "category": "returns",
+      "question": "Can I return sports equipment if I don’t like it?",
+      "answer": "Yes, returns are accepted within the return policy period if the product is unused and in original condition."
+    },
+    {
+      "category": "warranty",
+      "question": "Do sports equipment come with warranty?",
+      "answer": "Some sports equipment comes with manufacturer warranty depending on the brand and product type."
+    },
+    {
+      "category": "fitness_equipment",
+      "question": "Do you sell gym and fitness equipment?",
+      "answer": "Yes, we offer gym equipment such as dumbbells, treadmills, resistance bands, and strength training tools."
+    },
+    {
+      "category": "team_sports",
+      "question": "Do you provide equipment for team sports?",
+      "answer": "Yes, we supply equipment for football, cricket, basketball, volleyball, and other team sports."
+    },
+    {
+      "category": "kids_sports",
+      "question": "Do you have sports equipment for kids?",
+      "answer": "Yes, we have lightweight and safe sports equipment specially designed for children."
+    },
+    {
+      "category": "bulk_orders",
+      "question": "Can I place bulk orders for sports equipment?",
+      "answer": "Yes, we accept bulk orders for schools, sports clubs, and training academies."
+    },
+    {
+      "category": "custom_orders",
+      "question": "Do you provide custom sports equipment?",
+      "answer": "Some sports equipment can be customized based on size, team branding, or specific requirements."
+    },
+    {
+      "category": "support",
+      "question": "Can I get help choosing the right sports equipment?",
+      "answer": "Yes, our team can help you select the right equipment based on your sport, skill level, and budget."
+    },
+    {
+      "category": "quality_overview",
+      "question": "What kind of product quality do you offer in your sports shop?",
+      "answer": "We offer high-quality sports products from trusted brands that are durable, performance-tested, and suitable for both beginners and professionals."
+    },
+    {
+      "category": "brand_authenticity",
+      "question": "Are your sports products original and branded?",
+      "answer": "Yes, all our products are 100% original and sourced directly from authorized distributors and trusted brands."
+    },
+    {
+      "category": "quality_check",
+      "question": "Do you check product quality before selling?",
+      "answer": "Yes, every product goes through a quality inspection to ensure it meets performance and safety standards."
+    },
+    {
+      "category": "warranty_overview",
+      "question": "Do sports products come with a warranty?",
+      "answer": "Yes, many sports products come with manufacturer warranty depending on the brand and product type."
+    },
+    {
+      "category": "warranty_duration",
+      "question": "How long is the warranty period?",
+      "answer": "Warranty duration varies by product and brand, typically ranging from a few months to a year or more."
+    },
+    {
+      "category": "warranty_coverage",
+      "question": "What does the warranty cover?",
+      "answer": "Warranty usually covers manufacturing defects but does not include damage caused by misuse or wear and tear."
+    },
+    {
+      "category": "warranty_claim",
+      "question": "How can I claim warranty for a product?",
+      "answer": "You can claim warranty by providing the purchase bill and contacting our customer support or visiting the store."
+    },
+    {
+      "category": "replacement_policy",
+      "question": "Do you offer product replacement?",
+      "answer": "Yes, replacements are provided for products with verified manufacturing defects within the warranty period."
+    },
+    {
+      "category": "return_policy",
+      "question": "Can I return a sports product if I am not satisfied?",
+      "answer": "Returns are accepted based on our return policy and condition of the product. Please check return terms at the time of purchase."
+    },
+    {
+      "category": "damage_policy",
+      "question": "What if the product gets damaged during use?",
+      "answer": "Damage caused by misuse, improper handling, or normal wear and tear is not covered under warranty."
+    },
+    {
+      "category": "shoe_warranty",
+      "question": "Do sports shoes come with warranty?",
+      "answer": "Yes, most branded sports shoes come with limited warranty against manufacturing defects."
+    },
+    {
+      "category": "equipment_warranty",
+      "question": "Do fitness or sports equipment have warranty?",
+      "answer": "Yes, fitness equipment and sports gear usually come with brand-specific warranty coverage."
+    },
+    {
+      "category": "proof_required",
+      "question": "What do I need for a warranty claim?",
+      "answer": "You need the original purchase bill and sometimes the product box or warranty card for processing claims."
+    },
+    {
+      "category": "warranty_support",
+      "question": "Do you provide support after purchase?",
+      "answer": "Yes, we provide full customer support for installation guidance, warranty claims, and product issues."
+    },
+    {
+      "category": "out_of_warranty",
+      "question": "What happens if the product is out of warranty?",
+      "answer": "Out-of-warranty products may still be serviced or repaired at a cost depending on the issue and availability of parts."
+    },
+    {
+      "category": "return_policy_overview",
+      "question": "What is your return policy for sports shop products?",
+      "answer": "Customers can return eligible sports items within the specified return period, provided the product is unused and in original condition with packaging intact."
+    },
+    {
+      "category": "exchange_policy",
+      "question": "Can I exchange a sports product instead of returning it?",
+      "answer": "Yes, exchanges are allowed for eligible items if the product is unused and meets the exchange policy conditions."
+    },
+    {
+      "category": "return_time_limit",
+      "question": "How many days do I have to return a product?",
+      "answer": "Returns are usually accepted within a limited number of days from the purchase date or delivery date, depending on store policy."
+    },
+    {
+      "category": "exchange_time_limit",
+      "question": "How long do I have to exchange an item?",
+      "answer": "Exchanges must typically be requested within the allowed return/exchange window as per store policy."
+    },
+    {
+      "category": "return_condition",
+      "question": "What condition should the product be in for return?",
+      "answer": "The product must be unused, undamaged, and returned with original tags, packaging, and receipt."
+    },
+    {
+      "category": "non_returnable_items",
+      "question": "Which sports items are not eligible for return or exchange?",
+      "answer": "Items such as used equipment, customized products, or clearance sale items may not be eligible for return or exchange."
+    },
+    {
+      "category": "refund_process",
+      "question": "How long does it take to get a refund?",
+      "answer": "Refund processing time depends on the payment method and may take a few business days after the returned product is inspected."
+    },
+    {
+      "category": "exchange_process",
+      "question": "How does the exchange process work?",
+      "answer": "Once the returned item is inspected and approved, a replacement product is provided based on availability."
+    },
+    {
+      "category": "defective_product",
+      "question": "What should I do if I receive a defective sports product?",
+      "answer": "You should contact customer support immediately with proof of purchase and product images for replacement or refund assistance."
+    },
+    {
+      "category": "wrong_item_delivery",
+      "question": "What if I receive the wrong product?",
+      "answer": "You can request an exchange or return if the delivered product does not match your order."
+    },
+    {
+      "category": "return_shipping",
+      "question": "Who pays for return shipping?",
+      "answer": "Return shipping policies vary; some stores cover it for defective items, while others may require customer payment."
+    },
+    {
+      "category": "store_return",
+      "question": "Can I return the product at the store?",
+      "answer": "Yes, in-store returns are allowed if you bring the product along with the receipt and meet return conditions."
+    },
+    {
+      "category": "online_purchase_return",
+      "question": "Can I return online purchased sports items?",
+      "answer": "Yes, online purchases can be returned through the return request process as per store policy."
+    },
+    {
+      "category": "exchange_availability",
+      "question": "Can I exchange for a different size or model?",
+      "answer": "Yes, exchanges for different sizes or models are allowed based on stock availability."
+    },
+    {
+      "category": "refund_vs_exchange",
+      "question": "Should I choose refund or exchange?",
+      "answer": "You can choose refund if you no longer want the product or exchange if you prefer a different size or item."
+    },
+    {
+      "category": "online_ordering",
+      "question": "How can I place an online order for sports products?",
+      "answer": "You can browse our website or app, select the products you need, add them to cart, and proceed to checkout to place your order."
+    },
+    {
+      "category": "order_confirmation",
+      "question": "Will I receive confirmation after placing an order?",
+      "answer": "Yes, once your order is placed, you will receive a confirmation via email or SMS with order details."
+    },
+    {
+      "category": "payment_methods",
+      "question": "What payment methods are accepted for online orders?",
+      "answer": "We accept credit/debit cards, digital wallets, net banking, and sometimes cash on delivery depending on your location."
+    },
+    {
+      "category": "delivery_time",
+      "question": "How long does delivery take for sports products?",
+      "answer": "Delivery usually takes 2 to 7 business days depending on your location and product availability."
+    },
+    {
+      "category": "delivery_charges",
+      "question": "Are there any delivery charges?",
+      "answer": "Delivery charges may apply depending on your order value and delivery location. Some orders may qualify for free shipping."
+    },
+    {
+      "category": "order_tracking",
+      "question": "How can I track my order?",
+      "answer": "You can track your order using the tracking link sent to your email or by logging into your account on our website."
+    },
+    {
+      "category": "order_modification",
+      "question": "Can I change or cancel my order after placing it?",
+      "answer": "You can modify or cancel your order only if it has not been shipped. Please contact customer support immediately."
+    },
+    {
+      "category": "return_policy",
+      "question": "Can I return sports products after delivery?",
+      "answer": "Yes, returns are accepted within the return period if the product is unused and in original condition."
+    },
+    {
+      "category": "refund_process",
+      "question": "How long does it take to get a refund?",
+      "answer": "Refunds are usually processed within 5 to 10 business days after the returned product is approved."
+    },
+    {
+      "category": "delivery_issues",
+      "question": "What should I do if my order is delayed?",
+      "answer": "If your order is delayed, you can contact customer support or check the tracking status for updates."
+    },
+    {
+      "category": "out_of_stock",
+      "question": "What happens if the product is out of stock after ordering?",
+      "answer": "If a product is unavailable, we will inform you and provide options like replacement, refund, or wait for restock."
+    },
+    {
+      "category": "international_shipping",
+      "question": "Do you offer international delivery?",
+      "answer": "International delivery may be available depending on the product and location. Please check shipping availability at checkout."
+    },
+    {
+      "category": "delivery_address",
+      "question": "Can I change my delivery address after placing the order?",
+      "answer": "Address changes are possible only before the order is shipped. Please contact support as soon as possible."
+    },
+    {
+      "category": "cash_on_delivery",
+      "question": "Is Cash on Delivery available?",
+      "answer": "Yes, Cash on Delivery is available in selected locations depending on courier service availability."
+    },
+    {
+      "category": "damaged_product",
+      "question": "What should I do if I receive a damaged product?",
+      "answer": "You should report the issue immediately with photos, and we will arrange a replacement or refund as per policy."
+    },
+    {
+      "category": "brand_availability_overview",
+      "question": "Do you have all major sports brands available in your shop?",
+      "answer": "Yes, we offer a wide range of popular sports brands depending on stock availability."
+    },
+    {
+      "category": "popular_brands",
+      "question": "Which sports brands are available in your store?",
+      "answer": "We usually stock brands like Nike, Adidas, Puma, Reebok, Under Armour, and other leading sports brands."
+    },
+    {
+      "category": "stock_availability",
+      "question": "Are all brands always in stock?",
+      "answer": "Stock availability may vary based on demand and supply. Please check with the store for current availability."
+    },
+    {
+      "category": "brand_specific_request",
+      "question": "Can I request a specific brand product?",
+      "answer": "Yes, you can request specific brand items, and we will try to arrange them based on availability."
+    },
+    {
+      "category": "new_brands",
+      "question": "Do you add new sports brands regularly?",
+      "answer": "Yes, we frequently update our collection with new and trending sports brands."
+    },
+    {
+      "category": "limited_stock",
+      "question": "What happens if my preferred brand is out of stock?",
+      "answer": "If a brand is out of stock, we can suggest similar alternatives or notify you when it becomes available."
+    },
+    {
+      "category": "authenticity",
+      "question": "Are all sports brands original and authentic?",
+      "answer": "Yes, we only sell 100% original and authentic branded sports products."
+    },
+    {
+      "category": "online_availability",
+      "question": "Can I check brand availability online?",
+      "answer": "Yes, you can check available brands and products through our online store or contact support."
+    },
+    {
+      "category": "seasonal_availability",
+      "question": "Does brand availability change during seasons?",
+      "answer": "Yes, availability may vary depending on seasonal demand and new collections."
+    },
+    {
+      "category": "bulk_order_brands",
+      "question": "Can I order multiple brands in bulk?",
+      "answer": "Yes, bulk orders for multiple brands are possible depending on stock availability."
+    },
+    {
+      "category": "price_variation",
+      "question": "Do different brands have different price ranges?",
+      "answer": "Yes, pricing varies depending on the brand, model, and product category."
+    },
+    {
+      "category": "brand_outlet",
+      "question": "Do you offer discounted branded sports items?",
+      "answer": "Yes, we occasionally offer discounts and promotions on selected branded sports products."
+    },
+    {
+      "category": "brand_guarantee",
+      "question": "Do branded products come with warranty?",
+      "answer": "Yes, most branded sports products come with manufacturer warranty depending on the brand policy."
+    },
+    {
+      "category": "replacement_policy",
+      "question": "Can I replace a branded item if it has an issue?",
+      "answer": "Yes, replacement is possible as per the brand’s warranty and store return policy."
+    },
+    {
+      "category": "customer_support",
+      "question": "Can I get help choosing the right sports brand?",
+      "answer": "Yes, our staff can help you choose the best brand based on your sport and requirements."
+    },
+    {
+      "category": "brand_availability_overview",
+      "question": "Do you have all major sports brands available?",
+      "answer": "Yes, we stock a wide range of popular sports brands depending on availability and seasonal inventory."
+    },
+    {
+      "category": "specific_brand_check",
+      "question": "How can I check if a specific sports brand is available?",
+      "answer": "You can contact our store directly or check our online catalog to confirm brand availability."
+    },
+    {
+      "category": "out_of_stock",
+      "question": "What if my preferred brand is out of stock?",
+      "answer": "If a brand is out of stock, we can suggest alternatives or notify you when the product is back in stock."
+    },
+    {
+      "category": "new_brands",
+      "question": "Do you add new sports brands regularly?",
+      "answer": "Yes, we frequently update our inventory with new and trending sports brands."
+    },
+    {
+      "category": "authentic_brands",
+      "question": "Are the sports brands original and authentic?",
+      "answer": "Yes, we only sell 100% genuine and authorized sports brands."
+    },
+    {
+      "category": "brand_comparison",
+      "question": "Can I compare different sports brands before buying?",
+      "answer": "Yes, our staff can help you compare brands based on quality, price, and performance."
+    },
+    {
+      "category": "brand_specific_items",
+      "question": "Do you have all products from a specific sports brand?",
+      "answer": "Availability varies by brand and product category. Some items may be limited based on demand."
+    },
+    {
+      "category": "online_brand_availability",
+      "question": "Can I check brand availability online?",
+      "answer": "Yes, you can browse available brands and products through our online store or app."
+    },
+    {
+      "category": "brand_preorder",
+      "question": "Can I pre-order products from a specific brand?",
+      "answer": "Yes, pre-orders are available for selected upcoming or high-demand sports brands."
+    },
+    {
+      "category": "brand_substitutes",
+      "question": "If my preferred brand is not available, will you suggest alternatives?",
+      "answer": "Yes, we can recommend similar brands with comparable quality and price."
+    },
+    {
+      "category": "seasonal_availability",
+      "question": "Does brand availability change seasonally?",
+      "answer": "Yes, availability may vary depending on season, demand, and supplier stock."
+    },
+    {
+      "category": "discount_brands",
+      "question": "Do you offer discounts on sports brands?",
+      "answer": "Yes, selected brands may have seasonal discounts and promotional offers."
+    },
+    {
+      "category": "bulk_brand_purchase",
+      "question": "Can I buy sports brand products in bulk?",
+      "answer": "Yes, bulk purchases are available depending on stock and brand policy."
+    },
+    {
+      "category": "international_brands",
+      "question": "Do you carry international sports brands?",
+      "answer": "Yes, we stock several international sports brands along with local options."
+    },
+    {
+      "category": "brand_support",
+      "question": "Can you help me choose the best sports brand for my needs?",
+      "answer": "Yes, our staff can guide you based on your sport, budget, and performance requirements."
+    }
+  ]
+}

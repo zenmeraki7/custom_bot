@@ -1,0 +1,634 @@
+{
+  "faqs": [
+    {
+      "question": "What spa treatments do you offer?",
+      "answer": "We offer massages, facials, body scrubs, body wraps, aromatherapy, and wellness treatments."
+    },
+    {
+      "question": "What types of massages are available?",
+      "answer": "We provide Swedish, Deep Tissue, Hot Stone, Aromatherapy, and Traditional massages."
+    },
+    {
+      "question": "How long does a massage session last?",
+      "answer": "Massage sessions typically last 30, 60, 90, or 120 minutes."
+    },
+    {
+      "question": "Which massage is best for stress relief?",
+      "answer": "Aromatherapy and Swedish massages are popular choices for stress relief and relaxation."
+    },
+    {
+      "question": "Do you offer facial treatments?",
+      "answer": "Yes, we offer cleansing, hydrating, anti-aging, and brightening facial treatments."
+    },
+    {
+      "question": "What is included in a facial treatment?",
+      "answer": "Facial treatments usually include cleansing, exfoliation, extraction, massage, mask, and moisturizing."
+    },
+    {
+      "question": "Do you provide body scrub treatments?",
+      "answer": "Yes, body scrubs help remove dead skin cells and improve skin texture."
+    },
+    {
+      "question": "What are body wraps used for?",
+      "answer": "Body wraps help hydrate the skin, improve circulation, and promote relaxation."
+    },
+    {
+      "question": "What is aromatherapy?",
+      "answer": "Aromatherapy uses essential oils to enhance physical and emotional well-being."
+    },
+    {
+      "question": "Can I customize my spa treatment?",
+      "answer": "Yes, treatments can be customized based on your preferences and wellness goals."
+    },
+    {
+      "question": "Which treatment is best for muscle pain?",
+      "answer": "Deep Tissue and Hot Stone massages are commonly recommended for muscle tension and pain."
+    },
+    {
+      "question": "Do you offer couples spa treatments?",
+      "answer": "Yes, we offer special spa packages and massage sessions for couples."
+    },
+    {
+      "question": "Are spa treatments suitable for sensitive skin?",
+      "answer": "Yes, we use suitable products and can recommend treatments for sensitive skin."
+    },
+    {
+      "question": "What are the benefits of a spa massage?",
+      "answer": "Spa massages can help reduce stress, improve circulation, relieve muscle tension, and promote relaxation."
+    },
+    {
+      "question": "How often should I get a spa treatment?",
+      "answer": "The frequency depends on your needs, but many clients visit monthly for maintenance and relaxation."
+    },
+    {
+      "question": "Do you offer wellness packages?",
+      "answer": "Yes, we provide wellness packages that combine multiple treatments for a complete experience."
+    },
+    {
+      "question": "What is a hot stone massage?",
+      "answer": "A hot stone massage uses heated stones to relax muscles and improve circulation."
+    },
+    {
+      "question": "What is a deep tissue massage?",
+      "answer": "Deep tissue massage targets deeper layers of muscles and connective tissues to relieve chronic tension."
+    },
+    {
+      "question": "Can pregnant women receive spa treatments?",
+      "answer": "Yes, we offer selected prenatal treatments designed specifically for expectant mothers."
+    },
+    {
+      "question": "What should I do before my spa treatment?",
+      "answer": "Arrive early, stay hydrated, and inform the therapist of any medical conditions or preferences."
+    },
+    {
+      "question": "How can I book an appointment?",
+      "answer": "You can book an appointment by calling us, sending a WhatsApp message, visiting our spa, or booking online through our website."
+    },
+    {
+      "question": "Do I need to book in advance?",
+      "answer": "Advance booking is recommended to secure your preferred date, time, and therapist."
+    },
+    {
+      "question": "Can I make a same-day appointment?",
+      "answer": "Yes, same-day appointments are available based on therapist and slot availability."
+    },
+    {
+      "question": "Do you accept walk-in customers?",
+      "answer": "Yes, walk-in customers are welcome, but appointments are subject to availability."
+    },
+    {
+      "question": "Can I book an appointment online?",
+      "answer": "Yes, online booking is available through our website and social media booking links."
+    },
+    {
+      "question": "What information is required to make a booking?",
+      "answer": "We typically require your name, contact number, preferred service, date, and time."
+    },
+    {
+      "question": "How far in advance can I schedule an appointment?",
+      "answer": "You can schedule appointments days or weeks in advance depending on availability."
+    },
+    {
+      "question": "Can I choose my preferred therapist?",
+      "answer": "Yes, you can request a preferred therapist when making your booking."
+    },
+    {
+      "question": "Can I book multiple treatments in one visit?",
+      "answer": "Yes, multiple treatments can be booked together based on available time slots."
+    },
+    {
+      "question": "Do you offer group bookings?",
+      "answer": "Yes, we accommodate group bookings for friends, families, and special occasions."
+    },
+    {
+      "question": "Can I book a couples spa session?",
+      "answer": "Yes, couples spa packages and sessions are available upon request."
+    },
+    {
+      "question": "Will I receive a booking confirmation?",
+      "answer": "Yes, a confirmation message or email will be sent once your appointment is confirmed."
+    },
+    {
+      "question": "Do you send appointment reminders?",
+      "answer": "Yes, we send reminders via SMS, WhatsApp, or email before your appointment."
+    },
+    {
+      "question": "Can I reschedule my appointment?",
+      "answer": "Yes, appointments can be rescheduled subject to availability."
+    },
+    {
+      "question": "How do I reschedule my booking?",
+      "answer": "You can contact our reception team by phone, WhatsApp, or email to reschedule."
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "Please notify us at least 24 hours in advance for cancellations to avoid any charges."
+    },
+    {
+      "question": "Is there a cancellation fee?",
+      "answer": "Cancellation fees may apply for late cancellations or missed appointments."
+    },
+    {
+      "question": "What happens if I arrive late?",
+      "answer": "Your treatment time may be shortened to avoid affecting other scheduled appointments."
+    },
+    {
+      "question": "Can I modify the treatment after booking?",
+      "answer": "Yes, treatment changes can be made before your appointment, subject to availability."
+    },
+    {
+      "question": "Can I book an appointment for someone else?",
+      "answer": "Yes, you can make bookings on behalf of family members, friends, or colleagues."
+    },
+    {
+      "question": "Do you require a deposit for bookings?",
+      "answer": "Some treatments or packages may require an advance deposit to secure the appointment."
+    },
+    {
+      "question": "What payment methods are accepted for bookings?",
+      "answer": "We accept cash, credit cards, debit cards, online transfers, and selected digital payment methods."
+    },
+    {
+      "question": "Can I use a gift voucher when booking?",
+      "answer": "Yes, gift vouchers can be redeemed when making or attending your appointment."
+    },
+    {
+      "question": "How long before my appointment should I arrive?",
+      "answer": "We recommend arriving 10 to 15 minutes before your scheduled appointment time."
+    },
+    {
+      "question": "Can I book recurring appointments?",
+      "answer": "Yes, regular and recurring appointments can be arranged for your convenience."
+    },
+    {
+      "category": "spa_pricing_overview",
+      "question": "How is spa service pricing decided?",
+      "answer": "Spa pricing depends on the type of treatment, duration, products used, and the spa package selected."
+    },
+    {
+      "category": "massage_cost",
+      "question": "How much does a spa massage cost?",
+      "answer": "Massage costs vary based on the type of massage, duration, and spa location."
+    },
+    {
+      "category": "full_body_spa",
+      "question": "Do you offer full body spa packages?",
+      "answer": "Yes, full body spa packages are available with relaxation, massage, and skin care treatments."
+    },
+    {
+      "category": "package_includes",
+      "question": "What is included in spa packages?",
+      "answer": "Spa packages may include body massage, scrub, steam, facial care, and relaxation therapies."
+    },
+    {
+      "category": "couple_spa",
+      "question": "Do you provide couple spa packages?",
+      "answer": "Yes, couple spa packages are available for shared relaxation experiences."
+    },
+    {
+      "category": "membership_plans",
+      "question": "Do you offer spa membership plans?",
+      "answer": "Yes, membership plans are available for regular customers with discounted rates and benefits."
+    },
+    {
+      "category": "discounts_offers",
+      "question": "Are there any spa discounts or offers?",
+      "answer": "Yes, seasonal discounts, festival offers, and promotional spa packages may be available."
+    },
+    {
+      "category": "combo_packages",
+      "question": "Do you have combo spa packages?",
+      "answer": "Yes, combo packages may include massage, facial, body scrub, and other treatments at a bundled price."
+    },
+    {
+      "category": "custom_packages",
+      "question": "Can I customize a spa package?",
+      "answer": "Yes, spa packages can be customized based on your needs and preferences."
+    },
+    {
+      "category": "advance_payment",
+      "question": "Is advance payment required for spa bookings?",
+      "answer": "Advance payment may be required for premium or combo spa packages."
+    },
+    {
+      "category": "refund_policy",
+      "question": "Do you provide refunds for spa services?",
+      "answer": "Refund policies depend on the spa’s terms and conditions and cancellation timing."
+    },
+    {
+      "category": "pricing_variation",
+      "question": "Why do spa prices vary?",
+      "answer": "Spa prices vary based on service type, duration, therapist expertise, and products used."
+    },
+    {
+      "category": "trial_services",
+      "question": "Do you offer trial spa services?",
+      "answer": "Some spas may offer trial or introductory services at special prices."
+    },
+    {
+      "category": "group_packages",
+      "question": "Do you provide spa packages for groups?",
+      "answer": "Yes, group spa packages are available for friends, families, or special occasions."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get a consultation before choosing a spa package?",
+      "answer": "Yes, consultation is available to recommend the best spa treatment based on your needs."
+    },
+    {
+      "category": "health_safety_overview",
+      "question": "What health and safety measures do you follow in the spa?",
+      "answer": "We follow strict hygiene protocols, sanitized tools, clean linens, and professional procedures to ensure customer safety."
+    },
+    {
+      "category": "tool_sanitization",
+      "question": "Are spa tools and equipment sanitized?",
+      "answer": "Yes, all tools and equipment are properly sanitized before and after each customer use."
+    },
+    {
+      "category": "staff_hygiene",
+      "question": "Do spa staff follow hygiene standards?",
+      "answer": "Yes, all staff maintain proper hygiene, wear clean uniforms, and follow safety guidelines."
+    },
+    {
+      "category": "skin_safety",
+      "question": "Are spa treatments safe for all skin types?",
+      "answer": "Yes, treatments are customized based on skin type to ensure safety and effectiveness."
+    },
+    {
+      "category": "allergy_patch_test",
+      "question": "Do you perform patch tests before treatments?",
+      "answer": "Yes, patch tests are recommended for clients with sensitive skin or new products."
+    },
+    {
+      "category": "product_safety",
+      "question": "Are the spa products safe and approved?",
+      "answer": "Yes, we use high-quality, skin-safe, and dermatologically tested products."
+    },
+    {
+      "category": "covid_safety",
+      "question": "Do you follow COVID or infection safety protocols?",
+      "answer": "Yes, we follow updated hygiene and infection control protocols as per health guidelines."
+    },
+    {
+      "category": "clean_environment",
+      "question": "Is the spa environment clean and safe?",
+      "answer": "Yes, we maintain a clean, sanitized, and relaxing environment for all services."
+    },
+    {
+      "category": "client_screening",
+      "question": "Do you check client health conditions before treatments?",
+      "answer": "Yes, basic consultation is done to ensure treatments are safe for the client."
+    },
+    {
+      "category": "open_wounds_policy",
+      "question": "Can I take spa treatment if I have skin cuts or infections?",
+      "answer": "Spa treatments are not recommended for clients with open wounds, infections, or skin conditions."
+    },
+    {
+      "category": "massage_safety",
+      "question": "Are massage treatments safe?",
+      "answer": "Yes, massages are safe when performed by trained professionals using proper techniques."
+    },
+    {
+      "category": "chemical_safety",
+      "question": "Are chemicals used in spa treatments safe?",
+      "answer": "Yes, only approved and safe-grade products are used in all spa treatments."
+    },
+    {
+      "category": "pregnancy_safety",
+      "question": "Can pregnant women take spa treatments?",
+      "answer": "Some treatments are safe, but it is recommended to consult a doctor before booking."
+    },
+    {
+      "category": "hygiene_linen",
+      "question": "Are towels and linens clean for each customer?",
+      "answer": "Yes, fresh and sanitized linens are used for every customer."
+    },
+    {
+      "category": "emergency_support",
+      "question": "What happens in case of an emergency during treatment?",
+      "answer": "Trained staff are available to handle emergencies and provide immediate assistance if needed."
+    },
+    {
+      "category": "spa_before_treatment",
+      "question": "What should I do before a spa treatment?",
+      "answer": "Before a spa treatment, avoid heavy meals, stay hydrated, and arrive a few minutes early for a relaxed experience."
+    },
+    {
+      "category": "spa_aftercare_overview",
+      "question": "What care should I take after a spa treatment?",
+      "answer": "After a spa treatment, rest well, drink plenty of water, and avoid stressful activities to maximize benefits."
+    },
+    {
+      "category": "skin_preparation",
+      "question": "Should I prepare my skin before a spa session?",
+      "answer": "Yes, it is recommended to keep your skin clean and avoid applying heavy lotions or oils before the session."
+    },
+    {
+      "category": "post_massage_reaction",
+      "question": "Is it normal to feel tired after a spa or massage?",
+      "answer": "Yes, mild tiredness or relaxation is normal as your body releases tension during the treatment."
+    },
+    {
+      "category": "water_intake",
+      "question": "Why is drinking water important after a spa treatment?",
+      "answer": "Drinking water helps flush out toxins released during massage and keeps the body hydrated."
+    },
+    {
+      "category": "bath_after_spa",
+      "question": "Can I take a bath after a spa treatment?",
+      "answer": "It is usually recommended to wait a few hours before taking a bath to allow oils and treatments to absorb properly."
+    },
+    {
+      "category": "sun_exposure",
+      "question": "Should I avoid sun exposure after a spa or facial?",
+      "answer": "Yes, it is best to avoid direct sun exposure for a few hours after treatment to protect the skin."
+    },
+    {
+      "category": "exercise_after_spa",
+      "question": "Can I exercise after a spa session?",
+      "answer": "It is better to avoid intense exercise immediately after a spa session to maintain relaxation benefits."
+    },
+    {
+      "category": "alcohol_after_spa",
+      "question": "Can I consume alcohol after a spa treatment?",
+      "answer": "It is recommended to avoid alcohol after spa treatments to help the body recover and stay hydrated."
+    },
+    {
+      "category": "clothing_before_spa",
+      "question": "What should I wear for a spa session?",
+      "answer": "Wear comfortable clothing that is easy to change before and after the treatment."
+    },
+    {
+      "category": "massage_effects",
+      "question": "What effects can I expect after a spa massage?",
+      "answer": "You may feel relaxed, refreshed, and slightly sleepy as your body releases tension and stress."
+    },
+    {
+      "category": "after_skin_care",
+      "question": "What skin care should I follow after a spa facial?",
+      "answer": "Use gentle skincare products, avoid harsh chemicals, and keep your skin moisturized."
+    },
+    {
+      "category": "breakout_after_spa",
+      "question": "Is it normal to have small breakouts after a facial spa?",
+      "answer": "Yes, mild purging or breakouts can happen temporarily as toxins are released from the skin."
+    },
+    {
+      "category": "frequency",
+      "question": "How often should I take spa treatments?",
+      "answer": "Spa treatments are usually recommended once every 2 to 4 weeks depending on your needs."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get advice before choosing a spa treatment?",
+      "answer": "Yes, a consultation helps determine the best spa treatment based on your skin and body needs."
+    },
+    {
+      "category": "spa_location_overview",
+      "question": "Where is your spa located?",
+      "answer": "Our spa is located in a convenient and peaceful area with easy access. You can find the exact location on Google Maps or contact us for directions."
+    },
+    {
+      "category": "spa_directions",
+      "question": "How can I get directions to your spa?",
+      "answer": "We can share Google Maps location, WhatsApp location pin, or guide you through a phone call for easy navigation."
+    },
+    {
+      "category": "spa_nearby_landmark",
+      "question": "What is the nearest landmark to your spa?",
+      "answer": "Our spa is located near popular landmarks in the area, making it easy to find. Please contact us for exact landmark details."
+    },
+    {
+      "category": "spa_parking",
+      "question": "Is parking available at your spa?",
+      "answer": "Yes, parking facilities are available for customers, but availability may vary depending on the location and time."
+    },
+    {
+      "category": "spa_public_transport",
+      "question": "Can I reach your spa using public transport?",
+      "answer": "Yes, our spa is easily accessible by bus, metro, and other public transport options nearby."
+    },
+    {
+      "category": "spa_opening_hours",
+      "question": "What are your spa opening hours?",
+      "answer": "Our spa usually opens in the morning and operates until evening. Exact timings may vary by day."
+    },
+    {
+      "category": "spa_closing_hours",
+      "question": "What time does your spa close?",
+      "answer": "Our spa typically closes in the evening, depending on the schedule and bookings for the day."
+    },
+    {
+      "category": "spa_weekend_timing",
+      "question": "Are you open on weekends?",
+      "answer": "Yes, we are open on weekends, but advance booking is recommended due to high demand."
+    },
+    {
+      "category": "spa_holiday_availability",
+      "question": "Are you open on public holidays?",
+      "answer": "We may remain open or closed on public holidays depending on the spa schedule. Please confirm in advance."
+    },
+    {
+      "category": "spa_festival_hours",
+      "question": "Do spa timings change during festivals?",
+      "answer": "Yes, during festivals spa timings may be reduced or the spa may remain closed depending on the holiday schedule."
+    },
+    {
+      "category": "spa_appointment_timing",
+      "question": "Can I book spa appointments outside working hours?",
+      "answer": "Online booking may be available anytime, but spa services are provided only during working hours."
+    },
+    {
+      "category": "spa_late_evening_slots",
+      "question": "Do you offer late evening spa sessions?",
+      "answer": "Late evening sessions may be available depending on prior bookings and staff availability."
+    },
+    {
+      "category": "spa_early_morning_slots",
+      "question": "Do you provide early morning spa appointments?",
+      "answer": "Yes, early morning appointments may be arranged based on request and availability."
+    },
+    {
+      "category": "spa_timing_changes",
+      "question": "Do spa timings change sometimes?",
+      "answer": "Yes, spa timings may change due to holidays, special events, or operational needs."
+    },
+    {
+      "category": "spa_contact_hours",
+      "question": "When can I contact the spa?",
+      "answer": "You can contact us during working hours, and WhatsApp support may be available for quick assistance."
+    },
+    {
+      "category": "wellness_program_overview",
+      "question": "What wellness programs do you offer at the spa?",
+      "answer": "We offer wellness programs like full body massage, aromatherapy, stress relief therapy, detox treatments, and relaxation therapies."
+    },
+    {
+      "category": "spa_benefits",
+      "question": "What are the benefits of spa wellness programs?",
+      "answer": "Spa wellness programs help reduce stress, improve blood circulation, relax muscles, and improve overall mental and physical health."
+    },
+    {
+      "category": "stress_relief",
+      "question": "Do you offer stress relief treatments?",
+      "answer": "Yes, we provide stress relief massages and therapies designed to relax the body and mind."
+    },
+    {
+      "category": "aromatherapy",
+      "question": "What is aromatherapy in spa treatments?",
+      "answer": "Aromatherapy uses essential oils during massage to improve relaxation, mood, and overall wellness."
+    },
+    {
+      "category": "detox_program",
+      "question": "Do you offer body detox programs?",
+      "answer": "Yes, detox programs are available to help remove toxins and improve skin and body health."
+    },
+    {
+      "category": "massage_types",
+      "question": "What types of massage are included in wellness programs?",
+      "answer": "We offer Swedish massage, deep tissue massage, hot stone massage, and relaxation massage."
+    },
+    {
+      "category": "session_duration",
+      "question": "How long does a wellness spa session take?",
+      "answer": "Spa wellness sessions usually range from 30 minutes to 2 hours depending on the treatment."
+    },
+    {
+      "category": "spa_frequency",
+      "question": "How often should I take spa wellness treatments?",
+      "answer": "It is recommended to take spa treatments once or twice a month for best results."
+    },
+    {
+      "category": "pain_relief",
+      "question": "Do spa treatments help with body pain?",
+      "answer": "Yes, massage therapies help reduce muscle pain, stiffness, and body tension."
+    },
+    {
+      "category": "relaxation_programs",
+      "question": "Do you offer full relaxation programs?",
+      "answer": "Yes, full relaxation packages are available including massage, aromatherapy, and body care treatments."
+    },
+    {
+      "category": "skin_benefits",
+      "question": "Do spa wellness programs improve skin health?",
+      "answer": "Yes, spa treatments improve blood circulation and help maintain healthy, glowing skin."
+    },
+    {
+      "category": "couple_spa",
+      "question": "Do you offer couple spa wellness programs?",
+      "answer": "Yes, couple spa packages are available for shared relaxation experiences."
+    },
+    {
+      "category": "appointment_required",
+      "question": "Do I need an appointment for spa wellness programs?",
+      "answer": "Yes, prior booking is recommended for wellness spa sessions."
+    },
+    {
+      "category": "safety",
+      "question": "Are spa wellness treatments safe for everyone?",
+      "answer": "Yes, treatments are safe, but people with medical conditions should consult before booking."
+    },
+    {
+      "category": "consultation",
+      "question": "Can I get a consultation before choosing a wellness program?",
+      "answer": "Yes, consultation is available to recommend the best spa wellness program based on your needs."
+    },
+    {
+      "category": "special_events_overview",
+      "question": "What special event spa services do you offer?",
+      "answer": "We offer spa packages for weddings, parties, birthdays, anniversaries, and other special occasions."
+    },
+    {
+      "category": "corporate_spa_services",
+      "question": "Do you provide spa services for corporate events?",
+      "answer": "Yes, we provide corporate wellness spa services for offices, team events, and employee wellness programs."
+    },
+    {
+      "category": "event_booking",
+      "question": "How early should I book spa services for special events?",
+      "answer": "It is recommended to book at least a few days or weeks in advance depending on the size of the event."
+    },
+    {
+      "category": "on_site_services",
+      "question": "Do you provide on-site spa services for events?",
+      "answer": "Yes, on-site spa services can be arranged for both corporate and private events based on location and requirements."
+    },
+    {
+      "category": "group_booking",
+      "question": "Can I book spa services for a group?",
+      "answer": "Yes, group spa bookings are available for events, offices, and private gatherings."
+    },
+    {
+      "category": "service_types",
+      "question": "What types of spa treatments are available for events?",
+      "answer": "We offer massages, relaxation therapies, foot spa, head massage, and wellness treatments for events."
+    },
+    {
+      "category": "corporate_wellness",
+      "question": "What is included in corporate wellness spa packages?",
+      "answer": "Corporate wellness packages may include stress relief massages, relaxation therapies, and employee wellness sessions."
+    },
+    {
+      "category": "event_customization",
+      "question": "Can spa packages be customized for events?",
+      "answer": "Yes, spa packages can be customized based on event type, duration, and number of participants."
+    },
+    {
+      "category": "duration",
+      "question": "How long do event spa sessions take?",
+      "answer": "Session duration varies depending on the package and can range from 15 minutes to several hours."
+    },
+    {
+      "category": "staff_arrangement",
+      "question": "Do you provide trained staff for event spa services?",
+      "answer": "Yes, trained and professional therapists are provided for all event and corporate spa services."
+    },
+    {
+      "category": "equipment",
+      "question": "Do you bring spa equipment for on-site events?",
+      "answer": "Yes, necessary equipment and materials are arranged for on-site spa services."
+    },
+    {
+      "category": "pricing",
+      "question": "How is pricing calculated for event spa services?",
+      "answer": "Pricing depends on the number of guests, service type, duration, and location of the event."
+    },
+    {
+      "category": "corporate_contract",
+      "question": "Do you offer long-term corporate spa contracts?",
+      "answer": "Yes, long-term wellness partnerships and corporate contracts can be arranged."
+    },
+    {
+      "category": "booking_process",
+      "question": "How can I book spa services for an event?",
+      "answer": "You can book via phone, WhatsApp, email, or through the spa website."
+    },
+    {
+      "category": "hygiene_safety",
+      "question": "Are hygiene and safety maintained during event spa services?",
+      "answer": "Yes, strict hygiene standards and safety protocols are followed for all spa services."
+    }
+  ]
+}
