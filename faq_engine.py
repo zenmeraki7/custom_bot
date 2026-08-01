@@ -1,6 +1,3 @@
-# NOTE: an older, fully superseded version of this module (~1100 lines) was
-# removed from the top of this file during cleanup -- it was entirely
-# commented out and unreachable. See version control history to recover it.
 
 from __future__ import annotations
 from item_matcher import item_lookup, is_availability_query, is_price_query
