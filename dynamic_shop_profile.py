@@ -34,8 +34,6 @@ from pathlib import Path
 
 import requests
 
-OLLAMA_URL   = "http://localhost:11434/api/generate"
-OLLAMA_MODEL = "gemma3:4b"
 CACHE_DIR    = Path("shops/_profile_cache")
 
 _cache: dict[str, "ShopProfile"] = {}
@@ -645,20 +643,16 @@ def _ask_ollama(shop_name: str, shop_type: str, items: list) -> dict | None:
         f"  item_label : single word/phrase for items (e.g. products, services, dishes)\n"
         f"Return only valid JSON."
     )
+    import ollama_client
     try:
-        resp = requests.post(
-            OLLAMA_URL,
-            json={
-                "model":   OLLAMA_MODEL,
-                "prompt":  prompt,
-                "system":  "Return only valid JSON. No explanation. No markdown.",
-                "stream":  False,
-                "options": {"temperature": 0.1, "num_predict": 300},
-            },
-            timeout=30,
+        raw, ok = ollama_client.generate(
+            prompt,
+            system="Return only valid JSON. No explanation. No markdown.",
+            temperature=0.1, num_predict=300,
         )
-        resp.raise_for_status()
-        raw = resp.json().get("response", "").strip()
+        if not ok:
+            raise RuntimeError("Ollama unavailable")
+        raw = raw.strip()
         if raw.startswith("```"):
             raw = raw.split("```")[1]
             if raw.startswith("json"):

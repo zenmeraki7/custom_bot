@@ -4,6 +4,7 @@ shop_manager.py — Per-slug shop context (file-based, no DB)  v4.0
 """
 
 from __future__ import annotations
+import re
 
 import json
 import threading
@@ -26,9 +27,55 @@ _cache: dict[str, "ShopContext"] = {}
 _cache_lock = threading.Lock()
 
 
+def _normalize_slug(slug: str) -> str:
+    """Trim, lowercase, collapse whitespace/underscores/dashes into one dash.
+    ' beaty - beat ', 'beaty---beat', 'beaty_beat' all map to 'beaty-beat'.
+    Shop-agnostic; UUIDs pass through unchanged."""
+    s = (slug or "").strip().lower()
+    s = re.sub(r"[\s_]+", "-", s)
+    s = re.sub(r"-+", "-", s)
+    return s.strip("-")
+
+
+def _looksml(text: str) -> bool:
+    """Quick heuristic: does this look like a Manglish question?
+    Checks for common Manglish particles/suffixes."""
+    if not text:
+        return False
+    t = text.lower()
+    ML_PARTICLES = {
+        "undo", "und", "indo", "aano", "undu", "aanu",
+        "kittumo", "cheyyumo", "cheyyaamo", "kittumano",
+        "aano", "entha", "enthu", "ethu", "evide",
+        "undaakumo", "paranjutharamo", "nokam",
+    }
+    words = set(re.sub(r"[^\w\s]", " ", t).split())
+    return bool(words & ML_PARTICLES)
+
+
+_is_manglish_fn = None
+
+
+def _is_manglish_text(text: str) -> bool:
+    """
+    Per-variant language check used when building embeddings. Prefers
+    nlp.is_manglish() (the ~150+ signal detector used everywhere else in
+    the codebase); falls back to the much weaker local _looksml() only if
+    nlp.py can't be imported for some reason, so this never hard-fails.
+    """
+    global _is_manglish_fn
+    if _is_manglish_fn is None:
+        try:
+            from nlp import is_manglish as _fn
+            _is_manglish_fn = _fn
+        except Exception:
+            _is_manglish_fn = _looksml
+    return _is_manglish_fn(text)
+
+
 class ShopContext:
     def __init__(self, slug: str):
-        self.slug = slug
+        self.slug = _normalize_slug(slug)
         self.cfg: dict = {}
         self.shop_faqs: list = []
         self.shop_items: list = []
@@ -45,20 +92,23 @@ class ShopContext:
             with open(cfg_path, "r", encoding="utf-8") as f:
                 self.cfg = json.load(f)
         else:
-            root = Path("shop_config.json")
-            if root.exists():
-                with open(root, "r", encoding="utf-8") as f:
-                    self.cfg = json.load(f)
-            else:
-                self.cfg = {
-                    "bot_name": "Assistant", "shop_name": "Our Shop",
-                    "shop_type": "general", "contact": {}, "hours": {},
-                    "escalate": {}, "escalate_topics": ["fraud", "refund", "complaint"],
-                    "blocked_topics": [], "quick_chips": [], "welcome_cards": [],
-                    "item_count": 0,
-                    "shop_gender": "all", "specialisation": None,
-                    "allowed_categories": [], "is_veg": False, "dietary_mode": None,
-                }
+            # FIX: never inherit another shop's identity. The root-
+            # level shop_config.json is whatever shop was last being
+            # worked on -- it is NOT a generic template, and loading
+            # it here means a brand-new slug briefly shows up with
+            # someone else's bot_name/shop_type/etc. until PDF
+            # extraction or generate-shop later overwrites it. A
+            # slug with no config of its own always gets the clean
+            # generic default instead.
+            self.cfg = {
+                "bot_name": "Assistant", "shop_name": "Our Shop",
+                "shop_type": "general", "contact": {}, "hours": {},
+                "escalate": {}, "escalate_topics": ["fraud", "refund", "complaint"],
+                "blocked_topics": [], "quick_chips": [], "welcome_cards": [],
+                "item_count": 0,
+                "shop_gender": "all", "specialisation": None,
+                "allowed_categories": [], "is_veg": False, "dietary_mode": None,
+            }
 
         pm = self._placeholder_map()
 
@@ -98,7 +148,7 @@ class ShopContext:
         specialisation = self.cfg.get("specialisation") or "-"
         is_veg         = self.cfg.get("is_veg", False)
         print(
-            f"[shop:{self.slug}] ✅ Loaded — "
+            f"[shop:{self.slug}] OK Loaded -- "
             f"bot={self.cfg.get('bot_name')} "
             f"type={shop_type} "
             f"gender={shop_gender} "
@@ -173,7 +223,7 @@ class ShopContext:
             except (KeyError, ValueError):
                 pass
 
-            # ── also grab answer_ml for Manglish FAQ packs ──
+            # also grab answer_ml for Manglish FAQ packs
             answer_ml = item.get("answer_ml", "").strip()
             if answer_ml:
                 try:
@@ -181,17 +231,32 @@ class ShopContext:
                 except (KeyError, ValueError):
                     pass
 
+            # Detect if the primary question is Manglish.
+            _item_lang = item.get("lang", "english")
+            _q_is_manglish = (
+                _item_lang == "manglish"
+                or (
+                    _item_lang == "english_manglish"
+                    and _looksml(variants[0])
+                )
+            )
+
             entry = {
-                "id":       item.get("id", ""),
-                "q":        variants[0],
-                "variants": variants[1:],
-                "a":        answer,
-                "section":  item.get("category", "shop"),
-                "source":   "shop_faq",
-                "lang":     item.get("lang", "english"),
+                "id":             item.get("id", ""),
+                "q":              variants[0],
+                "variants":       variants[1:],
+                "a":              answer,
+                "section":        item.get("category", "shop"),
+                "source":         "shop_faq",
+                "lang":           _item_lang,
+                "_q_is_manglish": _q_is_manglish,
             }
             if answer_ml:
                 entry["a_ml"] = answer_ml
+            # If this entry already has a paired Manglish question stored
+            # explicitly, carry it through for embedding.
+            if item.get("q_ml"):
+                entry["q_ml"] = item["q_ml"].strip()
 
             flat.append(entry)
 
@@ -206,7 +271,6 @@ class ShopContext:
             self.shop_emb_vectors = None
             return
         try:
-            # ✅ FIX: use _get_model() from faq_engine — 'embedder' does not exist
             model = _faq_module._get_model()
             if model is None:
                 return
@@ -218,11 +282,36 @@ class ShopContext:
                 q = item.get("q", "").strip()
                 if q:
                     texts.append(q)
-                    meta.append(item)
+                    meta.append({**item, "_qlang": "ml" if item.get("_q_is_manglish") else "en"})
                 for v in item.get("variants", []):
                     if v and v.strip():
+                        v = v.strip()
+                        texts.append(v)
+                        # FIX: tag per-variant, not per-entry. question_variants
+                        # from generate_shop.py mixes English and Manglish
+                        # phrasings in one list -- the old code tagged every
+                        # variant with the WHOLE entry's _q_is_manglish flag
+                        # (computed only from the primary/first question),
+                        # so a genuinely Manglish phrasing sitting at
+                        # variants[1] got tagged "en" and became unreachable
+                        # for Manglish-filtered search (see faq_engine.py's
+                        # _shop_semantic_match, which filters candidate rows
+                        # by _qlang before scoring). Uses nlp.is_manglish(),
+                        # NOT the file-local _looksml() -- tested and found
+                        # _looksml's ~17-particle set misses realistic
+                        # Manglish sentences that nlp.py's ~150+ signal list
+                        # correctly catches.
+                        meta.append({**item, "_qlang": "ml" if _is_manglish_text(v) else "en"})
+                # Index Manglish question separately so Manglish queries
+                # only match against Manglish questions.
+                q_ml = item.get("q_ml", "").strip()
+                if q_ml and q_ml != q:
+                    texts.append(q_ml)
+                    meta.append({**item, "_qlang": "ml"})
+                for v in item.get("variants_ml", []):
+                    if v and v.strip():
                         texts.append(v.strip())
-                        meta.append(item)
+                        meta.append({**item, "_qlang": "ml"})
 
             if not texts:
                 self.shop_emb_vectors = None
@@ -236,9 +325,17 @@ class ShopContext:
                 batch_size=64,
             )
             self.shop_emb_meta = meta
-            print(f"[shop:{self.slug}] ✅ {len(texts)} shop embeddings built")
+            # Register in per-slug store for multi-tenant isolation
+            try:
+                if hasattr(_faq_module, "register_shop_embeddings"):
+                    _faq_module.register_shop_embeddings(
+                        self.slug, self.shop_emb_vectors, self.shop_emb_meta
+                    )
+            except Exception:
+                pass
+            print(f"[shop:{self.slug}] OK {len(texts)} shop embeddings built")
         except Exception as e:
-            print(f"[shop:{self.slug}] ⚠  embedding error: {e}")
+            print(f"[shop:{self.slug}] embedding error: {e}")
             self.shop_emb_vectors = None
 
     def save_config(self, cfg: dict):
@@ -281,7 +378,9 @@ class ShopContext:
             _chat_module.DIETARY_MODE   = self.cfg.get("dietary_mode")
             _chat_module.SPECIALISATION = self.cfg.get("specialisation")
 
-            _faq_module.FAQS_SHOP        = self.shop_faqs
+            # FIX: FAQS_SHOP must be dict[str, list] — api.py /health and /faqs
+            # call .values() on it. Setting to bare list caused AttributeError.
+            _faq_module.FAQS_SHOP        = {self.slug: self.shop_faqs}
             _faq_module._PLACEHOLDER_MAP = self._placeholder_map()
 
             if self.shop_emb_vectors is not None:
@@ -289,7 +388,7 @@ class ShopContext:
                 _faq_module.SHOP_EMB_META    = self.shop_emb_meta
                 _faq_module.SHOP_FLAT        = self.shop_faqs
 
-            result = _global_pipeline(message)
+            result = _global_pipeline(message, slug=self.slug)
 
         return result
 
@@ -323,6 +422,7 @@ def _save_json(path, data):
 
 
 def get_shop_context(slug: str) -> ShopContext:
+    slug = _normalize_slug(slug)
     with _cache_lock:
         if slug not in _cache:
             _cache[slug] = ShopContext(slug)
@@ -330,6 +430,7 @@ def get_shop_context(slug: str) -> ShopContext:
 
 
 def reload_shop(slug: str) -> ShopContext:
+    slug = _normalize_slug(slug)
     with _cache_lock:
         ctx = ShopContext(slug)
         _cache[slug] = ctx
