@@ -1,5 +1,6 @@
 
 
+
 """
 nlp.py — Language detection, sentiment analysis, text utilities
 ===============================================================
@@ -194,11 +195,14 @@ MANGLISH_SIGNALS = [
     "cheyynam", "nokam", "nokkanam", "kittum", "kittiyilla",
     "njan", "njangal", "ningal", "avarkku",
     "engane", "enthu", "ethra", "evide", "ippo", "okke",
+    # Who / there -- missing entirely, caused "avduthe pharmacist aaranu?"
+    # to be misdetected as English
+    "aaranu", "aaru", "avide", "avde", "avduthe", "aviduthe",
     "polum", "munpe", "athukond", "allenkil", "undenkil",
     "kollam", "mosham", "adipoli", "sheri", "sheriyalla",
-    "kooduthal", "venda", "venam",
+    "kooduthal", "venda", "venam", "veno",
     "aayirunnu", "kazhinju",
-    "pattumo", "tharaamo",
+    "pattumo", "patumo", "tharaamo",
     "kodukkum", "kodukkan", "njn", "undaakum",
     # give/provide variants — very common in customer messages
     "tharu", "tharilla", "tharaam", "tharamo", "tharanam", "tharaan",
@@ -212,7 +216,7 @@ MANGLISH_SIGNALS = [
     "ethranu", "ethrayanu", "etranu",
     "ellam", "nellam", "ithu", "athu",
     "ente", "pinne", "sherikkum",
-    "vangi", "vangam", "vangiyilla",
+    "vangi", "vangam", "vangan", "vangiyilla",
     "thettaya", "thettayit", "vilayil", "vilaykku",
     "divasam", "naal", "manikkoorkul",
     # Social / wellbeing
@@ -230,7 +234,7 @@ MANGLISH_SIGNALS = [
     # Price / cost
     "vila", "vilayil", "vilaykku",
     # Common Manglish query/social particles
-    "parayumo", "parayuka", "parayamo", "paranju", "paranjutharaam", "onnu", "koodi", "nte", "nthoru", "vannu", "varam", "kanam", "cheythu", "cheyyumo", "ullath", "ulla", "undallo", "undaayirunnu", "cheyyan", "cheyyum", "kittumo", "kittum",
+    "parayumo", "parayuka", "parayamo", "paranju", "paranjutharaam", "onnu", "koodi", "nte", "nthoru", "vannu", "varam", "kanam", "cheythu", "cheyyumo", "ullath", "ulla", "undallo", "undaayirunnu", "cheyyan", "cheyan", "cheyyum", "kittumo", "kittum",
     # Spelling variants from real Kerala chat data
     "hlo", "hoi", "sukhamano", "sukhamallo",
     "enthada", "enthado", "enthanu",
