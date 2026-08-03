@@ -711,6 +711,61 @@ def _topic_guard_ok(query: str, faq_question: str, shop_vocab: set) -> bool:
     return False
 
 
+# Margin within which two candidates are treated as a genuine near-tie.
+# Deliberately narrow: this does NOT reject the top match the way the old
+# (removed) "gap check" did -- it only re-ranks among candidates that are
+# ALREADY close enough that picking purely by embedding score is close to a
+# coin flip (e.g. "pharmacy_home_delivery" vs "pharmacy_delivery_charges" for
+# a "Delivery charge undoo?" query -- both are topically about delivery, but
+# only one actually answers what was asked).
+_NEAR_TIE_MARGIN = 0.03
+
+
+def _keyword_overlap(query: str, faq_question: str) -> float:
+    """Lightweight lexical overlap (Jaccard on tokens), used ONLY to break
+    near-ties between semantically-similar FAQ candidates -- never used as a
+    standalone matcher or a rejection gate."""
+    q_tokens = set(re.findall(r"\b\w+\b", query.lower()))
+    f_tokens = set(re.findall(r"\b\w+\b", faq_question.lower()))
+    if not q_tokens or not f_tokens:
+        return 0.0
+    return len(q_tokens & f_tokens) / len(q_tokens | f_tokens)
+
+
+def _best_with_tiebreak(scores, meta_list: list, query: str):
+    """Like scores.argmax(), but when multiple candidates land within
+    _NEAR_TIE_MARGIN of the top score, re-rank that near-tied group by
+    keyword overlap with the query instead of trusting the raw embedding
+    score alone. Returns (best_row, best_score) using the ORIGINAL semantic
+    score for the winner (keyword overlap only decides WHICH near-tied
+    candidate wins, it doesn't replace the confidence score)."""
+    k = min(5, scores.shape[0])
+    top_scores, top_idx = scores.topk(k)
+    top_scores = top_scores.tolist()
+    top_idx = top_idx.tolist()
+
+    best_score = top_scores[0]
+    tied = [(i, s) for i, s in zip(top_idx, top_scores)
+            if best_score - s <= _NEAR_TIE_MARGIN]
+
+    if len(tied) <= 1:
+        return top_idx[0], top_scores[0]
+
+    def _q_text(row_meta: dict) -> str:
+        return row_meta.get("q") or row_meta.get("question") or ""
+
+    ranked = sorted(
+        tied,
+        key=lambda pair: _keyword_overlap(query, _q_text(meta_list[pair[0]])),
+        reverse=True,
+    )
+    winner_idx, _ = ranked[0]
+    # Report the winner's own semantic score, not the top score, so
+    # downstream threshold checks stay honest about actual confidence.
+    winner_score = dict(tied)[winner_idx]
+    return winner_idx, winner_score
+
+
 def _shop_semantic_match(query: str, slug: str, lang: str = "english", shop_vocab: set | None = None) -> dict | None:
     # FIX A: use pre-built matrix from shop_manager
     # FIX 1: dual threshold — Manglish short queries need lower floor
@@ -739,8 +794,7 @@ def _shop_semantic_match(query: str, slug: str, lang: str = "english", shop_voca
                                   normalize_embeddings=True,
                                   show_progress_bar=False)
             scores = util.cos_sim(q_emb, lang_vecs)[0]
-            best_row = int(scores.argmax())
-            best_score = float(scores[best_row])
+            best_row, best_score = _best_with_tiebreak(scores, lang_meta, query)
             if best_score < threshold:
                 return None
             faq = dict(lang_meta[best_row])
@@ -757,8 +811,7 @@ def _shop_semantic_match(query: str, slug: str, lang: str = "english", shop_voca
         q_emb  = model.encode(query, convert_to_tensor=True,
                                normalize_embeddings=True, show_progress_bar=False)
         scores = util.cos_sim(q_emb, SHOP_EMB_VECTORS)[0]
-        best_row   = int(scores.argmax())
-        best_score = float(scores[best_row])
+        best_row, best_score = _best_with_tiebreak(scores, SHOP_EMB_META, query)
         if best_score < threshold:
             return None
         faq = dict(SHOP_EMB_META[best_row])
