@@ -1,14 +1,11 @@
-# NOTE: an older, fully superseded version of this module (~1100 lines) was
-# removed from the top of this file during cleanup -- it was entirely
-# commented out and unreachable. See version control history to recover it.
-
-from __future__ import annotations
+﻿from __future__ import annotations
 from item_matcher import item_lookup, is_availability_query, is_price_query
+from broad_query_patterns import BROAD_QUERY_PATTERNS, is_broad_query
 """
 faq_engine.py — FAQ loading, matching, and resolution
 ======================================================
 
-Fixes in this version (v6.1)
+Fixes in this version (v6.2)
 ─────────────────────────────
   FIX A  Pass 0 now uses pre-built SHOP_EMB_VECTORS / SHOP_EMB_META injected
          by shop_manager instead of re-encoding from scratch on every call.
@@ -32,6 +29,18 @@ Fixes in this version (v6.1)
   FIX I  Generic pool embedding indexes ALL question variants.
 
   FIX J  semantic_match() uses pre-built _FAQ_EMBEDDINGS cache for full pool.
+
+  FIX K  (v6.2) _BROAD_SVC now imported from broad_query_patterns.py instead
+         of being hardcoded locally inside match_faq() — was previously
+         missing "medicines"-shaped phrases, so a broad catalog question
+         like "medicines enthoke und" fell through into a narrow, wrong FAQ.
+
+  FIX L  (v6.2) _shop_semantic_match() now rejects a "disclaimer"-type FAQ
+         (faq_type == "disclaimer" in shop_faq.json) unless the semantic
+         score clears a much higher bar (0.85). Narrow caveat FAQs (e.g.
+         "some medicines require a prescription") semantically resemble
+         almost ANY question in their domain, so they were winning broad
+         questions they shouldn't be answering.
 """
 
 
@@ -174,6 +183,13 @@ FAQ_THRESHOLD         = 0.45
 SEMANTIC_THRESHOLD    = 0.42  # lowered: multilingual model scores higher on Manglish
 SHOP_FAQ_THRESHOLD    = 0.55  # English shop FAQ
 SHOP_FAQ_THRESHOLD_ML = 0.45  # Manglish short queries (raised: weak matches -> RAG)
+
+# FIX L: narrow caveat/disclaimer-shaped FAQs need a much higher bar before
+# they're allowed to win — they semantically resemble almost any question
+# in their domain (e.g. "some medicines need a prescription" resembles
+# nearly every medicine question), so a normal threshold lets them hijack
+# broad questions they shouldn't be answering.
+DISCLAIMER_FAQ_THRESHOLD = 0.85
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -714,6 +730,61 @@ def _topic_guard_ok(query: str, faq_question: str, shop_vocab: set) -> bool:
     return False
 
 
+# Margin within which two candidates are treated as a genuine near-tie.
+# Deliberately narrow: this does NOT reject the top match the way the old
+# (removed) "gap check" did -- it only re-ranks among candidates that are
+# ALREADY close enough that picking purely by embedding score is close to a
+# coin flip (e.g. "pharmacy_home_delivery" vs "pharmacy_delivery_charges" for
+# a "Delivery charge undoo?" query -- both are topically about delivery, but
+# only one actually answers what was asked).
+_NEAR_TIE_MARGIN = 0.03
+
+
+def _keyword_overlap(query: str, faq_question: str) -> float:
+    """Lightweight lexical overlap (Jaccard on tokens), used ONLY to break
+    near-ties between semantically-similar FAQ candidates -- never used as a
+    standalone matcher or a rejection gate."""
+    q_tokens = set(re.findall(r"\b\w+\b", query.lower()))
+    f_tokens = set(re.findall(r"\b\w+\b", faq_question.lower()))
+    if not q_tokens or not f_tokens:
+        return 0.0
+    return len(q_tokens & f_tokens) / len(q_tokens | f_tokens)
+
+
+def _best_with_tiebreak(scores, meta_list: list, query: str):
+    """Like scores.argmax(), but when multiple candidates land within
+    _NEAR_TIE_MARGIN of the top score, re-rank that near-tied group by
+    keyword overlap with the query instead of trusting the raw embedding
+    score alone. Returns (best_row, best_score) using the ORIGINAL semantic
+    score for the winner (keyword overlap only decides WHICH near-tied
+    candidate wins, it doesn't replace the confidence score)."""
+    k = min(5, scores.shape[0])
+    top_scores, top_idx = scores.topk(k)
+    top_scores = top_scores.tolist()
+    top_idx = top_idx.tolist()
+
+    best_score = top_scores[0]
+    tied = [(i, s) for i, s in zip(top_idx, top_scores)
+            if best_score - s <= _NEAR_TIE_MARGIN]
+
+    if len(tied) <= 1:
+        return top_idx[0], top_scores[0]
+
+    def _q_text(row_meta: dict) -> str:
+        return row_meta.get("q") or row_meta.get("question") or ""
+
+    ranked = sorted(
+        tied,
+        key=lambda pair: _keyword_overlap(query, _q_text(meta_list[pair[0]])),
+        reverse=True,
+    )
+    winner_idx, _ = ranked[0]
+    # Report the winner's own semantic score, not the top score, so
+    # downstream threshold checks stay honest about actual confidence.
+    winner_score = dict(tied)[winner_idx]
+    return winner_idx, winner_score
+
+
 def _shop_semantic_match(query: str, slug: str, lang: str = "english", shop_vocab: set | None = None) -> dict | None:
     # FIX A: use pre-built matrix from shop_manager
     # FIX 1: dual threshold — Manglish short queries need lower floor
@@ -742,11 +813,16 @@ def _shop_semantic_match(query: str, slug: str, lang: str = "english", shop_voca
                                   normalize_embeddings=True,
                                   show_progress_bar=False)
             scores = util.cos_sim(q_emb, lang_vecs)[0]
-            best_row = int(scores.argmax())
-            best_score = float(scores[best_row])
+            best_row, best_score = _best_with_tiebreak(scores, lang_meta, query)
             if best_score < threshold:
                 return None
             faq = dict(lang_meta[best_row])
+            # FIX L: narrow disclaimer FAQs need a much higher bar — they
+            # semantically resemble almost any question in their domain.
+            if faq.get("faq_type") == "disclaimer" and best_score < DISCLAIMER_FAQ_THRESHOLD:
+                print(f"[faq_engine] disclaimer FAQ ({best_score:.2f} < "
+                      f"{DISCLAIMER_FAQ_THRESHOLD}) rejected -> fall through")
+                return None
             _fq = faq.get("q") or faq.get("question") or ""
             if shop_vocab is not None and not _topic_guard_ok(query, _fq, shop_vocab):
                 return None
@@ -760,11 +836,15 @@ def _shop_semantic_match(query: str, slug: str, lang: str = "english", shop_voca
         q_emb  = model.encode(query, convert_to_tensor=True,
                                normalize_embeddings=True, show_progress_bar=False)
         scores = util.cos_sim(q_emb, SHOP_EMB_VECTORS)[0]
-        best_row   = int(scores.argmax())
-        best_score = float(scores[best_row])
+        best_row, best_score = _best_with_tiebreak(scores, SHOP_EMB_META, query)
         if best_score < threshold:
             return None
         faq = dict(SHOP_EMB_META[best_row])
+        # FIX L: same disclaimer guard for the legacy global-fallback path
+        if faq.get("faq_type") == "disclaimer" and best_score < DISCLAIMER_FAQ_THRESHOLD:
+            print(f"[faq_engine] disclaimer FAQ ({best_score:.2f} < "
+                  f"{DISCLAIMER_FAQ_THRESHOLD}) rejected -> fall through")
+            return None
         _fq = faq.get("q") or faq.get("question") or ""
         if shop_vocab is not None and not _topic_guard_ok(query, _fq, shop_vocab):
             return None
@@ -881,22 +961,14 @@ def match_faq(
         "namaskaram", "hello", "hi", "hey", "hlo", "hoi",
         "vanakkam", "hai", "salam",
     }
-    _BROAD_SVC = [
-        # Manglish
-        "services enthoke", "enthokke service", "enthokee service",
-        "enthoke service", "enthoke und service", "enthoke anu service",
-        "enthoke service available", "services ivide", "services undo",
-        "services und", "enthellam services", "enthellam und",
-        # English
-        "all services", "full service", "service details",
-        "what services", "which services", "what do you offer",
-        "what all services", "list of services", "services available",
-        "service list", "all service", "what services do you",
-        "full menu", "menu list",
-    ]
+    # FIX K: use shared BROAD_QUERY_PATTERNS instead of a local hardcoded
+    # copy — previously named _BROAD_SVC and missing "medicines"-shaped
+    # phrases, which was the root cause of the "medicines enthoke und"
+    # mismatch (it fell through past this breadth check entirely).
+    _BROAD_SVC = BROAD_QUERY_PATTERNS
     _msg_toks = set(message.lower().split())
     _is_greeting = bool(_msg_toks & _GREETING_TOKENS) and len(_msg_toks) <= 3
-    _is_broad = any(p in message.lower() for p in _BROAD_SVC)
+    _is_broad = is_broad_query(message)
 
     # Service name signals — "threading undo", "facial cheyanam" etc.
     _SERVICE_SIGNALS = {
@@ -907,8 +979,6 @@ def match_faq(
         "biriyani", "biryani", "chicken", "mutton", "fish", "prawn",
         "shawarma", "pizza", "burger", "noodles", "pasta", "rice",
     }
-    _has_service = bool(set(message.lower().split()) & _SERVICE_SIGNALS)
-
     _has_service = bool(set(message.lower().split()) & _SERVICE_SIGNALS)
 
     # A full grammatical question ("Do you offer anti-aging skin

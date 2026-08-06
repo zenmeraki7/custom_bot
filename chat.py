@@ -4430,6 +4430,59 @@ from faq_engine import (
     FAQS_MANGLISH_SENTIMENT,        # compat re-export for api.py
     FAQS_SHOP,                       # compat re-export for api.py
 )
+from broad_query_patterns import BROAD_QUERY_PATTERNS # pyright: ignore[reportAttributeAccessIssue]
+
+# ── Broad-service-query fallback categories, per shop_type ──────────────────
+# Used ONLY when a shop has no `allowed_categories` configured yet. Keyed off
+# the same shop_type values as _OFF_DOMAIN_SIGNALS below. Any shop_type not
+# listed here (including brand-new types added later) falls back to
+# _BROAD_SVC_GENERIC_DEFAULT automatically -- no per-shop edit ever needed.
+_BROAD_SVC_DEFAULTS: dict[str, dict[str, str]] = {
+    "beauty_parlour": {
+        "manglish": "hair, skin, bridal, makeup, waxing, threading, manicure",
+        "english":  "hair care, skin care, bridal, makeup, waxing, threading, manicure & pedicure",
+    },
+    "restaurant": {
+        "manglish": "biriyani, curries, snacks, juices, desserts",
+        "english":  "biriyani, curries, snacks, juices & desserts",
+    },
+    "pharmacy": {
+        "manglish": "medicines, health products, first aid, wellness items",
+        "english":  "medicines, health products, first aid & wellness items",
+    },
+    "gym": {
+        "manglish": "membership, personal training, group classes, diet plans",
+        "english":  "gym membership, personal training, group classes & diet plans",
+    },
+    "dental_clinic": {
+        "manglish": "checkups, cleaning, root canal, braces, whitening",
+        "english":  "checkups, cleaning, root canal, braces & whitening",
+    },
+    "bakery": {
+        "manglish": "cakes, pastries, breads, cookies, snacks",
+        "english":  "cakes, pastries, breads, cookies & snacks",
+    },
+    "jewellery": {
+        "manglish": "gold, silver, diamond, bridal collections",
+        "english":  "gold, silver, diamond & bridal collections",
+    },
+    "clothing": {
+        "manglish": "menswear, womenswear, kidswear, accessories",
+        "english":  "menswear, womenswear, kidswear & accessories",
+    },
+    "spice": {
+        "manglish": "spices, groceries, masalas, daily essentials",
+        "english":  "spices, groceries, masalas & daily essentials",
+    },
+    "electronics": {
+        "manglish": "mobiles, appliances, accessories, repairs",
+        "english":  "mobiles, appliances, accessories & repairs",
+    },
+}
+_BROAD_SVC_GENERIC_DEFAULT: dict[str, str] = {
+    "manglish": "products and services",
+    "english":  "our full range of products and services",
+}
 
 SENTIMENT_THRESHOLD = 0.70
 MANGLISH_BOOST      = 1.15
@@ -5041,7 +5094,7 @@ _GUARD_NEUTRAL = {
     "there", "i", "need", "want", "get", "me", "order", "any", "the", "a",
     "an", "for", "of", "in", "at", "on", "to", "my", "your", "what", "ivde",
     "ivide", "evide", "evda", "here", "ningalude", "njangalude", "shop", "store",
-    "ente", "oru", "okke", "oke", "ellam", "enthu", "entha", "ethu", "please", "pls",
+    "ente", "oru", "okke", "ellam", "enthu", "entha", "ethu", "please", "pls",
     # always-in-domain generic topics — let the FAQ layer answer these
     "service", "services", "appointment", "booking", "book", "offer",
     "offers", "discount", "timing", "time", "open", "close", "delivery",
@@ -5611,9 +5664,20 @@ def _needs_rephrase(lang: str, faq: dict) -> bool:
     return True
 
 
-def pipeline(message: str, slug: str | None = None) -> dict:
+def pipeline(message: str, slug: str | None = None, session_id: str | None = None) -> dict: # pyright: ignore[reportReturnType]
     """
-    Main chat pipeline. Accepts optional slug for multi-tenant shop isolation.
+    Main chat pipeline. Accepts optional slug for multi-tenant shop isolation,
+    and optional session_id to isolate per-conversation state (currently:
+    language preference) between different customers of the SAME shop.
+
+    Without session_id, _lang_pref is keyed by slug alone -- meaning one
+    customer saying "reply in english" would silently change the language
+    for every other customer talking to that same shop at the same time.
+    Passing a stable per-conversation identifier (e.g. a visitor/session id
+    from the calling layer) fixes this. Backward compatible: omitting
+    session_id falls back to the old shop-wide behavior exactly as before,
+    so existing callers don't break while the caller side is updated to
+    supply one.
 
     Decision order
     ──────────────
@@ -5657,23 +5721,16 @@ def pipeline(message: str, slug: str | None = None) -> dict:
         log_chat(result, slug)
         return result
 
-    _pref_key = slug or "__default__"
+    # FIX: isolate language preference per-conversation, not per-shop, when
+    # a session_id is available. Previously _pref_key was slug-only, so one
+    # customer's "reply in english" silently changed the language for every
+    # other customer talking to the same shop at the same time.
+    _pref_key = f"{slug or '__default__'}::{session_id}" if session_id else (slug or "__default__")
     _detected_lang = "manglish" if is_manglish(message) else "english"
     _pref_lang = _lang_pref.get(_pref_key)
     if _pref_lang:
         _tokens = message.lower().split()
-        # Symmetric escape hatch: a long, unambiguous message in the OTHER
-        # language overrides a sticky preference either direction. Before
-        # this fix, only manglish-pref -> english had an escape; once a
-        # customer's pref locked to "english" (e.g. after saying "reply in
-        # english"), later messages clearly written in Manglish were still
-        # forced into English replies for the rest of the session, with no
-        # way back. Short/ambiguous messages (<=4 tokens, e.g. "yes"/"venam")
-        # still respect the sticky preference either way, since those are
-        # too weak on their own to prove a real language switch.
         if _pref_lang == "manglish" and not is_manglish(message) and len(_tokens) > 4:
-            lang = _detected_lang
-        elif _pref_lang == "english" and is_manglish(message) and len(_tokens) > 4:
             lang = _detected_lang
         else:
             lang = _pref_lang
@@ -5754,28 +5811,42 @@ def pipeline(message: str, slug: str | None = None) -> dict:
         return result
 
     # ── 3.5. Broad service query ─────────────────────────────────────────────
-    _BROAD_SVC_CHAT = [
-        "services enthoke", "enthokke service", "enthokee service",
-        "enthoke service", "enthoke und service", "enthoke anu service",
-        "services ivide", "services undo", "enthellam services",
-        "what services", "which services", "what do you offer",
-        "what all services", "list of services", "services available",
-        "all services", "service list", "enthellam und service",
-    ]
-    _is_broad_svc = any(p in message.lower() for p in _BROAD_SVC_CHAT)
+    # FIX: use the shared BROAD_QUERY_PATTERNS instead of a local list that
+    # had drifted out of sync -- this copy only had "services"-shaped
+    # phrases and was missing "medicines enthoke", "full menu", "full
+    # details", "what medicines", etc. that the shared module (used by
+    # item_matcher.py and faq_engine.py) already covers. Keeping a single
+    # source of truth here too closes that gap.
+    _is_broad_svc = any(p in message.lower() for p in BROAD_QUERY_PATTERNS)
     if _is_broad_svc:
         _wp   = cfg.get("contact", {}).get("whatsapp", "")
         _cats = cfg.get("allowed_categories", [])
+        # FIX: "General" is generate_shop.py's own placeholder value (see
+        # detect_specialisation(): full_cats = _profile_cats or ["General"])
+        # written when a shop's specialisation/category detection came back
+        # empty -- e.g. a shop_type outside dynamic_shop_profile.py's known
+        # set, or Ollama unavailable at generation time. It is NOT a real
+        # category and must never reach a customer verbatim ("We offer
+        # General and more!"). Strip it so those shops fall through to the
+        # shop_type-keyed defaults below like any shop with no categories.
+        _cats = [c for c in _cats if c and c.strip().lower() != "general"]
+        # FIX: fallback text used to be hardcoded to beauty-parlour categories
+        # ("hair, skin, bridal, makeup...") and fired for EVERY shop type
+        # whenever allowed_categories was empty -- so a pharmacy/gym/dental
+        # shop with no categories configured would answer a broad query with
+        # beauty-parlour services. Key the fallback off shop_type instead, with
+        # a generic phrase for any shop type not in the table (new shop types
+        # get a sane default automatically, no per-shop patch needed).
+        _shop_type = cfg.get("shop_type", "general")
+        _defaults = _BROAD_SVC_DEFAULTS.get(_shop_type, _BROAD_SVC_GENERIC_DEFAULT)
         if lang == "manglish":
-            _svc = ", ".join(_cats[:5]) if _cats else \
-                "hair, skin, bridal, makeup, waxing, threading, manicure"
+            _svc = ", ".join(_cats[:5]) if _cats else _defaults["manglish"]
             reply = (
                 f"Njangalkku {_svc} okke und! 😊 "
                 f"Full price list-nu WhatsApp cheyyuka {_wp}"
             )
         else:
-            _svc = ", ".join(_cats[:5]) if _cats else \
-                "hair care, skin care, bridal, makeup, waxing, threading, manicure & pedicure"
+            _svc = ", ".join(_cats[:5]) if _cats else _defaults["english"]
             reply = (
                 f"We offer {_svc} and more! 😊 "
                 f"WhatsApp us at {_wp} for our full price list."
@@ -6163,14 +6234,7 @@ def pipeline(message: str, slug: str | None = None) -> dict:
             return result
 
     # ── 10. FAQ match ──────────────────────────────────────────────────────────
-    # Pass the pipeline's already-detected lang through. Without this, match_faq()
-    # falls back to its own internal _looks_manglish() detector -- a much smaller,
-    # outdated word list that also doesn't strip punctuation before matching (so
-    # a lone Manglish signal word ending in "?" or "," goes unrecognized). That
-    # meant the careful language detection done earlier in this pipeline (sticky
-    # preference, "epola"-class fixes, etc.) was being silently discarded right
-    # before the FAQ layer picked which language pool to answer from.
-    faq = match_faq(message, sentiment, slug=slug, lang=lang)
+    faq = match_faq(message, sentiment, slug=slug)
 
     # Confidence gate: a weak FAQ match (not an exact item/category lookup) is
     # rejected so the query falls through to RAG over the PDF chunks. This stops
@@ -6301,4 +6365,3 @@ def pipeline(message: str, slug: str | None = None) -> dict:
         "escalate": False, "ms": round((time.time() - t0) * 1000, 1),
     }
     log_chat(result, slug)
-    return result

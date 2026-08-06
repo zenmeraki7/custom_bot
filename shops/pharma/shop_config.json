@@ -4,7 +4,7 @@
   "shop_type": "pharmacy",
   "tagline": "English & Manglish",
   "description": "",
-  "location": "License No. KL-KZD-PH-2005-0482 Address Near Government Hospital, Hospital Road, Kozhikode, Kerala - 673001",
+  "location": "Near Government Hospital, Hospital Road, Kozhikode, Kerala - 673001",
   "city": "Kozhikode",
   "state": "Kerala",
   "hours": {
@@ -70,6 +70,6 @@
   },
   "quick_chips": [],
   "welcome_cards": [],
-  "item_count": 28,
+  "item_count": 9,
   "signature_items": "Diabetes (Type 2), High Cholesterol, Hypertension"
 }

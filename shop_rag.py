@@ -457,7 +457,7 @@ def _get_embedder():
         _embedder_loaded = True
         return None
     try:
-        from faq_engine import _get_model
+        from faq_engine import _get_model # type: ignore
         _embedder = _get_model()
         if _embedder is not None:
             _embedder_loaded = True
@@ -662,6 +662,27 @@ def rag_answer(question: str, slug: str | None, lang: str = "english",
     whatsapp  = ctx.get("phone", "")
 
     if not scored_chunks or scored_chunks[0][1] < _MIN_CHUNK_SCORE:
+        return _build_soft_fallback(shop_name, whatsapp, lang)
+
+    # FIX (generic -- every shop type, not a pharmacy-only patch):
+    # _MIN_CHUNK_SCORE is a pure semantic-similarity floor. For short,
+    # domain-specific queries ("gas trouble medicine", "diet plan for
+    # weight loss", "veg starters") the multilingual embedder isn't always
+    # discriminative enough to keep a merely-related chunk (vitamins, a
+    # different medicine, a different service) below threshold when the
+    # shop's actual data has nothing that truly answers the question. Both
+    # RAG prompts below explicitly forbid the model from saying "we don't
+    # have X" unless the facts say so -- so a weakly-relevant top chunk
+    # gets treated as grounding for a confident, specific, and WRONG
+    # answer (e.g. recommending Supradyn/Dolo 650 for "gas trouble") rather
+    # than an honest "not sure, WhatsApp us". Require the top chunk to
+    # also share at least one real (non-stopword) token with the question
+    # -- cheap, already-available machinery (_tokenise, used by keyword
+    # retrieval below) -- before trusting it enough to hand to the LLM.
+    # A chunk that clears the semantic bar but shares zero actual words
+    # with the query is exactly the "sounds related, isn't" case that
+    # caused the wrong-medicine answers.
+    if not (_tokenise(question) & _tokenise(scored_chunks[0][0])):
         return _build_soft_fallback(shop_name, whatsapp, lang)
 
     payment_str = ", ".join(ctx.get("payment", [])) if ctx.get("payment") else ""

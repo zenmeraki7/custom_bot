@@ -1,0 +1,3346 @@
+[
+  {
+    "id": "core_contact",
+    "category": "support",
+    "question_variants": [
+      "Contact number?",
+      "WhatsApp number?",
+      "number enthu?",
+      "contact info?"
+    ],
+    "answer": "WhatsApp: +91 98765 22222 | Email: {email} | Open {hours_weekdays}."
+  },
+  {
+    "id": "core_hours",
+    "category": "store",
+    "question_variants": [
+      "What are your hours?",
+      "timings entha?",
+      "open aano?",
+      "eppol thurakum?"
+    ],
+    "answer": "Open {hours_weekdays} and {hours_sunday}. {hours_holiday}."
+  },
+  {
+    "id": "core_location",
+    "category": "store",
+    "question_variants": [
+      "Where are you?",
+      "shop evide?",
+      "address?",
+      "location enthu?"
+    ],
+    "answer": "We are at {location}. WhatsApp +91 98765 22222 for directions!"
+  },
+  {
+    "id": "core_payment",
+    "category": "payment",
+    "question_variants": [
+      "Payment methods?",
+      "enthu payment undo?",
+      "UPI undo?",
+      "card undo?"
+    ],
+    "answer": "We accept UPI, Cards, Cash, GPay, PhonePe, Paytm."
+  },
+  {
+    "id": "core_signature",
+    "category": "catalog",
+    "question_variants": [
+      "signature items enthu?",
+      "special items undo?",
+      "best items enthu?",
+      "top picks?"
+    ],
+    "answer": "Njangal best picks: Bridal Makeup - Luxury, Bridal Makeup - Premium, Bridal Makeup - Standard. WhatsApp +91 98765 22222 to enquire!"
+  },
+  {
+    "id": "beauty_parlour_bridal_pricing",
+    "category": "bridal_pricing",
+    "question_variants": [
+      "How much does a bridal makeup package cost?"
+    ],
+    "answer": "Pricing depends on the package type, makeup style, products used, and additional services selected.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_hygiene",
+    "category": "hygiene",
+    "question_variants": [
+      "Are manicure and pedicure tools sanitized?",
+      "Tools hygienic aano?"
+    ],
+    "answer": "Yes, all tools and equipment are properly sanitized after every customer.",
+    "source": "template",
+    "answer_ml": "Yes, every customer-inu munpu and shesham tools properly sanitize cheyyum."
+  },
+  {
+    "id": "beauty_parlour_airbrush_makeup",
+    "category": "airbrush_makeup",
+    "question_variants": [
+      "What is airbrush makeup?",
+      "Airbrush makeup entha special aanu?"
+    ],
+    "answer": "Airbrush makeup uses a spray technique to create lightweight, smooth, and long-lasting makeup coverage.",
+    "source": "template",
+    "answer_ml": "Airbrush makeup spray technique use cheythu smooth and long-lasting finish provide cheyyum."
+  },
+  {
+    "id": "beauty_parlour_product_allergy",
+    "category": "product_allergy",
+    "question_variants": [
+      "What if I have an allergy to a product?"
+    ],
+    "answer": "Please inform our staff before the service so we can use suitable alternatives and perform a patch test if needed.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_single_use_items",
+    "category": "single_use_items",
+    "question_variants": [
+      "Do you use disposable items for services?"
+    ],
+    "answer": "Yes, we use disposable items like gloves, towels, and applicators wherever necessary for hygiene.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_followup",
+    "category": "followup",
+    "question_variants": [
+      "Follow-up appointment venamo?"
+    ],
+    "answer": "Yes, long-term results maintain cheyyan follow-up important aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_hair_extensions",
+    "category": "hair_extensions",
+    "question_variants": [
+      "Do you provide hair extensions?",
+      "Hair extensions kittumo?"
+    ],
+    "answer": "Yes, hair extensions are available in different styles and lengths based on customer preference.",
+    "source": "template",
+    "answer_ml": "Yes, different length and style hair extensions available aanu."
+  },
+  {
+    "id": "beauty_parlour_home_service_availability",
+    "category": "home_service_availability",
+    "question_variants": [
+      "Which areas do you cover for home services?"
+    ],
+    "answer": "Home service availability depends on your location and parlour service coverage area.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_home_service_cancellation",
+    "category": "home_service_cancellation",
+    "question_variants": [
+      "Can I cancel or reschedule a home service booking?",
+      "Home service cancel cheyyan pattumo?"
+    ],
+    "answer": "Yes, home service bookings can be rescheduled or canceled with prior notice.",
+    "source": "template",
+    "answer_ml": "Yes, prior notice koduthal cancel or reschedule cheyyam."
+  },
+  {
+    "id": "beauty_parlour_hair_coloring_safety",
+    "category": "hair_coloring_safety",
+    "question_variants": [
+      "Is hair coloring safe for sensitive scalp?"
+    ],
+    "answer": "Yes, patch tests and suitable products are used to reduce the risk of irritation.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_advance_payment",
+    "category": "advance_payment",
+    "question_variants": [
+      "Is advance payment required for bookings?",
+      "Advance payment venamo?"
+    ],
+    "answer": "Advance payment may be required for bridal packages, premium services, or large bookings.",
+    "source": "template",
+    "answer_ml": "Bridal and premium services-inu advance payment venam aayirikkam."
+  },
+  {
+    "id": "beauty_parlour_waxing_frequency",
+    "category": "waxing_frequency",
+    "question_variants": [
+      "How often should I get waxing done?"
+    ],
+    "answer": "Most people schedule waxing every 3 to 6 weeks depending on hair growth.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_organic_products",
+    "category": "organic_products",
+    "question_variants": [
+      "Do you use herbal or organic products?",
+      "Herbal or organic products available aano?"
+    ],
+    "answer": "Yes, herbal and organic product options are available depending on the service and customer preference.",
+    "source": "template",
+    "answer_ml": "Yes, herbal and organic product options available aanu based on service and customer preference."
+  },
+  {
+    "id": "beauty_parlour_facial_hair_removal",
+    "category": "facial_hair_removal",
+    "question_variants": [
+      "Do you provide facial hair removal services?"
+    ],
+    "answer": "Yes, facial waxing and threading services are available for areas like eyebrows, upper lip, and chin.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_professional_advice",
+    "category": "professional_advice",
+    "question_variants": [
+      "Can I contact the parlour for aftercare advice?"
+    ],
+    "answer": "Yes, you can always contact our professionals for personalized aftercare and maintenance guidance.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_waxing_pain",
+    "category": "waxing_pain",
+    "question_variants": [
+      "Is waxing painful?",
+      "Waxing painful aano?"
+    ],
+    "answer": "Some mild discomfort may occur during waxing, but it is usually quick and manageable.",
+    "source": "template",
+    "answer_ml": "Kurachu discomfort undavum, pakshe professional way-il cheyyumbo pain manageable aayirikkum."
+  },
+  {
+    "id": "beauty_parlour_timing_changes",
+    "category": "timing_changes",
+    "question_variants": [
+      "Do your timings change sometimes?",
+      "Timing change aavumo sometimes?"
+    ],
+    "answer": "Yes, parlour timings may change during special occasions, holidays, or operational requirements.",
+    "source": "template",
+    "answer_ml": "Yes, special occasions and holidays-il timing change aavum."
+  },
+  {
+    "id": "beauty_parlour_discount_packages",
+    "category": "discount_packages",
+    "question_variants": [
+      "Combo packages available aano?"
+    ],
+    "answer": "Yes, facial + waxing, hair spa + cut, bridal packages pole combo deals available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_student_discount",
+    "category": "student_discount",
+    "question_variants": [
+      "Student discount available aano?"
+    ],
+    "answer": "Some selected services-inu student discount available aayirikkam valid ID use cheythal.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_holiday_availability",
+    "category": "holiday_availability",
+    "question_variants": [
+      "Are you open on public holidays?"
+    ],
+    "answer": "We may remain open or closed on public holidays depending on the schedule. Please confirm in advance.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_sensitive_skin",
+    "category": "sensitive_skin",
+    "question_variants": [
+      "Are manicure and pedicure services safe for sensitive skin?",
+      "Sensitive skin-inu products safe aano?"
+    ],
+    "answer": "Yes, gentle products and suitable techniques are used for sensitive skin.",
+    "source": "template",
+    "answer_ml": "Yes, gentle and skin-friendly products select cheythu use cheyyum sensitive skin-inu."
+  },
+  {
+    "id": "beauty_parlour_late_evening",
+    "category": "late_evening",
+    "question_variants": [
+      "Late evening appointment kittumo?"
+    ],
+    "answer": "Yes, prior booking undengil late slots arrange cheyyam.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_hair_styling",
+    "category": "hair_styling",
+    "question_variants": [
+      "Do you provide hair styling for events?",
+      "Party or bridal hair styling available aano?"
+    ],
+    "answer": "Yes, we offer party hairstyles, bridal hairstyling, curls, straightening, and special occasion styling.",
+    "source": "template",
+    "answer_ml": "Yes, special occasion hair styling services available aanu."
+  },
+  {
+    "id": "beauty_parlour_home_service_charges",
+    "category": "home_service_charges",
+    "question_variants": [
+      "Are there extra charges for home services?",
+      "Home service-inu extra charge undo?"
+    ],
+    "answer": "Yes, additional charges may apply for travel and home service convenience.",
+    "source": "template",
+    "answer_ml": "Yes, travel and convenience charge home service-inu apply aavum."
+  },
+  {
+    "id": "beauty_parlour_ingrown_hair",
+    "category": "ingrown_hair",
+    "question_variants": [
+      "Can waxing cause ingrown hair?",
+      "Waxing kazhinjal ingrown hair varumo?"
+    ],
+    "answer": "Ingrown hair can occur occasionally, but exfoliating regularly may help reduce the risk.",
+    "source": "template",
+    "answer_ml": "Sometimes varam, regular exfoliation cheythal reduce cheyyam."
+  },
+  {
+    "id": "beauty_parlour_hair_services_overview",
+    "category": "hair_services_overview",
+    "question_variants": [
+      "What hair services do you offer?",
+      "Beauty parlour-il enthellam hair services kittum?"
+    ],
+    "answer": "We offer haircuts, hair coloring, hair spa, keratin treatment, smoothening, rebonding, styling, and scalp treatments.",
+    "source": "template",
+    "answer_ml": "Haircut, hair spa, hair coloring, keratin treatment, smoothening, rebonding, styling, and scalp treatments ellam available aanu."
+  },
+  {
+    "id": "beauty_parlour_nearest_landmark",
+    "category": "nearest_landmark",
+    "question_variants": [
+      "How can I find your parlour easily?",
+      "Nearest landmark enthaanu?"
+    ],
+    "answer": "You can find us near well-known landmarks in the area. We also provide Google Maps location for easy navigation.",
+    "source": "template",
+    "answer_ml": "Parlour nearby famous landmarks reference cheythu easy aayi kandupidikkam."
+  },
+  {
+    "id": "beauty_parlour_hair_length",
+    "category": "hair_length",
+    "question_variants": [
+      "How long should hair be before waxing?",
+      "Waxing-inu hair ethra length venam?"
+    ],
+    "answer": "Hair should ideally be at least a quarter-inch long for effective waxing results.",
+    "source": "template",
+    "answer_ml": "Best result-inu hair kurachu growth undavunnath nallath aanu, around small visible length."
+  },
+  {
+    "id": "beauty_parlour_home_service_area",
+    "category": "home_service_area",
+    "question_variants": [
+      "Home service evide ellam available aanu?"
+    ],
+    "answer": "Home service coverage area parlour location anusarich vary cheyyum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_full_body_waxing",
+    "category": "full_body_waxing",
+    "question_variants": [
+      "Do you offer full body waxing packages?"
+    ],
+    "answer": "Yes, full body waxing packages are available with customized service options.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_facial_hair",
+    "category": "facial_hair",
+    "question_variants": [
+      "Facial hair removal available aano?"
+    ],
+    "answer": "Yes, upper lip, chin, eyebrow waxing/threading ellam available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_hair_spa",
+    "category": "hair_spa",
+    "question_variants": [
+      "What are the benefits of a hair spa?",
+      "Hair spa entha benefit aanu?"
+    ],
+    "answer": "Hair spa treatments help nourish the scalp, reduce dryness, improve hair texture, and promote relaxation.",
+    "source": "template",
+    "answer_ml": "Hair spa hair nourish cheyyum, dryness reduce cheyyum, and scalp healthy aakkum."
+  },
+  {
+    "id": "beauty_parlour_followup_services",
+    "category": "followup_services",
+    "question_variants": [
+      "Do I need follow-up appointments after treatments?"
+    ],
+    "answer": "Yes, follow-up services help maintain results and improve long-term beauty care.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_product_storage",
+    "category": "product_storage",
+    "question_variants": [
+      "How are beauty products stored?",
+      "Products correct way-il store cheyyumo?"
+    ],
+    "answer": "All products are stored in clean, temperature-controlled conditions to maintain quality and safety.",
+    "source": "template",
+    "answer_ml": "Yes, quality maintain cheyyan proper storage conditions follow cheyyum."
+  },
+  {
+    "id": "beauty_parlour_haircut",
+    "category": "haircut",
+    "question_variants": [
+      "Haircut cheyyan ethra neram edukum?"
+    ],
+    "answer": "Usually 15 muthal 45 minutes vare edukum, hairstyle depend cheyyum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_appointment_booking",
+    "category": "appointment_booking",
+    "question_variants": [
+      "How can I book an appointment at the beauty parlour?",
+      "Njan engane beauty parlour appointment book cheyyum?"
+    ],
+    "answer": "You can book an appointment by phone call, WhatsApp, online booking, or by visiting the parlour directly.",
+    "source": "template",
+    "answer_ml": "Nee phone call cheythu, WhatsApp message ayachu, online booking cheythu, allenkil direct parlour-il poyi appointment book cheyyam."
+  },
+  {
+    "id": "beauty_parlour_hair_coloring",
+    "category": "hair_coloring",
+    "question_variants": [
+      "Do you provide hair coloring services?",
+      "Hair coloring cheyyumbo damage varumo?"
+    ],
+    "answer": "Yes, we offer global coloring, highlights, balayage, root touch-up, and fashion hair colors.",
+    "source": "template",
+    "answer_ml": "Professional products use cheythal damage kuravaanu, pakshe aftercare follow cheyyanam."
+  },
+  {
+    "id": "beauty_parlour_consultation_safety",
+    "category": "consultation_safety",
+    "question_variants": [
+      "Can I discuss product safety before starting a service?"
+    ],
+    "answer": "Yes, our professionals are always available to explain product usage and safety before any treatment.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_location_overview",
+    "category": "location_overview",
+    "question_variants": [
+      "Where is your beauty parlour located?",
+      "Beauty parlour evide aanu located?"
+    ],
+    "answer": "Our beauty parlour is located at a convenient area with easy access. You can find the exact location on Google Maps or contact us for directions.",
+    "source": "template",
+    "answer_ml": "Parlour city center allenkil easy access area-il aanu located, exact location Google Maps vazhi kittum."
+  },
+  {
+    "id": "beauty_parlour_hair_treatment_aftercare",
+    "category": "hair_treatment_aftercare",
+    "question_variants": [
+      "How should I care for my hair after treatment?"
+    ],
+    "answer": "Use recommended shampoos, avoid heat styling for a few days, and follow stylist instructions.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_waxing_pricing",
+    "category": "waxing_pricing",
+    "question_variants": [
+      "How much do waxing services cost?"
+    ],
+    "answer": "Pricing depends on the body area, waxing type, and package selected.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_consultation_cost",
+    "category": "consultation_cost",
+    "question_variants": [
+      "Consultation free aano?"
+    ],
+    "answer": "Some salons free consultation provide cheyyum, others minimal fee undavum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_pricing",
+    "category": "pricing",
+    "question_variants": [
+      "How much do manicure and pedicure services cost?",
+      "Manicure and pedicure cost ethra aanu?"
+    ],
+    "answer": "Pricing depends on the type of service, products used, and additional treatments selected.",
+    "source": "template",
+    "answer_ml": "Cost service type, spa package, and salon depend cheyyum."
+  },
+  {
+    "id": "beauty_parlour_threading_pain",
+    "category": "threading_pain",
+    "question_variants": [
+      "Is threading painful?",
+      "Threading painful aano?"
+    ],
+    "answer": "Threading may cause slight discomfort, but the process is quick and generally well tolerated.",
+    "source": "template",
+    "answer_ml": "Kurachu discomfort undavum, pakshe quick process aayathukond pain adhikam feel aavilla."
+  },
+  {
+    "id": "beauty_parlour_makeup_pricing",
+    "category": "makeup_pricing",
+    "question_variants": [
+      "How much do makeup services cost?"
+    ],
+    "answer": "Pricing depends on the makeup style, products used, duration, and event type.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_bridal_duration",
+    "category": "bridal_duration",
+    "question_variants": [
+      "How long does bridal makeup usually take?"
+    ],
+    "answer": "Bridal makeup and hairstyling usually take between 2 to 4 hours depending on the look.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_festival_offers",
+    "category": "festival_offers",
+    "question_variants": [
+      "Do you provide festival or holiday offers?",
+      "Festival offers kittumo?"
+    ],
+    "answer": "Yes, special discounts and festive beauty packages are often available during holidays and celebrations.",
+    "source": "template",
+    "answer_ml": "Yes, Onam, Christmas, New Year pole festivals-il special offers varum."
+  },
+  {
+    "id": "beauty_parlour_skin_sensitivity",
+    "category": "skin_sensitivity",
+    "question_variants": [
+      "What precautions are taken for sensitive skin?",
+      "Treatment kazhinjal redness normal aano?"
+    ],
+    "answer": "We use gentle products and adjust treatments based on skin sensitivity to avoid irritation.",
+    "source": "template",
+    "answer_ml": "Yes, mild redness normal aanu and kurachu neram kazhinjal settle aavum."
+  },
+  {
+    "id": "beauty_parlour_waxing_overview",
+    "category": "waxing_overview",
+    "question_variants": [
+      "Waxing and hair removal services enthellam available aanu?"
+    ],
+    "answer": "Full body waxing, facial waxing, arm waxing, leg waxing, bikini waxing, and underarm hair removal ellam available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_eyebrow_threading",
+    "category": "eyebrow_threading",
+    "question_variants": [
+      "Do you provide eyebrow shaping and threading?"
+    ],
+    "answer": "Yes, professional eyebrow shaping and threading services are available based on your face shape and preference.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_hair_service_pricing",
+    "category": "hair_service_pricing",
+    "question_variants": [
+      "Why do hair treatment prices vary?"
+    ],
+    "answer": "Hair service pricing may vary based on hair length, thickness, products used, and treatment complexity.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_facial_duration",
+    "category": "facial_duration",
+    "question_variants": [
+      "How long does a facial session take?",
+      "Facial ethra neram edukum?"
+    ],
+    "answer": "Most facial sessions take between 45 minutes to 90 minutes depending on the treatment.",
+    "source": "template",
+    "answer_ml": "Usually 45 minutes muthal 90 minutes vare edukum."
+  },
+  {
+    "id": "beauty_parlour_threading_vs_waxing",
+    "category": "threading_vs_waxing",
+    "question_variants": [
+      "Is threading better than waxing for eyebrows?"
+    ],
+    "answer": "Threading offers more precise eyebrow shaping and is often preferred for sensitive facial areas.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_service_price_list",
+    "category": "service_price_list",
+    "question_variants": [
+      "Can I get a full price list for your services?"
+    ],
+    "answer": "Yes, a complete service price list is available at the parlour, through WhatsApp, or online.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_custom_packages",
+    "category": "custom_packages",
+    "question_variants": [
+      "Budget anusarich package customize cheyyan pattumo?"
+    ],
+    "answer": "Yes, nee budget paranjal customized package arrange cheyyam.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_allergy",
+    "category": "allergy",
+    "question_variants": [
+      "Enikku allergy undengil entha cheyyanam?"
+    ],
+    "answer": "Service munpu staff-ne inform cheyyuka, safe alternative products use cheyyum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_threading_pricing",
+    "category": "threading_pricing",
+    "question_variants": [
+      "How much does eyebrow threading cost?"
+    ],
+    "answer": "Pricing depends on the threading service selected and parlour pricing policies.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_booking_advance",
+    "category": "booking_advance",
+    "question_variants": [
+      "How early should I book bridal makeup services?"
+    ],
+    "answer": "It is recommended to book bridal services several weeks or months in advance to secure your preferred date.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_bridal_package_pricing",
+    "category": "bridal_package_pricing",
+    "question_variants": [
+      "How much do bridal packages cost?"
+    ],
+    "answer": "Bridal package pricing depends on makeup style, hairstyling, products used, and additional services included.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_threading_aftercare",
+    "category": "threading_aftercare",
+    "question_variants": [
+      "What care is needed after threading?",
+      "Threading kazhinjal entha care venam?"
+    ],
+    "answer": "Avoid touching the area frequently and avoid makeup or harsh products for a few hours.",
+    "source": "template",
+    "answer_ml": "Face touch cheyyathirikkuka, makeup kurachu neram avoid cheyyuka, and harsh products use cheyyaruthu."
+  },
+  {
+    "id": "beauty_parlour_rebonding",
+    "category": "rebonding",
+    "question_variants": [
+      "Rebonding cheyyumbo entha effect kittum?"
+    ],
+    "answer": "Hair straight and smooth aavum, long-lasting result kittum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_family_makeup",
+    "category": "family_makeup",
+    "question_variants": [
+      "Family members-inu makeup include cheyyumo?"
+    ],
+    "answer": "Yes, bridesmaid and family makeup add cheyyan packages available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_product_quality",
+    "category": "product_quality",
+    "question_variants": [
+      "Are your products of good quality?",
+      "Low quality products use cheyyumo?"
+    ],
+    "answer": "Yes, we use high-quality professional-grade products to ensure safety and effective results.",
+    "source": "template",
+    "answer_ml": "No, only trusted and high-quality professional products mathram use cheyyum."
+  },
+  {
+    "id": "beauty_parlour_hairstyle",
+    "category": "hairstyle",
+    "question_variants": [
+      "Makeup package-il hairstyle include aano?"
+    ],
+    "answer": "Some packages-il hairstyle include aayirikkum, allenkil add-on aayi edukkam.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_facial_safety",
+    "category": "facial_safety",
+    "question_variants": [
+      "Sensitive skin-il facial safe aano?"
+    ],
+    "answer": "Yes, gentle products use cheythal sensitive skin-inu safe aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_hd_makeup",
+    "category": "hd_makeup",
+    "question_variants": [
+      "What is HD makeup?",
+      "HD makeup enthaanu?"
+    ],
+    "answer": "HD makeup is a professional makeup technique designed to give a flawless finish, especially for photography and video.",
+    "source": "template",
+    "answer_ml": "HD makeup professional finish nalkunna makeup aanu, camera and video-inu perfect look kittum."
+  },
+  {
+    "id": "beauty_parlour_ingrown_nails",
+    "category": "ingrown_nails",
+    "question_variants": [
+      "Can pedicure help with dry feet or ingrown nails?",
+      "Pedicure ingrown nail issue solve cheyyumo?"
+    ],
+    "answer": "Pedicure treatments can help improve foot care, but severe nail issues may require medical advice.",
+    "source": "template",
+    "answer_ml": "Basic care cheyyam, but severe cases-inu medical advice venam."
+  },
+  {
+    "id": "beauty_parlour_waxing_aftercare",
+    "category": "waxing_aftercare",
+    "question_variants": [
+      "What should I avoid after waxing?",
+      "Waxing kazhinjal entha avoid cheyyanam?"
+    ],
+    "answer": "Avoid hot showers, sun exposure, swimming, and tight clothing for at least 24 hours after waxing.",
+    "source": "template",
+    "answer_ml": "Hot shower, sun exposure, tight clothes, and swimming 24 hours avoid cheyyuka."
+  },
+  {
+    "id": "beauty_parlour_makeup_duration",
+    "category": "makeup_duration",
+    "question_variants": [
+      "How long does makeup usually take?",
+      "Makeup last cheyyan ethra neram varum?"
+    ],
+    "answer": "Makeup sessions generally take between 45 minutes to 2 hours depending on the style and service.",
+    "source": "template",
+    "answer_ml": "Proper setting cheythal makeup many hours vare last cheyyum."
+  },
+  {
+    "id": "beauty_parlour_makeup_aftercare",
+    "category": "makeup_aftercare",
+    "question_variants": [
+      "How can I make my makeup last longer?",
+      "Makeup long-lasting aakkan engane care cheyyam?"
+    ],
+    "answer": "Use setting spray, avoid touching your face frequently, and remove makeup properly at the end of the day.",
+    "source": "template",
+    "answer_ml": "Setting spray use cheyyuka, face touch avoid cheyyuka, and proper makeup removal cheyyuka."
+  },
+  {
+    "id": "beauty_parlour_weekend_timing",
+    "category": "weekend_timing",
+    "question_variants": [
+      "Are you open on weekends?",
+      "Weekend-il open aavumo?"
+    ],
+    "answer": "Yes, we are open on weekends, but prior booking is recommended due to high demand.",
+    "source": "template",
+    "answer_ml": "Yes, weekend-il open aavum, but crowd adhikam aayirikkum."
+  },
+  {
+    "id": "beauty_parlour_products",
+    "category": "products",
+    "question_variants": [
+      "Which makeup products use cheyyum?"
+    ],
+    "answer": "Professional branded and skin-friendly products use cheyyum based on skin type.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_haircut_cost",
+    "category": "haircut_cost",
+    "question_variants": [
+      "How much does a haircut cost?"
+    ],
+    "answer": "Haircut prices vary depending on hair length, style, and stylist experience.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_bridal_skin_preparation",
+    "category": "bridal_skin_preparation",
+    "question_variants": [
+      "Do you provide pre-bridal skin care treatments?"
+    ],
+    "answer": "Yes, pre-bridal facials, skin care, hair care, and grooming services are available.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_offers_available",
+    "category": "offers_available",
+    "question_variants": [
+      "Current offers undo?"
+    ],
+    "answer": "Yes, seasonal and festival offers periodically available aavum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_waxing_duration",
+    "category": "waxing_duration",
+    "question_variants": [
+      "How long does a waxing session take?"
+    ],
+    "answer": "The duration depends on the area being treated and can range from 15 minutes to over an hour.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_service_duration",
+    "category": "service_duration",
+    "question_variants": [
+      "How long do manicure and pedicure sessions take?"
+    ],
+    "answer": "Sessions usually take between 30 minutes to 90 minutes depending on the service selected.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_home_service_booking_time",
+    "category": "home_service_booking_time",
+    "question_variants": [
+      "How early should I book home services?",
+      "Home service eppozha book cheyyanam?"
+    ],
+    "answer": "It is recommended to book home services in advance for better availability.",
+    "source": "template",
+    "answer_ml": "Availability confirm cheyyan advance booking cheyyunnath better aanu."
+  },
+  {
+    "id": "beauty_parlour_bridal_makeup_overview",
+    "category": "bridal_makeup_overview",
+    "question_variants": [
+      "Do you provide bridal makeup services?"
+    ],
+    "answer": "Yes, we offer complete bridal makeup services for weddings, receptions, engagements, and related events.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_client_safety",
+    "category": "client_safety",
+    "question_variants": [
+      "What safety measures do you follow during services?"
+    ],
+    "answer": "We maintain hygiene, use sanitized tools, follow safety protocols, and ensure client comfort at all times.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_combo_packages",
+    "category": "combo_packages",
+    "question_variants": [
+      "Do you provide combo beauty packages?"
+    ],
+    "answer": "Yes, combo packages are available for services like facials, hair spa, manicure, pedicure, and bridal care.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_makeup_type",
+    "category": "makeup_type",
+    "question_variants": [
+      "Waterproof bridal makeup available aano?"
+    ],
+    "answer": "Yes, long-lasting and waterproof makeup options available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_appointment",
+    "category": "appointment",
+    "question_variants": [
+      "Do I need an appointment for manicure or pedicure services?"
+    ],
+    "answer": "Appointments are recommended, but walk-ins may also be accepted depending on availability.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_hidden_charges",
+    "category": "hidden_charges",
+    "question_variants": [
+      "Hidden charges undo?"
+    ],
+    "answer": "No, all charges service before clearly inform cheyyum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_facial_cost",
+    "category": "facial_cost",
+    "question_variants": [
+      "How much does a facial treatment cost?"
+    ],
+    "answer": "Facial pricing depends on the type of treatment, products used, and session duration.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_consultation",
+    "category": "consultation",
+    "question_variants": [
+      "Can I get recommendations for the best nail care treatment?",
+      "Product select cheyyan guidance kittumo?"
+    ],
+    "answer": "Yes, professionals can suggest suitable nail and foot care treatments based on your needs.",
+    "source": "template",
+    "answer_ml": "Yes, skin and hair type anusarich best products suggest cheyyum."
+  },
+  {
+    "id": "beauty_parlour_spa_services",
+    "category": "spa_services",
+    "question_variants": [
+      "What is included in a spa manicure or pedicure?"
+    ],
+    "answer": "Spa services may include nail trimming, cuticle care, exfoliation, massage, masks, and moisturizing treatments.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_hair_fall",
+    "category": "hair_fall",
+    "question_variants": [
+      "Hair fall treatment kittumo?"
+    ],
+    "answer": "Yes, scalp treatment and hair fall control therapies available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_party_makeup",
+    "category": "party_makeup",
+    "question_variants": [
+      "Do you provide party makeup services?",
+      "Party makeup cheyyan pattumo?"
+    ],
+    "answer": "Yes, party makeup services are available for birthdays, receptions, corporate events, and celebrations.",
+    "source": "template",
+    "answer_ml": "Yes, birthday, wedding, engagement, corporate events ellam-inu party makeup available aanu."
+  },
+  {
+    "id": "beauty_parlour_redness_after_threading",
+    "category": "redness_after_threading",
+    "question_variants": [
+      "Is redness normal after threading?"
+    ],
+    "answer": "Yes, mild redness is common after threading and usually disappears within a short time.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_home_service_staff",
+    "category": "home_service_staff",
+    "question_variants": [
+      "Will trained professionals come for home services?",
+      "Trained staff varumo home service-inu?"
+    ],
+    "answer": "Yes, experienced and trained professionals will provide home beauty services.",
+    "source": "template",
+    "answer_ml": "Yes, experienced and trained professionals aanu varunnath."
+  },
+  {
+    "id": "beauty_parlour_full_body",
+    "category": "full_body",
+    "question_variants": [
+      "Full body waxing package kittumo?"
+    ],
+    "answer": "Yes, customized full body waxing packages available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_makeup_products",
+    "category": "makeup_products",
+    "question_variants": [
+      "Which makeup brands do you use?"
+    ],
+    "answer": "We use professional makeup brands selected based on skin type, event requirements, and customer preferences.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_hair_consultation",
+    "category": "hair_consultation",
+    "question_variants": [
+      "Can I get a consultation before choosing a hair treatment?"
+    ],
+    "answer": "Yes, professional consultation is available to recommend the most suitable hair service.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_offers_availability",
+    "category": "offers_availability",
+    "question_variants": [
+      "Do you have any ongoing offers or discounts?"
+    ],
+    "answer": "Yes, seasonal offers, festival discounts, and promotional packages may be available.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_home_service_duration",
+    "category": "home_service_duration",
+    "question_variants": [
+      "How long do home services take?",
+      "Home service ethra neram edukum?"
+    ],
+    "answer": "Duration depends on the service and may take slightly longer than in-salon services.",
+    "source": "template",
+    "answer_ml": "Service type anusarich duration vary cheyyum, sometimes salon-inu compare cheyyumbo kurachu extra time edukkam."
+  },
+  {
+    "id": "beauty_parlour_bridal_booking",
+    "category": "bridal_booking",
+    "question_variants": [
+      "How early should I book bridal services?",
+      "Bridal services eppozha book cheyyanam?"
+    ],
+    "answer": "Bridal appointments should ideally be booked several weeks or months in advance.",
+    "source": "template",
+    "answer_ml": "Bridal services kurachu weeks allenkil months munpu book cheyyunnath nallath aanu."
+  },
+  {
+    "id": "beauty_parlour_hair_smoothening",
+    "category": "hair_smoothening",
+    "question_variants": [
+      "What is hair smoothening treatment?"
+    ],
+    "answer": "Hair smoothening is a treatment that reduces frizz and makes hair smoother, shinier, and easier to manage.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_bridal_hairstyling",
+    "category": "bridal_hairstyling",
+    "question_variants": [
+      "Is hairstyling included in bridal packages?"
+    ],
+    "answer": "Yes, bridal hairstyling is commonly included in most bridal packages.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_home_service_products",
+    "category": "home_service_products",
+    "question_variants": [
+      "Do you bring beauty products for home services?",
+      "Products home service-inu kondu varumo?"
+    ],
+    "answer": "Yes, professionals bring required tools and products based on the service booked.",
+    "source": "template",
+    "answer_ml": "Yes, required tools and products staff kondu varum."
+  },
+  {
+    "id": "beauty_parlour_keratin_treatment",
+    "category": "keratin_treatment",
+    "question_variants": [
+      "What is keratin treatment for hair?",
+      "Keratin treatment enthaanu?"
+    ],
+    "answer": "Keratin treatment helps repair damaged hair, reduce frizz, and improve smoothness using protein-based formulas.",
+    "source": "template",
+    "answer_ml": "Keratin treatment hair smooth aakkum, frizz reduce cheyyum, and shine increase cheyyum."
+  },
+  {
+    "id": "beauty_parlour_preferred_staff",
+    "category": "preferred_staff",
+    "question_variants": [
+      "Can I request a preferred beautician or stylist?",
+      "Preferred beautician choose cheyyan pattumo?"
+    ],
+    "answer": "Yes, you can request a specific staff member based on availability.",
+    "source": "template",
+    "answer_ml": "Yes, availability undengil nee choice cheytha staff-ne request cheyyam."
+  },
+  {
+    "id": "beauty_parlour_booking_time",
+    "category": "booking_time",
+    "question_variants": [
+      "Bridal makeup eppozha book cheyyanam?"
+    ],
+    "answer": "At least few weeks or months munpu book cheyyunnath best aanu, especially peak season-il.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_makeup_trial",
+    "category": "makeup_trial",
+    "question_variants": [
+      "Do you offer makeup trial sessions?"
+    ],
+    "answer": "Yes, trial makeup sessions are available before major events or bridal bookings.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_frequency",
+    "category": "frequency",
+    "question_variants": [
+      "Threading ethra often cheyyanam?"
+    ],
+    "answer": "2 to 4 weeks interval-il threading cheyyunnath nallath aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_directions",
+    "category": "directions",
+    "question_variants": [
+      "Parlour-il ethra easy aayi reach cheyyam?"
+    ],
+    "answer": "Google Maps link, WhatsApp location, allenkil call cheythu directions easily ariyam.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_nail_extensions",
+    "category": "nail_extensions",
+    "question_variants": [
+      "Do you offer nail extensions?",
+      "Nail extensions kittumo?"
+    ],
+    "answer": "Yes, nail extensions are available in different shapes, lengths, and styles.",
+    "source": "template",
+    "answer_ml": "Yes, different styles and lengths-il nail extensions available aanu."
+  },
+  {
+    "id": "beauty_parlour_touchup",
+    "category": "touchup",
+    "question_variants": [
+      "Bridal makeup touch-up kittumo?"
+    ],
+    "answer": "Yes, package anusarich touch-up support available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_trial",
+    "category": "trial",
+    "question_variants": [
+      "Makeup trial available aano?"
+    ],
+    "answer": "Yes, bridal and special events-inu trial makeup available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_walk_in",
+    "category": "walk_in",
+    "question_variants": [
+      "Can I walk in for eyebrow threading without an appointment?",
+      "Walk-in available aano?"
+    ],
+    "answer": "Yes, walk-ins are usually accepted for threading services depending on availability.",
+    "source": "template",
+    "answer_ml": "Yes, availability undengil walk-in accept cheyyum."
+  },
+  {
+    "id": "beauty_parlour_directions_help",
+    "category": "directions_help",
+    "question_variants": [
+      "Can I get directions to your parlour?"
+    ],
+    "answer": "Yes, we can share Google Maps links, WhatsApp location, or guide you over the phone.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_cost",
+    "category": "cost",
+    "question_variants": [
+      "Facial cost ethra aanu?"
+    ],
+    "answer": "Cost facial type, products use cheyyunnath, and duration depend cheyyum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_patch_test",
+    "category": "patch_test",
+    "question_variants": [
+      "Do you perform patch tests before treatments?",
+      "Chemical services munpu patch test cheyyumo?"
+    ],
+    "answer": "Yes, patch tests are recommended before chemical treatments like hair coloring and skin services.",
+    "source": "template",
+    "answer_ml": "Yes, hair color and skin treatments-inu munpu patch test recommend cheyyum."
+  },
+  {
+    "id": "beauty_parlour_home_service_emergency",
+    "category": "home_service_emergency",
+    "question_variants": [
+      "Can I book urgent home beauty services?",
+      "Urgent home service kittumo?"
+    ],
+    "answer": "Yes, urgent home service bookings may be accepted based on staff availability.",
+    "source": "template",
+    "answer_ml": "Yes, availability undengil urgent requests consider cheyyum."
+  },
+  {
+    "id": "beauty_parlour_spa_benefits",
+    "category": "spa_benefits",
+    "question_variants": [
+      "Spa manicure/pedicure entha benefit?"
+    ],
+    "answer": "Skin soft aavum, nails healthy aavum, and relaxation kittum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_manicure_pedicure_aftercare",
+    "category": "manicure_pedicure_aftercare",
+    "question_variants": [
+      "How do I maintain manicure and pedicure results?",
+      "Manicure/pedicure kazhinjal entha care venam?"
+    ],
+    "answer": "Keep nails moisturized, avoid harsh chemicals, and use gloves during cleaning work.",
+    "source": "template",
+    "answer_ml": "Hands and feet moisturize cheyyuka, cleaning chemicals avoid cheyyuka, and gloves use cheyyuka."
+  },
+  {
+    "id": "beauty_parlour_reminder",
+    "category": "reminder",
+    "question_variants": [
+      "Appointment reminder varumo?"
+    ],
+    "answer": "Yes, SMS allenkil WhatsApp reminder usually varum appointment munpu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_safety_standards",
+    "category": "safety_standards",
+    "question_variants": [
+      "Safety standards follow cheyyumo?"
+    ],
+    "answer": "Yes, hygiene, safety, and professional standards strictly follow cheyyum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_home_service_bridal",
+    "category": "home_service_bridal",
+    "question_variants": [
+      "Do you provide bridal makeup at home?",
+      "Bridal makeup home service available aano?"
+    ],
+    "answer": "Yes, bridal makeup and related services can be provided at home or venue.",
+    "source": "template",
+    "answer_ml": "Yes, bridal makeup and dressing home or venue-il provide cheyyum."
+  },
+  {
+    "id": "beauty_parlour_products_overview",
+    "category": "products_overview",
+    "question_variants": [
+      "What types of beauty products do you use?",
+      "Beauty parlour-il use cheyyunna products enthellam aanu?"
+    ],
+    "answer": "We use professional, branded, and skin-friendly beauty products suitable for different skin and hair types.",
+    "source": "template",
+    "answer_ml": "Professional salon-grade products, branded skincare, haircare, and makeup products aanu use cheyyunnath."
+  },
+  {
+    "id": "beauty_parlour_duration",
+    "category": "duration",
+    "question_variants": [
+      "Manicure and pedicure ethra neram edukum?"
+    ],
+    "answer": "Usually 30 minutes muthal 90 minutes vare service depend cheyyum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_aftercare_overview",
+    "category": "aftercare_overview",
+    "question_variants": [
+      "What is aftercare in beauty services?",
+      "Aftercare and maintenance enthaanu?"
+    ],
+    "answer": "Aftercare means following proper care instructions after a beauty treatment to maintain results and avoid skin or hair damage.",
+    "source": "template",
+    "answer_ml": "Beauty service kazhinjal skin and hair healthy aayi maintain cheyyan follow cheyyunna care instructions aanu aftercare."
+  },
+  {
+    "id": "beauty_parlour_hair_cost",
+    "category": "hair_cost",
+    "question_variants": [
+      "Hair services cost ethra aanu?"
+    ],
+    "answer": "Cost service type, hair length, and products use cheyyunnathine depend cheyyum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_smoothening",
+    "category": "smoothening",
+    "question_variants": [
+      "Hair smoothening safe aano?"
+    ],
+    "answer": "Yes, trained professionals cheyyumbo safe aanu, pakshe proper aftercare venam.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_reminder_service",
+    "category": "reminder_service",
+    "question_variants": [
+      "Will I receive appointment reminders?"
+    ],
+    "answer": "Yes, reminder messages or calls are usually sent before your scheduled appointment.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_waxing_types",
+    "category": "waxing_types",
+    "question_variants": [
+      "What types of waxing are available?",
+      "Which types of waxing available aanu?"
+    ],
+    "answer": "We provide regular wax, chocolate wax, Rica wax, fruit wax, and sensitive skin waxing options.",
+    "source": "template",
+    "answer_ml": "Normal wax, chocolate wax, Rica wax, fruit wax, and sensitive skin waxing options available aanu."
+  },
+  {
+    "id": "beauty_parlour_manicure_pedicure_overview",
+    "category": "manicure_pedicure_overview",
+    "question_variants": [
+      "What manicure and pedicure services do you offer?",
+      "Manicure and pedicure enthaanu?"
+    ],
+    "answer": "We offer basic manicure, spa manicure, gel manicure, basic pedicure, spa pedicure, nail care, and foot care treatments.",
+    "source": "template",
+    "answer_ml": "Manicure hand and nails care aanu, pedicure foot and toenails care aanu."
+  },
+  {
+    "id": "beauty_parlour_services_available",
+    "category": "services_available",
+    "question_variants": [
+      "Manicure and pedicure-il enthellam services available aanu?"
+    ],
+    "answer": "Basic manicure, spa manicure, gel manicure, basic pedicure, spa pedicure, nail shaping, and cuticle care ellam available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_redness",
+    "category": "redness",
+    "question_variants": [
+      "Threading kazhinjal redness normal aano?"
+    ],
+    "answer": "Yes, mild redness normal aanu, kurachu neram kazhinjal settle aavum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_pricing_overview",
+    "category": "pricing_overview",
+    "question_variants": [
+      "How are beauty parlour service prices calculated?",
+      "Beauty parlour service pricing engane decide cheyyum?"
+    ],
+    "answer": "Pricing depends on the type of service, products used, treatment duration, and stylist expertise.",
+    "source": "template",
+    "answer_ml": "Service type, product usage, time duration, and stylist experience based aayi pricing decide cheyyum."
+  },
+  {
+    "id": "beauty_parlour_late_evening_slots",
+    "category": "late_evening_slots",
+    "question_variants": [
+      "Do you offer late evening appointments?"
+    ],
+    "answer": "Late evening slots may be available depending on staff availability and prior booking.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_damage_prevention",
+    "category": "damage_prevention",
+    "question_variants": [
+      "Hair damage avoid cheyyan entha cheyyam?"
+    ],
+    "answer": "Heat tools kurachu use cheyyuka, proper products use cheyyuka, and regular care maintain cheyyuka.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_facial_aftercare",
+    "category": "facial_aftercare",
+    "question_variants": [
+      "What should I do after a facial treatment?",
+      "Facial kazhinjal entha care venam?"
+    ],
+    "answer": "Avoid heavy makeup, direct sunlight, and harsh skincare products for at least 24 hours after a facial.",
+    "source": "template",
+    "answer_ml": "Heavy makeup avoid cheyyuka, sun exposure kurakkuka, and mild skincare products use cheyyuka 24 hours vare."
+  },
+  {
+    "id": "beauty_parlour_contact_hours",
+    "category": "contact_hours",
+    "question_variants": [
+      "When can I contact your parlour?",
+      "Call cheyyan best time ethanu?"
+    ],
+    "answer": "You can contact us during working hours, and WhatsApp support may be available for quick responses.",
+    "source": "template",
+    "answer_ml": "Working hours-il call cheyyunnath best aanu, WhatsApp support kittum."
+  },
+  {
+    "id": "beauty_parlour_bridal_customization",
+    "category": "bridal_customization",
+    "question_variants": [
+      "Can bridal makeup looks be customized?"
+    ],
+    "answer": "Yes, bridal looks can be customized according to outfit, skin tone, and personal preference.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_threading_duration",
+    "category": "threading_duration",
+    "question_variants": [
+      "How long does eyebrow threading take?"
+    ],
+    "answer": "Eyebrow threading usually takes around 10 to 20 minutes.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_refund_policy",
+    "category": "refund_policy",
+    "question_variants": [
+      "Do you provide refunds after payment?",
+      "Refund available aano?"
+    ],
+    "answer": "Refund policies depend on the type of service and cancellation terms of the parlour.",
+    "source": "template",
+    "answer_ml": "Refund policy service and cancellation terms depend cheyyum."
+  },
+  {
+    "id": "beauty_parlour_nail_polish_duration",
+    "category": "nail_polish_duration",
+    "question_variants": [
+      "How long does nail polish usually last?",
+      "Nail polish ethra neram last cheyyum?"
+    ],
+    "answer": "Regular nail polish may last a few days, while gel polish can last up to two or three weeks.",
+    "source": "template",
+    "answer_ml": "Normal polish kurachu days vare, gel polish 2 to 3 weeks vare last cheyyum."
+  },
+  {
+    "id": "beauty_parlour_hair_aftercare",
+    "category": "hair_aftercare",
+    "question_variants": [
+      "Hair service kazhinjal entha maintenance venam?"
+    ],
+    "answer": "Proper shampoo use cheyyuka, heat styling kurakkuka, and stylist instructions follow cheyyuka.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_weekend_booking",
+    "category": "weekend_booking",
+    "question_variants": [
+      "Should I book appointments early for weekends?",
+      "Weekend-il booking cheyyan pattumo?"
+    ],
+    "answer": "Yes, weekends are usually busy, so advance booking is recommended.",
+    "source": "template",
+    "answer_ml": "Yes, weekend-il busy aayirikkum, athukond advance booking recommend cheyyunnu."
+  },
+  {
+    "id": "beauty_parlour_hairstyling_included",
+    "category": "hairstyling_included",
+    "question_variants": [
+      "Is hairstyling included with makeup services?"
+    ],
+    "answer": "Hairstyling may be included or added separately depending on the selected package.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_skin_analysis",
+    "category": "skin_analysis",
+    "question_variants": [
+      "Do you provide skin analysis before treatment?",
+      "Facial munpu skin check cheyyumo?"
+    ],
+    "answer": "Yes, skin analysis helps determine the most suitable facial and skin care treatment.",
+    "source": "template",
+    "answer_ml": "Yes, skin analysis cheythu best facial recommend cheyyum."
+  },
+  {
+    "id": "beauty_parlour_waterproof_makeup",
+    "category": "waterproof_makeup",
+    "question_variants": [
+      "Do you provide waterproof makeup?",
+      "Waterproof makeup available aano?"
+    ],
+    "answer": "Yes, waterproof makeup options are available for long events and outdoor occasions.",
+    "source": "template",
+    "answer_ml": "Yes, long-lasting and waterproof makeup options available aanu."
+  },
+  {
+    "id": "beauty_parlour_acne_treatment",
+    "category": "acne_treatment",
+    "question_variants": [
+      "Do you offer acne treatment services?",
+      "Acne skin-inu facial help cheyyumo?"
+    ],
+    "answer": "Yes, we provide acne-control facials and skin care treatments designed to reduce breakouts and improve skin health.",
+    "source": "template",
+    "answer_ml": "Yes, acne control facials and skincare treatments help cheyyum breakouts kurakkan."
+  },
+  {
+    "id": "beauty_parlour_price_list",
+    "category": "price_list",
+    "question_variants": [
+      "Full price list kittumo?"
+    ],
+    "answer": "Yes, parlour-il direct aayi allenkil WhatsApp/online vazhi full price list request cheyyam.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_hydration_care",
+    "category": "hydration_care",
+    "question_variants": [
+      "Why is hydration important after beauty treatments?"
+    ],
+    "answer": "Hydrated skin and hair help maintain treatment results and improve overall health.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_sun_protection",
+    "category": "sun_protection",
+    "question_variants": [
+      "Why is sun protection important after skin treatments?",
+      "Sun protection why important aanu?"
+    ],
+    "answer": "Skin becomes more sensitive after treatments, so sunscreen helps prevent damage and pigmentation.",
+    "source": "template",
+    "answer_ml": "Sun exposure damage and pigmentation avoid cheyyan sunscreen use cheyyanam."
+  },
+  {
+    "id": "beauty_parlour_home_service_gender",
+    "category": "home_service_gender",
+    "question_variants": [
+      "Do you provide home services for both men and women?"
+    ],
+    "answer": "Yes, home beauty services are available for both men and women depending on service type.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_home_service",
+    "category": "home_service",
+    "question_variants": [
+      "Do you provide makeup services at home or event venues?",
+      "Makeup home service kittumo?"
+    ],
+    "answer": "Yes, home and venue makeup services are available depending on location and booking.",
+    "source": "template",
+    "answer_ml": "Yes, home and venue makeup services available aanu based on booking."
+  },
+  {
+    "id": "beauty_parlour_appointment_confirmation",
+    "category": "appointment_confirmation",
+    "question_variants": [
+      "How will I know if my appointment is confirmed?",
+      "Appointment confirm aayennu engane ariyam?"
+    ],
+    "answer": "You will receive a confirmation message or call after your appointment is successfully booked.",
+    "source": "template",
+    "answer_ml": "Booking kazhinjal SMS, WhatsApp message, allenkil call vazhi confirmation varum."
+  },
+  {
+    "id": "beauty_parlour_waxing_services_overview",
+    "category": "waxing_services_overview",
+    "question_variants": [
+      "What waxing and hair removal services do you offer?"
+    ],
+    "answer": "We offer full body waxing, facial waxing, bikini waxing, arm waxing, leg waxing, and other hair removal services.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_membership_plans",
+    "category": "membership_plans",
+    "question_variants": [
+      "Do you offer membership or loyalty programs?"
+    ],
+    "answer": "Yes, membership plans and loyalty rewards may be available for regular customers.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_closing_hours",
+    "category": "closing_hours",
+    "question_variants": [
+      "What time do you close?",
+      "Parlour closing time enthaanu?"
+    ],
+    "answer": "We typically close in the evening, but timings may vary based on weekdays and weekends.",
+    "source": "template",
+    "answer_ml": "Evening 6 PM muthal 8 PM vare close aavum depending on schedule."
+  },
+  {
+    "id": "beauty_parlour_pre_bridal",
+    "category": "pre_bridal",
+    "question_variants": [
+      "Pre-bridal services available aano?"
+    ],
+    "answer": "Yes, facials, skin care, hair care, and grooming services pre-bridal package-il include cheyyam.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_home_service_safety",
+    "category": "home_service_safety",
+    "question_variants": [
+      "Is home beauty service safe and hygienic?",
+      "Home service safe and hygienic aano?"
+    ],
+    "answer": "Yes, professional and hygienic tools are used for all home services.",
+    "source": "template",
+    "answer_ml": "Yes, professional and hygienic tools use cheythu service provide cheyyum."
+  },
+  {
+    "id": "beauty_parlour_skin_sensitivity_aftercare",
+    "category": "skin_sensitivity_aftercare",
+    "question_variants": [
+      "Is redness normal after beauty treatments?"
+    ],
+    "answer": "Yes, mild redness or sensitivity is normal and usually settles within a few hours.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_false_eyelashes",
+    "category": "false_eyelashes",
+    "question_variants": [
+      "Do you provide false eyelashes with makeup?"
+    ],
+    "answer": "Yes, false eyelashes can be included based on the makeup style requested.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_threading_frequency",
+    "category": "threading_frequency",
+    "question_variants": [
+      "How often should I get eyebrow threading done?"
+    ],
+    "answer": "Most people schedule eyebrow threading every 2 to 4 weeks depending on hair growth.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_makeup_services_overview",
+    "category": "makeup_services_overview",
+    "question_variants": [
+      "What makeup services do you offer?",
+      "Makeup services enthellam available aanu?"
+    ],
+    "answer": "We offer bridal makeup, party makeup, engagement makeup, HD makeup, airbrush makeup, and special occasion makeup services.",
+    "source": "template",
+    "answer_ml": "Party makeup, bridal makeup, HD makeup, airbrush makeup, engagement makeup, and special occasion makeup ellam available aanu."
+  },
+  {
+    "id": "beauty_parlour_tool_hygiene",
+    "category": "tool_hygiene",
+    "question_variants": [
+      "Are your tools and equipment hygienic?",
+      "Tools sanitize cheyyumo?"
+    ],
+    "answer": "Yes, all tools are properly sanitized before and after every customer service.",
+    "source": "template",
+    "answer_ml": "Yes, every customer-inu munpu and shesham tools properly sanitize cheyyum."
+  },
+  {
+    "id": "beauty_parlour_hair_color_aftercare",
+    "category": "hair_color_aftercare",
+    "question_variants": [
+      "How should I maintain colored hair?",
+      "Hair coloring kazhinjal entha care venam?"
+    ],
+    "answer": "Use color-protect shampoo, avoid frequent washing, and reduce heat styling.",
+    "source": "template",
+    "answer_ml": "Color-safe shampoo use cheyyuka, frequent wash avoid cheyyuka, and heat styling kurakkuka."
+  },
+  {
+    "id": "beauty_parlour_custom_package",
+    "category": "custom_package",
+    "question_variants": [
+      "Can I customize a beauty package based on my budget?"
+    ],
+    "answer": "Yes, customized beauty packages can be created based on your preferences and budget.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_facial_overview",
+    "category": "facial_overview",
+    "question_variants": [
+      "What facial services do you offer?",
+      "Facial services enthellam available aanu?"
+    ],
+    "answer": "We offer basic facials, hydrating facials, anti-aging facials, acne treatments, brightening facials, and premium skin care therapies.",
+    "source": "template",
+    "answer_ml": "Basic facial, gold facial, fruit facial, hydrating facial, acne facial, anti-aging facial, and skin brightening treatments ellam available aanu."
+  },
+  {
+    "id": "beauty_parlour_makeup_safety",
+    "category": "makeup_safety",
+    "question_variants": [
+      "Is makeup safe for long hours?",
+      "Makeup skin-inu safe aano long time use cheyyan?"
+    ],
+    "answer": "Yes, we use long-lasting but skin-safe makeup products suitable for extended wear.",
+    "source": "template",
+    "answer_ml": "Yes, long-lasting but skin-safe makeup products use cheyyum."
+  },
+  {
+    "id": "beauty_parlour_product_usage",
+    "category": "product_usage",
+    "question_variants": [
+      "Can I use normal products after treatment?",
+      "Normal products use cheyyan pattumo?"
+    ],
+    "answer": "It is better to use recommended products for a few days to avoid irritation and maintain results.",
+    "source": "template",
+    "answer_ml": "Recommended products use cheyyunnath better aanu initial days-il."
+  },
+  {
+    "id": "beauty_parlour_full_face_threading",
+    "category": "full_face_threading",
+    "question_variants": [
+      "Do you offer full face threading?"
+    ],
+    "answer": "Yes, full face threading services are available for smooth facial hair removal.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_consultation_charges",
+    "category": "consultation_charges",
+    "question_variants": [
+      "Is there a consultation fee?"
+    ],
+    "answer": "Consultation charges may vary depending on the service and treatment selected.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_hair_wash",
+    "category": "hair_wash",
+    "question_variants": [
+      "Service munpu hair wash venamo?"
+    ],
+    "answer": "Service type depend cheyyum, stylists advise cheyyum clean hair or washed hair venamo ennu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_trial_makeup",
+    "category": "trial_makeup",
+    "question_variants": [
+      "Bridal makeup trial available aano?"
+    ],
+    "answer": "Yes, trial makeup available aanu bride-inu look finalize cheyyan.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_appointment_duration",
+    "category": "appointment_duration",
+    "question_variants": [
+      "How long do beauty appointments usually take?",
+      "Appointment ethra neram edukum?"
+    ],
+    "answer": "Appointment duration depends on the service selected and can range from 15 minutes to several hours.",
+    "source": "template",
+    "answer_ml": "Service depend cheyyum, 15 minutes muthal several hours vare aavum."
+  },
+  {
+    "id": "beauty_parlour_bridal_touchup",
+    "category": "bridal_touchup",
+    "question_variants": [
+      "Do you provide bridal makeup touch-up services?"
+    ],
+    "answer": "Yes, touch-up services may be included or added based on the package.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_same_day_booking",
+    "category": "same_day_booking",
+    "question_variants": [
+      "Can I get a same-day appointment?",
+      "Same day appointment kittumo?"
+    ],
+    "answer": "Same-day appointments may be available depending on the schedule and service availability.",
+    "source": "template",
+    "answer_ml": "Availability undengil same day appointment kittum, pakshe busy days-il confirm cheyyanam."
+  },
+  {
+    "id": "beauty_parlour_threading_overview",
+    "category": "threading_overview",
+    "question_variants": [
+      "What threading services do you offer?",
+      "Eyebrow threading enthaanu?"
+    ],
+    "answer": "We offer eyebrow threading, upper lip threading, forehead threading, chin threading, and full face threading services.",
+    "source": "template",
+    "answer_ml": "Eyebrow threading ennu parayunnath cotton thread use cheythu unwanted facial hair remove cheyyunna safe and precise method aanu."
+  },
+  {
+    "id": "beauty_parlour_gel_polish",
+    "category": "gel_polish",
+    "question_variants": [
+      "Do you provide gel nail polish services?",
+      "Gel nail polish available aano?"
+    ],
+    "answer": "Yes, gel nail polish services are available for long-lasting shine and durability.",
+    "source": "template",
+    "answer_ml": "Yes, long-lasting gel polish services available aanu."
+  },
+  {
+    "id": "beauty_parlour_reschedule",
+    "category": "reschedule",
+    "question_variants": [
+      "Can I reschedule my appointment?",
+      "Appointment reschedule cheyyan pattumo?"
+    ],
+    "answer": "Yes, appointments can be rescheduled by contacting the parlour in advance.",
+    "source": "template",
+    "answer_ml": "Yes, prior notice koduthal appointment reschedule cheyyam based on availability."
+  },
+  {
+    "id": "beauty_parlour_membership",
+    "category": "membership",
+    "question_variants": [
+      "Membership plans undo?"
+    ],
+    "answer": "Yes, regular customers-inu loyalty and membership discounts available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_skin_irritation",
+    "category": "skin_irritation",
+    "question_variants": [
+      "Threading kazhinjal irritation varumo?"
+    ],
+    "answer": "Rare aayi mild irritation varam, pakshe normal aayi quickly settle aavum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_waxing_vs_shaving",
+    "category": "waxing_vs_shaving",
+    "question_variants": [
+      "Is waxing better than shaving?",
+      "Waxing vs shaving which better aanu?"
+    ],
+    "answer": "Waxing removes hair from the root, providing smoother skin and longer-lasting results compared to shaving.",
+    "source": "template",
+    "answer_ml": "Waxing longer smooth result nalkum, shaving quick but short-lasting aanu."
+  },
+  {
+    "id": "beauty_parlour_public_transport",
+    "category": "public_transport",
+    "question_variants": [
+      "Can I reach your parlour using public transport?",
+      "Public transport use cheythu varan pattumo?"
+    ],
+    "answer": "Yes, our parlour is easily accessible by bus, metro, and other public transport options.",
+    "source": "template",
+    "answer_ml": "Yes, bus, metro, auto ellam use cheythu easily reach cheyyam."
+  },
+  {
+    "id": "beauty_parlour_opening_hours",
+    "category": "opening_hours",
+    "question_variants": [
+      "What are your opening hours?",
+      "Parlour opening time enthaanu?"
+    ],
+    "answer": "We are usually open from morning to evening. Exact timings may vary depending on the day and location.",
+    "source": "template",
+    "answer_ml": "Usually morning 9 AM allenkil 10 AM-il open aavum."
+  },
+  {
+    "id": "beauty_parlour_festival",
+    "category": "festival",
+    "question_variants": [
+      "Festival days-il open aavumo?"
+    ],
+    "answer": "Festival days-il limited timing allenkil holiday aayirikkam.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_late_arrival",
+    "category": "late_arrival",
+    "question_variants": [
+      "What happens if I arrive late for my appointment?",
+      "Njan late aayal entha sambhavikkum?"
+    ],
+    "answer": "Late arrivals may reduce service time or require rescheduling depending on the schedule.",
+    "source": "template",
+    "answer_ml": "Late aayal service time kurayum allenkil reschedule cheyyan parayum depending on schedule."
+  },
+  {
+    "id": "beauty_parlour_holiday",
+    "category": "holiday",
+    "question_variants": [
+      "Public holidays-il open aano?"
+    ],
+    "answer": "Some holidays-il close aavum, emergency service available aayirikkam.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_online_booking",
+    "category": "online_booking",
+    "question_variants": [
+      "Can I book a beauty service online?",
+      "Online ayi appointment book cheyyan pattumo?"
+    ],
+    "answer": "Yes, online booking is available through the parlour website or social media platforms.",
+    "source": "template",
+    "answer_ml": "Yes, parlour website allenkil social media link use cheythu online booking easy ayi cheyyam."
+  },
+  {
+    "id": "beauty_parlour_payment_methods",
+    "category": "payment_methods",
+    "question_variants": [
+      "Which payment methods do you accept?",
+      "Which payment methods accept cheyyum?"
+    ],
+    "answer": "We accept cash, debit cards, credit cards, UPI, and digital wallet payments.",
+    "source": "template",
+    "answer_ml": "Cash, UPI, card payments, and digital wallets ellam accept cheyyum."
+  },
+  {
+    "id": "beauty_parlour_hair_treatment_duration",
+    "category": "hair_treatment_duration",
+    "question_variants": [
+      "How long do hair treatments usually take?"
+    ],
+    "answer": "Treatment duration depends on the service and may range from 30 minutes to several hours.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_aftercare",
+    "category": "aftercare",
+    "question_variants": [
+      "What care should I take after a manicure or pedicure?",
+      "Manicure/pedicure kazhinjal entha care venam?"
+    ],
+    "answer": "Avoid harsh chemicals, keep nails moisturized, and wear gloves during cleaning work if possible.",
+    "source": "template",
+    "answer_ml": "Hands and feet moisturize cheyyuka, harsh chemicals avoid cheyyuka, and gloves use cheyyuka."
+  },
+  {
+    "id": "beauty_parlour_early_morning_slots",
+    "category": "early_morning_slots",
+    "question_variants": [
+      "Do you provide early morning appointments?"
+    ],
+    "answer": "Early morning appointments may be arranged based on request and availability.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_package_inclusion",
+    "category": "package_inclusion",
+    "question_variants": [
+      "Bridal package-il enthellam include cheyyum?"
+    ],
+    "answer": "Makeup, hairstyle, saree draping, skin prep, touch-up support, and sometimes pre-bridal care ellam include aavum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_facial_frequency",
+    "category": "facial_frequency",
+    "question_variants": [
+      "How often should I get a facial?",
+      "Facial ethra often cheyyanam?"
+    ],
+    "answer": "It is generally recommended to get a facial once every 4 to 6 weeks.",
+    "source": "template",
+    "answer_ml": "Usually 3 to 6 weeks once cheyyunnath nallath aanu."
+  },
+  {
+    "id": "beauty_parlour_group_booking",
+    "category": "group_booking",
+    "question_variants": [
+      "Can I book appointments for multiple people?",
+      "Group booking cheyyan pattumo?"
+    ],
+    "answer": "Yes, group bookings are available for friends, families, and bridal parties.",
+    "source": "template",
+    "answer_ml": "Yes, friends, bridal group, family bookings ellam available aanu."
+  },
+  {
+    "id": "beauty_parlour_hair_wash_before_visit",
+    "category": "hair_wash_before_visit",
+    "question_variants": [
+      "Should I wash my hair before coming to the salon?"
+    ],
+    "answer": "It depends on the service, but for most treatments, clean hair is preferred.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_offer_validity",
+    "category": "offer_validity",
+    "question_variants": [
+      "How long are offers valid?",
+      "Offers ethra neram valid aayirikkum?"
+    ],
+    "answer": "Offer validity depends on the promotion period and terms announced by the parlour.",
+    "source": "template",
+    "answer_ml": "Offer duration promotion anusarich vary cheyyum."
+  },
+  {
+    "id": "beauty_parlour_hair_fall_treatment",
+    "category": "hair_fall_treatment",
+    "question_variants": [
+      "Do you provide treatment for hair fall?"
+    ],
+    "answer": "Yes, we offer scalp analysis and treatments designed to reduce hair fall and strengthen hair.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_appointment_timing",
+    "category": "appointment_timing",
+    "question_variants": [
+      "Can I book appointments outside working hours?",
+      "Appointment timing adjust cheyyan pattumo?"
+    ],
+    "answer": "Online booking may be available 24/7, but services are provided during working hours only.",
+    "source": "template",
+    "answer_ml": "Yes, availability anusarich timing adjust cheyyam."
+  },
+  {
+    "id": "beauty_parlour_parking_facility",
+    "category": "parking_facility",
+    "question_variants": [
+      "Is parking available at your parlour?"
+    ],
+    "answer": "Yes, parking facilities are available for customers, but availability may vary depending on location.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_home_service_services",
+    "category": "home_service_services",
+    "question_variants": [
+      "What services are available at home?",
+      "Evide ellam services home-il kittum?"
+    ],
+    "answer": "Services like threading, waxing, facials, hair care, and makeup may be available at home.",
+    "source": "template",
+    "answer_ml": "Threading, waxing, facial, hair care, makeup pole selected services home-il available aanu."
+  },
+  {
+    "id": "beauty_parlour_eyebrow_shaping",
+    "category": "eyebrow_shaping",
+    "question_variants": [
+      "Eyebrow shape customize cheyyan pattumo?"
+    ],
+    "answer": "Yes, face shape anusarich eyebrow shape customize cheythu tharum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_home_service_payment",
+    "category": "home_service_payment",
+    "question_variants": [
+      "How do I pay for home beauty services?",
+      "Home service payment engane cheyyam?"
+    ],
+    "answer": "Payments can be made via cash, UPI, or digital payment methods after service completion.",
+    "source": "template",
+    "answer_ml": "Cash, UPI, card, and digital payments accept cheyyum."
+  },
+  {
+    "id": "beauty_parlour_bridal_package_details",
+    "category": "bridal_package_details",
+    "question_variants": [
+      "What is included in a bridal makeup package?"
+    ],
+    "answer": "Bridal packages may include makeup, hairstyling, saree draping, skin preparation, nail services, and touch-up support.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_festival_closure",
+    "category": "festival_closure",
+    "question_variants": [
+      "Are you open during festivals?"
+    ],
+    "answer": "During major festivals, timings may be limited or the parlour may remain closed.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_customization",
+    "category": "customization",
+    "question_variants": [
+      "Bridal makeup customize cheyyan pattumo?"
+    ],
+    "answer": "Yes, dress, skin tone, and preference anusarich customize cheyyam.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_bridal_family_services",
+    "category": "bridal_family_services",
+    "question_variants": [
+      "Can bridal packages include makeup for family members?"
+    ],
+    "answer": "Yes, customized packages for bridesmaids and family members are available.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_student_discounts",
+    "category": "student_discounts",
+    "question_variants": [
+      "Are student discounts available?"
+    ],
+    "answer": "Student discounts may be available on selected services with valid identification.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_expired_products",
+    "category": "expired_products",
+    "question_variants": [
+      "Do you use expired or old products?",
+      "Expired products use cheyyumo?"
+    ],
+    "answer": "No, we strictly use only fresh and within-expiry-date professional products.",
+    "source": "template",
+    "answer_ml": "No, always fresh and valid expiry products mathram use cheyyum."
+  },
+  {
+    "id": "beauty_parlour_bridal_overview",
+    "category": "bridal_overview",
+    "question_variants": [
+      "Bridal makeup packages enthellam available aanu?"
+    ],
+    "answer": "Basic bridal makeup, HD makeup, airbrush makeup, engagement makeup, reception makeup, and full bridal packages ellam available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_home_service_overview",
+    "category": "home_service_overview",
+    "question_variants": [
+      "Do you provide home beauty services?",
+      "Beauty parlour home services available aano?"
+    ],
+    "answer": "Yes, we offer selected beauty parlour services at home based on availability and location.",
+    "source": "template",
+    "answer_ml": "Yes, selected beauty services home service aayi provide cheyyum based on availability and location."
+  },
+  {
+    "id": "beauty_parlour_product_safety",
+    "category": "product_safety",
+    "question_variants": [
+      "Are your beauty products safe for all skin types?",
+      "Products safe aano skin and hair-inu?"
+    ],
+    "answer": "Yes, we use safe and dermatologically tested products suitable for most skin types, including sensitive skin.",
+    "source": "template",
+    "answer_ml": "Yes, majority products dermatologically tested and safe for most skin and hair types aanu."
+  },
+  {
+    "id": "beauty_parlour_service_difference",
+    "category": "service_difference",
+    "question_variants": [
+      "What is the difference between a manicure and a pedicure?"
+    ],
+    "answer": "A manicure focuses on hand and nail care, while a pedicure focuses on foot and toenail care.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_cancel_appointment",
+    "category": "cancel_appointment",
+    "question_variants": [
+      "How can I cancel my appointment?",
+      "Appointment cancel cheyyan engane?"
+    ],
+    "answer": "You can cancel your appointment by calling, messaging, or using the online booking system.",
+    "source": "template",
+    "answer_ml": "Call cheythu allenkil WhatsApp message ayachu appointment cancel cheyyam."
+  },
+  {
+    "id": "beauty_parlour_men_services",
+    "category": "men_services",
+    "question_variants": [
+      "Do you provide manicure and pedicure services for men?",
+      "Men-inu manicure and pedicure available aano?"
+    ],
+    "answer": "Yes, nail and foot care services are available for both men and women.",
+    "source": "template",
+    "answer_ml": "Yes, men grooming services ellam available aanu."
+  },
+  {
+    "id": "beauty_parlour_facial_threading",
+    "category": "facial_threading",
+    "question_variants": [
+      "Full face threading available aano?"
+    ],
+    "answer": "Yes, upper lip, chin, forehead, and full face threading ellam available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_parking",
+    "category": "parking",
+    "question_variants": [
+      "Parking facility available aano?"
+    ],
+    "answer": "Yes, parking facility available aanu but availability location depend cheyyum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_maintenance_frequency",
+    "category": "maintenance_frequency",
+    "question_variants": [
+      "How often should I repeat beauty treatments?",
+      "Maintenance ethra often cheyyanam?"
+    ],
+    "answer": "It depends on the service, but regular maintenance every few weeks or months is recommended.",
+    "source": "template",
+    "answer_ml": "Service type anusarich 2 to 6 weeks interval-il maintenance cheyyunnath nallath aanu."
+  },
+  {
+    "id": "beauty_parlour_hydration",
+    "category": "hydration",
+    "question_variants": [
+      "Aftercare-il hydration important aano?"
+    ],
+    "answer": "Yes, skin and hair hydrated aayirikkunnath results maintain cheyyan help cheyyum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_makeup_after_facial",
+    "category": "makeup_after_facial",
+    "question_variants": [
+      "Can I apply makeup after a facial?",
+      "Facial kazhinjal makeup use cheyyan pattumo?"
+    ],
+    "answer": "It is best to avoid makeup for a few hours after a facial to allow the skin to breathe.",
+    "source": "template",
+    "answer_ml": "Kurachu neram wait cheythu mathram makeup use cheyyuka."
+  },
+  {
+    "id": "beauty_parlour_disposable_items",
+    "category": "disposable_items",
+    "question_variants": [
+      "Disposable items use cheyyumo?"
+    ],
+    "answer": "Yes, gloves, towels, applicators pole disposable items use cheyyum hygiene maintain cheyyan.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_facial_side_effects",
+    "category": "facial_side_effects",
+    "question_variants": [
+      "Are there any side effects after a facial?"
+    ],
+    "answer": "Mild redness or sensitivity may occur temporarily, but it usually settles within a few hours.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_anti_aging",
+    "category": "anti_aging",
+    "question_variants": [
+      "Do you offer anti-aging skin treatments?",
+      "Anti-aging facial available aano?"
+    ],
+    "answer": "Yes, we provide treatments targeting fine lines, wrinkles, and skin rejuvenation.",
+    "source": "template",
+    "answer_ml": "Yes, fine lines and wrinkles reduce cheyyan anti-aging treatments available aanu."
+  },
+  {
+    "id": "beauty_parlour_best_facial",
+    "category": "best_facial",
+    "question_variants": [
+      "Which facial is best for glowing skin?",
+      "Glowing skin-inu best facial ethanu?"
+    ],
+    "answer": "The best facial depends on your skin type and concerns, but hydrating and brightening facials are popular for healthy glowing skin.",
+    "source": "template",
+    "answer_ml": "Skin type depend cheyyum, pakshe hydrating and fruit facials usually glow increase cheyyum."
+  },
+  {
+    "id": "beauty_parlour_pigmentation",
+    "category": "pigmentation",
+    "question_variants": [
+      "Dark spots and pigmentation kurakkan facial help cheyyumo?"
+    ],
+    "answer": "Yes, regular treatment cheythal pigmentation kurayan chance undu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_pigmentation_treatment",
+    "category": "pigmentation_treatment",
+    "question_variants": [
+      "Can facials help with pigmentation and dark spots?"
+    ],
+    "answer": "Yes, specialized treatments may help reduce pigmentation, uneven skin tone, and dark spots over time.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_home_service_booking",
+    "category": "home_service_booking",
+    "question_variants": [
+      "How can I book home beauty services?",
+      "Home service book cheyyan engane cheyyam?"
+    ],
+    "answer": "You can book home services through phone call, WhatsApp, or online booking system.",
+    "source": "template",
+    "answer_ml": "Phone call, WhatsApp message, allenkil online booking vazhi home service request cheyyam."
+  },
+  {
+    "id": "beauty_parlour_chemical_treatments",
+    "category": "chemical_treatments",
+    "question_variants": [
+      "Are chemical treatments safe for hair and skin?"
+    ],
+    "answer": "Yes, when performed by professionals using quality products, chemical treatments are safe.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_service_cost_variation",
+    "category": "service_cost_variation",
+    "question_variants": [
+      "Same service-inu price different aayirikkumo?"
+    ],
+    "answer": "Yes, hair length, skin type, and package add-ons depend cheythu price vary cheyyam.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_home_service_men_women",
+    "category": "home_service_men_women",
+    "question_variants": [
+      "Men and women-inu home service available aano?"
+    ],
+    "answer": "Yes, both men and women-inu selected services available aanu.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_custom_shape",
+    "category": "custom_shape",
+    "question_variants": [
+      "Can I choose my eyebrow shape?"
+    ],
+    "answer": "Yes, eyebrow shapes can be customized according to your preference and facial features.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_chemical_safety",
+    "category": "chemical_safety",
+    "question_variants": [
+      "Hair color and chemical treatments safe aano?"
+    ],
+    "answer": "Yes, trained professionals cheyyumbo safe products use cheyyum.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_early_morning",
+    "category": "early_morning",
+    "question_variants": [
+      "Early morning service kittumo?"
+    ],
+    "answer": "Request cheythal early morning slots available aayirikkam.",
+    "source": "template"
+  },
+  {
+    "id": "beauty_parlour_bridal_trial",
+    "category": "bridal_trial",
+    "question_variants": [
+      "Do you offer bridal makeup trials?"
+    ],
+    "answer": "Yes, trial sessions are available to help brides choose their preferred makeup look before the wedding day.",
+    "source": "template"
+  },
+  {
+    "id": "cat_all_hair_spa",
+    "category": "catalog",
+    "question_variants": [
+      "hair spa available aano?",
+      "hair spa undo?",
+      "Do you offer hair spa?",
+      "hair spa price enthu?",
+      "hair spa book cheyyamo?",
+      "How long does hair spa take?"
+    ],
+    "answer": "Hair Spa services:\n• Haircut - Women (Short) — ₹200\n• Haircut - Men (Basic) — ₹100\n• Kids Haircut (Below 10) — ₹150\n• Hair Wash & Blow Dry — ₹250\n• Straightening (Iron) — ₹300\n• Smoothing Treatment — ₹1,200\n• Keratin Treatment - Short — ₹2,500\n• Keratin Treatment - Medium — ₹4,000\n• Keratin Treatment - Long — ₹6,000\n• Hair Colour - Global (Medium) — ₹1,500\n...and 60 more. WhatsApp +91 98765 22222 for full list."
+  },
+  {
+    "id": "item_haircut___women__short_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Haircut - Women (Short)?",
+      "Price of Haircut - Women (Short)?",
+      "Haircut - Women (Short) vila enthu?",
+      "Haircut - Women (Short) rate?",
+      "Is Haircut - Women (Short) available?",
+      "Haircut - Women (Short) undo?",
+      "What is Haircut - Women (Short)?",
+      "Haircut - Women (Short) enthu aanu?"
+    ],
+    "answer": "Haircut - Women (Short) — ₹200 (30 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_haircut___men__basic_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Haircut - Men (Basic)?",
+      "Price of Haircut - Men (Basic)?",
+      "Haircut - Men (Basic) vila enthu?",
+      "Haircut - Men (Basic) rate?",
+      "Is Haircut - Men (Basic) available?",
+      "Haircut - Men (Basic) undo?",
+      "What is Haircut - Men (Basic)?",
+      "Haircut - Men (Basic) enthu aanu?"
+    ],
+    "answer": "Haircut - Men (Basic) — ₹100 (20 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_kids_haircut__below_10_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Kids Haircut (Below 10)?",
+      "Price of Kids Haircut (Below 10)?",
+      "Kids Haircut (Below 10) vila enthu?",
+      "Kids Haircut (Below 10) rate?",
+      "Is Kids Haircut (Below 10) available?",
+      "Kids Haircut (Below 10) undo?",
+      "What is Kids Haircut (Below 10)?",
+      "Kids Haircut (Below 10) enthu aanu?"
+    ],
+    "answer": "Kids Haircut (Below 10) — ₹150 (20 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_hair_wash___blow_dry",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Hair Wash & Blow Dry?",
+      "Price of Hair Wash & Blow Dry?",
+      "Hair Wash & Blow Dry vila enthu?",
+      "Hair Wash & Blow Dry rate?",
+      "Is Hair Wash & Blow Dry available?",
+      "Hair Wash & Blow Dry undo?",
+      "What is Hair Wash & Blow Dry?",
+      "Hair Wash & Blow Dry enthu aanu?"
+    ],
+    "answer": "Hair Wash & Blow Dry — ₹250 (30 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_straightening__iron_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Straightening (Iron)?",
+      "Price of Straightening (Iron)?",
+      "Straightening (Iron) vila enthu?",
+      "Straightening (Iron) rate?",
+      "Is Straightening (Iron) available?",
+      "Straightening (Iron) undo?",
+      "What is Straightening (Iron)?",
+      "Straightening (Iron) enthu aanu?"
+    ],
+    "answer": "Straightening (Iron) — ₹300 (45 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_smoothing_treatment",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Smoothing Treatment?",
+      "Price of Smoothing Treatment?",
+      "Smoothing Treatment vila enthu?",
+      "Smoothing Treatment rate?",
+      "Is Smoothing Treatment available?",
+      "Smoothing Treatment undo?",
+      "What is Smoothing Treatment?",
+      "Smoothing Treatment enthu aanu?"
+    ],
+    "answer": "Smoothing Treatment — ₹1,200 (90 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_keratin_treatment___short",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Keratin Treatment - Short?",
+      "Price of Keratin Treatment - Short?",
+      "Keratin Treatment - Short vila enthu?",
+      "Keratin Treatment - Short rate?",
+      "Is Keratin Treatment - Short available?",
+      "Keratin Treatment - Short undo?",
+      "What is Keratin Treatment - Short?",
+      "Keratin Treatment - Short enthu aanu?"
+    ],
+    "answer": "Keratin Treatment - Short — ₹2,500 (2.5 hrs). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_keratin_treatment___medium",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Keratin Treatment - Medium?",
+      "Price of Keratin Treatment - Medium?",
+      "Keratin Treatment - Medium vila enthu?",
+      "Keratin Treatment - Medium rate?",
+      "Is Keratin Treatment - Medium available?",
+      "Keratin Treatment - Medium undo?",
+      "What is Keratin Treatment - Medium?",
+      "Keratin Treatment - Medium enthu aanu?"
+    ],
+    "answer": "Keratin Treatment - Medium — ₹4,000 (3 hrs). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_keratin_treatment___long",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Keratin Treatment - Long?",
+      "Price of Keratin Treatment - Long?",
+      "Keratin Treatment - Long vila enthu?",
+      "Keratin Treatment - Long rate?",
+      "Is Keratin Treatment - Long available?",
+      "Keratin Treatment - Long undo?",
+      "What is Keratin Treatment - Long?",
+      "Keratin Treatment - Long enthu aanu?"
+    ],
+    "answer": "Keratin Treatment - Long — ₹6,000 (3.5 hrs). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_hair_colour___global__medium_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Hair Colour - Global (Medium)?",
+      "Price of Hair Colour - Global (Medium)?",
+      "Hair Colour - Global (Medium) vila enthu?",
+      "Hair Colour - Global (Medium) rate?",
+      "Is Hair Colour - Global (Medium) available?",
+      "Hair Colour - Global (Medium) undo?",
+      "What is Hair Colour - Global (Medium)?",
+      "Hair Colour - Global (Medium) enthu aanu?"
+    ],
+    "answer": "Hair Colour - Global (Medium) — ₹1,500 (2 hrs). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_highlights__foil_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Highlights (Foil)?",
+      "Price of Highlights (Foil)?",
+      "Highlights (Foil) vila enthu?",
+      "Highlights (Foil) rate?",
+      "Is Highlights (Foil) available?",
+      "Highlights (Foil) undo?",
+      "What is Highlights (Foil)?",
+      "Highlights (Foil) enthu aanu?"
+    ],
+    "answer": "Highlights (Foil) — ₹1,500 (2 hrs). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_balayage___ombre",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Balayage / Ombre?",
+      "Price of Balayage / Ombre?",
+      "Balayage / Ombre vila enthu?",
+      "Balayage / Ombre rate?",
+      "Is Balayage / Ombre available?",
+      "Balayage / Ombre undo?",
+      "What is Balayage / Ombre?",
+      "Balayage / Ombre enthu aanu?"
+    ],
+    "answer": "Balayage / Ombre — ₹3,000 (2.5 hrs). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_full_balayage__long_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Full Balayage (Long)?",
+      "Price of Full Balayage (Long)?",
+      "Full Balayage (Long) vila enthu?",
+      "Full Balayage (Long) rate?",
+      "Is Full Balayage (Long) available?",
+      "Full Balayage (Long) undo?",
+      "What is Full Balayage (Long)?",
+      "Full Balayage (Long) enthu aanu?"
+    ],
+    "answer": "Full Balayage (Long) — ₹4,000 (3.5 hrs). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_root_touch_up",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Root Touch-Up?",
+      "Price of Root Touch-Up?",
+      "Root Touch-Up vila enthu?",
+      "Root Touch-Up rate?",
+      "Is Root Touch-Up available?",
+      "Root Touch-Up undo?",
+      "What is Root Touch-Up?",
+      "Root Touch-Up enthu aanu?"
+    ],
+    "answer": "Root Touch-Up — ₹600 (1 hr). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_toning___glossing",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Toning / Glossing?",
+      "Price of Toning / Glossing?",
+      "Toning / Glossing vila enthu?",
+      "Toning / Glossing rate?",
+      "Is Toning / Glossing available?",
+      "Toning / Glossing undo?",
+      "What is Toning / Glossing?",
+      "Toning / Glossing enthu aanu?"
+    ],
+    "answer": "Toning / Glossing — ₹500 (45 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_hair_spa___short",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Hair Spa - Short?",
+      "Price of Hair Spa - Short?",
+      "Hair Spa - Short vila enthu?",
+      "Hair Spa - Short rate?",
+      "Is Hair Spa - Short available?",
+      "Hair Spa - Short undo?",
+      "What is Hair Spa - Short?",
+      "Hair Spa - Short enthu aanu?"
+    ],
+    "answer": "Hair Spa - Short — ₹600 (1 hr). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_hair_spa___long",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Hair Spa - Long?",
+      "Price of Hair Spa - Long?",
+      "Hair Spa - Long vila enthu?",
+      "Hair Spa - Long rate?",
+      "Is Hair Spa - Long available?",
+      "Hair Spa - Long undo?",
+      "What is Hair Spa - Long?",
+      "Hair Spa - Long enthu aanu?"
+    ],
+    "answer": "Hair Spa - Long — ₹1,000 (1.5 hrs). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_dandruff_treatment",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Dandruff Treatment?",
+      "Price of Dandruff Treatment?",
+      "Dandruff Treatment vila enthu?",
+      "Dandruff Treatment rate?",
+      "Is Dandruff Treatment available?",
+      "Dandruff Treatment undo?",
+      "What is Dandruff Treatment?",
+      "Dandruff Treatment enthu aanu?"
+    ],
+    "answer": "Dandruff Treatment — ₹800 (1 hr/session). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_hair_fall_treatment",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Hair Fall Treatment?",
+      "Price of Hair Fall Treatment?",
+      "Hair Fall Treatment vila enthu?",
+      "Hair Fall Treatment rate?",
+      "Is Hair Fall Treatment available?",
+      "Hair Fall Treatment undo?",
+      "What is Hair Fall Treatment?",
+      "Hair Fall Treatment enthu aanu?"
+    ],
+    "answer": "Hair Fall Treatment — ₹1,200 (1 hr). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_rebonding___short",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Rebonding - Short?",
+      "Price of Rebonding - Short?",
+      "Rebonding - Short vila enthu?",
+      "Rebonding - Short rate?",
+      "Is Rebonding - Short available?",
+      "Rebonding - Short undo?",
+      "What is Rebonding - Short?",
+      "Rebonding - Short enthu aanu?"
+    ],
+    "answer": "Rebonding - Short — ₹3,500 (3 hrs). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_rebonding___long",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Rebonding - Long?",
+      "Price of Rebonding - Long?",
+      "Rebonding - Long vila enthu?",
+      "Rebonding - Long rate?",
+      "Is Rebonding - Long available?",
+      "Rebonding - Long undo?",
+      "What is Rebonding - Long?",
+      "Rebonding - Long enthu aanu?"
+    ],
+    "answer": "Rebonding - Long — ₹6,500 (4.5 hrs). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_basic_cleanup",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Basic Cleanup?",
+      "Price of Basic Cleanup?",
+      "Basic Cleanup vila enthu?",
+      "Basic Cleanup rate?",
+      "Is Basic Cleanup available?",
+      "Basic Cleanup undo?",
+      "What is Basic Cleanup?",
+      "Basic Cleanup enthu aanu?"
+    ],
+    "answer": "Basic Cleanup — ₹400 (45 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_basic_facial",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Basic Facial?",
+      "Price of Basic Facial?",
+      "Basic Facial vila enthu?",
+      "Basic Facial rate?",
+      "Is Basic Facial available?",
+      "Basic Facial undo?",
+      "What is Basic Facial?",
+      "Basic Facial enthu aanu?"
+    ],
+    "answer": "Basic Facial — ₹600 (60 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_gold_facial",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Gold Facial?",
+      "Price of Gold Facial?",
+      "Gold Facial vila enthu?",
+      "Gold Facial rate?",
+      "Is Gold Facial available?",
+      "Gold Facial undo?",
+      "What is Gold Facial?",
+      "Gold Facial enthu aanu?"
+    ],
+    "answer": "Gold Facial — ₹1,200 (75 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_diamond_facial",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Diamond Facial?",
+      "Price of Diamond Facial?",
+      "Diamond Facial vila enthu?",
+      "Diamond Facial rate?",
+      "Is Diamond Facial available?",
+      "Diamond Facial undo?",
+      "What is Diamond Facial?",
+      "Diamond Facial enthu aanu?"
+    ],
+    "answer": "Diamond Facial — ₹1,500 (75 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_hydrafacial__basic_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is HydraFacial (Basic)?",
+      "Price of HydraFacial (Basic)?",
+      "HydraFacial (Basic) vila enthu?",
+      "HydraFacial (Basic) rate?",
+      "Is HydraFacial (Basic) available?",
+      "HydraFacial (Basic) undo?",
+      "What is HydraFacial (Basic)?",
+      "HydraFacial (Basic) enthu aanu?"
+    ],
+    "answer": "HydraFacial (Basic) — ₹1,200 (60 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_anti_acne_facial",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Anti-Acne Facial?",
+      "Price of Anti-Acne Facial?",
+      "Anti-Acne Facial vila enthu?",
+      "Anti-Acne Facial rate?",
+      "Is Anti-Acne Facial available?",
+      "Anti-Acne Facial undo?",
+      "What is Anti-Acne Facial?",
+      "Anti-Acne Facial enthu aanu?"
+    ],
+    "answer": "Anti-Acne Facial — ₹1,000 (75 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_tan_removal_facial",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Tan Removal Facial?",
+      "Price of Tan Removal Facial?",
+      "Tan Removal Facial vila enthu?",
+      "Tan Removal Facial rate?",
+      "Is Tan Removal Facial available?",
+      "Tan Removal Facial undo?",
+      "What is Tan Removal Facial?",
+      "Tan Removal Facial enthu aanu?"
+    ],
+    "answer": "Tan Removal Facial — ₹800 (60 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_fruit_facial",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Fruit Facial?",
+      "Price of Fruit Facial?",
+      "Fruit Facial vila enthu?",
+      "Fruit Facial rate?",
+      "Is Fruit Facial available?",
+      "Fruit Facial undo?",
+      "What is Fruit Facial?",
+      "Fruit Facial enthu aanu?"
+    ],
+    "answer": "Fruit Facial — ₹700 (60 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_bridal_glow_facial",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Bridal Glow Facial?",
+      "Price of Bridal Glow Facial?",
+      "Bridal Glow Facial vila enthu?",
+      "Bridal Glow Facial rate?",
+      "Is Bridal Glow Facial available?",
+      "Bridal Glow Facial undo?",
+      "What is Bridal Glow Facial?",
+      "Bridal Glow Facial enthu aanu?"
+    ],
+    "answer": "Bridal Glow Facial — ₹1,800 (90 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_under_eye_treatment",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Under-Eye Treatment?",
+      "Price of Under-Eye Treatment?",
+      "Under-Eye Treatment vila enthu?",
+      "Under-Eye Treatment rate?",
+      "Is Under-Eye Treatment available?",
+      "Under-Eye Treatment undo?",
+      "What is Under-Eye Treatment?",
+      "Under-Eye Treatment enthu aanu?"
+    ],
+    "answer": "Under-Eye Treatment — ₹500 (30 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_lip_lightening",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Lip Lightening?",
+      "Price of Lip Lightening?",
+      "Lip Lightening vila enthu?",
+      "Lip Lightening rate?",
+      "Is Lip Lightening available?",
+      "Lip Lightening undo?",
+      "What is Lip Lightening?",
+      "Lip Lightening enthu aanu?"
+    ],
+    "answer": "Lip Lightening — ₹300 (20 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_neck___decollete_facial",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Neck & Decollete Facial?",
+      "Price of Neck & Decollete Facial?",
+      "Neck & Decollete Facial vila enthu?",
+      "Neck & Decollete Facial rate?",
+      "Is Neck & Decollete Facial available?",
+      "Neck & Decollete Facial undo?",
+      "What is Neck & Decollete Facial?",
+      "Neck & Decollete Facial enthu aanu?"
+    ],
+    "answer": "Neck & Decollete Facial — ₹400 (30 min). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_precision_shaping",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Precision shaping?",
+      "Price of Precision shaping?",
+      "Precision shaping vila enthu?",
+      "Precision shaping rate?",
+      "Is Precision shaping available?",
+      "Precision shaping undo?"
+    ],
+    "answer": "Precision shaping — ₹50. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_full_forehead",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Full forehead?",
+      "Price of Full forehead?",
+      "Full forehead vila enthu?",
+      "Full forehead rate?",
+      "Is Full forehead available?",
+      "Full forehead undo?"
+    ],
+    "answer": "Full forehead — ₹30. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_full_face_threading",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Full Face Threading?",
+      "Price of Full Face Threading?",
+      "Full Face Threading vila enthu?",
+      "Full Face Threading rate?",
+      "Is Full Face Threading available?",
+      "Full Face Threading undo?"
+    ],
+    "answer": "Full Face Threading — ₹150. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_upper_lip_wax",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Upper Lip Wax?",
+      "Price of Upper Lip Wax?",
+      "Upper Lip Wax vila enthu?",
+      "Upper Lip Wax rate?",
+      "Is Upper Lip Wax available?",
+      "Upper Lip Wax undo?"
+    ],
+    "answer": "Upper Lip Wax — ₹60. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_chin_wax",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Chin Wax?",
+      "Price of Chin Wax?",
+      "Chin Wax vila enthu?",
+      "Chin Wax rate?",
+      "Is Chin Wax available?",
+      "Chin Wax undo?"
+    ],
+    "answer": "Chin Wax — ₹60. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_underarm_wax",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Underarm Wax?",
+      "Price of Underarm Wax?",
+      "Underarm Wax vila enthu?",
+      "Underarm Wax rate?",
+      "Is Underarm Wax available?",
+      "Underarm Wax undo?"
+    ],
+    "answer": "Underarm Wax — ₹150. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_half_arm_wax",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Half Arm Wax?",
+      "Price of Half Arm Wax?",
+      "Half Arm Wax vila enthu?",
+      "Half Arm Wax rate?",
+      "Is Half Arm Wax available?",
+      "Half Arm Wax undo?"
+    ],
+    "answer": "Half Arm Wax — ₹200. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_full_arm_wax",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Full Arm Wax?",
+      "Price of Full Arm Wax?",
+      "Full Arm Wax vila enthu?",
+      "Full Arm Wax rate?",
+      "Is Full Arm Wax available?",
+      "Full Arm Wax undo?"
+    ],
+    "answer": "Full Arm Wax — ₹350. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_half_leg_wax",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Half Leg Wax?",
+      "Price of Half Leg Wax?",
+      "Half Leg Wax vila enthu?",
+      "Half Leg Wax rate?",
+      "Is Half Leg Wax available?",
+      "Half Leg Wax undo?"
+    ],
+    "answer": "Half Leg Wax — ₹250. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_full_leg_wax",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Full Leg Wax?",
+      "Price of Full Leg Wax?",
+      "Full Leg Wax vila enthu?",
+      "Full Leg Wax rate?",
+      "Is Full Leg Wax available?",
+      "Full Leg Wax undo?"
+    ],
+    "answer": "Full Leg Wax — ₹450. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_full_body_wax",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Full Body Wax?",
+      "Price of Full Body Wax?",
+      "Full Body Wax vila enthu?",
+      "Full Body Wax rate?",
+      "Is Full Body Wax available?",
+      "Full Body Wax undo?"
+    ],
+    "answer": "Full Body Wax — ₹1,200. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_bikini_wax__basic_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Bikini Wax (Basic)?",
+      "Price of Bikini Wax (Basic)?",
+      "Bikini Wax (Basic) vila enthu?",
+      "Bikini Wax (Basic) rate?",
+      "Is Bikini Wax (Basic) available?",
+      "Bikini Wax (Basic) undo?"
+    ],
+    "answer": "Bikini Wax (Basic) — ₹400. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_back___stomach_wax",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Back / Stomach Wax?",
+      "Price of Back / Stomach Wax?",
+      "Back / Stomach Wax vila enthu?",
+      "Back / Stomach Wax rate?",
+      "Is Back / Stomach Wax available?",
+      "Back / Stomach Wax undo?"
+    ],
+    "answer": "Back / Stomach Wax — ₹300. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_basic_manicure",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Basic Manicure?",
+      "Price of Basic Manicure?",
+      "Basic Manicure vila enthu?",
+      "Basic Manicure rate?",
+      "Is Basic Manicure available?",
+      "Basic Manicure undo?",
+      "What is Basic Manicure?",
+      "Basic Manicure enthu aanu?"
+    ],
+    "answer": "Basic Manicure — ₹300 (Soak, file, cuticle care, buff, regular polish). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_french_manicure",
+    "category": "pricing",
+    "question_variants": [
+      "How much is French Manicure?",
+      "Price of French Manicure?",
+      "French Manicure vila enthu?",
+      "French Manicure rate?",
+      "Is French Manicure available?",
+      "French Manicure undo?",
+      "What is French Manicure?",
+      "French Manicure enthu aanu?"
+    ],
+    "answer": "French Manicure — ₹450 (Classic French tips with base & top coat). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_spa_manicure",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Spa Manicure?",
+      "Price of Spa Manicure?",
+      "Spa Manicure vila enthu?",
+      "Spa Manicure rate?",
+      "Is Spa Manicure available?",
+      "Spa Manicure undo?",
+      "What is Spa Manicure?",
+      "Spa Manicure enthu aanu?"
+    ],
+    "answer": "Spa Manicure — ₹600 (Exfoliation + mask + paraffin dip + polish). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_gel_manicure",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Gel Manicure?",
+      "Price of Gel Manicure?",
+      "Gel Manicure vila enthu?",
+      "Gel Manicure rate?",
+      "Is Gel Manicure available?",
+      "Gel Manicure undo?",
+      "What is Gel Manicure?",
+      "Gel Manicure enthu aanu?"
+    ],
+    "answer": "Gel Manicure — ₹700 (Gel colour application, long-lasting 2-3 weeks). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_nail_art__per_hand_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Nail Art (Per Hand)?",
+      "Price of Nail Art (Per Hand)?",
+      "Nail Art (Per Hand) vila enthu?",
+      "Nail Art (Per Hand) rate?",
+      "Is Nail Art (Per Hand) available?",
+      "Nail Art (Per Hand) undo?",
+      "What is Nail Art (Per Hand)?",
+      "Nail Art (Per Hand) enthu aanu?"
+    ],
+    "answer": "Nail Art (Per Hand) — ₹200 – ₹800 (Designs, stamping, decals - 5 nails). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_nail_extensions__per_hand_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Nail Extensions (Per Hand)?",
+      "Price of Nail Extensions (Per Hand)?",
+      "Nail Extensions (Per Hand) vila enthu?",
+      "Nail Extensions (Per Hand) rate?",
+      "Is Nail Extensions (Per Hand) available?",
+      "Nail Extensions (Per Hand) undo?",
+      "What is Nail Extensions (Per Hand)?",
+      "Nail Extensions (Per Hand) enthu aanu?"
+    ],
+    "answer": "Nail Extensions (Per Hand) — ₹1,200 (Acrylic or gel extensions, 10 nails). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_basic_pedicure",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Basic Pedicure?",
+      "Price of Basic Pedicure?",
+      "Basic Pedicure vila enthu?",
+      "Basic Pedicure rate?",
+      "Is Basic Pedicure available?",
+      "Basic Pedicure undo?",
+      "What is Basic Pedicure?",
+      "Basic Pedicure enthu aanu?"
+    ],
+    "answer": "Basic Pedicure — ₹400 (Soak, file, cuticle, callus removal, buff, polish). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_spa_pedicure",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Spa Pedicure?",
+      "Price of Spa Pedicure?",
+      "Spa Pedicure vila enthu?",
+      "Spa Pedicure rate?",
+      "Is Spa Pedicure available?",
+      "Spa Pedicure undo?",
+      "What is Spa Pedicure?",
+      "Spa Pedicure enthu aanu?"
+    ],
+    "answer": "Spa Pedicure — ₹800 (Scrub + mask + foot massage + paraffin + polish). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_gel_pedicure",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Gel Pedicure?",
+      "Price of Gel Pedicure?",
+      "Gel Pedicure vila enthu?",
+      "Gel Pedicure rate?",
+      "Is Gel Pedicure available?",
+      "Gel Pedicure undo?",
+      "What is Gel Pedicure?",
+      "Gel Pedicure enthu aanu?"
+    ],
+    "answer": "Gel Pedicure — ₹700 (Gel colour on toes, long-lasting). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_fish_pedicure",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Fish Pedicure?",
+      "Price of Fish Pedicure?",
+      "Fish Pedicure vila enthu?",
+      "Fish Pedicure rate?",
+      "Is Fish Pedicure available?",
+      "Fish Pedicure undo?",
+      "What is Fish Pedicure?",
+      "Fish Pedicure enthu aanu?"
+    ],
+    "answer": "Fish Pedicure — ₹600 (Doctor fish foot treatment + pedicure). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_nail_removal__gel_acrylic_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Nail Removal (Gel/Acrylic)?",
+      "Price of Nail Removal (Gel/Acrylic)?",
+      "Nail Removal (Gel/Acrylic) vila enthu?",
+      "Nail Removal (Gel/Acrylic) rate?",
+      "Is Nail Removal (Gel/Acrylic) available?",
+      "Nail Removal (Gel/Acrylic) undo?",
+      "What is Nail Removal (Gel/Acrylic)?",
+      "Nail Removal (Gel/Acrylic) enthu aanu?"
+    ],
+    "answer": "Nail Removal (Gel/Acrylic) — ₹200 (Safe removal with soak-off). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_bridal_makeup___basic",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Bridal Makeup - Basic?",
+      "Price of Bridal Makeup - Basic?",
+      "Bridal Makeup - Basic vila enthu?",
+      "Bridal Makeup - Basic rate?",
+      "Is Bridal Makeup - Basic available?",
+      "Bridal Makeup - Basic undo?",
+      "What is Bridal Makeup - Basic?",
+      "Bridal Makeup - Basic enthu aanu?"
+    ],
+    "answer": "Bridal Makeup - Basic — ₹8,000 (HD makeup, hairstyle (open/updo), saree draping,\nbindi/jewellery pinning). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_bridal_makeup___standard",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Bridal Makeup - Standard?",
+      "Price of Bridal Makeup - Standard?",
+      "Bridal Makeup - Standard vila enthu?",
+      "Bridal Makeup - Standard rate?",
+      "Is Bridal Makeup - Standard available?",
+      "Bridal Makeup - Standard undo?",
+      "What is Bridal Makeup - Standard?",
+      "Bridal Makeup - Standard enthu aanu?"
+    ],
+    "answer": "Bridal Makeup - Standard — ₹14,000 (Airbrush or HD makeup + hairstyle + saree draping +\npre-bridal 2 sessions). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_bridal_makeup___premium",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Bridal Makeup - Premium?",
+      "Price of Bridal Makeup - Premium?",
+      "Bridal Makeup - Premium vila enthu?",
+      "Bridal Makeup - Premium rate?",
+      "Is Bridal Makeup - Premium available?",
+      "Bridal Makeup - Premium undo?",
+      "What is Bridal Makeup - Premium?",
+      "Bridal Makeup - Premium enthu aanu?"
+    ],
+    "answer": "Bridal Makeup - Premium — ₹22,000 (MAC/Huda Beauty full airbrush + bridal updo + false\nlashes + 4 pre-bridal sessions + Mehendi day look). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_bridal_makeup___luxury",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Bridal Makeup - Luxury?",
+      "Price of Bridal Makeup - Luxury?",
+      "Bridal Makeup - Luxury vila enthu?",
+      "Bridal Makeup - Luxury rate?",
+      "Is Bridal Makeup - Luxury available?",
+      "Bridal Makeup - Luxury undo?",
+      "What is Bridal Makeup - Luxury?",
+      "Bridal Makeup - Luxury enthu aanu?"
+    ],
+    "answer": "Bridal Makeup - Luxury — ₹35,000 (All premium inclusions + engagement makeup +\nreception makeup + family makeup (2 members)). WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_saree_draping_only",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Saree Draping Only?",
+      "Price of Saree Draping Only?",
+      "Saree Draping Only vila enthu?",
+      "Saree Draping Only rate?",
+      "Is Saree Draping Only available?",
+      "Saree Draping Only undo?"
+    ],
+    "answer": "Saree Draping Only — ₹300. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_mehendi_day_makeup",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Mehendi Day Makeup?",
+      "Price of Mehendi Day Makeup?",
+      "Mehendi Day Makeup vila enthu?",
+      "Mehendi Day Makeup rate?",
+      "Is Mehendi Day Makeup available?",
+      "Mehendi Day Makeup undo?"
+    ],
+    "answer": "Mehendi Day Makeup — ₹2,000. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_groom_makeup__hd_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Groom Makeup (HD)?",
+      "Price of Groom Makeup (HD)?",
+      "Groom Makeup (HD) vila enthu?",
+      "Groom Makeup (HD) rate?",
+      "Is Groom Makeup (HD) available?",
+      "Groom Makeup (HD) undo?"
+    ],
+    "answer": "Groom Makeup (HD) — ₹2,500. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_pre_bridal_package__full_",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Pre-Bridal Package (Full)?",
+      "Price of Pre-Bridal Package (Full)?",
+      "Pre-Bridal Package (Full) vila enthu?",
+      "Pre-Bridal Package (Full) rate?",
+      "Is Pre-Bridal Package (Full) available?",
+      "Pre-Bridal Package (Full) undo?"
+    ],
+    "answer": "Pre-Bridal Package (Full) — ₹6,000. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_maternity___baby_shower_look",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Maternity / Baby Shower Look?",
+      "Price of Maternity / Baby Shower Look?",
+      "Maternity / Baby Shower Look vila enthu?",
+      "Maternity / Baby Shower Look rate?",
+      "Is Maternity / Baby Shower Look available?",
+      "Maternity / Baby Shower Look undo?"
+    ],
+    "answer": "Maternity / Baby Shower Look — ₹2,500. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_eyebrows_threading",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Eyebrows Threading?",
+      "Price of Eyebrows Threading?",
+      "Eyebrows Threading vila enthu?",
+      "Eyebrows Threading rate?",
+      "Is Eyebrows Threading available?",
+      "Eyebrows Threading undo?"
+    ],
+    "answer": "Eyebrows Threading — ₹50. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_forehead_threading",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Forehead Threading?",
+      "Price of Forehead Threading?",
+      "Forehead Threading vila enthu?",
+      "Forehead Threading rate?",
+      "Is Forehead Threading available?",
+      "Forehead Threading undo?"
+    ],
+    "answer": "Forehead Threading — ₹30. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_upper_lip_threading",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Upper Lip Threading?",
+      "Price of Upper Lip Threading?",
+      "Upper Lip Threading vila enthu?",
+      "Upper Lip Threading rate?",
+      "Is Upper Lip Threading available?",
+      "Upper Lip Threading undo?"
+    ],
+    "answer": "Upper Lip Threading — ₹30. WhatsApp +91 98765 22222 for details."
+  },
+  {
+    "id": "item_party___event_makeup",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Party / Event Makeup?",
+      "Price of Party / Event Makeup?",
+      "Party / Event Makeup vila enthu?",
+      "Party / Event Makeup rate?",
+      "Is Party / Event Makeup available?",
+      "Party / Event Makeup undo?"
+    ],
+    "answer": "Party / Event Makeup — ₹1,500. WhatsApp +91 98765 22222 for details."
+  }
+]

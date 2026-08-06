@@ -1541,6 +1541,13 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
  
 class ChatRequest(BaseModel):
     message: str
+    # Optional stable per-conversation identifier (e.g. visitor_id from
+    # multi-tenant-chatapp-server). Without this, language preference
+    # ("reply in english") is shared across ALL customers of the same shop
+    # at once -- passing a real session id isolates it per-conversation.
+    # Omitting it keeps the old shop-wide behavior, so existing callers
+    # don't break while they're updated to start sending one.
+    session_id: str | None = None
  
     @field_validator("message")
     @classmethod
@@ -1620,7 +1627,7 @@ def chat(
     slug: Optional[str] = Query(None, description="Shop slug for multi-tenant routing"),
 ) -> dict:
     slug = normalize_slug(slug) if slug else None
-    return pipeline(req.message, slug=slug)
+    return pipeline(req.message, slug=slug, session_id=req.session_id)
  
  
 # ══════════════════════════════════════════════════════════════════════════════
@@ -2366,6 +2373,18 @@ async def generate_shop(
                 json.dump(config, f, ensure_ascii=False, indent=2)
  
         faq_path = os.path.join(slug_dir, "shop_faq.json")
+        # FIX: this endpoint used to overwrite shop_faq.json in both branches
+        # below with no backup -- populate_faq_from_pdf.py always does
+        # `shutil.copy(faq_path, faq_path.with_suffix(".json.bak"))` before
+        # writing, but /admin/generate-shop never did, so a re-run of Setup
+        # Bot / regenerate could silently wipe out FAQs (including ones
+        # merged in by the other script) with nothing to recover from.
+        # Mirror the same backup step here, unconditionally, before either
+        # the merge-write or the full-overwrite write.
+        
+        if os.path.exists(faq_path):
+            shutil.copy(faq_path, faq_path + ".bak")
+
         if faqs_only and os.path.exists(faq_path):
             with open(faq_path, "r", encoding="utf-8-sig") as f:
                 existing_faqs = json.load(f)
