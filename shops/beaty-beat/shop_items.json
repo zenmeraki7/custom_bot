@@ -1,0 +1,471 @@
+[
+  {
+    "name": "Haircut - Women (Short)",
+    "category": "Hair Spa",
+    "description": "30 min",
+    "price": 200,
+    "gender": "all"
+  },
+  {
+    "name": "Haircut - Men (Basic)",
+    "category": "Hair Spa",
+    "description": "20 min",
+    "price": 100,
+    "gender": "all"
+  },
+  {
+    "name": "Kids Haircut (Below 10)",
+    "category": "Hair Spa",
+    "description": "20 min",
+    "price": 150,
+    "gender": "all"
+  },
+  {
+    "name": "Hair Wash & Blow Dry",
+    "category": "Hair Spa",
+    "description": "30 min",
+    "price": 250,
+    "gender": "all"
+  },
+  {
+    "name": "Straightening (Iron)",
+    "category": "Hair Spa",
+    "description": "45 min",
+    "price": 300,
+    "gender": "all"
+  },
+  {
+    "name": "Smoothing Treatment",
+    "category": "Hair Spa",
+    "description": "90 min",
+    "price": 1200,
+    "gender": "all"
+  },
+  {
+    "name": "Keratin Treatment - Short",
+    "category": "Hair Spa",
+    "description": "2.5 hrs",
+    "price": 2500,
+    "gender": "all"
+  },
+  {
+    "name": "Keratin Treatment - Medium",
+    "category": "Hair Spa",
+    "description": "3 hrs",
+    "price": 4000,
+    "gender": "all"
+  },
+  {
+    "name": "Keratin Treatment - Long",
+    "category": "Hair Spa",
+    "description": "3.5 hrs",
+    "price": 6000,
+    "gender": "all"
+  },
+  {
+    "name": "Hair Colour - Global (Medium)",
+    "category": "Hair Spa",
+    "description": "2 hrs",
+    "price": 1500,
+    "gender": "all"
+  },
+  {
+    "name": "Highlights (Foil)",
+    "category": "Hair Spa",
+    "description": "2 hrs",
+    "price": 1500,
+    "gender": "all"
+  },
+  {
+    "name": "Balayage / Ombre",
+    "category": "Hair Spa",
+    "description": "2.5 hrs",
+    "price": 3000,
+    "gender": "all"
+  },
+  {
+    "name": "Full Balayage (Long)",
+    "category": "Hair Spa",
+    "description": "3.5 hrs",
+    "price": 4000,
+    "gender": "all"
+  },
+  {
+    "name": "Root Touch-Up",
+    "category": "Hair Spa",
+    "description": "1 hr",
+    "price": 600,
+    "gender": "all"
+  },
+  {
+    "name": "Toning / Glossing",
+    "category": "Hair Spa",
+    "description": "45 min",
+    "price": 500,
+    "gender": "all"
+  },
+  {
+    "name": "Hair Spa - Short",
+    "category": "Hair Spa",
+    "description": "1 hr",
+    "price": 600,
+    "gender": "all"
+  },
+  {
+    "name": "Hair Spa - Long",
+    "category": "Hair Spa",
+    "description": "1.5 hrs",
+    "price": 1000,
+    "gender": "all"
+  },
+  {
+    "name": "Dandruff Treatment",
+    "category": "Hair Spa",
+    "description": "1 hr/session",
+    "price": 800,
+    "gender": "all"
+  },
+  {
+    "name": "Hair Fall Treatment",
+    "category": "Hair Spa",
+    "description": "1 hr",
+    "price": 1200,
+    "gender": "all"
+  },
+  {
+    "name": "Rebonding - Short",
+    "category": "Hair Spa",
+    "description": "3 hrs",
+    "price": 3500,
+    "gender": "all"
+  },
+  {
+    "name": "Rebonding - Long",
+    "category": "Hair Spa",
+    "description": "4.5 hrs",
+    "price": 6500,
+    "gender": "all"
+  },
+  {
+    "name": "Basic Cleanup",
+    "category": "Hair Spa",
+    "description": "45 min",
+    "price": 400,
+    "gender": "all"
+  },
+  {
+    "name": "Basic Facial",
+    "category": "Hair Spa",
+    "description": "60 min",
+    "price": 600,
+    "gender": "all"
+  },
+  {
+    "name": "Gold Facial",
+    "category": "Hair Spa",
+    "description": "75 min",
+    "price": 1200,
+    "gender": "all"
+  },
+  {
+    "name": "Diamond Facial",
+    "category": "Hair Spa",
+    "description": "75 min",
+    "price": 1500,
+    "gender": "all"
+  },
+  {
+    "name": "HydraFacial (Basic)",
+    "category": "Hair Spa",
+    "description": "60 min",
+    "price": 1200,
+    "gender": "all"
+  },
+  {
+    "name": "Anti-Acne Facial",
+    "category": "Hair Spa",
+    "description": "75 min",
+    "price": 1000,
+    "gender": "all"
+  },
+  {
+    "name": "Tan Removal Facial",
+    "category": "Hair Spa",
+    "description": "60 min",
+    "price": 800,
+    "gender": "all"
+  },
+  {
+    "name": "Fruit Facial",
+    "category": "Hair Spa",
+    "description": "60 min",
+    "price": 700,
+    "gender": "all"
+  },
+  {
+    "name": "Bridal Glow Facial",
+    "category": "Hair Spa",
+    "description": "90 min",
+    "price": 1800,
+    "gender": "all"
+  },
+  {
+    "name": "Under-Eye Treatment",
+    "category": "Hair Spa",
+    "description": "30 min",
+    "price": 500,
+    "gender": "all"
+  },
+  {
+    "name": "Lip Lightening",
+    "category": "Hair Spa",
+    "description": "20 min",
+    "price": 300,
+    "gender": "all"
+  },
+  {
+    "name": "Neck & Decollete Facial",
+    "category": "Hair Spa",
+    "description": "30 min",
+    "price": 400,
+    "gender": "all"
+  },
+  {
+    "name": "Precision shaping",
+    "category": "Hair Spa",
+    "price": 50,
+    "gender": "all"
+  },
+  {
+    "name": "Full forehead",
+    "category": "Hair Spa",
+    "price": 30,
+    "gender": "all"
+  },
+  {
+    "name": "Full Face Threading",
+    "category": "Hair Spa",
+    "price": 150,
+    "gender": "all"
+  },
+  {
+    "name": "Upper Lip Wax",
+    "category": "Hair Spa",
+    "price": 60,
+    "gender": "all"
+  },
+  {
+    "name": "Chin Wax",
+    "category": "Hair Spa",
+    "price": 60,
+    "gender": "all"
+  },
+  {
+    "name": "Underarm Wax",
+    "category": "Hair Spa",
+    "price": 150,
+    "gender": "all"
+  },
+  {
+    "name": "Half Arm Wax",
+    "category": "Hair Spa",
+    "price": 200,
+    "gender": "all"
+  },
+  {
+    "name": "Full Arm Wax",
+    "category": "Hair Spa",
+    "price": 350,
+    "gender": "all"
+  },
+  {
+    "name": "Half Leg Wax",
+    "category": "Hair Spa",
+    "price": 250,
+    "gender": "all"
+  },
+  {
+    "name": "Full Leg Wax",
+    "category": "Hair Spa",
+    "price": 450,
+    "gender": "all"
+  },
+  {
+    "name": "Full Body Wax",
+    "category": "Hair Spa",
+    "price": 1200,
+    "gender": "all"
+  },
+  {
+    "name": "Bikini Wax (Basic)",
+    "category": "Hair Spa",
+    "price": 400,
+    "gender": "all"
+  },
+  {
+    "name": "Back / Stomach Wax",
+    "category": "Hair Spa",
+    "price": 300,
+    "gender": "all"
+  },
+  {
+    "name": "Basic Manicure",
+    "category": "Hair Spa",
+    "description": "Soak, file, cuticle care, buff, regular polish",
+    "price": 300,
+    "gender": "all"
+  },
+  {
+    "name": "French Manicure",
+    "category": "Hair Spa",
+    "description": "Classic French tips with base & top coat",
+    "price": 450,
+    "gender": "all"
+  },
+  {
+    "name": "Spa Manicure",
+    "category": "Hair Spa",
+    "description": "Exfoliation + mask + paraffin dip + polish",
+    "price": 600,
+    "gender": "all"
+  },
+  {
+    "name": "Gel Manicure",
+    "category": "Hair Spa",
+    "description": "Gel colour application, long-lasting 2-3 weeks",
+    "price": 700,
+    "gender": "all"
+  },
+  {
+    "name": "Nail Art (Per Hand)",
+    "category": "Hair Spa",
+    "description": "Designs, stamping, decals - 5 nails",
+    "price_min": 200,
+    "price_max": 800,
+    "gender": "all"
+  },
+  {
+    "name": "Nail Extensions (Per Hand)",
+    "category": "Hair Spa",
+    "description": "Acrylic or gel extensions, 10 nails",
+    "price": 1200,
+    "gender": "all"
+  },
+  {
+    "name": "Basic Pedicure",
+    "category": "Hair Spa",
+    "description": "Soak, file, cuticle, callus removal, buff, polish",
+    "price": 400,
+    "gender": "all"
+  },
+  {
+    "name": "Spa Pedicure",
+    "category": "Hair Spa",
+    "description": "Scrub + mask + foot massage + paraffin + polish",
+    "price": 800,
+    "gender": "all"
+  },
+  {
+    "name": "Gel Pedicure",
+    "category": "Hair Spa",
+    "description": "Gel colour on toes, long-lasting",
+    "price": 700,
+    "gender": "all"
+  },
+  {
+    "name": "Fish Pedicure",
+    "category": "Hair Spa",
+    "description": "Doctor fish foot treatment + pedicure",
+    "price": 600,
+    "gender": "all"
+  },
+  {
+    "name": "Nail Removal (Gel/Acrylic)",
+    "category": "Hair Spa",
+    "description": "Safe removal with soak-off",
+    "price": 200,
+    "gender": "all"
+  },
+  {
+    "name": "Bridal Makeup - Basic",
+    "category": "Hair Spa",
+    "description": "HD makeup, hairstyle (open/updo), saree draping,\nbindi/jewellery pinning",
+    "price": 8000,
+    "gender": "all"
+  },
+  {
+    "name": "Bridal Makeup - Standard",
+    "category": "Hair Spa",
+    "description": "Airbrush or HD makeup + hairstyle + saree draping +\npre-bridal 2 sessions",
+    "price": 14000,
+    "gender": "all"
+  },
+  {
+    "name": "Bridal Makeup - Premium",
+    "category": "Hair Spa",
+    "description": "MAC/Huda Beauty full airbrush + bridal updo + false\nlashes + 4 pre-bridal sessions + Mehendi day look",
+    "price": 22000,
+    "gender": "all"
+  },
+  {
+    "name": "Bridal Makeup - Luxury",
+    "category": "Hair Spa",
+    "description": "All premium inclusions + engagement makeup +\nreception makeup + family makeup (2 members)",
+    "price": 35000,
+    "gender": "all"
+  },
+  {
+    "name": "Saree Draping Only",
+    "category": "Hair Spa",
+    "price": 300,
+    "gender": "all"
+  },
+  {
+    "name": "Mehendi Day Makeup",
+    "category": "Hair Spa",
+    "price": 2000,
+    "gender": "all"
+  },
+  {
+    "name": "Groom Makeup (HD)",
+    "category": "Hair Spa",
+    "price": 2500,
+    "gender": "all"
+  },
+  {
+    "name": "Pre-Bridal Package (Full)",
+    "category": "Hair Spa",
+    "price": 6000,
+    "gender": "all"
+  },
+  {
+    "name": "Maternity / Baby Shower Look",
+    "category": "Hair Spa",
+    "price": 2500,
+    "gender": "all"
+  },
+  {
+    "name": "Eyebrows Threading",
+    "price": 50,
+    "category": "Hair Spa",
+    "gender": "all"
+  },
+  {
+    "name": "Forehead Threading",
+    "price": 30,
+    "category": "Hair Spa",
+    "gender": "all"
+  },
+  {
+    "name": "Upper Lip Threading",
+    "price": 30,
+    "category": "Hair Spa",
+    "gender": "all"
+  },
+  {
+    "name": "Party / Event Makeup",
+    "price": 1500,
+    "category": "Hair Spa",
+    "gender": "all"
+  }
+]
