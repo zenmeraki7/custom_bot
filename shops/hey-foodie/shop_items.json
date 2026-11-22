@@ -290,7 +290,7 @@
   },
   {
     "name": "Beef Fry (Erachi Olathiyathu)",
-    "category": "Chicken",
+    "category": "Beef",
     "price": 350,
     "gender": "all"
   },
@@ -329,7 +329,7 @@
   },
   {
     "name": "Dal Makhani",
-    "category": "Rice",
+    "category": "Curries",
     "description": "Slow-cooked black lentils - 24 hr recipe",
     "price": 150,
     "gender": "all"
@@ -385,7 +385,7 @@
   },
   {
     "name": "Gobi Manchurian (Dry)",
-    "category": "Chicken",
+    "category": "Curries",
     "description": "Crispy cauliflower in Indo-Chinese sauce",
     "price": 140,
     "gender": "all"
@@ -453,7 +453,7 @@
   },
   {
     "name": "Fresh Coconut Water",
-    "category": "Rice",
+    "category": "Seafood",
     "price": 60,
     "gender": "all"
   },

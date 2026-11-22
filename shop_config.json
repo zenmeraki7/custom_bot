@@ -1,34 +1,37 @@
 {
-  "bot_name": "Glamour",
-  "shop_name": "Glamour Beauty Studio",
-  "shop_type": "beauty_parlour",
+  "bot_name": "HealthPlus",
+  "shop_name": "HealthPlus Pharmacy",
+  "shop_type": "pharmacy",
   "tagline": "English & Manglish",
   "description": "",
-  "location": "Near KSRTC Bus Stand, MG Road, Thrissur, Kerala - 680001",
-  "city": "Thrissur",
+  "location": "Near Government Hospital, Hospital Road, Kozhikode, Kerala - 673001",
+  "city": "Kozhikode",
   "state": "Kerala",
   "hours": {
-    "weekdays": "Monday - Sunday 9:00 AM - 8:00 PM",
-    "sunday": "Sunday: 9:00 AM - 8:00 PM (No weekly off)",
+    "weekdays": "Monday - Friday 8:00 AM - 9:00 PM",
+    "sunday": "Sunday: 9:00 AM - 6:00 PM",
     "holiday": "Check WhatsApp for holiday hours"
   },
   "contact": {
-    "whatsapp": "+91 98765 22222",
-    "phone": "+91 98765 22222",
-    "email": "glamour@studio.com"
+    "whatsapp": "+91 98765 55555",
+    "phone": "+91 98765 55555",
+    "email": "health@pluspharm.com"
   },
   "payment": [
+    "UPI",
     "GPay",
     "PhonePe",
     "Cash",
     "Cards",
-    "Paytm"
+    "Paytm",
+    "NetBanking",
+    "Cheque"
   ],
   "services": [],
   "delivery": {
-    "areas": "",
-    "free_above": "",
-    "days": ""
+    "areas": "Kozhikode city, Calicut Beach, Palayam, Nadakkavu, Mavoor Road, Feroke, Ramanattukara, Beypore",
+    "free_above": "₹500",
+    "days": "Same day (orders before 6 PM) | Next day for orders after 6"
   },
   "returns": {
     "days": 0,
@@ -36,21 +39,27 @@
     "refund_days": ""
   },
   "first_offer": {
-    "code": "FIRSTGLAM",
-    "description": "20% off on your first facial - applicable once per customer"
+    "code": "HEALTH5",
+    "description": "5%"
   },
   "escalate": {
-    "whatsapp": "+91 98765 22222",
-    "email": "glamour@studio.com"
+    "whatsapp": "+91 98765 55555",
+    "email": "health@pluspharm.com"
   },
   "language": "english_manglish",
   "currency": "INR",
   "shop_gender": "all",
-  "specialisation": "ollama_inferred",
+  "specialisation": null,
   "allowed_categories": [
-    "Hair Spa"
+    "Prescription Medicines",
+    "OTC Medicines",
+    "Vitamins",
+    "Surgical Supplies",
+    "Baby Care",
+    "Personal Care",
+    "Devices"
   ],
-  "item_label": "services",
+  "item_label": "medicines",
   "profile_source": "known",
   "is_veg": false,
   "dietary_mode": null,
@@ -66,6 +75,6 @@
   },
   "quick_chips": [],
   "welcome_cards": [],
-  "item_count": 70,
-  "signature_items": "Bridal Makeup - Luxury, Bridal Makeup - Premium, Bridal Makeup - Standard"
+  "item_count": 41,
+  "signature_items": "Diabetes (Type 2), High Cholesterol, Hypertension"
 }

@@ -1,0 +1,432 @@
+[
+  {
+    "name": "Kerala Fish Curry Meals",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "description": "Fish curry + rice + sambar + rasam + 2 sabzis + papad +\npickle + payasam",
+    "price": 180
+  },
+  {
+    "name": "Veg Meals (Full)",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "description": "Rice + sambar + rasam + 3 veg curries + papad + pickle +\nbuttermilk",
+    "price": 120
+  },
+  {
+    "name": "Special Meals (Non-Veg)",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "description": "Fish curry + chicken curry + rice + all sides + dessert",
+    "price": 220
+  },
+  {
+    "name": "Karimeen Fry (Pearl Spot)",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "description": "Whole pearl spot - Kerala style spicy tawa fry (per piece,\n~250g)",
+    "price": 280
+  },
+  {
+    "name": "Karimeen Pollichathu",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "description": "Pearl spot marinated and cooked in banana leaf -\ntraditional recipe",
+    "price": 350
+  },
+  {
+    "name": "Prawn Fry (Medium)",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "description": "Tiger prawns - Kerala spices, dry fry (6 pieces)",
+    "price": 320
+  },
+  {
+    "name": "Prawn Masala (Curry)",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "description": "Coconut-based spicy Kerala prawn curry (serves 2)",
+    "price": 280
+  },
+  {
+    "name": "Crab Masala",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "price": 520
+  },
+  {
+    "name": "Fish Moilee",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "price": 220
+  },
+  {
+    "name": "Squid Fry (Kana Fry)",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "price": 260
+  },
+  {
+    "name": "Mussels (Kallumakkaya Fry)",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "price": 180
+  },
+  {
+    "name": "Clams (Kakka Fry)",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "price": 160
+  },
+  {
+    "name": "Fish Head Curry",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "price": 220
+  },
+  {
+    "name": "Chemeen Biryani",
+    "category": "KERALA SPECIALS & SEAFOOD",
+    "price": 320
+  },
+  {
+    "name": "Chicken Biryani (Malabar)",
+    "category": "BIRYANIS & RICE DISHES",
+    "price": 220
+  },
+  {
+    "name": "Mutton Biryani (Thalassery)",
+    "category": "BIRYANIS & RICE DISHES",
+    "price": 280
+  },
+  {
+    "name": "Beef Biryani",
+    "category": "BIRYANIS & RICE DISHES",
+    "price": 240
+  },
+  {
+    "name": "Prawn Biryani",
+    "category": "BIRYANIS & RICE DISHES",
+    "price": 320
+  },
+  {
+    "name": "Fish Biryani",
+    "category": "BIRYANIS & RICE DISHES",
+    "price": 260
+  },
+  {
+    "name": "Veg Biryani",
+    "category": "BIRYANIS & RICE DISHES",
+    "price": 180
+  },
+  {
+    "name": "Egg Biryani",
+    "category": "BIRYANIS & RICE DISHES",
+    "price": 190
+  },
+  {
+    "name": "Ghee Rice",
+    "category": "BIRYANIS & RICE DISHES",
+    "price": 150
+  },
+  {
+    "name": "Malabar Pathiri with Curry",
+    "category": "BIRYANIS & RICE DISHES",
+    "price": 80
+  },
+  {
+    "name": "Kappa (Tapioca) & Fish Curry",
+    "category": "BIRYANIS & RICE DISHES",
+    "price": 120
+  },
+  {
+    "name": "Puttu & Kadala Curry",
+    "category": "BIRYANIS & RICE DISHES",
+    "price": 80
+  },
+  {
+    "name": "Fried Rice (Chicken)",
+    "category": "BIRYANIS & RICE DISHES",
+    "price": 220
+  },
+  {
+    "name": "Egg Fried Rice",
+    "category": "BIRYANIS & RICE DISHES",
+    "price": 200
+  },
+  {
+    "name": "Parotta",
+    "category": "BREADS & ACCOMPANIMENTS",
+    "price": 40
+  },
+  {
+    "name": "Kerala Porotta (Wheat)",
+    "category": "BREADS & ACCOMPANIMENTS",
+    "price": 45
+  },
+  {
+    "name": "Appam",
+    "category": "BREADS & ACCOMPANIMENTS",
+    "price": 50
+  },
+  {
+    "name": "Idiyappam",
+    "category": "BREADS & ACCOMPANIMENTS",
+    "price": 60
+  },
+  {
+    "name": "Naan (Tandoor)",
+    "category": "BREADS & ACCOMPANIMENTS",
+    "price": 40
+  },
+  {
+    "name": "Butter Naan",
+    "category": "BREADS & ACCOMPANIMENTS",
+    "price": 50
+  },
+  {
+    "name": "Garlic Naan",
+    "category": "BREADS & ACCOMPANIMENTS",
+    "price": 55
+  },
+  {
+    "name": "Chapathi",
+    "category": "BREADS & ACCOMPANIMENTS",
+    "price": 40
+  },
+  {
+    "name": "Kerala Wheat Parotta",
+    "category": "BREADS & ACCOMPANIMENTS",
+    "price": 45
+  },
+  {
+    "name": "Chicken Curry (Kerala Style)",
+    "category": "CHICKEN & MUTTON",
+    "price": 280
+  },
+  {
+    "name": "Chicken Masala (Dry)",
+    "category": "CHICKEN & MUTTON",
+    "price": 320
+  },
+  {
+    "name": "Chicken Fry (Kerala)",
+    "category": "CHICKEN & MUTTON",
+    "price": 320
+  },
+  {
+    "name": "Chicken 65",
+    "category": "CHICKEN & MUTTON",
+    "price": 160
+  },
+  {
+    "name": "Chicken Tikka (Tandoor)",
+    "category": "CHICKEN & MUTTON",
+    "price": 220
+  },
+  {
+    "name": "Butter Chicken",
+    "category": "CHICKEN & MUTTON",
+    "price": 360
+  },
+  {
+    "name": "Chicken Korma",
+    "category": "CHICKEN & MUTTON",
+    "price": 340
+  },
+  {
+    "name": "Mutton Curry (Kerala)",
+    "category": "CHICKEN & MUTTON",
+    "price": 380
+  },
+  {
+    "name": "Mutton Fry",
+    "category": "CHICKEN & MUTTON",
+    "price": 420
+  },
+  {
+    "name": "Mutton Masala",
+    "category": "CHICKEN & MUTTON",
+    "price": 400
+  },
+  {
+    "name": "Beef Curry",
+    "category": "CHICKEN & MUTTON",
+    "price": 300
+  },
+  {
+    "name": "Beef Fry (Erachi Olathiyathu)",
+    "category": "CHICKEN & MUTTON",
+    "price": 350
+  },
+  {
+    "name": "Egg Roast",
+    "category": "CHICKEN & MUTTON",
+    "price": 120
+  },
+  {
+    "name": "Egg Masala",
+    "category": "CHICKEN & MUTTON",
+    "price": 100
+  },
+  {
+    "name": "Paneer Butter Masala",
+    "category": "VEGETARIAN DISHES",
+    "description": "Creamy tomato gravy with paneer",
+    "price": 180
+  },
+  {
+    "name": "Palak Paneer",
+    "category": "VEGETARIAN DISHES",
+    "description": "Spinach & paneer - north Indian style",
+    "price": 170
+  },
+  {
+    "name": "Paneer Tikka Masala",
+    "category": "VEGETARIAN DISHES",
+    "description": "Grilled paneer in spiced gravy",
+    "price": 190
+  },
+  {
+    "name": "Dal Makhani",
+    "category": "VEGETARIAN DISHES",
+    "description": "Slow-cooked black lentils - 24 hr recipe",
+    "price": 150
+  },
+  {
+    "name": "Dal Tadka",
+    "category": "VEGETARIAN DISHES",
+    "description": "Yellow dal with tempering",
+    "price": 120
+  },
+  {
+    "name": "Mix Veg Curry",
+    "category": "VEGETARIAN DISHES",
+    "description": "Seasonal vegetables in Kerala masala",
+    "price": 130
+  },
+  {
+    "name": "Avial",
+    "category": "VEGETARIAN DISHES",
+    "description": "Traditional Kerala mixed vegetable in coconut & curd",
+    "price": 120
+  },
+  {
+    "name": "Sambar",
+    "category": "VEGETARIAN DISHES",
+    "description": "Toor dal sambar - full pot (serves 4)",
+    "price": 120
+  },
+  {
+    "name": "Vegetable Korma",
+    "category": "VEGETARIAN DISHES",
+    "description": "Mild coconut-based vegetable korma",
+    "price": 140
+  },
+  {
+    "name": "Mushroom Masala",
+    "category": "VEGETARIAN DISHES",
+    "description": "Button mushroom in spicy masala",
+    "price": 160
+  },
+  {
+    "name": "Kadai Paneer",
+    "category": "VEGETARIAN DISHES",
+    "description": "Bell pepper & paneer in kadai gravy",
+    "price": 190
+  },
+  {
+    "name": "Gobi Manchurian (Dry)",
+    "category": "VEGETARIAN DISHES",
+    "description": "Crispy cauliflower in Indo-Chinese sauce",
+    "price": 140
+  },
+  {
+    "name": "Sweet Corn Soup (Veg / Chicken)",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price_min": 90,
+    "price_max": 110
+  },
+  {
+    "name": "Chicken Clear Soup",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 100
+  },
+  {
+    "name": "Prawn Cocktail Soup",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 140
+  },
+  {
+    "name": "Fresh Lime Juice (Sweet / Salt)",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 60
+  },
+  {
+    "name": "Lemon Soda",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 50
+  },
+  {
+    "name": "Masala Chai (Ginger)",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 30
+  },
+  {
+    "name": "Cold Coffee",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 80
+  },
+  {
+    "name": "Banana Milkshake",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 90
+  },
+  {
+    "name": "Mango Lassi",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 90
+  },
+  {
+    "name": "Buttermilk (Moru)",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 40
+  },
+  {
+    "name": "Fresh Coconut Water",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 60
+  },
+  {
+    "name": "Mojito (Virgin)",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 100
+  },
+  {
+    "name": "Mineral Water (500ml)",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 20
+  },
+  {
+    "name": "Soft Drinks (Pepsi / 7UP / Mirinda)",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 40
+  },
+  {
+    "name": "Gulab Jamun (2 pieces)",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 60
+  },
+  {
+    "name": "Payasam (Semiya / Palada)",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 70
+  },
+  {
+    "name": "Ice Cream (Vanilla / Butterscotch)",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 80
+  },
+  {
+    "name": "Halwa (Wheat / Carrot)",
+    "category": "SOUPS, STARTERS & BEVERAGES",
+    "price": 60
+  },
+  {
+    "name": "Puri",
+    "price": 45,
+    "category": "Item Price"
+  },
+  {
+    "name": "Tomato Soup",
+    "price": 80,
+    "category": "PAYMENT & OFFERS"
+  }
+]

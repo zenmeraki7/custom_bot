@@ -114,10 +114,15 @@ class ShopContext:
 
         faq_path = slug_dir / "shop_faq.json"
         if faq_path.exists():
-            self.shop_faqs = self._parse_faqs(_load_json(faq_path), pm)
+            faq_raw = _load_json(faq_path)
+            self.shop_faqs = self._parse_faqs(faq_raw if isinstance(faq_raw, list) else [], pm)
         else:
             root_faq = Path("faqs/shop_faq.json")
-            self.shop_faqs = self._parse_faqs(_load_json(root_faq), pm) if root_faq.exists() else []
+            if root_faq.exists():
+                faq_raw = _load_json(root_faq)
+                self.shop_faqs = self._parse_faqs(faq_raw if isinstance(faq_raw, list) else [], pm)
+            else:
+                self.shop_faqs = []
 
         try:
             shop_type = self.cfg.get("shop_type", "general")
@@ -126,7 +131,7 @@ class ShopContext:
                 type_path = Path("faqs/types/general_faq.json")
             if type_path.exists():
                 type_raw     = _load_json(type_path)
-                parsed_type  = self._parse_faqs(type_raw, pm)
+                parsed_type  = self._parse_faqs(type_raw if isinstance(type_raw, list) else [], pm)
                 existing_ids = {f.get("id", "") for f in self.shop_faqs}
                 unique_type  = [f for f in parsed_type if f.get("id", "") not in existing_ids]
                 self.shop_faqs = unique_type + self.shop_faqs
@@ -136,10 +141,12 @@ class ShopContext:
 
         items_path = slug_dir / "shop_items.json"
         if items_path.exists():
-            self.shop_items = _load_json(items_path) or []
+            items_raw = _load_json(items_path)
+            self.shop_items = items_raw if isinstance(items_raw, list) else []
         else:
             root_items = Path("faqs/shop_items.json")
-            self.shop_items = _load_json(root_items) if root_items.exists() else []
+            items_raw = _load_json(root_items) if root_items.exists() else []
+            self.shop_items = items_raw if isinstance(items_raw, list) else []
 
         self._build_embeddings()
 
@@ -370,13 +377,14 @@ class ShopContext:
             _chat_module.OLLAMA_SYSTEM        = _build_system_prompt(self.cfg)
             _chat_module.OLLAMA_SOCIAL_SYSTEM = _build_social_prompt(self.cfg)
 
-            if hasattr(_chat_module, "_greeting_replies"):
-                _chat_module.GREETING_REPLIES = _chat_module._greeting_replies()
+            greeting_replies = getattr(_chat_module, "_greeting_replies", None)
+            if callable(greeting_replies):
+                setattr(_chat_module, "GREETING_REPLIES", greeting_replies())
 
-            _chat_module.SHOP_GENDER    = self.cfg.get("shop_gender", "all")
-            _chat_module.IS_VEG         = self.cfg.get("is_veg", False)
-            _chat_module.DIETARY_MODE   = self.cfg.get("dietary_mode")
-            _chat_module.SPECIALISATION = self.cfg.get("specialisation")
+            setattr(_chat_module, "SHOP_GENDER", self.cfg.get("shop_gender", "all"))
+            setattr(_chat_module, "IS_VEG", self.cfg.get("is_veg", False))
+            setattr(_chat_module, "DIETARY_MODE", self.cfg.get("dietary_mode"))
+            setattr(_chat_module, "SPECIALISATION", self.cfg.get("specialisation"))
 
             # FIX: FAQS_SHOP must be dict[str, list] — api.py /health and /faqs
             # call .values() on it. Setting to bare list caused AttributeError.

@@ -49,10 +49,15 @@
   "language": "english_manglish",
   "currency": "INR",
   "shop_gender": "all",
-  "specialisation": "complete product & services catalogue+generic medicine savings examples",
+  "specialisation": null,
   "allowed_categories": [
-    "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "GENERIC MEDICINE SAVINGS EXAMPLES"
+    "Prescription Medicines",
+    "OTC Medicines",
+    "Vitamins",
+    "Surgical Supplies",
+    "Baby Care",
+    "Personal Care",
+    "Devices"
   ],
   "item_label": "medicines",
   "profile_source": "known",
@@ -70,6 +75,6 @@
   },
   "quick_chips": [],
   "welcome_cards": [],
-  "item_count": 9,
+  "item_count": 41,
   "signature_items": "Diabetes (Type 2), High Cholesterol, Hypertension"
 }

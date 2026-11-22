@@ -1505,7 +1505,7 @@
   },
   {
     "id": "item_beef_fry__erachi_olathiyathu__avail",
-    "category": "Chicken",
+    "category": "Beef",
     "question_variants": [
       "Beef Fry (Erachi Olathiyathu) indo?",
       "Beef Fry (Erachi Olathiyathu) undo?",
@@ -1522,7 +1522,7 @@
   },
   {
     "id": "item_beef_fry__erachi_olathiyathu__price",
-    "category": "Chicken",
+    "category": "Beef",
     "question_variants": [
       "Beef Fry (Erachi Olathiyathu) price ethra?",
       "Beef Fry (Erachi Olathiyathu) ethranu?",
@@ -1697,7 +1697,7 @@
   },
   {
     "id": "item_dal_makhani_avail",
-    "category": "Rice",
+    "category": "Curries",
     "question_variants": [
       "Dal Makhani indo?",
       "Dal Makhani undo?",
@@ -1714,7 +1714,7 @@
   },
   {
     "id": "item_dal_makhani_price",
-    "category": "Rice",
+    "category": "Curries",
     "question_variants": [
       "Dal Makhani price ethra?",
       "Dal Makhani ethranu?",
@@ -1953,7 +1953,7 @@
   },
   {
     "id": "item_gobi_manchurian__dry__avail",
-    "category": "Chicken",
+    "category": "Curries",
     "question_variants": [
       "Gobi Manchurian (Dry) indo?",
       "Gobi Manchurian (Dry) undo?",
@@ -1970,7 +1970,7 @@
   },
   {
     "id": "item_gobi_manchurian__dry__price",
-    "category": "Chicken",
+    "category": "Curries",
     "question_variants": [
       "Gobi Manchurian (Dry) price ethra?",
       "Gobi Manchurian (Dry) ethranu?",
@@ -2305,7 +2305,7 @@
   },
   {
     "id": "item_fresh_coconut_water_avail",
-    "category": "Rice",
+    "category": "Seafood",
     "question_variants": [
       "Fresh Coconut Water indo?",
       "Fresh Coconut Water undo?",
@@ -2322,7 +2322,7 @@
   },
   {
     "id": "item_fresh_coconut_water_price",
-    "category": "Rice",
+    "category": "Seafood",
     "question_variants": [
       "Fresh Coconut Water price ethra?",
       "Fresh Coconut Water ethranu?",
@@ -2629,7 +2629,7 @@
     "question_variants": [
       "How do I make a table reservation at the restaurant?"
     ],
-    "answer": "You can book a table by WhatsApp +91 98765 44444! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -2643,7 +2643,7 @@
       "Appointment schedule cheyyam?",
       "Book cheyyendath engane?"
     ],
-    "answer": "Yes, you can book a private dining room for up to 20 guests – just let us know! Let me know if you need anything else! 😊",
+    "answer": "Yes, you can order through WhatsApp, Zomato, or Swiggy! Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -2653,11 +2653,11 @@
       "Do you accept walk-in customers without reservation?",
       "Walk-in customers accept cheyyumo?"
     ],
-    "answer": "Yes, we welcome walk-in customers anytime! We have plenty of seating available. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Yes, walk-in accept cheyyum, pakshe busy time-il waiting varam.",
     "q_ml": "Walk-in customers accept cheyyumo?",
-    "a_ml": "Yes, walk-in accept cheyyum, pakshe busy time-il waiting varam."
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 44444 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "restaurant_reservation_confirmation",
@@ -2666,11 +2666,11 @@
       "How will I know my reservation is confirmed?",
       "Reservation confirm aayennu engane ariyam?"
     ],
-    "answer": "You’ll receive a WhatsApp confirmation once your booking is complete! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Booking kazhinjal SMS, WhatsApp, allenkil call vazhi confirmation varum.",
     "q_ml": "Reservation confirm aayennu engane ariyam?",
-    "a_ml": "Booking kazhinjal SMS, WhatsApp, allenkil call vazhi confirmation varum."
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 44444 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "restaurant_booking_time",
@@ -2679,11 +2679,11 @@
       "How early should I book a table?",
       "Table ethra neram munpu book cheyyanam?"
     ],
-    "answer": "We’re open from 11:00 AM every day! For weekend breakfast specials, you can book starting at 8:00 AM on Saturdays and Sundays. Let me know if you need anything else! 😊",
+    "answer": "We have special Kerala breakfast specials available on Saturdays and Sundays from 8:00 AM to 11:00 AM! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Busy days-il kurachu hours or days munpu booking cheyyunnath better aanu.",
     "q_ml": "Table ethra neram munpu book cheyyanam?",
-    "a_ml": "Athe! Njangal Saturday & Sunday 8AM-11AM Kerala breakfast specials offer cheyyaanenu, nangi und! Enthelum help venam? 😊"
+    "a_ml": "Athe! Njangal Saturday & Sunday 8AM-11AM Kerala breakfast specials offer cheyyunnu. WhatsApp cheyyuka, slot confirm cheyyaam! 😊 Enthelum help venam? 😊"
   },
   {
     "id": "restaurant_group_booking",
@@ -2692,17 +2692,17 @@
       "Can I book a table for a large group?",
       "Group table booking available aano?"
     ],
-    "answer": "Yes, we offer catering services for weddings and parties – minimum 50 people! Let me know if you need anything else! 😊",
+    "answer": "Yes, we can arrange catering for weddings and parties – minimum 50 people! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Yes, family and group dining-inu special table booking available aanu.",
     "q_ml": "Group table booking available aano?",
-    "a_ml": "Yes, family and group dining-inu special table booking available aanu."
+    "a_ml": "Athe! Catering-il minimum 50 persons-il sadya order cheyyaam — njangal help cheyyaam! WhatsApp cheyyuka — +91 98765 44444 Enthelum help venam? 😊"
   },
   {
     "id": "cancellation_policy_can_i_cancel_or_modify_my_rese_6",
     "q": "Can I cancel or modify my reservation?",
     "variants": [],
-    "a": "Yes, you can modify or cancel your reservation by WhatsApp! Just send us a message at +91 98765 44444. Let me know if you need anything else! 😊",
+    "a": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "category": "cancellation_policy",
     "section": "cancellation_policy",
     "source": "pdf_rag",
@@ -2715,11 +2715,11 @@
       "What happens if I arrive late for my reservation?",
       "Njan late aayal table cancel aavumo?"
     ],
-    "answer": "Sorry for any inconvenience! Our last order time is 9:30 PM for dine-in and 9:45 PM for delivery. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Korachu time grace period undavum, pakshe adhikam late aayal reservation cancel aayekkam.",
     "q_ml": "Njan late aayal table cancel aavumo?",
-    "a_ml": "Athe! Private dining booking und — njangal confirm cheyyaam! WhatsApp cheyyuka +91 98765 44444. Enthelum help venam? 😊"
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 44444 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "restaurant_time_limit",
@@ -2727,7 +2727,7 @@
     "question_variants": [
       "Is there a time limit for table reservations?"
     ],
-    "answer": "Yes, our private dining room requires advance booking! You can WhatsApp us to reserve your space. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -2736,7 +2736,7 @@
     "question_variants": [
       "Can I request a special table or seating preference?"
     ],
-    "answer": "Yes, we have private dining options available for up to 20 guests with advance booking! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -2754,7 +2754,7 @@
     "question_variants": [
       "Is a deposit required for table reservation?"
     ],
-    "answer": "Yes, we have private dining rooms for up to 20 guests – advance booking is needed! Let me know if you need anything else! 😊",
+    "answer": "Yes, we have private dining rooms for up to 20 guests - advance booking is needed! Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -2772,13 +2772,13 @@
       "Sunday open aano?",
       "Holiday il open aano?"
     ],
-    "a": "We’re usually busiest during our weekend breakfast specials – Saturday and Sunday from 8 AM to 11 AM! Let me know if you need anything else! 😊",
+    "a": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "category": "peak_hours",
     "section": "peak_hours",
     "source": "pdf_rag",
     "lang": "english_manglish",
     "q_ml": "Peak hours evide aanu?",
-    "a_ml": "Njangal Monday-Sunday 11AM-10PM open aanu! Enthelum help venam? 😊"
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 44444 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "restaurant_wait_time",
@@ -2806,7 +2806,7 @@
     "source": "pdf_rag",
     "answer_ml": "Call, WhatsApp, allenkil restaurant counter vazhi support kittum.",
     "q_ml": "Reservation doubts engane contact cheyyam?",
-    "a_ml": "Call, WhatsApp, allenkil restaurant counter vazhi support kittum."
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 44444 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "restaurant_takeaway_delivery_overview",
@@ -2823,11 +2823,11 @@
       "Delivery ethra divasam edukum?",
       "Evide vare delivery und?"
     ],
-    "answer": "Yes, we do! We offer both takeaway and home delivery – WhatsApp us to place your order. Let me know if you need anything else! 😊",
+    "answer": "Yes, we do! We offer both takeaway and home delivery – our delivery hours are 11:00 AM to 9:45 PM daily. Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Yes, takeaway and delivery services available aanu based on restaurant availability.",
     "q_ml": "Takeaway and delivery services available aano?",
-    "a_ml": "Athe! Home delivery cheyyunnu — 150 minimum order value okke und! Enthelum help venam? 😊"
+    "a_ml": "Athe! Home delivery cheyyunnu — 150 minimum order value-nu needa! Enthelum help venam? 😊"
   },
   {
     "id": "restaurant_delivery_availability",
@@ -2835,7 +2835,7 @@
     "question_variants": [
       "Is delivery available in my area?"
     ],
-    "answer": "Yes, we offer home delivery! It’s available throughout Kochi & Ernakulam – Edappally, Kakkanad, Palarivattom, Vyttila, Fort Kochi, Tripunithura, Aluva, Perumbavoor, Kaloor. Let me know if you need anything else! 😊",
+    "answer": "Yes, we offer home delivery! It’s available throughout Kochi and Ernakulam – Edappally, Kakkanad, Palarivattom, Vyttila, Fort Kochi, Tripunithura, Aluva, Perumbavoor, Kaloor. Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -2849,7 +2849,7 @@
     "source": "pdf_rag",
     "answer_ml": "Usually 30 to 60 minutes vare edukum, order and location depend cheyyum.",
     "q_ml": "Delivery ethra neram edukum?",
-    "a_ml": "Athe! Home delivery 30-45 minutes il time ariyaan, peak hours-il 60 minute-ku tharikkulla! Enthelum help venam? 😊"
+    "a_ml": "Delivery time 30-45 minutes aanu, peak hours-il 60 minute-nu tharavunnu! Enthelum help venam? 😊"
   },
   {
     "id": "restaurant_takeaway_option",
@@ -2858,11 +2858,11 @@
       "Can I pick up my order directly from the restaurant?",
       "Takeaway option available aano?"
     ],
-    "answer": "Yes, you can! You can pick up your order directly from our location at Edappally Junction. Let me know if you need anything else! 😊",
+    "answer": "Yes, you can absolutely pick up your order directly from our location at Edappally Junction! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Yes, nee order place cheythu directly restaurant-il ninnu pickup cheyyam.",
     "q_ml": "Takeaway option available aano?",
-    "a_ml": "Athe! Delivery-il takeaway option available aanu — minimum order ₹150 aanu. Enthelum help venam? 😊"
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 44444 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "restaurant_order_methods",
@@ -2892,11 +2892,11 @@
       "Are there any delivery charges?",
       "Delivery charge undo?"
     ],
-    "answer": "Yes, there is a delivery charge below ₹300 – it’s ₹! Let me know if you need anything else! 😊",
+    "answer": "Yes, there is a flat delivery charge of ₹30 for orders below ₹300! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Yes, distance and order amount anusarich delivery charge apply cheyyum.",
     "q_ml": "Delivery charge undo?",
-    "a_ml": "Athe! Delivery charge ₹300-il thala, undenkil free delivery aanu! Enthelum help venam? 😊"
+    "a_ml": "Athe! Delivery charge ₹30 flat aanu, ₹300-than thalaam! Enthelum help venam? 😊"
   },
   {
     "id": "payment_methods_what_payment_methods_are_accep_22",
@@ -2911,7 +2911,7 @@
       "Paytm cheyyaamo?",
       "UPI accept cheyyunnundo?"
     ],
-    "a": "We accept GPay, PhonePe, Cash, Cards, and Paytm for delivery! Let me know if you need anything else! 😊",
+    "a": "We accept GPay, PhonePe, Cash, Cards, and Paytm for delivery orders! Let me know if you need anything else! 😊",
     "category": "payment_methods",
     "section": "payment_methods",
     "source": "pdf_rag",
@@ -2928,7 +2928,7 @@
     "source": "pdf_rag",
     "answer_ml": "Yes, app or WhatsApp tracking available aayirikkum.",
     "q_ml": "Order track cheyyan pattumo?",
-    "a_ml": "Athe! Delivery time 30-45 minutes aanu, peak hours-il 60 minute-um ayikkunnu! Njangal WhatsApp-la order track cheyyuka — +91 98765 44444 Enthelum help venam? 😊"
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 44444 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "restaurant_food_packaging",
@@ -2937,11 +2937,11 @@
       "How is takeaway food packed?",
       "Food packaging safe aano delivery-inu?"
     ],
-    "answer": "We pack our takeaway food in eco-friendly containers! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Yes, hygienic and sealed packaging use cheythu food deliver cheyyum.",
     "q_ml": "Food packaging safe aano delivery-inu?",
-    "a_ml": "Athe! Delivery-il food packingsum super safe aanu! Njangal WhatsApp cheyyuka order cheyyaam! 😊"
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 44444 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "restaurant_late_delivery",
@@ -2949,7 +2949,7 @@
     "question_variants": [
       "What if my delivery is late?"
     ],
-    "answer": "Delivery times are usually 30-45 minutes, but peak hours can take up to an hour! Let me know if you need anything else! 😊",
+    "answer": "Our delivery time is usually 30-45 minutes, but it can take up to an hour during busy times! Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -2965,7 +2965,7 @@
     "id": "cancellation_policy_can_i_cancel_my_takeaway_or_de_27",
     "q": "Can I cancel my takeaway or delivery order?",
     "variants": [],
-    "a": "Yes, you can cancel your order up to 30 minutes before the estimated delivery time! Let me know if you need anything else! 😊",
+    "a": "Yes, you can cancel your order up to 30 minutes before the last order time – 9:45 PM for delivery! Let me know if you need anything else! 😊",
     "category": "cancellation_policy",
     "section": "cancellation_policy",
     "source": "pdf_rag",
@@ -2977,7 +2977,7 @@
     "question_variants": [
       "Do you accept bulk or party orders?"
     ],
-    "answer": "Yes, we do offer catering services for weddings, corporate events, and parties – a minimum of 50 persons! Let me know if you need anything else! 😊",
+    "answer": "Yes, we do offer catering services for weddings, corporate events, and parties! Minimum 50 persons required. Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3009,11 +3009,11 @@
       "What time does the restaurant close?",
       "Restaurant closing time enthaanu?"
     ],
-    "answer": "We’re open until 10:00 PM every day! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Restaurants usually night 9 PM muthal 11 PM vare close aavum, place and business type depend cheyyum.",
     "q_ml": "Restaurant closing time enthaanu?",
-    "a_ml": "Njangal Monday-Sunday 11AM-10PM open aanu! Enthelum help venam? 😊"
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 44444 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "restaurant_lunch_timing",
@@ -3021,7 +3021,7 @@
     "question_variants": [
       "What are your lunch service hours?"
     ],
-    "answer": "We’re open for lunch daily from 11:00 AM to 10:00 PM! Let me know if you need anything else! 😊",
+    "answer": "We’re open from 11:00 AM to 10:00 PM daily! Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3030,7 +3030,7 @@
     "question_variants": [
       "What are your dinner timings?"
     ],
-    "answer": "We’re open until 10:00 PM every day! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3053,11 +3053,11 @@
       "Are you open on public holidays?",
       "Public holidays-il open aano?"
     ],
-    "answer": "Yes, we are open Monday to Sunday from 11 AM to 10 PM! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Most restaurants holidays-il open aavum, pakshe timing vary cheyyam.",
     "q_ml": "Public holidays-il open aano?",
-    "a_ml": "Njangal Monday-Sunday <hours from facts> open aanu! No weekly off! Enthelum help venam? 😊"
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 44444 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "restaurant_festival_hours",
@@ -3066,11 +3066,11 @@
       "Do your timings change during festivals?",
       "Festival days-il restaurant open aano?"
     ],
-    "answer": "Our timings are Monday to Sunday from 11 AM to 10 PM! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Yes, but sometimes special timing or crowd-based delay undavum.",
     "q_ml": "Festival days-il restaurant open aano?",
-    "a_ml": "Njangal Monday-Sunday 11AM-10PM open aanu! Enthelum help venam? 😊"
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 44444 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "restaurant_last_order_time",
@@ -3091,7 +3091,7 @@
     "question_variants": [
       "Can I book a table for specific timing?"
     ],
-    "answer": "Yes, we accept bookings! We’re open Monday to Sunday from 11 AM to 10 PM. Let me know if you need anything else! 😊",
+    "answer": "Yes, we can absolutely help you with a table booking! We’re open Monday to Sunday from 11 AM to 10 PM. Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3101,7 +3101,7 @@
       "When is the restaurant most crowded?",
       "Peak hours evide aanu?"
     ],
-    "answer": "Our weekend breakfasts – Saturday and Sunday from 8AM to 11AM are always very busy! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Lunch and dinner time-il restaurant adhikam busy aayirikkum."
   },
@@ -3121,11 +3121,11 @@
       "Do restaurant timings change sometimes?",
       "Restaurant timing change aavumo?"
     ],
-    "answer": "Our regular hours are Monday to Sunday, 11:00 AM to 10:00 PM! We have special weekend breakfast times too. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Yes, special days, maintenance, or holidays-il timing change aavum.",
     "q_ml": "Restaurant timing change aavumo?",
-    "a_ml": "Njangal Monday-Sunday 11AM-10PM open aanu! No weekly off! Enthelum help venam? 😊"
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 44444 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "restaurant_delivery_hours",
@@ -3134,11 +3134,11 @@
       "Are delivery hours the same as restaurant hours?",
       "Delivery timing eppozha available?"
     ],
-    "answer": "Yes, our home delivery hours are from 11:00 AM to 9:45 PM daily! Let me know if you need anything else! 😊",
+    "answer": "Yes, our home delivery hours are Monday to Sunday from 11:00 AM to 9:45 PM! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Restaurant working hours-il delivery service available aayirikkum.",
     "q_ml": "Delivery timing eppozha available?",
-    "a_ml": "Delivery time 30-45 minutes aanu, peak hours-il 60 minute-um ayikkunnu! Enthelum help venam? 😊"
+    "a_ml": "Delivery time 30-45 minutes aanu, peak hours-il 60 minute-ukku thirikkunnu! Enthelum help venam? 😊"
   },
   {
     "id": "restaurant_takeaway_hours",
@@ -3146,7 +3146,7 @@
     "question_variants": [
       "What are takeaway timings?"
     ],
-    "answer": "We’re open until 10:00 PM every day! Last order is at 9:30 PM for dine-in and 9:45 PM for delivery. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3156,7 +3156,7 @@
       "When is the best time to contact the restaurant?",
       "Restaurant call cheyyan best time ethanu?"
     ],
-    "answer": "We’re open Monday to Sunday from 11am to 10pm! Let me know if you need anything else! 😊",
+    "answer": "We’re open Monday to Sunday from 11:00 AM to 10:00 PM! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Working hours-il call cheyyunnath best aanu, usually morning muthal night vare.",
     "q_ml": "Restaurant call cheyyan best time ethanu?",
@@ -3175,7 +3175,7 @@
       "Full menu paranju tharamo?",
       "Menu ariyaan pattumo?"
     ],
-    "answer": "Yes, we do! We have delicious Chicken Curry and Mix Veg Curry available. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3202,7 +3202,7 @@
     "question_variants": [
       "Do you cook vegetarian and non-vegetarian food separately?"
     ],
-    "answer": "Yes, we offer both Vegetarian dishes like Mix Veg Curry and Non-Veg options such as Chicken & Mutton! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3211,7 +3211,7 @@
     "question_variants": [
       "Can I request a customized vegetarian or non-vegetarian dish?"
     ],
-    "answer": "We can definitely take your order for Chicken Curry, Mutton Curry or our Special Meals! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3220,7 +3220,7 @@
     "question_variants": [
       "Do you offer halal non-vegetarian food?"
     ],
-    "answer": "Yes, we have special meals with fish and chicken curries! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3229,7 +3229,7 @@
     "question_variants": [
       "Do you have vegan food options?"
     ],
-    "answer": "No, we don't currently offer any fully vegan dishes. However, our Mix Veg Curry has seasonal vegetables in Kerala masala! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3238,7 +3238,7 @@
     "question_variants": [
       "How can I identify veg and non-veg items on the menu?"
     ],
-    "answer": "Our Veg Meals are marked with “[KERALA SPECIALS & SEAFOOD]” and our Special Meals are clearly labelled as Non-Veg! Let me know if you need anything else! 😊",
+    "answer": "Our Veg Meals are marked with “[KERALA SPECIALS & SEAFOOD]” and our Special Meals are clearly labeled as Non-Veg! Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3256,7 +3256,7 @@
     "question_variants": [
       "Are veg and non-veg options available all day?"
     ],
-    "answer": "Yes, we’re open from 11 AM to 10 PM daily! We have both vegetarian and seafood options available. Let me know if you need anything else! 😊",
+    "answer": "Yes, we’re open from 11 AM to 10 PM daily! We have both Veg Meals and Kerala Specials & Seafood options available throughout the day. Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3265,7 +3265,7 @@
     "question_variants": [
       "Do you provide catering services?"
     ],
-    "answer": "Yes, we do offer catering for weddings, corporate events, and parties! We can accommodate a minimum of 50 people. Let me know if you need anything else! 😊",
+    "answer": "Yes, we do offer catering services for weddings, corporate events, and parties! We can accommodate a minimum of 50 people. Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3283,7 +3283,7 @@
     "question_variants": [
       "Can I customize the catering menu?"
     ],
-    "answer": "Yes, we can cater for weddings, corporate events, and parties – a minimum of 50 people! Let me know if you need anything else! 😊",
+    "answer": "Yes, we can cater to your specific needs for weddings, corporate events, and parties! Minimum order is 50 persons. Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3301,7 +3301,7 @@
     "question_variants": [
       "Do you offer both vegetarian and non-vegetarian food options?"
     ],
-    "answer": "Yes, we do! We have delicious Kerala style Chicken Curry and Mutton Curry available. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3348,7 +3348,7 @@
     "question_variants": [
       "Do you provide live food counters?"
     ],
-    "answer": "No, we don’t have live food counters at Spice Garden Restaurant! 😊 Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3366,7 +3366,7 @@
     "question_variants": [
       "How do you ensure food hygiene and safety?"
     ],
-    "answer": "We follow strict hygiene practices to ensure all our dishes are prepared safely! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3375,7 +3375,7 @@
     "question_variants": [
       "Can I request a food tasting before booking?"
     ],
-    "answer": "We don’t offer food tastings currently, but you can view our menu on WhatsApp! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3384,7 +3384,7 @@
     "question_variants": [
       "What are the payment terms for catering services?"
     ],
-    "answer": "Our catering is available for weddings, parties, and corporate events – minimum 50 persons! We accept GPay, PhonePe, Cash, Cards, Paytm, and bulk orders get a 10% discount above Rs. 10,000. Let me know if you need anything else! 😊",
+    "answer": "For catering, we accept GPay, PhonePe, Cash, Cards, Paytm and bulk orders get a 10% discount! Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3393,7 +3393,7 @@
     "question_variants": [
       "What is your cancellation policy for catering?"
     ],
-    "answer": "We don’t have a specific cancellation policy, but please let us know as soon as possible if you need to change or cancel your catering order! Let me know if you need anything else! 😊",
+    "answer": "We don’t have a specific cancellation policy, but please let us know as soon as possible if you need to change or cancel your order! Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3402,7 +3402,7 @@
     "question_variants": [
       "What payment methods do you accept at the restaurant?"
     ],
-    "answer": "We accept GPay, PhonePe, Cash, Cards, and Paytm! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3411,7 +3411,7 @@
     "question_variants": [
       "Do you accept UPI payments?"
     ],
-    "answer": "Yes, we do! We accept GPay, PhonePe, Paytm and Cash 😊 Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3420,7 +3420,7 @@
     "question_variants": [
       "Can I pay using debit or credit cards?"
     ],
-    "answer": "Yes, we accept GPay, PhonePe, Cash, Cards, and Paytm! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3429,7 +3429,7 @@
     "question_variants": [
       "Is cash payment accepted?"
     ],
-    "answer": "Yes, we accept cash payments! 😊 Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3447,7 +3447,7 @@
     "question_variants": [
       "Can we split the bill using different payment methods?"
     ],
-    "answer": "Yes, you can pay with GPay, PhonePe, Cash, Cards, Paytm! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3456,7 +3456,7 @@
     "question_variants": [
       "Do you support contactless payments?"
     ],
-    "answer": "Yes, we accept GPay, PhonePe, Cash, Cards, Paytm! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "We accept card and UPI payments — for contactless/tap-to-pay support, please confirm with our staff."
   },
@@ -3466,7 +3466,7 @@
     "question_variants": [
       "Do you accept international cards?"
     ],
-    "answer": "Yes, we do accept all major credit and debit cards including Visa and Mastercard! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "We accept major cards — please confirm international card support on WhatsApp +91 98765 44444 before your visit."
   },
@@ -3476,7 +3476,7 @@
     "question_variants": [
       "Will I get a payment receipt?"
     ],
-    "answer": "Yes, you will receive a payment receipt when you pay with GPay, PhonePe, Cash, Cards, Paytm! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3485,7 +3485,7 @@
     "question_variants": [
       "Is advance payment required for reservations?"
     ],
-    "answer": "Yes, we do require an advance payment for our private dining room – it’s perfect for up to 20 guests! Let me know if you need anything else! 😊",
+    "answer": "Yes, a small deposit is needed to secure your private dining booking! Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3494,7 +3494,7 @@
     "question_variants": [
       "Do you have parking available at the restaurant?"
     ],
-    "answer": "We don’t have on-site parking, but there is ample parking available near Lulu Mall! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "Please contact us on WhatsApp +91 98765 44444 to check current parking availability."
   },
@@ -3504,7 +3504,7 @@
     "question_variants": [
       "What type of parking is available?"
     ],
-    "answer": "We have ample parking space available near Lulu Mall! Let me know if you need anything else! 😊",
+    "answer": "We have ample street parking near Edappally Junction! Let me know if you need anything else! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "Please contact us on WhatsApp +91 98765 44444 to check current parking availability."
   },
@@ -3514,7 +3514,7 @@
     "question_variants": [
       "Is parking free at the restaurant?"
     ],
-    "answer": "We don’t have information about parking availability, sorry! You can WhatsApp us on +91 98765 44444 and we’ll see if we can help. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "Please contact us on WhatsApp +91 98765 44444 to check current parking availability."
   },
@@ -3524,7 +3524,7 @@
     "question_variants": [
       "Do you offer valet parking service?"
     ],
-    "answer": "We don’t currently offer valet parking, but we are located near Lulu Mall for easy drop-off! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "We don't currently list valet parking — please confirm with our staff or WhatsApp +91 98765 44444."
   },
@@ -3534,7 +3534,7 @@
     "question_variants": [
       "Will I always get a parking spot?"
     ],
-    "answer": "Yes, there’s plenty of parking available near Lulu Mall! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "Please contact us on WhatsApp +91 98765 44444 to check current parking availability."
   },
@@ -3544,7 +3544,7 @@
     "question_variants": [
       "Is parking available for large vehicles?"
     ],
-    "answer": "We don’t have dedicated parking for large vehicles, but there is ample street parking near Lulu Mall! Let me know if you need anything else! 😊",
+    "answer": "We don’t have specific information about large vehicle parking, but we are located near Lulu Mall – you might find some nearby! Let me know if you need anything else! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "Please contact us on WhatsApp +91 98765 44444 to check current parking availability."
   },
@@ -3554,7 +3554,7 @@
     "question_variants": [
       "What if the restaurant parking is full?"
     ],
-    "answer": "If the parking is full, you can easily reach us by taxi or auto-rickshaw! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "Please contact us on WhatsApp +91 98765 44444 to check current parking availability."
   },
@@ -3564,7 +3564,7 @@
     "question_variants": [
       "Is there a time limit for parking?"
     ],
-    "answer": "We’re open Monday to Sunday from 11 AM to 10 PM! Let me know if you need anything else! 😊",
+    "answer": "We’re open Monday to Sunday from 11am to 10pm! Let me know if you need anything else! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "Please contact us on WhatsApp +91 98765 44444 to check current parking availability."
   },
@@ -3574,7 +3574,7 @@
     "question_variants": [
       "Is the parking area safe?"
     ],
-    "answer": "Yes, there’s ample parking available near Lulu Mall! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "Please contact us on WhatsApp +91 98765 44444 to check current parking availability."
   },
@@ -3584,7 +3584,7 @@
     "question_variants": [
       "Is two-wheeler parking available?"
     ],
-    "answer": "Yes, we have ample parking space for two-wheelers on the ground floor! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "Please contact us on WhatsApp +91 98765 44444 to check current parking availability."
   },
@@ -3604,7 +3604,7 @@
     "question_variants": [
       "How can I connect to the WiFi?"
     ],
-    "answer": "We don’t have WiFi available at the restaurant. You can reach us on WhatsApp at +91 98765 44444! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "We don't have WiFi details confirmed — please ask our staff on-site."
   },
@@ -3654,7 +3654,7 @@
     "question_variants": [
       "Are there any usage limits for WiFi?"
     ],
-    "answer": "Yes, we have free WiFi available! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "We don't have WiFi details confirmed — please ask our staff on-site."
   },
@@ -3694,7 +3694,7 @@
     "question_variants": [
       "Does WiFi work in all areas of the restaurant?"
     ],
-    "answer": "We don’t have information about WiFi availability. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "We don't have WiFi details confirmed — please ask our staff on-site."
   },
@@ -3734,7 +3734,7 @@
     "question_variants": [
       "Who should I contact for WiFi help?"
     ],
-    "answer": "You can reach us on +91 98765 44444 – that’s our main phone number! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "We don't have WiFi details confirmed — please ask our staff on-site."
   },
@@ -3751,7 +3751,7 @@
       "First order offer undo?",
       "Sale und?"
     ],
-    "answer": "Yes, we currently have a special offer! Use code SPICE10 for 10% off your first online order through WhatsApp, Zomato, or Swiggy. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3769,7 +3769,7 @@
     "question_variants": [
       "Are combo meals available at discounted prices?"
     ],
-    "answer": "Yes, we have special meals with Rice, sambar, rasam and curries available! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3778,7 +3778,7 @@
     "question_variants": [
       "Do you provide festival or special occasion offers?"
     ],
-    "answer": "We do offer a 10% discount on your first online order with code SPICE10! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3787,7 +3787,7 @@
     "question_variants": [
       "Is there any student discount available?"
     ],
-    "answer": "We don’t have a specific student discount currently, but we offer a 10% discount on bulk catering orders over ₹10,000! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "template_corrected_unverified_claim",
     "a": "We don't have a student discount listed currently — please check with us on WhatsApp +91 98765 44444 for any current offers."
   },
@@ -3797,7 +3797,7 @@
     "question_variants": [
       "Do you have a loyalty or rewards program?"
     ],
-    "answer": "Yes, we do! Visit 10 times and get a free full meal for two – it’s on a stamp card at our counter. Let me know if you need anything else! 😊",
+    "answer": "Yes, we do! Visit 10 times and get one free full meal for two – stamp card available at the counter. Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3806,7 +3806,7 @@
     "question_variants": [
       "Can I use coupons or promo codes?"
     ],
-    "answer": "Yes, you can! Use code SPICE10 for 10% off your first online order through WhatsApp, Zomato, or Swiggy. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3815,7 +3815,7 @@
     "question_variants": [
       "Do you offer discounts for bulk or party orders?"
     ],
-    "answer": "Yes, we do! We offer a 10% discount on catering orders above Rs. 10,000. Let me know if you need anything else! 😊",
+    "answer": "Yes, we do! We offer a 10% discount on catering orders above Rs. 10,000 and a minimum order of 50 people. Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3824,7 +3824,7 @@
     "question_variants": [
       "Are online ordering discounts available?"
     ],
-    "answer": "Yes, we have a special offer! Use code SPICE10 for 10% off your first order on WhatsApp, Zomato, or Swiggy. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3833,7 +3833,7 @@
     "question_variants": [
       "Do you have family meal deals?"
     ],
-    "answer": "Yes, we have a Kerala Special Meal for ₹120 that includes fish curry, chicken curry, rice, and all the sides with dessert! Let me know if you need anything else! 😊",
+    "answer": "Yes, we do! Our Family Pack Deal includes Veg Meals x4 and 4 soft drinks for ₹550 – it saves you ₹110! Let me know if you need anything else! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3842,7 +3842,7 @@
     "question_variants": [
       "Do new customers get any special offers?"
     ],
-    "answer": "Yes, new customers can use SPICE10 for 10% off their first online order through WhatsApp, Zomato, or Swiggy! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3851,7 +3851,7 @@
     "question_variants": [
       "Are discounts applicable on all items?"
     ],
-    "answer": "Yes, we offer a 10% discount on first online orders with code SPICE10 via WhatsApp, Zomato, or Swiggy! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3869,7 +3869,7 @@
     "question_variants": [
       "Are there bank or payment app offers available?"
     ],
-    "answer": "Yes, we have a special offer! SPICE10 gives you 10% off your first online order via WhatsApp, Zomato, or Swiggy. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
   },
   {
@@ -3878,8 +3878,2632 @@
     "question_variants": [
       "How long are the offers valid?"
     ],
-    "answer": "Our SPICE10 offer is valid on your first online order through WhatsApp, Zomato, or Swiggy! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 44444 and we'll help you right away! 😊",
     "source": "pdf_rag"
+  },
+  {
+    "id": "item_kerala_fish_curry_meals_avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Kerala Fish Curry Meals indo?",
+      "Kerala Fish Curry Meals undo?",
+      "Kerala Fish Curry Meals kittumo?",
+      "Kerala Fish Curry Meals available aano?",
+      "Kerala Fish Curry Meals und?",
+      "Do you have Kerala Fish Curry Meals?",
+      "Is Kerala Fish Curry Meals available?"
+    ],
+    "answer": "Yes, Kerala Fish Curry Meals is available! Price: ₹180. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Kerala Fish Curry Meals und! Price ₹180. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_kerala_fish_curry_meals_price",
+    "category": "Seafood",
+    "question_variants": [
+      "Kerala Fish Curry Meals price ethra?",
+      "Kerala Fish Curry Meals ethranu?",
+      "Kerala Fish Curry Meals vila ethra?",
+      "How much is Kerala Fish Curry Meals?",
+      "Kerala Fish Curry Meals cost enthu?"
+    ],
+    "answer": "Kerala Fish Curry Meals costs ₹180. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Kerala Fish Curry Meals ₹180 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_veg_meals__full__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Veg Meals (Full) indo?",
+      "Veg Meals (Full) undo?",
+      "Veg Meals (Full) kittumo?",
+      "Veg Meals (Full) available aano?",
+      "Veg Meals (Full) und?",
+      "Do you have Veg Meals (Full)?",
+      "Is Veg Meals (Full) available?"
+    ],
+    "answer": "Yes, Veg Meals (Full) is available! Price: ₹120. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Veg Meals (Full) und! Price ₹120. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_veg_meals__full__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Veg Meals (Full) price ethra?",
+      "Veg Meals (Full) ethranu?",
+      "Veg Meals (Full) vila ethra?",
+      "How much is Veg Meals (Full)?",
+      "Veg Meals (Full) cost enthu?"
+    ],
+    "answer": "Veg Meals (Full) costs ₹120. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Veg Meals (Full) ₹120 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_special_meals__non_veg__avail",
+    "category": "Biryani",
+    "question_variants": [
+      "Special Meals (Non-Veg) indo?",
+      "Special Meals (Non-Veg) undo?",
+      "Special Meals (Non-Veg) kittumo?",
+      "Special Meals (Non-Veg) available aano?",
+      "Special Meals (Non-Veg) und?",
+      "Do you have Special Meals (Non-Veg)?",
+      "Is Special Meals (Non-Veg) available?"
+    ],
+    "answer": "Yes, Special Meals (Non-Veg) is available! Price: ₹220. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Special Meals (Non-Veg) und! Price ₹220. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_special_meals__non_veg__price",
+    "category": "Biryani",
+    "question_variants": [
+      "Special Meals (Non-Veg) price ethra?",
+      "Special Meals (Non-Veg) ethranu?",
+      "Special Meals (Non-Veg) vila ethra?",
+      "How much is Special Meals (Non-Veg)?",
+      "Special Meals (Non-Veg) cost enthu?"
+    ],
+    "answer": "Special Meals (Non-Veg) costs ₹220. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Special Meals (Non-Veg) ₹220 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_karimeen_fry__pearl_spot__avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Karimeen Fry (Pearl Spot) indo?",
+      "Karimeen Fry (Pearl Spot) undo?",
+      "Karimeen Fry (Pearl Spot) kittumo?",
+      "Karimeen Fry (Pearl Spot) available aano?",
+      "Karimeen Fry (Pearl Spot) und?",
+      "Do you have Karimeen Fry (Pearl Spot)?",
+      "Is Karimeen Fry (Pearl Spot) available?"
+    ],
+    "answer": "Yes, Karimeen Fry (Pearl Spot) is available! Price: ₹280. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Karimeen Fry (Pearl Spot) und! Price ₹280. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_karimeen_fry__pearl_spot__price",
+    "category": "Seafood",
+    "question_variants": [
+      "Karimeen Fry (Pearl Spot) price ethra?",
+      "Karimeen Fry (Pearl Spot) ethranu?",
+      "Karimeen Fry (Pearl Spot) vila ethra?",
+      "How much is Karimeen Fry (Pearl Spot)?",
+      "Karimeen Fry (Pearl Spot) cost enthu?"
+    ],
+    "answer": "Karimeen Fry (Pearl Spot) costs ₹280. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Karimeen Fry (Pearl Spot) ₹280 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_karimeen_pollichathu_avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Karimeen Pollichathu indo?",
+      "Karimeen Pollichathu undo?",
+      "Karimeen Pollichathu kittumo?",
+      "Karimeen Pollichathu available aano?",
+      "Karimeen Pollichathu und?",
+      "Do you have Karimeen Pollichathu?",
+      "Is Karimeen Pollichathu available?"
+    ],
+    "answer": "Yes, Karimeen Pollichathu is available! Price: ₹350. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Karimeen Pollichathu und! Price ₹350. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_karimeen_pollichathu_price",
+    "category": "Seafood",
+    "question_variants": [
+      "Karimeen Pollichathu price ethra?",
+      "Karimeen Pollichathu ethranu?",
+      "Karimeen Pollichathu vila ethra?",
+      "How much is Karimeen Pollichathu?",
+      "Karimeen Pollichathu cost enthu?"
+    ],
+    "answer": "Karimeen Pollichathu costs ₹350. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Karimeen Pollichathu ₹350 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_prawn_fry__medium__avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Prawn Fry (Medium) indo?",
+      "Prawn Fry (Medium) undo?",
+      "Prawn Fry (Medium) kittumo?",
+      "Prawn Fry (Medium) available aano?",
+      "Prawn Fry (Medium) und?",
+      "Do you have Prawn Fry (Medium)?",
+      "Is Prawn Fry (Medium) available?"
+    ],
+    "answer": "Yes, Prawn Fry (Medium) is available! Price: ₹320. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Prawn Fry (Medium) und! Price ₹320. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_prawn_fry__medium__price",
+    "category": "Seafood",
+    "question_variants": [
+      "Prawn Fry (Medium) price ethra?",
+      "Prawn Fry (Medium) ethranu?",
+      "Prawn Fry (Medium) vila ethra?",
+      "How much is Prawn Fry (Medium)?",
+      "Prawn Fry (Medium) cost enthu?"
+    ],
+    "answer": "Prawn Fry (Medium) costs ₹320. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Prawn Fry (Medium) ₹320 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_prawn_masala__curry__avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Prawn Masala (Curry) indo?",
+      "Prawn Masala (Curry) undo?",
+      "Prawn Masala (Curry) kittumo?",
+      "Prawn Masala (Curry) available aano?",
+      "Prawn Masala (Curry) und?",
+      "Do you have Prawn Masala (Curry)?",
+      "Is Prawn Masala (Curry) available?"
+    ],
+    "answer": "Yes, Prawn Masala (Curry) is available! Price: ₹280. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Prawn Masala (Curry) und! Price ₹280. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_prawn_masala__curry__price",
+    "category": "Seafood",
+    "question_variants": [
+      "Prawn Masala (Curry) price ethra?",
+      "Prawn Masala (Curry) ethranu?",
+      "Prawn Masala (Curry) vila ethra?",
+      "How much is Prawn Masala (Curry)?",
+      "Prawn Masala (Curry) cost enthu?"
+    ],
+    "answer": "Prawn Masala (Curry) costs ₹280. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Prawn Masala (Curry) ₹280 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_crab_masala_avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Crab Masala indo?",
+      "Crab Masala undo?",
+      "Crab Masala kittumo?",
+      "Crab Masala available aano?",
+      "Crab Masala und?",
+      "Do you have Crab Masala?",
+      "Is Crab Masala available?"
+    ],
+    "answer": "Yes, Crab Masala is available! Price: ₹520. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Crab Masala und! Price ₹520. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_crab_masala_price",
+    "category": "Seafood",
+    "question_variants": [
+      "Crab Masala price ethra?",
+      "Crab Masala ethranu?",
+      "Crab Masala vila ethra?",
+      "How much is Crab Masala?",
+      "Crab Masala cost enthu?"
+    ],
+    "answer": "Crab Masala costs ₹520. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Crab Masala ₹520 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_fish_moilee_avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Fish Moilee indo?",
+      "Fish Moilee undo?",
+      "Fish Moilee kittumo?",
+      "Fish Moilee available aano?",
+      "Fish Moilee und?",
+      "Do you have Fish Moilee?",
+      "Is Fish Moilee available?"
+    ],
+    "answer": "Yes, Fish Moilee is available! Price: ₹220. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Fish Moilee und! Price ₹220. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_fish_moilee_price",
+    "category": "Seafood",
+    "question_variants": [
+      "Fish Moilee price ethra?",
+      "Fish Moilee ethranu?",
+      "Fish Moilee vila ethra?",
+      "How much is Fish Moilee?",
+      "Fish Moilee cost enthu?"
+    ],
+    "answer": "Fish Moilee costs ₹220. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Fish Moilee ₹220 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_squid_fry__kana_fry__avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Squid Fry (Kana Fry) indo?",
+      "Squid Fry (Kana Fry) undo?",
+      "Squid Fry (Kana Fry) kittumo?",
+      "Squid Fry (Kana Fry) available aano?",
+      "Squid Fry (Kana Fry) und?",
+      "Do you have Squid Fry (Kana Fry)?",
+      "Is Squid Fry (Kana Fry) available?"
+    ],
+    "answer": "Yes, Squid Fry (Kana Fry) is available! Price: ₹260. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Squid Fry (Kana Fry) und! Price ₹260. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_squid_fry__kana_fry__price",
+    "category": "Seafood",
+    "question_variants": [
+      "Squid Fry (Kana Fry) price ethra?",
+      "Squid Fry (Kana Fry) ethranu?",
+      "Squid Fry (Kana Fry) vila ethra?",
+      "How much is Squid Fry (Kana Fry)?",
+      "Squid Fry (Kana Fry) cost enthu?"
+    ],
+    "answer": "Squid Fry (Kana Fry) costs ₹260. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Squid Fry (Kana Fry) ₹260 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mussels__kallumakkaya_fry__avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Mussels (Kallumakkaya Fry) indo?",
+      "Mussels (Kallumakkaya Fry) undo?",
+      "Mussels (Kallumakkaya Fry) kittumo?",
+      "Mussels (Kallumakkaya Fry) available aano?",
+      "Mussels (Kallumakkaya Fry) und?",
+      "Do you have Mussels (Kallumakkaya Fry)?",
+      "Is Mussels (Kallumakkaya Fry) available?"
+    ],
+    "answer": "Yes, Mussels (Kallumakkaya Fry) is available! Price: ₹180. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Mussels (Kallumakkaya Fry) und! Price ₹180. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mussels__kallumakkaya_fry__price",
+    "category": "Seafood",
+    "question_variants": [
+      "Mussels (Kallumakkaya Fry) price ethra?",
+      "Mussels (Kallumakkaya Fry) ethranu?",
+      "Mussels (Kallumakkaya Fry) vila ethra?",
+      "How much is Mussels (Kallumakkaya Fry)?",
+      "Mussels (Kallumakkaya Fry) cost enthu?"
+    ],
+    "answer": "Mussels (Kallumakkaya Fry) costs ₹180. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Mussels (Kallumakkaya Fry) ₹180 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_clams__kakka_fry__avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Clams (Kakka Fry) indo?",
+      "Clams (Kakka Fry) undo?",
+      "Clams (Kakka Fry) kittumo?",
+      "Clams (Kakka Fry) available aano?",
+      "Clams (Kakka Fry) und?",
+      "Do you have Clams (Kakka Fry)?",
+      "Is Clams (Kakka Fry) available?"
+    ],
+    "answer": "Yes, Clams (Kakka Fry) is available! Price: ₹160. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Clams (Kakka Fry) und! Price ₹160. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_clams__kakka_fry__price",
+    "category": "Seafood",
+    "question_variants": [
+      "Clams (Kakka Fry) price ethra?",
+      "Clams (Kakka Fry) ethranu?",
+      "Clams (Kakka Fry) vila ethra?",
+      "How much is Clams (Kakka Fry)?",
+      "Clams (Kakka Fry) cost enthu?"
+    ],
+    "answer": "Clams (Kakka Fry) costs ₹160. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Clams (Kakka Fry) ₹160 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_fish_head_curry_avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Fish Head Curry indo?",
+      "Fish Head Curry undo?",
+      "Fish Head Curry kittumo?",
+      "Fish Head Curry available aano?",
+      "Fish Head Curry und?",
+      "Do you have Fish Head Curry?",
+      "Is Fish Head Curry available?"
+    ],
+    "answer": "Yes, Fish Head Curry is available! Price: ₹220. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Fish Head Curry und! Price ₹220. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_fish_head_curry_price",
+    "category": "Seafood",
+    "question_variants": [
+      "Fish Head Curry price ethra?",
+      "Fish Head Curry ethranu?",
+      "Fish Head Curry vila ethra?",
+      "How much is Fish Head Curry?",
+      "Fish Head Curry cost enthu?"
+    ],
+    "answer": "Fish Head Curry costs ₹220. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Fish Head Curry ₹220 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chemeen_biryani_avail",
+    "category": "Biryani",
+    "question_variants": [
+      "Chemeen Biryani indo?",
+      "Chemeen Biryani undo?",
+      "Chemeen Biryani kittumo?",
+      "Chemeen Biryani available aano?",
+      "Chemeen Biryani und?",
+      "Do you have Chemeen Biryani?",
+      "Is Chemeen Biryani available?"
+    ],
+    "answer": "Yes, Chemeen Biryani is available! Price: ₹320. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Chemeen Biryani und! Price ₹320. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chemeen_biryani_price",
+    "category": "Biryani",
+    "question_variants": [
+      "Chemeen Biryani price ethra?",
+      "Chemeen Biryani ethranu?",
+      "Chemeen Biryani vila ethra?",
+      "How much is Chemeen Biryani?",
+      "Chemeen Biryani cost enthu?"
+    ],
+    "answer": "Chemeen Biryani costs ₹320. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Chemeen Biryani ₹320 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_biryani__malabar__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Biryani (Malabar) indo?",
+      "Chicken Biryani (Malabar) undo?",
+      "Chicken Biryani (Malabar) kittumo?",
+      "Chicken Biryani (Malabar) available aano?",
+      "Chicken Biryani (Malabar) und?",
+      "Do you have Chicken Biryani (Malabar)?",
+      "Is Chicken Biryani (Malabar) available?"
+    ],
+    "answer": "Yes, Chicken Biryani (Malabar) is available! Price: ₹220. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Chicken Biryani (Malabar) und! Price ₹220. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_biryani__malabar__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Biryani (Malabar) price ethra?",
+      "Chicken Biryani (Malabar) ethranu?",
+      "Chicken Biryani (Malabar) vila ethra?",
+      "How much is Chicken Biryani (Malabar)?",
+      "Chicken Biryani (Malabar) cost enthu?"
+    ],
+    "answer": "Chicken Biryani (Malabar) costs ₹220. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Chicken Biryani (Malabar) ₹220 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mutton_biryani__thalassery__avail",
+    "category": "Biryani",
+    "question_variants": [
+      "Mutton Biryani (Thalassery) indo?",
+      "Mutton Biryani (Thalassery) undo?",
+      "Mutton Biryani (Thalassery) kittumo?",
+      "Mutton Biryani (Thalassery) available aano?",
+      "Mutton Biryani (Thalassery) und?",
+      "Do you have Mutton Biryani (Thalassery)?",
+      "Is Mutton Biryani (Thalassery) available?"
+    ],
+    "answer": "Yes, Mutton Biryani (Thalassery) is available! Price: ₹280. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Mutton Biryani (Thalassery) und! Price ₹280. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mutton_biryani__thalassery__price",
+    "category": "Biryani",
+    "question_variants": [
+      "Mutton Biryani (Thalassery) price ethra?",
+      "Mutton Biryani (Thalassery) ethranu?",
+      "Mutton Biryani (Thalassery) vila ethra?",
+      "How much is Mutton Biryani (Thalassery)?",
+      "Mutton Biryani (Thalassery) cost enthu?"
+    ],
+    "answer": "Mutton Biryani (Thalassery) costs ₹280. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Mutton Biryani (Thalassery) ₹280 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_beef_biryani_avail",
+    "category": "Beef",
+    "question_variants": [
+      "Beef Biryani indo?",
+      "Beef Biryani undo?",
+      "Beef Biryani kittumo?",
+      "Beef Biryani available aano?",
+      "Beef Biryani und?",
+      "Do you have Beef Biryani?",
+      "Is Beef Biryani available?"
+    ],
+    "answer": "Yes, Beef Biryani is available! Price: ₹240. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Beef Biryani und! Price ₹240. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_beef_biryani_price",
+    "category": "Beef",
+    "question_variants": [
+      "Beef Biryani price ethra?",
+      "Beef Biryani ethranu?",
+      "Beef Biryani vila ethra?",
+      "How much is Beef Biryani?",
+      "Beef Biryani cost enthu?"
+    ],
+    "answer": "Beef Biryani costs ₹240. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Beef Biryani ₹240 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_prawn_biryani_avail",
+    "category": "Biryani",
+    "question_variants": [
+      "Prawn Biryani indo?",
+      "Prawn Biryani undo?",
+      "Prawn Biryani kittumo?",
+      "Prawn Biryani available aano?",
+      "Prawn Biryani und?",
+      "Do you have Prawn Biryani?",
+      "Is Prawn Biryani available?"
+    ],
+    "answer": "Yes, Prawn Biryani is available! Price: ₹320. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Prawn Biryani und! Price ₹320. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_prawn_biryani_price",
+    "category": "Biryani",
+    "question_variants": [
+      "Prawn Biryani price ethra?",
+      "Prawn Biryani ethranu?",
+      "Prawn Biryani vila ethra?",
+      "How much is Prawn Biryani?",
+      "Prawn Biryani cost enthu?"
+    ],
+    "answer": "Prawn Biryani costs ₹320. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Prawn Biryani ₹320 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_fish_biryani_avail",
+    "category": "Biryani",
+    "question_variants": [
+      "Fish Biryani indo?",
+      "Fish Biryani undo?",
+      "Fish Biryani kittumo?",
+      "Fish Biryani available aano?",
+      "Fish Biryani und?",
+      "Do you have Fish Biryani?",
+      "Is Fish Biryani available?"
+    ],
+    "answer": "Yes, Fish Biryani is available! Price: ₹260. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Fish Biryani und! Price ₹260. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_fish_biryani_price",
+    "category": "Biryani",
+    "question_variants": [
+      "Fish Biryani price ethra?",
+      "Fish Biryani ethranu?",
+      "Fish Biryani vila ethra?",
+      "How much is Fish Biryani?",
+      "Fish Biryani cost enthu?"
+    ],
+    "answer": "Fish Biryani costs ₹260. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Fish Biryani ₹260 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_veg_biryani_avail",
+    "category": "Biryani",
+    "question_variants": [
+      "Veg Biryani indo?",
+      "Veg Biryani undo?",
+      "Veg Biryani kittumo?",
+      "Veg Biryani available aano?",
+      "Veg Biryani und?",
+      "Do you have Veg Biryani?",
+      "Is Veg Biryani available?"
+    ],
+    "answer": "Yes, Veg Biryani is available! Price: ₹180. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Veg Biryani und! Price ₹180. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_veg_biryani_price",
+    "category": "Biryani",
+    "question_variants": [
+      "Veg Biryani price ethra?",
+      "Veg Biryani ethranu?",
+      "Veg Biryani vila ethra?",
+      "How much is Veg Biryani?",
+      "Veg Biryani cost enthu?"
+    ],
+    "answer": "Veg Biryani costs ₹180. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Veg Biryani ₹180 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_egg_biryani_avail",
+    "category": "Biryani",
+    "question_variants": [
+      "Egg Biryani indo?",
+      "Egg Biryani undo?",
+      "Egg Biryani kittumo?",
+      "Egg Biryani available aano?",
+      "Egg Biryani und?",
+      "Do you have Egg Biryani?",
+      "Is Egg Biryani available?"
+    ],
+    "answer": "Yes, Egg Biryani is available! Price: ₹190. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Egg Biryani und! Price ₹190. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_egg_biryani_price",
+    "category": "Biryani",
+    "question_variants": [
+      "Egg Biryani price ethra?",
+      "Egg Biryani ethranu?",
+      "Egg Biryani vila ethra?",
+      "How much is Egg Biryani?",
+      "Egg Biryani cost enthu?"
+    ],
+    "answer": "Egg Biryani costs ₹190. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Egg Biryani ₹190 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_ghee_rice_avail",
+    "category": "Biryani",
+    "question_variants": [
+      "Ghee Rice indo?",
+      "Ghee Rice undo?",
+      "Ghee Rice kittumo?",
+      "Ghee Rice available aano?",
+      "Ghee Rice und?",
+      "Do you have Ghee Rice?",
+      "Is Ghee Rice available?"
+    ],
+    "answer": "Yes, Ghee Rice is available! Price: ₹150. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Ghee Rice und! Price ₹150. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_ghee_rice_price",
+    "category": "Biryani",
+    "question_variants": [
+      "Ghee Rice price ethra?",
+      "Ghee Rice ethranu?",
+      "Ghee Rice vila ethra?",
+      "How much is Ghee Rice?",
+      "Ghee Rice cost enthu?"
+    ],
+    "answer": "Ghee Rice costs ₹150. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Ghee Rice ₹150 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_malabar_pathiri_with_curry_avail",
+    "category": "Biryani",
+    "question_variants": [
+      "Malabar Pathiri with Curry indo?",
+      "Malabar Pathiri with Curry undo?",
+      "Malabar Pathiri with Curry kittumo?",
+      "Malabar Pathiri with Curry available aano?",
+      "Malabar Pathiri with Curry und?",
+      "Do you have Malabar Pathiri with Curry?",
+      "Is Malabar Pathiri with Curry available?"
+    ],
+    "answer": "Yes, Malabar Pathiri with Curry is available! Price: ₹80. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Malabar Pathiri with Curry und! Price ₹80. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_malabar_pathiri_with_curry_price",
+    "category": "Biryani",
+    "question_variants": [
+      "Malabar Pathiri with Curry price ethra?",
+      "Malabar Pathiri with Curry ethranu?",
+      "Malabar Pathiri with Curry vila ethra?",
+      "How much is Malabar Pathiri with Curry?",
+      "Malabar Pathiri with Curry cost enthu?"
+    ],
+    "answer": "Malabar Pathiri with Curry costs ₹80. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Malabar Pathiri with Curry ₹80 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_kappa__tapioca____fish_curry_avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Kappa (Tapioca) & Fish Curry indo?",
+      "Kappa (Tapioca) & Fish Curry undo?",
+      "Kappa (Tapioca) & Fish Curry kittumo?",
+      "Kappa (Tapioca) & Fish Curry available aano?",
+      "Kappa (Tapioca) & Fish Curry und?",
+      "Do you have Kappa (Tapioca) & Fish Curry?",
+      "Is Kappa (Tapioca) & Fish Curry available?"
+    ],
+    "answer": "Yes, Kappa (Tapioca) & Fish Curry is available! Price: ₹120. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Kappa (Tapioca) & Fish Curry und! Price ₹120. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_kappa__tapioca____fish_curry_price",
+    "category": "Seafood",
+    "question_variants": [
+      "Kappa (Tapioca) & Fish Curry price ethra?",
+      "Kappa (Tapioca) & Fish Curry ethranu?",
+      "Kappa (Tapioca) & Fish Curry vila ethra?",
+      "How much is Kappa (Tapioca) & Fish Curry?",
+      "Kappa (Tapioca) & Fish Curry cost enthu?"
+    ],
+    "answer": "Kappa (Tapioca) & Fish Curry costs ₹120. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Kappa (Tapioca) & Fish Curry ₹120 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_puttu___kadala_curry_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Puttu & Kadala Curry indo?",
+      "Puttu & Kadala Curry undo?",
+      "Puttu & Kadala Curry kittumo?",
+      "Puttu & Kadala Curry available aano?",
+      "Puttu & Kadala Curry und?",
+      "Do you have Puttu & Kadala Curry?",
+      "Is Puttu & Kadala Curry available?"
+    ],
+    "answer": "Yes, Puttu & Kadala Curry is available! Price: ₹80. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Puttu & Kadala Curry und! Price ₹80. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_puttu___kadala_curry_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Puttu & Kadala Curry price ethra?",
+      "Puttu & Kadala Curry ethranu?",
+      "Puttu & Kadala Curry vila ethra?",
+      "How much is Puttu & Kadala Curry?",
+      "Puttu & Kadala Curry cost enthu?"
+    ],
+    "answer": "Puttu & Kadala Curry costs ₹80. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Puttu & Kadala Curry ₹80 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_fried_rice__chicken__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Fried Rice (Chicken) indo?",
+      "Fried Rice (Chicken) undo?",
+      "Fried Rice (Chicken) kittumo?",
+      "Fried Rice (Chicken) available aano?",
+      "Fried Rice (Chicken) und?",
+      "Do you have Fried Rice (Chicken)?",
+      "Is Fried Rice (Chicken) available?"
+    ],
+    "answer": "Yes, Fried Rice (Chicken) is available! Price: ₹220. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Fried Rice (Chicken) und! Price ₹220. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_fried_rice__chicken__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Fried Rice (Chicken) price ethra?",
+      "Fried Rice (Chicken) ethranu?",
+      "Fried Rice (Chicken) vila ethra?",
+      "How much is Fried Rice (Chicken)?",
+      "Fried Rice (Chicken) cost enthu?"
+    ],
+    "answer": "Fried Rice (Chicken) costs ₹220. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Fried Rice (Chicken) ₹220 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_egg_fried_rice_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Egg Fried Rice indo?",
+      "Egg Fried Rice undo?",
+      "Egg Fried Rice kittumo?",
+      "Egg Fried Rice available aano?",
+      "Egg Fried Rice und?",
+      "Do you have Egg Fried Rice?",
+      "Is Egg Fried Rice available?"
+    ],
+    "answer": "Yes, Egg Fried Rice is available! Price: ₹200. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Egg Fried Rice und! Price ₹200. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_egg_fried_rice_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Egg Fried Rice price ethra?",
+      "Egg Fried Rice ethranu?",
+      "Egg Fried Rice vila ethra?",
+      "How much is Egg Fried Rice?",
+      "Egg Fried Rice cost enthu?"
+    ],
+    "answer": "Egg Fried Rice costs ₹200. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Egg Fried Rice ₹200 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_parotta_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Parotta indo?",
+      "Parotta undo?",
+      "Parotta kittumo?",
+      "Parotta available aano?",
+      "Parotta und?",
+      "Do you have Parotta?",
+      "Is Parotta available?"
+    ],
+    "answer": "Yes, Parotta is available! Price: ₹40. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Parotta und! Price ₹40. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_parotta_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Parotta price ethra?",
+      "Parotta ethranu?",
+      "Parotta vila ethra?",
+      "How much is Parotta?",
+      "Parotta cost enthu?"
+    ],
+    "answer": "Parotta costs ₹40. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Parotta ₹40 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_kerala_porotta__wheat__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Kerala Porotta (Wheat) indo?",
+      "Kerala Porotta (Wheat) undo?",
+      "Kerala Porotta (Wheat) kittumo?",
+      "Kerala Porotta (Wheat) available aano?",
+      "Kerala Porotta (Wheat) und?",
+      "Do you have Kerala Porotta (Wheat)?",
+      "Is Kerala Porotta (Wheat) available?"
+    ],
+    "answer": "Yes, Kerala Porotta (Wheat) is available! Price: ₹45. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Kerala Porotta (Wheat) und! Price ₹45. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_kerala_porotta__wheat__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Kerala Porotta (Wheat) price ethra?",
+      "Kerala Porotta (Wheat) ethranu?",
+      "Kerala Porotta (Wheat) vila ethra?",
+      "How much is Kerala Porotta (Wheat)?",
+      "Kerala Porotta (Wheat) cost enthu?"
+    ],
+    "answer": "Kerala Porotta (Wheat) costs ₹45. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Kerala Porotta (Wheat) ₹45 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_appam_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Appam indo?",
+      "Appam undo?",
+      "Appam kittumo?",
+      "Appam available aano?",
+      "Appam und?",
+      "Do you have Appam?",
+      "Is Appam available?"
+    ],
+    "answer": "Yes, Appam is available! Price: ₹50. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Appam und! Price ₹50. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_appam_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Appam price ethra?",
+      "Appam ethranu?",
+      "Appam vila ethra?",
+      "How much is Appam?",
+      "Appam cost enthu?"
+    ],
+    "answer": "Appam costs ₹50. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Appam ₹50 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_idiyappam_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Idiyappam indo?",
+      "Idiyappam undo?",
+      "Idiyappam kittumo?",
+      "Idiyappam available aano?",
+      "Idiyappam und?",
+      "Do you have Idiyappam?",
+      "Is Idiyappam available?"
+    ],
+    "answer": "Yes, Idiyappam is available! Price: ₹60. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Idiyappam und! Price ₹60. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_idiyappam_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Idiyappam price ethra?",
+      "Idiyappam ethranu?",
+      "Idiyappam vila ethra?",
+      "How much is Idiyappam?",
+      "Idiyappam cost enthu?"
+    ],
+    "answer": "Idiyappam costs ₹60. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Idiyappam ₹60 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_naan__tandoor__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Naan (Tandoor) indo?",
+      "Naan (Tandoor) undo?",
+      "Naan (Tandoor) kittumo?",
+      "Naan (Tandoor) available aano?",
+      "Naan (Tandoor) und?",
+      "Do you have Naan (Tandoor)?",
+      "Is Naan (Tandoor) available?"
+    ],
+    "answer": "Yes, Naan (Tandoor) is available! Price: ₹40. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Naan (Tandoor) und! Price ₹40. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_naan__tandoor__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Naan (Tandoor) price ethra?",
+      "Naan (Tandoor) ethranu?",
+      "Naan (Tandoor) vila ethra?",
+      "How much is Naan (Tandoor)?",
+      "Naan (Tandoor) cost enthu?"
+    ],
+    "answer": "Naan (Tandoor) costs ₹40. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Naan (Tandoor) ₹40 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_butter_naan_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Butter Naan indo?",
+      "Butter Naan undo?",
+      "Butter Naan kittumo?",
+      "Butter Naan available aano?",
+      "Butter Naan und?",
+      "Do you have Butter Naan?",
+      "Is Butter Naan available?"
+    ],
+    "answer": "Yes, Butter Naan is available! Price: ₹50. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Butter Naan und! Price ₹50. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_butter_naan_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Butter Naan price ethra?",
+      "Butter Naan ethranu?",
+      "Butter Naan vila ethra?",
+      "How much is Butter Naan?",
+      "Butter Naan cost enthu?"
+    ],
+    "answer": "Butter Naan costs ₹50. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Butter Naan ₹50 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_garlic_naan_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Garlic Naan indo?",
+      "Garlic Naan undo?",
+      "Garlic Naan kittumo?",
+      "Garlic Naan available aano?",
+      "Garlic Naan und?",
+      "Do you have Garlic Naan?",
+      "Is Garlic Naan available?"
+    ],
+    "answer": "Yes, Garlic Naan is available! Price: ₹55. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Garlic Naan und! Price ₹55. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_garlic_naan_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Garlic Naan price ethra?",
+      "Garlic Naan ethranu?",
+      "Garlic Naan vila ethra?",
+      "How much is Garlic Naan?",
+      "Garlic Naan cost enthu?"
+    ],
+    "answer": "Garlic Naan costs ₹55. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Garlic Naan ₹55 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chapathi_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Chapathi indo?",
+      "Chapathi undo?",
+      "Chapathi kittumo?",
+      "Chapathi available aano?",
+      "Chapathi und?",
+      "Do you have Chapathi?",
+      "Is Chapathi available?"
+    ],
+    "answer": "Yes, Chapathi is available! Price: ₹40. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Chapathi und! Price ₹40. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chapathi_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Chapathi price ethra?",
+      "Chapathi ethranu?",
+      "Chapathi vila ethra?",
+      "How much is Chapathi?",
+      "Chapathi cost enthu?"
+    ],
+    "answer": "Chapathi costs ₹40. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Chapathi ₹40 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_kerala_wheat_parotta_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Kerala Wheat Parotta indo?",
+      "Kerala Wheat Parotta undo?",
+      "Kerala Wheat Parotta kittumo?",
+      "Kerala Wheat Parotta available aano?",
+      "Kerala Wheat Parotta und?",
+      "Do you have Kerala Wheat Parotta?",
+      "Is Kerala Wheat Parotta available?"
+    ],
+    "answer": "Yes, Kerala Wheat Parotta is available! Price: ₹45. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Kerala Wheat Parotta und! Price ₹45. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_kerala_wheat_parotta_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Kerala Wheat Parotta price ethra?",
+      "Kerala Wheat Parotta ethranu?",
+      "Kerala Wheat Parotta vila ethra?",
+      "How much is Kerala Wheat Parotta?",
+      "Kerala Wheat Parotta cost enthu?"
+    ],
+    "answer": "Kerala Wheat Parotta costs ₹45. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Kerala Wheat Parotta ₹45 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_curry__kerala_style__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Curry (Kerala Style) indo?",
+      "Chicken Curry (Kerala Style) undo?",
+      "Chicken Curry (Kerala Style) kittumo?",
+      "Chicken Curry (Kerala Style) available aano?",
+      "Chicken Curry (Kerala Style) und?",
+      "Do you have Chicken Curry (Kerala Style)?",
+      "Is Chicken Curry (Kerala Style) available?"
+    ],
+    "answer": "Yes, Chicken Curry (Kerala Style) is available! Price: ₹280. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Chicken Curry (Kerala Style) und! Price ₹280. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_curry__kerala_style__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Curry (Kerala Style) price ethra?",
+      "Chicken Curry (Kerala Style) ethranu?",
+      "Chicken Curry (Kerala Style) vila ethra?",
+      "How much is Chicken Curry (Kerala Style)?",
+      "Chicken Curry (Kerala Style) cost enthu?"
+    ],
+    "answer": "Chicken Curry (Kerala Style) costs ₹280. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Chicken Curry (Kerala Style) ₹280 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_masala__dry__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Masala (Dry) indo?",
+      "Chicken Masala (Dry) undo?",
+      "Chicken Masala (Dry) kittumo?",
+      "Chicken Masala (Dry) available aano?",
+      "Chicken Masala (Dry) und?",
+      "Do you have Chicken Masala (Dry)?",
+      "Is Chicken Masala (Dry) available?"
+    ],
+    "answer": "Yes, Chicken Masala (Dry) is available! Price: ₹320. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Chicken Masala (Dry) und! Price ₹320. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_masala__dry__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Masala (Dry) price ethra?",
+      "Chicken Masala (Dry) ethranu?",
+      "Chicken Masala (Dry) vila ethra?",
+      "How much is Chicken Masala (Dry)?",
+      "Chicken Masala (Dry) cost enthu?"
+    ],
+    "answer": "Chicken Masala (Dry) costs ₹320. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Chicken Masala (Dry) ₹320 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_fry__kerala__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Fry (Kerala) indo?",
+      "Chicken Fry (Kerala) undo?",
+      "Chicken Fry (Kerala) kittumo?",
+      "Chicken Fry (Kerala) available aano?",
+      "Chicken Fry (Kerala) und?",
+      "Do you have Chicken Fry (Kerala)?",
+      "Is Chicken Fry (Kerala) available?"
+    ],
+    "answer": "Yes, Chicken Fry (Kerala) is available! Price: ₹320. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Chicken Fry (Kerala) und! Price ₹320. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_fry__kerala__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Fry (Kerala) price ethra?",
+      "Chicken Fry (Kerala) ethranu?",
+      "Chicken Fry (Kerala) vila ethra?",
+      "How much is Chicken Fry (Kerala)?",
+      "Chicken Fry (Kerala) cost enthu?"
+    ],
+    "answer": "Chicken Fry (Kerala) costs ₹320. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Chicken Fry (Kerala) ₹320 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_65_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken 65 indo?",
+      "Chicken 65 undo?",
+      "Chicken 65 kittumo?",
+      "Chicken 65 available aano?",
+      "Chicken 65 und?",
+      "Do you have Chicken 65?",
+      "Is Chicken 65 available?"
+    ],
+    "answer": "Yes, Chicken 65 is available! Price: ₹160. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Chicken 65 und! Price ₹160. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_65_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken 65 price ethra?",
+      "Chicken 65 ethranu?",
+      "Chicken 65 vila ethra?",
+      "How much is Chicken 65?",
+      "Chicken 65 cost enthu?"
+    ],
+    "answer": "Chicken 65 costs ₹160. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Chicken 65 ₹160 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_tikka__tandoor__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Tikka (Tandoor) indo?",
+      "Chicken Tikka (Tandoor) undo?",
+      "Chicken Tikka (Tandoor) kittumo?",
+      "Chicken Tikka (Tandoor) available aano?",
+      "Chicken Tikka (Tandoor) und?",
+      "Do you have Chicken Tikka (Tandoor)?",
+      "Is Chicken Tikka (Tandoor) available?"
+    ],
+    "answer": "Yes, Chicken Tikka (Tandoor) is available! Price: ₹220. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Chicken Tikka (Tandoor) und! Price ₹220. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_tikka__tandoor__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Tikka (Tandoor) price ethra?",
+      "Chicken Tikka (Tandoor) ethranu?",
+      "Chicken Tikka (Tandoor) vila ethra?",
+      "How much is Chicken Tikka (Tandoor)?",
+      "Chicken Tikka (Tandoor) cost enthu?"
+    ],
+    "answer": "Chicken Tikka (Tandoor) costs ₹220. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Chicken Tikka (Tandoor) ₹220 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_butter_chicken_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Butter Chicken indo?",
+      "Butter Chicken undo?",
+      "Butter Chicken kittumo?",
+      "Butter Chicken available aano?",
+      "Butter Chicken und?",
+      "Do you have Butter Chicken?",
+      "Is Butter Chicken available?"
+    ],
+    "answer": "Yes, Butter Chicken is available! Price: ₹360. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Butter Chicken und! Price ₹360. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_butter_chicken_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Butter Chicken price ethra?",
+      "Butter Chicken ethranu?",
+      "Butter Chicken vila ethra?",
+      "How much is Butter Chicken?",
+      "Butter Chicken cost enthu?"
+    ],
+    "answer": "Butter Chicken costs ₹360. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Butter Chicken ₹360 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_korma_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Korma indo?",
+      "Chicken Korma undo?",
+      "Chicken Korma kittumo?",
+      "Chicken Korma available aano?",
+      "Chicken Korma und?",
+      "Do you have Chicken Korma?",
+      "Is Chicken Korma available?"
+    ],
+    "answer": "Yes, Chicken Korma is available! Price: ₹340. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Chicken Korma und! Price ₹340. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_korma_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Korma price ethra?",
+      "Chicken Korma ethranu?",
+      "Chicken Korma vila ethra?",
+      "How much is Chicken Korma?",
+      "Chicken Korma cost enthu?"
+    ],
+    "answer": "Chicken Korma costs ₹340. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Chicken Korma ₹340 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mutton_curry__kerala__avail",
+    "category": "Mutton",
+    "question_variants": [
+      "Mutton Curry (Kerala) indo?",
+      "Mutton Curry (Kerala) undo?",
+      "Mutton Curry (Kerala) kittumo?",
+      "Mutton Curry (Kerala) available aano?",
+      "Mutton Curry (Kerala) und?",
+      "Do you have Mutton Curry (Kerala)?",
+      "Is Mutton Curry (Kerala) available?"
+    ],
+    "answer": "Yes, Mutton Curry (Kerala) is available! Price: ₹380. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Mutton Curry (Kerala) und! Price ₹380. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mutton_curry__kerala__price",
+    "category": "Mutton",
+    "question_variants": [
+      "Mutton Curry (Kerala) price ethra?",
+      "Mutton Curry (Kerala) ethranu?",
+      "Mutton Curry (Kerala) vila ethra?",
+      "How much is Mutton Curry (Kerala)?",
+      "Mutton Curry (Kerala) cost enthu?"
+    ],
+    "answer": "Mutton Curry (Kerala) costs ₹380. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Mutton Curry (Kerala) ₹380 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mutton_fry_avail",
+    "category": "Mutton",
+    "question_variants": [
+      "Mutton Fry indo?",
+      "Mutton Fry undo?",
+      "Mutton Fry kittumo?",
+      "Mutton Fry available aano?",
+      "Mutton Fry und?",
+      "Do you have Mutton Fry?",
+      "Is Mutton Fry available?"
+    ],
+    "answer": "Yes, Mutton Fry is available! Price: ₹420. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Mutton Fry und! Price ₹420. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mutton_fry_price",
+    "category": "Mutton",
+    "question_variants": [
+      "Mutton Fry price ethra?",
+      "Mutton Fry ethranu?",
+      "Mutton Fry vila ethra?",
+      "How much is Mutton Fry?",
+      "Mutton Fry cost enthu?"
+    ],
+    "answer": "Mutton Fry costs ₹420. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Mutton Fry ₹420 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mutton_masala_avail",
+    "category": "Mutton",
+    "question_variants": [
+      "Mutton Masala indo?",
+      "Mutton Masala undo?",
+      "Mutton Masala kittumo?",
+      "Mutton Masala available aano?",
+      "Mutton Masala und?",
+      "Do you have Mutton Masala?",
+      "Is Mutton Masala available?"
+    ],
+    "answer": "Yes, Mutton Masala is available! Price: ₹400. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Mutton Masala und! Price ₹400. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mutton_masala_price",
+    "category": "Mutton",
+    "question_variants": [
+      "Mutton Masala price ethra?",
+      "Mutton Masala ethranu?",
+      "Mutton Masala vila ethra?",
+      "How much is Mutton Masala?",
+      "Mutton Masala cost enthu?"
+    ],
+    "answer": "Mutton Masala costs ₹400. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Mutton Masala ₹400 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_beef_curry_avail",
+    "category": "Beef",
+    "question_variants": [
+      "Beef Curry indo?",
+      "Beef Curry undo?",
+      "Beef Curry kittumo?",
+      "Beef Curry available aano?",
+      "Beef Curry und?",
+      "Do you have Beef Curry?",
+      "Is Beef Curry available?"
+    ],
+    "answer": "Yes, Beef Curry is available! Price: ₹300. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Beef Curry und! Price ₹300. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_beef_curry_price",
+    "category": "Beef",
+    "question_variants": [
+      "Beef Curry price ethra?",
+      "Beef Curry ethranu?",
+      "Beef Curry vila ethra?",
+      "How much is Beef Curry?",
+      "Beef Curry cost enthu?"
+    ],
+    "answer": "Beef Curry costs ₹300. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Beef Curry ₹300 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_beef_fry__erachi_olathiyathu__avail",
+    "category": "Beef",
+    "question_variants": [
+      "Beef Fry (Erachi Olathiyathu) indo?",
+      "Beef Fry (Erachi Olathiyathu) undo?",
+      "Beef Fry (Erachi Olathiyathu) kittumo?",
+      "Beef Fry (Erachi Olathiyathu) available aano?",
+      "Beef Fry (Erachi Olathiyathu) und?",
+      "Do you have Beef Fry (Erachi Olathiyathu)?",
+      "Is Beef Fry (Erachi Olathiyathu) available?"
+    ],
+    "answer": "Yes, Beef Fry (Erachi Olathiyathu) is available! Price: ₹350. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Beef Fry (Erachi Olathiyathu) und! Price ₹350. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_beef_fry__erachi_olathiyathu__price",
+    "category": "Beef",
+    "question_variants": [
+      "Beef Fry (Erachi Olathiyathu) price ethra?",
+      "Beef Fry (Erachi Olathiyathu) ethranu?",
+      "Beef Fry (Erachi Olathiyathu) vila ethra?",
+      "How much is Beef Fry (Erachi Olathiyathu)?",
+      "Beef Fry (Erachi Olathiyathu) cost enthu?"
+    ],
+    "answer": "Beef Fry (Erachi Olathiyathu) costs ₹350. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Beef Fry (Erachi Olathiyathu) ₹350 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_egg_roast_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Egg Roast indo?",
+      "Egg Roast undo?",
+      "Egg Roast kittumo?",
+      "Egg Roast available aano?",
+      "Egg Roast und?",
+      "Do you have Egg Roast?",
+      "Is Egg Roast available?"
+    ],
+    "answer": "Yes, Egg Roast is available! Price: ₹120. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Egg Roast und! Price ₹120. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_egg_roast_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Egg Roast price ethra?",
+      "Egg Roast ethranu?",
+      "Egg Roast vila ethra?",
+      "How much is Egg Roast?",
+      "Egg Roast cost enthu?"
+    ],
+    "answer": "Egg Roast costs ₹120. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Egg Roast ₹120 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_egg_masala_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Egg Masala indo?",
+      "Egg Masala undo?",
+      "Egg Masala kittumo?",
+      "Egg Masala available aano?",
+      "Egg Masala und?",
+      "Do you have Egg Masala?",
+      "Is Egg Masala available?"
+    ],
+    "answer": "Yes, Egg Masala is available! Price: ₹100. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Egg Masala und! Price ₹100. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_egg_masala_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Egg Masala price ethra?",
+      "Egg Masala ethranu?",
+      "Egg Masala vila ethra?",
+      "How much is Egg Masala?",
+      "Egg Masala cost enthu?"
+    ],
+    "answer": "Egg Masala costs ₹100. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Egg Masala ₹100 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_paneer_butter_masala_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Paneer Butter Masala indo?",
+      "Paneer Butter Masala undo?",
+      "Paneer Butter Masala kittumo?",
+      "Paneer Butter Masala available aano?",
+      "Paneer Butter Masala und?",
+      "Do you have Paneer Butter Masala?",
+      "Is Paneer Butter Masala available?"
+    ],
+    "answer": "Yes, Paneer Butter Masala is available! Price: ₹180. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Paneer Butter Masala und! Price ₹180. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_paneer_butter_masala_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Paneer Butter Masala price ethra?",
+      "Paneer Butter Masala ethranu?",
+      "Paneer Butter Masala vila ethra?",
+      "How much is Paneer Butter Masala?",
+      "Paneer Butter Masala cost enthu?"
+    ],
+    "answer": "Paneer Butter Masala costs ₹180. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Paneer Butter Masala ₹180 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_palak_paneer_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Palak Paneer indo?",
+      "Palak Paneer undo?",
+      "Palak Paneer kittumo?",
+      "Palak Paneer available aano?",
+      "Palak Paneer und?",
+      "Do you have Palak Paneer?",
+      "Is Palak Paneer available?"
+    ],
+    "answer": "Yes, Palak Paneer is available! Price: ₹170. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Palak Paneer und! Price ₹170. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_palak_paneer_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Palak Paneer price ethra?",
+      "Palak Paneer ethranu?",
+      "Palak Paneer vila ethra?",
+      "How much is Palak Paneer?",
+      "Palak Paneer cost enthu?"
+    ],
+    "answer": "Palak Paneer costs ₹170. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Palak Paneer ₹170 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_paneer_tikka_masala_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Paneer Tikka Masala indo?",
+      "Paneer Tikka Masala undo?",
+      "Paneer Tikka Masala kittumo?",
+      "Paneer Tikka Masala available aano?",
+      "Paneer Tikka Masala und?",
+      "Do you have Paneer Tikka Masala?",
+      "Is Paneer Tikka Masala available?"
+    ],
+    "answer": "Yes, Paneer Tikka Masala is available! Price: ₹190. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Paneer Tikka Masala und! Price ₹190. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_paneer_tikka_masala_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Paneer Tikka Masala price ethra?",
+      "Paneer Tikka Masala ethranu?",
+      "Paneer Tikka Masala vila ethra?",
+      "How much is Paneer Tikka Masala?",
+      "Paneer Tikka Masala cost enthu?"
+    ],
+    "answer": "Paneer Tikka Masala costs ₹190. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Paneer Tikka Masala ₹190 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_dal_makhani_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Dal Makhani indo?",
+      "Dal Makhani undo?",
+      "Dal Makhani kittumo?",
+      "Dal Makhani available aano?",
+      "Dal Makhani und?",
+      "Do you have Dal Makhani?",
+      "Is Dal Makhani available?"
+    ],
+    "answer": "Yes, Dal Makhani is available! Price: ₹150. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Dal Makhani und! Price ₹150. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_dal_makhani_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Dal Makhani price ethra?",
+      "Dal Makhani ethranu?",
+      "Dal Makhani vila ethra?",
+      "How much is Dal Makhani?",
+      "Dal Makhani cost enthu?"
+    ],
+    "answer": "Dal Makhani costs ₹150. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Dal Makhani ₹150 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_dal_tadka_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Dal Tadka indo?",
+      "Dal Tadka undo?",
+      "Dal Tadka kittumo?",
+      "Dal Tadka available aano?",
+      "Dal Tadka und?",
+      "Do you have Dal Tadka?",
+      "Is Dal Tadka available?"
+    ],
+    "answer": "Yes, Dal Tadka is available! Price: ₹120. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Dal Tadka und! Price ₹120. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_dal_tadka_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Dal Tadka price ethra?",
+      "Dal Tadka ethranu?",
+      "Dal Tadka vila ethra?",
+      "How much is Dal Tadka?",
+      "Dal Tadka cost enthu?"
+    ],
+    "answer": "Dal Tadka costs ₹120. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Dal Tadka ₹120 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mix_veg_curry_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Mix Veg Curry indo?",
+      "Mix Veg Curry undo?",
+      "Mix Veg Curry kittumo?",
+      "Mix Veg Curry available aano?",
+      "Mix Veg Curry und?",
+      "Do you have Mix Veg Curry?",
+      "Is Mix Veg Curry available?"
+    ],
+    "answer": "Yes, Mix Veg Curry is available! Price: ₹130. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Mix Veg Curry und! Price ₹130. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mix_veg_curry_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Mix Veg Curry price ethra?",
+      "Mix Veg Curry ethranu?",
+      "Mix Veg Curry vila ethra?",
+      "How much is Mix Veg Curry?",
+      "Mix Veg Curry cost enthu?"
+    ],
+    "answer": "Mix Veg Curry costs ₹130. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Mix Veg Curry ₹130 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_avial_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Avial indo?",
+      "Avial undo?",
+      "Avial kittumo?",
+      "Avial available aano?",
+      "Avial und?",
+      "Do you have Avial?",
+      "Is Avial available?"
+    ],
+    "answer": "Yes, Avial is available! Price: ₹120. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Avial und! Price ₹120. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_avial_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Avial price ethra?",
+      "Avial ethranu?",
+      "Avial vila ethra?",
+      "How much is Avial?",
+      "Avial cost enthu?"
+    ],
+    "answer": "Avial costs ₹120. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Avial ₹120 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_sambar_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Sambar indo?",
+      "Sambar undo?",
+      "Sambar kittumo?",
+      "Sambar available aano?",
+      "Sambar und?",
+      "Do you have Sambar?",
+      "Is Sambar available?"
+    ],
+    "answer": "Yes, Sambar is available! Price: ₹120. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Sambar und! Price ₹120. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_sambar_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Sambar price ethra?",
+      "Sambar ethranu?",
+      "Sambar vila ethra?",
+      "How much is Sambar?",
+      "Sambar cost enthu?"
+    ],
+    "answer": "Sambar costs ₹120. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Sambar ₹120 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_vegetable_korma_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Vegetable Korma indo?",
+      "Vegetable Korma undo?",
+      "Vegetable Korma kittumo?",
+      "Vegetable Korma available aano?",
+      "Vegetable Korma und?",
+      "Do you have Vegetable Korma?",
+      "Is Vegetable Korma available?"
+    ],
+    "answer": "Yes, Vegetable Korma is available! Price: ₹140. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Vegetable Korma und! Price ₹140. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_vegetable_korma_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Vegetable Korma price ethra?",
+      "Vegetable Korma ethranu?",
+      "Vegetable Korma vila ethra?",
+      "How much is Vegetable Korma?",
+      "Vegetable Korma cost enthu?"
+    ],
+    "answer": "Vegetable Korma costs ₹140. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Vegetable Korma ₹140 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mushroom_masala_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Mushroom Masala indo?",
+      "Mushroom Masala undo?",
+      "Mushroom Masala kittumo?",
+      "Mushroom Masala available aano?",
+      "Mushroom Masala und?",
+      "Do you have Mushroom Masala?",
+      "Is Mushroom Masala available?"
+    ],
+    "answer": "Yes, Mushroom Masala is available! Price: ₹160. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Mushroom Masala und! Price ₹160. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mushroom_masala_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Mushroom Masala price ethra?",
+      "Mushroom Masala ethranu?",
+      "Mushroom Masala vila ethra?",
+      "How much is Mushroom Masala?",
+      "Mushroom Masala cost enthu?"
+    ],
+    "answer": "Mushroom Masala costs ₹160. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Mushroom Masala ₹160 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_kadai_paneer_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Kadai Paneer indo?",
+      "Kadai Paneer undo?",
+      "Kadai Paneer kittumo?",
+      "Kadai Paneer available aano?",
+      "Kadai Paneer und?",
+      "Do you have Kadai Paneer?",
+      "Is Kadai Paneer available?"
+    ],
+    "answer": "Yes, Kadai Paneer is available! Price: ₹190. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Kadai Paneer und! Price ₹190. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_kadai_paneer_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Kadai Paneer price ethra?",
+      "Kadai Paneer ethranu?",
+      "Kadai Paneer vila ethra?",
+      "How much is Kadai Paneer?",
+      "Kadai Paneer cost enthu?"
+    ],
+    "answer": "Kadai Paneer costs ₹190. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Kadai Paneer ₹190 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_gobi_manchurian__dry__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Gobi Manchurian (Dry) indo?",
+      "Gobi Manchurian (Dry) undo?",
+      "Gobi Manchurian (Dry) kittumo?",
+      "Gobi Manchurian (Dry) available aano?",
+      "Gobi Manchurian (Dry) und?",
+      "Do you have Gobi Manchurian (Dry)?",
+      "Is Gobi Manchurian (Dry) available?"
+    ],
+    "answer": "Yes, Gobi Manchurian (Dry) is available! Price: ₹140. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Gobi Manchurian (Dry) und! Price ₹140. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_gobi_manchurian__dry__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Gobi Manchurian (Dry) price ethra?",
+      "Gobi Manchurian (Dry) ethranu?",
+      "Gobi Manchurian (Dry) vila ethra?",
+      "How much is Gobi Manchurian (Dry)?",
+      "Gobi Manchurian (Dry) cost enthu?"
+    ],
+    "answer": "Gobi Manchurian (Dry) costs ₹140. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Gobi Manchurian (Dry) ₹140 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_sweet_corn_soup__veg___chicken__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Sweet Corn Soup (Veg / Chicken) indo?",
+      "Sweet Corn Soup (Veg / Chicken) undo?",
+      "Sweet Corn Soup (Veg / Chicken) kittumo?",
+      "Sweet Corn Soup (Veg / Chicken) available aano?",
+      "Sweet Corn Soup (Veg / Chicken) und?",
+      "Do you have Sweet Corn Soup (Veg / Chicken)?",
+      "Is Sweet Corn Soup (Veg / Chicken) available?"
+    ],
+    "answer": "Yes, Sweet Corn Soup (Veg / Chicken) is available! Price: ₹90. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Sweet Corn Soup (Veg / Chicken) und! Price ₹90. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_sweet_corn_soup__veg___chicken__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Sweet Corn Soup (Veg / Chicken) price ethra?",
+      "Sweet Corn Soup (Veg / Chicken) ethranu?",
+      "Sweet Corn Soup (Veg / Chicken) vila ethra?",
+      "How much is Sweet Corn Soup (Veg / Chicken)?",
+      "Sweet Corn Soup (Veg / Chicken) cost enthu?"
+    ],
+    "answer": "Sweet Corn Soup (Veg / Chicken) costs ₹90. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Sweet Corn Soup (Veg / Chicken) ₹90 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_clear_soup_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Clear Soup indo?",
+      "Chicken Clear Soup undo?",
+      "Chicken Clear Soup kittumo?",
+      "Chicken Clear Soup available aano?",
+      "Chicken Clear Soup und?",
+      "Do you have Chicken Clear Soup?",
+      "Is Chicken Clear Soup available?"
+    ],
+    "answer": "Yes, Chicken Clear Soup is available! Price: ₹100. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Chicken Clear Soup und! Price ₹100. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_chicken_clear_soup_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Chicken Clear Soup price ethra?",
+      "Chicken Clear Soup ethranu?",
+      "Chicken Clear Soup vila ethra?",
+      "How much is Chicken Clear Soup?",
+      "Chicken Clear Soup cost enthu?"
+    ],
+    "answer": "Chicken Clear Soup costs ₹100. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Chicken Clear Soup ₹100 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_prawn_cocktail_soup_avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Prawn Cocktail Soup indo?",
+      "Prawn Cocktail Soup undo?",
+      "Prawn Cocktail Soup kittumo?",
+      "Prawn Cocktail Soup available aano?",
+      "Prawn Cocktail Soup und?",
+      "Do you have Prawn Cocktail Soup?",
+      "Is Prawn Cocktail Soup available?"
+    ],
+    "answer": "Yes, Prawn Cocktail Soup is available! Price: ₹140. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Prawn Cocktail Soup und! Price ₹140. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_prawn_cocktail_soup_price",
+    "category": "Seafood",
+    "question_variants": [
+      "Prawn Cocktail Soup price ethra?",
+      "Prawn Cocktail Soup ethranu?",
+      "Prawn Cocktail Soup vila ethra?",
+      "How much is Prawn Cocktail Soup?",
+      "Prawn Cocktail Soup cost enthu?"
+    ],
+    "answer": "Prawn Cocktail Soup costs ₹140. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Prawn Cocktail Soup ₹140 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_fresh_lime_juice__sweet___salt__avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Fresh Lime Juice (Sweet / Salt) indo?",
+      "Fresh Lime Juice (Sweet / Salt) undo?",
+      "Fresh Lime Juice (Sweet / Salt) kittumo?",
+      "Fresh Lime Juice (Sweet / Salt) available aano?",
+      "Fresh Lime Juice (Sweet / Salt) und?",
+      "Do you have Fresh Lime Juice (Sweet / Salt)?",
+      "Is Fresh Lime Juice (Sweet / Salt) available?"
+    ],
+    "answer": "Yes, Fresh Lime Juice (Sweet / Salt) is available! Price: ₹60. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Fresh Lime Juice (Sweet / Salt) und! Price ₹60. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_fresh_lime_juice__sweet___salt__price",
+    "category": "Seafood",
+    "question_variants": [
+      "Fresh Lime Juice (Sweet / Salt) price ethra?",
+      "Fresh Lime Juice (Sweet / Salt) ethranu?",
+      "Fresh Lime Juice (Sweet / Salt) vila ethra?",
+      "How much is Fresh Lime Juice (Sweet / Salt)?",
+      "Fresh Lime Juice (Sweet / Salt) cost enthu?"
+    ],
+    "answer": "Fresh Lime Juice (Sweet / Salt) costs ₹60. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Fresh Lime Juice (Sweet / Salt) ₹60 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_lemon_soda_avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Lemon Soda indo?",
+      "Lemon Soda undo?",
+      "Lemon Soda kittumo?",
+      "Lemon Soda available aano?",
+      "Lemon Soda und?",
+      "Do you have Lemon Soda?",
+      "Is Lemon Soda available?"
+    ],
+    "answer": "Yes, Lemon Soda is available! Price: ₹50. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Lemon Soda und! Price ₹50. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_lemon_soda_price",
+    "category": "Seafood",
+    "question_variants": [
+      "Lemon Soda price ethra?",
+      "Lemon Soda ethranu?",
+      "Lemon Soda vila ethra?",
+      "How much is Lemon Soda?",
+      "Lemon Soda cost enthu?"
+    ],
+    "answer": "Lemon Soda costs ₹50. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Lemon Soda ₹50 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_masala_chai__ginger__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Masala Chai (Ginger) indo?",
+      "Masala Chai (Ginger) undo?",
+      "Masala Chai (Ginger) kittumo?",
+      "Masala Chai (Ginger) available aano?",
+      "Masala Chai (Ginger) und?",
+      "Do you have Masala Chai (Ginger)?",
+      "Is Masala Chai (Ginger) available?"
+    ],
+    "answer": "Yes, Masala Chai (Ginger) is available! Price: ₹30. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Masala Chai (Ginger) und! Price ₹30. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_masala_chai__ginger__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Masala Chai (Ginger) price ethra?",
+      "Masala Chai (Ginger) ethranu?",
+      "Masala Chai (Ginger) vila ethra?",
+      "How much is Masala Chai (Ginger)?",
+      "Masala Chai (Ginger) cost enthu?"
+    ],
+    "answer": "Masala Chai (Ginger) costs ₹30. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Masala Chai (Ginger) ₹30 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_cold_coffee_avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Cold Coffee indo?",
+      "Cold Coffee undo?",
+      "Cold Coffee kittumo?",
+      "Cold Coffee available aano?",
+      "Cold Coffee und?",
+      "Do you have Cold Coffee?",
+      "Is Cold Coffee available?"
+    ],
+    "answer": "Yes, Cold Coffee is available! Price: ₹80. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Cold Coffee und! Price ₹80. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_cold_coffee_price",
+    "category": "Seafood",
+    "question_variants": [
+      "Cold Coffee price ethra?",
+      "Cold Coffee ethranu?",
+      "Cold Coffee vila ethra?",
+      "How much is Cold Coffee?",
+      "Cold Coffee cost enthu?"
+    ],
+    "answer": "Cold Coffee costs ₹80. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Cold Coffee ₹80 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_banana_milkshake_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Banana Milkshake indo?",
+      "Banana Milkshake undo?",
+      "Banana Milkshake kittumo?",
+      "Banana Milkshake available aano?",
+      "Banana Milkshake und?",
+      "Do you have Banana Milkshake?",
+      "Is Banana Milkshake available?"
+    ],
+    "answer": "Yes, Banana Milkshake is available! Price: ₹90. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Banana Milkshake und! Price ₹90. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_banana_milkshake_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Banana Milkshake price ethra?",
+      "Banana Milkshake ethranu?",
+      "Banana Milkshake vila ethra?",
+      "How much is Banana Milkshake?",
+      "Banana Milkshake cost enthu?"
+    ],
+    "answer": "Banana Milkshake costs ₹90. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Banana Milkshake ₹90 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mango_lassi_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Mango Lassi indo?",
+      "Mango Lassi undo?",
+      "Mango Lassi kittumo?",
+      "Mango Lassi available aano?",
+      "Mango Lassi und?",
+      "Do you have Mango Lassi?",
+      "Is Mango Lassi available?"
+    ],
+    "answer": "Yes, Mango Lassi is available! Price: ₹90. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Mango Lassi und! Price ₹90. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mango_lassi_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Mango Lassi price ethra?",
+      "Mango Lassi ethranu?",
+      "Mango Lassi vila ethra?",
+      "How much is Mango Lassi?",
+      "Mango Lassi cost enthu?"
+    ],
+    "answer": "Mango Lassi costs ₹90. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Mango Lassi ₹90 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_buttermilk__moru__avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Buttermilk (Moru) indo?",
+      "Buttermilk (Moru) undo?",
+      "Buttermilk (Moru) kittumo?",
+      "Buttermilk (Moru) available aano?",
+      "Buttermilk (Moru) und?",
+      "Do you have Buttermilk (Moru)?",
+      "Is Buttermilk (Moru) available?"
+    ],
+    "answer": "Yes, Buttermilk (Moru) is available! Price: ₹40. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Buttermilk (Moru) und! Price ₹40. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_buttermilk__moru__price",
+    "category": "Seafood",
+    "question_variants": [
+      "Buttermilk (Moru) price ethra?",
+      "Buttermilk (Moru) ethranu?",
+      "Buttermilk (Moru) vila ethra?",
+      "How much is Buttermilk (Moru)?",
+      "Buttermilk (Moru) cost enthu?"
+    ],
+    "answer": "Buttermilk (Moru) costs ₹40. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Buttermilk (Moru) ₹40 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_fresh_coconut_water_avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Fresh Coconut Water indo?",
+      "Fresh Coconut Water undo?",
+      "Fresh Coconut Water kittumo?",
+      "Fresh Coconut Water available aano?",
+      "Fresh Coconut Water und?",
+      "Do you have Fresh Coconut Water?",
+      "Is Fresh Coconut Water available?"
+    ],
+    "answer": "Yes, Fresh Coconut Water is available! Price: ₹60. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Fresh Coconut Water und! Price ₹60. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_fresh_coconut_water_price",
+    "category": "Seafood",
+    "question_variants": [
+      "Fresh Coconut Water price ethra?",
+      "Fresh Coconut Water ethranu?",
+      "Fresh Coconut Water vila ethra?",
+      "How much is Fresh Coconut Water?",
+      "Fresh Coconut Water cost enthu?"
+    ],
+    "answer": "Fresh Coconut Water costs ₹60. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Fresh Coconut Water ₹60 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mojito__virgin__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Mojito (Virgin) indo?",
+      "Mojito (Virgin) undo?",
+      "Mojito (Virgin) kittumo?",
+      "Mojito (Virgin) available aano?",
+      "Mojito (Virgin) und?",
+      "Do you have Mojito (Virgin)?",
+      "Is Mojito (Virgin) available?"
+    ],
+    "answer": "Yes, Mojito (Virgin) is available! Price: ₹100. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Mojito (Virgin) und! Price ₹100. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mojito__virgin__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Mojito (Virgin) price ethra?",
+      "Mojito (Virgin) ethranu?",
+      "Mojito (Virgin) vila ethra?",
+      "How much is Mojito (Virgin)?",
+      "Mojito (Virgin) cost enthu?"
+    ],
+    "answer": "Mojito (Virgin) costs ₹100. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Mojito (Virgin) ₹100 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mineral_water__500ml__avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Mineral Water (500ml) indo?",
+      "Mineral Water (500ml) undo?",
+      "Mineral Water (500ml) kittumo?",
+      "Mineral Water (500ml) available aano?",
+      "Mineral Water (500ml) und?",
+      "Do you have Mineral Water (500ml)?",
+      "Is Mineral Water (500ml) available?"
+    ],
+    "answer": "Yes, Mineral Water (500ml) is available! Price: ₹20. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Mineral Water (500ml) und! Price ₹20. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_mineral_water__500ml__price",
+    "category": "Seafood",
+    "question_variants": [
+      "Mineral Water (500ml) price ethra?",
+      "Mineral Water (500ml) ethranu?",
+      "Mineral Water (500ml) vila ethra?",
+      "How much is Mineral Water (500ml)?",
+      "Mineral Water (500ml) cost enthu?"
+    ],
+    "answer": "Mineral Water (500ml) costs ₹20. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Mineral Water (500ml) ₹20 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_soft_drinks__pepsi___7up___mirinda__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Soft Drinks (Pepsi / 7UP / Mirinda) indo?",
+      "Soft Drinks (Pepsi / 7UP / Mirinda) undo?",
+      "Soft Drinks (Pepsi / 7UP / Mirinda) kittumo?",
+      "Soft Drinks (Pepsi / 7UP / Mirinda) available aano?",
+      "Soft Drinks (Pepsi / 7UP / Mirinda) und?",
+      "Do you have Soft Drinks (Pepsi / 7UP / Mirinda)?",
+      "Is Soft Drinks (Pepsi / 7UP / Mirinda) available?"
+    ],
+    "answer": "Yes, Soft Drinks (Pepsi / 7UP / Mirinda) is available! Price: ₹40. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Soft Drinks (Pepsi / 7UP / Mirinda) und! Price ₹40. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_soft_drinks__pepsi___7up___mirinda__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Soft Drinks (Pepsi / 7UP / Mirinda) price ethra?",
+      "Soft Drinks (Pepsi / 7UP / Mirinda) ethranu?",
+      "Soft Drinks (Pepsi / 7UP / Mirinda) vila ethra?",
+      "How much is Soft Drinks (Pepsi / 7UP / Mirinda)?",
+      "Soft Drinks (Pepsi / 7UP / Mirinda) cost enthu?"
+    ],
+    "answer": "Soft Drinks (Pepsi / 7UP / Mirinda) costs ₹40. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Soft Drinks (Pepsi / 7UP / Mirinda) ₹40 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_gulab_jamun__2_pieces__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Gulab Jamun (2 pieces) indo?",
+      "Gulab Jamun (2 pieces) undo?",
+      "Gulab Jamun (2 pieces) kittumo?",
+      "Gulab Jamun (2 pieces) available aano?",
+      "Gulab Jamun (2 pieces) und?",
+      "Do you have Gulab Jamun (2 pieces)?",
+      "Is Gulab Jamun (2 pieces) available?"
+    ],
+    "answer": "Yes, Gulab Jamun (2 pieces) is available! Price: ₹60. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Gulab Jamun (2 pieces) und! Price ₹60. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_gulab_jamun__2_pieces__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Gulab Jamun (2 pieces) price ethra?",
+      "Gulab Jamun (2 pieces) ethranu?",
+      "Gulab Jamun (2 pieces) vila ethra?",
+      "How much is Gulab Jamun (2 pieces)?",
+      "Gulab Jamun (2 pieces) cost enthu?"
+    ],
+    "answer": "Gulab Jamun (2 pieces) costs ₹60. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Gulab Jamun (2 pieces) ₹60 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_payasam__semiya___palada__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Payasam (Semiya / Palada) indo?",
+      "Payasam (Semiya / Palada) undo?",
+      "Payasam (Semiya / Palada) kittumo?",
+      "Payasam (Semiya / Palada) available aano?",
+      "Payasam (Semiya / Palada) und?",
+      "Do you have Payasam (Semiya / Palada)?",
+      "Is Payasam (Semiya / Palada) available?"
+    ],
+    "answer": "Yes, Payasam (Semiya / Palada) is available! Price: ₹70. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Payasam (Semiya / Palada) und! Price ₹70. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_payasam__semiya___palada__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Payasam (Semiya / Palada) price ethra?",
+      "Payasam (Semiya / Palada) ethranu?",
+      "Payasam (Semiya / Palada) vila ethra?",
+      "How much is Payasam (Semiya / Palada)?",
+      "Payasam (Semiya / Palada) cost enthu?"
+    ],
+    "answer": "Payasam (Semiya / Palada) costs ₹70. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Payasam (Semiya / Palada) ₹70 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_ice_cream__vanilla___butterscotch__avail",
+    "category": "Seafood",
+    "question_variants": [
+      "Ice Cream (Vanilla / Butterscotch) indo?",
+      "Ice Cream (Vanilla / Butterscotch) undo?",
+      "Ice Cream (Vanilla / Butterscotch) kittumo?",
+      "Ice Cream (Vanilla / Butterscotch) available aano?",
+      "Ice Cream (Vanilla / Butterscotch) und?",
+      "Do you have Ice Cream (Vanilla / Butterscotch)?",
+      "Is Ice Cream (Vanilla / Butterscotch) available?"
+    ],
+    "answer": "Yes, Ice Cream (Vanilla / Butterscotch) is available! Price: ₹80. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Ice Cream (Vanilla / Butterscotch) und! Price ₹80. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_ice_cream__vanilla___butterscotch__price",
+    "category": "Seafood",
+    "question_variants": [
+      "Ice Cream (Vanilla / Butterscotch) price ethra?",
+      "Ice Cream (Vanilla / Butterscotch) ethranu?",
+      "Ice Cream (Vanilla / Butterscotch) vila ethra?",
+      "How much is Ice Cream (Vanilla / Butterscotch)?",
+      "Ice Cream (Vanilla / Butterscotch) cost enthu?"
+    ],
+    "answer": "Ice Cream (Vanilla / Butterscotch) costs ₹80. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Ice Cream (Vanilla / Butterscotch) ₹80 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_halwa__wheat___carrot__avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Halwa (Wheat / Carrot) indo?",
+      "Halwa (Wheat / Carrot) undo?",
+      "Halwa (Wheat / Carrot) kittumo?",
+      "Halwa (Wheat / Carrot) available aano?",
+      "Halwa (Wheat / Carrot) und?",
+      "Do you have Halwa (Wheat / Carrot)?",
+      "Is Halwa (Wheat / Carrot) available?"
+    ],
+    "answer": "Yes, Halwa (Wheat / Carrot) is available! Price: ₹60. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Halwa (Wheat / Carrot) und! Price ₹60. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_halwa__wheat___carrot__price",
+    "category": "Chicken",
+    "question_variants": [
+      "Halwa (Wheat / Carrot) price ethra?",
+      "Halwa (Wheat / Carrot) ethranu?",
+      "Halwa (Wheat / Carrot) vila ethra?",
+      "How much is Halwa (Wheat / Carrot)?",
+      "Halwa (Wheat / Carrot) cost enthu?"
+    ],
+    "answer": "Halwa (Wheat / Carrot) costs ₹60. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Halwa (Wheat / Carrot) ₹60 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_puri_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Puri indo?",
+      "Puri undo?",
+      "Puri kittumo?",
+      "Puri available aano?",
+      "Puri und?",
+      "Do you have Puri?",
+      "Is Puri available?"
+    ],
+    "answer": "Yes, Puri is available! Price: ₹45. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Puri und! Price ₹45. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_puri_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Puri price ethra?",
+      "Puri ethranu?",
+      "Puri vila ethra?",
+      "How much is Puri?",
+      "Puri cost enthu?"
+    ],
+    "answer": "Puri costs ₹45. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Puri ₹45 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_tomato_soup_avail",
+    "category": "Chicken",
+    "question_variants": [
+      "Tomato Soup indo?",
+      "Tomato Soup undo?",
+      "Tomato Soup kittumo?",
+      "Tomato Soup available aano?",
+      "Tomato Soup und?",
+      "Do you have Tomato Soup?",
+      "Is Tomato Soup available?"
+    ],
+    "answer": "Yes, Tomato Soup is available! Price: ₹80. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Tomato Soup und! Price ₹80. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_tomato_soup_price",
+    "category": "Chicken",
+    "question_variants": [
+      "Tomato Soup price ethra?",
+      "Tomato Soup ethranu?",
+      "Tomato Soup vila ethra?",
+      "How much is Tomato Soup?",
+      "Tomato Soup cost enthu?"
+    ],
+    "answer": "Tomato Soup costs ₹80. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Tomato Soup ₹80 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
   },
   {
     "id": "core_contact",

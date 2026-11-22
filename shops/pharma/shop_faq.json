@@ -1,7 +1,397 @@
 [
   {
+    "id": "item_prescription_medicines_avail",
+    "category": "Prescription Medicines",
+    "question_variants": [
+      "Prescription Medicines indo?",
+      "Prescription Medicines undo?",
+      "Prescription Medicines kittumo?",
+      "Prescription Medicines available aano?",
+      "Prescription Medicines und?",
+      "Do you have Prescription Medicines?",
+      "Is Prescription Medicines available?"
+    ],
+    "answer": "Yes, All major brands - Sun Pharma, Cipla, Dr. Reddys, Lupin,\nAbbott, Mankind, Alkem, Zydus, Torrent, Intas is available! For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, All major brands - Sun Pharma, Cipla, Dr. Reddys, Lupin,\nAbbott, Mankind, Alkem, Zydus, Torrent, Intas und! Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_otc_medicines_avail",
+    "category": "OTC Medicines",
+    "question_variants": [
+      "OTC Medicines indo?",
+      "OTC Medicines undo?",
+      "OTC Medicines kittumo?",
+      "OTC Medicines available aano?",
+      "OTC Medicines und?",
+      "Do you have OTC Medicines?",
+      "Is OTC Medicines available?"
+    ],
+    "answer": "Yes, Jan Aushadhi, Rajasthan Drugs, Alkem Generics, Cipla\nGeneric, Mankind Generics - up to 80% cheaper is available! For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Jan Aushadhi, Rajasthan Drugs, Alkem Generics, Cipla\nGeneric, Mankind Generics - up to 80% cheaper und! Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_vitamins_avail",
+    "category": "Vitamins",
+    "question_variants": [
+      "Vitamins indo?",
+      "Vitamins undo?",
+      "Vitamins kittumo?",
+      "Vitamins available aano?",
+      "Vitamins und?",
+      "Do you have Vitamins?",
+      "Is Vitamins available?"
+    ],
+    "answer": "Yes, Vitamin C, D, B12, Zinc, Calcium, Multivitamins - Revital,\nSupradyn, Becosules, Shelcal is available! Price: ₹50. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Vitamin C, D, B12, Zinc, Calcium, Multivitamins - Revital,\nSupradyn, Becosules, Shelcal und! Price ₹50. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_vitamins_price",
+    "category": "Vitamins",
+    "question_variants": [
+      "Vitamins price ethra?",
+      "Vitamins ethranu?",
+      "Vitamins vila ethra?",
+      "How much is Vitamins?",
+      "Vitamins cost enthu?"
+    ],
+    "answer": "Vitamin C, D, B12, Zinc, Calcium, Multivitamins - Revital,\nSupradyn, Becosules, Shelcal costs ₹50. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Vitamin C, D, B12, Zinc, Calcium, Multivitamins - Revital,\nSupradyn, Becosules, Shelcal ₹50 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_baby_care_avail",
+    "category": "Baby Care",
+    "question_variants": [
+      "Baby Care indo?",
+      "Baby Care undo?",
+      "Baby Care kittumo?",
+      "Baby Care available aano?",
+      "Baby Care und?",
+      "Do you have Baby Care?",
+      "Is Baby Care available?"
+    ],
+    "answer": "Yes, Pampers, Huggies, MamyPoko Diapers - all sizes;\nJohnson & Johnson Baby Care range is available! For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Pampers, Huggies, MamyPoko Diapers - all sizes;\nJohnson & Johnson Baby Care range und! Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_personal_care_avail",
+    "category": "Personal Care",
+    "question_variants": [
+      "Personal Care indo?",
+      "Personal Care undo?",
+      "Personal Care kittumo?",
+      "Personal Care available aano?",
+      "Personal Care und?",
+      "Do you have Personal Care?",
+      "Is Personal Care available?"
+    ],
+    "answer": "Yes, CeraVe, Cetaphil, Lotus, VLCC, Himalaya, Bioderma,\nSebamed, Avene is available! Price: ₹100. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, CeraVe, Cetaphil, Lotus, VLCC, Himalaya, Bioderma,\nSebamed, Avene und! Price ₹100. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_personal_care_price",
+    "category": "Personal Care",
+    "question_variants": [
+      "Personal Care price ethra?",
+      "Personal Care ethranu?",
+      "Personal Care vila ethra?",
+      "How much is Personal Care?",
+      "Personal Care cost enthu?"
+    ],
+    "answer": "CeraVe, Cetaphil, Lotus, VLCC, Himalaya, Bioderma,\nSebamed, Avene costs ₹100. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "CeraVe, Cetaphil, Lotus, VLCC, Himalaya, Bioderma,\nSebamed, Avene ₹100 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_surgical_supplies_avail",
+    "category": "Surgical Supplies",
+    "question_variants": [
+      "Surgical Supplies indo?",
+      "Surgical Supplies undo?",
+      "Surgical Supplies kittumo?",
+      "Surgical Supplies available aano?",
+      "Surgical Supplies und?",
+      "Do you have Surgical Supplies?",
+      "Is Surgical Supplies available?"
+    ],
+    "answer": "Yes, Crepe bandage, gauze, cotton, syringes, gloves,\nthermometers, nebuliser masks is available! Price: ₹15. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Crepe bandage, gauze, cotton, syringes, gloves,\nthermometers, nebuliser masks und! Price ₹15. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_surgical_supplies_price",
+    "category": "Surgical Supplies",
+    "question_variants": [
+      "Surgical Supplies price ethra?",
+      "Surgical Supplies ethranu?",
+      "Surgical Supplies vila ethra?",
+      "How much is Surgical Supplies?",
+      "Surgical Supplies cost enthu?"
+    ],
+    "answer": "Crepe bandage, gauze, cotton, syringes, gloves,\nthermometers, nebuliser masks costs ₹15. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Crepe bandage, gauze, cotton, syringes, gloves,\nthermometers, nebuliser masks ₹15 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_devices_avail",
+    "category": "Devices",
+    "question_variants": [
+      "Devices indo?",
+      "Devices undo?",
+      "Devices kittumo?",
+      "Devices available aano?",
+      "Devices und?",
+      "Do you have Devices?",
+      "Is Devices available?"
+    ],
+    "answer": "Yes, BP monitors (Omron, Rossmax), Glucose meters\n(Accu-Chek, OneTouch, SD Codefree) is available! Price: ₹800. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, BP monitors (Omron, Rossmax), Glucose meters\n(Accu-Chek, OneTouch, SD Codefree) und! Price ₹800. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_devices_price",
+    "category": "Devices",
+    "question_variants": [
+      "Devices price ethra?",
+      "Devices ethranu?",
+      "Devices vila ethra?",
+      "How much is Devices?",
+      "Devices cost enthu?"
+    ],
+    "answer": "BP monitors (Omron, Rossmax), Glucose meters\n(Accu-Chek, OneTouch, SD Codefree) costs ₹800. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "BP monitors (Omron, Rossmax), Glucose meters\n(Accu-Chek, OneTouch, SD Codefree) ₹800 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_diabetes__type_2__avail",
+    "category": "OTC Medicines",
+    "question_variants": [
+      "Diabetes (Type 2) indo?",
+      "Diabetes (Type 2) undo?",
+      "Diabetes (Type 2) kittumo?",
+      "Diabetes (Type 2) available aano?",
+      "Diabetes (Type 2) und?",
+      "Do you have Diabetes (Type 2)?",
+      "Is Diabetes (Type 2) available?"
+    ],
+    "answer": "Yes, Diabetes (Type 2) is available! Price: ₹280. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Diabetes (Type 2) und! Price ₹280. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_diabetes__type_2__price",
+    "category": "OTC Medicines",
+    "question_variants": [
+      "Diabetes (Type 2) price ethra?",
+      "Diabetes (Type 2) ethranu?",
+      "Diabetes (Type 2) vila ethra?",
+      "How much is Diabetes (Type 2)?",
+      "Diabetes (Type 2) cost enthu?"
+    ],
+    "answer": "Diabetes (Type 2) costs ₹280. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Diabetes (Type 2) ₹280 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_hypertension_avail",
+    "category": "OTC Medicines",
+    "question_variants": [
+      "Hypertension indo?",
+      "Hypertension undo?",
+      "Hypertension kittumo?",
+      "Hypertension available aano?",
+      "Hypertension und?",
+      "Do you have Hypertension?",
+      "Is Hypertension available?"
+    ],
+    "answer": "Yes, Hypertension is available! Price: ₹140. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Hypertension und! Price ₹140. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_hypertension_price",
+    "category": "OTC Medicines",
+    "question_variants": [
+      "Hypertension price ethra?",
+      "Hypertension ethranu?",
+      "Hypertension vila ethra?",
+      "How much is Hypertension?",
+      "Hypertension cost enthu?"
+    ],
+    "answer": "Hypertension costs ₹140. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Hypertension ₹140 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_high_cholesterol_avail",
+    "category": "OTC Medicines",
+    "question_variants": [
+      "High Cholesterol indo?",
+      "High Cholesterol undo?",
+      "High Cholesterol kittumo?",
+      "High Cholesterol available aano?",
+      "High Cholesterol und?",
+      "Do you have High Cholesterol?",
+      "Is High Cholesterol available?"
+    ],
+    "answer": "Yes, High Cholesterol is available! Price: ₹180. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, High Cholesterol und! Price ₹180. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_high_cholesterol_price",
+    "category": "OTC Medicines",
+    "question_variants": [
+      "High Cholesterol price ethra?",
+      "High Cholesterol ethranu?",
+      "High Cholesterol vila ethra?",
+      "How much is High Cholesterol?",
+      "High Cholesterol cost enthu?"
+    ],
+    "answer": "High Cholesterol costs ₹180. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "High Cholesterol ₹180 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_thyroid_avail",
+    "category": "OTC Medicines",
+    "question_variants": [
+      "Thyroid indo?",
+      "Thyroid undo?",
+      "Thyroid kittumo?",
+      "Thyroid available aano?",
+      "Thyroid und?",
+      "Do you have Thyroid?",
+      "Is Thyroid available?"
+    ],
+    "answer": "Yes, Thyroid is available! Price: ₹38. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Thyroid und! Price ₹38. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_thyroid_price",
+    "category": "OTC Medicines",
+    "question_variants": [
+      "Thyroid price ethra?",
+      "Thyroid ethranu?",
+      "Thyroid vila ethra?",
+      "How much is Thyroid?",
+      "Thyroid cost enthu?"
+    ],
+    "answer": "Thyroid costs ₹38. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Thyroid ₹38 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_acid_reflux_avail",
+    "category": "OTC Medicines",
+    "question_variants": [
+      "Acid Reflux indo?",
+      "Acid Reflux undo?",
+      "Acid Reflux kittumo?",
+      "Acid Reflux available aano?",
+      "Acid Reflux und?",
+      "Do you have Acid Reflux?",
+      "Is Acid Reflux available?"
+    ],
+    "answer": "Yes, Acid Reflux is available! Price: ₹45. For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Acid Reflux und! Price ₹45. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_acid_reflux_price",
+    "category": "OTC Medicines",
+    "question_variants": [
+      "Acid Reflux price ethra?",
+      "Acid Reflux ethranu?",
+      "Acid Reflux vila ethra?",
+      "How much is Acid Reflux?",
+      "Acid Reflux cost enthu?"
+    ],
+    "answer": "Acid Reflux costs ₹45. WhatsApp us for the full menu: {whatsapp} 😊",
+    "answer_ml": "Acid Reflux ₹45 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_how_to_order_avail",
+    "category": "OTC Medicines",
+    "question_variants": [
+      "How to Order indo?",
+      "How to Order undo?",
+      "How to Order kittumo?",
+      "How to Order available aano?",
+      "How to Order und?",
+      "Do you have How to Order?",
+      "Is How to Order available?"
+    ],
+    "answer": "Yes, How to Order is available! For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, How to Order und! Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_prescription_avail",
+    "category": "Prescription Medicines",
+    "question_variants": [
+      "Prescription indo?",
+      "Prescription undo?",
+      "Prescription kittumo?",
+      "Prescription available aano?",
+      "Prescription und?",
+      "Do you have Prescription?",
+      "Is Prescription available?"
+    ],
+    "answer": "Yes, Prescription is available! For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Prescription und! Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
+    "id": "item_cold_chain_items_avail",
+    "category": "OTC Medicines",
+    "question_variants": [
+      "Cold Chain Items indo?",
+      "Cold Chain Items undo?",
+      "Cold Chain Items kittumo?",
+      "Cold Chain Items available aano?",
+      "Cold Chain Items und?",
+      "Do you have Cold Chain Items?",
+      "Is Cold Chain Items available?"
+    ],
+    "answer": "Yes, Cold Chain Items is available! For more details, WhatsApp us at {whatsapp} 😊",
+    "answer_ml": "Athe, Cold Chain Items und! Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
+    "lang": "english_manglish",
+    "source": "auto_generated"
+  },
+  {
     "id": "item_etoricoxib__tramadol__ketorolac_avail",
-    "category": "Thyroid Medicines",
+    "category": "OTC Medicines",
     "question_variants": [
       "Etoricoxib, Tramadol, Ketorolac indo?",
       "Etoricoxib, Tramadol, Ketorolac undo?",
@@ -18,7 +408,7 @@
   },
   {
     "id": "item_etoricoxib__tramadol__ketorolac_price",
-    "category": "Thyroid Medicines",
+    "category": "OTC Medicines",
     "question_variants": [
       "Etoricoxib, Tramadol, Ketorolac price ethra?",
       "Etoricoxib, Tramadol, Ketorolac ethranu?",
@@ -33,7 +423,7 @@
   },
   {
     "id": "item_ondansetron__ranitidine_avail",
-    "category": "Thyroid Medicines",
+    "category": "OTC Medicines",
     "question_variants": [
       "Ondansetron, Ranitidine indo?",
       "Ondansetron, Ranitidine undo?",
@@ -50,7 +440,7 @@
   },
   {
     "id": "item_ondansetron__ranitidine_price",
-    "category": "Thyroid Medicines",
+    "category": "OTC Medicines",
     "question_variants": [
       "Ondansetron, Ranitidine price ethra?",
       "Ondansetron, Ranitidine ethranu?",
@@ -65,7 +455,7 @@
   },
   {
     "id": "item_supradyn__becosules__shelcal_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
+    "category": "OTC Medicines",
     "question_variants": [
       "Supradyn, Becosules, Shelcal indo?",
       "Supradyn, Becosules, Shelcal undo?",
@@ -82,7 +472,7 @@
   },
   {
     "id": "item_supradyn__becosules__shelcal_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
+    "category": "OTC Medicines",
     "question_variants": [
       "Supradyn, Becosules, Shelcal price ethra?",
       "Supradyn, Becosules, Shelcal ethranu?",
@@ -97,7 +487,7 @@
   },
   {
     "id": "item_bournvita__health_tone_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
+    "category": "Vitamins",
     "question_variants": [
       "Bournvita, Health Tone indo?",
       "Bournvita, Health Tone undo?",
@@ -114,7 +504,7 @@
   },
   {
     "id": "item_bournvita__health_tone_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
+    "category": "Vitamins",
     "question_variants": [
       "Bournvita, Health Tone price ethra?",
       "Bournvita, Health Tone ethranu?",
@@ -129,7 +519,7 @@
   },
   {
     "id": "item_sebamed__avene_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
+    "category": "Personal Care",
     "question_variants": [
       "Sebamed, Avene indo?",
       "Sebamed, Avene undo?",
@@ -146,7 +536,7 @@
   },
   {
     "id": "item_sebamed__avene_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
+    "category": "Personal Care",
     "question_variants": [
       "Sebamed, Avene price ethra?",
       "Sebamed, Avene ethranu?",
@@ -161,7 +551,7 @@
   },
   {
     "id": "item_himalaya__patanjali_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
+    "category": "OTC Medicines",
     "question_variants": [
       "Himalaya, Patanjali indo?",
       "Himalaya, Patanjali undo?",
@@ -178,7 +568,7 @@
   },
   {
     "id": "item_himalaya__patanjali_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
+    "category": "OTC Medicines",
     "question_variants": [
       "Himalaya, Patanjali price ethra?",
       "Himalaya, Patanjali ethranu?",
@@ -192,40 +582,8 @@
     "source": "auto_generated"
   },
   {
-    "id": "item_homeopathy___sbl__dr__reckeweg__schwabe___full_range_stocked_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked indo?",
-      "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked undo?",
-      "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked kittumo?",
-      "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked available aano?",
-      "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked und?",
-      "Do you have Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked?",
-      "Is Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked available?"
-    ],
-    "answer": "Yes, Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked is available! Price: ₹60. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked und! Price ₹60. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_homeopathy___sbl__dr__reckeweg__schwabe___full_range_stocked_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked price ethra?",
-      "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked ethranu?",
-      "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked vila ethra?",
-      "How much is Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked?",
-      "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked cost enthu?"
-    ],
-    "answer": "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked costs ₹60. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked ₹60 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
     "id": "item_sinarest_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
+    "category": "OTC Medicines",
     "question_variants": [
       "Sinarest indo?",
       "Sinarest undo?",
@@ -242,7 +600,7 @@
   },
   {
     "id": "item_sinarest_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
+    "category": "OTC Medicines",
     "question_variants": [
       "Sinarest price ethra?",
       "Sinarest ethranu?",
@@ -256,49 +614,17 @@
     "source": "auto_generated"
   },
   {
-    "id": "item_nebulisers___omron__romsons__dr__odin___compressor_and_mesh_type_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type indo?",
-      "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type undo?",
-      "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type kittumo?",
-      "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type available aano?",
-      "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type und?",
-      "Do you have Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type?",
-      "Is Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type available?"
-    ],
-    "answer": "Yes, Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type is available! Price: ₹1200. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type und! Price ₹1200. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_nebulisers___omron__romsons__dr__odin___compressor_and_mesh_type_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type price ethra?",
-      "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type ethranu?",
-      "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type vila ethra?",
-      "How much is Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type?",
-      "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type cost enthu?"
-    ],
-    "answer": "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type costs ₹1200. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type ₹1200 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
     "id": "pharmacy_medicine_availability",
     "category": "medicine_availability",
     "question_variants": [
       "Do you have this medicine available?",
       "Ee medicine available aano?"
     ],
-    "answer": "Yes, we do carry Omeprazole and Pantoprazole! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 55555 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Medicine name allenkil prescription share cheyyuka. Availability check cheythu parayam.",
     "q_ml": "Ee medicine available aano?",
-    "a_ml": "Athe! Njangalkku Omeprazole, Pantoprazole, Rabeprazole — Gastro Medicines okke available aanu! Enthelum help venam? 😊"
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 55555 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "pharmacy_medicine_stock",
@@ -333,11 +659,11 @@
       "Do you sell generic medicines?",
       "Generic medicine undo?"
     ],
-    "answer": "Yes, we do! We have a wide range of generic medicines from brands like Jan Aushadhi, Alkem Generics, and Cipla – up to 80% cheaper! Let me know if you need anything else! 😊",
+    "answer": "Yes, we do! We have a wide range of generic medicines like Jan Aushadhi, Alkem Generics, Cipla, and Mankind Generics – up to 80% cheaper! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Selected brandsinu generic medicines available aanu.",
     "q_ml": "Generic medicine undo?",
-    "a_ml": "Athe! Njangalkku Jan Aushadhi, Rajasthan Drugs, Alkem Generics, Cipla generic medicines okke und — up to 80% cheaper! Enthelum help venam? 😊"
+    "a_ml": "Athe! Njangalk Jan Aushadhi, Alkem Generics, Cipla - generic medicines um up to 80% cheap-nu offer cheyyaam! 😊 Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_prescription_requirement",
@@ -346,11 +672,11 @@
       "Do I need a prescription to buy medicines?",
       "Prescription venamo medicine vangaan?"
     ],
-    "answer": "Yes, you’ll need a prescription for specialty medicines like those for Oncology, Nephrology, or Psychiatry. Let me know if you need anything else! 😊",
+    "answer": "Yes, you’ll need a prescription [Prescription] for most medications! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Chila medicinesinu valid doctor prescription mandatory aanu.",
     "q_ml": "Prescription venamo medicine vangaan?",
-    "a_ml": "Athe! Njangalkku Sun Pharma, Cipla, Dr. Reddys brands-nu prescription medicines okke und! Enthelum help venam? 😊"
+    "a_ml": "Athe! Njangalkku prescription [Prescription] um available aanu — njangal help cheyyaam! Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_upload_prescription",
@@ -359,11 +685,11 @@
       "Can I send my prescription online?",
       "Prescription online ayachu tharamo?"
     ],
-    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 55555 and we'll help you right away! 😊",
+    "answer": "Yes, you can send your prescription to us via WhatsApp +91 98765 55555! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Athe, prescription WhatsApp allenkil online platform vazhi share cheyyam.",
     "q_ml": "Prescription online ayachu tharamo?",
-    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 55555 il contact cheyyuka! Njangal help cheyyaam 😊"
+    "a_ml": "Athe! Njangalkku prescription confirm cheyyaam — WhatsApp cheyyuka direct help cheyyaam! 😊"
   },
   {
     "id": "pharmacy_doctor_consultation",
@@ -418,11 +744,11 @@
       "How long does medicine delivery take?",
       "Delivery ethra time edukum?"
     ],
-    "answer": "Same day delivery for orders placed before 6 PM, and next day for orders after 6 PM! Let me know if you need anything else! 😊",
+    "answer": "Same day delivery for orders before 6 PM, and next day for orders after 6 PM! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Locationum order sizeum anusari delivery usually 30 muthal 60 minutes vare edukum.",
     "q_ml": "Delivery ethra time edukum?",
-    "a_ml": "Athe! Orders before 6PM same day delivery aanu, after 6PM next day delivery und! Enthelum help venam? 😊"
+    "a_ml": "Athe! Njangalkku same day delivery (6 PM-kuppothu orders) — next day orders kuppom 6 PM-il und! Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_delivery_charges",
@@ -431,11 +757,11 @@
       "Are there delivery charges?",
       "Delivery charge undo?"
     ],
-    "answer": "Yes, we have delivery charges! A flat fee of ₹40 applies for deliveries below ₹500 within Kozhikode city limits. Let me know if you need anything else! 😊",
+    "answer": "Yes, we have delivery charges! For orders below ₹500, it’s a flat fee of ₹40. Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Distanceum order valueum anusari delivery charges apply cheyyam.",
     "q_ml": "Delivery charge undo?",
-    "a_ml": "Distanceum order valueum anusari delivery charges apply cheyyam."
+    "a_ml": "Athe! Delivery charge ₹40 flat fee aanu, ₹500-kuppothilla kozhikodeyil free delivery enthu! Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_minimum_order",
@@ -444,7 +770,7 @@
       "Is there a minimum order amount for delivery?",
       "Deliveryinu minimum order value undo?"
     ],
-    "answer": "Yes, free delivery is available for orders above ₹500! 😊 Let me know if you need anything else! 😊",
+    "answer": "Yes, free delivery is available above ₹500 within Kozhikode city limits! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Location anusari minimum order requirement undayirikkam.",
     "q_ml": "Deliveryinu minimum order value undo?",
@@ -457,11 +783,11 @@
       "Can I track my medicine order?",
       "Order track cheyyamo?"
     ],
-    "answer": "Yes, you can place an order via WhatsApp +91 98765 55555 – please send a photo of your prescription or the product name! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 55555 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Athe, ordering method anusari order tracking available ayirikkum.",
     "q_ml": "Order track cheyyamo?",
-    "a_ml": "Athe! Njangalkku order track cheyyaam — WhatsApp +91 98765 55555-nu call cheyye, njangal help cheyyaam! 😊"
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 55555 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "pharmacy_late_delivery",
@@ -473,8 +799,7 @@
     "answer": "If your medicine delivery is delayed, it will be same day if you order before 6 PM, otherwise next day! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Traffic, weather, allenkil high demand karanam delay undaakam. Updates provide cheyyum.",
-    "q_ml": "Delivery late aayal enthu cheyyum?",
-    "a_ml": "Athe! Njangal same day delivery cheyyaam – orders before 6PM-nu! Next day delivery orders after 6PM-nu. Enthelum help venam? 😊"
+    "q_ml": "Delivery late aayal enthu cheyyum?"
   },
   {
     "id": "pharmacy_takeaway_option",
@@ -483,7 +808,7 @@
       "Can I pick up medicines directly from the pharmacy?",
       "Medicine direct ayi shopil ninnu vangamo?"
     ],
-    "answer": "Yes, you can! You’re welcome to pick up your prescription medicines directly from our pharmacy near Government Hospital, Kozhikode. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 55555 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Athe, order place cheythu pharmacyil ninnu collect cheyyam.",
     "q_ml": "Medicine direct ayi shopil ninnu vangamo?",
@@ -496,11 +821,11 @@
       "How can I place a medicine order?",
       "Medicine order engane place cheyyam?"
     ],
-    "answer": "You can order medicines by WhatsApp to +91 98765 55555 with a photo of your prescription or the product name. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 55555 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Phone call, WhatsApp, website, allenkil online platform vazhi orders place cheyyam.",
     "q_ml": "Medicine order engane place cheyyam?",
-    "a_ml": "Njangalude prescription photo or product name WhatsApp +91 98765 55555-il send cheyyaannd, njangal order confirm cheyyaam! 😊"
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 55555 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "pharmacy_order_modification",
@@ -509,11 +834,11 @@
       "Can I modify my medicine order after placing it?",
       "Order place cheythathinu sesham modify cheyyamo?"
     ],
-    "answer": "Yes, you can modify your order! Just WhatsApp +91 98765 55555 with your changes and a photo of your prescription. Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 55555 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Billing allenkil packing start cheyyunnathinu munpu maathram modifications possible aanu.",
     "q_ml": "Order place cheythathinu sesham modify cheyyamo?",
-    "a_ml": "Athe! Njangalkku prescription upload cheyyaan, order modify cheyyaam! WhatsApp +91 98765 55555-nu call cheyyo. Enthelum help venam? 😊"
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 55555 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "pharmacy_cancellation_policy",
@@ -535,11 +860,11 @@
       "Can I schedule monthly medicine orders?",
       "Monthly medicine delivery arrange cheyyamo?"
     ],
-    "answer": "Yes, you can place orders for regular medications! We offer same-day delivery for orders placed before 6 PM 😊 Let me know if you need anything else! 😊",
+    "answer": "Yes, you can schedule your monthly medicine orders! We offer same-day delivery for orders placed before 6 PM 😊 Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Regular medicinesinu monthly recurring delivery arrange cheyyan pattum.",
     "q_ml": "Monthly medicine delivery arrange cheyyamo?",
-    "a_ml": "Athe! Njangal same day delivery cheyyaam – orders before 6PM-nu! Enthelum help venam? 😊"
+    "a_ml": "Athe! Njangalkku same day delivery cheyyaam – orders before 6PM-nu! Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_bulk_orders",
@@ -569,11 +894,11 @@
       "Paytm cheyyaamo?",
       "UPI accept cheyyunnundo?"
     ],
-    "answer": "We accept UPI, GPay, PhonePe, Cash, and all major cards like Visa and Mastercard! Let me know if you need anything else! 😊",
+    "answer": "We accept UPI, GPay, PhonePe, Cash, and all major cards like Visa, Mastercard, and RuPay! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Cash, debit card, credit card, UPI, online payments ellam accept cheyyum.",
     "q_ml": "Payment options enthokke aanu?",
-    "a_ml": "Sheri! Njangalk UPI, GPay, PhonePe, Cash, Cards — ella payment modes um accept cheyyunnu! Enthelum help venam? 😊"
+    "a_ml": "Sheri! Njangalkku UPI, GPay, PhonePe, Cash, Cards — ella payment modes um accept cheyyunnu! Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_upi_payments",
@@ -582,7 +907,7 @@
       "Do you accept UPI payments?",
       "UPI payments accept cheyyumo?"
     ],
-    "answer": "Yes, we do accept UPI payments via Google Pay (GPay), PhonePe, and Paytm – just scan the QR code at the counter! Let me know if you need anything else! 😊",
+    "answer": "Yes, we absolutely do! You can use Google Pay (GPay), PhonePe, or Paytm by scanning the QR code at the counter. Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Athe, ella major UPI appsum accept cheyyunnu.",
     "q_ml": "UPI payments accept cheyyumo?",
@@ -599,7 +924,7 @@
     "source": "pdf_rag",
     "answer_ml": "Eligible delivery locationsil cash on delivery available ayirikkum.",
     "q_ml": "Cash on delivery undo?",
-    "a_ml": "Athe! Njangalkku Cash on Delivery available aanu — home orders-il und! Enthelum help venam? 😊"
+    "a_ml": "Athe! COD available aanu — Kozhikode city limits-il home orders-il accept cheyyunnu! Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_online_payment",
@@ -608,11 +933,11 @@
       "Can I pay online for medicine orders?",
       "Online ayi pay cheyyamo?"
     ],
-    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 55555 and we'll help you right away! 😊",
+    "answer": "Yes, you can pay online through UPI, GPay, PhonePe, Paytm, NetBanking – available for bulk/institutional orders! Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Athe, medicine ordersinu online payment options available aanu.",
     "q_ml": "Online ayi pay cheyyamo?",
-    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 55555 il contact cheyyuka! Njangal help cheyyaam 😊"
+    "a_ml": "Athe! Njangalkku GPay, PhonePe, Paytm accept cheyyunnu — okke und! Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_payment_receipt",
@@ -651,7 +976,7 @@
     "source": "pdf_rag",
     "answer_ml": "Chila branches loyalty rewards allenkil membership benefits provide cheyyunnu.",
     "q_ml": "Membership allenkil loyalty program undo?",
-    "a_ml": "Athe! Njangalkku HealthPlus Loyalty Card available aanu — earn 1 point per Rs.100! Enthelum help venam? 😊"
+    "a_ml": "Athe! Njangalkku HealthPlus Loyalty Card um accept cheyyunnu — earn 1 point per Rs.100 aanu! Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_healthcare_products",
@@ -673,7 +998,7 @@
       "Do you sell vitamins and supplements?",
       "Vitaminsum supplementsum undo?"
     ],
-    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 55555 and we'll help you right away! 😊",
+    "answer": "Yes, we do! We have Revital, Supradyn, Becosules, Shelcal and more – ₹50 to ₹600. Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Athe, vitamins, supplements, nutrition products ellam available aanu.",
     "q_ml": "Vitaminsum supplementsum undo?",
@@ -686,11 +1011,11 @@
       "Do you have baby care products?",
       "Baby care products undo?"
     ],
-    "answer": "Yes, we do! We stock Pampers, Huggies, and MamyPoko diapers – all sizes and Johnson & Johnson Baby Care range. Let me know if you need anything else! 😊",
+    "answer": "Yes, we do! We have Pampers, Huggies, and MamyPoko diapers – all sizes and the Johnson & Johnson Baby Care range. Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Athe, baby food, diapers, baby care items available aanu.",
     "q_ml": "Baby care products undo?",
-    "a_ml": "Athe! Njangalkku Pampers, Huggies, MamyPoko Diapers okke und! Enthelum help venam? 😊"
+    "a_ml": "Athe! Njangalku Pampers, Huggies, MamyPoko Diapers – all sizes okke und! Evide Johnson & Johnson Baby Care range-nu tharunnu! Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_diabetic_products",
@@ -712,11 +1037,11 @@
       "Do you sell medical equipment?",
       "Medical equipment undo?"
     ],
-    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 55555 and we'll help you right away! 😊",
+    "answer": "Yes, we do! We have BP monitors and Glucose meters available. Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Athe, BP monitor, thermometer pole selected medical equipment available aanu.",
     "q_ml": "Medical equipment undo?",
-    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 55555 il contact cheyyuka! Njangal help cheyyaam 😊"
+    "a_ml": "Athe! Njangalk Omron, Rossmax like BP monitors ₹800–₹4500 um accept cheyyunnu! Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_cosmetics_products",
@@ -738,11 +1063,11 @@
       "Do you store temperature-sensitive medicines properly?",
       "Temperature sensitive medicines proper ayi store cheyyumo?"
     ],
-    "answer": "Yes, we maintain cold chain storage for specialty medicines like Oncology, Nephrology, and Psychiatry! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 55555 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Athe, temperature-sensitive medicines recommended conditionsil store cheyyunnu.",
     "q_ml": "Temperature sensitive medicines proper ayi store cheyyumo?",
-    "a_ml": "Athe, temperature-sensitive medicines recommended conditionsil store cheyyunnu."
+    "a_ml": "Athu pattichu sure alla — more details venam enkil njangalude WhatsApp +91 98765 55555 il contact cheyyuka! Njangal help cheyyaam 😊"
   },
   {
     "id": "pharmacy_expiry_check",
@@ -755,7 +1080,7 @@
     "source": "pdf_rag",
     "answer_ml": "Athe, ella medicinesinteyum expiry dates regular ayi check cheyyunnu.",
     "q_ml": "Medicine expiry check cheyyumo?",
-    "a_ml": "Athe! Njangalkku BP & sugar check free health camp first Sunday 10AM-1PM open aanu! Enthelum help venam? 😊"
+    "a_ml": "Athe! Njangalkku BP & sugar check free health camp available aanu – 1st Sunday 10AM-1PM! Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_medicine_return",
@@ -764,7 +1089,7 @@
       "Can I return medicines after purchase?",
       "Medicine return cheyyan pattumo?"
     ],
-    "answer": "Yes, you can return medicines within 7 days of purchase! Let me know if you need anything else! 😊",
+    "answer": "I'm not sure about that — please WhatsApp us at +91 98765 55555 and we'll help you right away! 😊",
     "source": "pdf_rag",
     "answer_ml": "Medicine return pharmacy policyum product conditionum anusari ayirikkum.",
     "q_ml": "Medicine return cheyyan pattumo?",
@@ -813,11 +1138,11 @@
       "Sunday open aano?",
       "Holiday il open aano?"
     ],
-    "answer": "Yes, we are open during public holidays from 10:00 AM to 4:00 PM! The emergency counter is always open 24/7. Let me know if you need anything else! 😊",
+    "answer": "Yes, we are open on public holidays! The pharmacy is open from 10:00 AM to 4:00 PM. Let me know if you need anything else! 😊",
     "source": "pdf_rag",
     "answer_ml": "Athe, pala pharmacy branchesum public holidaysil adjusted timingsode open ayirikkum.",
     "q_ml": "Public holidaysil open aano?",
-    "a_ml": "Athe! Public Holidays-il 10AM-4PM till open aanu, emergency counter 24/7 open aanu! Enthelum help venam? 😊"
+    "a_ml": "Athe! Public Holidays-il 10AM-4PM open aanu, emergency counter 24hrs open! 🙏 Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_24_hours_service",
@@ -830,7 +1155,7 @@
     "source": "pdf_rag",
     "answer_ml": "24-hour service branch anusari available ayirikkum.",
     "q_ml": "24 hours service undo?",
-    "a_ml": "Athe! Night emergency counter open 24/7 for emergency prescriptions! Enthelum help venam? 😊"
+    "a_ml": "Athe! Night emergency counter open 24/7 for emergency prescriptions! 🙏 Enthelum help venam? 😊"
   },
   {
     "id": "pharmacy_peak_hours",
@@ -896,876 +1221,7 @@
     "source": "pdf_rag",
     "answer_ml": "Emergency medicine support branch timingsum service availabilityum anusari ayirikkum.",
     "q_ml": "Emergency timeil pharmacy contact cheyyamo?",
-    "a_ml": "Athe! Night emergency-il counter open 24/7 aanu — njangal help cheyyaam! 🙏 WhatsApp cheyyuka +91 98765 55555. Enthelum help venam? 😊"
-  },
-  {
-    "id": "item_thyroxine__25mcg__50mcg__75mcg__100mcg____all_strengths_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths indo?",
-      "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths undo?",
-      "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths kittumo?",
-      "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths available aano?",
-      "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths und?",
-      "Do you have Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths?",
-      "Is Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths available?",
-      "Enthu services offer cheyyunnu?",
-      "Enthu okke cheyyunnu?",
-      "Services enthu und?"
-    ],
-    "answer": "Yes, Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths is available! Price: ₹40. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths und! Price ₹40. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_thyroxine__25mcg__50mcg__75mcg__100mcg____all_strengths_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths price ethra?",
-      "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths ethranu?",
-      "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths vila ethra?",
-      "How much is Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths?",
-      "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths cost enthu?"
-    ],
-    "answer": "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths costs ₹40. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths ₹40 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_diclofenac__ibuprofen__naproxen__aceclofenac__etoricoxib__tramadol__ketorolac_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac indo?",
-      "Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac undo?",
-      "Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac kittumo?",
-      "Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac available aano?",
-      "Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac und?",
-      "Do you have Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac?",
-      "Is Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac available?"
-    ],
-    "answer": "Yes, Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac is available! Price: ₹30. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac und! Price ₹30. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_omeprazole__pantoprazole__rabeprazole__domperidone__ondansetron__ranitidine_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine indo?",
-      "Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine undo?",
-      "Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine kittumo?",
-      "Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine available aano?",
-      "Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine und?",
-      "Do you have Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine?",
-      "Is Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine available?"
-    ],
-    "answer": "Yes, Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine is available! Price: ₹25. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine und! Price ₹25. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_protein_supplements_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Protein Supplements indo?",
-      "Protein Supplements undo?",
-      "Protein Supplements kittumo?",
-      "Protein Supplements available aano?",
-      "Protein Supplements und?",
-      "Do you have Protein Supplements?",
-      "Is Protein Supplements available?"
-    ],
-    "answer": "Yes, Protein Supplements is available! Price: ₹200. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Protein Supplements und! Price ₹200. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_protein_supplements_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Protein Supplements price ethra?",
-      "Protein Supplements ethranu?",
-      "Protein Supplements vila ethra?",
-      "How much is Protein Supplements?",
-      "Protein Supplements cost enthu?"
-    ],
-    "answer": "Protein Supplements costs ₹200. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Protein Supplements ₹200 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_baby_nutrition_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Baby Nutrition indo?",
-      "Baby Nutrition undo?",
-      "Baby Nutrition kittumo?",
-      "Baby Nutrition available aano?",
-      "Baby Nutrition und?",
-      "Do you have Baby Nutrition?",
-      "Is Baby Nutrition available?"
-    ],
-    "answer": "Yes, Baby Nutrition is available! Price: ₹400. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Baby Nutrition und! Price ₹400. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_baby_nutrition_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Baby Nutrition price ethra?",
-      "Baby Nutrition ethranu?",
-      "Baby Nutrition vila ethra?",
-      "How much is Baby Nutrition?",
-      "Baby Nutrition cost enthu?"
-    ],
-    "answer": "Baby Nutrition costs ₹400. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Baby Nutrition ₹400 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_skin_care___derma_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Skin Care / Derma indo?",
-      "Skin Care / Derma undo?",
-      "Skin Care / Derma kittumo?",
-      "Skin Care / Derma available aano?",
-      "Skin Care / Derma und?",
-      "Do you have Skin Care / Derma?",
-      "Is Skin Care / Derma available?"
-    ],
-    "answer": "Yes, Skin Care / Derma is available! Price: ₹100. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Skin Care / Derma und! Price ₹100. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_skin_care___derma_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Skin Care / Derma price ethra?",
-      "Skin Care / Derma ethranu?",
-      "Skin Care / Derma vila ethra?",
-      "How much is Skin Care / Derma?",
-      "Skin Care / Derma cost enthu?"
-    ],
-    "answer": "Skin Care / Derma costs ₹100. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Skin Care / Derma ₹100 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_ayurvedic___herbal_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Ayurvedic / Herbal indo?",
-      "Ayurvedic / Herbal undo?",
-      "Ayurvedic / Herbal kittumo?",
-      "Ayurvedic / Herbal available aano?",
-      "Ayurvedic / Herbal und?",
-      "Do you have Ayurvedic / Herbal?",
-      "Is Ayurvedic / Herbal available?"
-    ],
-    "answer": "Yes, Ayurvedic / Herbal is available! Price: ₹50. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Ayurvedic / Herbal und! Price ₹50. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_ayurvedic___herbal_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Ayurvedic / Herbal price ethra?",
-      "Ayurvedic / Herbal ethranu?",
-      "Ayurvedic / Herbal vila ethra?",
-      "How much is Ayurvedic / Herbal?",
-      "Ayurvedic / Herbal cost enthu?"
-    ],
-    "answer": "Ayurvedic / Herbal costs ₹50. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Ayurvedic / Herbal ₹50 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_homeopathy_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Homeopathy indo?",
-      "Homeopathy undo?",
-      "Homeopathy kittumo?",
-      "Homeopathy available aano?",
-      "Homeopathy und?",
-      "Do you have Homeopathy?",
-      "Is Homeopathy available?"
-    ],
-    "answer": "Yes, Homeopathy is available! Price: ₹60. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Homeopathy und! Price ₹60. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_homeopathy_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Homeopathy price ethra?",
-      "Homeopathy ethranu?",
-      "Homeopathy vila ethra?",
-      "How much is Homeopathy?",
-      "Homeopathy cost enthu?"
-    ],
-    "answer": "Homeopathy costs ₹60. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Homeopathy ₹60 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_otc_cold___flu_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "OTC Cold & Flu indo?",
-      "OTC Cold & Flu undo?",
-      "OTC Cold & Flu kittumo?",
-      "OTC Cold & Flu available aano?",
-      "OTC Cold & Flu und?",
-      "Do you have OTC Cold & Flu?",
-      "Is OTC Cold & Flu available?"
-    ],
-    "answer": "Yes, OTC Cold & Flu is available! Price: ₹20. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, OTC Cold & Flu und! Price ₹20. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_otc_cold___flu_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "OTC Cold & Flu price ethra?",
-      "OTC Cold & Flu ethranu?",
-      "OTC Cold & Flu vila ethra?",
-      "How much is OTC Cold & Flu?",
-      "OTC Cold & Flu cost enthu?"
-    ],
-    "answer": "OTC Cold & Flu costs ₹20. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "OTC Cold & Flu ₹20 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_surgical_items_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Surgical Items indo?",
-      "Surgical Items undo?",
-      "Surgical Items kittumo?",
-      "Surgical Items available aano?",
-      "Surgical Items und?",
-      "Do you have Surgical Items?",
-      "Is Surgical Items available?"
-    ],
-    "answer": "Yes, Surgical Items is available! Price: ₹15. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Surgical Items und! Price ₹15. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_surgical_items_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Surgical Items price ethra?",
-      "Surgical Items ethranu?",
-      "Surgical Items vila ethra?",
-      "How much is Surgical Items?",
-      "Surgical Items cost enthu?"
-    ],
-    "answer": "Surgical Items costs ₹15. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Surgical Items ₹15 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_medical_equipment_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Medical Equipment indo?",
-      "Medical Equipment undo?",
-      "Medical Equipment kittumo?",
-      "Medical Equipment available aano?",
-      "Medical Equipment und?",
-      "Do you have Medical Equipment?",
-      "Is Medical Equipment available?"
-    ],
-    "answer": "Yes, Medical Equipment is available! Price: ₹800. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Medical Equipment und! Price ₹800. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_medical_equipment_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Medical Equipment price ethra?",
-      "Medical Equipment ethranu?",
-      "Medical Equipment vila ethra?",
-      "How much is Medical Equipment?",
-      "Medical Equipment cost enthu?"
-    ],
-    "answer": "Medical Equipment costs ₹800. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Medical Equipment ₹800 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_nebulisers_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Nebulisers indo?",
-      "Nebulisers undo?",
-      "Nebulisers kittumo?",
-      "Nebulisers available aano?",
-      "Nebulisers und?",
-      "Do you have Nebulisers?",
-      "Is Nebulisers available?"
-    ],
-    "answer": "Yes, Nebulisers is available! Price: ₹1200. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Nebulisers und! Price ₹1200. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_nebulisers_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Nebulisers price ethra?",
-      "Nebulisers ethranu?",
-      "Nebulisers vila ethra?",
-      "How much is Nebulisers?",
-      "Nebulisers cost enthu?"
-    ],
-    "answer": "Nebulisers costs ₹1200. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Nebulisers ₹1200 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_orthopaedic_supports_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Orthopaedic Supports indo?",
-      "Orthopaedic Supports undo?",
-      "Orthopaedic Supports kittumo?",
-      "Orthopaedic Supports available aano?",
-      "Orthopaedic Supports und?",
-      "Do you have Orthopaedic Supports?",
-      "Is Orthopaedic Supports available?"
-    ],
-    "answer": "Yes, Orthopaedic Supports is available! Price: ₹250. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Orthopaedic Supports und! Price ₹250. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_orthopaedic_supports_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Orthopaedic Supports price ethra?",
-      "Orthopaedic Supports ethranu?",
-      "Orthopaedic Supports vila ethra?",
-      "How much is Orthopaedic Supports?",
-      "Orthopaedic Supports cost enthu?"
-    ],
-    "answer": "Orthopaedic Supports costs ₹250. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Orthopaedic Supports ₹250 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_eye___ear___dental_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Eye / Ear / Dental indo?",
-      "Eye / Ear / Dental undo?",
-      "Eye / Ear / Dental kittumo?",
-      "Eye / Ear / Dental available aano?",
-      "Eye / Ear / Dental und?",
-      "Do you have Eye / Ear / Dental?",
-      "Is Eye / Ear / Dental available?"
-    ],
-    "answer": "Yes, Eye / Ear / Dental is available! Price: ₹30. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Eye / Ear / Dental und! Price ₹30. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_eye___ear___dental_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Eye / Ear / Dental price ethra?",
-      "Eye / Ear / Dental ethranu?",
-      "Eye / Ear / Dental vila ethra?",
-      "How much is Eye / Ear / Dental?",
-      "Eye / Ear / Dental cost enthu?"
-    ],
-    "answer": "Eye / Ear / Dental costs ₹30. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Eye / Ear / Dental ₹30 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_feminine_hygiene_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Feminine Hygiene indo?",
-      "Feminine Hygiene undo?",
-      "Feminine Hygiene kittumo?",
-      "Feminine Hygiene available aano?",
-      "Feminine Hygiene und?",
-      "Do you have Feminine Hygiene?",
-      "Is Feminine Hygiene available?"
-    ],
-    "answer": "Yes, Feminine Hygiene is available! Price: ₹40. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Feminine Hygiene und! Price ₹40. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_feminine_hygiene_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Feminine Hygiene price ethra?",
-      "Feminine Hygiene ethranu?",
-      "Feminine Hygiene vila ethra?",
-      "How much is Feminine Hygiene?",
-      "Feminine Hygiene cost enthu?"
-    ],
-    "answer": "Feminine Hygiene costs ₹40. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Feminine Hygiene ₹40 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_condoms___family_planning_avail",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Condoms / Family Planning indo?",
-      "Condoms / Family Planning undo?",
-      "Condoms / Family Planning kittumo?",
-      "Condoms / Family Planning available aano?",
-      "Condoms / Family Planning und?",
-      "Do you have Condoms / Family Planning?",
-      "Is Condoms / Family Planning available?"
-    ],
-    "answer": "Yes, Condoms / Family Planning is available! Price: ₹50. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Condoms / Family Planning und! Price ₹50. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_condoms___family_planning_price",
-    "category": "COMPLETE PRODUCT & SERVICES CATALOGUE",
-    "question_variants": [
-      "Condoms / Family Planning price ethra?",
-      "Condoms / Family Planning ethranu?",
-      "Condoms / Family Planning vila ethra?",
-      "How much is Condoms / Family Planning?",
-      "Condoms / Family Planning cost enthu?"
-    ],
-    "answer": "Condoms / Family Planning costs ₹50. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Condoms / Family Planning ₹50 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_diabetes__type_2__avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Diabetes (Type 2) indo?",
-      "Diabetes (Type 2) undo?",
-      "Diabetes (Type 2) kittumo?",
-      "Diabetes (Type 2) available aano?",
-      "Diabetes (Type 2) und?",
-      "Do you have Diabetes (Type 2)?",
-      "Is Diabetes (Type 2) available?"
-    ],
-    "answer": "Yes, Diabetes (Type 2) is available! Price: ₹280. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Diabetes (Type 2) und! Price ₹280. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_diabetes__type_2__price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Diabetes (Type 2) price ethra?",
-      "Diabetes (Type 2) ethranu?",
-      "Diabetes (Type 2) vila ethra?",
-      "How much is Diabetes (Type 2)?",
-      "Diabetes (Type 2) cost enthu?"
-    ],
-    "answer": "Diabetes (Type 2) costs ₹280. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Diabetes (Type 2) ₹280 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_hypertension_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Hypertension indo?",
-      "Hypertension undo?",
-      "Hypertension kittumo?",
-      "Hypertension available aano?",
-      "Hypertension und?",
-      "Do you have Hypertension?",
-      "Is Hypertension available?"
-    ],
-    "answer": "Yes, Hypertension is available! Price: ₹140. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Hypertension und! Price ₹140. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_hypertension_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Hypertension price ethra?",
-      "Hypertension ethranu?",
-      "Hypertension vila ethra?",
-      "How much is Hypertension?",
-      "Hypertension cost enthu?"
-    ],
-    "answer": "Hypertension costs ₹140. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Hypertension ₹140 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_high_cholesterol_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "High Cholesterol indo?",
-      "High Cholesterol undo?",
-      "High Cholesterol kittumo?",
-      "High Cholesterol available aano?",
-      "High Cholesterol und?",
-      "Do you have High Cholesterol?",
-      "Is High Cholesterol available?"
-    ],
-    "answer": "Yes, High Cholesterol is available! Price: ₹180. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, High Cholesterol und! Price ₹180. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_high_cholesterol_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "High Cholesterol price ethra?",
-      "High Cholesterol ethranu?",
-      "High Cholesterol vila ethra?",
-      "How much is High Cholesterol?",
-      "High Cholesterol cost enthu?"
-    ],
-    "answer": "High Cholesterol costs ₹180. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "High Cholesterol ₹180 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_thyroid_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Thyroid indo?",
-      "Thyroid undo?",
-      "Thyroid kittumo?",
-      "Thyroid available aano?",
-      "Thyroid und?",
-      "Do you have Thyroid?",
-      "Is Thyroid available?"
-    ],
-    "answer": "Yes, Thyroid is available! Price: ₹38. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Thyroid und! Price ₹38. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_thyroid_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Thyroid price ethra?",
-      "Thyroid ethranu?",
-      "Thyroid vila ethra?",
-      "How much is Thyroid?",
-      "Thyroid cost enthu?"
-    ],
-    "answer": "Thyroid costs ₹38. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Thyroid ₹38 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_acid_reflux_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Acid Reflux indo?",
-      "Acid Reflux undo?",
-      "Acid Reflux kittumo?",
-      "Acid Reflux available aano?",
-      "Acid Reflux und?",
-      "Do you have Acid Reflux?",
-      "Is Acid Reflux available?"
-    ],
-    "answer": "Yes, Acid Reflux is available! Price: ₹45. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Acid Reflux und! Price ₹45. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_acid_reflux_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Acid Reflux price ethra?",
-      "Acid Reflux ethranu?",
-      "Acid Reflux vila ethra?",
-      "How much is Acid Reflux?",
-      "Acid Reflux cost enthu?"
-    ],
-    "answer": "Acid Reflux costs ₹45. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Acid Reflux ₹45 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_etoricoxib__tramadol__ketorolac_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Etoricoxib, Tramadol, Ketorolac indo?",
-      "Etoricoxib, Tramadol, Ketorolac undo?",
-      "Etoricoxib, Tramadol, Ketorolac kittumo?",
-      "Etoricoxib, Tramadol, Ketorolac available aano?",
-      "Etoricoxib, Tramadol, Ketorolac und?",
-      "Do you have Etoricoxib, Tramadol, Ketorolac?",
-      "Is Etoricoxib, Tramadol, Ketorolac available?"
-    ],
-    "answer": "Yes, Etoricoxib, Tramadol, Ketorolac is available! Price: ₹30. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Etoricoxib, Tramadol, Ketorolac und! Price ₹30. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_etoricoxib__tramadol__ketorolac_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Etoricoxib, Tramadol, Ketorolac price ethra?",
-      "Etoricoxib, Tramadol, Ketorolac ethranu?",
-      "Etoricoxib, Tramadol, Ketorolac vila ethra?",
-      "How much is Etoricoxib, Tramadol, Ketorolac?",
-      "Etoricoxib, Tramadol, Ketorolac cost enthu?"
-    ],
-    "answer": "Etoricoxib, Tramadol, Ketorolac costs ₹30. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Etoricoxib, Tramadol, Ketorolac ₹30 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_ondansetron__ranitidine_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Ondansetron, Ranitidine indo?",
-      "Ondansetron, Ranitidine undo?",
-      "Ondansetron, Ranitidine kittumo?",
-      "Ondansetron, Ranitidine available aano?",
-      "Ondansetron, Ranitidine und?",
-      "Do you have Ondansetron, Ranitidine?",
-      "Is Ondansetron, Ranitidine available?"
-    ],
-    "answer": "Yes, Ondansetron, Ranitidine is available! Price: ₹25. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Ondansetron, Ranitidine und! Price ₹25. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_ondansetron__ranitidine_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Ondansetron, Ranitidine price ethra?",
-      "Ondansetron, Ranitidine ethranu?",
-      "Ondansetron, Ranitidine vila ethra?",
-      "How much is Ondansetron, Ranitidine?",
-      "Ondansetron, Ranitidine cost enthu?"
-    ],
-    "answer": "Ondansetron, Ranitidine costs ₹25. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Ondansetron, Ranitidine ₹25 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_supradyn__becosules__shelcal_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Supradyn, Becosules, Shelcal indo?",
-      "Supradyn, Becosules, Shelcal undo?",
-      "Supradyn, Becosules, Shelcal kittumo?",
-      "Supradyn, Becosules, Shelcal available aano?",
-      "Supradyn, Becosules, Shelcal und?",
-      "Do you have Supradyn, Becosules, Shelcal?",
-      "Is Supradyn, Becosules, Shelcal available?"
-    ],
-    "answer": "Yes, Supradyn, Becosules, Shelcal is available! Price: ₹50. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Supradyn, Becosules, Shelcal und! Price ₹50. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_supradyn__becosules__shelcal_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Supradyn, Becosules, Shelcal price ethra?",
-      "Supradyn, Becosules, Shelcal ethranu?",
-      "Supradyn, Becosules, Shelcal vila ethra?",
-      "How much is Supradyn, Becosules, Shelcal?",
-      "Supradyn, Becosules, Shelcal cost enthu?"
-    ],
-    "answer": "Supradyn, Becosules, Shelcal costs ₹50. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Supradyn, Becosules, Shelcal ₹50 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_bournvita__health_tone_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Bournvita, Health Tone indo?",
-      "Bournvita, Health Tone undo?",
-      "Bournvita, Health Tone kittumo?",
-      "Bournvita, Health Tone available aano?",
-      "Bournvita, Health Tone und?",
-      "Do you have Bournvita, Health Tone?",
-      "Is Bournvita, Health Tone available?"
-    ],
-    "answer": "Yes, Bournvita, Health Tone is available! Price: ₹200. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Bournvita, Health Tone und! Price ₹200. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_bournvita__health_tone_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Bournvita, Health Tone price ethra?",
-      "Bournvita, Health Tone ethranu?",
-      "Bournvita, Health Tone vila ethra?",
-      "How much is Bournvita, Health Tone?",
-      "Bournvita, Health Tone cost enthu?"
-    ],
-    "answer": "Bournvita, Health Tone costs ₹200. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Bournvita, Health Tone ₹200 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_sebamed__avene_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Sebamed, Avene indo?",
-      "Sebamed, Avene undo?",
-      "Sebamed, Avene kittumo?",
-      "Sebamed, Avene available aano?",
-      "Sebamed, Avene und?",
-      "Do you have Sebamed, Avene?",
-      "Is Sebamed, Avene available?"
-    ],
-    "answer": "Yes, Sebamed, Avene is available! Price: ₹100. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Sebamed, Avene und! Price ₹100. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_sebamed__avene_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Sebamed, Avene price ethra?",
-      "Sebamed, Avene ethranu?",
-      "Sebamed, Avene vila ethra?",
-      "How much is Sebamed, Avene?",
-      "Sebamed, Avene cost enthu?"
-    ],
-    "answer": "Sebamed, Avene costs ₹100. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Sebamed, Avene ₹100 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_himalaya__patanjali_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Himalaya, Patanjali indo?",
-      "Himalaya, Patanjali undo?",
-      "Himalaya, Patanjali kittumo?",
-      "Himalaya, Patanjali available aano?",
-      "Himalaya, Patanjali und?",
-      "Do you have Himalaya, Patanjali?",
-      "Is Himalaya, Patanjali available?"
-    ],
-    "answer": "Yes, Himalaya, Patanjali is available! Price: ₹50. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Himalaya, Patanjali und! Price ₹50. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_himalaya__patanjali_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Himalaya, Patanjali price ethra?",
-      "Himalaya, Patanjali ethranu?",
-      "Himalaya, Patanjali vila ethra?",
-      "How much is Himalaya, Patanjali?",
-      "Himalaya, Patanjali cost enthu?"
-    ],
-    "answer": "Himalaya, Patanjali costs ₹50. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Himalaya, Patanjali ₹50 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_sinarest_avail",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Sinarest indo?",
-      "Sinarest undo?",
-      "Sinarest kittumo?",
-      "Sinarest available aano?",
-      "Sinarest und?",
-      "Do you have Sinarest?",
-      "Is Sinarest available?"
-    ],
-    "answer": "Yes, Sinarest is available! Price: ₹20. For more details, WhatsApp us at {whatsapp} 😊",
-    "answer_ml": "Athe, Sinarest und! Price ₹20. Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
-  },
-  {
-    "id": "item_sinarest_price",
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES",
-    "question_variants": [
-      "Sinarest price ethra?",
-      "Sinarest ethranu?",
-      "Sinarest vila ethra?",
-      "How much is Sinarest?",
-      "Sinarest cost enthu?"
-    ],
-    "answer": "Sinarest costs ₹20. WhatsApp us for the full menu: {whatsapp} 😊",
-    "answer_ml": "Sinarest ₹20 aanu! Full menu venam enkil WhatsApp cheyyuka {whatsapp} 😊",
-    "lang": "english_manglish",
-    "source": "auto_generated"
+    "a_ml": "Athe! Night emergency-il counter open 24/7 aanu — +91 98765 55555 call cheyyaam! Enthelum help venam? 😊"
   },
   {
     "id": "core_contact",
@@ -1820,317 +1276,29 @@
       "best items enthu?",
       "top picks?"
     ],
-    "answer": "Njangal best picks: Diabetes (Type 2), High Cholesterol, Hypertension. WhatsApp +91 98765 55555 to enquire!"
+    "answer": "Njangal best picks: Sheri! Njangalude shop-il etoricoxib, tramadol, ketorolac, ondansetron, ranitidine, supradyn, becosules, shelcal, bournvita, health tone, sebamed, avene, himalaya, patanjali, homeopathy sbl, dr. reckeweg, schwabe — ella items full range stocked aanu! Sinarest, nebulisers — omron, romsons, dr. odin — compressor and mesh type um available aanu. 😊 Enthelum help venam? 😊. WhatsApp +91 98765 55555 to enquire!"
   },
   {
-    "id": "cat_all_complete_product___services_catalogu",
+    "id": "cat_all_thyroid_medicines",
     "category": "catalog",
     "question_variants": [
-      "complete product & services catalogue/generic medicine savings examples complete product & services catalogue available aano?",
-      "complete product & services catalogue/generic medicine savings examples complete product & services catalogue undo?",
-      "Do you stock complete product & services catalogue/generic medicine savings examples complete product & services catalogue?",
-      "complete product & services catalogue/generic medicine savings examples complete product & services catalogue kittumo?"
+      "generic medicine savings examples/thyroid medicines thyroid medicines available aano?",
+      "generic medicine savings examples/thyroid medicines thyroid medicines undo?",
+      "Do you stock generic medicine savings examples/thyroid medicines thyroid medicines?",
+      "generic medicine savings examples/thyroid medicines thyroid medicines kittumo?"
     ],
-    "answer": "COMPLETE PRODUCT & SERVICES CATALOGUE medicines:\n• Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths — ₹40 – ₹120\n• Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac — ₹30 – ₹200\n• Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine — ₹25 – ₹180\n• Protein Supplements — ₹200 – ₹1,200\n• Baby Nutrition — ₹400 – ₹1,400\n• Skin Care / Derma — ₹100 – ₹1,500\n• Ayurvedic / Herbal — ₹50 – ₹800\n• Homeopathy — ₹60 – ₹500\n• OTC Cold & Flu — ₹20 – ₹150\n• Surgical Items — ₹15 – ₹500\n...and 7 more. WhatsApp +91 98765 55555 for full list."
+    "answer": "Thyroid Medicines medicines:\n• Etoricoxib, Tramadol, Ketorolac — ₹30 – ₹200\n• Ondansetron, Ranitidine — ₹25 – ₹180"
   },
   {
-    "id": "item_thyroxine__25mcg__50mcg__75mcg",
-    "category": "pricing",
+    "id": "cat_all_generic_medicine_savings_examples",
+    "category": "catalog",
     "question_variants": [
-      "How much is Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths?",
-      "Price of Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths?",
-      "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths vila enthu?",
-      "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths rate?",
-      "Is Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths available?",
-      "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths undo?"
+      "generic medicine savings examples/thyroid medicines generic medicine savings examples available aano?",
+      "generic medicine savings examples/thyroid medicines generic medicine savings examples undo?",
+      "Do you stock generic medicine savings examples/thyroid medicines generic medicine savings examples?",
+      "generic medicine savings examples/thyroid medicines generic medicine savings examples kittumo?"
     ],
-    "answer": "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths — ₹40 – ₹120. WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_diclofenac__ibuprofen__naproxe",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac?",
-      "Price of Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac?",
-      "Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac vila enthu?",
-      "Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac rate?",
-      "Is Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac available?",
-      "Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac undo?"
-    ],
-    "answer": "Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac — ₹30 – ₹200. WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_omeprazole__pantoprazole__rabe",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine?",
-      "Price of Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine?",
-      "Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine vila enthu?",
-      "Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine rate?",
-      "Is Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine available?",
-      "Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine undo?"
-    ],
-    "answer": "Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine — ₹25 – ₹180. WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_protein_supplements",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Protein Supplements?",
-      "Price of Protein Supplements?",
-      "Protein Supplements vila enthu?",
-      "Protein Supplements rate?",
-      "Is Protein Supplements available?",
-      "Protein Supplements undo?",
-      "What is Protein Supplements?",
-      "Protein Supplements enthu aanu?"
-    ],
-    "answer": "Protein Supplements — ₹200 – ₹1,200 (Protinex, Ensure, Pediasure, Horlicks, Complan,\nBournvita, Health Tone). WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_baby_nutrition",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Baby Nutrition?",
-      "Price of Baby Nutrition?",
-      "Baby Nutrition vila enthu?",
-      "Baby Nutrition rate?",
-      "Is Baby Nutrition available?",
-      "Baby Nutrition undo?",
-      "What is Baby Nutrition?",
-      "Baby Nutrition enthu aanu?"
-    ],
-    "answer": "Baby Nutrition — ₹400 – ₹1,400 (Nestle Nan Pro, Similac, Dexolac, Farex, Cerelac (all\nstages)). WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_skin_care___derma",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Skin Care / Derma?",
-      "Price of Skin Care / Derma?",
-      "Skin Care / Derma vila enthu?",
-      "Skin Care / Derma rate?",
-      "Is Skin Care / Derma available?",
-      "Skin Care / Derma undo?",
-      "What is Skin Care / Derma?",
-      "Skin Care / Derma enthu aanu?"
-    ],
-    "answer": "Skin Care / Derma — ₹100 – ₹1,500 (CeraVe, Cetaphil, Lotus, VLCC, Himalaya, Bioderma,\nSebamed, Avene). WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_ayurvedic___herbal",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Ayurvedic / Herbal?",
-      "Price of Ayurvedic / Herbal?",
-      "Ayurvedic / Herbal vila enthu?",
-      "Ayurvedic / Herbal rate?",
-      "Is Ayurvedic / Herbal available?",
-      "Ayurvedic / Herbal undo?",
-      "What is Ayurvedic / Herbal?",
-      "Ayurvedic / Herbal enthu aanu?"
-    ],
-    "answer": "Ayurvedic / Herbal — ₹50 – ₹800 (Dabur, Baidyanath, Kottakkal Arya Vaidya Sala,\nHimalaya, Patanjali). WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_homeopathy",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Homeopathy?",
-      "Price of Homeopathy?",
-      "Homeopathy vila enthu?",
-      "Homeopathy rate?",
-      "Is Homeopathy available?",
-      "Homeopathy undo?",
-      "What is Homeopathy?",
-      "Homeopathy enthu aanu?"
-    ],
-    "answer": "Homeopathy — ₹60 – ₹500 (SBL, Dr. Reckeweg, Schwabe - full range stocked). WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_otc_cold___flu",
-    "category": "pricing",
-    "question_variants": [
-      "How much is OTC Cold & Flu?",
-      "Price of OTC Cold & Flu?",
-      "OTC Cold & Flu vila enthu?",
-      "OTC Cold & Flu rate?",
-      "Is OTC Cold & Flu available?",
-      "OTC Cold & Flu undo?",
-      "What is OTC Cold & Flu?",
-      "OTC Cold & Flu enthu aanu?"
-    ],
-    "answer": "OTC Cold & Flu — ₹20 – ₹150 (Vicks, Otrivin, Nasivion, Dolo 650, Crocin, Combiflam,\nSinarest). WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_surgical_items",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Surgical Items?",
-      "Price of Surgical Items?",
-      "Surgical Items vila enthu?",
-      "Surgical Items rate?",
-      "Is Surgical Items available?",
-      "Surgical Items undo?",
-      "What is Surgical Items?",
-      "Surgical Items enthu aanu?"
-    ],
-    "answer": "Surgical Items — ₹15 – ₹500 (Crepe bandage, gauze, cotton, syringes, gloves,\nthermometers, nebuliser masks). WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_medical_equipment",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Medical Equipment?",
-      "Price of Medical Equipment?",
-      "Medical Equipment vila enthu?",
-      "Medical Equipment rate?",
-      "Is Medical Equipment available?",
-      "Medical Equipment undo?",
-      "What is Medical Equipment?",
-      "Medical Equipment enthu aanu?"
-    ],
-    "answer": "Medical Equipment — ₹800 – ₹4,500 (BP monitors (Omron, Rossmax), Glucose meters\n(Accu-Chek, OneTouch, SD Codefree)). WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_nebulisers",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Nebulisers?",
-      "Price of Nebulisers?",
-      "Nebulisers vila enthu?",
-      "Nebulisers rate?",
-      "Is Nebulisers available?",
-      "Nebulisers undo?",
-      "What is Nebulisers?",
-      "Nebulisers enthu aanu?"
-    ],
-    "answer": "Nebulisers — ₹1,200 – ₹4,000 (Omron, Romsons, Dr. Odin - compressor and mesh type). WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_orthopaedic_supports",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Orthopaedic Supports?",
-      "Price of Orthopaedic Supports?",
-      "Orthopaedic Supports vila enthu?",
-      "Orthopaedic Supports rate?",
-      "Is Orthopaedic Supports available?",
-      "Orthopaedic Supports undo?",
-      "What is Orthopaedic Supports?",
-      "Orthopaedic Supports enthu aanu?"
-    ],
-    "answer": "Orthopaedic Supports — ₹250 – ₹2,000 (Knee brace, ankle support, lumbar belt, cervical collar,\nwrist splint - Tynor brand). WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_eye___ear___dental",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Eye / Ear / Dental?",
-      "Price of Eye / Ear / Dental?",
-      "Eye / Ear / Dental vila enthu?",
-      "Eye / Ear / Dental rate?",
-      "Is Eye / Ear / Dental available?",
-      "Eye / Ear / Dental undo?",
-      "What is Eye / Ear / Dental?",
-      "Eye / Ear / Dental enthu aanu?"
-    ],
-    "answer": "Eye / Ear / Dental — ₹30 – ₹400 (Eye drops, ear drops, mouthwash, toothpaste for\nsensitivity, dental floss). WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_feminine_hygiene",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Feminine Hygiene?",
-      "Price of Feminine Hygiene?",
-      "Feminine Hygiene vila enthu?",
-      "Feminine Hygiene rate?",
-      "Is Feminine Hygiene available?",
-      "Feminine Hygiene undo?",
-      "What is Feminine Hygiene?",
-      "Feminine Hygiene enthu aanu?"
-    ],
-    "answer": "Feminine Hygiene — ₹40 – ₹350 (Whisper, Stayfree, Sofy, Carefree, Everteen intimate\nwash). WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_condoms___family_planning",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Condoms / Family Planning?",
-      "Price of Condoms / Family Planning?",
-      "Condoms / Family Planning vila enthu?",
-      "Condoms / Family Planning rate?",
-      "Is Condoms / Family Planning available?",
-      "Condoms / Family Planning undo?",
-      "What is Condoms / Family Planning?",
-      "Condoms / Family Planning enthu aanu?"
-    ],
-    "answer": "Condoms / Family Planning — ₹50 – ₹350 (Durex, Manforce, Skore, i-pill, Unwanted-72, Copper-T\nguidance). WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_diabetes__type_2_",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Diabetes (Type 2)?",
-      "Price of Diabetes (Type 2)?",
-      "Diabetes (Type 2) vila enthu?",
-      "Diabetes (Type 2) rate?",
-      "Is Diabetes (Type 2) available?",
-      "Diabetes (Type 2) undo?"
-    ],
-    "answer": "Diabetes (Type 2) — ₹280. WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_hypertension",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Hypertension?",
-      "Price of Hypertension?",
-      "Hypertension vila enthu?",
-      "Hypertension rate?",
-      "Is Hypertension available?",
-      "Hypertension undo?"
-    ],
-    "answer": "Hypertension — ₹140. WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_high_cholesterol",
-    "category": "pricing",
-    "question_variants": [
-      "How much is High Cholesterol?",
-      "Price of High Cholesterol?",
-      "High Cholesterol vila enthu?",
-      "High Cholesterol rate?",
-      "Is High Cholesterol available?",
-      "High Cholesterol undo?"
-    ],
-    "answer": "High Cholesterol — ₹180. WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_thyroid",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Thyroid?",
-      "Price of Thyroid?",
-      "Thyroid vila enthu?",
-      "Thyroid rate?",
-      "Is Thyroid available?",
-      "Thyroid undo?"
-    ],
-    "answer": "Thyroid — ₹38 – ₹50. WhatsApp +91 98765 55555 for details."
-  },
-  {
-    "id": "item_acid_reflux",
-    "category": "pricing",
-    "question_variants": [
-      "How much is Acid Reflux?",
-      "Price of Acid Reflux?",
-      "Acid Reflux vila enthu?",
-      "Acid Reflux rate?",
-      "Is Acid Reflux available?",
-      "Acid Reflux undo?"
-    ],
-    "answer": "Acid Reflux — ₹45. WhatsApp +91 98765 55555 for details."
+    "answer": "GENERIC MEDICINE SAVINGS EXAMPLES medicines:\n• Supradyn, Becosules, Shelcal — ₹50 – ₹600\n• Bournvita, Health Tone — ₹200 – ₹1,200\n• Sebamed, Avene — ₹100 – ₹1,500\n• Himalaya, Patanjali — ₹50 – ₹800\n• Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked — ₹60 – ₹500\n• Sinarest — ₹20 – ₹150\n• Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type — ₹1,200 – ₹4,000"
   },
   {
     "id": "item_etoricoxib__tramadol__ketorola",
@@ -2211,6 +1379,19 @@
     "answer": "Himalaya, Patanjali — ₹50 – ₹800. WhatsApp +91 98765 55555 for details."
   },
   {
+    "id": "item_homeopathy___sbl__dr__reckeweg",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked?",
+      "Price of Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked?",
+      "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked vila enthu?",
+      "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked rate?",
+      "Is Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked available?",
+      "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked undo?"
+    ],
+    "answer": "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked — ₹60 – ₹500. WhatsApp +91 98765 55555 for details."
+  },
+  {
     "id": "item_sinarest",
     "category": "pricing",
     "question_variants": [
@@ -2222,5 +1403,18 @@
       "Sinarest undo?"
     ],
     "answer": "Sinarest — ₹20 – ₹150. WhatsApp +91 98765 55555 for details."
+  },
+  {
+    "id": "item_nebulisers___omron__romsons__d",
+    "category": "pricing",
+    "question_variants": [
+      "How much is Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type?",
+      "Price of Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type?",
+      "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type vila enthu?",
+      "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type rate?",
+      "Is Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type available?",
+      "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type undo?"
+    ],
+    "answer": "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type — ₹1,200 – ₹4,000. WhatsApp +91 98765 55555 for details."
   }
 ]

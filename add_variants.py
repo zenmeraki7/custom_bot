@@ -397,7 +397,19 @@ import argparse
 import json
 import re
 import shutil
+import sys
 from pathlib import Path
+
+# Windows consoles can default to CP1252, while this script's progress output
+# contains Malayalam-friendly emoji. Avoid failing before any variants run.
+# Some stdout implementations (e.g. text streams in some IDEs) do not expose
+# reconfigure(), so guard it before calling.
+reconfigure = getattr(sys.stdout, "reconfigure", None)
+if callable(reconfigure):
+    try:
+        reconfigure(encoding="utf-8", errors="replace")
+    except (AttributeError, OSError, ValueError):
+        pass
 
 SHOPS_DIR = Path("shops")
 
@@ -684,38 +696,56 @@ def _generate_variants(faq: dict, category: str, existing: set[str]) -> list[str
 
 # ── Item FAQ auto-generation from shop_items.json ─────────────────────────────
 
-def _generate_item_faqs(items: list[dict], existing_questions: set[str]) -> list[dict]:
+def _customer_facing_name(item: dict) -> str:
+    """Use a product category for questions when ``name`` is a brand list."""
+    name = str(item.get("name") or "").strip()
+    category = str(item.get("category") or "").strip()
+    is_brand_list = len(name) > 35 and ("," in name or "|" in name)
+    return category if category and is_brand_list else name
+
+
+def _generate_item_faqs(
+    items: list[dict], existing_questions: set[str], existing_ids: set[str] | None = None,
+) -> list[dict]:
     """
     For each item in shop_items.json, generate availability + price FAQs
     if not already covered in shop_faq.json.
     """
     new_faqs: list[dict] = []
+    existing_ids = existing_ids or set()
     seen_items: set[str] = set()
 
     for item in items:
         name = (item.get("name") or "").strip()
-        if not name or name.lower() in seen_items:
+        customer_name = _customer_facing_name(item)
+        if not name or not customer_name or customer_name.lower() in seen_items:
             continue
-        seen_items.add(name.lower())
+        seen_items.add(customer_name.lower())
 
+        # Keep the existing numeric price payload for legacy answer templates;
+        # the customer-facing query phrase above is independent of pricing.
         price = item.get("price") or item.get("price_min") or ""
         category = item.get("category") or "general"
 
-        # Skip if already covered
-        avail_check = f"{name.lower()} undo"
-        price_check = f"{name.lower()} price"
-        if avail_check in existing_questions and price_check in existing_questions:
+        item_id = re.sub(r'[^a-z0-9]', '_', customer_name.lower())
+        avail_id = f"item_{item_id}_avail"
+        price_id = f"item_{item_id}_price"
+
+        # IDs are stable across generated phrasing changes. The previous
+        # string check looked for phrases not present in question_variants,
+        # causing every run to re-add the same item FAQs.
+        if avail_id in existing_ids and (not price or price_id in existing_ids):
             continue
 
         avail_variants = [
-            f"{name} indo?", f"{name} undo?", f"{name} kittumo?",
-            f"{name} available aano?", f"{name} und?",
-            f"Do you have {name}?", f"Is {name} available?",
+            f"{customer_name} indo?", f"{customer_name} undo?", f"{customer_name} kittumo?",
+            f"{customer_name} available aano?", f"{customer_name} und?",
+            f"Do you have {customer_name}?", f"Is {customer_name} available?",
         ]
         price_variants = [
-            f"{name} price ethra?", f"{name} ethranu?",
-            f"{name} vila ethra?", f"How much is {name}?",
-            f"{name} cost enthu?",
+            f"{customer_name} price ethra?", f"{customer_name} ethranu?",
+            f"{customer_name} vila ethra?", f"How much is {customer_name}?",
+            f"{customer_name} cost enthu?",
         ]
 
         # Availability FAQ
@@ -723,8 +753,9 @@ def _generate_item_faqs(items: list[dict], existing_questions: set[str]) -> list
             f"Price ₹{price}. " if price else ""
         ) + "Kooduthal ariyaan WhatsApp cheyyuka {whatsapp} 😊"
 
-        new_faqs.append({
-            "id": f"item_{re.sub(r'[^a-z0-9]', '_', name.lower())}_avail",
+        if avail_id not in existing_ids:
+            new_faqs.append({
+            "id": avail_id,
             "category": category,
             "question_variants": avail_variants,
             "answer": f"Yes, {name} is available!" + (f" Price: ₹{price}." if price else "") +
@@ -732,12 +763,12 @@ def _generate_item_faqs(items: list[dict], existing_questions: set[str]) -> list
             "answer_ml": avail_answer,
             "lang": "english_manglish",
             "source": "auto_generated",
-        })
+            })
 
         # Price FAQ (only if price is known)
-        if price:
+        if price and price_id not in existing_ids:
             new_faqs.append({
-                "id": f"item_{re.sub(r'[^a-z0-9]', '_', name.lower())}_price",
+                "id": price_id,
                 "category": category,
                 "question_variants": price_variants,
                 "answer": f"{name} costs ₹{price}. WhatsApp us for the full menu: {{whatsapp}} 😊",
@@ -747,6 +778,42 @@ def _generate_item_faqs(items: list[dict], existing_questions: set[str]) -> list
             })
 
     return new_faqs
+
+
+def deduplicate_exact_item_faqs(slug: str, dry_run: bool = False) -> int:
+    """Remove only byte-for-byte identical duplicate generated item FAQs.
+
+    Entries with the same ID but different content are retained for manual
+    review; this cleanup never discards a potentially intentional FAQ.
+    """
+    faq_path = SHOPS_DIR / slug / "shop_faq.json"
+    if not faq_path.exists():
+        print(f"FAQ file not found: {faq_path}")
+        return 0
+
+    faqs = json.loads(faq_path.read_text(encoding="utf-8"))
+    retained: list[dict] = []
+    first_by_id: dict[str, dict] = {}
+    removed = 0
+    for faq in faqs:
+        faq_id = str(faq.get("id") or "")
+        if faq_id.startswith("item_") and faq_id in first_by_id:
+            if faq == first_by_id[faq_id]:
+                removed += 1
+                continue
+        else:
+            first_by_id[faq_id] = faq
+        retained.append(faq)
+
+    print(f"{slug}: {removed} exact duplicate item FAQ(s) found")
+    if removed and not dry_run:
+        backup = faq_path.with_suffix(".json.dedupe.bak")
+        shutil.copy(faq_path, backup)
+        faq_path.write_text(json.dumps(retained, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"Removed {removed}; backup saved to {backup}")
+    elif dry_run:
+        print("[DRY RUN] - nothing written")
+    return removed
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -807,7 +874,8 @@ def run(slug: str, dry_run: bool = False) -> None:
             print(f"  ✅ [{category}] +{len(new_vars)} variants → \"{faq.get('q') or faq.get('question', '')}\"")
 
     # Pass 2: auto-generate item FAQs
-    new_item_faqs = _generate_item_faqs(items, existing_qs)
+    existing_ids = {str(faq.get("id") or "") for faq in faqs}
+    new_item_faqs = _generate_item_faqs(items, existing_qs, existing_ids)
     if new_item_faqs:
         faqs = new_item_faqs + faqs   # prepend so Pass 0 sees them first
         print(f"\n  ✅ Auto-generated {len(new_item_faqs)} item FAQs from shop_items.json")
@@ -848,5 +916,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Auto-expand shop_faq.json variants")
     parser.add_argument("--slug",    required=True, help="Shop slug (e.g. hey-foodie)")
     parser.add_argument("--dry-run", action="store_true", help="Preview without writing")
+    parser.add_argument("--deduplicate-only", action="store_true",
+                        help="Remove only exact duplicate auto-generated item FAQs")
     args = parser.parse_args()
-    run(args.slug, dry_run=args.dry_run)
+    if args.deduplicate_only:
+        deduplicate_exact_item_faqs(args.slug, dry_run=args.dry_run)
+    else:
+        run(args.slug, dry_run=args.dry_run)

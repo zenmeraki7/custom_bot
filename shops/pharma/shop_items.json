@@ -1,56 +1,269 @@
 [
   {
+    "name": "All major brands - Sun Pharma, Cipla, Dr. Reddys, Lupin,\nAbbott, Mankind, Alkem, Zydus, Torrent, Intas",
+    "category": "Prescription Medicines",
+    "gender": "all"
+  },
+  {
+    "name": "Jan Aushadhi, Rajasthan Drugs, Alkem Generics, Cipla\nGeneric, Mankind Generics - up to 80% cheaper",
+    "category": "OTC Medicines",
+    "gender": "all"
+  },
+  {
+    "name": "Amoxicillin, Azithromycin, Ciprofloxacin, Metronidazole,\nCephalexin, Doxycycline",
+    "category": "OTC Medicines",
+    "gender": "all"
+  },
+  {
+    "name": "Metformin, Glimepiride, Sitagliptin, Vildagliptin,\nDapagliflozin, Insulin (all types)",
+    "category": "Prescription Medicines",
+    "price_min": 90,
+    "price_max": 1200,
+    "gender": "all"
+  },
+  {
+    "name": "Amlodipine, Telmisartan, Atenolol, Losartan, Ramipril,\nAtorvastatin, Rosuvastatin",
+    "category": "Prescription Medicines",
+    "price_min": 80,
+    "price_max": 900,
+    "gender": "all"
+  },
+  {
+    "name": "Thyroxine (25mcg, 50mcg, 75mcg, 100mcg) - all\nstrengths",
+    "category": "OTC Medicines",
+    "price_min": 40,
+    "price_max": 120,
+    "gender": "all"
+  },
+  {
+    "name": "Diclofenac, Ibuprofen, Naproxen, Aceclofenac,\nEtoricoxib, Tramadol, Ketorolac",
+    "category": "OTC Medicines",
+    "price_min": 30,
+    "price_max": 200,
+    "gender": "all"
+  },
+  {
+    "name": "Omeprazole, Pantoprazole, Rabeprazole, Domperidone,\nOndansetron, Ranitidine",
+    "category": "Prescription Medicines",
+    "price_min": 25,
+    "price_max": 180,
+    "gender": "all"
+  },
+  {
+    "name": "Vitamin C, D, B12, Zinc, Calcium, Multivitamins - Revital,\nSupradyn, Becosules, Shelcal",
+    "category": "Vitamins",
+    "price_min": 50,
+    "price_max": 600,
+    "gender": "all"
+  },
+  {
+    "name": "Protinex, Ensure, Pediasure, Horlicks, Complan,\nBournvita, Health Tone",
+    "category": "Vitamins",
+    "price_min": 200,
+    "price_max": 1200,
+    "gender": "all"
+  },
+  {
+    "name": "Pampers, Huggies, MamyPoko Diapers - all sizes;\nJohnson & Johnson Baby Care range",
+    "category": "Baby Care",
+    "gender": "all"
+  },
+  {
+    "name": "Nestle Nan Pro, Similac, Dexolac, Farex, Cerelac (all\nstages)",
+    "category": "Baby Care",
+    "price_min": 400,
+    "price_max": 1400,
+    "gender": "all"
+  },
+  {
+    "name": "CeraVe, Cetaphil, Lotus, VLCC, Himalaya, Bioderma,\nSebamed, Avene",
+    "category": "Personal Care",
+    "price_min": 100,
+    "price_max": 1500,
+    "gender": "all"
+  },
+  {
+    "name": "Dabur, Baidyanath, Kottakkal Arya Vaidya Sala,\nHimalaya, Patanjali",
+    "category": "OTC Medicines",
+    "price_min": 50,
+    "price_max": 800,
+    "gender": "all"
+  },
+  {
+    "name": "SBL, Dr. Reckeweg, Schwabe - full range stocked",
+    "category": "OTC Medicines",
+    "price_min": 60,
+    "price_max": 500,
+    "gender": "all"
+  },
+  {
+    "name": "Vicks, Otrivin, Nasivion, Dolo 650, Crocin, Combiflam,\nSinarest",
+    "category": "OTC Medicines",
+    "price_min": 20,
+    "price_max": 150,
+    "gender": "all"
+  },
+  {
+    "name": "Crepe bandage, gauze, cotton, syringes, gloves,\nthermometers, nebuliser masks",
+    "category": "Surgical Supplies",
+    "price_min": 15,
+    "price_max": 500,
+    "gender": "all"
+  },
+  {
+    "name": "BP monitors (Omron, Rossmax), Glucose meters\n(Accu-Chek, OneTouch, SD Codefree)",
+    "category": "Devices",
+    "price_min": 800,
+    "price_max": 4500,
+    "gender": "all"
+  },
+  {
+    "name": "Omron, Romsons, Dr. Odin - compressor and mesh type",
+    "category": "Devices",
+    "price_min": 1200,
+    "price_max": 4000,
+    "gender": "all"
+  },
+  {
+    "name": "Knee brace, ankle support, lumbar belt, cervical collar,\nwrist splint - Tynor brand",
+    "category": "Devices",
+    "price_min": 250,
+    "price_max": 2000,
+    "gender": "all"
+  },
+  {
+    "name": "Eye drops, ear drops, mouthwash, toothpaste for\nsensitivity, dental floss",
+    "category": "Personal Care",
+    "price_min": 30,
+    "price_max": 400,
+    "gender": "all"
+  },
+  {
+    "name": "Whisper, Stayfree, Sofy, Carefree, Everteen intimate\nwash",
+    "category": "Personal Care",
+    "price_min": 40,
+    "price_max": 350,
+    "gender": "all"
+  },
+  {
+    "name": "Durex, Manforce, Skore, i-pill, Unwanted-72, Copper-T\nguidance",
+    "category": "OTC Medicines",
+    "price_min": 50,
+    "price_max": 350,
+    "gender": "all"
+  },
+  {
+    "name": "Oncology, Nephrology, Psychiatry - cold-chain\nmaintained, available on order",
+    "category": "OTC Medicines",
+    "gender": "all"
+  },
+  {
+    "name": "Diabetes (Type 2)",
+    "category": "OTC Medicines",
+    "price": 280,
+    "gender": "all"
+  },
+  {
+    "name": "Hypertension",
+    "category": "OTC Medicines",
+    "price": 140,
+    "gender": "all"
+  },
+  {
+    "name": "High Cholesterol",
+    "category": "OTC Medicines",
+    "price": 180,
+    "gender": "all"
+  },
+  {
+    "name": "Thyroid",
+    "category": "OTC Medicines",
+    "price_min": 38,
+    "price_max": 50,
+    "gender": "all"
+  },
+  {
+    "name": "Acid Reflux",
+    "category": "OTC Medicines",
+    "price": 45,
+    "gender": "all"
+  },
+  {
+    "name": "How to Order",
+    "category": "OTC Medicines",
+    "gender": "all"
+  },
+  {
+    "name": "Prescription",
+    "category": "Prescription Medicines",
+    "gender": "all"
+  },
+  {
+    "name": "Cold Chain Items",
+    "category": "OTC Medicines",
+    "gender": "all"
+  },
+  {
     "name": "Etoricoxib, Tramadol, Ketorolac",
     "price_min": 30,
     "price_max": 200,
-    "category": "Thyroid Medicines"
+    "category": "OTC Medicines",
+    "gender": "all"
   },
   {
     "name": "Ondansetron, Ranitidine",
     "price_min": 25,
     "price_max": 180,
-    "category": "Thyroid Medicines"
+    "category": "OTC Medicines",
+    "gender": "all"
   },
   {
     "name": "Supradyn, Becosules, Shelcal",
     "price_min": 50,
     "price_max": 600,
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES"
+    "category": "OTC Medicines",
+    "gender": "all"
   },
   {
     "name": "Bournvita, Health Tone",
     "price_min": 200,
     "price_max": 1200,
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES"
+    "category": "Vitamins",
+    "gender": "all"
   },
   {
     "name": "Sebamed, Avene",
     "price_min": 100,
     "price_max": 1500,
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES"
+    "category": "Personal Care",
+    "gender": "all"
   },
   {
     "name": "Himalaya, Patanjali",
     "price_min": 50,
     "price_max": 800,
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES"
+    "category": "OTC Medicines",
+    "gender": "all"
   },
   {
     "name": "Homeopathy | SBL, Dr. Reckeweg, Schwabe - full range stocked",
     "price_min": 60,
     "price_max": 500,
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES"
+    "category": "OTC Medicines",
+    "gender": "all"
   },
   {
     "name": "Sinarest",
     "price_min": 20,
     "price_max": 150,
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES"
+    "category": "OTC Medicines",
+    "gender": "all"
   },
   {
     "name": "Nebulisers | Omron, Romsons, Dr. Odin - compressor and mesh type",
     "price_min": 1200,
     "price_max": 4000,
-    "category": "GENERIC MEDICINE SAVINGS EXAMPLES"
+    "category": "Devices",
+    "gender": "all"
   }
 ]

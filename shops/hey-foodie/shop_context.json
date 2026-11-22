@@ -1,7 +1,7 @@
 {
   "shop_name": "Spice Garden Restaurant",
   "shop_type": "restaurant",
-  "location": "Address Ground Floor, Edappally Junction, Near Lulu Mall, Edappally, Kochi - 682024",
+  "location": "Ground Floor, Edappally Junction, Near Lulu Mall, Edappally, Kochi - 682024",
   "phone": "+91 98765 44444",
   "hours": "Monday - Sunday 11:00 AM - 10:00 PM",
   "offer_code": "SPICE10",
@@ -278,6 +278,7 @@
     "Breakfast (Weekend) — Saturday & Sunday 8:00 AM - 11:00 AM (Kerala breakfast specials)",
     "Last Order — 9:30 PM (dine-in) | 9:45 PM (delivery)",
     "Home Delivery Hours — 11:00 AM - 9:45 PM daily",
+    "Delivery Charge Below Rs.300 — Rs. 30 flat",
     "Delivery Time — 30-45 minutes (peak hours may take up to 60 min)",
     "Delivery Zone — All Kochi & Ernakulam - Edappally, Kakkanad, Palarivattom, Vyttila,\nFort Kochi, Tripunithura, Aluva, Perumbavoor, Kaloor",
     "Order via — WhatsApp +91 98765 44444 | Zomato | Swiggy",
@@ -286,6 +287,7 @@
     "Bulk Order — 10% discount on catering orders above Rs. 10,000",
     "Offer Code SPICE10 — 10% off on first online order (WhatsApp / Zomato / Swiggy)",
     "Happy Hours Offer — Monday-Thursday 3PM-6PM: 15% off on biryani & meals",
+    "Family Pack Deal — Veg Meals x4 + 4 soft drinks = Rs. 550 (saves Rs. 110)",
     "Weekend Breakfast — Saturday & Sunday 8AM-11AM - Puttu, Appam, Idiyappam, Porridge\nspecials",
     "Loyalty Card — Visit 10 times - get 1 free full meals for 2 (stamp card available at\ncounter)"
   ]

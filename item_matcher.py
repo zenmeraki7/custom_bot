@@ -32,7 +32,7 @@ from __future__ import annotations
 import re
 from typing import Optional
 
-from broad_query_patterns import BROAD_QUERY_PATTERNS, is_broad_query
+from broad_query_patterns import BROAD_QUERY_PATTERNS
 
 # ── Scoring weights ────────────────────────────────────────────────────────────
 _EXACT_NAME_SCORE    = 3.0   # token exactly in item name
@@ -110,6 +110,7 @@ _CATEGORY_SYNONYMS: dict[str, set[str]] = {
     "tea":           {"chai"},
     "chaya":         {"chai"},
     "chayya":        {"chai"},
+    "beverages":     {"drinks", "drink", "beverage"},
 }
 
 # category_list_lookup() works on the item NAME text directly (see the
@@ -270,7 +271,7 @@ def find_matching_items(
 
     # Block broad queries — route to FAQ/WhatsApp instead
     q_low = query.lower()
-    if is_broad_query(q_low):
+    if any(p in q_low for p in BROAD_QUERY_PATTERNS):
         return []
 
     query = _normalize_query(query)
@@ -514,6 +515,47 @@ def _bare_category_keyword(query: str) -> str | None:
     return toks[0] if len(toks) == 1 else None
 
 
+# Reverse lookup: synonym word -> its category label (e.g. "drinks" ->
+# "beverages"). Built once from _CATEGORY_SYNONYMS above.
+_SYNONYM_TO_CATEGORY: dict[str, str] = {}
+for _label, _syns in _CATEGORY_SYNONYMS.items():
+    for _s in _syns:
+        _SYNONYM_TO_CATEGORY.setdefault(_s, _label)
+
+
+def _extract_category_field_keyword(query: str, items: list) -> str:
+    """Fallback for when the query's keyword doesn't literally appear in
+    any item NAME (e.g. "seafood"/"beverages" -- real category labels from
+    the shop's own PDF section headers like "KERALA SPECIALS & SEAFOOD",
+    but not words embedded in individual item names like "Crab Masala" or
+    "Masala Chai"). Matches against each item's CATEGORY field instead,
+    also trying the category label a query word is a known synonym for
+    (e.g. "drinks" -> "beverages", via _CATEGORY_SYNONYMS) so a genuine
+    synonym of the PDF's own wording still resolves. Kept as a fallback,
+    not the primary path: category fields can be too coarse for some shops
+    (e.g. everything tagged one generic category), so this only fires
+    after the more precise name-based match has already come up thin."""
+    query = _normalize_query(query)
+    q_toks = [t for t in re.sub(r"[^\w\s]", " ", query.lower()).split()
+              if t not in _CAT_STOPWORDS and len(t) > 2]
+    if not q_toks:
+        return ""
+    cat_words: set = set()
+    for it in items:
+        for w in re.sub(r"[^\w\s]", " ", (it.get("category") or "").lower()).split():
+            if len(w) > 2:
+                cat_words.add(w)
+    for t in q_toks:
+        candidates = [t, t[:-1]] if t.endswith("s") else [t]
+        _mapped = _SYNONYM_TO_CATEGORY.get(t) or _SYNONYM_TO_CATEGORY.get(t.rstrip("s"))
+        if _mapped:
+            candidates.extend(_mapped.split())
+        for c in candidates:
+            if c in cat_words:
+                return c
+    return ""
+
+
 def category_list_lookup(query: str, items: list, lang: str = "english"):
     """If the query asks for ALL of a category, return the full formatted list.
     Returns reply string, or None if not a breadth/category query."""
@@ -525,21 +567,37 @@ def category_list_lookup(query: str, items: list, lang: str = "english"):
         _bare = _bare_category_keyword(query)
         if not _bare:
             return None
+
     keyword = _bare or _extract_category_keyword(query, items)
-    if not keyword:
-        return None
-    keyword = _normalize_query(keyword)  # fix: biriyani->biryani etc before regex
-    # "Non-Veg" contains "Veg" right after the hyphen, and a hyphen IS a
-    # regex word boundary -- so a bare \bveg\b falsely matches inside
-    # "Non-Veg" and pollutes a vegetarian customer's "veg" list. Exclude
-    # any match immediately preceded by "non-"/"non " (case-insensitive).
-    _kw_re = re.compile(r"(?<!non[- ])\b" + re.escape(keyword), re.IGNORECASE)
-    matched = [it for it in items if _kw_re.search(it.get("name", ""))]
-    if _bare and len(matched) < 2:
-        return None   # single/zero match: let normal item_lookup answer it
-    if len(matched) < 2:
-        return None
-    return format_items_reply(matched, lang, query_noun=keyword, show_price=True)
+    if keyword:
+        _norm_kw = _normalize_query(keyword)
+        _kw_re = re.compile(r"(?<!non[- ])\b" + re.escape(_norm_kw), re.IGNORECASE)
+        matched = [it for it in items if _kw_re.search(it.get("name", ""))]
+        if len(matched) >= 2:
+            return format_items_reply(matched, lang, query_noun=_norm_kw, show_price=True)
+
+    # FIX (shop-type-agnostic -- applies to any category label a PDF's own
+    # section headers define, for any shop type): name-based matching above
+    # found nothing, or too few items, to treat as a full category listing.
+    # E.g. "drinks"/"beverages"/"seafood" are real category labels (from
+    # headers like "SOUPS, STARTERS & BEVERAGES"), but rarely appear inside
+    # the individual items' own NAMES ("Masala Chai", "Crab Masala"). Without
+    # this, "drinks enthoke und" fell through to normal item-scoring, which
+    # picked up the one coincidental partial name match ("Soft Drinks") and
+    # answered as if that were the whole category -- instead of listing all
+    # 10+ real beverage items. Falling back to the item's CATEGORY field
+    # (with synonym mapping via _extract_category_field_keyword) catches
+    # these. Kept as a fallback, not the primary path, since category
+    # fields can be too coarse for some shops.
+    _field_kw = _extract_category_field_keyword(query, items)
+    if _field_kw:
+        _norm_field_kw = _normalize_query(_field_kw)
+        _field_re = re.compile(r"(?<!non[- ])\b" + re.escape(_norm_field_kw), re.IGNORECASE)
+        _field_matched = [it for it in items if _field_re.search(it.get("category", ""))]
+        if len(_field_matched) >= 2:
+            return format_items_reply(_field_matched, lang, query_noun=_norm_field_kw, show_price=True)
+
+    return None
 
 
 def item_lookup(

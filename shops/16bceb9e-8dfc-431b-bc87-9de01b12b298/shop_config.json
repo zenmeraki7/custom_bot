@@ -1,0 +1,22 @@
+{
+  "bot_name": "Assistant",
+  "shop_name": "Our Shop",
+  "shop_type": "general",
+  "contact": {},
+  "hours": {},
+  "escalate": {},
+  "escalate_topics": [
+    "fraud",
+    "refund",
+    "complaint"
+  ],
+  "blocked_topics": [],
+  "quick_chips": [],
+  "welcome_cards": [],
+  "item_count": 82,
+  "shop_gender": "all",
+  "specialisation": null,
+  "allowed_categories": [],
+  "is_veg": false,
+  "dietary_mode": null
+}

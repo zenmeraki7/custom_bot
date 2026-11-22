@@ -47,6 +47,25 @@ _STOPWORDS = {
     "ningal", "ippo", "okke", "sheri",
 }
 
+# Words too generic, across EVERY shop type, to count as proof a chunk
+# actually answers the question -- they're the category-noun, not the
+# specific thing being asked about. Without this, "mens nu treatment
+# undo" (asking specifically about a men's treatment) shared only the
+# word "treatment" with an unrelated "Smoothing treatment ₹1200..."
+# chunk, cleared the token-overlap gate below on that alone, and got
+# confidently answered as if smoothing WAS the men's treatment. Same
+# failure shape as the masala/medicine cases already noted above, just
+# not caught because "treatment" (unlike "masala") wasn't flagged as
+# generic. Kept separate from _STOPWORDS because these words carry real
+# meaning in general English -- they're just too broad to serve as
+# retrieval evidence on their own.
+_GENERIC_DOMAIN_WORDS = {
+    "treatment", "treatments", "service", "services", "item", "items",
+    "product", "products", "package", "packages", "plan", "plans",
+    "option", "options", "thing", "things", "price", "prices", "cost",
+    "menu", "list", "details", "detail",
+}
+
 _embedder = None
 _embedder_loaded = False
 
@@ -142,10 +161,41 @@ def _retrieve_chunks_keyword(question: str, ctx: dict, top_k: int = _TOP_K) -> L
 
 
 def _retrieve_chunks(question: str, ctx: dict, top_k: int = _TOP_K) -> List[tuple]:
-    result = _retrieve_chunks_semantic(question, ctx, top_k)
-    if result:
-        return result
-    return _retrieve_chunks_keyword(question, ctx, top_k)
+    """Hybrid retrieval: score EVERY chunk both ways and keep whichever
+    score is higher per chunk, instead of "semantic OR keyword".
+
+    The previous version only fell back to keyword matching when semantic
+    search returned nothing at all. That's too narrow: for romanized
+    Manglish text (which the embedder mostly wasn't trained on), semantic
+    search still RUNS and returns a non-empty ranked list, just a weakly
+    discriminative one — so keyword matching never got a chance, even
+    though English loanwords embedded in a Manglish sentence ("location",
+    "GPay", "delivery", a proper noun) would often nail the right chunk
+    via plain word overlap. Taking the max of both signals per chunk means
+    a strong keyword hit can still surface the right chunk even when the
+    semantic embedding for that sentence is mediocre, while a genuinely
+    good semantic paraphrase match (zero literal word overlap) still wins
+    on its own merit.
+    """
+    chunks = ctx.get("chunks", [])
+    if not chunks:
+        return []
+
+    sem_ranked = _retrieve_chunks_semantic(question, ctx, top_k=len(chunks))
+    sem_scores = {c: s for c, s in sem_ranked}
+
+    kw_ranked = _retrieve_chunks_keyword(question, ctx, top_k=len(chunks))
+    kw_scores = {c: s for c, s in kw_ranked}
+
+    if not sem_scores and not kw_scores:
+        return []
+
+    combined = [
+        (c, max(sem_scores.get(c, 0.0), kw_scores.get(c, 0.0)))
+        for c in chunks
+    ]
+    combined.sort(key=lambda x: x[1], reverse=True)
+    return combined[:top_k]
 
 
 def _build_soft_fallback(shop_name: str, whatsapp: str, lang: str) -> str:
@@ -284,7 +334,22 @@ def rag_answer(question: str, slug: str | None, lang: str = "english",
     # A chunk that clears the semantic bar but shares zero actual words
     # with the query is exactly the "sounds related, isn't" case that
     # caused the wrong-medicine answers.
-    if not (_tokenise(question) & _tokenise(scored_chunks[0][0])):
+    q_tokens = _tokenise(question)
+    top_chunk_tokens = _tokenise(scored_chunks[0][0])
+    if not (q_tokens & top_chunk_tokens):
+        return _build_soft_fallback(shop_name, whatsapp, lang)
+
+    # Stricter pass: if the question has at least one MEANINGFUL
+    # (non-generic) word, require the overlap to include one of those,
+    # not just a shared generic domain noun ("treatment"/"service"/
+    # "item"/...). A generic-only overlap is exactly the "sounds
+    # related, isn't" case — see _GENERIC_DOMAIN_WORDS above. Only
+    # applies when the question actually HAS a non-generic word to
+    # check against; a question that's ALL generic words ("treatment
+    # undo?") has nothing stricter to require, so it falls back to the
+    # looser check already passed above.
+    q_specific = q_tokens - _GENERIC_DOMAIN_WORDS
+    if q_specific and not (q_specific & top_chunk_tokens):
         return _build_soft_fallback(shop_name, whatsapp, lang)
 
     payment_str = ", ".join(ctx.get("payment", [])) if ctx.get("payment") else ""

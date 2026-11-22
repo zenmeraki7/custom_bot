@@ -2,63 +2,63 @@
   {
     "name": "Haircut - Women (Short)",
     "category": "Hair Spa",
-    "description": "30 min",
+    "description": "Trim + styling, below ear length",
     "price": 200,
     "gender": "all"
   },
   {
     "name": "Haircut - Men (Basic)",
     "category": "Hair Spa",
-    "description": "20 min",
+    "description": "Clipper cut, basic trim",
     "price": 100,
     "gender": "all"
   },
   {
     "name": "Kids Haircut (Below 10)",
     "category": "Hair Spa",
-    "description": "20 min",
+    "description": "Boys and girls up to age 10",
     "price": 150,
     "gender": "all"
   },
   {
     "name": "Hair Wash & Blow Dry",
     "category": "Hair Spa",
-    "description": "30 min",
+    "description": "Shampoo + conditioner + blowout",
     "price": 250,
     "gender": "all"
   },
   {
     "name": "Straightening (Iron)",
     "category": "Hair Spa",
-    "description": "45 min",
+    "description": "Temporary straightening with heat protection",
     "price": 300,
     "gender": "all"
   },
   {
     "name": "Smoothing Treatment",
     "category": "Hair Spa",
-    "description": "90 min",
+    "description": "L'Oreal or Wella smoothing, lasts 6-8 weeks",
     "price": 1200,
     "gender": "all"
   },
   {
     "name": "Keratin Treatment - Short",
     "category": "Hair Spa",
-    "description": "2.5 hrs",
+    "description": "GK Hair or Schwarzkopf, lasts 4-6 months",
     "price": 2500,
     "gender": "all"
   },
   {
     "name": "Keratin Treatment - Medium",
     "category": "Hair Spa",
-    "description": "3 hrs",
+    "description": "GK Hair or Schwarzkopf, lasts 4-6 months",
     "price": 4000,
     "gender": "all"
   },
   {
     "name": "Keratin Treatment - Long",
     "category": "Hair Spa",
-    "description": "3.5 hrs",
+    "description": "GK Hair or Schwarzkopf, lasts 4-6 months",
     "price": 6000,
     "gender": "all"
   },
@@ -149,84 +149,84 @@
   {
     "name": "Basic Cleanup",
     "category": "Hair Spa",
-    "description": "45 min",
+    "description": "Cleansing, scrub, steam, pack",
     "price": 400,
     "gender": "all"
   },
   {
     "name": "Basic Facial",
     "category": "Hair Spa",
-    "description": "60 min",
+    "description": "VLCC or Lotus herbal facial",
     "price": 600,
     "gender": "all"
   },
   {
     "name": "Gold Facial",
     "category": "Hair Spa",
-    "description": "75 min",
+    "description": "24K gold leaf facial, anti-ageing",
     "price": 1200,
     "gender": "all"
   },
   {
     "name": "Diamond Facial",
     "category": "Hair Spa",
-    "description": "75 min",
+    "description": "Diamond dust microdermabrasion + facial",
     "price": 1500,
     "gender": "all"
   },
   {
     "name": "HydraFacial (Basic)",
     "category": "Hair Spa",
-    "description": "60 min",
+    "description": "Cleanse, exfoliate, hydrate",
     "price": 1200,
     "gender": "all"
   },
   {
     "name": "Anti-Acne Facial",
     "category": "Hair Spa",
-    "description": "75 min",
+    "description": "Salicylic acid peel + soothing mask",
     "price": 1000,
     "gender": "all"
   },
   {
     "name": "Tan Removal Facial",
     "category": "Hair Spa",
-    "description": "60 min",
+    "description": "De-tan peel + brightening mask",
     "price": 800,
     "gender": "all"
   },
   {
     "name": "Fruit Facial",
     "category": "Hair Spa",
-    "description": "60 min",
+    "description": "Vitamin C enriched, brightening",
     "price": 700,
     "gender": "all"
   },
   {
     "name": "Bridal Glow Facial",
     "category": "Hair Spa",
-    "description": "90 min",
+    "description": "Intensive brightening + collagen mask",
     "price": 1800,
     "gender": "all"
   },
   {
     "name": "Under-Eye Treatment",
     "category": "Hair Spa",
-    "description": "30 min",
+    "description": "Dark circle & puffiness treatment",
     "price": 500,
     "gender": "all"
   },
   {
     "name": "Lip Lightening",
     "category": "Hair Spa",
-    "description": "20 min",
+    "description": "Dark lip treatment + mask",
     "price": 300,
     "gender": "all"
   },
   {
     "name": "Neck & Decollete Facial",
     "category": "Hair Spa",
-    "description": "30 min",
+    "description": "Firming treatment for neck & chest",
     "price": 400,
     "gender": "all"
   },
