@@ -366,21 +366,6 @@ View via API:
 
 ---
 
-## 🔮 Roadmap
-
-- [x] Multi-shop / white-label support
-- [x] Hot reload (no restart on config change)
-- [x] Blocked topics per shop type
-- [x] Human escalation guards
-- [x] Placeholder system for generic FAQs
-- [ ] Admin dashboard (React — `multi-tenant-chatapp-client`)
-- [ ] WhatsApp / Telegram integration
-- [ ] Auto FAQ learning from Ollama logs
-- [ ] Voice chatbot
-- [ ] Hindi / Tamil support
-
----
-
 ## 📄 License
 
 MIT
